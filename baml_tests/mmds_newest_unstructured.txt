@@ -1,0 +1,4044 @@
+Master of Science (M.Sc.)
+“Mannheim Master in Data Science”
+University of Mannheim
+– Module catalog –
+for students starting in or after autumn 2024
+Academic Year
+HWS 2024/ FSS 2025Content
+Foreword ................................................................................................................................................. 3
+A. Overview ...................................................... 4
+B. Data Science Fundamentals ..................................... 5
+1. Overview .................................................................................................................................. 5
+2. Detailed descriptions ............................................................................................................... 6
+C. Data Management .............................................. 14
+1. Overview ................................................................................................................................ 14
+2. Detailed descriptions ............................................................................................................. 15
+D. Data Analytics Methods ....................................... 44
+1. Overview ................................................................................................................................ 44
+2. Detailed descriptions ............................................................................................................. 46
+E. Responsible Data Science ..................................... 77
+1. Overview ................................................................................................................................ 77
+2. Detailed descriptions ............................................................................................................. 78
+F. Data Science Applications .................................... 86
+1. Overview ................................................................................................................................ 86
+2. Detailed descriptions ............................................................................................................. 87
+G. Projects and Seminars ....................................... 102
+1. Overview .............................................................................................................................. 102
+2. Detailed descriptions ........................................................................................................... 103
+H. Master Thesis ............................................... 138
+Abbreviations ...................................................................................................................................... 140
+2Foreword
+This document describes the courses that will be offered in HWS 2024/ FSS 2025 for stu-
+dents studying M. Sc. Mannheim Master in Data Science (Examination Regulations for the
+Master’s program from 26th April 2023). You can find the Examination Regulations on the
+website of the Student Services (Studienbüros):
+https://www.uni-mannheim.de/en/academics/during-your-studies/examinations/examination-regu-
+lations/
+It is possible that additional courses will be made available during the course of the aca-
+demic year. These will be published in an appendix available on the following web page:
+https://www.wim.uni-mannheim.de/en/academics/organizing-your-studies/mannheim-master-in-
+data-science/#c112237
+3A. Overview
+ECTS
+Data Science Fundamentals Four “Data Science Fundamentals” with 27 ECTS 27
+Data Management Minimum of one “Data Management” course 6-24
+Minimum of two “Data Analytics Methods” courses with at
+Data Analytics Methods 12-36
+least 12 ECTS
+Responsible Data Science Minimum of one “Responsible Data Science” course 3 – 7
+Data Science Applications Up to 12 ECTS in elective courses 0-12
+Team Project or Individual Project, Scientific Research and
+Projects and Seminars 14-18
+Seminars
+Master Thesis Six-months-long written academic assignment 30
+Total 120
+Abbreviations:
+HWS (Herbst-/Wintersemester): Course is offered in the respective Fall semester.
+FSS (Frühjahrs-/Sommersemester): Course is offered in the respective Spring semester.
+FSS/HWS: course is offered both in Spring semester and Fall semester.
+4B. Data Science Fundamentals
+1. Overview
+Module no. Name of Module Offered ECTS Page
+CS 560 Large Scale Data Management HWS 6 6
+IE 500 Data Mining HWS/FSS 6 8
+IE 675b Machine Learning HWS 9 10
+CS 652 Data Security and Privacy FSS* 6 12
+*in FSS25 this course will be offered as hybrid-course.
+52. Detailed descriptions
+CS 560 Large-Scale Data Management
+Form of module Lecture with exercises
+Type of module Computer Science Fundamental
+Level Master
+ECTS 6
+In presence: 56 h (4 SWS)
+Workload
+Exercises and self-study: 98 h
+Very good knowledge of database systems, good knowledge of al-
+Prerequisites
+gorithms and data structures as well as Java programming
+This course introduces the fundamental concepts and computa-
+tional paradigms of large-scale data management and Big Data.
+This includes methods for storing, updating, querying, and analyz-
+ing large dataset as well as for data-intensive computing. The
+course covers concept, algorithms, and system issues; accompa-
+nying exercises provide hands-on experience. Topics include:
+Aim of module
+• Parallel and distributed databases
+• Big Data Processing (including MapReduce, Spark)
+• NoSQL databases
+• Cloud databases
+• Stream processing (tentative)
+• Graph processing (tentative)
+Expertise:
+Students will acquire knowledge about methods and systems for
+managing large datasets and data-intensive computing.
+(MK1, MK2)
+Learning outcomes and
+Methodological competence:
+qualification goals
+• Be able to judge, select, and use traditional or non-traditional
+data management systems for a given data management task
+• Be able to solve computational problems involving large
+datasets
+(MF1)
+6Personal competence:
+• Study independently
+• Presentation and writing skills
+(MKO3)
+Media Slide set, black board, exercise sheets, datasets, software
+• T. Öszu, P. Valduriez
+Principles of Distributed Database Systems
+Springer, 4th ed., 2020
+Literature • H. Garcia-Molina, J. D. Ullman, J. Widom
+Database Systems: The Complete Book
+Prentice Hall, 2nd ed., 2008
+• More in lecture notes
+Methods Lecture, weekly exercise, experimentation with different systems
+Form of assessment Written examination
+Duration of assessment 90 minutes
+Language English
+Offering Fall semester
+Lecturer Prof. Dr. Rainer Gemulla
+Person in charge Prof. Dr. Rainer Gemulla
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence, Lehramt Informatik
+Semester 1st / 2nd semester
+7IE 500 Data Mining
+Form of module Lecture with exercises and project
+Type of module Business Informatics Fundamental
+Level Master
+ECTS 6
+Hours per semester: 56 h (4 SWS)
+Workload Self-study per semester: 98 h
+• 70 h: pre and post lecture studying and revision
+• 28 h: examination preparation
+Prerequisites Foundations of Statistics, Practical Informatics I
+The course provides an introduction to advanced data analy-
+sis techniques as a basis for analyzing business data and
+providing input for decision support systems. The course will
+cover the following topics:
+• Goals and Principles of Data Mining
+Aim of module • Data Representation and Preprocessing
+• Classification
+• Regression
+• Cluster Analysis
+• Association Analysis
+• Practical Data Mining using Python
+Expertise:
+Students will acquire basic knowledge of the techniques, op-
+portunities, and applications of data mining. (MK1, MF1)
+Methodological competence:
+• Successful participants will be able to identify opportuni-
+ties for applying data mining in an enterprise environ-
+Learning outcomes and
+ment, select and apply appropriate techniques, and inter-
+qualification goals
+pret the results.
+• project organization skills
+(MK2, MF3, MF4, MKO1)
+Personal competence:
+• team work skills
+• presentation skills
+(MKO2, MF2)
+8Slide set, exercise sheets, Jupyter notebooks, data sets for
+Media
+the exercises, lecture videos
+• Pang-Ning Tan, Michael Steinback, Vipin Kumar: Introduc-
+tion to Data Mining, 2nd Edition, Pearson.
+Literature
+• Aurélien Géron: Hands-on Machine Learning with Scikit-
+Learn, Keras & TensorFlow, 3rd Edition, O’Reilly.
+The course consists of a lecture together with accompanying
+practical exercises as well as student team projects. In the ex-
+ercises the participants will gather initial expertise in applying
+state of the art data mining tools on realistic data sets. The
+Methods group projects take place in the last third of the term. Within
+the projects, students implement advanced data mining pro-
+jects of personal choice and report about the results of their
+projects in the form of a written report as well as an oral
+presentation.
+Written examination (75%), project report (20%), oral project
+Form of assessment
+presentation (5%)
+Admission requirements
+-
+for assessment
+60 minutes (written examination), 5-11 pages (project re-
+Duration of assessment
+port), 5-15 minutes (oral project presentation)
+Language English
+Offering Fall semester / Spring semester
+Lecturer Prof. Dr. Heiko Paulheim; Prof. Dr. Christian Bizer
+Person in charge Prof. Dr. Heiko Paulheim; Prof. Dr. Christian Bizer
+Duration of module 1 Semester
+IE 675b – Machine Learning, IE 678 – Deep Learning,
+Further modules IS 661 – Text Analytics, CS 646 – Higher Level Computer Vi-
+sion, IE 671 – Web Mining
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of application
+Science, Lehramt Informatik
+Semester 1st/2nd semester
+9IE 675b Machine Learning
+Form of module Lecture with exercises
+Type of module Specialization Course
+Level Master
+ECTS 9
+In presence: 56 h (4 SWS)
+Workload
+Exercises, assignments, and self-study: 174 h
+IE 500 Data Mining I (recommended), knowledge of probability
+Prerequisites
+and statistics, no attempted or completed IE 675 exam
+Machine learning is concerned with building computer systems
+that improve with experience as well as the study of learning pro-
+cesses, including the design of algorithms that are able to make
+predictions or extract knowledge from data. The aim of this mod-
+ule is to provide an introduction into the field of machine learn-
+ing, and study algorithms, underlying concepts, and theoretical
+principles. Topics include:
+Aim of module
+• Basics of machine learning
+• Inference and decision
+• Selected classification and regression models
+• Dimensionality reduction
+• Mixture models and EM
+• Kernels and vector machines
+• Hyperparameter optimization
+Expertise:
+Deep understanding of algorithms and underlying concepts of ma-
+chine learning
+(MK1, MF1)
+Methodological competence:
+• Being able to apply machine learning techniques and systems
+Learning outcomes and
+for a given problem
+qualification goals
+• Being able to model and implement new machine learning
+techniques
+(MK2, MF3, MF4)
+Personal competence:
+• writing skills
+• presentation skills
+10• statistical programming skills
+(MKO3, MF2)
+Media Slide set, exercise sheets, software, datasets
+• K.P. Murphy. Probabilistic Machine Learning: An Introduction.
+The MIT Press, 2022
+Literature • I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT
+Press, 2017
+• Additional material and articles provided in lecture notes
+The course consists of a lecture accompanied by theoretical and
+practical exercises as well as case studies with real data. In the ex-
+Methods
+ercises, students will deepen the material discussed in the lecture,
+apply the methods in practice, and present the result.
+Form of assessment Written examination
+Admission requirements
+Homework assignments (pass at least 3 assignments)
+for assessment
+Duration of assessment 90 minutes
+Language English
+Offering Fall semester
+Lecturer Prof. Dr. Rainer Gemulla
+Person in charge Prof. Dr. Rainer Gemulla
+Duration of module 1 Semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence
+Semester 1st/2nd/3rd semester
+11CS 652 Data Security and Privacy
+Form of module Inverted classroom with exercises
+Type of module Specialization course
+Level Master
+ECTS 6
+Hours per semester present: 56h (4 SWS)
+Workload
+Self-study: 112h
+There are no formal prerequisites but knowledge in cryptography
+Prerequisites or IT-security is recommended, e.g., by attending the lectures
+“Kryptographie I” or “Selected Topics in IT-Security”
+Nowadays, users are more and more revealing data to the out-
+side – either willingly as in the context of data mining or possibly
+unconsciously as in the case of the Internet of Things. The aim of
+the module is to raise awareness, in particular with respect to pri-
+vacy violations. This is done by showing various security threats,
+Aim of module e.g., traces left in the Internet such as the use of cookies or
+browser fingerprinting. In particular, the topic of privacy preser-
+vation will be covered. This includes discussing different ap-
+proaches for defining the meaning of privacy but also possible
+countermeasures such as anonymization of data or the use of
+dedicated encryption schemes.
+Expertise:
+Students will acquire the knowledge to identify security and pri-
+vacy threats and to select and use appropriate countermeasures.
+(MK2)
+Methodological competence:
+Learning outcomes and
+Successful participants will be able to understand, to select, apply
+qualification goals
+and evaluate the most appropriate techniques for a variety of dif-
+ferent privacy-sensitive scenarios. In particular they are able to
+realize possible risks in new scenarios and to transfer given solu-
+tions to these.
+(MK1)
+12Personal competence:
+The analytic, concentrated, and precise thinking of the students is
+trained. By the independent treatment of applications, e.g. in the
+course of the exercises, their abstraction capacity is further devel-
+oped and the transfer of the learned material to related ques-
+tions is trained.
+(MF1, MKO3)
+Media Video recordings, annotated lecture slides
+Literature Will be announced in the lecture
+Reworking the lecture and studying the relevant literature in self-
+study. During the lecture: discussing questions and ideas and
+Methods
+working together on concrete examples. Solving exercises in self-
+study and in practice in cooperation with fellow students.
+Form of assessment Written exam
+Admission requirements
+-
+for assessment
+Duration of assessment 90 minutes
+Language English
+Spring semester (in FSS24 this course will only be offered as
+Offering
+online-course in form of videos)
+Lecturer Prof. Dr. Frederik Armknecht
+Person in charge Prof. Dr. Frederik Armknecht
+Duration of module 1 semester
+Further modules -
+M.Sc. Mannheim Master in Data Science,
+Range of application M.Sc. Wirtschaftsinformatik, Lehramt Informatik,
+M.Sc. Mathematik
+Semester 1st/2nd/3rd semester
+13C. Data Management
+1. Overview
+Module
+Name of Module Offered ECTS Page
+no.
+AC 651 Additional Course – Data Management HWS/FSS Max. 18 15
+DS 200 Sampling and Data HWS 9 17
+CS 500 Advanced Software Engineering HWS 6 19
+CS 550 Algorithmics FSS/HWS 6 21
+CS 600 Model-driven Development HWS 6 24
+CS 651 Cryptography II HWS 6 26
+CS 655 Cryptography FSS 6 28
+CS 662 Types and Programming Languages FSS 6 30
+CS 664 Blockchain Security HWS 6 32
+IE 663 Information Retrieval and Web Search HWS 3 34
+IE 670 Web Data Integration HWS 3 36
+IE 691 Information Retrieval Project HWS 3 38
+IE 683 Web Data Integration Project HWS 3 40
+IS 556 Public Blockchains FSS 6 MMM*
+MAC 570 Reinforcement Learning-Coding Irreg. 8 42
+* For a detailed description, please see the module catalog of the respective following degree programs:
+• MMM: M.Sc. Mannheim Master in Management, https://www.bwl.uni-mannheim.de/studium/mas-
+ter/mmm/
+142. Detailed descriptions
+AC 651 Additional Course – Data Management
+Typically: lecture, other forms of modules might be credited
+Form of module
+upon request.
+Level Master
+Max. 18 (The individual modules can vary between 2 and 10
+ECTS ECTS. A total of 18 ECTS can be recognized as additional
+courses).
+The workload and its distribution on different activities are deter-
+mined by the credited course. For courses taken at the University
+Workload
+of Mannheim, they can be found in the respective module cata-
+logue. One ECTS credit equals 30 hours of work.
+The prerequisites are determined by the credited course. For
+Prerequisites courses taken at the University of Mannheim, they can be found in
+the respective module catalogue
+The course falls into the data management area of the MMDS
+and covers topics related to data management but is not di-
+rectly equivalent to any course in the MMDS module cata-
+Aim of module
+logue. The course level equals a regular course in MMDS study
+program. The module can be taken either at the University of
+Mannheim or at any other university in Germany or abroad.
+The learning outcomes and qualification goals are deter-
+Learning outcomes and mined by the credited course. For courses taken at the Uni-
+qualification goals versity of Mannheim, they can be found in the respective
+module catalogue.
+The media, literature, and methods are determined by the credited
+course. For courses taken at the University of Mannheim, they can
+Media / Literature / Meth-
+be found in the respective module catalogue. The form of assess-
+ods / Form and duration
+ment is typically a written or oral examination, but can also include
+of assessment
+other forms of examination. Details are determined by the exami-
+nation modalities of the credited course.
+English preferred, but any other language possible if Mann-
+Language
+heim faculty member is able to identify content and level
+Offering Spring semester / Fall semester
+Lecturer Lecturer at the host university
+Person in charge Lecturer at the host university
+Duration of module 1 Semester
+15Further modules -
+Range of application MMDS
+Semester 2nd/3rd/4th semester
+16DS 200 Sampling and Data
+Form of module Lecture and Tutorial
+Type of module Data Science Methods: Fundamentals
+Level Master
+ECTS 9 (270 hours)
+Hours per semester present: 56 h (4 SWS)
+Self-study: 214 h per semester
+Workload • 91 h: pre and post lecture studying and revision
+• 42 h: studying for and taking weekly online tests
+• 41 h: preparation and presentation of weekly exercises
+• 40 h: examination preparation
+Prerequisites -
+The course introduces the most important social scientific
+Aim of module forms of research and data collection methods, with a special
+focus on sampling methods.
+Expertise:
+Students can independently formulate research questions
+and empirically verifiable hypotheses.
+(MK1)
+Methodological competence:
+Students know different data collection methods and their
+advantages and disadvantages; they are able to assess the
+Learning outcomes and appropriateness of the methods used to answer various
+qualification goals questions; they understand and critically evaluate the design
+of empirical studies.
+(MK1)
+Personal competence:
+The course supports students to develop competences with
+regard to choosing the appropriate research design and sam-
+pling frame.
+(MF2, MKO1, MKO2)
+Media Lecture slides available online
+• Salganik, M. 2017. Bit by Bit: Social Research in the Digital
+Literature
+Age. Princeton, NJ: Princeton University Press.
+17• Foster et al. 2020. Big Data and Social Science: A Practical
+Guide to Methods and Tools. 2nd Edition. Boca Raton, FL:
+CRC Press.
+Methods Lecture elements, weekly online tests, literature studies
+Form of assessment Written examination
+Admission requirements for Oral participation, homework, presentations, compulsory at-
+assessment tendance
+Duration of assessment 90 Minutes
+Language English
+Offering Fall semester
+Lecturer of the School of Social Sciences, I.e. Chair of Social
+Lecturer
+Data Science
+Lecturer of the School of Social Sciences, I.e. chair of Social
+Person in charge
+Data Science
+Duration of module 1 semester
+Further modules
+Range of application MMSDS
+Semester 1st semester
+18Advanced Software Engineering (Software Testing and Ex-
+CS 500
+perimentation)
+Form of module Lectures, exercises and tutorials
+Type of module Computer Science Fundamental
+Level Master
+ECTS 6
+Hours per semester present: 56 h (2 + 2 SWS)
+Self-study: 112 h per semester
+Workload
+• 28 h per semester for preparation and studying of lec-
+tures/tutorials
+• 84 h per semester for the preparation of the exams
+Prerequisites Knowledge of Java and/or Python
+The course introduces the fundamental concepts and prac-
+tices of software testing, and software experimentation / eval-
+uation
+• Principles of Testing
+Aim of module • Test Coverage Criteria
+• Test specification techniques
+• Model-based testing
+• Principles of Experimentation
+• Using Software Observatoriums
+Expertise:
+Students will be familiar with principles, approaches and tools
+for testing software and the methods and empirically evaluat-
+ing software products, methods and tools
+(MK1, MK2)
+Methodological competence:
+Students will have the ability to judge, select, and apply tradi-
+Learning outcomes and tional or non-traditional test tools and techniques to evaluate
+qualification goals software quality, as well as to design and perform software
+experiments.
+(MF1) (MF1, MF3)
+Personal competence:
+Students will have improved skills in analytical thinking and ap-
+plying theoretical knowledge to solve practical problems, es-
+pecially in software testing and experimentation.
+(MKO3)
+19Lecture notes, presentations, tool demonstrations, software,
+Media
+data sets
+• Paul Ammann & Jeff Offutt., “Introduction to Software
+Literature
+Testing”, Cambridge University Press, January 2008.
+Lectures, weekly exercises, experimentation with different
+Methods
+systems
+Form of assessment Written examination
+Admission requirements
+-
+for assessment
+Duration of assessment 90 minutes
+Language English
+Offering Fall semester
+Lecturer Dr. Marcus Kessel, Prof. Dr. Colin Atkinson
+Person in charge Prof. Dr. Colin Atkinson
+Duration of module 1 Semester
+Further modules Model-Driven
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of application
+Science, Lehramt Informatik
+Semester 1st or 2nd semester
+20CS 550 Algorithmics
+Form of module Lecture with tutorials
+Type of module Fundamental in Computer Science
+Level Master
+ECTS 6
+Attendance: 56 h per semester (4 h per week)
+Self-study: 112 h per semester
+Workload
+• 28 h per semester for preparation and reworking of lec-
+tures/tutorials
+• 84 h per semester for the preparation of the exams
+Practical Informatics I, Algorithms and Data Structures, Linear Al-
+Prerequisites
+gebra, Statistics
+The lecture deals with the design and the analysis of algorithms
+for various practically relevant computational problems and with
+methods for analyzing the complexity of certain problems. In par-
+ticular, we will learn methods of formalizing discrete optimization
+problems and designing algorithms for them on the basis of ana-
+lyzing the structure of these problems.
+Moreover, we will learn techniques for proving the correctness
+and estimating the running time of these algorithms. In the sec-
+ond part of the lecture, we will deal with the theory of NP-com-
+Aim of module pleteness with gives evidence that certain highly relevant prob-
+lems do not have efficient algorithms. During the lecture we will
+derive algorithms and complexity-theoretic results for the follow-
+ing computational problems:
+• shortest path problems and shortest round tour problems
+• linear optimization problems
+• flow problem
+• matching problems
+• satisfiability problems
+• discret linear optimization problems
+21Professional expertise:
+The students know efficient algorithms and the most important
+complexity-theoretic results for a number of computational prob-
+lems which are highly relevant in practice.
+(MK1, MK2)
+Methodological competence: The students learn to formalize in-
+formally specified computational problems, to analyse their struc-
+ture with the goal to design efficient algorithms, to prove the cor-
+rectness and to analyse the running time of given algorithms.
+Learning outcomes and Moreover, they learn to prove the NP-completeness of certain
+qualification goals problems.
+(MF1, MF3)
+Personal competence: Training of analytical, focussed and precise
+thinking. Further development of abstraction abilities and the
+ability to transfer theoretical knowledge for solving practical
+problems, especially in the field of operations research. Increas-
+ing the sensitivity for the complexity and the efficient solvability
+of computational problems, especially through dealing with the
+theory of NP-completeness.
+(MF1, MKO3)
+Media Writing with chalk at the blackboard, slides and electronic media
+• Cormen, Leiserson, Rivest, Stein: Introduction to Algorithms,
+3rd edition
+• Shimon Even: Graph Algorithms
+• Lovasz, Plummer: Matching Theory
+Literature
+• Handbooks on Operations Research and Management Science
+Volume 7 (Editors: Ball, Magnati, Monma, Nemhauser)
+• J. Toran: Das Erfüllbarkeitsproblem SAT, Lehmann Media,
+2012
+Reworking of lectures and tutorials, self-studies with literature,
+Methods solving exercises at home and in cooperation with other students
+at the tutorials
+Form of assessment Written examination
+Admission requirements
+-
+for assessment
+Duration of assessment 90 Minutes
+Language English
+22Offering Fall semester / Spring semester
+Lecturer Prof. Dr. Matthias Krause
+Person in charge Prof. Dr. Matthias Krause
+Duration of module 1 semester
+Further modules CS 651 – Cryptography II
+M.Sc. Wirtschaftsinformatik, M.Sc. Wirtschaftsmathematik, M.Sc.
+Range of application Wirtschaftspädagogik, Lehramt Informatik, M.Sc. Mathematik,
+MMDS, MMSDS
+Semester 1./ 2. Semester
+23CS 600 Model Driven Development
+Form of module Lectures with accompanying tutorials
+Type of module Specialization course
+Level Master
+ECTS 6
+Hours per semester present at university: 56 h (4 SWS)
+Self-study: 112 h semester
+Workload
+• 28 h: pre and post lecture studying and revision
+• 56 h: tutorial exercises
+• 28 h: directed independent study (reading papers, books etc.)
+Prerequisites • Software Testing and Experimentation
+The course focuses on the principles, practices and tools involved
+in advanced model-driven development. This includes estab-
+lished modelling standard languages (e. g. UML, ATL, OCL) and
+modelling infrastructures (e. g. MOF, EMF, …) as well as leading
+edge, state-of-the-art modelling technologies (e. g. LML, PLM . . .
+). Key topics addressed include:
+• Principles of Model-Driven Development
+Aim of module
+• Meta-Modeling
+• Domain-Specific Languages
+• Model Constraint and Transformation languages
+• Multi-View/Multi-Paradigm Modeling
+• Multi-Level Modeling
+• Ontology Modeling
+• Enterprise Architecture Modeling
+Expertise:
+Students will be familiar with the accepted best practices and
+technologies used in mainstream model-driven development as
+well as state-of-the-art modeling technologies emerging from re-
+search institutions.
+(MK1, MK2)
+Methodological competence:
+Learning outcomes and Students will know how to apply modeling technologies in real-
+qualification goals world projects.
+(MF1, MF3)
+24Personal competence:
+Students will have the capability to analyse, understand and
+model complex systems.
+(MKO1)
+Media Printed Lecture Notes, Presentations, Tool Demonstrations
+• Jos B. Warmer and Anneke G. Kleppe, The Object Constraint
+Literature Language: Getting Your Models Ready for MDA, Addison-
+Wesley Object Technology Series, 2003
+Methods Lectures, tutorials, independent study
+Form of assessment Written examination
+Admission requirements
+-
+for assessment
+Duration of assessment 90 minutes
+Language English
+Offering Fall semester
+Lecturer Prof. Dr. Colin Atkinson
+Person in charge Prof. Dr. Colin Atkinson
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence, Lehramt Informatik
+Semester 2nd, 3rd or 4th semester
+25CS 651 Cryptography II
+Form of module Inverted classroom
+Type of module Specialization course
+Level Master
+ECTS 6
+Hours per semester present: 56h (4 SWS)
+Self-study: 112h
+Even though the lecture deepens and continues topics dis-
+Workload
+cussed in “CS 404 Cryptography I”, it is not a prerequisite to
+Prerequisites
+have attended this lecture. The lecture “Cryptography II” can
+be studied without any prior knowledge on cryptography – all
+necessary basics are shortly recapitulated.
+The goal of this lecture is to present and discuss important
+scientific concepts from modern cryptography. This includes:
+• Security Definitions: How can the security of crypto-
+graphic schemes formally defined?
+• Proofs of Security: How can the security of cryptographic
+Aim of module
+schemes be proven (based on precise assumptions)?
+• Cryptanalysis: What are the established techniques to an-
+alyze cryptographic mechanisms?
+• Elliptic Curves
+• Zero-Knowledge Proofs
+Expertise:
+With the help of current techniques and theories of modern
+cryptography, the students can assess the security of crypto-
+graphic processes and assess security statements accord-
+ingly. Furthermore, they can identify security goals and use
+appropriate techniques that could not be dealt with in “CS
+404 Cryptography I”.
+(MK2)
+Methodological competence:
+Learning outcomes and The students can select and use suitable methods for the se-
+qualification goals curity analysis of cryptographic processes. This includes, for
+example, the choice of the appropriate security model, proof
+of security based on clearly specified assumptions and the
+analysis of given procedures. In particular, the students can
+understand and assess the security arguments for existing
+procedures and to transfer them to new ones. Furthermore,
+they can use techniques and protocols to achieve security
+goals that were not yet possible with the methods discussed
+in “CS 404 Cryptography I”.
+(MK1)
+26Personal competence:
+The analytic, concentrated, and precise thinking of the students is
+trained. By the independent treatment of applications, e.g. in the
+course of the exercises, their abstraction capacity is further devel-
+oped and the transfer of the learned material to related questions
+is trained.
+(MF1, MKO3)
+Media Video recordings, annotated lecture slides
+Jonathan Katz, Yehuda Lindell: Introduction to Modern Cryp-
+Literature tography: Principles and Protocols, Chapman and Hall/CRC,
+2007.
+Reworking the lecture and studying the relevant literature in
+self-study. During the lecture: discussing questions and ideas
+Methods and working together on concrete examples. Solving exer-
+cises in self-study and in practice in cooperation with fellow
+students.
+Form of assessment Oral exam
+Admission requirements
+none
+for assessment
+Duration of assessment 30 minutes
+Language English
+Offering HWS
+Lecturer Prof. Dr. Frederik Armknecht
+Person in charge Prof. Dr. Frederik Armknecht
+Duration of module One term
+Further modules none
+M.Sc. Mannheim Master in Data Science,
+Range of application M.Sc. Wirtschaftsinformatik, Lehramt Informatik,
+M.Sc. Mathematik
+Semester 1st/2nd/3rd semester
+27CS 655 Cryptography
+Form of Module Lecture with Exercise
+Type of Module Specialization Course
+Level Master
+ECTS 6
+Hours per semester present: 56 (4 SWS)
+Workload
+Self-study: 98h (70h lectures/exercises, 28h exam prepara-
+tion
+Basis skills in linear algebra, probability theory, algorithms,
+Prerequisites
+and data structures
+• Basic concepts of cryptography
+• Mathematical Background
+• Basics of Information Theory
+• Block Ciphers (DES, AES, etc.)
+• Stream Ciphers
+Aim of Module
+• Secure Key Exchange Protocols (Diffie-Hellman protocol,
+etc.)
+• Public Key encryption (RSA)
+• Cryptographic Hash Functions
+• Signature Systems and Message Authentication Codes
+Expertise:
+After the course the students are able to identify security
+risks in various modern scenarios of data traffic like online
+banking, wireless communication, online trade ...
+(MK1)
+Methodological competence:
+The students are able to formulate and formalize
+Learning Outcomes and security goals for various use cases and to choose and to ap-
+qualification goals ply appropriate methods to reach
+these goals. Examples
+here are to provide data security data encryption, to estab-
+lish trusted electronical
+data encryption, to establish trusted electronical
+communication channels, or to apply methods for secure au-
+thentication
+(MF1)
+28Personal competence:
+The course trains abstract thinking and the ability to
+formally model application scenarios. By solving exercises
+independently, the transfer of the learned material to
+related questions is promoted.
+Media Exercise sheets and lecture slides available online, blackboard
+• Christof Paar, Bart Preneel, Jan Pelzl: Understanding Cryp-
+tography: A Terxtbook for Students and Practi-
+tioners, Springer 2009
+Literature • Douglas R. Stinson: Cryptography - Theory and Practice,
+Taylor & Francis, 2005
+• Alan G. Konheim: Cryptography: A Primer, John Wiley &
+Sons, 1981
+Methods Lecture, exercises every two weeks, book studies
+Form of assessment Oral examination
+Admission requirements
+-
+for assessment
+Duration of assessment 15 – 30 minutes
+Language English
+Offering FSS
+Person in Charge Prof. Dr. Matthias Krause
+Duration of Module 1 Semester
+Further Modules Cryptography II
+M.Sc Business Informatics, M.Sc Data Science, Lehramt In-
+Range of Application
+formatik, B.Sc. Wirtschaftsmathematik
+Semester 1st/2nd/3rd Semester
+29CS 662 Types and Programming Languages
+Form of module Lecture with Exercise
+Type of module Specialization Course
+Level Master
+ECTS 6
+Hours per semester present: 56h (4 SWS)
+Workload
+Self-study: 112h
+Prerequisites -
+A type system is a syntactic method for enforcing levels of ab-
+straction in programs. The study of type systems—and of pro-
+gramming languages from a type-theoretic perspective—has im-
+portant applications in software engineering, language design,
+high-performance compilers, and security. In this lecture, we will
+discuss the following topics:
+Aim of module • Lambda calculus
+• Static and dynamic semantics of programming languages
+• Functional programming
+• Curry-Howard correspondence
+• Computational logic
+• Proof assistants
+• Typed intermediate languages
+Expertise:
+• Get acquainted with the aims of the module
+(MK1, MK2, MF1, MF3)
+Methodological competence:
+• Students will get familiar with the jargon used in scientific
+Learning outcomes and publications about programming languages
+qualification goals (MF1, MF2, MF3)
+Personal competence:
+• Learn how to read scientific publications about program-
+ming languages
+• Teamwork skills
+(MKO1, MKO2)
+Lecture slides, exercise sheets, project assignments, software,
+Media
+software documentation
+30Types and Programming Languages. February 2002. Benjamin C.
+Literature
+Pierce. The MIT Press. ISBN: 978-0-262-16209-8
+• Lecture
+Methods
+• Weekly Exercises/programming projects
+Form of assessment Written examination (90 minutes)
+Admission requirements
+≥ 50% points in homework assignments in groups of 2-3 students
+for assessment
+Duration of assessment 90 minutes written exam
+Language English
+Offering FSS
+Lecturer Junior Professor Dr. Roland Leißa
+Person in charge Junior Professor Dr. Roland Leißa
+Duration of module 1 semester
+Further modules -
+M. Sc. Wirtschaftsinformatik, Lehramt Informatik, MMDS,
+Range of application
+MMSDS
+Semester 1st/2nd/3rd semester
+31CS 664 Blockchain Security
+Form of module
+Inverted classroom with exercises
+Type of module
+Specialization course
+ECTS 6
+Workload Hours per semester present: 56h (4 SWS), Self-study: 112h
+There are no formal prerequisites but knowledge in cryptography
+Prerequisites and/or IT-security is recommended, e.g., by attending the lec-
+tures “Kryptographie I” or “Selected Topics in IT-Security”
+Blockchains promise secure and reliable data storage and consen-
+sus in a trustless environment. In the light of their growing popu-
+larity, Blockchain security becomes increasingly important. The
+course will equip students with a solid understanding of block-
+Aim of module
+chains, their design principles, underlying technologies and cryp-
+tographic primitives. Bitcoin, Monero and Ethereum will be dis-
+cussed in greater detail and a substantial part of the course will
+be devoted to security issues and possible attacks.
+Expertise:
+Students will acquire profound knowledge of Blockchain technol-
+ogy as well as the skills to critically examine the security of Block-
+chain-based systems.
+(MK1, MK2)
+Methodological competence:
+Successful participants will be able to understand and evaluate
+the different ways in which different Blockchain systems try to
+Learning outcomes and achieve security. They will also be able to identify where, why and
+qualification goals how these security measures are broken for both, current and
+new systems.
+(MKO3)
+Personal competence:
+The analytic, concentrated, and precise thinking of the students is
+trained. As multiple different but related Blockchains are dis-
+cussed, their abstraction capacity is further developed and the
+transfer of the learned concepts to related questions is trained.
+(MF1)
+Media Video recordings, annotated lecture slides
+Literature Will be announced in the lecture
+32Reworking the lecture and studying the relevant literature in self-
+study. During the lecture: discussing questions and ideas and
+Methods
+working together on concrete examples. Solving exercises in self-
+study and in practice in cooperation with fellow students.
+Form of assessment Written exam
+Admission requirements
+-
+for assessment
+Duration of assessment 90 Minutes
+Language English
+Offering HWS
+Lecturer Prof. Dr. Frederik Armknecht
+Person in charge Prof. Dr. Frederik Armknecht
+Duration of Module 1 Semester
+Further Modules -
+MMDS, MMSDS, M.Sc. Wirtschaftsinformatik, Lehramt Informa-
+Range of application
+tik, M.Sc. Mathematik, M.Sc. Wirtschaftsmathematik
+Semester 1st/2nd/3rd semester
+33IE 663 Information Retrieval and Web Search
+Form of module Lecture
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester present: 28h (2SWS)
+Workload Self-study: 60h per semester
+• Pre- and post- lecture studying and preparation (30h)
+• Examination preparation (30h)
+Fundamental notions of linear algebra, probability theory, as well
+Prerequisites
+as algorithms and data structures
+Given the vastness and richness of the Web, users need high-per-
+forming, scalable and efficient methods to access its wealth of in-
+formation and satisfy their information needs. As such, being able
+to search and effectively retrieve relevant pieces of information
+from large text collections is a crucial task for the majority (if prac-
+tically not all) of Web applications. In this course, we will explore a
+variety of basic and advanced techniques for text-based infor-
+mation retrieval and Web search. Covered topics will include:
+Aim of module • Efficient text indexing;
+• Boolean and vector space retrieval models;
+• Probabilistic and semantic ad-hoc retrieval;
+• Evaluation of retrieval systems;
+• Text classification and clustering;
+• Web search, crawling and link-based algorithms.
+This course provides theoretical information retrieval foundations.
+As such is highly to be attended together with the course Infor-
+mation Retrieval Project (IE 691).
+Expertise:
+Students will acquire knowledge of fundamental techniques of In-
+formation Retrieval and Web Search, including standard retrieval
+Learning outcomes and
+models, evaluation of information retrieval systems, text classifica-
+qualification goals
+tion and clustering, as well as web search topics such as crawling
+and link-based algorithms.
+(MK1, MK2, MF1)
+34Methodological competence:
+Successful participants will be able to understand state-of-the-art
+methods for Information Retrieval and Web search, as well as be-
+ing able to select, apply and evaluate the most appropriate tech-
+niques for a variety of different search scenarios.
+(MF1, MF2, MF4)
+Personal competence: -
+Media Lecture slides, exercise sheets
+• Christopher D. Manning, Prabhakar Raghavan and Hinrich
+Schütze, Introduction to Information Retrieval, Cambridge Uni-
+versity Press. 2008.
+Literature • B. Croft, D. Metzler, T. Strohman, Search Engines: Information
+Retrieval in Practice, Addison-Wesley, 2009
+• R. Baeza-Yates, B. Ribeiro-Neto, Modern Information Re-
+trieval, Addison-Wesley, 2011 (2nd Edition).
+The course consists of (1) lectures that introduce the students to
+traditional and contemporary information retrieval techniques and
+Methods models, and (2) exercises in which the students are demonstrated
+in terms of comprehensible examples how theoretically introduced
+models work.
+Form of assessment Written examination
+Admission requirements for
+-
+assessment
+Duration of assessment 90 minutes
+Language English
+Offering HWS
+Lecturer Prof. Dr. Simone Ponzetto
+Person in charge Prof. Dr. Simone Ponzetto
+Duration of module 1 semester
+Further modules -
+Range of application M.Sc. Wirtschaftsinformatik, Lehramt Informatik, MMDS, MMSDS
+Semester 1st/2nd/3rd semester
+35IE 670 Web Data Integration
+Form of module Lecture
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester: 28 h (2 SWS)
+Workloadk Self-study: 56 h per semester
+• 31 h: pre and post lecture studying and revision
+• 25 h: examination preparation
+Prerequisites -
+Data integration is one of the key challenges in most IT projects
+and it is estimated that data scientists spend about 80% of their
+time on data integration and data preparation. Within the enter-
+prise context, data integration problems arise whenever data from
+separate sources needs to be combined as the basis for new appli-
+cations or data analysis projects. Within the context of the Web,
+data integration techniques form the foundation for taking ad-
+vantage of the ever-growing number of publicly-accessible data
+sources. The course will cover the following topics:
+1. Heterogeneity and Distributedness
+Aim of module
+2. The Data Integration Process
+3. Structured Data on the Web
+4. Data Exchange Formats
+5. Schema Mapping and Data Translation
+6. Identity Resolution
+7. Data Quality Assessment
+8. Data Fusion
+It is highly recommended to attend the course web data integra-
+tion project in the same semester as this course as the schedules of
+both courses are aligned to each other.
+Expertise:
+Students will be able to identify opportunities for employing Web
+data in business applications and will learn to select and apply ap-
+propriate techniques for integrating and cleansing Web data.
+Learning outcomes and (MK1, MF1)
+qualification goals Methodological competence:
+• Participants will acquire knowledge of the data integration pro-
+cess as well as the techniques that are used in each phase of
+the process.
+(MK2, MF3, MF4, MKO3)
+36Media slide set
+• AnHai Doan, Alon Halevy, Zachary Ives: Principles of Data Inte-
+gration. Morgan Kaufmann, 2012.
+• Luna Dong, Divesh Srivastava: Big Data Integration. Morgan &
+Literature
+Claypool, 2015.
+• Ulf Leser, Felix Naumann: Informationsintegration. Dpunkt Ver-
+lag, 2007.
+The course consists of a lecture that introduces students to state of
+Methods
+the art data integration techniques.
+Form of assessment Written examination
+Admission requirements for
+-
+assessment
+Duration of assessment 60 minutes
+Language English
+Offering Fall semester
+Lecturer Prof. Dr. Christian Bizer
+Person in charge Prof. Dr. Christian Bizer
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence, Lehramt Informatik, MMSDS
+Semester 1st/2nd/3rd semester
+37IE 691 Information Retrieval Project
+Form of module Project
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester present: 28h (2SWS)
+Workload Self-study: 60h per semester
+• Project work (45h)
+• Report and presentation preparation (15h)
+Programming skills (preferably in one of the higher-level program-
+Prerequisites
+ming languages: Java/Python/C#/C++).
+Students are expected to successfully complete a team project in
+teams of 2-4 members. The projects will focus on a variety of IR
+problems and implementation of IR models theoretically covered in
+the course Information Retrieval and Web Search (IE 663). It is thus
+Aim of module highly recommended to attend this course together with the
+course IE 663. Project deliverables include both software (i.e., code
+and documentation) and a short report explaining the work per-
+formed and its evaluation. The students are expected to clearly and
+coherently present the project results.
+Expertise:
+Students will be able to solve real-world retrieval and search prob-
+lems: they will be able to analyze different potential solutions to a
+given problem, identify their advantages and shortcomings, and
+decide for the best solution. (MK1, MF1)
+Methodological competence:
+Students will obtain skills needed to implement one or more infor-
+Learning outcomes and mation retrieval models and test their usefulness on real-world
+qualification goals problems. Successful participants will be able to fully understand
+state-of-the-art methods for Information Retrieval and Web
+search, through hands-on experience of implementing those mod-
+els. Students will also develop and/or improve their project organi-
+zation skills (activity planning, work breakdown, time planning,
+etc.) (MK2, MF3, MF4, MKO3)
+Personal competence:
+• Presentation skills
+38• Team work skills
+(MKO2, MF2)
+Media Project task specifications
+• Christopher D. Manning, Prabhakar Raghavan and Hinrich
+Schütze, Introduction to Information Retrieval, Cambridge Uni-
+versity Press. 2008.
+Literature • B. Croft, D. Metzler, T. Strohman, Search Engines: Information
+Retrieval in Practice, Addison-Wesley, 2009
+• R. Baeza-Yates, B. Ribeiro-Neto, Modern Information Re-
+trieval, Addison-Wesley, 2011 (2nd Edition).
+Students work on implementing an information retrieval system in
+order to solve a real-worls search problem. Students work in
+Methods teams, implement the programmatic solutions to the tasks, organ-
+ize their knowledge and results into a project report, and present
+the obtained results.
+Project report (70%, 10-20 pages in length), oral project presenta-
+Form of assessment
+tion (30%, 20-30 minutes).
+Admission requirements for
+-
+assessment
+4-6 weeks (execution of the project work and writing of the re-
+Duration of assessment
+port), 20-30 minutes (presentation).
+Language English
+Offering HWS
+Lecturer Prof. Dr. Simone Ponzetto
+Person in charge Prof. Dr. Simone Ponzetto
+Duration of module 1 semester
+Further modules -
+Range of application M.Sc. Wirtschaftsinformatik, Lehramt Informatik, MMDS, MMSDS
+Semester 1st/2nd/3rd semester
+39IE 683 Web Data Integration Project
+Form of module Project
+Type of module Specialization course
+Level Master
+ECTS 3
+Workload Hours per semester: 28 h (2 SWS)
+Self-study: 56 h per semester
+• 36 h: project work
+• 20 h: report writing and presentation preparation
+Prerequisites Programming skills in Java
+The web data integration project allows students to apply the
+methods and techniques that they have learned in the lecture Web
+Data Integration in the context of a practical integration project.
+The projects cover all steps of the data integration process includ-
+Aim of module ing data gathering, schema mapping, data translation, identity res-
+olution, data quality assessment, and data fusion.
+It is highly recommended to attend the web data integration lec-
+ture in the same semester as the web data integration project as
+the schedules of both courses are aligned to each other.
+Expertise:
+• Students will be able to identify opportunities for employing
+Learning outcomes and
+Web data in business applications and will learn to apply appro-
+qualification goals
+priate techniques for integrating and cleansing Web data.
+(MK1, MF1)
+Methodological competence:
+• Participants will acquire knowledge of the data integration pro-
+cess as well as the techniques that are used in each phase of
+the process.
+• project organization skills
+(MK2, MF3, MF4, MKO3)
+Personal competence:
+• presentation skills
+• team work skills
+(MKO2, MF2)
+40Media exercise sheets; Java project template
+• AnHai Doan, Alon Halevy, Zachary Ives: Principles of Data Inte-
+gration. Morgan Kaufmann, 2012.
+• Luna Dong, Divesh Srivastava: Big Data Integration. Morgan &
+Literature
+Claypool, 2015.
+• Ulf Leser, Felix Naumann: Informationsintegration. Dpunkt Ver-
+lag, 2007.
+Students work on their integration projects in teams and will report
+Methods about the results of their projects in the form of a written report as
+well as an oral presentation.
+Project report (70%, 10-20 pages in length), oral project presenta-
+Form of assessment
+tion (30%, 20-30 minutes).
+Admission requirements for
+-
+assessment
+4-6 weeks (execution of the project work and writing of the re-
+Duration of assessment
+port), 20-30 minutes (presentation).
+Language English
+Offering Fall semester
+Lecturer Prof. Dr. Christian Bizer
+Person in charge Prof. Dr. Christian Bizer
+Duration of module 1 semester
+Further modules -
+Range of application M.Sc. Wirtschaftsinformatik, Lehramt Informatik, MMDS, MMSDS
+Semester 1. /2. /3. Semester
+41MAC 570 Reinforcement Learning - Coding
+Form of module Lectures with exercises
+Type of module Mathematics C
+Level Master
+ECTS 5
+28 hours lectures
+Workload
+122 hours self-studies
+Prerequisites Reinforcement Learning
+Implementation of standard algorithms in reinforcement
+learning
+Aim of module • Bandit algorithms (UCB)
+• TD algorithms (Q-learning, TD)
+• Policy gradient algorithms (SAC, PPO)
+MK1, M02, M03
+Learning outcomes and
+MF1, MF3
+qualification goals
+(cf, “Erläuterungen zu den Abkürzungen”)
+Media Blackboard, Slides
+Literature Original articles
+Methods Lectures, programmig tasks
+Form of assessment written exam
+Admission requirements
+-
+for assessment
+Duration of assessment 90 min
+Language English
+Offering irregular
+Prof. Dr. Leif Döring
+Lecturer
+Person in charge Prof. Dr. Leif Döring
+Duration of module 1 semester
+42Further modules -
+M.Sc. Wirtschaftsmathematik, B.Sc. Wirtschaftsmathematik,
+Range of application M.Sc. Mathematik, M.Sc. Mannheim Master in Data Science,
+M.Sc. Wirtschaftsinformatik
+Semester 1st
+,
+2nd
+,
+3rd
+43D. Data Analytics Methods
+1. Overview
+Module no. Name of Module Offered ECTS Page
+AC 652 Additional Course – Data Analytics Methods HWS/FSS Max. 18 43
+DS 100 Statistics for Data Scientists HWS 9 48
+Seminar and Lab on Machine Learning and Causal
+DS 202 HWS 9 51
+Inference
+IE 560 Decision Support HWS 6 53
+IE 671 Web Mining FSS 3 55
+IE 678 Deep Learning FSS 6 57
+IE 684 Web Mining Project FSS 3 59
+IE 686 Large Language Models and Agents HWS 3 61
+IE 692 Advanced Process Mining** FSS 6 63
+IE 696 Advanced Methods in Text Analytics FSS 6 66
+CS 646 Higher Level Computer Vision HWS 6 68
+CS 647 Image Processing HWS/FSS 6 70
+CS 668 Generative Computer Vision Models FSS 6 72
+IS 515 Process Management and Analytics HWS 6 MMM*
+IS 616 Large Scale Data Analysis and Visualization HWS 6 MMM*
+IS 622 Network Science FSS 6 MMM*
+IS 661 Text Analytics HWS 6 MMM*
+MAA 519 Stochastic Calculus HWS 5 MBE*
+MAB 504 Mathematics and Information irregular 8 MBE*
+MAB 508 Algebraische Statistik irregular 8 MBE*
+MAB 519 Reinforcement Learning FSS 9 MBE*
+MAB 520 Reinforcement Learning II HWS 5 MBE*
+MAC 404 Optimierung HWS 8 WM*
+MAC 507 Nichtlineare Optimierung FSS 6 MBE*
+MAC 527 Markov Processes FSS 4 MBE*
+DS 201 Machine Learning and Causal Inference FSS 9 74
+44* For a detailed description, please see the module catalogs of the respective following degree programs:
+• WM: B.Sc. Wirtschaftsmathematik
+https://www.wim.uni-mannheim.de/studium/studienorganisation/b-sc-wirtschaftsmathematik/ (only
+available in German)
+• MBE: M.Sc. Mathematics in Business and Economics
+https://www.wim.uni-mannheim.de/studium/studienorganisation/m-sc-wirtschaftsmathematik/ (only
+available in German)
+• PS: M.A. Political Science
+https://www.sowi.uni-mannheim.de/studium/studierende/politikwissenschaft/ma-political-science/
+(only available in German)
+• PW: B.A. Politikwissenschaft
+https://www.sowi.uni-mannheim.de/en/academics/students/political-science/ba-in-political-science/
+(only available in German)
+• Soc: M.A. Sociology
+https://www.sowi.uni-mannheim.de/studium/studierende/soziologie/ma-sociology/
+• MMM: Mannheim Master in Management
+https://www.bwl.uni-mannheim.de/studium/master/mmm/#c176637
+**The number of this module will change (TBA). For an updated description, please see the module catalog of
+the MMM
+452. Detailed descriptions
+AC 652 Additional Course – Data Analytics Methods
+Typically: lecture, other forms of modules might be credited
+Form of module
+upon request.
+Level Master
+Max. 18 (The individual modules can vary between 2 and 10
+ECTS ECTS. A total of 18 ECTS can be recognized as additional
+courses).
+The workload and its distribution on different activities are
+determined by the credited course. For courses taken at the
+Workload
+University of Mannheim, they can be found in the respective
+module catalogue. One ECTS credit equals 30 hours of work.
+The prerequisites are determined by the credited course. For
+Prerequisites courses taken at the University of Mannheim, they can be
+found in the respective module catalogue
+The course falls into the data analytics methods area of the
+MMDS and covers topics related to data analytics methods,
+but is not directly equivalent to any course in the MMDS
+Aim of module module catalogue. The course level equals a regular course in
+MMDS study program. The module can be taken either at the
+University of Mannheim or at any other university in Ger-
+many or abroad.
+The learning outcomes and qualification goals are deter-
+Learning outcomes and mined by the credited course. For courses taken at the Uni-
+qualification goals versity of Mannheim, they can be found in the respective
+module catalogue.
+The media, literature, and methods are determined by the
+credited course. For courses taken at the University of Mann-
+Media / Literature / Meth- heim, they can be found in the respective module catalogue.
+ods / Form and duration The form of assessment is typically a written or oral examina-
+of assessment tion, but can also include other forms of examination. Details
+are determined by the examination modalities of the cred-
+ited course.
+46English preferred, but any other language possible if Mann-
+Language
+heim faculty member is able to identify content and level
+Offering Spring semester / Fall semester
+Lecturer Lecturer at the host university
+Person in charge Lecturer at the host university
+Duration of module 1 Semester
+Further modules -
+Range of application MMDS
+Semester 2nd/3rd/4th semester
+47DS 100 Statistics for Data Scientists
+Form of module Lecture and Tutorial
+Type of module Foundations of Data Science
+Level Master
+ECTS 9 (270 hours)
+Hours per semester present: 56 h (4 SWS)
+Self-study: 214 h per semester
+Workload • 91 h: pre and post lecture/tutorial studying and revision
+• 42 h: studying for and taking weekly online tests
+• 40 h: examination preparation
+• 41 h: preparation and presentation of weekly exercises
+A sound understanding of the linear regression model (OLS) is
+Prerequisites
+required. Knowledge in linear algebra and calculus is useful.
+The course provides an introduction to causal inference, linear
+models, and maximum likelihood estimation. The course will
+cover the following topics:
+• Causal Inference
+• Hypotheses testing
+Aim of module
+• Linear Regression
+· Selected GLM, e.g., binary choice models, models for
+ordinal data, models multinomial data, models for count
+data
+Expertise (MK1, MK3):
+Understand how to appropriately translate research question
+into statistical models, be able to apply statistical models appro-
+priate for non-linear problems and learn how to present and in-
+terpret estimation results in a substantive meaningful way.
+Methodological competence (MK1, MK3):
+Learning outcomes and
+Estimate regression parameters using the maximum likelihood
+qualification goals
+principle; Perform hypothesis tests for regression models using
+the maximum likelihood principle; Be able to identify violations
+of the respective regression assumptions of the discussed
+GLMs; Be able to identify limitations of non-linear regression
+models.
+Personal competence (MF1, MF2, MF3, MKO1, MKO2):
+48The course supports students to develop competences with re-
+gard to choosing the appropriate statistical method(s) to an-
+swer respective research questions and how to present and
+communicate statistical results.
+Media Lecture slides available online, exercises available online
+• Cameron, C.A. and P.K. Trivedi. 1998. Regression Analysis
+of Count Data. Cambridge: Cambridge University Press.
+• Greene, W.H. (2008). Econometric Analysis. 6th ed. Upper
+Saddle River: Prentice Hall.
+• Long, J.S. (1997). Regression Models for Categorical and
+Limited Dependent Variables. Thousand Oaks: Sage.
+• Verbeek, M. 2017. A Guide to Modern Econometrics. 5th
+ed. Chichester: Wiley.
+Literature
+• Wooldridge, J.M. 2002. Econometric Analysis of Cross Sec-
+tion and Panel Data. Cambridge, MA: MIT Press.
+• Imbens, Guido W., and Donald B. Rubin. Causal Inference for
+Statistics, Social, and Biomedical Sciences: An Introduction.
+Cambridge: Cambridge University Press, 2015.
+• Angrist, Joshua D., and Jorn-Steffen Pischke. Mostly Harm-
+less Econometrics: An Empiricist's Companion. Princeton:
+Princeton University Press, 2009.
+Methods Lecture elements, weekly online tests, literature studies
+Form of assessment Written examination
+Admission requirements Oral participation, homework, presentations, compulsory at-
+for assessment tendance
+Duration of assessment 90 Minutes
+Language English
+Offering Fall semester
+Lecturer of the School of Social Sciences, I.e chair of Social Data
+Lecturer
+Science
+Lecturer of the School of Social Sciences, I.e. Chair of social Data
+Person in charge
+Science
+Duration of module 1 semester
+Further modules
+49Range of application MMDS
+Semester 1st semester
+50DS 202 Seminar and Lab on Machine Learning and Causal Inference
+Form of module Seminar
+Type of module Data Science Methods: Fundamentals
+Level Master
+ECTS 9 (270 hours)
+Hours per semester present: 56 h (4 SWS)
+Self-study: h per semester
+Workload
+• 70 h: pre and post seminar studying and revision
+• 70 h: analyzing data, programming Python scripts
+• 74 h: preparation and presentation of research project
+Students should be familiar with Python or at least with any
+Prerequisites
+other object-programming language.
+The module introduces, discusses, and offers hands-on expe-
+rience in state-of-the-art topics in data science. It consists of
+a “theoretical” part (seminar) which offers room for discus-
+Aim of module sion on hot topics of data science and an “empirical” part
+where students formalize research questions and analyze
+data (of their own) using advanced techniques of machine
+learning.
+Expertise:
+Students are able to find appropriate techniques of machine
+learning to answer complex research questions; they can an-
+alyze (large) data sets using state-of-the-art techniques of
+machine learning.
+(MK1)
+Methodological competence:
+Students are able to program in Python; they can apply ad-
+Learning outcomes and
+vanced techniques of machine learning to individual research
+qualification goals
+questions; they have in-depth knowledge in application of
+data science.
+(MK1, MK2, MK3)
+Personal competence:
+Students are able to independently implement their research
+question in a research project; they can deal with and solve
+theoretical and empirical problems.
+(MF1, MF2, MF3, MF4, MKO1, MKO2)
+51Media Slides available online
+• Downey, Allen B. 2016. Think Python. How to Think Like a
+Computer Scientist. 2nd ed. Needham: Green Tea Press.
+(available online: http://greenteapress.com/thinkpy-
+thon2/thinkpython2.pdf)
+Literature • Guttag, John V. 2021. Introduction to Computation and
+Programming Using Python. 3rd. ed. Cambridge: MIT
+Press.
+• The Python Tutorial (online: https://docs.py-
+thon.org/3/tutorial/)
+Lecture elements, classroom discussion, weekly lab-sessions,
+Methods
+literature studies
+Form of assessment Written examination
+Admission requirements for Oral participation, homework, presentations, compulsory at-
+assessment tendance
+Duration of assessment 90 Minutes
+Language English
+Offering Fall semester
+Lecturer of the School of Social Sciences, I.e. chair of social
+Lecturer
+data science
+Lecturer of the School of Social Sciences, I.e. chair of social
+Person in charge
+data science
+Duration of module 1 semester
+Further modules
+Range of application MMSDS
+Semester 3rd semester
+52IE 560 Decision Support
+Form of module Inverted classroom
+Type of module Business Informatics Fundamental
+Level Master
+ECTS 6
+Hours per semester: 42 h (1+2 SWS)
+Workload Self-study per semester: 138 h
+• 89 h: pre- and post lecture studying and revision
+• 49 h: exam preparation
+Basic Probability Theory, Basic Knowledge of Propositional and
+Prerequisites
+First-Order Logic
+The course provides an introduction to decision support tech-
+niques as a basis for the design of decision support systems. The
+course will cover the following topics:
+• Decision Theory
+Aim of module
+• Decision- and Business Rules
+• Probabilistic Graphical Models
+• Game Theory and Mechanism Design
+• Decision Processes and Reinforcement Learning
+Expertise:
+Students will acquire basic knowledge of the techniques, opportu-
+nities and applications of decision theory.
+(MK1, MF1)
+Learning outcomes and Methodological competence:
+qualification goals Successful participants will be able to identify opportunities for de-
+cision support in an enterprise environment, select and apply ap-
+propriate techniques, and interpret the results.
+(MK2, MF3, MF4, MKO1)
+Personal competence: -
+Media Lecture videos, slide set, exercise sheets, software tools
+• S. Russel and P. Norvig: AI a modern Approach (3rd Edition),
+Literature
+2010 (selected sections)
+The course consists of a lecture accompanied by practical home-
+Methods
+work and case studies. In the lecture, the students basic concepts
+53and methods of decision theory will be explained both in theory
+and using concrete examples. The students will practice and test
+their knowledge acquired in the lecture in homework assignments.
+Within the case studies, students model real world decision prob-
+lems and try to solve them optimally using methods from the lec-
+ture.
+Form of assessment Written exam
+Admission requirements for
+-
+assessment
+Duration of assessment Written examination: 90 minutes
+Language English
+Offering Fall semester
+Lecturer Prof. Dr. Heiner Stuckenschmidt
+Person in charge Prof. Dr. Heiner Stuckenschmidt
+Duration of module 1 Semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence,
+Semester 1st/2nd semester
+54IE 671 Web Mining
+Form of module Lecture and Exercise
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester: 28 h (2 SWS)
+Workload Self-study: 56 h per semester
+• 31 h: pre and post lecture studying and revision
+• 25 h: examination and presentation preparation
+IE 500 Data Mining I (recommended). Fundamental notions of lin-
+Prerequisites
+ear algebra and probability theory.
+The vast amounts of textual content and structured data found on
+the Web provide us with a goldmine of data that can be mined to
+derive knowledge about nearly every aspect of human life. The
+course covers techniques for extracting knowledge from Web con-
+tent as a basis for business decisions and applications. The course
+will cover the following topics: Web Usage Mining (including Rec-
+Aim of module ommender Systems), Web Structure Mining (including Social Net-
+work Analysis), and Web Content Mining (including Sentiment
+Analysis and Hate Speech Detection).
+NOTE: It is highly recommended to attend the module “Web Min-
+ing Project” in the same semester since the schedule and topics of
+both modules are aligned.
+Expertise:
+Students will acquire knowledge of the techniques, opportunities
+and applications of Web mining.
+(MK1, MF1)
+Methodological competence:
+Learning outcomes and
+Successful participants will be able to identify opportunities for
+qualification goals
+mining knowledge from Web content, select and apply appropriate
+techniques and interpret the results.
+(MK2, MF3, MF4)
+Personal competence: -
+Media slide set, exercise sheets, data sets for the exercises
+• Bing Liu: Web Data Mining. 2nd Edition, Springer, 2011.
+Literature • Wouter de Nooy, et al.: Exploratory Social Network Analysis
+with Pajek. 2nd Edition, Cambridge University Press, 2011.
+55• Bing Liu. Sentiment Analysis and Opinion Mining, Morgan &
+Claypool Publishers, 2012.
+The course consists of a lecture together with accompanying prac-
+tical exercises as well as student team projects. In the exercises the
+Methods
+participants will gather initial expertise in applying state of the art
+web mining tools.
+Form of assessment Written examination
+Admission requirements for
+-
+assessment
+Duration of assessment 60 minutes
+Language English
+Offering Spring semester
+Lecturer Prof. Dr. Christian Bizer
+Person in charge Prof. Dr. Christian Bizer
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence, Lehramt Informatik, MMSDS
+Semester 1st/2nd/3rd semester
+56IE 678 Deep Learning
+Form of module Lecture with exercises
+Type of module Specialization Course
+Level Master
+ECTS 6
+Hours per semester: 56h (4 SWS)
+Workload
+Exercises, assignments, and self-study: 98 h
+IE 675b Machine Learning or equivalent, no attempted or com-
+Prerequisites
+pleted IE 674 exam
+Machine learning is concerned with building computer systems
+that improve with experience as well as the study of learning pro-
+cesses, including the design of algorithms that are able to make
+predictions or extract knowledge from data. Building upon IE
+675b Machine Learning, this course focuses on deep learning and
+introduces basic and advanced deep learning architectures and
+techniques, training methods and hyperparameter optimization,
+as well as selected applications. Topics include:
+Aim of module • Feedforward neural networks
+• Backpropagation and parameter optimization
+• Machine learning systems
+• Training techniques for deep learning models
+• Recurrent neural networks
+• Convolutional neural networks
+• Attention and Transformers
+• Deep learning for graphs
+• Deep generative modelling
+Expertise:
+Deep understanding of fundamental concepts, models, and algo-
+rithms of deep learning
+(MK1, MF1)
+Learning outcomes and Methodological competence:
+qualification goals • Being able to build and train deep learning models
+• Being able to select suitable deep learning techniques for a
+given learning problem
+(MK2, MF3, MF4)
+Personal competence:
+57• writing skills
+• presentation skills
+• statistical programming skills
+(MKO3, MF2)
+Media Slide set, exercise sheets, software, datasets
+• I. Drori. The Science of Deep Learning. Cambridge University
+Press, 2023
+• I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT
+Press, 2017
+Literature • K.P. Murphy. Probabilistic Machine Learning: An Introduction.
+The MIT Press, 2022
+• K.P. Murphy. Probabilistic Machine Learning: Advanced
+Topics. The MIT Press, 2023
+• Additional material and articles provided in lecture notes
+The course consists of a lecture accompanied by theoretical and
+practical exercises as well as case studies with real data. In the ex-
+Methods
+ercises, students will deepen the material discussed in the lecture,
+apply the methods in practice, and present the result.
+Form of assessment Oral examination
+Admission requirements
+Homework assignments (pass at least 2 assignments)
+for assessment
+Duration of assessment 25 minutes
+Language English
+Offering Spring semester
+Lecturer Prof. Dr. Rainer Gemulla
+Person in charge Prof. Dr. Rainer Gemulla
+Duration of module 1 Semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence
+Semester 2nd/3rd semester
+58IE 684 Web Mining Project
+Form of module Project
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester: 28 h (2 SWS)
+Workload Self-study: 56 h per semester
+• 36 h: project work
+• 20 h: report writing and presentation preparation
+Programming skills in Java or Python. IE 671 Web Mining (recom-
+Prerequisites
+mended).
+The Web Mining project allows students to apply the methods and
+techniques that they have learned in the lecture Web Mining in the
+context of a practical integration project. The projects can cover any
+of the topic of Web usage, content or structure mining.
+Aim of module
+NOTE: It is highly recommended to attend the module IE 671 “Web
+Mining” in the same semester since the schedule and topics of both
+modules are aligned.
+Expertise:
+• Students will be able to identify opportunities for employing
+Web Mining techniques in business applications and will learn
+to apply appropriate techniques for mining Web data.
+(MK1, MF1)
+Methodological competence:
+Learning outcomes and • Participants will acquire practical knowledge of techniques for
+qualification goals mining Web data.
+• Project organization skills
+(MK2, MF3, MF4, MKO3)
+Personal competence:
+• Presentation skills
+• Team work skills
+(MKO2, MF2)
+Media Slide set with references to potential topics, datasets, etc.
+• Bing Liu: Web Data Mining. 2nd Edition, Springer, 2011.
+• Wouter de Nooy, et al.: Exploratory Social Network Analysis
+Literature with Pajek. 2nd Edition, Cambridge University Press, 2011.
+• Bing Liu. Sentiment Analysis and Opinion Mining, Morgan &
+Claypool Publishers, 2012.
+59Students work on their projects in teams and report about the re-
+Methods sults of their projects in the form of a written report as well as an
+oral presentation.
+Project report (70%, 5-15 pages in length), oral project presenta-
+Form of assessment
+tion (30%, 10-90 minutes).
+Admission requirements for
+-
+assessment
+4-6 weeks (execution of the project work and writing of the re-
+Duration of assessment
+port), 10-90 minutes (presentation).
+Language English
+Offering Spring semester
+Lecturer Prof. Dr. Christian Bizer
+Person in charge Prof. Dr. Christian Bizer
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, Mannheim Master in Data Science
+Range of application
+Lehramt Informatik, MMSDS
+Semester 1. /2. /3. Semester
+60IE 686 Large Language Models and Agents
+Form of module Lectures with tutorials and projects
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester: 28 h (2 SWS)
+Self-study: 56 h per semester
+Workload
+• 36 h: project work
+• 20 h: report writing and presentation preparation
+• Programming skills in Python
+Prerequisites
+• Basic machine learning concepts and techniques
+Large language models (LLMs) such as GPT, Llama, Gemini, and
+Mixtral have the potential to enable a wide range of new applica-
+tions and to significantly improve the performance of existing sys-
+tems. The course introduces students to LLMs and teaches them
+how to employ the models within applications. The course covers
+Aim of module the following topics:
+• Introduction to LLMs
+• Prompt engineering patterns
+• LLM-based agents
+• Evaluation of LLMs and agents
+• Development of LLM-based applications
+Expertise:
+Students will understand the principles of training LLMs. They will
+be able to identify opportunities for employing LLMs in business
+applications and will learn to apply prompt engineering techniques
+as well as agent frameworks for solving business tasks.
+(MK1, MF1)
+Learning outcomes and Methodological competence:
+qualification goals Participants will acquire theoretical and practical knowledge on
+large language models, prompt engineering techniques, and
+agents. They will learn to use frameworks like LangChain and Auto-
+Gen for the design and implementation of the learned concepts in
+practical use cases.
+(MK2, MF3, MF4, MKO3)
+Personal competence:
+61• Project organization skills
+• Presentation skills
+• Teamwork skills
+• Python programming skills
+(MKO1, MKO2, MF2)
+Media Slide sets, software, datasets
+• Zhou et al.: A Comprehensive Survey on Pretrained Foundation
+Models: A History from BERT to ChatGPT. 2023.
+arXiv:2302.09419.
+Literature • Zhao et al.: A Survey of Large Language Models. 2024.
+arXiv:2303.18223
+• Wang et al.: A Survey on Large Language Model based Au-
+tonomous Agents. 2024. arXiv:2302.07842
+The course participants gain knowledge about the principles and
+methods behind large language models through lectures and tuto-
+rials. In the second half of the course, students apply their
+Methods
+knowledge in team projects and will report about their results in
+the form of a written report as well as an oral presentation.
+Project report (70%), oral project presentation (30%)
+Form of assessment
+Admission requirements for
+-
+assessment
+Duration of assessment -
+Language English
+Offering Fall semester
+Prof. Dr. Christian Bizer
+Lecturer
+Ralph Peeters
+Person in charge Prof. Dr. Christian Bizer
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence, Mannheim Master in Social Data Science, Lehramt Informatik
+Semester 1st/2nd/3rd semester
+62IE 692 Advanced Process Mining*
+Form of Module Lecture
+Type of Module Specialization course
+Level Master
+ECTS 6
+150 h per semester
+Workload You are expected to be familiar with the use of Petri nets and
+Prerequisites BPMN for process modeling, and being able to do basic program-
+ming in Python. IS 515 or having experience with process mining
+are NOT prerequisites.
+Process mining is an emerging branch of data science that aims at
+deriving qualitative and quantitative insights on the execution of
+organizational processes, based on the analysis of recorded event
+sequences.
+The course features lectures and exercises that focus on the formal
+foundations, algorithms, and techniques of process mining. Specifi-
+cally, this course covers aspects such as:
+• Process discovery, which aims to derive a process model from
+recorded events
+• Conformance checking, which aims to identify deviations be-
+tween event data and process models
+• Process enhancement, which aims to augment process models
+with information on the temporal, organizational, and data per-
+Aim of module spectives of a process
+• Predictive monitoring, which aims to make predictions about
+ongoing process instances
+• Techniques to preprocess, abstract, cluster event data for im-
+proved analyses
+For the above subjects, the course will cover fundamental algo-
+rithms as well as advanced, state-of-the-art techniques.
+During the exercises that follow each lecture, you will practice
+through pen-and-paper exercises, as well as implementation and
+evaluation using open source process mining tools and libraries.
+• The lectures and exercises are complemented by a practical as-
+signment in which students will work in groups on a project
+that involves implementation and/or evaluation of a process
+mining technique.
+63Knowledge:
+• After completing the course, students will be familiar with fun-
+damental and state-of-the-art techniques for the data-driven
+analysis of business processes, i.e., process mining.
+(MK1, MK2)
+Capabilities:
+• After completing the course, students will be able to analyze
+Learning Outcomes and
+business processes using process mining techniques and opens-
+Qualification Goals
+source process mining tools.
+(MF1, MF2, MF3)
+Competencies:
+• During the course, students will learn to apply, compare, and
+assess process mining techniques on synthetic and real-world
+data, in both individual and team-based settings.
+(MKO1, MKO3)
+• Pen-and-paper plus programming exercises (mainly Python).
+• Project involving open-source process mining tools and librar-
+Media
+ies, possibly with implementation (in Python or Java)
+• Pen-and-paper exam
+• Wil van der Aalst: Process Mining: Data Science in Action, 2nd
+edition (Recommended)
+Literature • Josep Carmona et al. Conformance checking, 1st edition (Rec-
+ommended)
+• Additional academic papers suggested per lecture
+• Lectures
+Teaching and Learning
+• Homework exercises to practice with joint discussion in exer-
+Methods
+cise sessions
+80% written exam
+Form of assessment
+20% group assignment
+Admission requirements for
+-
+assessment
+The exam will take 60 minutes, the assignment will be spread over
+Duration of assessment various weeks with a single deadline towards the end of the semes-
+ter.
+Language English
+Offering Spring semester
+Lecturers Prof. Dr. Jana -Rebecca Rehse
+64Person in charge Prof. Dr. Jana -Rebecca Rehse
+Duration of module 1 semester
+Further modules -
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of Application
+ence, MMSDS
+Semester 2nd semester
+*The number of this module will change (TBA). For an updated description, please see the module catalog of
+the MMM: Mannheim Master in Management https://www.bwl.uni-mannheim.de/studium/master/mmm/#c176637
+65IE 696 Advanced Methods in Text Analytics
+Form of module Lecture with exercises
+Type of module Specialization course
+Level Master
+ECTS 6
+Hours per semester: 56 h (4 SWS)
+Workload Self-study: 112 h per semester
+• 84 h: pre and post lecture studying and revision
+• 28 h: examination preparation
+Fundamental notions of linear algebra and probability theory. Suc-
+Prerequisites cessful completion of “Text Analytics” (IS661), “Machine Learning”
+(IE675b) or “Deep Learning” (IE678).
+This module builds upon the introduction to Natural Language Pro-
+cessing (NLP) from “Text Analytics” (IS661) and introduces students
+to cutting-edge problems, techniques and state-of-the-art methods
+in NLP. The course will focus on neural models of meaning in con-
+text and present a variety of “Deep Learning” architectures for dif-
+Aim of module
+ferent applications in human language technology (e.g., summari-
+zation, dialogue systems and machine translation). Moreover, we
+will cover open research areas, such as the explainability and inter-
+pretability of NLP models and methods to quantify the degree of
+bias they exhibit.
+Expertise:
+Students will acquire knowledge of state-of-the-art principles and
+methods of Natural Language Processing, specifically focusing on
+applying statistical methods to human language technologies.
+(MK1, MK2, MF3)
+Learning outcomes and
+Methodological competence:
+qualification goals
+Successful participants will be able to understand state-of-the-art
+methods for Natural Language Processing and select, apply and
+evaluate the most appropriate techniques for various practical and
+application-oriented scenarios.
+(MF3)
+Media Lecture and tutorial slides, exercise sheets
+66• Dan Jurafsky and James H. Martin, Speech and Language Pro-
+cessing: An Introduction to Natural Language Processing, Com-
+Literature
+putational Linguistics, and Speech Recognition (3rd edition,
+online available at https://web.stanford.edu/~jurafsky/slp3/).
+Methods Lectures, tutorials
+Form of assessment Written examination
+Admission requirements for
+-
+assessment
+Duration of assessment 90 minutes
+Language English
+Offering Fall/Spring semester
+Lecturer Prof. Dr. Simone Paolo Ponzetto
+Person in charge Prof. Dr. Simone Paolo Ponzetto
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, MSc. Mannheim Master in Data Sci-
+Range of application
+ence, Lehramt Informatik, MMSDS
+Semester 1st/2nd/3rd semester
+67CS 646 Higher Level Computer Vision
+Form of module Lecture with Exercise
+Type of module Specialization Course
+Level Master
+ECTS 6
+Hours per semester present: 56 (4SWS)
+Workload Self-study: 98h
+• 70h lecture/exercises
+• 28h exam preparation
+Basis skills in linear algebra, basis knowledge in python and
+Prerequisites
+pytorch
+• Point Features and point matching
+• Object Identification
+• Deep Learning for Computer Vision
+Aim of module • Object Detection
+• Image Segmentation
+• Optical Flow
+• Video and Motion Segmentation
+Expertise: The students have a detailed understanding of Com-
+puter Vision techniques. They can evaluate given Computer Vi-
+sion algorithms.
+(MK1, MK2, MF1, MF3)
+Methodological competence: Students understand the tech-
+Learning outcomes and nical basis of Computer Vision algorithms; they can explain the
+qualification goals discussed methods and implement them.
+(MF1, MF2, MF3)
+Personal competence: Understanding complex Computer Vi-
+sion problems; thorough judgment in the design and use of
+methods; can work efficiently in a team.
+(MK01, MK02)
+Media Exercise sheets and lecture slides available online.
+68• Goodfellow et al..: Deep Learning, MIT Press, 2016.
+https://www.deeplearningbook.org/
+• R. Szeliski: Computer Vision Algorithms and Applications,
+Springer, 2010. ISBN: 978-1-84882-934-3. (Online available:
+http://szeliski.org/Book/
+• D. Forsyth, J. Ponce: Computer Vision: A Modern Approach,
+Literature Prentice Hall, 2nd edition, 2012. ISBN: 978-0136085928
+(Online available:
+http://cmuems.com/excap/readings/forsyth-ponce-
+computer-vision-a-modern-approach.pdf
+• R. Hartley, A. Zisserman: Multiple View Geometry in
+Computer Vision, Cambridge University Press, 2nd edition,
+2004.
+Lecture, weekly exercise, book studies, implementation of al-
+Methods
+gorithms, visualization of results
+Form of assessment Written or oral examination (TBA)
+Admission requirements
+-
+for assessment
+Duration of assessment 90 minutes (written) or 20 minutes (oral)
+Language English
+Offering Fall semester
+Lecturer Professor Dr.-Ing. Margret Keuper
+Person in charge Professor Dr.-Ing. Margret Keuper
+Duration of module 1 Semester
+Further modules Image Processing
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of application
+Science, Lehramt Informatik
+Semester 1st/2nd/3rd semester
+69CS 647 Image Processing
+Form of module Lecture with Exercise
+Type of module Specializaton Course
+Level Master
+ECTS 6
+Hours per semester present: 56 (4SWS)
+Workload Self-study: 98h
+• 70h lecture/exercises
+• 28h exam preparation
+Prerequisites Basis skills in linear algebra, basis knowledge in python
+• Introduction to Imaging (human visual system, optics, sensors)
+• Noise and basic operations (convolution, correlations,
+gradients)
+• Energy minimization
+• Variational Methods
+Aim of module
+• Feature extraction
+• Classification
+• Segmentation
+• Image Sequences and Motion (Optical Flow)
+• Stereo Vision
+Expertise: The students have a detailed understanding of image
+and video processing techniques. They can evaluate given image
+processing algorithms.
+(MK1, MK2, MF1, MF3)
+Methodological competence: Students understand the technical
+Learning outcomes and basis of image processing algorithms; they can explain the dis-
+qualification goals cussed methods and implement them.
+(MF1, MF2, MF3)
+Personal competence: Understanding complex Image Processing
+problems; thorough judgment in the design and use of methods;
+can work efficiently in a team.
+(MK01, MK02)
+Media Exercise sheets and lecture slides available online.
+70• R. Szeliski: Computer Vision Algorithms and Applications,
+Springer, 2010. ISBN: 978-1-84882-934-3. (Online available:
+Literature http://szeliski.org/Book/)
+• D. Forsyth, J. Ponce: Computer Vision: A Modern Approach,
+Prentice Hall, 2nd edition, 2012. ISBN: 978-0136085928
+Lecture, weekly exercise, book studies, implementation of algo-
+Methods
+rithms, visualization of results
+Form of assessment Written or oral examination (TBA)
+Admission requirements
+-
+for assessment
+Duration of assessment 90 minutes (written) or 20 minutes (oral)
+Language English
+Offering Fall Semester/ Spring Semester
+Lecturer Professor Dr.-Ing. Margret Keuper
+Person in charge Professor Dr.-Ing. Margret Keuper
+Duration of module 1 Semester
+Further modules Higher Level Computer Vision
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence, Lehramt Informatik
+Semester 1st/2nd/3rd semester
+71CS 668 Generative Computer Vision Models
+Form of module Lecture with Exercise
+Type of module Specialization Course
+Level Master
+ECTS 6
+Hours per semester present: 56 (4SWS)
+Workload Self-study: 98h
+• 70h lecture/exercises
+• 28h exam preparation
+Prerequisites Basis skills in linear algebra, basis knowledge in python/pytorch
+• Introduction to Clustering and Unsupervised Learning
+• Introduction to Generative Models
+• Autoregressive Models for Image Generation
+• (Normalizing) Flow
+Aim of module • Latent Variable Models
+• Latent Space Visualizations
+• Generative Adversarial Models
+• Diffusion Models
+• Multi-Modal Conditioning
+Expertise: The students have a detailed understanding of image
+generation techniques, latent variable models, and their evalua-
+tions.
+(MK1, MK2, MF1, MF3)
+Methodological competence: Students understand the technical
+basis of generative models; they can explain the discussed meth-
+Learning outcomes and
+ods and implement them.
+qualification goals
+(MF1, MF2, MF3)
+Personal competence: Understanding image generative models,
+their working principles and training procedures; thorough judg-
+ment in the design and use of methods; Students can work effi-
+ciently in a team.
+(MK01, MK02)
+Media Exercise sheets and lecture slides available online.
+• Ian Goodfellow and Yoshua Bengio and Aaron Courville, Deep
+Literature
+Learning, An MIT press book, 2016.
+72Lecture, weekly exercise, book studies, implementation of
+Methods
+algorithms, visualization of results
+Form of assessment Written or oral examination (TBA)
+Admission requirements
+-
+for assessment
+Duration of assessment 90 minutes (written) or 20 minutes (oral)
+Language English
+Offering Spring Semester
+Lecturer Professor Dr.-Ing. Margret Keuper
+Person in charge Professor Dr.-Ing. Margret Keuper
+Duration of module 1 Semester
+Further modules Higher Level Computer Vision
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of application
+Science, Lehramt Informatik
+Semester 1st/2nd/3rd semester
+73DS 201 Machine Learning and Causal Inference
+Form of module Lecture and Tutorial
+Type of module Data Science Methods: Fundamentals
+Level Master
+ECTS 9 (270 hours)
+Hours per semester present: 56 h (2 SWS)
+Self-study: 214 h per semester
+• 91 h: pre and post lecture studying and revision
+Workload
+• 42 h: studying for and taking weekly online tests
+• 41 h: preparation and presentation of weekly exercises
+• 40 h: examination preparation
+A sound understanding of basic statistical methods incl. re-
+gression analysis, estimation methods (OLS, MLE), and statis-
+Prerequisites
+tical inference is required. Knowledge in linear algebra and
+calculus is useful.
+The course aims to introduce students to advanced causal in-
+ference and machine learning methods, discussing models in
+detail. It first deals with causal inference topics, for instance,
+synthetic control and its extensions, causal inference in panel
+and difference-in-difference models. The course also covers
+Aim of module estimating mediation effects, controlled direct effects, and
+gives an introduction to directed acyclic graphs (DAGs). The
+second part of the course then discusses a theory of causal
+estimation and the role of machine learning in estimating
+these effects. Advanced and popular techniques of machine
+learning are introduced.
+Expertise:
+Students are aware of how machine learning can help answer
+causal questions; they can analyze (large) data sets using
+popular techniques of machine learning.
+Learning outcomes and (MK1)
+qualification goals Methodological competence:
+Students are able to translate their research question(s) into
+a causal framework; they can apply different techniques of
+machine learning.
+(MK1, MK3)
+74Personal competence:
+The course supports students to develop competences with
+regard to choosing the appropriate statistical method(s) to
+answer respective research questions.
+(MF1, MF2, MF4, MKO1, MKO2)
+Media Lecture slides available online
+• Angrist, Joshua D., and Jörn-Steffen Pischke. 2009. Mostly
+Harmless Econometrics: An Empiricist’s Companion.
+Princeton: Princeton University Press.
+• Murphy, Kevin P. 2012. Machine Learning: A Probabilistic
+Perspective. Cambridge: MIT Press.
+• Hastie, Trevor, Robert Tibshirani, and Jerome Friedman.
+2008. The Elements of Statistical Learning. 2nd ed. New
+Literature
+York: Springer.
+• Imbens, Guido W., and Donald B. Rubin. 2015. Causal In-
+ference for Statistics, Social, and Biomedical Sciences: An
+Introduction. Cambridge: Cambridge University Press.
+• Morgan, Stephen L., and Christopher Winship. 2007.
+Counterfactuals and Causal Inference. Cambridge: Cam-
+bridge University Press.
+Methods Lecture elements, weekly online tests, literature studies
+Form of assessment Written examination
+Admission requirements for Oral participation, homework, presentations, compulsory at-
+assessment tendance
+Duration of assessment 90 Minutes
+Language English
+Offering Spring semester
+Lecturer of the School of Social Sciences, I.e. Chair of Social
+Lecturer
+Data Science
+Lecturer of the School of Social Sciences, I.e Chair of Social
+Person in charge
+Data Science
+Duration of module 1 semester
+Further modules
+Range of application MMSDS, MMDS
+75Semester 2nd semester
+76E. Responsible Data Science
+1. Overview
+Module no. Name of Module Offered ECTS Page
+Legal and Ethical Aspects of Privacy HWS 3 78
+CS 718 AI and Data Science in Fiction and Society HWS 4 80
+AC 654 Additional Course – Responsible Data Science HWS/FSS Max 18 82
+Responsible AI: Conceptual Foundations, Methods
+DS 203 HWS 6 84
+and Applications
+772. Detailed descriptions
+Legal and Ethical Aspects of Privacy
+Form of module Lecture
+Type of module Responsible Data Science
+Level Master
+ECTS 3
+Hours per semester present: 28 h (2 SWS)
+Self-study per semester: 60 h
+Workload
+• Pre-and post-lecture studying and preparation (30h)
+• Examination preparation (30h)
+Prerequisites None
+In a first section the course will acquaint the students with the ori-
+gins and basic principles of privacy law mainly in Europe. Further-
+more, it will contrast the European privacy foundations with the
+U.S. approach. At the core of this course stands the new European
+General Data Protection Regulation (GDPR) and its applicability to
+specific cases and basic principles. Moreover, the course will cover
+current challenges to the existing privacy paradigms by big data
+and big data analytics.
+In a second section the course will cover ethical aspects of the use
+Aim of module
+of personal and non-personal data. Data potentially allows to iden-
+tify and target individuals and offer individualized products to
+them. However, sometimes this kind of individualization might be
+legal but the question arises whether it is also desirable from an
+ethical and societal point of view? The course will use selected ex-
+amples (e.g. first-degree price discrimination) in order to illustrate
+the ambivalence of legality, legitimacy, and ethics. In this context,
+the use of artificial intelligence and its impact on privacy will be ad-
+dressed.
+Students will…
+• have a basic knowledge on the applicability of the General Data
+Protection Regulation (GDPR) and its basic principles (MK1,
+MF1, MKO2);
+• be aware of privacy issues and potential legal limitations when
+Learning outcomes and
+processing data (MKO2);
+qualification goals
+• be aware of current challenges to the existing privacy (MKO2);
+• have an understanding why privacy issues are treated differ-
+ently in Europe and the U.S. (MKO2);
+• paradigms by big data and big data analytics;
+• be aware of currently discussed new approaches to privacy
+78(e.g., privacy by design) (MF1, MF2, MKO2);
+• be aware of ethical issues of using personal as well as non-per-
+sonal data (MKO2);
+• be aware of the chances and challenges the use of artificial in-
+telligence will bring (MF2, MKO2).
+Media Video tutorials, lectures, online quizzes
+Students will receive reading assignments for each unit together
+Literature
+with the syllabus at the beginning of the semester.
+The class will generally be conducted as a lecture. However, some
+of the sessions will be conducted on an inverted class-room princi-
+Methods ple. Students will be able to access the video lectures at the begin-
+ning of the semester. The content of these videos will be discussed
+along with additional reading in the individual class sessions.
+Form of assessment written examination
+Admission requirements for
+Successful participation in 5 out of at least 7 online quizzes
+assessment
+Duration of assessment 90 minutes
+Language English
+Offering HWS
+Prof. Dr. Thomas Fetzer
+Lecturer
+Person in charge Prof. Dr. Thomas Fetzer
+Duration of module 1 semester
+Further modules -
+Range of application MMDS, MMSDS
+Semester 1st/2nd/3rd semester
+79CS 718 AI and Data Science in Fiction and Society
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+Prerequisites Bachelor degree
+In this seminar, students analyze and discuss fictional works in the
+Aim of module area of AI and data science with respect to technological and socie-
+tal aspects. The present the results orally and in a written report.
+Expertise:
+Students will learn about societal effects of AI and data science
+and become aware of potential threats and dangers, but also of
+chances of those new technologies.
+(MK1)
+Methodological competence:
+Students will develop methods and skills to find relevant literature
+for his/her topic, and to write a well-structured scientific paper
+Learning Outcomes and and to present his/her results. He/she will be also aware of the
+Qualification Goals need to avoid plagiarism. The key qualification Scientific Research
+is highly recommended as a prerequisite for the seminar.
+(MF1, MF2, MF3)
+Personal qualification:
+Students will acquire skills on how to find relevant literature for a
+research topic, discuss a fictional work using secondary literature
+as background material, write a well-structured, concise paper
+about it and present the results of their work. He/she is well pre-
+pared to write and present a Master’s Thesis.
+(MKO2)
+Media Fictional and non-fictional texts
+Literature A detailed literature list is compiled for each offering.
+Teaching and Learning Me- Do scientific work independently under the guidance of a profes-
+thods sor or a research staff member
+Seminar paper (length: 15-20 pages depending on the topic), Peer
+Form of Assessment Review (up to 10 pages), Presentation (20-30) minutes depending
+on the topic)
+80Admission requirements for
+-
+assessment
+Duration of Assessment 6-8 weeks (writing of the essay), 20-30 minutes (presentation).
+Language English
+Offering Fall semester
+Lecturers Prof. Dr. Heiko Paulheim and research staff members
+Person in charge Prof. Dr. Heiko Paulheim
+Duration of module 1 semester
+Further modules -
+Range of Application MMDS, M. Sc. Wirtschaftsinformatik, Lehramt für Gymnasien
+Semester 3. Semester
+81AC 654 Additional Course – Responsible Data Science
+Typically: lecture, other forms of modules might be credited upon
+Form of module
+request.
+Level Master
+Max. 18 (The individual modules can vary between 2 and 10 ECTS.
+ECTS
+A total of 18 ECTS can be recognized as additional courses).
+The workload and its distribution on different activities are deter-
+mined by the credited course. For courses taken at the University
+Workload
+of Mannheim, they can be found in the respective module cata-
+logue. One ECTS credit equals 30 hours of work.
+The prerequisites are determined by the credited course. For
+Prerequisites courses taken at the University of Mannheim, they can be found
+in the respective module catalogue
+The course falls into the responsible data science area of the
+MMDS and covers topics related to responsible data science, but
+is not directly equivalent to any course in the MMDS module cat-
+Aim of module
+alogue. The course level equals a regular course in MMDS study
+program. The module can be taken either at the University of
+Mannheim or at any other university in Germany or abroad.
+The learning outcomes and qualification goals are determined by
+Learning outcomes and quali-
+the credited course. For courses taken at the University of Mann-
+fication goals
+heim, they can be found in the respective module catalogue.
+The media, literature, and methods are determined by the cred-
+ited course. For courses taken at the University of Mannheim,
+Media / Literature / Methods
+they can be found in the respective module catalogue. The form
+/ Form and duration of as-
+of assessment is typically a written or oral examination, but can
+sessment
+also include other forms of examination. Details are determined
+by the examination modalities of the credited course.
+English preferred, but any other language possible if Mannheim
+Language
+faculty member is able to identify content and level
+Offering Spring semester / Fall semester
+Lecturer Lecturer at the host university
+82Person in charge Lecturer at the host university
+Duration of module 1 Semester
+Further modules -
+Range of application MMDS
+Semester 2nd/3rd/4th semester
+83Responsible AI: Conceptual Foundations, Methods and Applica-
+DS 203
+tions
+Lecture with Essay
+Form of module
+Specialization Course
+Type of module
+Level Master
+ECTS 6
+Hours per semester in presence: 28 (2 SWS)
+Workload
+Self-study: 56 h lectures; 20 h essay / preparation oral exam
+Basic knowledge about AI systems (knowledge-based systems,
+Prerequisites
+machine learning, deep neural networks)
+Conceptual foundations:
+- understanding of important concepts in human-AI interaction and
+AI ethics (such as trust, autonomy, responsibility)
+Methods:
+- e.g., narrative interviews, group discussions, design research
+methods (prototyping, design thinking, techno-mimesis), (digital)
+Aim of module
+ethnography, participatory action research
+Applications:
+- AI in medicine and healthcare
+- Social robotics
+- Generative AI
+- other use cases / real-world AI applications
+Expertise: Students gain insights and understanding of important
+concepts in human-AI interaction and AI ethics. They learn modes
+of transdisciplinary thinking and theorizing. Along sector-specific
+use cases they learn about ethical, legal and social aspects and chal-
+lenges of real-world AI application, e.g. for healthcare.
+Learning outcomes and
+Methodological competence: Students learn elements of mixed-
+qualification goals
+methods study design for human-AI interaction research
+Personal competence: Students learn to critically assess concep-
+tual, ethical, legal and social aspects of human-AI interaction. They
+gain skills in transdisciplinary research and theory-building and
+learn to transfer these insights to real-world human-AI interaction
+scenarios.
+Media Slides are available online
+- Voeneky, S., P. Kellmeyer, O. Mueller, and W. Burgard, ed. 2022.
+Literature
+The Cambridge Handbook of Responsible Artificial Intelligence:
+84Interdisciplinary Perspectives. Cambridge Law Handbooks. Cam-
+bridge: Cambridge University Press.
+https://doi.org/10.1017/9781009207898 (open source)
+- Coeckelbergh, Mark. AI ethics. (2020). The MIT Press.
+https://www.gbv.de/dms/bowker/toc/9780262538190.pdf
+- Heilinger, J.-C. (2022). The Ethics of AI Ethics. A Constructive Cri-
+tique. Philosophy & Technology, 35(3), 61.
+https://doi.org/10.1007/s13347-022-00557-9
+- McLennan, S., Fiske, A., Tigard, D., Müller, R., Haddadin, S., &
+Buyx, A. (2022). Embedded ethics: A proposal for integrating ethics
+into the development of medical AI. BMC Medical Ethics, 23(1), 6.
+https://doi.org/10.1186/s12910-022-00746-3
+- Schmitt, L. (2021). Mapping global AI governance: A nascent re-
+gime in a fragmented landscape. AI and Ethics.
+https://doi.org/10.1007/s43681-021-00083-y
+Interactive lecture
+Methods
+Essay
+Form of assessment
+Admission requirements for
+--
+assessment
+Duration of assessment Essays need to be handed in by December 8th
+Language English
+Offering
+Fall semester
+JProf. Dr. Philipp Kellmeyer
+Lecturer
+Person in charge JProf. Dr. Philipp Kellmeyer
+Duration of module 1 Semester
+Further modules Follow-up (block) seminar planned for summer semester 2024
+Range of application Msc Business Informatics, Msc Data Science, Lehramt Informatik
+Semester All semesters possible
+85F. Data Science Applications
+1. Overview
+Module no. Name of Module Offered ECTS Page
+AC 655 Additional Course – Data Science Applications HWS/FSS Max 18 87
+IE 694 Artificial Intelligence Applications in Industry FSS 6 89
+IE 697 Data Science in Action HWS 6 91
+DA 110 Computational Analysis of Communication HWS/FSS 6 93
+Foundations and Applications of Digital Health
+IE 698 FSS 3 96
+Technologies
+Co-creating digital health applications with design
+IE 699 FSS 6 98
+methodology
+CS 630 Generative Software Engineering FSS 6 100
+MAC 502 Computational Finance FSS 6 MBE*
+IS 540 Management of Enterprise Systems HWS 6 MMM*
+MKT 545 Customers, Markets and Firm Strategy FSS 6 MMM*
+FSS 6 MMM*
+MKT 511 Marketing Analytics
+Elective MA Psy, School of Social Sciences FSS/HWS 4 M.Sc.
+Psy*
+* For a detailed description, please see the module catalogs of the respective following degree programs:
+• MBE: M.Sc. Mathematics in Business and Economics
+https://www.wim.uni-mannheim.de/studium/studienorganisation/m-sc-wirtschaftsmathematik/ (only
+available in German)
+• MMM: Mannheim Master in Management
+https://www.bwl.uni-mannheim.de/studium/master/mmm/#c176637
+• M.Sc. Psy: Master of Science Psychologie - Arbeit, Wirtschaft, Gesellschaft (only in German)
+https://www.sowi.uni-mannheim.de/en/academics/students/psychology/msc-in-psychology-work-
+economy-and-society/
+862. Detailed descriptions
+AC 655 Additional Course – Data Science Applications
+Typically: lecture, other forms of modules might be credited upon
+Form of module
+request.
+Level Master
+Max. 18 (The individual modules can vary between 2 and 10 ECTS.
+ECTS
+A total of 18 ECTS can be recognized as additional courses).
+The workload and its distribution on different activities are deter-
+mined by the credited course. For courses taken at the University
+Workload
+of Mannheim, they can be found in the respective module cata-
+logue. One ECTS credit equals 30 hours of work.
+The prerequisites are determined by the credited course. For
+Prerequisites courses taken at the University of Mannheim, they can be found
+in the respective module catalogue
+The course falls into the data science applications area of the
+MMDS and covers topics related to data science applications, but
+is not directly equivalent to any course in the MMDS module cat-
+Aim of module
+alogue. The course level equals a regular course in MMDS study
+program. The module can be taken either at the University of
+Mannheim or at any other university in Germany or abroad.
+The learning outcomes and qualification goals are determined by
+Learning outcomes and quali-
+the credited course. For courses taken at the University of Mann-
+fication goals
+heim, they can be found in the respective module catalogue.
+The media, literature, and methods are determined by the cred-
+ited course. For courses taken at the University of Mannheim,
+Media / Literature / Methods
+they can be found in the respective module catalogue. The form
+/ Form and duration of as-
+of assessment is typically a written or oral examination, but can
+sessment
+also include other forms of examination. Details are determined
+by the examination modalities of the credited course.
+English preferred, but any other language possible if Mannheim
+Language
+faculty member is able to identify content and level
+87Offering Spring semester / Fall semester
+Lecturer Lecturer at the host university
+Person in charge Lecturer at the host university
+Duration of module 1 Semester
+Further modules -
+Range of application MMDS
+Semester 2nd/3rd/4th semester
+88IE 694 Artificial Intelligence Applications in Industry
+Form of module Lectures and Accompanying Tutorials
+Type of module Specialization Course
+Level Master
+ECTS 6
+Hours per semester present: 56 h (2 + 2 SWS)
+Workload
+Self-study: 124 h per semester
+Including the creation of a learning portfolio
+Necessary Knowledge:
+Prerequisites • Machine Learning Concepts and Techniques
+• Programming in Python
+Participants will learn about the use of Artificial Intelligence meth-
+ods, mostly from the field of machine learning in different sectors
+and industries. They will learn about application areas in the pri-
+Aim of module mary, secondary and tertiary sector, get an introduction to exam-
+ples of such applications that have been published on a scientific
+level and gather some experience in working with data from the re-
+spective fields using publically available datasets.
+Expertise:
+Students will acquire knowledge about possible applications of ma-
+chine learning in different branches of industry as well as the domi-
+nant methods used in these areas.
+(MK2, MK3)
+Methodological competence:
+Successful participants will be able to:
+Learning outcomes and • Identify potential for applying AI methods in different areas of
+qualification goals industry;
+• Decide on a suitable method for addressing typical problems in
+these industries
+(MF2)
+Personal competence:
+• Participants will learn to reflect and document their own learn-
+ing process
+(MKO2)
+Media Slides, Data Sets, Software Tools.
+89Literature Various Scientific Publications – details in the lecture slides
+Methods Lectures, tutorials, independent study
+Form of assessment Learning Portfolio
+Admission requirements for
+n/a
+assessment
+Continuous assessment throughout the module (learning portfo-
+Duration of assessment
+lio).
+Language English
+Offering FSS
+Lecturer Prof. Dr. Heiner Stuckenschmidt
+Person in charge Prof. Dr. Heiner Stuckenschmidt
+Duration of module 1 Semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, Mannheim Master in Data Science,
+Range of application
+MMSDS
+Semester 2.-4.
+90IE 697 Data Science in Action
+Form of module Lecture
+Type of module Elective
+Level Master
+ECTS 6
+Hours per semester present: 28 h (2 SWS)
+Workload
+Self-study: 112 h per semester
+Recommended: Knowledge in Data Mining, Machine Learning, Sta-
+Prerequisites
+tistics or empirical research methods
+Participants get insights in current Data Science Research in Com-
+puter Science as well as the economic and social sciences. The par-
+Aim of module
+ticipants get an insight in the different perspectives on Data Sci-
+ence present in different research communities.
+Expertise:
+Students will acquire knowledge of current research in Data Sci-
+ence
+(MK2, MK3)
+Learning outcomes and
+Methodological competence:
+qualification goals
+Students learn to understand and summarize the state of the art in
+a certain area and discuss achievements and open problems.
+(MF2, MKO2)
+Personal competence: -
+Media Slides, Research Papers
+Literature Recommended Papers from invited speakers
+Methods Lectures, independent study
+Form of assessment Written Essay (length: 10-35 pages depending on the topic).
+Admission requirements for
+-
+assessment
+Duration of assessment 6-8 weeks (writing of the essay).
+Language English
+91Offering Fall semester
+Lecturer Prof. Dr. Heiner Stuckenschmidt, Invited Speakers
+Person in charge Prof. Dr. Heiner Stuckenschmidt
+Duration of module 1 Semester
+Further modules -
+Range of application MMDS, MMSDS
+Semester 2.-4.
+92DA 110 Computational Analysis of Communication
+Form of module Exercise
+Type of module Data Analytics Methods
+Level Master
+ECTS 6
+Hours per semester present: 28 (2 SWS)
+Workload
+Self-study: 145h (70h lectures/exercises, 75h research report)
+Basic skills in descriptive and inferential statistics, basic knowledge
+Prerequisites of data structures and data wrangling procedures, machine learn-
+ing, web-scraping/web-mining
+As “big data” and “algorithms” affect our daily communication,
+new research questions arise at the intersection between societies
+and technologies. Many of these questions are of great social rele-
+vance and are therefore prominently discussed both by research-
+ers and in the media. One outstanding, recent example from the
+field of media psychology is a rising interest in the association of
+(social) media use and mental health. Another example, from the
+realm of political communication, is the ongoing debate about the
+role of new communication technologies during political campaigns
+Aim of module
+(e.g., to spread disinformation). Both questions revolve around the
+process of communication. Sound research in this area thus re-
+quires both a solid foundation from communication theory as well
+as expertise in handling new and “big” data. To close this gap, the
+growing discipline of Computational Communication Science (CCS)
+takes on a combinatory perspective between social and computer
+science. The present course will provide an overview about the cur-
+rent state of CCS and intends to motivate students to approach
+pressing social questions from a different perspective.
+Expertise:
+After the course the students are aware of the typical research top-
+ics and questions in automated media content analyses and the dif-
+Learning outcomes and ferent methodological approaches for tackling them; they know
+qualification goals the different methods’ potentials, limitations, and typical fields of
+application; they are able to develop their own specific research
+questions and can make an informed decision about which method
+to apply for answering it (MK3).
+93Methodological competence:
+Students are able to independently develop a research question
+and design in the area of automated media content analysis and
+can conduct a respective analysis using one of the different meth-
+odological approaches introduced in the exercise; they are able to
+document the results of their analyses in a research report and re-
+flect upon their findings’ limitations with regards to reliability and
+validity.
+(MF1, MF2, MF3, MF4, MF5)
+Personal competence:
+The course supports students to develop problem-solving compe-
+tences with regards to research-design oriented questions. By solv-
+ing exercises independently, the transfer of the learned material to
+related questions is promoted and self-confidence with regards to
+research-oriented tasks is gathered (MKO3).
+Media Exercise sheets and lecture slides are available online
+van Atteveldt, W., Trilling, D., & Arcila, C. (2021). Computational
+Analysis of Communication: A practical introduction to the analysis
+Literature
+of texts, networks, and images with code examples in Python and
+R. http://cssbook.net/
+Lecture elements, student presentations, weekly exercises, litera-
+Methods
+ture studies
+Form of assessment Written research report (10 – 12 pages)
+Admission requirements for
+-
+assessment
+Duration of assessment 4-8 weeks, depending on the topic
+Language English
+Offering HWS/FSS
+Lecturer MKW
+Person in charge MKW
+Duration of module 1 semester
+Further modules -
+Range of application MMDS, MMSDS
+94Semester 1st/ 2nd/3rdsemester
+95IE 698 Foundations and Applications of Digital Health Technologies
+Lecture with Excercise
+Form of module
+Specialization Course
+Type of module
+Level Master
+ECTS 3
+Hours per semester in presence: 28 h per semester
+Workload
+Self-study: 56 h per semester
+Necessary: Basic knowledge about AI systems (knowledge-
+based systems, machine learning, deep neural networks)
+Optional:
+Prerequisites
+- Participation of Lecture “Responsible AI” Winter Term
+2023/24
+- Basic knowledge about digital health systems
+Conceptual foundations:
+- Understanding of important concepts in digital health
+(eHealth, mHealth, telehealth, digital phenotyping, digital twins,
+and other concepts)
+Methods:
+Aim of module - e.g., interviewing, group discussions, design research methods
+(prototyping, design thinking, co-design), (digital) ethnography
+Applications:
+- AI in digital health apps in medicine and healthcare
+- AI-based robots
+- AI-based VR systems
+Knowledge (MK1): Students gain insights and understanding of
+important concepts in digital health. They learn modes of trans-
+disciplinary thinking and theorizing on digital health.
+Capabilities (MF1 and MF2): Students learn elements of mixed-
+Learning outcomes and quali-
+methods study design for digital health research and co-design
+fication goals
+methodology and learn to assess scientific publications in this
+domain critically.
+Competencies (MKO1): Students learn to critically assess the
+conceptual, technical, ethical, legal, and social aspects of digital
+health applications.
+Media Slides and supporting media will be available online.
+96- Fagherazzi, G. Deep Digital Phenotyping and Digital Twins for
+Precision Health: Time to Dig Deeper. Journal of Medical Inter-
+net Research 22, e16770 (2020).
+https://www.jmir.org/2020/3/e16770/
+- Hahn, H. & Schreiber, A. E-Health. in Digital Transformation
+(ed. Neugebauer, R.) 311–334 (Springer Berlin Heidelberg,
+2019). https://doi.org/10.1007/978-3-662-58134-6_19
+- Budd, J. et al. Digital technologies in the public-health response
+Literature
+to COVID-19. Nat Med 26, 1183–1192 (2020). https://www.na-
+ture.com/articles/s41591-020-1011-4
+- Voeneky, S., P. Kellmeyer, O. Mueller, and W. Burgard, ed.
+2022. The Cambridge Handbook of Responsible Artificial Intelli-
+gence: Interdisciplinary Perspectives. Cambridge Law Hand-
+books. Cambridge: Cambridge University Press.
+https://doi.org/10.1017/9781009207898 (open source)
+Interactive lecture
+Methods
+Written exam
+Form of assessment
+Admission requirements for
+-
+assessment
+Duration of assessment 45 min
+Language English
+Offering Spring semester
+Jun.-Prof. Dr. Philipp Kellmeyer
+Lecturer
+Person in charge Jun.Prof. Dr. Philipp Kellmeyer
+Duration of module 1 Semester
+Further modules Lecture on Responsible AI, Fall 2024
+Range of application Msc Business Informatics, Msc Data Science, Lehramt Informatik
+Semester All semesters possible
+97Co-creating digital health applications with design methodol-
+IE 699
+ogy
+Excercise
+Form of module
+Specialization Course
+Type of module
+Level Master
+ECTS 6
+Hours per semester in presence: 56 h
+Workload
+Self-study: 112 h
+Necessary: Basic knowledge about AI systems (knowledge-
+based systems, machine learning, deep neural networks)
+Optional:
+Prerequisites
+- Participation of Lecture “Responsible AI” Winter Term
+2023/24
+- Basic knowledge about digital health systems
+Conceptual foundations: Understanding of important concepts
+in digital health (eHealth, mHealth, telehealth, digital phenotyp-
+ing, digital twins, and other concepts)
+Methods: Interviewing, group discussions, design research
+Aim of module methods (prototyping, design thinking, co-design), (digital) eth-
+nography
+Applications: By-design approaches to developing digital health
+apps and other solutions.
+Knowledge (MK1): Along with digital health use cases, they learn
+basic by-design principles for developing digital health applica-
+tions.
+Capabilities (MF1, MF2, MF3): Students learn elements of
+Learning outcomes and quali-
+mixed-methods study design for digital health research and co-
+fication goals
+design methodology via design fictions and mockups devel-
+oped in groups in the exercise
+Competencies (MKO1): Students learn to apply their knowledge
+and capabilities regarding by-design approaches to solve spe-
+cific problems in a team context.
+Media Slides and supporting media will be available online.
+- Fagherazzi, G. Deep Digital Phenotyping and Digital Twins for
+Literature
+Precision Health: Time to Dig Deeper. Journal of Medical
+98Internet Research 22, e16770 (2020).
+https://www.jmir.org/2020/3/e16770/
+- Hahn, H. & Schreiber, A. E-Health. in Digital Transformation
+(ed. Neugebauer, R.) 311–334 (Springer Berlin Heidelberg,
+2019). https://doi.org/10.1007/978-3-662-58134-6_19
+- Budd, J. et al. Digital technologies in the public-health response
+to COVID-19. Nat Med 26, 1183–1192 (2020). https://www.na-
+ture.com/articles/s41591-020-1011-4
+- Voeneky, S., P. Kellmeyer, O. Mueller, and W. Burgard, ed.
+2022. The Cambridge Handbook of Responsible Artificial Intelli-
+gence: Interdisciplinary Perspectives. Cambridge Law Hand-
+books. Cambridge: Cambridge University Press.
+https://doi.org/10.1017/9781009207898 (open source)
+Excercise
+Methods
+Presentation in course
+Form of assessment
+Admission requirements for
+-
+assessment
+Duration of assessment 20 min (15 min. Presentation, 5 min Q&A)
+Language English
+Offering Spring semester
+Jun.-Prof. Dr. Philipp Kellmeyer
+Lecturer
+Person in charge Jun.Prof. Dr. Philipp Kellmeyer
+Duration of module 1 Semester
+Further modules Lecture on Responsible AI, Fall 2024
+Range of application Msc Business Informatics, Msc Data Science, Lehramt Informatik
+Semester All semesters possible
+99CS 630 Generative Software Engineering
+Form of module Lectures, exercises and tutorials
+Type of module Specialization Course
+Level Master
+ECTS 6
+Hours per semester present: 56 h (2 + 2 SWS)
+Self-study: 112 h per semester
+Workload
+• 28 h per semester for preparation and studying of lec-
+tures/tutorials
+• 84 h per semester for the preparation of the exams
+• Software Testing and Experimentation
+Prerequisites
+• Knowledge of Java and/or Python
+The course introduces the fundamental principles, practices
+and applications of generative software engineering (GSE) as
+well as the supporting models, tools and services -
+• Software Recommendation and Reuse
+• Code Search Engines
+Aim of module
+• Principles of GSE
+• Existing GSE models, tools and services
+• Defining GSE “problems”
+• Applications of GSE
+• Evaluation and comparison of GSE models, tools and services
+Expertise:
+Students will be familiar with the principles, practices and ap-
+plications of GSE as well as supporting models, tools and ser-
+vices.
+(MK1, MK2)
+Methodological competence:
+Students will have the ability to judge, select, and apply GSE
+Learning outcomes and
+techniques and tools in practical software engineers, as well
+qualification goals
+as the ability to understand academic GSE publications and to
+perform research in GSE.
+(MF1) (MF1, MF3)
+Personal competence:
+Students will have improved skills in analytical thinking and ap-
+plying theoretical knowledge to solve practical problems, es-
+pecially in the use of AI to enhance software engineering.
+100(MKO3)
+Lecture notes, presentations, tool demonstrations, software,
+Media
+data sets
+• Sommerville, Ian. "Software engineering (10th ed.).", Pear-
+Literature
+son Education Inc., 2018.
+Lectures, weekly exercises, experimentation with different
+Methods
+systems
+Form of assessment Written examination
+Admission requirements
+-
+for assessment
+Duration of assessment 90 minutes
+Language English
+Offering Spring semester
+Lecturers Dr. Marcus Kessel, Prof. Dr. Colin Atkinson
+Person in charge Prof. Dr. Colin Atkinson
+Duration of module 1 Semester
+Model-Driven Development, Software Testing and Experimen-
+Further modules
+tation
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of application
+Science, Lehramt Informatik
+Semester 2nd, 3rd or 4th semester
+101G. Projects and Seminars
+1. Overview
+Module no. Name of Module Offered ECTS Page
+Additional Course – Projects and
+AC 653 HWS/FSS Max. 18 103
+Seminars
+TP 500 Team Project HWS/FSS 12 105
+IP 500 Individual Project Irregular 8 107
+SQ 500 Scientific Research HWS/FSS 2 110
+Seminar Selected Topics in Algorithmics and Cryp- Irregular
+CS 701 4 112
+tography
+Irregular
+CS 704 Master Seminar Artificial Intelligence 4 114
+Irregular
+CS 707 Hot Topics in Machine Learning Seminar 4 116
+Irregular
+CS 708 Seminar Software Engineering 4 118
+Irregular
+CS 709 Seminar Text Analytics 4 120
+Irregular
+CS 710 Seminar Prof. Paulheim 4 122
+Irregular
+CS 715 Seminar Large Scale Data Integration 4 124
+Irregular
+CS 716 Seminar Prof. Armknecht 4 126
+CS 717 Master Seminar on Computer Vision FSS 4 128
+Irregular
+CS 720 Uncertainty Estimation 4 130
+Irregular
+CS 721 Seminar Data-Science I 4 132
+Irregular
+CS 722 Seminar Ethical Aspects of Al 4 134
+Irregular
+IE 704 Seminar AI Systems Engineering 4 136
+FSS
+IS 752 Seminar on Process and Management Analytics 4 MMM*
+* For a detailed description, please see the module catalog of the respective following degree program:
+• MMM: M.Sc. Mannheim Master in Management, https://www.bwl.uni-mannheim.de/studium/mas-
+ter/mmm/
+1022. Detailed descriptions
+AC 653 Additional Course – Projects and Seminars
+Typically: lecture, other forms of modules might be credited upon
+Form of module
+request.
+Level Master
+Max. 18 (The individual modules can vary between 2 and 12 ECTS.
+ECTS
+A total of 18 ECTS can be recognized as additional courses).
+The workload and its distribution on different activities are deter-
+mined by the credited course. For courses taken at the University
+Workload
+of Mannheim, they can be found in the respective module cata-
+logue. One ECTS credit equals 30 hours of work.
+The prerequisites are determined by the credited course. For
+Prerequisites courses taken at the University of Mannheim, they can be found
+in the respective module catalogue
+The course falls into the projects and seminars area of the MMDS
+and covers topics related data science, but is not directly equiva-
+lent to any course in the MMDS module catalogue. The course
+Aim of module
+level equals a regular course in MMDS study program. The mod-
+ule can be taken either at the University of Mannheim or at any
+other university in Germany or abroad.
+The learning outcomes and qualification goals are determined by
+Learning outcomes and quali-
+the credited course. For courses taken at the University of Mann-
+fication goals
+heim, they can be found in the respective module catalogue.
+The media, literature, and methods are determined by the cred-
+ited course. For courses taken at the University of Mannheim,
+Media / Literature / Methods
+they can be found in the respective module catalogue. The form
+/ Form and duration of as-
+of assessment is typically a written or oral examination, but can
+sessment
+also include other forms of examination. Details are determined
+by the examination modalities of the credited course.
+English preferred, but any other language possible if Mannheim
+Language
+faculty member is able to identify content and level
+103Offering Spring semester / Fall semester
+Lecturer Lecturer at the host university
+Person in charge Lecturer at the host university
+Duration of module 1 Semester
+Further modules -
+Range of application MMDS
+Semester 2nd/3rd/4th semester
+104TP 500 Team Project
+Form of module Project
+Type of module Team Project
+Level Master
+12 in two consecutive semesters or
+ECTS
+12 in one semester
+Hours per semester:
+12 month-project: 28 h (2 SWS)
+6 month-project: 56 h (4 SWS)
+Self-study: 140 h per semester (12 month project);
+• 112 h: pre and post lecture studying, revision and free self-
+Workload study
+• 28 h: preparation of examination/presentation
+Self-study: 280 h per semester (6 month project)
+• 224 h: pre and post lecture studying, revision and free self-
+study
+• 56 h: preparation of examination/presentation
+Prerequisites Depends on topic
+The students solve a practical problem as a team. The participants
+have to analyze and refine the problem and come up with a project
+plan for developing a concrete solution that will be carried out by
+Aim of module the team over the duration of a whole year. Concrete topics for
+projects are defined by the supervisors and offered to the students
+who can apply for different topics. Problem area and techniques
+involved depend on the expertise of the offering chair.
+Depending on the actual topic of the project, participants will ac-
+quire
+• in depths knowledge in a certain application of business infor-
+matics and data science
+Learning outcomes and • knowledge about methods and technologies typically applied in
+qualification goals the application area
+• knowledge about practical problems and challenges when ap-
+plying a certain technique in a given application area
+(MK1, MK2, MK3)
+105Participants will learn to
+• refine a given problem statement by analyzing requirements
+and the state of the art using techniques like literature research
+and expert interviews.
+• Define a workplan including tasks, milestones, deliverables and
+resources and continually assess and modify the plan according
+to the actual progress of the work.
+(MF1, MF2, MF3, MF4)
+Being a team effort, the project explicitly targets personal compe-
+tence in terms of
+• working in and managing a team of experts possibly from dif-
+ferent academic and cultural backgrounds
+• taking part in discussions and learning to contribute the own
+opinion without overruling other opinions
+• self-management and responsibility within the requirements of
+collaborative work
+(MKO1, MKO2, MKO3)
+Media Depends on project
+Literature Depends on topic
+Team-discussions, Presentations, Teamwork, Individual prepara-
+Methods
+tion of empirical contributions; self-study
+One or more reports totaling 50 - 120 pages (depending on the
+Form of assessment
+topic) and presentation (10-90 minutes).
+12-month project: withdrawal within the first 6 weeks possible
+Admission requirements for without failing
+assessment 6-month project: withdrawal within the first 3 weeks possible with-
+out failing
+Final report (length: one of more reports totalling 50-120 pages de-
+Duration of assessment pending on the topic), presentation (10-90 minutes depending on
+the topic).
+Language English
+Offering Spring semester/Fall semester
+Professors of the Institute of Computer Science and Business Infor-
+Lecturer
+matics or of the Area Information Systems of the Business School
+Professors of the Institute of Computer Science and Business Infor-
+Person in charge
+matics or of the Area Information Systems of the Business School
+106Duration of module 1 semester or 2 semesters
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence
+Semester 1st/2nd/3rd semester
+107IP 500 Individual Project
+Form of module Project
+Type of module Individual Project
+Level Master
+ECTS 8
+Workload Self study: 240 h per semester
+Prerequisites Depends on topic
+The student solves a practical problem individually. The student
+has to analyse and refine the problem and come up with a project
+plan for developing a concrete solution. Concrete topics for pro-
+Aim of Modules
+jects are defined by the supervisors and offered to the students
+who can apply for different topics. Problem area and techniques in-
+volved depend on the expertise of the offering chair.
+Depending on the actual topic of the project, participants will ac-
+quire
+• in-depth knowledge in a certain application of data science
+• knowledge about methods and technologies typically applied in
+the application area knowledge about practical problems and
+challenges when applying a certain technique in a given appli-
+cation area
+(MK1, MK2, MK3)
+Learning outcomes and
+Participants will learn to
+qualifications goals
+• refine a given problem statement by analysing requirements
+and the state of the art using techniques like literature research
+and expert interviews.
+• define a workplan including tasks, milestones, deliverables and
+resources and continually assess and modify the plan according
+to the actual progress of the work.
+(MF1, MF2, MF3, MF4, MKO3)
+Media Depends on project
+Literature Depends on topic
+Methods Self-study, presentations
+Final report (length: 10-50 pages depending on the topic), presen-
+Form of Assessment
+tation (15-30 minutes depending on the topic).
+108Admission requirements for -
+assessment
+6 months (execution of the project and writing of the report), 15-
+Duration of Assessment
+30 minutes (presentation).
+Language English/German
+Offering Irregular
+Professors of the Institute of School of Business Informatics and
+Lecturer
+Mathematics or of the School of Social Sciences
+Professors of the Institute of School of Business Informatics and
+Person in Charge
+Mathematics of the School of Social Sciences
+Duration of module 1 semester
+Further modules -
+Range of Applications MMDS
+Semester 1st/2nd/3rd semester
+109SQ 500 Scientific Research
+Form of module Seminar
+Type of module Key Qualification
+Level Master
+ECTS 2
+Workload 80% (48 hours) self-study and 20% (12 hours) coursework
+Prerequisites None
+This course focuses on the basic key competences that are needed
+to successfully write a scientific paper or a thesis. It is recom-
+mended that you take this module before you participate in a sem-
+inar.
+Topics include:
+Aim of module
+• Scientific process and scientific writing
+• Bibliographic research methodology
+• Search strategies in bibliographic databases
+• Finding data for your research
+• How to read, understand and cite scientific literature
+• Reference management systems and LaTeX
+Expertise:
+The students understand how to work scientifically and how to
+write a thesis.
+Methodological competence:
+Learning outcomes and
+The students can find relevant publications for a research question.
+qualification goals
+Personal competence:
+• Everybody wrote a short overview of his/her research question.
+• Everybody installed and used exemplary tools to support the
+work process
+• The craft of research / Wayne C. Booth; Gregory G. Colomb; Jo-
+seph M. Williams ( Chicago guides to writing, editing, and pub-
+Literature lishing ); 3. ed.; Chicago, Ill. ; [u.a.] : University of Chicago Press,
+2008 ; XVII, 317 S. : graph. Darst. ; 22cm.
+• LaTeX (Wikibook): http://en.wikibooks.org/wiki/LaTeX
+Methods Seminar
+110Form of assessment Online
+Admission requirements for
+-
+assessment
+Duration of assessment 150 minutes
+Language English
+Offering Spring semester/Fall semester
+Lecturer Lecturer from the University Library (UB)
+Person in charge Lecturer from the University Library (UB)
+Duration of module 3 weeks
+Further modules -
+Range of application M.Sc. Wirtschaftsinformatik, MMDS
+Semester 1st/2nd/3rd semester
+111CS 701 Selected Topics in Algorithmics and Cryptography
+Form of module Seminar
+Type of module Seminar
+Level Master
+ECTS 4
+Workload 120 h per Semester
+Algorithmics (CS 550) or Cryptography II (CS 651) or Courses in Al-
+gorithms or Cryptography or Theoretical Computer Science or
+Prerequisites
+Complexity Security at B.Sc. or M.Sc. Level, key qualification scien-
+tific research.
+The students prepare a scientific report on a current research topic
+on the basis of published papers under guidance of a scientific staff
+member and gives a presentation. The topic will be proposed by
+Aim of module
+the professor, but the students may also propose topics. Active
+participation in the seminar presentations of fellow students will
+be expected.
+Expertise:
+The students gain a deep understanding of the research topic, are
+able to explain the topic in detail in a clean and transparent ways
+and are able to classify the significance of the topic and the results
+in relation to the current state of research in the corresponding re-
+search area.
+(MK1, MK2, MK3)
+Methodological competence:
+Learning outcomes and The students are able to read, to understand and to explore scien-
+qualification goals tific literature relevant to the topic. They are aware of the need to
+avoid plagiarism.
+(MF2)
+Personal competence:
+The student has learned how to find relevant literature for a re-
+search topic, write a well structured and clear report about it and
+give a presentation. The seminar serves also as preparation for
+writing and presenting the master thesis.
+(MF2)
+Scientific papers and books. Presentation systems like PowerPoint
+Media
+or beamer Latex.
+112Literature Depends on the topic.
+Do scientific work independently under the guidance of a research
+Methods staff member and manage an active discussion on the topic in a
+groups of peers.
+Presentation and discussion (15-60 minutes), Written essay/report
+Form of assessment
+(5-25 pages), Participation.
+Admission requirements for
+Timely hand-in of seminar papers and presentation materials
+assessment
+60 minutes presentation with 15-30 minutes discussion; written re-
+Duration of assessment
+port (length: 5-25 pages).
+Language English
+Offering Irregular
+Lecturer Matthias Krause, Alexander Moch, Matthias Hamann
+Person in charge Prof. Dr. Matthias Krause
+Duration of module 1 Semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence, M.Sc. Wirtschaftsmathematik
+Semester 3rd semester
+113CS 704 Master Seminar Artificial Intelligence
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+Prerequisites Decision Support or Data Mining or Knowledge Management
+The student prepares a scientific paper and gives a presentation on
+a current research topic based on published research. State-of-the-
+art topics are proposed by the professors. The paper and the
+Aim of module
+presentation are prepared under the guidance of a professor or a
+research staff member. Active participation in the seminar discus-
+sions is expected.
+Expertise:
+The student gains a deep understanding of the research topic.
+He/she is able to describe/summarize the topic in detail in his/her
+own words. He/she reflects on the topic and judges the contribu-
+tion of the research papers.
+(MK1, MK2, MK3)
+Methodological competence:
+The student is able to write a well-structured scientific paper and
+Learning Outcomes and
+to present his/her results. He/she is also aware of the need to
+Qualification Goals
+avoid plagiarism.
+The key qualification Scientific Research is highly recommended as
+a prerequisite for the seminar.
+(MF2)
+Personal qualification:
+The student has learned how to write a well-structured, concise pa-
+per and give a presentation. This is part of the preparation to write
+and present a Master’s Thesis.
+(MF2)
+Media Scientific papers and books; final presentation with latex slides
+Literature Depends on the topic of the seminar
+Do scientific reading independently under the guidance of a profes-
+Teaching and Learning
+sor or a research staff member. Active discussions in a group of
+Methods
+peers.
+114Presentation (15 – 60 minutes) and Seminar Report (5-25 pages de-
+Form of Assessment
+pending on topic), individual or as a group (depending on topic)
+Admission requirements for
+-
+assessment
+Duration of Assessment 6-8 weeks (writing of the report), 15-60 minutes (presentation).
+Language English
+Offering Irregular
+Lecturers Prof. Dr. Heiner Stuckenschmidt
+Person in charge Prof. Dr. Heiner Stuckenschmidt
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of Application
+ence
+Semester 3rd semester
+115CS 707 “Hot Topics in Machine Learning” Seminar
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+Prerequisites Bachelor degree, the fundamentals
+The student prepares a scientific report and gives at least one
+presentation on a current research topic based on published re-
+search papers. The topics lie in the area of Data and Web Science
+and are proposed by the professor or the student. Report and
+presentations are prepared under the guidance of a professor or a
+Aim of module
+research staff member. The student may also moderate a discus-
+sion of a presentation of a fellow student, act as a peer reviewer
+for the presentations or reports of other students, or experiment
+with a data analysis system. Active participation in the seminar dis-
+cussions is expected.
+Expertise:
+The student gains a deep understanding of the research topic.
+He/she is able to describe/summarize the topic in detail in his/her
+own words. He/she reflects on the topic and judges the contribu-
+tions of the research papers.
+Methodological competence:
+Learning Outcomes and The student is able to read, understand, and explore scientific lit-
+Qualification Goals erature relevant to his/her topic. He/she is also aware of the need
+to avoid plagiarism. The key qualification Scientific Research is rec-
+ommended as a prerequisite for this seminar.
+Personal qualification:
+The student has learned how to find relevant literature for a re-
+search topic, write a well-structured, concise report about it and
+give presentations. He/she will be well prepared to write and pre-
+sent a Bachelor's/Master's Thesis.
+Scientific papers and books; software and datasets; final presenta-
+Media
+tion with PowerPoint or similar software
+Literature Depends on the topic of the seminar
+Teaching and Learning Do scientific work independently under the guidance of a professor
+Methods or a research staff member. Active discussions in a group of peers.
+Individual grading of the seminar paper, the oral presentations, the
+peer reviews (if applicable), the created source code (if applicable),
+Form of Assessment
+the active participation in the seminar, and the timeliness of hand-
+ins.
+116Admission requirements -
+for assessment
+Duration of Assessment N/A
+Language English
+HWS, sometimes also FSS
+Offering
+Lecturers Prof. Dr. Rainer Gemulla or research staff member
+Person in charge Prof. Dr. Rainer Gemulla or research staff member
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, MSc. Mannheim Master in Data Sci-
+Range of Application
+ence, Lehramt für Gymnasien
+Semester 3rd semester
+117CS 708 Seminar Software Engineering
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+Prerequisites Bachelor degree, the fundamentals
+Students prepares a scientific paper and gives a presentation on a
+current software engineering research topic based on published re-
+Aim of module search papers. State-of-the-art topics are proposed by the software
+engineering group. Active participation in the seminar discussions
+is expected.
+Expertise:
+The student gains a deep understanding of the research topic.
+He/she is able to describe/summarize the topic in detail in his/her
+own words. He/she reflects on the topic and judges the contribu-
+tion of the research papers.
+(MK1, MK2, MK3)
+Methodological competence:
+The student is able to find the relevant literature for his/her topic,
+Learning Outcomes and
+to write a well-structured scientific paper and to present his/her
+Qualification Goals
+results. He/she is also aware of the need to avoid plagiarism.
+The key qualification Scientific Research is highly recommended as
+a prerequisite for the seminar.
+(MF2)
+Personal qualification:
+The student has learned how to find relevant literature for a re-
+search topic, write a well-structured, concise paper about it and
+give a presentation.
+(MF2)
+Media Scientific papers and books, final presentation
+Literature Depends on the topic of the seminar
+Scientific work performed independently under the guidance of a
+Teaching and Learning
+member of the software engineering group. Active discussions in a
+Methods
+group of peers.
+118Quality of the seminar paper (5- 25 pages) and the oral presenta-
+Form of Assessment tion (15-60 minutes). (Notification will be given at the start of the
+lecture period for this module)
+6-8 weeks (writing of the report 5-25 pages), 15-60 minutes
+Duration of Assessment
+(presentation).
+Language English
+Offering Irregular
+Lecturer Member of the software engineering group
+Duration 1 semester
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of Application
+ence,
+Semester 1./ 2. /3. Semester
+119CS 709 Seminar Text Analytics
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+IS 661 “Text Analytics” or IE 663 “Web Search and Information Re-
+Prerequisites trieval”. Fundamental notions of linear algebra and probability the-
+ory.
+In this seminar, students write a survey/scientific paper and pro-
+vide an overview presentation of state-of-the-art research, as
+found within the existing literature (i.e., published research pa-
+Aim of module pers). Topics of interest focus around a variety of problems and
+tasks from the fields of Natural Language Processing and Infor-
+mation Retrieval. The paper and the presentation are prepared un-
+der the guidance of a professor or a research staff member.
+Expertise:
+Students will acquire a deep understanding of the research topic.
+He/she is expected to describe in-depth and summarize the topic
+in detail in his/her own words, as well as to judge the contribution
+of the research papers to ongoing research.
+(MK1, MK2, MK3)
+Methodological competence:
+Students will develop methods and skills to find relevant literature
+Learning Outcomes and for his/her topic, to write a well-structured survey/scientific paper
+Qualification Goals and to present his/her results. He/she will be also aware of the
+need to avoid plagiarism. The key qualification Scientific Research
+is highly recommended as a prerequisite for the seminar.
+(MF2)
+Personal qualification:
+Students will acquire skills on how to find relevant literature for a
+research topic, write a well-structured, concise paper about it and
+present the results of their work. He/she is well prepared to write
+and present a Master’s Thesis.
+(MF2)
+Scientific papers and books; presentation with PowerPoint or La-
+Media
+TeX.
+120Literature Depends on the topic of the seminar
+Teaching and Learning Do scientific work independently under the guidance of a professor
+Methods or a research staff member. Active discussions in a group of peers.
+Seminar report (length: 5-25 pages); oral presentation (15-60
+Form of Assessment
+minutes)
+Admission requirements for -
+assessment
+6-8 weeks (writing of the report 5-25 pages), 15-60 minutes
+Duration of Assessment
+(presentation).
+Language English or German
+Offering Irregular
+Lecturers Prof. Dr. Simone Paolo Ponzetto
+Person in charge Prof. Dr. Simone Paolo Ponzetto
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of Application
+ence
+Semester 3rd semester
+121CS 710 Selected Topics in Data Science
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+Prerequisites Bachelor degree, the fundamentals
+In this seminar, students perform scientific research, either in the
+form of a literature review or by conducting a small experiment, or
+Aim of module a mixture of both, and prepare a written report about the results.
+Topics of interest focus around a variety of problems and tasks
+from the fields of Data Mining, Web Mining, or the Semantic Web.
+Expertise:
+Students will acquire a deep understanding of the research topic.
+He/she is expected to describe in-depth and summarize the topic
+in detail in his/her own words, as well as to judge the contribution
+of the research papers to ongoing research.
+(MK1, MK2, MK3)
+Methodological competence:
+Students will develop methods and skills to find relevant literature
+for his/her topic, to prepare methodologically sound scientific ex-
+Learning Outcomes and
+periments, and to write a well-structured scientific paper and to
+Qualification Goals
+present his/her results. He/she will be also aware of the need to
+avoid plagiarism. The key qualification Scientific Research is highly
+recommended as a prerequisite for the seminar.
+(MF2)
+Personal qualification:
+Students will acquire skills on how to find relevant literature for a
+research topic, organize a small research task, write a well-struc-
+tured, concise paper about it and present the results of their work.
+He/she is well prepared to write and present a Master’s Thesis.
+(MF2)
+Media Scientific papers and books
+Literature Depends on the topic of the seminar
+Teaching and Learning Do scientific work independently under the guidance of a professor
+Methods or a research staff member
+122Seminar paper (length: 5-25 pages depending on the topic), Peer
+Form of Assessment Review (1-10 pages depending on the topic), Presentation (15-60
+minutes depending on the topic).
+Admission requirements for
+-
+assessment
+Duration of Assessment 6-8 weeks (writing of the essay), 15-60 minutes (presentation).
+Language English or German
+Offering Irregular
+Lecturers Prof. Dr. Heiko Paulheim and research staff members
+Person in charge Prof. Dr. Heiko Paulheim
+Duration of module 1 semester
+Further modules -
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of Application
+ence, Lehramt für Gymnasien
+Semester 3rd semester
+123CS 715 Large-Scale Data Integration Seminar
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+Prerequisites Bachelor degree, the fundamentals
+In this seminar, students perform scientific research, either in the
+form of a literature review or by conducting a small experiment, or
+a mixture of both, and prepare a written report about the results.
+Aim of module
+Topics of interest focus around a variety of problems and tasks
+from the fields of Information Extraction, Schema Matching, Iden-
+tity Resolution, Data Fusion, Data Mining, Web Mining.
+Expertise:
+Students will acquire a deep understanding of the research topic.
+He/she is expected to describe in-depth and summarize the topic
+in detail in his/her own words, as well as to judge the contribution
+of the research papers to ongoing research.
+(MK1, MK2, MK3)
+Methodological competence:
+Students will develop methods and skills to find relevant literature
+for his/her topic, to prepare methodologically sound scientific ex-
+Learning Outcomes and
+periments, and to write a well-structured scientific paper and to
+Qualification Goals
+present his/her results. He/she will be also aware of the need to
+avoid plagiarism. The key qualification Scientific Research is highly
+recommended as a prerequisite for the seminar.
+(MF2)
+Personal qualification:
+Students will acquire skills on how to find relevant literature for a
+research topic, organize a small research task, write a well-struc-
+tured, concise paper about it and present the results of their work.
+He/she is well prepared to write and present a Master’s Thesis.
+(MF2)
+Media Scientific papers and books
+Literature Depends on the topic of the seminar
+124Teaching and Learning Do scientific work independently under the guidance of a professor
+Methods or a research staff member
+Form of Assessment Seminar paper (length: 5-25 pages depending on the topic).
+Admission requirements for -
+assessment
+Duration of Assessment 6-8 weeks (writing of the seminar paper)
+Language English
+Offering Irregular
+Lecturers Prof. Dr. Christian Bizer and research staff members
+Person in charge Prof. Dr. Christian Bizer
+Duration of module 1 semester
+Further modules -
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of Application
+ence, Lehramt für Gymnasien
+Semester 3rd semester
+125CS 716 IT-Security
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+Prerequisites Bachelor degree, the fundamentals
+The student gives a presentation on a current research topic
+based on published research papers. The topics are proposed by
+the professor (but the student may also propose topics). The
+presentation is prepared under the guidance of a professor or a
+Aim of module
+research staff member. The student may also moderate a discus-
+sion of a presentation of a fellow student or act as a peer re-
+viewer for the presentations or reports of other students. Active
+participation in the seminar discussions is expected.
+Expertise:
+The student gains a deep understanding of the research topic.
+He/she is able to describe/summarize the topic in detail in his/her
+own words. He/she reflects on the topic and judges the contribu-
+tions of the research papers.
+(MK1, MK2, MK3)
+Methodological competence:
+The student is able to read, understand, and explore scientific lit-
+Learning Outcomes and
+erature relevant to his/her topic. He/she is also aware of the
+Qualification Goals
+need to avoid plagiarism. The key qualification Scientific Research
+is recommended as a prerequisite for this seminar.
+(MF2)
+Personal qualification:
+The student has learned how to find relevant literature for a re-
+search topic, write a well-structured, concise report about it and
+give a presentation. He/she will be well prepared to write and
+present a Master's Thesis.
+(MF2)
+Scientific papers and books; final presentation with PowerPoint
+Media
+or similar software
+Literature Depends on the topic of the seminar
+126Do scientific work independently under the guidance of a profes-
+Teaching and Learning
+sor or a research staff member. Active discussions in a group of
+Methods
+peers.
+Form of Assessment Grading of the oral presentation and the seminar paper.
+Admission requirements for
+Timely hand-in of seminar paper and presentation
+assessment
+Duration of Assessment 60 minutes talk, 30 minutes discussion
+Language English
+Offering Irregular
+Lecturers Prof. Dr. Armknecht
+Person in charge Prof. Dr. Armknecht
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, Lehramt für Gymnasien, M.Sc. Wirt-
+Range of Application
+schaftsmathematik
+Semester 3rd Semester
+127CS 717 Master Seminar on Computer Vision
+Form of module Seminar
+Type of module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+Prerequisites Higher Level Computer Vision or Image Processing
+The student prepares a scientific paper and gives a presenta-
+tion on a current research topic based on published research.
+State-of-the-art topics are proposed by the professors. The
+Aim of module paper and the presentation are prepared under the guidance
+of a professor or a research staff member. Active participa-
+tion in the seminar discussions is expected.
+Expertise:
+The student gains a deep understanding of the research
+topic. He/she is able to describe/summarize the topic in de-
+tail in his/her own words. He/she reflects on the topic and
+judges the contribution of the research papers.
+Methodological competence:
+The student is able to write a well-structured scientific pa-
+per and to present his/her results. He/she is also aware of
+Learning outcomes and
+the need to avoid pla-
+qualification goals
+giarism. The key qualification Scientific Research is highly
+recommended as a prerequisite for the seminar.
+Personal qualification:
+The student has learned how to write a well-
+structured, concise paper and give a presentation. This is
+part of the preparation to write and present a Master’s The-
+sis.
+Scientific papers and books
+Media
+128Literature Depending on the topic of the seminar
+Do scientific reading independently under the guidance of a
+professor or a research staff member. Active discussions in a
+Methods
+group of peers.
+30% Presentation (takes place after one month)
+70% Seminar Report (has to be submitted after three
+Form of assessment
+month)
+Admission requirements for
+assessment
+Duration of assessment N/A
+Language English
+Offering FSS
+Margret Keuper
+Lecturer
+Person in charge Margret Keuper
+Duration of module 1 Semester
+Further modules
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in
+Range of application Data Science
+Semester 3rd Semester
+129CS 720 Uncertainty Estimation
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+Prerequisites Bachelor degree, the fundamentals
+In this seminar, students perform scientific research, either in the
+form of a literature review or by conducting a small experiment, or
+Aim of module a mixture of both, and prepare a written report about the results.
+Topics of interest focus around a variety of problems and tasks
+from the fields of Data Mining, Web Mining, or the Semantic Web.
+Expertise:
+Students will acquire a deep understanding of the research topic.
+He/she is expected to describe in-depth and summarize the topic
+in detail in his/her own words, as well as to judge the contribution
+of the research papers to ongoing research.
+(MK1, MK2, MK3)
+Methodological competence:
+Students will develop methods and skills to find relevant literature
+for his/her topic, to prepare methodologically sound scientific ex-
+Learning Outcomes and
+periments, and to write a well-structured scientific paper and to
+Qualification Goals
+present his/her results. He/she will be also aware of the need to
+avoid plagiarism. The key qualification Scientific Research is highly
+recommended as a prerequisite for the seminar.
+(MF2)
+Personal qualification:
+Students will acquire skills on how to find relevant literature for a
+research topic, organize a small research task, write a well-struc-
+tured, concise paper about it and present the results of their work.
+He/she is well prepared to write and present a Master’s Thesis.
+(MF2)
+Media Scientific papers and books
+Literature Depends on the topic of the seminar
+Teaching and Learning Do scientific work independently under the guidance of a professor
+Methods or a research staff member
+130Seminar paper (length: 5-25 pages depending on the topic), Peer
+Form of Assessment Review (1-10 pages depending on the topic), Presentation (15-60
+minutes depending on the topic).
+Admission requirements -
+for assessment
+Duration of Assessment 6-8 weeks (writing of the report), 15-60 minutes (presentation).
+Language English or German
+Offering Irregular
+Lecturers Tobias Weller
+Person in charge Prof. Dr. Heiko Paulheim
+Duration of module 1 semester
+Further modules -
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of Application
+ence, Lehramt für Gymnasien
+Semester 3rd semester
+131CS 721 Seminar Data-Science I
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+There are no formal requirements. However, previous participation
+Prerequisites in the courses “Network Science” and “Text Analytics” are recom-
+mended.
+In this seminar, students perform scientific research, either in the
+form of a literature review or by conducting a small experiment, or
+Aim of module a mixture of both, and prepare a written report about the results.
+Topics of interest focus around a variety of problems and tasks
+from the fields of Data-Science, Network Science and Text Mining.
+Expertise:
+Students will acquire a deep understanding of the research topic.
+He/she is expected to describe in-depth and summarize the topic
+in detail in his/her own words, as well as to judge the contribution
+of the research papers to ongoing research.
+(MK1, MK2, MK3)
+Methodological competence:
+Students will develop methods and skills to find relevant literature
+for his/her topic, to prepare methodologically sound scientific ex-
+Learning Outcomes and
+periments, and to write a well-structured scientific paper and to
+Qualification Goals
+present his/her results. He/she will be also aware of the need to
+avoid plagiarism. The key qualification Scientific Research is highly
+recommended as a prerequisite for the seminar.
+(MF2)
+Personal qualification:
+Students will acquire skills on how to find relevant literature for a
+research topic, organize a small research task, write a well-struc-
+tured, concise paper about it and present the results of their work.
+He/she is well prepared to write and present a Master’s Thesis.
+(MF2)
+Media slides, scientific papers, blackboard (electronic)
+Literature Depends on the topic.
+132Teaching and Learning Self-study of assigned material, presentation of scientific articles,
+Methods joint discussion of work, collaboration with peers
+Written report (length: 5-25 pages depending on the topic) with
+Form of Assessment
+oral presentation (15-60 minutes depending on the topic).
+Admission requirements -
+for assessment
+Duration of Assessment 6-8 weeks (writing of the essay), 15-60 minutes (presentation).
+Language English
+Offering Irregular
+Lecturers Markus Strohmaier, Marlene Lutz
+Person in charge Markus Strohmaier, Marlene Lutz
+Duration of module 1 semester
+Further modules -
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of Application
+ence, M. Sc. Mannheim Master Management
+Semester 3rd semester
+133CS 722 Seminar Ethical Aspects of Al
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+IS 661 "Text Analytics" or IE 675b "Machine Learning" or IE 678
+Prerequisites
+"Deep Learning" or IE 560 "Decision Support"
+In this seminar, students perform scientific research, either in
+the form of a literature review or by conducting a small experi-
+ment, or a mixture of both, and prepare a written report about
+Aim of module
+the results. Topics of interest focus around a variety of problems
+and tasks from the fields of Data-Science, Network Science and
+Text Mining.
+Expertise:
+Students will acquire a deep understanding of the research
+topic. He/she is expected to describe in-depth and summarize
+the topic in detail in his/her own words, as well as to judge the
+contribution of the research papers to ongoing research.
+(MK1, MK2, MK3)
+Methodological competence:
+Students will develop methods and skills to find relevant litera-
+ture for his/her topic, to prepare methodologically sound scien-
+tific experiments, and to write a well-structured scientific paper
+Learning Outcomes and Qual-
+and to present his/her results. He/she will be also aware of the
+ification Goals
+need to avoid plagiarism. The key qualification Scientific Re-
+search is highly recommended as a prerequisite for the seminar.
+(MF2)
+Personal qualification:
+Students will acquire skills on how to find relevant literature for
+a research topic, organize a small research task, write a well-
+structured, concise paper about it and present the results of
+their work. He/she is well prepared to write and present a Mas-
+ter’s Thesis.
+(MF2)
+Scientific papers and books; presentation with PowerPoint or
+Media
+LaTeX.
+134Literature Up-to-date literature will be assigned during the seminar.
+Review scientific work independently under the guidance of a
+Teaching and Learning Meth-
+professor or a research staff member. Active discussions in a
+ods
+group of peers.
+Written report (length: 5-25 pages depending on the topic) with
+Form of Assessment
+oral presentation (15-60 minutes depending on the topic).
+Admission requirements for -
+assessment
+Duration of Assessment 6-8 weeks (writing of the essay), 15-60 minutes (presentation).
+Language English
+Offering Irregular
+Lecturers Markus Strohmaier, Simone Ponzetto
+Person in charge Markus Strohmaier, Simone Ponzetto
+Duration of module 1 semester
+Further modules -
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of Application
+Science, M. Sc. Mannheim Master Management
+Semester 3rd semester
+135IE 704 Seminar AI Systems Engineering
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+Prerequisites None
+The student prepares a scientific paper and gives a presentation
+on a current research topic based on published research. State-
+of-the-art topics are proposed by the supervisors. The paper
+Aim of module
+and the presentation are prepared under the guidance of a re-
+search staff member. Active participation in the seminar discus-
+sions is expected.
+Expertise
+The student gains a deep understanding of the research topic.
+He/she is able to describe/summarize the topic in detail in
+his/her own words. He/she reflects on the topic and judges the
+contribution of the research papers.
+(MK1, MK2, MK3)
+Methodological competence
+Learning Outcomes and Qual- The student is able to write a well-structured scientific paper
+ification Goals and to present his/her results. He/she is also aware of the need
+to avoid plagiarism. The key qualification Scientific Research is
+highly recommended as a prerequisite for the seminar.
+(MF2)
+Personal qualification
+The student has learned how to write a well-structured, concise
+paper and give a presentation. This is part of the preparation to
+write and present a Master's Thesis.
+(MF2)
+Media Scientific papers and books; final presentation with PowerPoint
+Literature Depends on the topic of the seminar.
+Do scientific work independently under the guidance of a pro-
+Teaching and Learning Meth-
+fessor or a research staff member. Active discussions in a group
+ods
+of peers.
+Form of Assessment 25% Reviews and Discussion (Review: 1-3 pages)
+13625% Presentation (15 minutes presentation and 10 minutes dis-
+cussion)
+25% Seminar paper submitted for review (max 20 pages in
+springer proceedings format)
+25% "Camera-ready" seminar paper (max 20 pages in springer
+proceedings format)
+Admission requirements for -
+assessment
+Duration of Assessment writing time for papers and reviews 4 to 8 weeks
+Language English
+Offering Irregular
+Lecturers Dr. Christian Bartelt
+Person in charge Dr. Christian Bartelt
+Duration of module 1 Semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of Application
+Science
+Semester 3. Semester
+137H. Master Thesis
+Master Thesis
+Form of module Master Thesis
+Type of module Thesis
+Level Master
+ECTS 30
+Workload Self study: 840 h per semester
+Prerequisites -
+Develop a deep understanding of an advanced topic of data sci-
+Aim of Modules
+ence
+Expertise:
+The student has a deep understanding of an advanced topic.
+(MK1)
+Methodological competence:
+The student is familiar with methods for analysing and inde-
+pendently solving advanced, complex problems.
+(MK1, MK2, MK3)
+Learing outcomes and qualifi- Personal competence:
+cations goals The student has the capability to understand, analyse and inde-
+pendently find solutions to advanced, complex problems.
+The student has the capability to assess and understand the
+state-of-the-art in business informatics and adapt the latest
+technologies and methods to solve real world problems.
+The student is able to present a complex topic in written and
+oral form in a clear and understandable way.
+(MF1, MF2, MF3, MF4, MKO2, MKO3)
+Media Various
+Literature Topic dependent
+Methods Independent research work
+Form of Assessment Written thesis, 10-120 pages in length depending on the topic.
+Admission requirements for To be permitted to write the master thesis, the student is to ob-
+assessment tain at least 60 ECTS
+6 months (execution of the thesis work and writing of the thesis
+Duration of Assessment
+manuscript).
+138Languages English only
+Offering Every semester
+Examiners: University teachers, auxiliary professors, honorary
+professors and senior academic staff members of the School of
+Business informatics and mathematics or of the School of Social
+Person in Charge
+Sciences. Supervisors of other faculties are possible upon appli-
+cation to the examination board and after examination of the
+content.
+Duration of module 1 semester
+Further modules -
+Range of Applications MMDS
+Semester 4th semester
+139Abbreviations
+Explanation of abbreviations
+This degree program provides students with a solid theoretical foundation as well as practi-
+cal skills for data management, data analytics methods, responsible data science and data
+science applications. The courses are divided in five groups - Data Science Fundamentals,
+Data Management, Data Analytics Methods, Responsible Data Science, and Data Science Ap-
+plications. After studying the fundamentals of Data Sciences, students will then learn how to
+manage, analyse, and responsibly handle data. Furthermore, they will learn about the differ-
+ent applications of data science in computer science, social sciences, or business and eco-
+nomics. In addition to the regular lecture courses, students participate in a one or two se-
+mester team project or individual project.
+Knowledge
+During their studies -
+(MK1) all students develop a deep understanding of the relevant concepts, methods
+and problem solving strategies used in different application domains.
+(MK2) technology-oriented students learn the concepts, algorithms and strategies
+used to solve concrete, practical application-oriented problems in informatics.
+(MK3) social sciences-oriented students develop a deep understanding of how to set
+up, analyse and interpret advanced empirical research questions.
+As part of this education, students become familiar with a wide range of models, modelling
+languages, methods, and tools. Regardless of their specialization, students also learn how to
+collect, structure, manipulate, prepare, interpret, communicate, and use data, information
+and knowledge.
+140Capabilities
+After completing their studies, students have the ability to –
+(MF1) apply a wide range of abstraction and analysis techniques.
+(MF2) understand, interpret, describe and present relevant scientific publications.
+(MF3) exploit the latest scientific results.
+(MF4) independently tackle problems in data management and analytics and de-
+scribe their results in a structured, written form.
+(MF5) continue their studies at the PhD level, if their results are of sufficient quality.
+Competencies
+After completing their studies, students have the competences needed to –
+(MKO1) apply their knowledge and capabilities to solve specific problems in a team
+context.
+(MKO2) use their interdisciplinary education to mediate between technical and non-
+technical individuals.
+(MKO3) evaluate the latest changes in programming languages, systems, models and,
+wherever possible, exploit them to develop better solutions to data-science
+related problems.
+141

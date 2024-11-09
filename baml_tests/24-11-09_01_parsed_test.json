@@ -1,0 +1,282 @@
+{
+    "studyProgram": {
+      "name": "Mannheim Master in Data Science",
+      "hasDegree": [
+        "MASTER_OF_SCIENCE"
+      ]
+    },
+    "studyAreas": [
+      {
+        "name": "Data Science Fundamentals",
+        "requiredEcts": [
+          27
+        ],
+        "modules": [
+          {
+            "name": "Large Scale Data Management",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 98,
+            "offeredIn": [
+              "HWS"
+            ],
+            "recommendedSemester": [
+              1,
+              2
+            ],
+            "recommendedLiterature": [
+              "T. Öszu, P. Valduriez Principles of Distributed Database Systems Springer, 4th ed., 2020",
+              "H. Garcia-Molina, J. D. Ullman, J. Widom Database Systems: The Complete Book Prentice Hall, 2nd ed., 2008"
+            ],
+            "hasLecturer": {
+              "name": "Prof. Dr. Rainer Gemulla"
+            },
+            "hasPersonInCharge": {
+              "name": "Prof. Dr. Rainer Gemulla"
+            },
+            "assessmentForms": [
+              "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "prerequisiteModules": [],
+            "additionalPrerequisite": "Very good knowledge of database systems, good knowledge of algorithms and data structures as well as Java programming",
+            "furtherModules": []
+          },
+          {
+            "name": "Data Mining",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 98,
+            "offeredIn": [
+              "HWS"
+            ],
+            "recommendedSemester": [
+              1,
+              2
+            ],
+            "recommendedLiterature": [
+              "Pang-Ning Tan, Michael Steinback, Vipin Kumar: Introduction to Data Mining, 2nd Edition, Pearson.",
+              "Aurélien Géron: Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow, 3rd Edition, O’Reilly."
+            ],
+            "hasLecturer": {
+              "name": "Prof. Dr. Heiko Paulheim; Prof. Dr. Christian Bizer"
+            },
+            "hasPersonInCharge": {
+              "name": "Prof. Dr. Heiko Paulheim; Prof. Dr. Christian Bizer"
+            },
+            "assessmentForms": [
+              "WRITTEN",
+              "ASSIGNEMNT",
+              "ORAL"
+            ],
+            "examinationDistribution": "75/20/5",
+            "examinationDuration": 60,
+            "prerequisiteModules": [
+              "Foundations of Statistics",
+              "Practical Informatics I"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+          },
+          {
+            "name": "Machine Learning",
+            "ects": 9,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 174,
+            "offeredIn": [
+              "HWS"
+            ],
+            "recommendedSemester": [
+              1,
+              2,
+              3
+            ],
+            "recommendedLiterature": [
+              "K.P. Murphy. Probabilistic Machine Learning: An Introduction. The MIT Press, 2022",
+              "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT Press, 2017"
+            ],
+            "hasLecturer": {
+              "name": "Prof. Dr. Rainer Gemulla"
+            },
+            "hasPersonInCharge": {
+              "name": "Prof. Dr. Rainer Gemulla"
+            },
+            "assessmentForms": [
+              "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "prerequisiteModules": [
+              "IE 500 Data Mining"
+            ],
+            "additionalPrerequisite": "Knowledge of probability and statistics, no attempted or completed IE 675 exam",
+            "furtherModules": []
+          },
+          {
+            "name": "Data Security and Privacy",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 112,
+            "offeredIn": [],
+            "recommendedSemester": [
+              1,
+              2,
+              3
+            ],
+            "recommendedLiterature": [],
+            "hasLecturer": {
+              "name": "Prof. Dr. Frederik Armknecht"
+            },
+            "hasPersonInCharge": {
+              "name": "Prof. Dr. Frederik Armknecht"
+            },
+            "assessmentForms": [
+              "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "prerequisiteModules": [],
+            "additionalPrerequisite": "Knowledge in cryptography or IT-security is recommended.",
+            "furtherModules": []
+          }
+        ]
+      },
+      {
+        "name": "Data Management",
+        "requiredEcts": [
+          6,
+          24
+        ],
+        "modules": [
+          {
+            "name": "Additional Course – Data Management",
+            "ects": 18,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 0,
+            "offeredIn": [
+              "HWS"
+            ],
+            "recommendedSemester": [
+              2,
+              3,
+              4
+            ],
+            "recommendedLiterature": [],
+            "hasLecturer": {
+              "name": "Lecturer at the host university"
+            },
+            "hasPersonInCharge": {
+              "name": "Lecturer at the host university"
+            },
+            "assessmentForms": [
+              "WRITTEN",
+              "ORAL"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "prerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+          },
+          {
+            "name": "Sampling and Data",
+            "ects": 9,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 214,
+            "offeredIn": [
+              "HWS"
+            ],
+            "recommendedSemester": [
+              1
+            ],
+            "recommendedLiterature": [
+              "Salganik, M. 2017. Bit by Bit: Social Research in the Digital Age. Princeton, NJ: Princeton University Press.",
+              "Foster et al. 2020. Big Data and Social Science: A Practical Guide to Methods and Tools. 2nd Edition. Boca Raton, FL: CRC Press."
+            ],
+            "hasLecturer": {
+              "name": "Lecturer of the School of Social Sciences"
+            },
+            "hasPersonInCharge": {
+              "name": "Lecturer of the School of Social Sciences"
+            },
+            "assessmentForms": [
+              "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "prerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+          }
+        ]
+      },
+      {
+        "name": "Data Analytics Methods",
+        "requiredEcts": [
+          12,
+          36
+        ],
+        "modules": [
+          {
+            "name": "Statistics for Data Scientists",
+            "ects": 9,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 214,
+            "offeredIn": [
+              "HWS"
+            ],
+            "recommendedSemester": [
+              1
+            ],
+            "recommendedLiterature": [],
+            "hasLecturer": {
+              "name": "Prof. Dr. XX"
+            },
+            "hasPersonInCharge": {
+              "name": "Prof. Dr. YY"
+            },
+            "assessmentForms": [
+              "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "prerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+          }
+        ]
+      },
+      {
+        "name": "Responsible Data Science",
+        "requiredEcts": [
+          3,
+          7
+        ],
+        "modules": []
+      },
+      {
+        "name": "Data Science Applications",
+        "requiredEcts": [
+          0,
+          12
+        ],
+        "modules": []
+      },
+      {
+        "name": "Projects and Seminars",
+        "requiredEcts": [
+          14,
+          18
+        ],
+        "modules": []
+      },
+      {
+        "name": "Master Thesis",
+        "requiredEcts": [
+          30
+        ],
+        "modules": []
+      }
+    ]
+  }

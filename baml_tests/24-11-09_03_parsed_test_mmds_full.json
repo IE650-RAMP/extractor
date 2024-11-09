@@ -1,0 +1,489 @@
+{
+    "studyProgram": {
+      "name": "Mannheim Master in Data Science",
+      "hasDegree": [
+        "MASTER_OF_SCIENCE"
+      ]
+    },
+    "studyAreas": [
+      {
+        "name": "Data Science Fundamentals",
+        "requiredEcts": [
+          27
+        ],
+        "modules": [
+          {
+            "name": "large_scale_data_management",
+            "id": "CS560",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 98,
+            "offeredIn": [
+              "HWS"
+            ],
+            "recommendedSemester": [
+              1,
+              2
+            ],
+            "recommendedLiterature": [
+              "T. Öszu, P. Valduriez Principles of Distributed Database Systems Springer, 4th ed., 2020",
+              "H. Garcia-Molina, J. D. Ullman, J. Widom Database Systems: The Complete Book Prentice Hall, 2nd ed., 2008"
+            ],
+            "hasLecturer": [
+              {
+                "name": "Prof. Dr. Rainer Gemulla",
+                "title": "Prof. Dr.",
+                "isPerson": true
+              }
+            ],
+            "hasPersonInCharge": [
+              {
+                "name": "Prof. Dr. Rainer Gemulla",
+                "title": "Prof. Dr.",
+                "isPerson": true
+              }
+            ],
+            "assessmentForms": [
+              "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "prerequisiteModules": [
+              "CS500",
+              "CS550"
+            ],
+            "additionalPrerequisite": "Very good knowledge of database systems, good knowledge of algorithms and data structures as well as Java programming",
+            "furtherModules": []
+          },
+          {
+            "name": "data_mining",
+            "id": "IE500",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 98,
+            "offeredIn": [
+              "HWS"
+            ],
+            "recommendedSemester": [
+              1,
+              2
+            ],
+            "recommendedLiterature": [
+              "Pang-Ning Tan, Michael Steinback, Vipin Kumar: Introduction to Data Mining, 2nd Edition, Pearson.",
+              "Aurélien Géron: Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow, 3rd Edition, O’Reilly."
+            ],
+            "hasLecturer": [
+              {
+                "name": "Prof. Dr. Heiko Paulheim",
+                "title": "Prof. Dr.",
+                "isPerson": true
+              },
+              {
+                "name": "Prof. Dr. Christian Bizer",
+                "title": "Prof. Dr.",
+                "isPerson": true
+              }
+            ],
+            "hasPersonInCharge": [
+              {
+                "name": "Prof. Dr. Heiko Paulheim",
+                "title": "Prof. Dr.",
+                "isPerson": true
+              },
+              {
+                "name": "Prof. Dr. Christian Bizer",
+                "title": "Prof. Dr.",
+                "isPerson": true
+              }
+            ],
+            "assessmentForms": [
+              "WRITTEN",
+              "PRESENTATION"
+            ],
+            "examinationDistribution": "75/20/5",
+            "examinationDuration": 60,
+            "prerequisiteModules": [],
+            "additionalPrerequisite": "Foundations of Statistics, Practical Informatics I",
+            "furtherModules": []
+          },
+          {
+            "name": "machine_learning",
+            "id": "IE675b",
+            "ects": 9,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 174,
+            "offeredIn": [
+              "HWS"
+            ],
+            "recommendedSemester": [
+              1,
+              2,
+              3
+            ],
+            "recommendedLiterature": [
+              "K.P. Murphy. Probabilistic Machine Learning: An Introduction. The MIT Press, 2022",
+              "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT Press, 2017"
+            ],
+            "hasLecturer": [
+              {
+                "name": "Prof. Dr. Rainer Gemulla",
+                "title": "Prof. Dr.",
+                "isPerson": true
+              }
+            ],
+            "hasPersonInCharge": [
+              {
+                "name": "Prof. Dr. Rainer Gemulla",
+                "title": "Prof. Dr.",
+                "isPerson": true
+              }
+            ],
+            "assessmentForms": [
+              "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "prerequisiteModules": [
+              "IE500"
+            ],
+            "additionalPrerequisite": "Knowledge of probability and statistics",
+            "furtherModules": []
+          },
+          {
+            "name": "data_security_and_privacy",
+            "id": "CS652",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 112,
+            "offeredIn": [],
+            "recommendedSemester": [
+              1,
+              2,
+              3
+            ],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+              {
+                "name": "Prof. Dr. Frederik Armknecht",
+                "title": "Prof. Dr.",
+                "isPerson": true
+              }
+            ],
+            "hasPersonInCharge": [
+              {
+                "name": "Prof. Dr. Frederik Armknecht",
+                "title": "Prof. Dr.",
+                "isPerson": true
+              }
+            ],
+            "assessmentForms": [
+              "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "prerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+          }
+        ]
+      },
+      {
+        "name": "Data Management",
+        "requiredEcts": [
+          6,
+          24
+        ],
+        "modules": [
+          {
+            "name": "sampling_and_data",
+            "id": "DS200",
+            "ects": 9,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 214,
+            "offeredIn": [
+              "HWS"
+            ],
+            "recommendedSemester": [
+              1
+            ],
+            "recommendedLiterature": [
+              "Salganik, M. 2017. Bit by Bit: Social Research in the Digital Age. Princeton University Press."
+            ],
+            "hasLecturer": [
+              {
+                "name": "Lecture of the School of Social Sciences",
+                "title": null,
+                "isPerson": false
+              }
+            ],
+            "hasPersonInCharge": [
+              {
+                "name": "Chair of Social Data Science",
+                "title": null,
+                "isPerson": false
+              }
+            ],
+            "assessmentForms": [
+              "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "prerequisiteModules": [],
+            "additionalPrerequisite": "N/A",
+            "furtherModules": []
+          },
+          {
+            "name": "advanced_software_engineering",
+            "id": "CS500",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 112,
+            "offeredIn": [
+              "HWS"
+            ],
+            "recommendedSemester": [
+              1,
+              2
+            ],
+            "recommendedLiterature": [
+              "Paul Ammann & Jeff Offutt., “Introduction to Software Testing”, Cambridge University Press, January 2008."
+            ],
+            "hasLecturer": [
+              {
+                "name": "Dr. Marcus Kessel",
+                "title": "Dr.",
+                "isPerson": true
+              },
+              {
+                "name": "Prof. Dr. Colin Atkinson",
+                "title": "Prof. Dr.",
+                "isPerson": true
+              }
+            ],
+            "hasPersonInCharge": [
+              {
+                "name": "Prof. Dr. Colin Atkinson",
+                "title": "Prof. Dr.",
+                "isPerson": true
+              }
+            ],
+            "assessmentForms": [
+              "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "prerequisiteModules": [
+              "Practical Informatics I"
+            ],
+            "additionalPrerequisite": "Knowledge of Java and/or Python",
+            "furtherModules": []
+          }
+        ]
+      },
+      {
+        "name": "Data Analytics Methods",
+        "requiredEcts": [
+          12,
+          36
+        ],
+        "modules": [
+          {
+            "name": "statistics_for_data_scientists",
+            "id": "DS100",
+            "ects": 9,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 214,
+            "offeredIn": [
+              "HWS"
+            ],
+            "recommendedSemester": [
+              1
+            ],
+            "recommendedLiterature": [
+              "Cameron, C.A. and P.K. Trivedi. 1998. Regression Analysis of Count Data. Cambridge: Cambridge University Press."
+            ],
+            "hasLecturer": [
+              {
+                "name": "Lecture of the School of Social Sciences",
+                "title": null,
+                "isPerson": false
+              }
+            ],
+            "hasPersonInCharge": [
+              {
+                "name": "Chair of Social Data Science",
+                "title": null,
+                "isPerson": false
+              }
+            ],
+            "assessmentForms": [
+              "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "prerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+          },
+          {
+            "name": "machine_learning_and_causal_inference",
+            "id": "DS201",
+            "ects": 9,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 214,
+            "offeredIn": [],
+            "recommendedSemester": [
+              2
+            ],
+            "recommendedLiterature": [
+              "Angrist, Joshua D., and Jörn-Steffen Pischke. 2009. Mostly Harmless Econometrics: An Empiricist’s Companion. Princeton: Princeton University Press.",
+              "Murphy, Kevin P. 2012. Machine Learning: A Probabilistic Perspective. Cambridge: MIT Press."
+            ],
+            "hasLecturer": [
+              {
+                "name": "Lecture of the School of Social Sciences",
+                "title": null,
+                "isPerson": false
+              }
+            ],
+            "hasPersonInCharge": [
+              {
+                "name": "Chair of Social Data Science",
+                "title": null,
+                "isPerson": false
+              }
+            ],
+            "assessmentForms": [
+              "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "prerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+          }
+        ]
+      },
+      {
+        "name": "Responsible Data Science",
+        "requiredEcts": [
+          3,
+          7
+        ],
+        "modules": [
+          {
+            "name": "legal_and_ethical_aspects_of_privacy",
+            "id": "Legal and Ethical Aspects of Privacy",
+            "ects": 3,
+            "workloadInPerson": 28,
+            "workloadSelfStudy": 60,
+            "offeredIn": [
+              "HWS"
+            ],
+            "recommendedSemester": [
+              1
+            ],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+              {
+                "name": "Prof. Dr. Thomas Fetzer",
+                "title": "Prof. Dr.",
+                "isPerson": true
+              }
+            ],
+            "hasPersonInCharge": [
+              {
+                "name": "Prof. Dr. Thomas Fetzer",
+                "title": "Prof. Dr.",
+                "isPerson": true
+              }
+            ],
+            "assessmentForms": [
+              "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "prerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+          }
+        ]
+      },
+      {
+        "name": "Data Science Applications",
+        "requiredEcts": [
+          0,
+          12
+        ],
+        "modules": [
+          {
+            "name": "artificial_intelligence_applications_in_industry",
+            "id": "IE694",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 124,
+            "offeredIn": [],
+            "recommendedSemester": [
+              2,
+              3
+            ],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+              {
+                "name": "Prof. Dr. Heiner Stuckenschmidt",
+                "title": "Prof. Dr.",
+                "isPerson": true
+              }
+            ],
+            "hasPersonInCharge": [
+              {
+                "name": "Prof. Dr. Heiner Stuckenschmidt",
+                "title": "Prof. Dr.",
+                "isPerson": true
+              }
+            ],
+            "assessmentForms": [
+              "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "prerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+          }
+        ]
+      },
+      {
+        "name": "Projects and Seminars",
+        "requiredEcts": [
+          0,
+          18
+        ],
+        "modules": [
+          {
+            "name": "team_project",
+            "id": "TP500",
+            "ects": 12,
+            "workloadInPerson": 28,
+            "workloadSelfStudy": 140,
+            "offeredIn": [
+              "HWS"
+            ],
+            "recommendedSemester": [
+              2,
+              3
+            ],
+            "recommendedLiterature": [],
+            "hasLecturer": [],
+            "hasPersonInCharge": [],
+            "assessmentForms": [],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "prerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+          }
+        ]
+      }
+    ]
+  }
