@@ -1,0 +1,191 @@
+@prefix : <http://ramp.uni-mannheim.de#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ramp: <http://ramp.uni-mannheim.de/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://ramp.uni-mannheim.de> .
+
+<http://ramp.uni-mannheim.de> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://ramp.uni-mannheim.de/examinationDistribution
+ramp:examinationDistribution rdf:type owl:AnnotationProperty ;
+                             rdfs:range ramp:AssessmentForm ;
+                             rdfs:domain ramp:Module .
+
+
+###  http://ramp.uni-mannheim.de/examinationDuration
+ramp:examinationDuration rdf:type owl:AnnotationProperty ;
+                         rdfs:range ramp:AssessmentForm ;
+                         rdfs:domain ramp:Module .
+
+
+###  http://ramp.uni-mannheim.de/recommended
+ramp:recommended rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://ramp.uni-mannheim.de/hasDegree
+ramp:hasDegree rdf:type owl:ObjectProperty ;
+               rdfs:domain ramp:StudyProgram ;
+               rdfs:range ramp:Degree .
+
+
+###  http://ramp.uni-mannheim.de/hasExaminationForm
+ramp:hasExaminationForm rdf:type owl:ObjectProperty .
+
+
+###  http://ramp.uni-mannheim.de/hasLecturer
+ramp:hasLecturer rdf:type owl:ObjectProperty ;
+                 rdfs:domain ramp:Module ;
+                 rdfs:range foaf:Person .
+
+
+###  http://ramp.uni-mannheim.de/hasPersonInCharge
+ramp:hasPersonInCharge rdf:type owl:ObjectProperty ;
+                       rdfs:domain ramp:Module ;
+                       rdfs:range foaf:Person .
+
+
+###  http://ramp.uni-mannheim.de/isChairOf
+ramp:isChairOf rdf:type owl:ObjectProperty .
+
+
+###  http://ramp.uni-mannheim.de/isFollowupOfModule
+ramp:isFollowupOfModule rdf:type owl:ObjectProperty ,
+                                 owl:TransitiveProperty ;
+                        rdfs:domain ramp:Module ;
+                        rdfs:range ramp:Module .
+
+
+###  http://ramp.uni-mannheim.de/isMandatoryPrerequisiteOf
+ramp:isMandatoryPrerequisiteOf rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf ramp:isPrerequisiteOf ;
+                               rdfs:domain ramp:Module ;
+                               rdfs:range ramp:Module .
+
+
+###  http://ramp.uni-mannheim.de/isPartOfStudyArea
+ramp:isPartOfStudyArea rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty ;
+                       rdfs:domain ramp:Module ;
+                       rdfs:range ramp:StudyArea ;
+                       owl:propertyChainAxiom ( ramp:isFollowupOfModule
+                                                ramp:isPartOfStudyArea
+                                              ) .
+
+
+###  http://ramp.uni-mannheim.de/isPartOfStudyProgram
+ramp:isPartOfStudyProgram rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf owl:topObjectProperty ;
+                          rdfs:domain ramp:StudyArea ;
+                          rdfs:range ramp:StudyProgram .
+
+
+###  http://ramp.uni-mannheim.de/isPrerequisiteOf
+ramp:isPrerequisiteOf rdf:type owl:ObjectProperty ;
+                      rdfs:domain ramp:Module ;
+                      rdfs:range ramp:Module .
+
+
+###  http://ramp.uni-mannheim.de/isRecommendedPrerequisiteOf
+ramp:isRecommendedPrerequisiteOf rdf:type owl:ObjectProperty ;
+                                 rdfs:subPropertyOf ramp:isPrerequisiteOf ;
+                                 rdfs:domain ramp:Module ;
+                                 rdfs:range ramp:Module .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://ramp.uni-mannheim.de/additionalPrerequisite
+ramp:additionalPrerequisite rdf:type owl:DatatypeProperty ;
+                            rdfs:domain ramp:Module .
+
+
+###  http://ramp.uni-mannheim.de/ects
+ramp:ects rdf:type owl:DatatypeProperty ;
+          rdfs:domain ramp:Module ;
+          rdfs:range xsd:decimal ;
+          rdfs:label "ECTS" .
+
+
+###  http://ramp.uni-mannheim.de/offeredIn
+ramp:offeredIn rdf:type owl:DatatypeProperty ;
+               rdfs:domain ramp:Module ;
+               rdfs:range [ rdf:type rdfs:Datatype ;
+                            owl:oneOf [ rdf:type rdf:List ;
+                                        rdf:first "FFS" ;
+                                        rdf:rest [ rdf:type rdf:List ;
+                                                   rdf:first "HWS" ;
+                                                   rdf:rest rdf:nil
+                                                 ]
+                                      ]
+                          ] .
+
+
+###  http://ramp.uni-mannheim.de/recommendedLiterature
+ramp:recommendedLiterature rdf:type owl:DatatypeProperty ;
+                           rdfs:label "Recommended Literature"@en .
+
+
+###  http://ramp.uni-mannheim.de/recommendedSemester
+ramp:recommendedSemester rdf:type owl:DatatypeProperty ;
+                         rdfs:domain ramp:Module ;
+                         rdfs:range xsd:decimal ;
+                         rdfs:label "Recommended Semester"@en .
+
+
+###  http://ramp.uni-mannheim.de/workloadInPerson
+ramp:workloadInPerson rdf:type owl:DatatypeProperty ;
+                      rdfs:domain ramp:Module ;
+                      rdfs:range xsd:decimal .
+
+
+###  http://ramp.uni-mannheim.de/workloadSelfStudy
+ramp:workloadSelfStudy rdf:type owl:DatatypeProperty ;
+                       rdfs:domain ramp:Module ;
+                       rdfs:range xsd:decimal .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://ramp.uni-mannheim.de/AssessmentForm
+ramp:AssessmentForm rdf:type owl:Class .
+
+
+###  http://ramp.uni-mannheim.de/Degree
+ramp:Degree rdf:type owl:Class .
+
+
+###  http://ramp.uni-mannheim.de/Module
+ramp:Module rdf:type owl:Class ;
+            owl:disjointWith ramp:StudyArea ,
+                             ramp:StudyProgram .
+
+
+###  http://ramp.uni-mannheim.de/StudyArea
+ramp:StudyArea rdf:type owl:Class .
+
+
+###  http://ramp.uni-mannheim.de/StudyProgram
+ramp:StudyProgram rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+foaf:Person rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
