@@ -1,0 +1,425 @@
+{
+  "studyProgram": {
+    "name": "Mannheim Master in Data Science (MMDS)",
+    "hasDegree": ["MASTER_OF_SCIENCE"]
+  },
+  "studyAreas": [
+    {
+      "name": "Data Science Fundamentals",
+      "requiredEcts": [27],
+      "modules": [
+        {
+          "name": "large_scale_data_management",
+          "id": "CS 560",
+          "ects": 6,
+          "workloadInPerson": 56,
+          "workloadSelfStudy": 98,
+          "offeredIn": ["HWS"],
+          "recommendedSemester": [1, 2],
+          "recommendedLiterature": [
+            "T. Öszu, P. Valduriez: Principles of Distributed Database Systems, Springer, 4th ed., 2020",
+            "H. Garcia-Molina, J. D. Ullman, J. Widom: Database Systems: The Complete Book, Prentice Hall, 2nd ed., 2008"
+          ],
+          "hasLecturer": [
+            {
+              "name": "Rainer Gemulla",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "hasPersonInCharge": [
+            {
+              "name": "Rainer Gemulla",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "assessmentForms": ["WRITTEN"],
+          "examinationDistribution": null,
+          "examinationDuration": 90,
+          "prerequisiteModules": [],
+          "additionalPrerequisite": null,
+          "furtherModules": []
+        },
+        {
+          "name": "data_mining",
+          "id": "IE 500",
+          "ects": 6,
+          "workloadInPerson": 56,
+          "workloadSelfStudy": 98,
+          "offeredIn": ["HWS"],
+          "recommendedSemester": [1, 2],
+          "recommendedLiterature": [
+            "Pang-Ning Tan, Michael Steinback, Vipin Kumar: Introduction to Data Mining, 2nd Edition, Pearson",
+            "Aurélien Géron: Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow, 3rd Edition, O'Reilly"
+          ],
+          "hasLecturer": [
+            {
+              "name": "Heiko Paulheim",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            },
+            {
+              "name": "Christian Bizer",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "hasPersonInCharge": [
+            {
+              "name": "Heiko Paulheim",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            },
+            {
+              "name": "Christian Bizer",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "assessmentForms": ["WRITTEN", "REPORT", "PRESENTATION"],
+          "examinationDistribution": "75/20/5",
+          "examinationDuration": 60,
+          "prerequisiteModules": [],
+          "additionalPrerequisite": null,
+          "furtherModules": []
+        },
+        {
+          "name": "machine_learning",
+          "id": "IE 675b",
+          "ects": 9,
+          "workloadInPerson": 56,
+          "workloadSelfStudy": 174,
+          "offeredIn": ["HWS"],
+          "recommendedSemester": [1, 2, 3],
+          "recommendedLiterature": [
+            "K.P. Murphy. Probabilistic Machine Learning: An Introduction. The MIT Press, 2022",
+            "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT Press, 2017"
+          ],
+          "hasLecturer": [
+            {
+              "name": "Rainer Gemulla",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "hasPersonInCharge": [
+            {
+              "name": "Rainer Gemulla",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "assessmentForms": ["WRITTEN"],
+          "examinationDistribution": null,
+          "examinationDuration": 90,
+          "prerequisiteModules": ["IE 500"],
+          "additionalPrerequisite": "knowledge of probability and statistics, no attempted or completed IE 675 exam",
+          "furtherModules": []
+        },
+        {
+          "name": "data_security_and_privacy",
+          "id": "CS 652",
+          "ects": 6,
+          "workloadInPerson": 56,
+          "workloadSelfStudy": 112,
+          "offeredIn": [],
+          "recommendedSemester": [1, 2, 3],
+          "recommendedLiterature": [],
+          "hasLecturer": [
+            {
+              "name": "Frederik Armknecht",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "hasPersonInCharge": [
+            {
+              "name": "Frederik Armknecht",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "assessmentForms": ["WRITTEN"],
+          "examinationDistribution": null,
+          "examinationDuration": 90,
+          "prerequisiteModules": [],
+          "additionalPrerequisite": null,
+          "furtherModules": []
+        }
+      ]
+    },
+    {
+      "name": "Data Management",
+      "requiredEcts": [6, 24],
+      "modules": [
+        {
+          "name": "sampling_and_data",
+          "id": "DS 200",
+          "ects": 9,
+          "workloadInPerson": 56,
+          "workloadSelfStudy": 214,
+          "offeredIn": ["HWS"],
+          "recommendedSemester": [1],
+          "recommendedLiterature": [
+            "Salganik, M. 2017. Bit by Bit: Social Research in the Digital Age. Princeton, NJ: Princeton University Press.",
+            "Foster et al. 2020. Big Data and Social Science: A Practical Guide to Methods and Tools. 2nd Edition. Boca Raton, FL: CRC Press."
+          ],
+          "hasLecturer": [],
+          "hasPersonInCharge": [],
+          "assessmentForms": ["WRITTEN"],
+          "examinationDistribution": null,
+          "examinationDuration": 90,
+          "prerequisiteModules": [],
+          "additionalPrerequisite": null,
+          "furtherModules": []
+        },
+        {
+          "name": "advanced_software_engineering",
+          "id": "CS 500",
+          "ects": 6,
+          "workloadInPerson": 56,
+          "workloadSelfStudy": 112,
+          "offeredIn": ["HWS"],
+          "recommendedSemester": [1, 2],
+          "recommendedLiterature": [
+            "Paul Ammann & Jeff Offutt., \"Introduction to Software Testing\", Cambridge University Press, January 2008."
+          ],
+          "hasLecturer": [
+            {
+              "name": "Marcus Kessel",
+              "title": "Dr.",
+              "isPerson": true
+            },
+            {
+              "name": "Colin Atkinson",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "hasPersonInCharge": [
+            {
+              "name": "Colin Atkinson",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "assessmentForms": ["WRITTEN"],
+          "examinationDistribution": null,
+          "examinationDuration": 90,
+          "prerequisiteModules": [],
+          "additionalPrerequisite": null,
+          "furtherModules": []
+        },
+        {
+          "name": "algorithmics",
+          "id": "CS 550",
+          "ects": 6,
+          "workloadInPerson": 56,
+          "workloadSelfStudy": 112,
+          "offeredIn": ["HWS"],
+          "recommendedSemester": [1, 2],
+          "recommendedLiterature": [
+            "Cormen, Leiserson, Rivest, Stein: Introduction to Algorithms, 3rd edition",
+            "Shimon Even: Graph Algorithms",
+            "Lovasz, Plummer: Matching Theory",
+            "Handbooks on Operations Research and Management Science Volume 7 (Editors: Ball, Magnati, Monma, Nemhauser)",
+            "J. Toran: Das Erfüllbarkeitsproblem SAT, Lehmann Media, 2012"
+          ],
+          "hasLecturer": [
+            {
+              "name": "Matthias Krause",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "hasPersonInCharge": [
+            {
+              "name": "Matthias Krause",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "assessmentForms": ["WRITTEN"],
+          "examinationDistribution": null,
+          "examinationDuration": 90,
+          "prerequisiteModules": ["CS 651"],
+          "additionalPrerequisite": null,
+          "furtherModules": []
+        },
+        {
+          "name": "model_driven_development",
+          "id": "CS 600",
+          "ects": 6,
+          "workloadInPerson": 56,
+          "workloadSelfStudy": 112,
+          "offeredIn": ["HWS"],
+          "recommendedSemester": [2, 3, 4],
+          "recommendedLiterature": [
+            "Jos B. Warmer and Anneke G. Kleppe, The Object Constraint Language: Getting Your Models Ready for MDA, Addison-Wesley Object Technology Series, 2003"
+          ],
+          "hasLecturer": [
+            {
+              "name": "Colin Atkinson",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "hasPersonInCharge": [
+            {
+              "name": "Colin Atkinson",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "assessmentForms": ["WRITTEN"],
+          "examinationDistribution": null,
+          "examinationDuration": 90,
+          "prerequisiteModules": ["CS 500"],
+          "additionalPrerequisite": null,
+          "furtherModules": []
+        },
+        {
+          "name": "cryptography_ii",
+          "id": "CS 651",
+          "ects": 6,
+          "workloadInPerson": 56,
+          "workloadSelfStudy": 112,
+          "offeredIn": ["HWS"],
+          "recommendedSemester": [1, 2, 3],
+          "recommendedLiterature": [],
+          "hasLecturer": [
+            {
+              "name": "Frederik Armknecht",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "hasPersonInCharge": [
+            {
+              "name": "Frederik Armknecht",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "assessmentForms": ["ORAL"],
+          "examinationDistribution": null,
+          "examinationDuration": 30,
+          "prerequisiteModules": [],
+          "additionalPrerequisite": null,
+          "furtherModules": []
+        },
+        {
+          "name": "cryptography",
+          "id": "CS 655",
+          "ects": 6,
+          "workloadInPerson": 56,
+          "workloadSelfStudy": 98,
+          "offeredIn": [],
+          "recommendedSemester": [1, 2, 3],
+          "recommendedLiterature": [],
+          "hasLecturer": [
+            {
+              "name": "Matthias Krause",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "hasPersonInCharge": [
+            {
+              "name": "Matthias Krause",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "assessmentForms": ["ORAL"],
+          "examinationDistribution": "100",
+          "examinationDuration": 15,
+          "prerequisiteModules": [],
+          "additionalPrerequisite": null,
+          "furtherModules": []
+        },
+        {
+          "name": "types_and_programming_languages",
+          "id": "CS 662",
+          "ects": 6,
+          "workloadInPerson": 56,
+          "workloadSelfStudy": 112,
+          "offeredIn": [],
+          "recommendedSemester": [1, 2, 3],
+          "recommendedLiterature": [],
+          "hasLecturer": [
+            {
+              "name": "Roland Leißa",
+              "title": "Junior Professor Dr.",
+              "isPerson": true
+            }
+          ],
+          "hasPersonInCharge": [
+            {
+              "name": "Roland Leißa",
+              "title": "Junior Professor Dr.",
+              "isPerson": true
+            }
+          ],
+          "assessmentForms": ["WRITTEN"],
+          "examinationDistribution": null,
+          "examinationDuration": 90,
+          "prerequisiteModules": [],
+          "additionalPrerequisite": null,
+          "furtherModules": []
+        },
+        {
+          "name": "blockchain_security",
+          "id": "CS 664",
+          "ects": 6,
+          "workloadInPerson": 56,
+          "workloadSelfStudy": 112,
+          "offeredIn": ["HWS"],
+          "recommendedSemester": [1, 2, 3],
+          "recommendedLiterature": [],
+          "hasLecturer": [
+            {
+              "name": "Frederik Armknecht",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "hasPersonInCharge": [
+            {
+              "name": "Frederik Armknecht",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "assessmentForms": ["WRITTEN"],
+          "examinationDistribution": null,
+          "examinationDuration": 90,
+          "prerequisiteModules": [],
+          "additionalPrerequisite": null,
+          "furtherModules": []
+        },
+        {
+          "name": "information_retrieval_and_web_search",
+          "id": "IE 663",
+          "ects": 3,
+          "workloadInPerson": 28,
+          "workloadSelfStudy": 60,
+          "offeredIn": ["HWS"],
+          "recommendedSemester": [1, 2, 3],
+          "recommendedLiterature": [
+            "Christopher D. Manning, Prabhakar Raghavan and Hinrich Schütze, Introduction to Information"
+          ],
+          "hasLecturer": [],
+          "hasPersonInCharge": [],
+          "assessmentForms": [],
+          "examinationDistribution": null,
+          "examinationDuration": null,
+          "prerequisiteModules": [],
+          "additionalPrerequisite": null,
+          "furtherModules": []
+        }
+      ]
+    }
+  ]
+}

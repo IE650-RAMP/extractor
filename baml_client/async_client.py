@@ -54,7 +54,7 @@ class BamlAsyncClient:
         self,
         module_catalog: str,
         baml_options: BamlCallOptions = {},
-    ) -> types.ModuleCataloge:
+    ) -> types.ModuleCatalog:
       __tb__ = baml_options.get("tb", None)
       if __tb__ is not None:
         tb = __tb__._tb
@@ -71,7 +71,53 @@ class BamlAsyncClient:
         tb,
         __cr__,
       )
-      return cast(types.ModuleCataloge, raw.cast_to(types, types))
+      return cast(types.ModuleCatalog, raw.cast_to(types, types))
+    
+    async def ExtractModulesList(
+        self,
+        module_catalog: str,
+        baml_options: BamlCallOptions = {},
+    ) -> types.ModuleList:
+      __tb__ = baml_options.get("tb", None)
+      if __tb__ is not None:
+        tb = __tb__._tb
+      else:
+        tb = None
+      __cr__ = baml_options.get("client_registry", None)
+
+      raw = await self.__runtime.call_function(
+        "ExtractModulesList",
+        {
+          "module_catalog": module_catalog,
+        },
+        self.__ctx_manager.get(),
+        tb,
+        __cr__,
+      )
+      return cast(types.ModuleList, raw.cast_to(types, types))
+    
+    async def ExtractStudyProgrammOverview(
+        self,
+        module_catalog: str,
+        baml_options: BamlCallOptions = {},
+    ) -> types.StudyProgrammOverview:
+      __tb__ = baml_options.get("tb", None)
+      if __tb__ is not None:
+        tb = __tb__._tb
+      else:
+        tb = None
+      __cr__ = baml_options.get("client_registry", None)
+
+      raw = await self.__runtime.call_function(
+        "ExtractStudyProgrammOverview",
+        {
+          "module_catalog": module_catalog,
+        },
+        self.__ctx_manager.get(),
+        tb,
+        __cr__,
+      )
+      return cast(types.StudyProgrammOverview, raw.cast_to(types, types))
     
 
 
@@ -88,7 +134,7 @@ class BamlStreamClient:
         self,
         module_catalog: str,
         baml_options: BamlCallOptions = {},
-    ) -> baml_py.BamlStream[partial_types.ModuleCataloge, types.ModuleCataloge]:
+    ) -> baml_py.BamlStream[partial_types.ModuleCatalog, types.ModuleCatalog]:
       __tb__ = baml_options.get("tb", None)
       if __tb__ is not None:
         tb = __tb__._tb
@@ -107,10 +153,70 @@ class BamlStreamClient:
         __cr__,
       )
 
-      return baml_py.BamlStream[partial_types.ModuleCataloge, types.ModuleCataloge](
+      return baml_py.BamlStream[partial_types.ModuleCatalog, types.ModuleCatalog](
         raw,
-        lambda x: cast(partial_types.ModuleCataloge, x.cast_to(types, partial_types)),
-        lambda x: cast(types.ModuleCataloge, x.cast_to(types, types)),
+        lambda x: cast(partial_types.ModuleCatalog, x.cast_to(types, partial_types)),
+        lambda x: cast(types.ModuleCatalog, x.cast_to(types, types)),
+        self.__ctx_manager.get(),
+      )
+    
+    def ExtractModulesList(
+        self,
+        module_catalog: str,
+        baml_options: BamlCallOptions = {},
+    ) -> baml_py.BamlStream[partial_types.ModuleList, types.ModuleList]:
+      __tb__ = baml_options.get("tb", None)
+      if __tb__ is not None:
+        tb = __tb__._tb
+      else:
+        tb = None
+      __cr__ = baml_options.get("client_registry", None)
+
+      raw = self.__runtime.stream_function(
+        "ExtractModulesList",
+        {
+          "module_catalog": module_catalog,
+        },
+        None,
+        self.__ctx_manager.get(),
+        tb,
+        __cr__,
+      )
+
+      return baml_py.BamlStream[partial_types.ModuleList, types.ModuleList](
+        raw,
+        lambda x: cast(partial_types.ModuleList, x.cast_to(types, partial_types)),
+        lambda x: cast(types.ModuleList, x.cast_to(types, types)),
+        self.__ctx_manager.get(),
+      )
+    
+    def ExtractStudyProgrammOverview(
+        self,
+        module_catalog: str,
+        baml_options: BamlCallOptions = {},
+    ) -> baml_py.BamlStream[partial_types.StudyProgrammOverview, types.StudyProgrammOverview]:
+      __tb__ = baml_options.get("tb", None)
+      if __tb__ is not None:
+        tb = __tb__._tb
+      else:
+        tb = None
+      __cr__ = baml_options.get("client_registry", None)
+
+      raw = self.__runtime.stream_function(
+        "ExtractStudyProgrammOverview",
+        {
+          "module_catalog": module_catalog,
+        },
+        None,
+        self.__ctx_manager.get(),
+        tb,
+        __cr__,
+      )
+
+      return baml_py.BamlStream[partial_types.StudyProgrammOverview, types.StudyProgrammOverview](
+        raw,
+        lambda x: cast(partial_types.StudyProgrammOverview, x.cast_to(types, partial_types)),
+        lambda x: cast(types.StudyProgrammOverview, x.cast_to(types, types)),
         self.__ctx_manager.get(),
       )
     

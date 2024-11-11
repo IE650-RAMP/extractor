@@ -1,0 +1,273 @@
+2. Detailed descriptions
+CS 560 Large-Scale Data Management
+Form of module Lecture with exercises
+Type of module Computer Science Fundamental
+Level Master
+ECTS 6
+In presence: 56 h (4 SWS)
+Workload
+Exercises and self-study: 98 h
+Very good knowledge of database systems, good knowledge of al-
+Prerequisites
+gorithms and data structures as well as Java programming
+This course introduces the fundamental concepts and computa-
+tional paradigms of large-scale data management and Big Data.
+This includes methods for storing, updating, querying, and analyz-
+ing large dataset as well as for data-intensive computing. The
+course covers concept, algorithms, and system issues; accompa-
+nying exercises provide hands-on experience. Topics include:
+Aim of module
+• Parallel and distributed databases
+• Big Data Processing (including MapReduce, Spark)
+• NoSQL databases
+• Cloud databases
+• Stream processing (tentative)
+• Graph processing (tentative)
+Expertise:
+Students will acquire knowledge about methods and systems for
+managing large datasets and data-intensive computing.
+(MK1, MK2)
+Learning outcomes and
+Methodological competence:
+qualification goals
+• Be able to judge, select, and use traditional or non-traditional
+data management systems for a given data management task
+• Be able to solve computational problems involving large
+datasets
+(MF1)
+6Personal competence:
+• Study independently
+• Presentation and writing skills
+(MKO3)
+Media Slide set, black board, exercise sheets, datasets, software
+• T. Öszu, P. Valduriez
+Principles of Distributed Database Systems
+Springer, 4th ed., 2020
+Literature • H. Garcia-Molina, J. D. Ullman, J. Widom
+Database Systems: The Complete Book
+Prentice Hall, 2nd ed., 2008
+• More in lecture notes
+Methods Lecture, weekly exercise, experimentation with different systems
+Form of assessment Written examination
+Duration of assessment 90 minutes
+Language English
+Offering Fall semester
+Lecturer Prof. Dr. Rainer Gemulla
+Person in charge Prof. Dr. Rainer Gemulla
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence, Lehramt Informatik
+Semester 1st / 2nd semester
+7IE 500 Data Mining
+Form of module Lecture with exercises and project
+Type of module Business Informatics Fundamental
+Level Master
+ECTS 6
+Hours per semester: 56 h (4 SWS)
+Workload Self-study per semester: 98 h
+• 70 h: pre and post lecture studying and revision
+• 28 h: examination preparation
+Prerequisites Foundations of Statistics, Practical Informatics I
+The course provides an introduction to advanced data analy-
+sis techniques as a basis for analyzing business data and
+providing input for decision support systems. The course will
+cover the following topics:
+• Goals and Principles of Data Mining
+Aim of module • Data Representation and Preprocessing
+• Classification
+• Regression
+• Cluster Analysis
+• Association Analysis
+• Practical Data Mining using Python
+Expertise:
+Students will acquire basic knowledge of the techniques, op-
+portunities, and applications of data mining. (MK1, MF1)
+Methodological competence:
+• Successful participants will be able to identify opportuni-
+ties for applying data mining in an enterprise environ-
+Learning outcomes and
+ment, select and apply appropriate techniques, and inter-
+qualification goals
+pret the results.
+• project organization skills
+(MK2, MF3, MF4, MKO1)
+Personal competence:
+• team work skills
+• presentation skills
+(MKO2, MF2)
+8Slide set, exercise sheets, Jupyter notebooks, data sets for
+Media
+the exercises, lecture videos
+• Pang-Ning Tan, Michael Steinback, Vipin Kumar: Introduc-
+tion to Data Mining, 2nd Edition, Pearson.
+Literature
+• Aurélien Géron: Hands-on Machine Learning with Scikit-
+Learn, Keras & TensorFlow, 3rd Edition, O’Reilly.
+The course consists of a lecture together with accompanying
+practical exercises as well as student team projects. In the ex-
+ercises the participants will gather initial expertise in applying
+state of the art data mining tools on realistic data sets. The
+Methods group projects take place in the last third of the term. Within
+the projects, students implement advanced data mining pro-
+jects of personal choice and report about the results of their
+projects in the form of a written report as well as an oral
+presentation.
+Written examination (75%), project report (20%), oral project
+Form of assessment
+presentation (5%)
+Admission requirements
+-
+for assessment
+60 minutes (written examination), 5-11 pages (project re-
+Duration of assessment
+port), 5-15 minutes (oral project presentation)
+Language English
+Offering Fall semester / Spring semester
+Lecturer Prof. Dr. Heiko Paulheim; Prof. Dr. Christian Bizer
+Person in charge Prof. Dr. Heiko Paulheim; Prof. Dr. Christian Bizer
+Duration of module 1 Semester
+IE 675b – Machine Learning, IE 678 – Deep Learning,
+Further modules IS 661 – Text Analytics, CS 646 – Higher Level Computer Vi-
+sion, IE 671 – Web Mining
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of application
+Science, Lehramt Informatik
+Semester 1st/2nd semester
+9IE 675b Machine Learning
+Form of module Lecture with exercises
+Type of module Specialization Course
+Level Master
+ECTS 9
+In presence: 56 h (4 SWS)
+Workload
+Exercises, assignments, and self-study: 174 h
+IE 500 Data Mining I (recommended), knowledge of probability
+Prerequisites
+and statistics, no attempted or completed IE 675 exam
+Machine learning is concerned with building computer systems
+that improve with experience as well as the study of learning pro-
+cesses, including the design of algorithms that are able to make
+predictions or extract knowledge from data. The aim of this mod-
+ule is to provide an introduction into the field of machine learn-
+ing, and study algorithms, underlying concepts, and theoretical
+principles. Topics include:
+Aim of module
+• Basics of machine learning
+• Inference and decision
+• Selected classification and regression models
+• Dimensionality reduction
+• Mixture models and EM
+• Kernels and vector machines
+• Hyperparameter optimization
+Expertise:
+Deep understanding of algorithms and underlying concepts of ma-
+chine learning
+(MK1, MF1)
+Methodological competence:
+• Being able to apply machine learning techniques and systems
+Learning outcomes and
+for a given problem
+qualification goals
+• Being able to model and implement new machine learning
+techniques
+(MK2, MF3, MF4)
+Personal competence:
+• writing skills
+• presentation skills
+10• statistical programming skills
+(MKO3, MF2)
+Media Slide set, exercise sheets, software, datasets
+• K.P. Murphy. Probabilistic Machine Learning: An Introduction.
+The MIT Press, 2022
+Literature • I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT
+Press, 2017
+• Additional material and articles provided in lecture notes
+The course consists of a lecture accompanied by theoretical and
+practical exercises as well as case studies with real data. In the ex-
+Methods
+ercises, students will deepen the material discussed in the lecture,
+apply the methods in practice, and present the result.
+Form of assessment Written examination
+Admission requirements
+Homework assignments (pass at least 3 assignments)
+for assessment
+Duration of assessment 90 minutes
+Language English
+Offering Fall semester
+Lecturer Prof. Dr. Rainer Gemulla
+Person in charge Prof. Dr. Rainer Gemulla
+Duration of module 1 Semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence
+Semester 1st/2nd/3rd semester
+11CS 652 Data Security and Privacy
+Form of module Inverted classroom with exercises
+Type of module Specialization course
+Level Master
+ECTS 6
+Hours per semester present: 56h (4 SWS)
+Workload
+Self-study: 112h
+There are no formal prerequisites but knowledge in cryptography
+Prerequisites or IT-security is recommended, e.g., by attending the lectures
+“Kryptographie I” or “Selected Topics in IT-Security”
+Nowadays, users are more and more revealing data to the out-
+side – either willingly as in the context of data mining or possibly
+unconsciously as in the case of the Internet of Things. The aim of
+the module is to raise awareness, in particular with respect to pri-
+vacy violations. This is done by showing various security threats,
+Aim of module e.g., traces left in the Internet such as the use of cookies or
+browser fingerprinting. In particular, the topic of privacy preser-
+vation will be covered. This includes discussing different ap-
+proaches for defining the meaning of privacy but also possible
+countermeasures such as anonymization of data or the use of
+dedicated encryption schemes.
+Expertise:
+Students will acquire the knowledge to identify security and pri-
+vacy threats and to select and use appropriate countermeasures.
+(MK2)
+Methodological competence:
+Learning outcomes and
+Successful participants will be able to understand, to select, apply
+qualification goals
+and evaluate the most appropriate techniques for a variety of dif-
+ferent privacy-sensitive scenarios. In particular they are able to
+realize possible risks in new scenarios and to transfer given solu-
+tions to these.
+(MK1)
+12Personal competence:
+The analytic, concentrated, and precise thinking of the students is
+trained. By the independent treatment of applications, e.g. in the
+course of the exercises, their abstraction capacity is further devel-
+oped and the transfer of the learned material to related ques-
+tions is trained.
+(MF1, MKO3)
+Media Video recordings, annotated lecture slides
+Literature Will be announced in the lecture
+Reworking the lecture and studying the relevant literature in self-
+study. During the lecture: discussing questions and ideas and
+Methods
+working together on concrete examples. Solving exercises in self-
+study and in practice in cooperation with fellow students.
+Form of assessment Written exam
+Admission requirements
+-
+for assessment
+Duration of assessment 90 minutes
+Language English
+Spring semester (in FSS24 this course will only be offered as
+Offering
+online-course in form of videos)
+Lecturer Prof. Dr. Frederik Armknecht
+Person in charge Prof. Dr. Frederik Armknecht
+Duration of module 1 semester
+Further modules -
+M.Sc. Mannheim Master in Data Science,
+Range of application M.Sc. Wirtschaftsinformatik, Lehramt Informatik,
+M.Sc. Mathematik
+Semester 1st/2nd/3rd semester
+13

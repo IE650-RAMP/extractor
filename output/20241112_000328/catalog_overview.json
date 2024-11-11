@@ -1,0 +1,152 @@
+{
+  "name": "Mannheim Master in Data Science",
+  "hasDegree": ["MASTER_OF_SCIENCE"],
+  "studyArea": [
+    {
+      "name": "Data Science Fundamentals",
+      "requiredEcts": [27],
+      "modules": [
+        { "name": "large_scale_data_management", "id": "CS_560" },
+        { "name": "data_mining", "id": "IE_500" },
+        { "name": "machine_learning", "id": "IE_675b" },
+        { "name": "data_security_and_privacy", "id": "CS_652" }
+      ]
+    },
+    {
+      "name": "Data Management",
+      "requiredEcts": [6, 24],
+      "modules": [
+        { "name": "additional_course_data_management", "id": "AC_651" },
+        { "name": "sampling_and_data", "id": "DS_200" },
+        { "name": "advanced_software_engineering", "id": "CS_500" },
+        { "name": "algorithmics", "id": "CS_550" },
+        { "name": "model_driven_development", "id": "CS_600" },
+        { "name": "cryptography_ii", "id": "CS_651" },
+        { "name": "cryptography", "id": "CS_655" },
+        { "name": "types_and_programming_languages", "id": "CS_662" },
+        { "name": "blockchain_security", "id": "CS_664" },
+        { "name": "information_retrieval_and_web_search", "id": "IE_663" },
+        { "name": "web_data_integration", "id": "IE_670" },
+        { "name": "information_retrieval_project", "id": "IE_691" },
+        { "name": "web_data_integration_project", "id": "IE_683" },
+        { "name": "public_blockchains", "id": "IS_556" },
+        { "name": "reinforcement_learning_coding", "id": "MAC_570" }
+      ]
+    },
+    {
+      "name": "Data Analytics Methods",
+      "requiredEcts": [12, 36],
+      "modules": [
+        { "name": "additional_course_data_analytics_methods", "id": "AC_652" },
+        { "name": "statistics_for_data_scientists", "id": "DS_100" },
+        {
+          "name": "seminar_and_lab_on_machine_learning_and_causal_inference",
+          "id": "DS_202"
+        },
+        { "name": "decision_support", "id": "IE_560" },
+        { "name": "web_mining", "id": "IE_671" },
+        { "name": "deep_learning", "id": "IE_678" },
+        { "name": "web_mining_project", "id": "IE_684" },
+        { "name": "large_language_models_and_agents", "id": "IE_686" },
+        { "name": "advanced_process_mining", "id": "IE_692" },
+        { "name": "advanced_methods_in_text_analytics", "id": "IE_696" },
+        { "name": "higher_level_computer_vision", "id": "CS_646" },
+        { "name": "image_processing", "id": "CS_647" },
+        { "name": "generative_computer_vision_models", "id": "CS_668" },
+        { "name": "process_management_and_analytics", "id": "IS_515" },
+        {
+          "name": "large_scale_data_analysis_and_visualization",
+          "id": "IS_616"
+        },
+        { "name": "text_analytics", "id": "IS_661" },
+        { "name": "stochastic_calculus", "id": "MAA_519" },
+        { "name": "mathematics_and_information", "id": "MAB_504" },
+        { "name": "algebraische_statistik", "id": "MAB_508" },
+        { "name": "reinforcement_learning_ii", "id": "MAB_519" },
+        { "name": "reinforcement_learning_ii", "id": "MAB_520" },
+        { "name": "optimierung", "id": "MAC_404" },
+        { "name": "nichtlineare_optimierung", "id": "MAC_507" },
+        { "name": "markov_processes", "id": "MAC_527" },
+        { "name": "machine_learning_and_causal_inference", "id": "DS_201" }
+      ]
+    },
+    {
+      "name": "Responsible Data Science",
+      "requiredEcts": [3, 7],
+      "modules": [
+        { "name": "legal_and_ethical_aspects_of_privacy", "id": "N/A" },
+        {
+          "name": "ai_and_data_science_in_fiction_and_society",
+          "id": "CS_718"
+        },
+        {
+          "name": "additional_course_responsible_data_science",
+          "id": "AC_654"
+        },
+        {
+          "name": "responsible_ai_conceptual_foundations_methods_and_applications",
+          "id": "DS_203"
+        }
+      ]
+    },
+    {
+      "name": "Data Science Applications",
+      "requiredEcts": [0, 12],
+      "modules": [
+        {
+          "name": "additional_course_data_science_applications",
+          "id": "AC_655"
+        },
+        {
+          "name": "artificial_intelligence_applications_in_industry",
+          "id": "IE_694"
+        },
+        { "name": "data_science_in_action", "id": "IE_697" },
+        { "name": "computational_analysis_of_communication", "id": "DA_110" },
+        {
+          "name": "foundations_and_applications_of_digital_health_technologies",
+          "id": "IE_698"
+        },
+        {
+          "name": "co_creating_digital_health_applications_with_design_methodology",
+          "id": "IE_699"
+        },
+        { "name": "generative_software_engineering", "id": "CS_630" },
+        { "name": "computational_finance", "id": "MAC_502" },
+        { "name": "management_of_enterprise_systems", "id": "IS_540" },
+        { "name": "customers_markets_and_firm_strategy", "id": "MKT_545" },
+        { "name": "marketing_analytics", "id": "MKT_511" }
+      ]
+    },
+    {
+      "name": "Projects and Seminars",
+      "requiredEcts": [14, 18],
+      "modules": [
+        { "name": "additional_course_projects_and_seminars", "id": "AC_653" },
+        { "name": "team_project", "id": "TP_500" },
+        { "name": "individual_project", "id": "IP_500" },
+        { "name": "scientific_research", "id": "SQ_500" },
+        {
+          "name": "selected_topics_in_algorithmics_and_cryptography",
+          "id": "CS_701"
+        },
+        { "name": "master_seminar_artificial_intelligence", "id": "CS_704" },
+        { "name": "hot_topics_in_machine_learning_seminar", "id": "CS_707" },
+        { "name": "seminar_software_engineering", "id": "CS_708" },
+        { "name": "seminar_text_analytics", "id": "CS_709" },
+        { "name": "seminar_prof_paulheim", "id": "CS_710" },
+        { "name": "seminar_large_scale_data_integration", "id": "CS_715" },
+        { "name": "seminar_prof_armknecht", "id": "CS_716" },
+        { "name": "master_seminar_on_computer_vision", "id": "CS_717" },
+        { "name": "uncertainty_estimation", "id": "CS_720" },
+        { "name": "seminar_data_science_i", "id": "CS_721" },
+        { "name": "seminar_ethical_aspects_of_ai", "id": "CS_722" },
+        { "name": "seminar_ai_systems_engineering", "id": "IE_704" },
+        {
+          "name": "seminar_on_process_and_management_analytics",
+          "id": "IS_752"
+        }
+      ]
+    }
+  ]
+}

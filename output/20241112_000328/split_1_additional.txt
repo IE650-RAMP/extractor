@@ -1,0 +1,67 @@
+Master of Science (M.Sc.)
+“Mannheim Master in Data Science”
+University of Mannheim
+– Module catalog –
+for students starting in or after autumn 2024
+Academic Year
+HWS 2024/ FSS 2025Content
+Foreword ................................................................................................................................................. 3
+A. Overview ...................................................... 4
+B. Data Science Fundamentals ..................................... 5
+1. Overview .................................................................................................................................. 5
+2. Detailed descriptions ............................................................................................................... 6
+C. Data Management .............................................. 14
+1. Overview ................................................................................................................................ 14
+2. Detailed descriptions ............................................................................................................. 15
+D. Data Analytics Methods ....................................... 44
+1. Overview ................................................................................................................................ 44
+2. Detailed descriptions ............................................................................................................. 46
+E. Responsible Data Science ..................................... 77
+1. Overview ................................................................................................................................ 77
+2. Detailed descriptions ............................................................................................................. 78
+F. Data Science Applications .................................... 86
+1. Overview ................................................................................................................................ 86
+2. Detailed descriptions ............................................................................................................. 87
+G. Projects and Seminars ....................................... 102
+1. Overview .............................................................................................................................. 102
+2. Detailed descriptions ........................................................................................................... 103
+H. Master Thesis ............................................... 138
+Abbreviations ...................................................................................................................................... 140
+2Foreword
+This document describes the courses that will be offered in HWS 2024/ FSS 2025 for stu-
+dents studying M. Sc. Mannheim Master in Data Science (Examination Regulations for the
+Master’s program from 26th April 2023). You can find the Examination Regulations on the
+website of the Student Services (Studienbüros):
+https://www.uni-mannheim.de/en/academics/during-your-studies/examinations/examination-regu-
+lations/
+It is possible that additional courses will be made available during the course of the aca-
+demic year. These will be published in an appendix available on the following web page:
+https://www.wim.uni-mannheim.de/en/academics/organizing-your-studies/mannheim-master-in-
+data-science/#c112237
+3A. Overview
+ECTS
+Data Science Fundamentals Four “Data Science Fundamentals” with 27 ECTS 27
+Data Management Minimum of one “Data Management” course 6-24
+Minimum of two “Data Analytics Methods” courses with at
+Data Analytics Methods 12-36
+least 12 ECTS
+Responsible Data Science Minimum of one “Responsible Data Science” course 3 – 7
+Data Science Applications Up to 12 ECTS in elective courses 0-12
+Team Project or Individual Project, Scientific Research and
+Projects and Seminars 14-18
+Seminars
+Master Thesis Six-months-long written academic assignment 30
+Total 120
+Abbreviations:
+HWS (Herbst-/Wintersemester): Course is offered in the respective Fall semester.
+FSS (Frühjahrs-/Sommersemester): Course is offered in the respective Spring semester.
+FSS/HWS: course is offered both in Spring semester and Fall semester.
+4B. Data Science Fundamentals
+1. Overview
+Module no. Name of Module Offered ECTS Page
+CS 560 Large Scale Data Management HWS 6 6
+IE 500 Data Mining HWS/FSS 6 8
+IE 675b Machine Learning HWS 9 10
+CS 652 Data Security and Privacy FSS* 6 12
+*in FSS25 this course will be offered as hybrid-course.
+5

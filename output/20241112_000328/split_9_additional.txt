@@ -1,0 +1,31 @@
+F. Data Science Applications
+1. Overview
+Module no. Name of Module Offered ECTS Page
+AC 655 Additional Course – Data Science Applications HWS/FSS Max 18 87
+IE 694 Artificial Intelligence Applications in Industry FSS 6 89
+IE 697 Data Science in Action HWS 6 91
+DA 110 Computational Analysis of Communication HWS/FSS 6 93
+Foundations and Applications of Digital Health
+IE 698 FSS 3 96
+Technologies
+Co-creating digital health applications with design
+IE 699 FSS 6 98
+methodology
+CS 630 Generative Software Engineering FSS 6 100
+MAC 502 Computational Finance FSS 6 MBE*
+IS 540 Management of Enterprise Systems HWS 6 MMM*
+MKT 545 Customers, Markets and Firm Strategy FSS 6 MMM*
+FSS 6 MMM*
+MKT 511 Marketing Analytics
+Elective MA Psy, School of Social Sciences FSS/HWS 4 M.Sc.
+Psy*
+* For a detailed description, please see the module catalogs of the respective following degree programs:
+• MBE: M.Sc. Mathematics in Business and Economics
+https://www.wim.uni-mannheim.de/studium/studienorganisation/m-sc-wirtschaftsmathematik/ (only
+available in German)
+• MMM: Mannheim Master in Management
+https://www.bwl.uni-mannheim.de/studium/master/mmm/#c176637
+• M.Sc. Psy: Master of Science Psychologie - Arbeit, Wirtschaft, Gesellschaft (only in German)
+https://www.sowi.uni-mannheim.de/en/academics/students/psychology/msc-in-psychology-work-
+economy-and-society/
+86

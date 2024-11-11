@@ -1,0 +1,153 @@
+{
+  "studyProgram": {
+    "name": "MMDS",
+    "hasDegree": ["MASTER_OF_SCIENCE"]
+  },
+  "studyAreas": [
+    {
+      "name": "Data Science Fundamentals",
+      "requiredEcts": [27],
+      "modules": [
+        {
+          "name": "large_scale_data_management",
+          "id": "CS_560",
+          "ects": 6,
+          "workloadInPerson": 56,
+          "workloadSelfStudy": 98,
+          "offeredIn": ["HWS"],
+          "recommendedSemester": [1, 2],
+          "recommendedLiterature": [
+            "T. Öszu, P. Valduriez Principles of Distributed Database Systems Springer, 4th ed., 2020",
+            "H. Garcia-Molina, J. D. Ullman, J. Widom Database Systems: The Complete Book Prentice Hall, 2nd ed., 2008"
+          ],
+          "hasLecturer": [
+            {
+              "name": "Prof. Dr. Rainer Gemulla",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "hasPersonInCharge": [
+            {
+              "name": "Prof. Dr. Rainer Gemulla",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "assessmentForms": ["WRITTEN"],
+          "examinationDistribution": null,
+          "examinationDuration": 90,
+          "prerequisiteModules": [],
+          "additionalPrerequisite": "Very good knowledge of database systems, good knowledge of algorithms and data structures as well as Java programming",
+          "furtherModules": []
+        },
+        {
+          "name": "data_mining",
+          "id": "IE_500",
+          "ects": 6,
+          "workloadInPerson": 56,
+          "workloadSelfStudy": 98,
+          "offeredIn": ["HWS"],
+          "recommendedSemester": [1, 2],
+          "recommendedLiterature": [
+            "Pang-Ning Tan, Michael Steinback, Vipin Kumar: Introduction to Data Mining, 2nd Edition, Pearson.",
+            "Aurélien Géron: Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow, 3rd Edition, O’Reilly."
+          ],
+          "hasLecturer": [
+            {
+              "name": "Prof. Dr. Heiko Paulheim",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            },
+            {
+              "name": "Prof. Dr. Christian Bizer",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "hasPersonInCharge": [
+            {
+              "name": "Prof. Dr. Heiko Paulheim",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            },
+            {
+              "name": "Prof. Dr. Christian Bizer",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "assessmentForms": ["WRITTEN", "PRESENTATION"],
+          "examinationDistribution": "75/20/5",
+          "examinationDuration": 60,
+          "prerequisiteModules": ["IE_675b"],
+          "additionalPrerequisite": "Foundations of Statistics, Practical Informatics I",
+          "furtherModules": ["IE_675b", "IE_678", "IS_661"]
+        },
+        {
+          "name": "machine_learning",
+          "id": "IE_675b",
+          "ects": 9,
+          "workloadInPerson": 56,
+          "workloadSelfStudy": 174,
+          "offeredIn": ["HWS"],
+          "recommendedSemester": [1, 2, 3],
+          "recommendedLiterature": [
+            "K.P. Murphy. Probabilistic Machine Learning: An Introduction. The MIT Press, 2022",
+            "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT Press, 2017"
+          ],
+          "hasLecturer": [
+            {
+              "name": "Prof. Dr. Rainer Gemulla",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "hasPersonInCharge": [
+            {
+              "name": "Prof. Dr. Rainer Gemulla",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "assessmentForms": ["WRITTEN"],
+          "examinationDistribution": null,
+          "examinationDuration": 90,
+          "prerequisiteModules": ["IE_500"],
+          "additionalPrerequisite": "Knowledge of probability and statistics, no attempted or completed IE 675 exam",
+          "furtherModules": []
+        },
+        {
+          "name": "data_security_and_privacy",
+          "id": "CS_652",
+          "ects": 6,
+          "workloadInPerson": 56,
+          "workloadSelfStudy": 112,
+          "offeredIn": [],
+          "recommendedSemester": [1, 2, 3],
+          "recommendedLiterature": ["Will be announced in the lecture"],
+          "hasLecturer": [
+            {
+              "name": "Prof. Dr. Frederik Armknecht",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "hasPersonInCharge": [
+            {
+              "name": "Prof. Dr. Frederik Armknecht",
+              "title": "Prof. Dr.",
+              "isPerson": true
+            }
+          ],
+          "assessmentForms": ["WRITTEN"],
+          "examinationDistribution": null,
+          "examinationDuration": 90,
+          "prerequisiteModules": [],
+          "additionalPrerequisite": "There are no formal prerequisites but knowledge in cryptography or IT-security is recommended.",
+          "furtherModules": []
+        }
+      ]
+    }
+  ]
+}

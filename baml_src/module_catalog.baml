@@ -24,28 +24,49 @@ enum Degree {
     MASTER_OF_EDUCATION @description("Master of Education")
 }
 
-class ModuleCataloge {
+class ModuleCatalog {
   studyProgram StudyProgram @description("The study program, this module cataloge is about.")
-  // modules Module[] @description("A list of all modules in the module cataloge")
   studyAreas StudyArea[] @description("A list of the study areas in this module cataloge")
 }
 
 class StudyProgram {
   name string @description("The name of the study program, e.g., 'MMDS'")
   hasDegree Degree[] @description("Degrees associated with this study program")
-} // could directly include study program name and degre in ModuleCataloge
+} // could directly include study program name and degre in ModuleCatalog
 
 class StudyArea {
   name string @description("The name of the study area, e.g., 'Data Science Fundamentals'")
   requiredEcts int[] @description("The number of ects that has to be completed in this study area. Either exact number or lower and upper bound of a range.")
   modules Module[] @description("A list of all modules in this study area")
+}
 
-  // isPartOfStudyProgram StudyProgram[] @description("List of study programs that include this study area")
+// ----
+
+class StudyProgrammOverview {
+  name string @description("The name of the study program, e.g., 'MMDS'")
+  hasDegree Degree[] @description("Degrees associated with this study program")
+  studyArea StudyAreaOverview[] @description("The different areas of study within the study program")
+
+}
+
+class StudyAreaOverview {
+  name string @description("The name of the study area, e.g., 'Data Science Fundamentals'")
+  requiredEcts int[] @description("The number of ects that has to be completed in this study area. Either exact number or lower and upper bound of a range.")
+  modules ModuleOverview[] @description("A list of all modules (with their name and id) in this study area")
+}
+
+class ModuleOverview {
+  name string @description("The name of the module e.g. machine_learning (in snake case)")
+  id string @description("The ID of the module typically a letter-number combination e.g. IE_100 (in snake case)")
+}
+
+class ModuleList {
+  modules Module[] 
 }
 
 class Module {
-  name string @description("The name of the module in snake case")
-  id string @description("The ID of the module typically a letter-number combination e.g. IE100")
+  name string @description("The name of the module (in snake case)")
+  id string @description("The ID of the module typically a letter-number combination e.g. IE_100 (in snake case)")
   ects int @description("The European Credit Transfer and Accumulation System (ECTS) points for the module")
   workloadInPerson int @description("The in-person workload hours for the module")
   workloadSelfStudy int @description("The self-study workload hours for the module")
@@ -60,7 +81,7 @@ class Module {
   examinationDistribution string? @description("Distribution method for examinations in this module (e.g. 80/20, 100)")
   examinationDuration int? @description("Duration of the examination in minutes")
   
-  prerequisiteModules string[] @description("A list of module IDs (typically a letter-number combination such as IE100) that are a explicitly stated as required prerequisite for this module")
+  prerequisiteModules string[] @description("A list of module IDs (typically a letter-number combination such as IE_100) that are a explicitly stated as required prerequisite for this module")
   additionalPrerequisite string? @description("Any additional prerequisites for the module")
   furtherModules string[] @description("A list of module names that are recommended subsequent modules")
   // isFollowupOfModule string[] @description("List of modules that this module follows up on")
@@ -71,30 +92,76 @@ class Module {
 }
 
 class Person {
-  name string @description("The name of a person, e.g., a lecturer or person in charge of a module")
+  name string @description("The name of a person without their title, e.g., a lecturer or person in charge of a module")
   title string? @description("The title of a person, e.g., Prof. Dr.")
   isPerson bool @description("Indecation if this is a person (true) or different entity (false)")
   // isChairOf string[] @description("List of modules or programs that this person chairs")
 }
 
 
-
-function ExtractModuleCatalog(module_catalog: string) -> ModuleCataloge {
+// Extract all information from the entire module cataloge
+function ExtractModuleCatalog(module_catalog: string) -> ModuleCatalog {
+  // Extracts the entire module in one go
   client "openai/gpt-4o-mini" 
+  // client "anthropic/claude-3-haiku-20240307"
   prompt #"
-    Extract the content from this university module cataloge:
+    Extract the content from this university module cataloge. Make sure to extract all of the listed modules and do not stop after the first few ones.
+    
+    This is the module cataloge:
+    {{ module_catalog }}
+
+    Consider this information for the ouput format:
+    Extract all modules!
+
+    {{ ctx.output_format }}
+  "#
+}
+
+test extract_module_catalog {
+  functions [ExtractModuleCatalog]
+  args {
+    module_catalog #"
+    
+    "#
+  }
+}
+
+function ExtractModulesList(module_catalog: string) -> ModuleList {
+  client "openai/gpt-4o-mini"
+  prompt #"
+    Extract the modules from this university module cataloge in the defined schema:
     {{ module_catalog }}
 
     {{ ctx.output_format }}
   "#
 }
 
-// Test the function with a sample resume. Open the VSCode playground to run this.
-test extract_module_catalog {
-  functions [ExtractModuleCatalog]
+test extract_modules {
+  functions [ExtractModulesList]
   args {
     module_catalog #"
-     
+    
     "#
   }
 }
+
+
+function ExtractStudyProgrammOverview(module_catalog: string) -> StudyProgrammOverview {
+  client "openai/gpt-4o-mini"
+  prompt #"
+    Extract the information from this university module cataloge according to the defined schema:
+    {{ module_catalog }}
+
+    {{ ctx.output_format }}
+  "#
+}
+
+test extract_program_overview {
+  functions [ExtractStudyProgrammOverview]
+  args {
+    module_catalog #"
+      
+    "#
+  }
+}
+

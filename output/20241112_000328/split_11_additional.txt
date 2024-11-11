@@ -1,0 +1,41 @@
+G. Projects and Seminars
+1. Overview
+Module no. Name of Module Offered ECTS Page
+Additional Course – Projects and
+AC 653 HWS/FSS Max. 18 103
+Seminars
+TP 500 Team Project HWS/FSS 12 105
+IP 500 Individual Project Irregular 8 107
+SQ 500 Scientific Research HWS/FSS 2 110
+Seminar Selected Topics in Algorithmics and Cryp- Irregular
+CS 701 4 112
+tography
+Irregular
+CS 704 Master Seminar Artificial Intelligence 4 114
+Irregular
+CS 707 Hot Topics in Machine Learning Seminar 4 116
+Irregular
+CS 708 Seminar Software Engineering 4 118
+Irregular
+CS 709 Seminar Text Analytics 4 120
+Irregular
+CS 710 Seminar Prof. Paulheim 4 122
+Irregular
+CS 715 Seminar Large Scale Data Integration 4 124
+Irregular
+CS 716 Seminar Prof. Armknecht 4 126
+CS 717 Master Seminar on Computer Vision FSS 4 128
+Irregular
+CS 720 Uncertainty Estimation 4 130
+Irregular
+CS 721 Seminar Data-Science I 4 132
+Irregular
+CS 722 Seminar Ethical Aspects of Al 4 134
+Irregular
+IE 704 Seminar AI Systems Engineering 4 136
+FSS
+IS 752 Seminar on Process and Management Analytics 4 MMM*
+* For a detailed description, please see the module catalog of the respective following degree program:
+• MMM: M.Sc. Mannheim Master in Management, https://www.bwl.uni-mannheim.de/studium/mas-
+ter/mmm/
+102

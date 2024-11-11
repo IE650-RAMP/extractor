@@ -85,11 +85,22 @@ class Module(BaseModel):
     additionalPrerequisite: Optional[str] = None
     furtherModules: List[str]
 
-class ModuleCataloge(BaseModel):
+class ModuleCatalog(BaseModel):
     
     
     studyProgram: "StudyProgram"
     studyAreas: List["StudyArea"]
+
+class ModuleList(BaseModel):
+    
+    
+    modules: List["Module"]
+
+class ModuleOverview(BaseModel):
+    
+    
+    name: str
+    id: str
 
 class Person(BaseModel):
     
@@ -105,8 +116,22 @@ class StudyArea(BaseModel):
     requiredEcts: List[int]
     modules: List["Module"]
 
+class StudyAreaOverview(BaseModel):
+    
+    
+    name: str
+    requiredEcts: List[int]
+    modules: List["ModuleOverview"]
+
 class StudyProgram(BaseModel):
     
     
     name: str
     hasDegree: List["Degree"]
+
+class StudyProgrammOverview(BaseModel):
+    
+    
+    name: str
+    hasDegree: List["Degree"]
+    studyArea: List["StudyAreaOverview"]

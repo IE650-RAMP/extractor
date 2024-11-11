@@ -1,0 +1,10 @@
+E. Responsible Data Science
+1. Overview
+Module no. Name of Module Offered ECTS Page
+Legal and Ethical Aspects of Privacy HWS 3 78
+CS 718 AI and Data Science in Fiction and Society HWS 4 80
+AC 654 Additional Course – Responsible Data Science HWS/FSS Max 18 82
+Responsible AI: Conceptual Foundations, Methods
+DS 203 HWS 6 84
+and Applications
+77

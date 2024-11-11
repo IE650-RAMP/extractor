@@ -1,0 +1,272 @@
+Master of Science (M.Sc.)
+“Mannheim Master in Data Science”
+University of Mannheim
+– Module catalog –
+for students starting in or after autumn 2024
+Academic Year
+HWS 2024/ FSS 2025Content
+Foreword ................................................................................................................................................. 3
+A. Overview ...................................................... 4
+B. Data Science Fundamentals ..................................... 5
+1. Overview .................................................................................................................................. 5
+2. Detailed descriptions ............................................................................................................... 6
+C. Data Management .............................................. 14
+1. Overview ................................................................................................................................ 14
+2. Detailed descriptions ............................................................................................................. 15
+D. Data Analytics Methods ....................................... 44
+1. Overview ................................................................................................................................ 44
+2. Detailed descriptions ............................................................................................................. 46
+E. Responsible Data Science ..................................... 77
+1. Overview ................................................................................................................................ 77
+2. Detailed descriptions ............................................................................................................. 78
+F. Data Science Applications .................................... 86
+1. Overview ................................................................................................................................ 86
+2. Detailed descriptions ............................................................................................................. 87
+G. Projects and Seminars ....................................... 102
+1. Overview .............................................................................................................................. 102
+2. Detailed descriptions ........................................................................................................... 103
+H. Master Thesis ............................................... 138
+Abbreviations ...................................................................................................................................... 140
+2Foreword
+This document describes the courses that will be offered in HWS 2024/ FSS 2025 for stu-
+dents studying M. Sc. Mannheim Master in Data Science (Examination Regulations for the
+Master’s program from 26th April 2023). You can find the Examination Regulations on the
+website of the Student Services (Studienbüros):
+https://www.uni-mannheim.de/en/academics/during-your-studies/examinations/examination-regu-
+lations/
+It is possible that additional courses will be made available during the course of the aca-
+demic year. These will be published in an appendix available on the following web page:
+https://www.wim.uni-mannheim.de/en/academics/organizing-your-studies/mannheim-master-in-
+data-science/#c112237
+3A. Overview
+ECTS
+Data Science Fundamentals Four “Data Science Fundamentals” with 27 ECTS 27
+Data Management Minimum of one “Data Management” course 6-24
+Minimum of two “Data Analytics Methods” courses with at
+Data Analytics Methods 12-36
+least 12 ECTS
+Responsible Data Science Minimum of one “Responsible Data Science” course 3 – 7
+Data Science Applications Up to 12 ECTS in elective courses 0-12
+Team Project or Individual Project, Scientific Research and
+Projects and Seminars 14-18
+Seminars
+Master Thesis Six-months-long written academic assignment 30
+Total 120
+Abbreviations:
+HWS (Herbst-/Wintersemester): Course is offered in the respective Fall semester.
+FSS (Frühjahrs-/Sommersemester): Course is offered in the respective Spring semester.
+FSS/HWS: course is offered both in Spring semester and Fall semester.
+4B. Data Science Fundamentals
+1. Overview
+Module no. Name of Module Offered ECTS Page
+CS 560 Large Scale Data Management HWS 6 6
+IE 500 Data Mining HWS/FSS 6 8
+IE 675b Machine Learning HWS 9 10
+CS 652 Data Security and Privacy FSS* 6 12
+*in FSS25 this course will be offered as hybrid-course.
+5
+
+C. Data Management
+1. Overview
+Module
+Name of Module Offered ECTS Page
+no.
+AC 651 Additional Course – Data Management HWS/FSS Max. 18 15
+DS 200 Sampling and Data HWS 9 17
+CS 500 Advanced Software Engineering HWS 6 19
+CS 550 Algorithmics FSS/HWS 6 21
+CS 600 Model-driven Development HWS 6 24
+CS 651 Cryptography II HWS 6 26
+CS 655 Cryptography FSS 6 28
+CS 662 Types and Programming Languages FSS 6 30
+CS 664 Blockchain Security HWS 6 32
+IE 663 Information Retrieval and Web Search HWS 3 34
+IE 670 Web Data Integration HWS 3 36
+IE 691 Information Retrieval Project HWS 3 38
+IE 683 Web Data Integration Project HWS 3 40
+IS 556 Public Blockchains FSS 6 MMM*
+MAC 570 Reinforcement Learning-Coding Irreg. 8 42
+* For a detailed description, please see the module catalog of the respective following degree programs:
+• MMM: M.Sc. Mannheim Master in Management, https://www.bwl.uni-mannheim.de/studium/mas-
+ter/mmm/
+14
+
+D. Data Analytics Methods
+1. Overview
+Module no. Name of Module Offered ECTS Page
+AC 652 Additional Course – Data Analytics Methods HWS/FSS Max. 18 43
+DS 100 Statistics for Data Scientists HWS 9 48
+Seminar and Lab on Machine Learning and Causal
+DS 202 HWS 9 51
+Inference
+IE 560 Decision Support HWS 6 53
+IE 671 Web Mining FSS 3 55
+IE 678 Deep Learning FSS 6 57
+IE 684 Web Mining Project FSS 3 59
+IE 686 Large Language Models and Agents HWS 3 61
+IE 692 Advanced Process Mining** FSS 6 63
+IE 696 Advanced Methods in Text Analytics FSS 6 66
+CS 646 Higher Level Computer Vision HWS 6 68
+CS 647 Image Processing HWS/FSS 6 70
+CS 668 Generative Computer Vision Models FSS 6 72
+IS 515 Process Management and Analytics HWS 6 MMM*
+IS 616 Large Scale Data Analysis and Visualization HWS 6 MMM*
+IS 622 Network Science FSS 6 MMM*
+IS 661 Text Analytics HWS 6 MMM*
+MAA 519 Stochastic Calculus HWS 5 MBE*
+MAB 504 Mathematics and Information irregular 8 MBE*
+MAB 508 Algebraische Statistik irregular 8 MBE*
+MAB 519 Reinforcement Learning FSS 9 MBE*
+MAB 520 Reinforcement Learning II HWS 5 MBE*
+MAC 404 Optimierung HWS 8 WM*
+MAC 507 Nichtlineare Optimierung FSS 6 MBE*
+MAC 527 Markov Processes FSS 4 MBE*
+DS 201 Machine Learning and Causal Inference FSS 9 74
+44* For a detailed description, please see the module catalogs of the respective following degree programs:
+• WM: B.Sc. Wirtschaftsmathematik
+https://www.wim.uni-mannheim.de/studium/studienorganisation/b-sc-wirtschaftsmathematik/ (only
+available in German)
+• MBE: M.Sc. Mathematics in Business and Economics
+https://www.wim.uni-mannheim.de/studium/studienorganisation/m-sc-wirtschaftsmathematik/ (only
+available in German)
+• PS: M.A. Political Science
+https://www.sowi.uni-mannheim.de/studium/studierende/politikwissenschaft/ma-political-science/
+(only available in German)
+• PW: B.A. Politikwissenschaft
+https://www.sowi.uni-mannheim.de/en/academics/students/political-science/ba-in-political-science/
+(only available in German)
+• Soc: M.A. Sociology
+https://www.sowi.uni-mannheim.de/studium/studierende/soziologie/ma-sociology/
+• MMM: Mannheim Master in Management
+https://www.bwl.uni-mannheim.de/studium/master/mmm/#c176637
+**The number of this module will change (TBA). For an updated description, please see the module catalog of
+the MMM
+45
+
+E. Responsible Data Science
+1. Overview
+Module no. Name of Module Offered ECTS Page
+Legal and Ethical Aspects of Privacy HWS 3 78
+CS 718 AI and Data Science in Fiction and Society HWS 4 80
+AC 654 Additional Course – Responsible Data Science HWS/FSS Max 18 82
+Responsible AI: Conceptual Foundations, Methods
+DS 203 HWS 6 84
+and Applications
+77
+
+F. Data Science Applications
+1. Overview
+Module no. Name of Module Offered ECTS Page
+AC 655 Additional Course – Data Science Applications HWS/FSS Max 18 87
+IE 694 Artificial Intelligence Applications in Industry FSS 6 89
+IE 697 Data Science in Action HWS 6 91
+DA 110 Computational Analysis of Communication HWS/FSS 6 93
+Foundations and Applications of Digital Health
+IE 698 FSS 3 96
+Technologies
+Co-creating digital health applications with design
+IE 699 FSS 6 98
+methodology
+CS 630 Generative Software Engineering FSS 6 100
+MAC 502 Computational Finance FSS 6 MBE*
+IS 540 Management of Enterprise Systems HWS 6 MMM*
+MKT 545 Customers, Markets and Firm Strategy FSS 6 MMM*
+FSS 6 MMM*
+MKT 511 Marketing Analytics
+Elective MA Psy, School of Social Sciences FSS/HWS 4 M.Sc.
+Psy*
+* For a detailed description, please see the module catalogs of the respective following degree programs:
+• MBE: M.Sc. Mathematics in Business and Economics
+https://www.wim.uni-mannheim.de/studium/studienorganisation/m-sc-wirtschaftsmathematik/ (only
+available in German)
+• MMM: Mannheim Master in Management
+https://www.bwl.uni-mannheim.de/studium/master/mmm/#c176637
+• M.Sc. Psy: Master of Science Psychologie - Arbeit, Wirtschaft, Gesellschaft (only in German)
+https://www.sowi.uni-mannheim.de/en/academics/students/psychology/msc-in-psychology-work-
+economy-and-society/
+86
+
+G. Projects and Seminars
+1. Overview
+Module no. Name of Module Offered ECTS Page
+Additional Course – Projects and
+AC 653 HWS/FSS Max. 18 103
+Seminars
+TP 500 Team Project HWS/FSS 12 105
+IP 500 Individual Project Irregular 8 107
+SQ 500 Scientific Research HWS/FSS 2 110
+Seminar Selected Topics in Algorithmics and Cryp- Irregular
+CS 701 4 112
+tography
+Irregular
+CS 704 Master Seminar Artificial Intelligence 4 114
+Irregular
+CS 707 Hot Topics in Machine Learning Seminar 4 116
+Irregular
+CS 708 Seminar Software Engineering 4 118
+Irregular
+CS 709 Seminar Text Analytics 4 120
+Irregular
+CS 710 Seminar Prof. Paulheim 4 122
+Irregular
+CS 715 Seminar Large Scale Data Integration 4 124
+Irregular
+CS 716 Seminar Prof. Armknecht 4 126
+CS 717 Master Seminar on Computer Vision FSS 4 128
+Irregular
+CS 720 Uncertainty Estimation 4 130
+Irregular
+CS 721 Seminar Data-Science I 4 132
+Irregular
+CS 722 Seminar Ethical Aspects of Al 4 134
+Irregular
+IE 704 Seminar AI Systems Engineering 4 136
+FSS
+IS 752 Seminar on Process and Management Analytics 4 MMM*
+* For a detailed description, please see the module catalog of the respective following degree program:
+• MMM: M.Sc. Mannheim Master in Management, https://www.bwl.uni-mannheim.de/studium/mas-
+ter/mmm/
+102
+
+Abbreviations
+Explanation of abbreviations
+This degree program provides students with a solid theoretical foundation as well as practi-
+cal skills for data management, data analytics methods, responsible data science and data
+science applications. The courses are divided in five groups - Data Science Fundamentals,
+Data Management, Data Analytics Methods, Responsible Data Science, and Data Science Ap-
+plications. After studying the fundamentals of Data Sciences, students will then learn how to
+manage, analyse, and responsibly handle data. Furthermore, they will learn about the differ-
+ent applications of data science in computer science, social sciences, or business and eco-
+nomics. In addition to the regular lecture courses, students participate in a one or two se-
+mester team project or individual project.
+Knowledge
+During their studies -
+(MK1) all students develop a deep understanding of the relevant concepts, methods
+and problem solving strategies used in different application domains.
+(MK2) technology-oriented students learn the concepts, algorithms and strategies
+used to solve concrete, practical application-oriented problems in informatics.
+(MK3) social sciences-oriented students develop a deep understanding of how to set
+up, analyse and interpret advanced empirical research questions.
+As part of this education, students become familiar with a wide range of models, modelling
+languages, methods, and tools. Regardless of their specialization, students also learn how to
+collect, structure, manipulate, prepare, interpret, communicate, and use data, information
+and knowledge.
+140Capabilities
+After completing their studies, students have the ability to –
+(MF1) apply a wide range of abstraction and analysis techniques.
+(MF2) understand, interpret, describe and present relevant scientific publications.
+(MF3) exploit the latest scientific results.
+(MF4) independently tackle problems in data management and analytics and de-
+scribe their results in a structured, written form.
+(MF5) continue their studies at the PhD level, if their results are of sufficient quality.
+Competencies
+After completing their studies, students have the competences needed to –
+(MKO1) apply their knowledge and capabilities to solve specific problems in a team
+context.
+(MKO2) use their interdisciplinary education to mediate between technical and non-
+technical individuals.
+(MKO3) evaluate the latest changes in programming languages, systems, models and,
+wherever possible, exploit them to develop better solutions to data-science
+related problems.
+141
+
