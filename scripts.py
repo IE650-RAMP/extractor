@@ -1,11 +1,13 @@
 import os
 from datetime import datetime
 from pathlib import Path
-from baml_client.partial_types import ModuleCatalog, StudyProgrammOverview
+from baml_client.partial_types import ModuleCatalog, ModuleList, StudyProgrammOverview
 import pdfplumber
 from pathlib import Path
 import re
 import sys
+import requests
+from requests.auth import HTTPBasicAuth
 
 sys.path.append(os.path.abspath("./baml_client"))
 
@@ -163,7 +165,7 @@ def parse_module_catalog(path):
     with open(path, 'r') as json_file:
         catalog_json = json_file.read()
 
-        return ModuleCatalog.model_validate_json(catalog_json)
+        return ModuleList.model_validate_json(catalog_json)
     
 def parse_overview(path):
     with open(path, 'r') as json_file:

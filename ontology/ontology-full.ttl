@@ -1,0 +1,495 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ramp: <http://ramp.uni-mannheim.de/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ramp.uni-mannheim.de> a owl:Ontology .
+
+ramp:additionalPrerequisite a owl:DatatypeProperty ;
+    rdfs:domain ramp:Module .
+
+ramp:ects a owl:DatatypeProperty ;
+    rdfs:label "ECTS" ;
+    rdfs:domain ramp:Module ;
+    rdfs:range xsd:decimal .
+
+ramp:examinationDistribution a owl:AnnotationProperty ;
+    rdfs:domain ramp:Module ;
+    rdfs:range ramp:AssessmentForm .
+
+ramp:examinationDuration a owl:AnnotationProperty ;
+    rdfs:domain ramp:Module ;
+    rdfs:range ramp:AssessmentForm .
+
+ramp:hasDegree a owl:ObjectProperty ;
+    rdfs:domain ramp:StudyProgram ;
+    rdfs:range ramp:Degree .
+
+ramp:hasExaminationForm a owl:ObjectProperty .
+
+ramp:hasLecturer a owl:ObjectProperty ;
+    rdfs:domain ramp:Module ;
+    rdfs:range foaf:Person .
+
+ramp:hasPersonInCharge a owl:ObjectProperty ;
+    rdfs:domain ramp:Module ;
+    rdfs:range foaf:Person .
+
+ramp:isChairOf a owl:ObjectProperty .
+
+ramp:isMandatoryPrerequisiteOf a owl:ObjectProperty ;
+    rdfs:domain ramp:Module ;
+    rdfs:range ramp:Module ;
+    rdfs:subPropertyOf ramp:isPrerequisiteOf .
+
+ramp:isPartOfStudyProgram a owl:ObjectProperty ;
+    rdfs:domain ramp:StudyArea ;
+    rdfs:range ramp:StudyProgram ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+ramp:isRecommendedPrerequisiteOf a owl:ObjectProperty ;
+    rdfs:domain ramp:Module ;
+    rdfs:range ramp:Module ;
+    rdfs:subPropertyOf ramp:isPrerequisiteOf .
+
+<http://ramp.uni-mannheim.de/module/AC_651> a ramp:Module ;
+    ramp:id "AC_651" ;
+    ramp:name "additional_course_data_management" .
+
+<http://ramp.uni-mannheim.de/module/AC_652> a ramp:Module ;
+    ramp:id "AC_652" ;
+    ramp:name "additional_course_data_analytics_methods" .
+
+<http://ramp.uni-mannheim.de/module/AC_653> a ramp:Module ;
+    ramp:id "AC_653" ;
+    ramp:name "additional_course_projects_and_seminars" .
+
+<http://ramp.uni-mannheim.de/module/AC_654> a ramp:Module ;
+    ramp:id "AC_654" ;
+    ramp:name "additional_course_responsible_data_science" .
+
+<http://ramp.uni-mannheim.de/module/AC_655> a ramp:Module ;
+    ramp:id "AC_655" ;
+    ramp:name "additional_course_data_science_applications" .
+
+<http://ramp.uni-mannheim.de/module/CS_500> a ramp:Module ;
+    ramp:id "CS_500" ;
+    ramp:name "advanced_software_engineering" .
+
+<http://ramp.uni-mannheim.de/module/CS_550> a ramp:Module ;
+    ramp:id "CS_550" ;
+    ramp:name "algorithmics" .
+
+<http://ramp.uni-mannheim.de/module/CS_560> a ramp:Module ;
+    ramp:additionalPrerequisite "Very good knowledge of database systems, good knowledge of algorithms and data structures as well as Java programming" ;
+    ramp:ects "6"^^xsd:int ;
+    ramp:examinationDuration "90"^^xsd:int ;
+    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasLecturer <http://ramp.uni-mannheim.de/person/Rainer_Gemulla> ;
+    ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/Rainer_Gemulla> ;
+    ramp:id "CS_560" ;
+    ramp:name "large_scale_data_management" ;
+    ramp:offeredIn "FFS" ;
+    ramp:recommendedLiterature "H. Garcia-Molina, J. D. Ullman, J. Widom Database Systems: The Complete Book Prentice Hall, 2nd ed., 2008",
+        "More in lecture notes",
+        "T. Öszu, P. Valduriez Principles of Distributed Database Systems Springer, 4th ed., 2020" ;
+    ramp:recommendedSemester "1"^^xsd:int,
+        "2"^^xsd:int ;
+    ramp:workloadInPerson "56"^^xsd:int ;
+    ramp:workloadSelfStudy "98"^^xsd:int .
+
+<http://ramp.uni-mannheim.de/module/CS_600> a ramp:Module ;
+    ramp:id "CS_600" ;
+    ramp:name "model_driven_development" .
+
+<http://ramp.uni-mannheim.de/module/CS_630> a ramp:Module ;
+    ramp:id "CS_630" ;
+    ramp:name "generative_software_engineering" .
+
+<http://ramp.uni-mannheim.de/module/CS_646> a ramp:Module ;
+    ramp:id "CS_646" ;
+    ramp:name "higher_level_computer_vision" .
+
+<http://ramp.uni-mannheim.de/module/CS_647> a ramp:Module ;
+    ramp:id "CS_647" ;
+    ramp:name "image_processing" .
+
+<http://ramp.uni-mannheim.de/module/CS_651> a ramp:Module ;
+    ramp:id "CS_651" ;
+    ramp:name "cryptography_ii" .
+
+<http://ramp.uni-mannheim.de/module/CS_652> a ramp:Module ;
+    ramp:additionalPrerequisite "Knowledge in cryptography or IT-security is recommended" ;
+    ramp:ects "6"^^xsd:int ;
+    ramp:examinationDuration "90"^^xsd:int ;
+    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasLecturer <http://ramp.uni-mannheim.de/person/Frederik_Armknecht> ;
+    ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/Frederik_Armknecht> ;
+    ramp:id "CS_652" ;
+    ramp:name "data_security_and_privacy" ;
+    ramp:recommendedLiterature "Will be announced in the lecture" ;
+    ramp:recommendedSemester "1"^^xsd:int,
+        "2"^^xsd:int,
+        "3"^^xsd:int ;
+    ramp:workloadInPerson "56"^^xsd:int ;
+    ramp:workloadSelfStudy "112"^^xsd:int .
+
+<http://ramp.uni-mannheim.de/module/CS_655> a ramp:Module ;
+    ramp:id "CS_655" ;
+    ramp:name "cryptography" .
+
+<http://ramp.uni-mannheim.de/module/CS_662> a ramp:Module ;
+    ramp:id "CS_662" ;
+    ramp:name "types_and_programming_languages" .
+
+<http://ramp.uni-mannheim.de/module/CS_664> a ramp:Module ;
+    ramp:id "CS_664" ;
+    ramp:name "blockchain_security" .
+
+<http://ramp.uni-mannheim.de/module/CS_668> a ramp:Module ;
+    ramp:id "CS_668" ;
+    ramp:name "generative_computer_vision_models" .
+
+<http://ramp.uni-mannheim.de/module/CS_701> a ramp:Module ;
+    ramp:id "CS_701" ;
+    ramp:name "selected_topics_in_algorithmics_and_cryptography" .
+
+<http://ramp.uni-mannheim.de/module/CS_704> a ramp:Module ;
+    ramp:id "CS_704" ;
+    ramp:name "master_seminar_artificial_intelligence" .
+
+<http://ramp.uni-mannheim.de/module/CS_707> a ramp:Module ;
+    ramp:id "CS_707" ;
+    ramp:name "hot_topics_in_machine_learning_seminar" .
+
+<http://ramp.uni-mannheim.de/module/CS_708> a ramp:Module ;
+    ramp:id "CS_708" ;
+    ramp:name "seminar_software_engineering" .
+
+<http://ramp.uni-mannheim.de/module/CS_709> a ramp:Module ;
+    ramp:id "CS_709" ;
+    ramp:name "seminar_text_analytics" .
+
+<http://ramp.uni-mannheim.de/module/CS_710> a ramp:Module ;
+    ramp:id "CS_710" ;
+    ramp:name "seminar_prof_paulheim" .
+
+<http://ramp.uni-mannheim.de/module/CS_715> a ramp:Module ;
+    ramp:id "CS_715" ;
+    ramp:name "seminar_large_scale_data_integration" .
+
+<http://ramp.uni-mannheim.de/module/CS_716> a ramp:Module ;
+    ramp:id "CS_716" ;
+    ramp:name "seminar_prof_armknecht" .
+
+<http://ramp.uni-mannheim.de/module/CS_717> a ramp:Module ;
+    ramp:id "CS_717" ;
+    ramp:name "master_seminar_on_computer_vision" .
+
+<http://ramp.uni-mannheim.de/module/CS_718> a ramp:Module ;
+    ramp:id "CS_718" ;
+    ramp:name "ai_and_data_science_in_fiction_and_society" .
+
+<http://ramp.uni-mannheim.de/module/CS_720> a ramp:Module ;
+    ramp:id "CS_720" ;
+    ramp:name "uncertainty_estimation" .
+
+<http://ramp.uni-mannheim.de/module/CS_721> a ramp:Module ;
+    ramp:id "CS_721" ;
+    ramp:name "seminar_data_science_i" .
+
+<http://ramp.uni-mannheim.de/module/CS_722> a ramp:Module ;
+    ramp:id "CS_722" ;
+    ramp:name "seminar_ethical_aspects_of_ai" .
+
+<http://ramp.uni-mannheim.de/module/DA_110> a ramp:Module ;
+    ramp:id "DA_110" ;
+    ramp:name "computational_analysis_of_communication" .
+
+<http://ramp.uni-mannheim.de/module/DS_100> a ramp:Module ;
+    ramp:id "DS_100" ;
+    ramp:name "statistics_for_data_scientists" .
+
+<http://ramp.uni-mannheim.de/module/DS_200> a ramp:Module ;
+    ramp:id "DS_200" ;
+    ramp:name "sampling_and_data" .
+
+<http://ramp.uni-mannheim.de/module/DS_201> a ramp:Module ;
+    ramp:id "DS_201" ;
+    ramp:name "machine_learning_and_causal_inference" .
+
+<http://ramp.uni-mannheim.de/module/DS_202> a ramp:Module ;
+    ramp:id "DS_202" ;
+    ramp:name "seminar_and_lab_on_machine_learning_and_causal_inference" .
+
+<http://ramp.uni-mannheim.de/module/DS_203> a ramp:Module ;
+    ramp:id "DS_203" ;
+    ramp:name "responsible_ai_conceptual_foundations_methods_and_applications" .
+
+<http://ramp.uni-mannheim.de/module/IE_560> a ramp:Module ;
+    ramp:id "IE_560" ;
+    ramp:name "decision_support" .
+
+<http://ramp.uni-mannheim.de/module/IE_663> a ramp:Module ;
+    ramp:id "IE_663" ;
+    ramp:name "information_retrieval_and_web_search" .
+
+<http://ramp.uni-mannheim.de/module/IE_670> a ramp:Module ;
+    ramp:id "IE_670" ;
+    ramp:name "web_data_integration" .
+
+<http://ramp.uni-mannheim.de/module/IE_671> a ramp:Module ;
+    ramp:id "IE_671" ;
+    ramp:name "web_mining" .
+
+<http://ramp.uni-mannheim.de/module/IE_675b> a ramp:Module ;
+    ramp:additionalPrerequisite "Knowledge of probability and statistics, no attempted or completed IE 675 exam" ;
+    ramp:ects "9"^^xsd:int ;
+    ramp:examinationDuration "90"^^xsd:int ;
+    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasLecturer <http://ramp.uni-mannheim.de/person/Rainer_Gemulla> ;
+    ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/Rainer_Gemulla> ;
+    ramp:hasPrerequisite <http://ramp.uni-mannheim.de/module/IE_500> ;
+    ramp:id "IE_675b" ;
+    ramp:name "machine_learning" ;
+    ramp:offeredIn "FFS" ;
+    ramp:recommendedLiterature "Additional material and articles provided in lecture notes",
+        "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT Press, 2017",
+        "K.P. Murphy. Probabilistic Machine Learning: An Introduction. The MIT Press, 2022" ;
+    ramp:recommendedSemester "1"^^xsd:int,
+        "2"^^xsd:int,
+        "3"^^xsd:int ;
+    ramp:workloadInPerson "56"^^xsd:int ;
+    ramp:workloadSelfStudy "174"^^xsd:int .
+
+<http://ramp.uni-mannheim.de/module/IE_678> a ramp:Module ;
+    ramp:id "IE_678" ;
+    ramp:name "deep_learning" .
+
+<http://ramp.uni-mannheim.de/module/IE_683> a ramp:Module ;
+    ramp:id "IE_683" ;
+    ramp:name "web_data_integration_project" .
+
+<http://ramp.uni-mannheim.de/module/IE_684> a ramp:Module ;
+    ramp:id "IE_684" ;
+    ramp:name "web_mining_project" .
+
+<http://ramp.uni-mannheim.de/module/IE_686> a ramp:Module ;
+    ramp:id "IE_686" ;
+    ramp:name "large_language_models_and_agents" .
+
+<http://ramp.uni-mannheim.de/module/IE_691> a ramp:Module ;
+    ramp:id "IE_691" ;
+    ramp:name "information_retrieval_project" .
+
+<http://ramp.uni-mannheim.de/module/IE_692> a ramp:Module ;
+    ramp:id "IE_692" ;
+    ramp:name "advanced_process_mining" .
+
+<http://ramp.uni-mannheim.de/module/IE_694> a ramp:Module ;
+    ramp:id "IE_694" ;
+    ramp:name "artificial_intelligence_applications_in_industry" .
+
+<http://ramp.uni-mannheim.de/module/IE_696> a ramp:Module ;
+    ramp:id "IE_696" ;
+    ramp:name "advanced_methods_in_text_analytics" .
+
+<http://ramp.uni-mannheim.de/module/IE_697> a ramp:Module ;
+    ramp:id "IE_697" ;
+    ramp:name "data_science_in_action" .
+
+<http://ramp.uni-mannheim.de/module/IE_698> a ramp:Module ;
+    ramp:id "IE_698" ;
+    ramp:name "foundations_and_applications_of_digital_health_technologies" .
+
+<http://ramp.uni-mannheim.de/module/IE_699> a ramp:Module ;
+    ramp:id "IE_699" ;
+    ramp:name "co_creating_digital_health_applications_with_design_methodology" .
+
+<http://ramp.uni-mannheim.de/module/IE_704> a ramp:Module ;
+    ramp:id "IE_704" ;
+    ramp:name "seminar_ai_systems_engineering" .
+
+<http://ramp.uni-mannheim.de/module/IP_500> a ramp:Module ;
+    ramp:id "IP_500" ;
+    ramp:name "individual_project" .
+
+<http://ramp.uni-mannheim.de/module/IS_515> a ramp:Module ;
+    ramp:id "IS_515" ;
+    ramp:name "process_management_and_analytics" .
+
+<http://ramp.uni-mannheim.de/module/IS_540> a ramp:Module ;
+    ramp:id "IS_540" ;
+    ramp:name "management_of_enterprise_systems" .
+
+<http://ramp.uni-mannheim.de/module/IS_556> a ramp:Module ;
+    ramp:id "IS_556" ;
+    ramp:name "public_blockchains" .
+
+<http://ramp.uni-mannheim.de/module/IS_616> a ramp:Module ;
+    ramp:id "IS_616" ;
+    ramp:name "large_scale_data_analysis_and_visualization" .
+
+<http://ramp.uni-mannheim.de/module/IS_661> a ramp:Module ;
+    ramp:id "IS_661" ;
+    ramp:name "text_analytics" .
+
+<http://ramp.uni-mannheim.de/module/IS_752> a ramp:Module ;
+    ramp:id "IS_752" ;
+    ramp:name "seminar_on_process_and_management_analytics" .
+
+<http://ramp.uni-mannheim.de/module/MAA_519> a ramp:Module ;
+    ramp:id "MAA_519" ;
+    ramp:name "stochastic_calculus" .
+
+<http://ramp.uni-mannheim.de/module/MAB_504> a ramp:Module ;
+    ramp:id "MAB_504" ;
+    ramp:name "mathematics_and_information" .
+
+<http://ramp.uni-mannheim.de/module/MAB_508> a ramp:Module ;
+    ramp:id "MAB_508" ;
+    ramp:name "algebraische_statistik" .
+
+<http://ramp.uni-mannheim.de/module/MAB_519> a ramp:Module ;
+    ramp:id "MAB_519" ;
+    ramp:name "reinforcement_learning_ii" .
+
+<http://ramp.uni-mannheim.de/module/MAB_520> a ramp:Module ;
+    ramp:id "MAB_520" ;
+    ramp:name "reinforcement_learning_ii" .
+
+<http://ramp.uni-mannheim.de/module/MAC_404> a ramp:Module ;
+    ramp:id "MAC_404" ;
+    ramp:name "optimierung" .
+
+<http://ramp.uni-mannheim.de/module/MAC_502> a ramp:Module ;
+    ramp:id "MAC_502" ;
+    ramp:name "computational_finance" .
+
+<http://ramp.uni-mannheim.de/module/MAC_507> a ramp:Module ;
+    ramp:id "MAC_507" ;
+    ramp:name "nichtlineare_optimierung" .
+
+<http://ramp.uni-mannheim.de/module/MAC_527> a ramp:Module ;
+    ramp:id "MAC_527" ;
+    ramp:name "markov_processes" .
+
+<http://ramp.uni-mannheim.de/module/MAC_570> a ramp:Module ;
+    ramp:id "MAC_570" ;
+    ramp:name "reinforcement_learning_coding" .
+
+<http://ramp.uni-mannheim.de/module/MKT_511> a ramp:Module ;
+    ramp:id "MKT_511" ;
+    ramp:name "marketing_analytics" .
+
+<http://ramp.uni-mannheim.de/module/MKT_545> a ramp:Module ;
+    ramp:id "MKT_545" ;
+    ramp:name "customers_markets_and_firm_strategy" .
+
+<http://ramp.uni-mannheim.de/module/N/A> a ramp:Module ;
+    ramp:id "N/A" ;
+    ramp:name "legal_and_ethical_aspects_of_privacy" .
+
+<http://ramp.uni-mannheim.de/module/SQ_500> a ramp:Module ;
+    ramp:id "SQ_500" ;
+    ramp:name "scientific_research" .
+
+<http://ramp.uni-mannheim.de/module/TP_500> a ramp:Module ;
+    ramp:id "TP_500" ;
+    ramp:name "team_project" .
+
+ramp:offeredIn a owl:DatatypeProperty ;
+    rdfs:domain ramp:Module ;
+    rdfs:range [ a rdfs:Datatype ;
+            owl:oneOf [ a rdf:List ;
+                    rdf:first "FFS" ;
+                    rdf:rest [ a rdf:List ;
+                            rdf:first "HWS" ;
+                            rdf:rest () ] ] ] .
+
+ramp:recommended a owl:AnnotationProperty .
+
+ramp:recommendedLiterature a owl:DatatypeProperty ;
+    rdfs:label "Recommended Literature"@en .
+
+ramp:recommendedSemester a owl:DatatypeProperty ;
+    rdfs:label "Recommended Semester"@en ;
+    rdfs:domain ramp:Module ;
+    rdfs:range xsd:decimal .
+
+ramp:workloadInPerson a owl:DatatypeProperty ;
+    rdfs:domain ramp:Module ;
+    rdfs:range xsd:decimal .
+
+ramp:workloadSelfStudy a owl:DatatypeProperty ;
+    rdfs:domain ramp:Module ;
+    rdfs:range xsd:decimal .
+
+ramp:Degree a owl:Class .
+
+ramp:isFollowupOfModule a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:domain ramp:Module ;
+    rdfs:range ramp:Module .
+
+ramp:isPartOfStudyArea a owl:ObjectProperty ;
+    rdfs:domain ramp:Module ;
+    rdfs:range ramp:StudyArea ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    owl:propertyChainAxiom ( ramp:isFollowupOfModule ramp:isPartOfStudyArea ) .
+
+<http://ramp.uni-mannheim.de/module/IE_500> a ramp:Module ;
+    ramp:additionalPrerequisite "Foundations of Statistics, Practical Informatics I" ;
+    ramp:ects "6"^^xsd:int ;
+    ramp:examinationDuration "60"^^xsd:int ;
+    ramp:hasAssesment [ ramp:examinationDistribution "20"^^xsd:int ;
+            ramp:hasAssessmentForm "REPORT" ],
+        [ ramp:examinationDistribution "5"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:examinationDistribution "75"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasFurtherModue "CS_646",
+        "IE_671",
+        "IE_675b",
+        "IE_678",
+        "IS_661" ;
+    ramp:hasLecturer <http://ramp.uni-mannheim.de/person/Christian_Bizer>,
+        <http://ramp.uni-mannheim.de/person/Heiko_Paulheim> ;
+    ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/Christian_Bizer>,
+        <http://ramp.uni-mannheim.de/person/Heiko_Paulheim> ;
+    ramp:id "IE_500" ;
+    ramp:name "data_mining" ;
+    ramp:offeredIn "FFS" ;
+    ramp:recommendedLiterature "Aurélien Géron: Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow, 3rd Edition, O’Reilly.",
+        "Pang-Ning Tan, Michael Steinback, Vipin Kumar: Introduction to Data Mining, 2nd Edition, Pearson." ;
+    ramp:recommendedSemester "1"^^xsd:int,
+        "2"^^xsd:int ;
+    ramp:workloadInPerson "56"^^xsd:int ;
+    ramp:workloadSelfStudy "98"^^xsd:int .
+
+ramp:AssessmentForm a owl:Class .
+
+ramp:isPrerequisiteOf a owl:ObjectProperty ;
+    rdfs:domain ramp:Module ;
+    rdfs:range ramp:Module .
+
+<http://ramp.uni-mannheim.de/person/Christian_Bizer> a foaf:Person .
+
+<http://ramp.uni-mannheim.de/person/Frederik_Armknecht> a foaf:Person .
+
+<http://ramp.uni-mannheim.de/person/Heiko_Paulheim> a foaf:Person .
+
+ramp:StudyArea a owl:Class .
+
+ramp:StudyProgram a owl:Class .
+
+<http://ramp.uni-mannheim.de/person/Rainer_Gemulla> a foaf:Person .
+
+foaf:Person a owl:Class .
+
+ramp:Module a owl:Class ;
+    owl:disjointWith ramp:StudyArea,
+        ramp:StudyProgram .
+
