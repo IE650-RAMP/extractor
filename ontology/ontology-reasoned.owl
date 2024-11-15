@@ -1,0 +1,890 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:ramp="http://ramp.uni-mannheim.de/"
+         xmlns:x_0.1="http://xmlns.com/foaf/0.1/">
+
+<owl:Ontology rdf:about="http://anonymous"/>
+
+<owl:Ontology rdf:about="http://ramp.uni-mannheim.de"/>
+
+<owl:ObjectProperty rdf:about="http://ramp.uni-mannheim.de/hasAssesment"/>
+
+<owl:ObjectProperty rdf:about="http://ramp.uni-mannheim.de/hasLecturer">
+  <rdfs:domain rdf:resource="http://ramp.uni-mannheim.de/Module"/>
+  <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://ramp.uni-mannheim.de/hasPersonInCharge">
+  <rdfs:domain rdf:resource="http://ramp.uni-mannheim.de/Module"/>
+  <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://ramp.uni-mannheim.de/hasModule">
+  <owl:inverseOf rdf:resource="http://ramp.uni-mannheim.de/isModuleOf"/>
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://ramp.uni-mannheim.de/StudyArea"/>
+        <rdf:Description rdf:about="http://ramp.uni-mannheim.de/StudyProgram"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="http://ramp.uni-mannheim.de/Module"/>
+  <owl:propertyChainAxiom>
+    <rdf:Description>
+      <rdf:first rdf:resource="http://ramp.uni-mannheim.de/hasStudyArea"/>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first rdf:resource="http://ramp.uni-mannheim.de/hasModule"/>
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </owl:propertyChainAxiom>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://ramp.uni-mannheim.de/isStudyAreaOf">
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://ramp.uni-mannheim.de/Module"/>
+        <rdf:Description rdf:about="http://ramp.uni-mannheim.de/StudyArea"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="http://ramp.uni-mannheim.de/StudyProgram"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://ramp.uni-mannheim.de/isPrerequisiteOf">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  <rdfs:domain rdf:resource="http://ramp.uni-mannheim.de/Module"/>
+  <rdfs:range rdf:resource="http://ramp.uni-mannheim.de/Module"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://ramp.uni-mannheim.de/isModuleOf">
+  <rdfs:domain rdf:resource="http://ramp.uni-mannheim.de/Module"/>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://ramp.uni-mannheim.de/StudyArea"/>
+        <rdf:Description rdf:about="http://ramp.uni-mannheim.de/StudyProgram"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+  <owl:propertyChainAxiom>
+    <rdf:Description>
+      <rdf:first rdf:resource="http://ramp.uni-mannheim.de/isModuleOf"/>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first rdf:resource="http://ramp.uni-mannheim.de/isStudyAreaOf"/>
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </owl:propertyChainAxiom>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://ramp.uni-mannheim.de/isFollowupOfModule">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  <rdfs:domain rdf:resource="http://ramp.uni-mannheim.de/Module"/>
+  <rdfs:range rdf:resource="http://ramp.uni-mannheim.de/Module"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://ramp.uni-mannheim.de/isMandatoryPrerequisiteOf">
+  <rdfs:subPropertyOf rdf:resource="http://ramp.uni-mannheim.de/isPrerequisiteOf"/>
+  <rdfs:domain rdf:resource="http://ramp.uni-mannheim.de/Module"/>
+  <rdfs:range rdf:resource="http://ramp.uni-mannheim.de/Module"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://ramp.uni-mannheim.de/hasDegree">
+  <rdfs:domain rdf:resource="http://ramp.uni-mannheim.de/StudyProgram"/>
+  <rdfs:range rdf:resource="http://ramp.uni-mannheim.de/Degree"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://ramp.uni-mannheim.de/isRecommendedPrerequisiteOf">
+  <rdfs:subPropertyOf rdf:resource="http://ramp.uni-mannheim.de/isPrerequisiteOf"/>
+  <rdfs:domain rdf:resource="http://ramp.uni-mannheim.de/Module"/>
+  <rdfs:range rdf:resource="http://ramp.uni-mannheim.de/Module"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://ramp.uni-mannheim.de/hasStudyArea">
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  <owl:inverseOf rdf:resource="http://ramp.uni-mannheim.de/isStudyAreaOf"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://ramp.uni-mannheim.de/isChairOf"/>
+
+<owl:DatatypeProperty rdf:about="http://ramp.uni-mannheim.de/recommendedSemester">
+  <rdfs:domain rdf:resource="http://ramp.uni-mannheim.de/Module"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:label xml:lang="en">Recommended Semester</rdfs:label>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://ramp.uni-mannheim.de/workloadSelfStudy">
+  <rdfs:domain rdf:resource="http://ramp.uni-mannheim.de/Module"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://ramp.uni-mannheim.de/offeredIn">
+  <rdfs:domain rdf:resource="http://ramp.uni-mannheim.de/Module"/>
+  <rdfs:range>
+    <rdfs:Datatype>
+      <owl:oneOf>
+        <rdf:Description>
+      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFS</rdf:first>
+        <rdf:rest>
+        <rdf:Description>
+      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HWS</rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:Description>
+        </rdf:rest>
+        </rdf:Description>
+      </owl:oneOf>
+    </rdfs:Datatype>
+  </rdfs:range>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://ramp.uni-mannheim.de/workloadInPerson">
+  <rdfs:domain rdf:resource="http://ramp.uni-mannheim.de/Module"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://ramp.uni-mannheim.de/examinationDistribution">
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  <rdfs:domain>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://ramp.uni-mannheim.de/Module"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://ramp.uni-mannheim.de/hasAssesment"/>
+          <owl:hasSelf rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasSelf>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </rdfs:domain>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://ramp.uni-mannheim.de/ects">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://ramp.uni-mannheim.de/Module"/>
+        <rdf:Description rdf:about="http://ramp.uni-mannheim.de/StudyArea"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECTS</rdfs:label>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://ramp.uni-mannheim.de/recommendedLiterature">
+  <rdfs:label xml:lang="en">Recommended Literature</rdfs:label>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://ramp.uni-mannheim.de/additionalPrerequisite">
+  <rdfs:domain rdf:resource="http://ramp.uni-mannheim.de/Module"/>
+</owl:DatatypeProperty>
+
+<owl:AnnotationProperty rdf:about="http://ramp.uni-mannheim.de/recommended"/>
+
+<owl:Class rdf:about="http://ramp.uni-mannheim.de/Module">
+  <owl:disjointWith rdf:resource="http://ramp.uni-mannheim.de/StudyArea"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://ramp.uni-mannheim.de/StudyProgram"/>
+
+<owl:Class rdf:about="http://ramp.uni-mannheim.de/StudyArea"/>
+
+<owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+
+<owl:Class rdf:about="http://ramp.uni-mannheim.de/Degree"/>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/AC_651">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">additional_course_data_management</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC_651</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_550">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">algorithmics</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_550</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_560">
+  <ramp:hasAssesment>
+    <rdf:Description>
+      <ramp:hasAssessmentForm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WRITTEN</ramp:hasAssessmentForm>
+    </rdf:Description>
+  </ramp:hasAssesment>
+  <ramp:hasLecturer rdf:resource="http://ramp.uni-mannheim.de/person/Rainer_Gemulla"/>
+  <ramp:hasPersonInCharge rdf:resource="http://ramp.uni-mannheim.de/person/Rainer_Gemulla"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large_scale_data_management</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_560</ramp:id>
+  <ramp:ects rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ramp:ects>
+  <ramp:workloadInPerson rdf:datatype="http://www.w3.org/2001/XMLSchema#int">56</ramp:workloadInPerson>
+  <ramp:workloadSelfStudy rdf:datatype="http://www.w3.org/2001/XMLSchema#int">98</ramp:workloadSelfStudy>
+  <ramp:examinationDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">90</ramp:examinationDuration>
+  <ramp:additionalPrerequisite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Very good knowledge of database systems, good knowledge of algorithms and data structures as well as Java programming</ramp:additionalPrerequisite>
+  <ramp:offeredIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFS</ramp:offeredIn>
+  <ramp:recommendedSemester rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</ramp:recommendedSemester>
+  <ramp:recommendedSemester rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ramp:recommendedSemester>
+  <ramp:recommendedLiterature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T. Öszu, P. Valduriez Principles of Distributed Database Systems Springer, 4th ed., 2020</ramp:recommendedLiterature>
+  <ramp:recommendedLiterature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H. Garcia-Molina, J. D. Ullman, J. Widom Database Systems: The Complete Book Prentice Hall, 2nd ed., 2008</ramp:recommendedLiterature>
+  <ramp:recommendedLiterature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">More in lecture notes</ramp:recommendedLiterature>
+</ramp:Module>
+
+<x_0.1:Person rdf:about="http://ramp.uni-mannheim.de/person/Rainer_Gemulla"/>
+
+<ramp:StudyProgram rdf:about="http://ramp.uni-mannheim.de/study_program/289364076533">
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_560"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_500"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_675b"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_652"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/AC_651"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/DS_200"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_500"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_550"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_600"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_651"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_655"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_662"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_664"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_663"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_670"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_691"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_683"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IS_556"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAC_570"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/AC_652"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/DS_100"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/DS_202"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_560"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_671"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_678"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_684"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_686"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_692"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_696"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_646"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_647"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_668"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IS_515"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IS_616"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IS_661"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAA_519"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAB_504"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAB_508"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAB_519"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAB_520"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAC_404"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAC_507"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAC_527"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/DS_201"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/N/A"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_718"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/AC_654"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/DS_203"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/AC_655"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_694"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_697"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/DA_110"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_698"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_699"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_630"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAC_502"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IS_540"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MKT_545"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MKT_511"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/AC_653"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/TP_500"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IP_500"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/SQ_500"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_701"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_704"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_707"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_708"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_709"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_710"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_715"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_716"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_717"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_720"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_721"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_722"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_704"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IS_752"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mannheim Master in Data Science</rdfs:label>
+</ramp:StudyProgram>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IE_500">
+  <ramp:hasAssesment>
+    <rdf:Description>
+      <ramp:hasAssessmentForm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WRITTEN</ramp:hasAssessmentForm>
+      <ramp:examinationDistribution rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75</ramp:examinationDistribution>
+    </rdf:Description>
+  </ramp:hasAssesment>
+  <ramp:hasAssesment>
+    <rdf:Description>
+      <ramp:hasAssessmentForm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REPORT</ramp:hasAssessmentForm>
+      <ramp:examinationDistribution rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</ramp:examinationDistribution>
+    </rdf:Description>
+  </ramp:hasAssesment>
+  <ramp:hasAssesment>
+    <rdf:Description>
+      <ramp:hasAssessmentForm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRESENTATION</ramp:hasAssessmentForm>
+      <ramp:examinationDistribution rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</ramp:examinationDistribution>
+    </rdf:Description>
+  </ramp:hasAssesment>
+  <ramp:hasLecturer rdf:resource="http://ramp.uni-mannheim.de/person/Heiko_Paulheim"/>
+  <ramp:hasLecturer rdf:resource="http://ramp.uni-mannheim.de/person/Christian_Bizer"/>
+  <ramp:hasPersonInCharge rdf:resource="http://ramp.uni-mannheim.de/person/Heiko_Paulheim"/>
+  <ramp:hasPersonInCharge rdf:resource="http://ramp.uni-mannheim.de/person/Christian_Bizer"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data_mining</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_500</ramp:id>
+  <ramp:ects rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ramp:ects>
+  <ramp:workloadInPerson rdf:datatype="http://www.w3.org/2001/XMLSchema#int">56</ramp:workloadInPerson>
+  <ramp:workloadSelfStudy rdf:datatype="http://www.w3.org/2001/XMLSchema#int">98</ramp:workloadSelfStudy>
+  <ramp:examinationDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">60</ramp:examinationDuration>
+  <ramp:additionalPrerequisite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foundations of Statistics, Practical Informatics I</ramp:additionalPrerequisite>
+  <ramp:offeredIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFS</ramp:offeredIn>
+  <ramp:recommendedSemester rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</ramp:recommendedSemester>
+  <ramp:recommendedSemester rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ramp:recommendedSemester>
+  <ramp:recommendedLiterature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pang-Ning Tan, Michael Steinback, Vipin Kumar: Introduction to Data Mining, 2nd Edition, Pearson.</ramp:recommendedLiterature>
+  <ramp:recommendedLiterature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aurélien Géron: Hands-on Machine Learning with Scikit-Learn, Keras &amp; TensorFlow, 3rd Edition, O’Reilly.</ramp:recommendedLiterature>
+  <ramp:hasFurtherModue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_675b</ramp:hasFurtherModue>
+  <ramp:hasFurtherModue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_678</ramp:hasFurtherModue>
+  <ramp:hasFurtherModue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IS_661</ramp:hasFurtherModue>
+  <ramp:hasFurtherModue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_646</ramp:hasFurtherModue>
+  <ramp:hasFurtherModue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_671</ramp:hasFurtherModue>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IE_675b">
+  <ramp:hasAssesment>
+    <rdf:Description>
+      <ramp:hasAssessmentForm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WRITTEN</ramp:hasAssessmentForm>
+    </rdf:Description>
+  </ramp:hasAssesment>
+  <ramp:hasPrerequisite rdf:resource="http://ramp.uni-mannheim.de/module/IE_500"/>
+  <ramp:hasLecturer rdf:resource="http://ramp.uni-mannheim.de/person/Rainer_Gemulla"/>
+  <ramp:hasPersonInCharge rdf:resource="http://ramp.uni-mannheim.de/person/Rainer_Gemulla"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">machine_learning</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_675b</ramp:id>
+  <ramp:ects rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</ramp:ects>
+  <ramp:workloadInPerson rdf:datatype="http://www.w3.org/2001/XMLSchema#int">56</ramp:workloadInPerson>
+  <ramp:workloadSelfStudy rdf:datatype="http://www.w3.org/2001/XMLSchema#int">174</ramp:workloadSelfStudy>
+  <ramp:examinationDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">90</ramp:examinationDuration>
+  <ramp:additionalPrerequisite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knowledge of probability and statistics, no attempted or completed IE 675 exam</ramp:additionalPrerequisite>
+  <ramp:offeredIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFS</ramp:offeredIn>
+  <ramp:recommendedSemester rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</ramp:recommendedSemester>
+  <ramp:recommendedSemester rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ramp:recommendedSemester>
+  <ramp:recommendedSemester rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ramp:recommendedSemester>
+  <ramp:recommendedLiterature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K.P. Murphy. Probabilistic Machine Learning: An Introduction. The MIT Press, 2022</ramp:recommendedLiterature>
+  <ramp:recommendedLiterature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT Press, 2017</ramp:recommendedLiterature>
+  <ramp:recommendedLiterature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Additional material and articles provided in lecture notes</ramp:recommendedLiterature>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_652">
+  <ramp:hasAssesment>
+    <rdf:Description>
+      <ramp:hasAssessmentForm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WRITTEN</ramp:hasAssessmentForm>
+    </rdf:Description>
+  </ramp:hasAssesment>
+  <ramp:hasLecturer rdf:resource="http://ramp.uni-mannheim.de/person/Frederik_Armknecht"/>
+  <ramp:hasPersonInCharge rdf:resource="http://ramp.uni-mannheim.de/person/Frederik_Armknecht"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data_security_and_privacy</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_652</ramp:id>
+  <ramp:ects rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ramp:ects>
+  <ramp:workloadInPerson rdf:datatype="http://www.w3.org/2001/XMLSchema#int">56</ramp:workloadInPerson>
+  <ramp:workloadSelfStudy rdf:datatype="http://www.w3.org/2001/XMLSchema#int">112</ramp:workloadSelfStudy>
+  <ramp:examinationDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">90</ramp:examinationDuration>
+  <ramp:additionalPrerequisite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knowledge in cryptography or IT-security is recommended</ramp:additionalPrerequisite>
+  <ramp:recommendedSemester rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</ramp:recommendedSemester>
+  <ramp:recommendedSemester rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ramp:recommendedSemester>
+  <ramp:recommendedSemester rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ramp:recommendedSemester>
+  <ramp:recommendedLiterature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Will be announced in the lecture</ramp:recommendedLiterature>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/DS_200">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sampling_and_data</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DS_200</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_500">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">advanced_software_engineering</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_500</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_600">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">model_driven_development</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_600</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_651">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cryptography_ii</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_651</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_655">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cryptography</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_655</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_662">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">types_and_programming_languages</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_662</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_664">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blockchain_security</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_664</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IE_663">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information_retrieval_and_web_search</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_663</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IE_670">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">web_data_integration</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_670</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IE_691">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information_retrieval_project</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_691</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IE_683">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">web_data_integration_project</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_683</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IS_556">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">public_blockchains</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IS_556</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/MAC_570">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reinforcement_learning_coding</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAC_570</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/AC_652">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">additional_course_data_analytics_methods</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC_652</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/DS_100">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">statistics_for_data_scientists</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DS_100</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/DS_202">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seminar_and_lab_on_machine_learning_and_causal_inference</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DS_202</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IE_560">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decision_support</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_560</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IE_671">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">web_mining</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_671</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IE_678">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deep_learning</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_678</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IE_684">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">web_mining_project</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_684</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IE_686">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large_language_models_and_agents</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_686</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IE_692">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">advanced_process_mining</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_692</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IE_696">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">advanced_methods_in_text_analytics</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_696</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_646">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">higher_level_computer_vision</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_646</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_647">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image_processing</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_647</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_668">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">generative_computer_vision_models</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_668</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IS_515">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process_management_and_analytics</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IS_515</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IS_616">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large_scale_data_analysis_and_visualization</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IS_616</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IS_661">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">text_analytics</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IS_661</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/MAA_519">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stochastic_calculus</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAA_519</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/MAB_504">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mathematics_and_information</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAB_504</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/MAB_508">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">algebraische_statistik</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAB_508</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/MAB_519">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reinforcement_learning_ii</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAB_519</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/MAB_520">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reinforcement_learning_ii</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAB_520</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/MAC_404">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optimierung</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAC_404</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/MAC_507">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nichtlineare_optimierung</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAC_507</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/MAC_527">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">markov_processes</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAC_527</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/DS_201">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">machine_learning_and_causal_inference</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DS_201</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/N/A">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">legal_and_ethical_aspects_of_privacy</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N/A</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_718">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ai_and_data_science_in_fiction_and_society</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_718</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/AC_654">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">additional_course_responsible_data_science</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC_654</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/DS_203">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">responsible_ai_conceptual_foundations_methods_and_applications</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DS_203</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/AC_655">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">additional_course_data_science_applications</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC_655</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IE_694">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artificial_intelligence_applications_in_industry</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_694</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IE_697">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data_science_in_action</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_697</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/DA_110">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">computational_analysis_of_communication</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DA_110</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IE_698">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foundations_and_applications_of_digital_health_technologies</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_698</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IE_699">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">co_creating_digital_health_applications_with_design_methodology</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_699</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_630">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">generative_software_engineering</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_630</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/MAC_502">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">computational_finance</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAC_502</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IS_540">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">management_of_enterprise_systems</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IS_540</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/MKT_545">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">customers_markets_and_firm_strategy</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MKT_545</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/MKT_511">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marketing_analytics</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MKT_511</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/AC_653">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">additional_course_projects_and_seminars</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC_653</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/TP_500">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">team_project</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TP_500</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IP_500">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">individual_project</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IP_500</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/SQ_500">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scientific_research</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SQ_500</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_701">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">selected_topics_in_algorithmics_and_cryptography</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_701</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_704">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">master_seminar_artificial_intelligence</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_704</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_707">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hot_topics_in_machine_learning_seminar</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_707</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_708">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seminar_software_engineering</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_708</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_709">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seminar_text_analytics</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_709</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_710">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seminar_prof_paulheim</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_710</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_715">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seminar_large_scale_data_integration</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_715</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_716">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seminar_prof_armknecht</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_716</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_717">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">master_seminar_on_computer_vision</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_717</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_720">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uncertainty_estimation</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_720</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_721">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seminar_data_science_i</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_721</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/CS_722">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seminar_ethical_aspects_of_ai</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS_722</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IE_704">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seminar_ai_systems_engineering</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IE_704</ramp:id>
+</ramp:Module>
+
+<ramp:Module rdf:about="http://ramp.uni-mannheim.de/module/IS_752">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seminar_on_process_and_management_analytics</rdfs:label>
+  <ramp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IS_752</ramp:id>
+</ramp:Module>
+
+<x_0.1:Person rdf:about="http://ramp.uni-mannheim.de/person/Heiko_Paulheim"/>
+
+<x_0.1:Person rdf:about="http://ramp.uni-mannheim.de/person/Christian_Bizer"/>
+
+<ramp:StudyArea rdf:about="http://ramp.uni-mannheim.de/study_area/277391178191">
+  <ramp:isStudyAreaOf rdf:resource="http://ramp.uni-mannheim.de/study_program/289364076533"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/AC_653"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/TP_500"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IP_500"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/SQ_500"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_701"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_704"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_707"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_708"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_709"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_710"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_715"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_716"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_717"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_720"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_721"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_722"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_704"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IS_752"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Projects and Seminars</rdfs:label>
+  <ramp:ects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ramp:ects>
+  <ramp:ects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ramp:ects>
+</ramp:StudyArea>
+
+<ramp:StudyArea rdf:about="http://ramp.uni-mannheim.de/study_area/232209594784">
+  <ramp:isStudyAreaOf rdf:resource="http://ramp.uni-mannheim.de/study_program/289364076533"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_560"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_500"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_675b"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_652"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Science Fundamentals</rdfs:label>
+  <ramp:ects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</ramp:ects>
+</ramp:StudyArea>
+
+<ramp:StudyArea rdf:about="http://ramp.uni-mannheim.de/study_area/129951710817">
+  <ramp:isStudyAreaOf rdf:resource="http://ramp.uni-mannheim.de/study_program/289364076533"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/AC_655"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_694"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_697"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/DA_110"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_698"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_699"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_630"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAC_502"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IS_540"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MKT_545"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MKT_511"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Science Applications</rdfs:label>
+  <ramp:ects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ramp:ects>
+  <ramp:ects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ramp:ects>
+</ramp:StudyArea>
+
+<ramp:StudyArea rdf:about="http://ramp.uni-mannheim.de/study_area/318216832734">
+  <ramp:isStudyAreaOf rdf:resource="http://ramp.uni-mannheim.de/study_program/289364076533"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/AC_652"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/DS_100"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/DS_202"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_560"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_671"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_678"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_684"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_686"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_692"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_696"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_646"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_647"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_668"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IS_515"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IS_616"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IS_661"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAA_519"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAB_504"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAB_508"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAB_519"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAB_520"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAC_404"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAC_507"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAC_527"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/DS_201"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Analytics Methods</rdfs:label>
+  <ramp:ects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ramp:ects>
+  <ramp:ects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</ramp:ects>
+</ramp:StudyArea>
+
+<ramp:StudyArea rdf:about="http://ramp.uni-mannheim.de/study_area/105765649281">
+  <ramp:isStudyAreaOf rdf:resource="http://ramp.uni-mannheim.de/study_program/289364076533"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/N/A"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_718"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/AC_654"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/DS_203"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Responsible Data Science</rdfs:label>
+  <ramp:ects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ramp:ects>
+  <ramp:ects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ramp:ects>
+</ramp:StudyArea>
+
+<x_0.1:Person rdf:about="http://ramp.uni-mannheim.de/person/Frederik_Armknecht"/>
+
+<ramp:StudyArea rdf:about="http://ramp.uni-mannheim.de/study_area/463868551094">
+  <ramp:isStudyAreaOf rdf:resource="http://ramp.uni-mannheim.de/study_program/289364076533"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/AC_651"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/DS_200"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_500"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_550"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_600"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_651"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_655"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_662"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/CS_664"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_663"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_670"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_691"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IE_683"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/IS_556"/>
+  <ramp:hasModule rdf:resource="http://ramp.uni-mannheim.de/module/MAC_570"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Management</rdfs:label>
+  <ramp:ects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ramp:ects>
+  <ramp:ects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ramp:ects>
+</ramp:StudyArea>
+
+
+</rdf:RDF>

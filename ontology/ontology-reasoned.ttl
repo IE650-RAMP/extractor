@@ -14,30 +14,24 @@ ramp:additionalPrerequisite a owl:DatatypeProperty ;
 
 ramp:ects a owl:DatatypeProperty ;
     rdfs:label "ECTS"^^xsd:string ;
-    rdfs:domain ramp:Module,
-        ramp:StudyArea ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf ( ramp:Module ramp:StudyArea ) ] ;
     rdfs:range xsd:decimal .
 
-ramp:examinationDistribution a owl:AnnotationProperty ;
-    rdfs:domain ramp:Module ;
-    rdfs:range ramp:AssessmentForm .
-
-ramp:examinationDuration a owl:AnnotationProperty ;
-    rdfs:domain ramp:Module ;
-    rdfs:range ramp:AssessmentForm .
+ramp:examinationDistribution a owl:DatatypeProperty ;
+    rdfs:domain [ a owl:Class ;
+            owl:intersectionOf ( ramp:Module [ a owl:Restriction ;
+                        owl:hasSelf true ;
+                        owl:onProperty ramp:hasAssesment ] ) ] ;
+    rdfs:subPropertyOf owl:topDataProperty .
 
 ramp:hasDegree a owl:ObjectProperty ;
     rdfs:domain ramp:StudyProgram ;
     rdfs:range ramp:Degree .
 
-ramp:hasExaminationForm a owl:ObjectProperty .
-
 ramp:hasLecturer a owl:ObjectProperty ;
     rdfs:domain ramp:Module ;
     rdfs:range foaf:Person .
-
-ramp:hasModule a owl:ObjectProperty ;
-    owl:inverseOf ramp:isModuleOf .
 
 ramp:hasPersonInCharge a owl:ObjectProperty ;
     rdfs:domain ramp:Module ;
@@ -45,15 +39,15 @@ ramp:hasPersonInCharge a owl:ObjectProperty ;
 
 ramp:isChairOf a owl:ObjectProperty .
 
+ramp:isFollowupOfModule a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:domain ramp:Module ;
+    rdfs:range ramp:Module .
+
 ramp:isMandatoryPrerequisiteOf a owl:ObjectProperty ;
     rdfs:domain ramp:Module ;
     rdfs:range ramp:Module ;
     rdfs:subPropertyOf ramp:isPrerequisiteOf .
-
-ramp:isPartOfStudyProgram a owl:ObjectProperty ;
-    rdfs:domain ramp:StudyArea ;
-    rdfs:range ramp:StudyProgram ;
-    rdfs:subPropertyOf owl:topObjectProperty .
 
 ramp:isRecommendedPrerequisiteOf a owl:ObjectProperty ;
     rdfs:domain ramp:Module ;
@@ -89,56 +83,80 @@ ramp:workloadSelfStudy a owl:DatatypeProperty ;
 
 ramp:Degree a owl:Class .
 
-ramp:isFollowupOfModule a owl:ObjectProperty,
+ramp:hasAssesment a owl:ObjectProperty .
+
+ramp:hasModule a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf ( ramp:StudyArea ramp:StudyProgram ) ] ;
+    rdfs:range ramp:Module ;
+    owl:inverseOf ramp:isModuleOf ;
+    owl:propertyChainAxiom ( ramp:hasStudyArea ramp:hasModule ) .
+
+ramp:hasStudyArea a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    owl:inverseOf ramp:isStudyAreaOf .
+
+ramp:isModuleOf a owl:ObjectProperty ;
+    rdfs:domain ramp:Module ;
+    rdfs:range [ a owl:Class ;
+            owl:unionOf ( ramp:StudyArea ramp:StudyProgram ) ] ;
+    owl:propertyChainAxiom ( ramp:isModuleOf ramp:isStudyAreaOf ) .
+
+ramp:isPrerequisiteOf a owl:ObjectProperty,
         owl:TransitiveProperty ;
     rdfs:domain ramp:Module ;
     rdfs:range ramp:Module .
 
-ramp:isModuleOf a owl:ObjectProperty .
-
-ramp:isPartOfStudyArea a owl:ObjectProperty ;
-    rdfs:domain ramp:Module ;
-    rdfs:range ramp:StudyArea ;
-    rdfs:subPropertyOf owl:topObjectProperty ;
-    owl:propertyChainAxiom ( ramp:isFollowupOfModule ramp:isPartOfStudyArea ) .
+ramp:isStudyAreaOf a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf ( ramp:Module ramp:StudyArea ) ] ;
+    rdfs:range ramp:StudyProgram ;
+    rdfs:subPropertyOf owl:topObjectProperty .
 
 <http://ramp.uni-mannheim.de/module/AC_651> a ramp:Module ;
+    rdfs:label "additional_course_data_management"^^xsd:string ;
     ramp:id "AC_651"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/875663300561> ;
-    ramp:name "additional_course_data_management"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/463868551094>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/AC_652> a ramp:Module ;
+    rdfs:label "additional_course_data_analytics_methods"^^xsd:string ;
     ramp:id "AC_652"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "additional_course_data_analytics_methods"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/AC_653> a ramp:Module ;
+    rdfs:label "additional_course_projects_and_seminars"^^xsd:string ;
     ramp:id "AC_653"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/252834868187> ;
-    ramp:name "additional_course_projects_and_seminars"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/AC_654> a ramp:Module ;
+    rdfs:label "additional_course_responsible_data_science"^^xsd:string ;
     ramp:id "AC_654"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/330323604757> ;
-    ramp:name "additional_course_responsible_data_science"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/105765649281>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/AC_655> a ramp:Module ;
+    rdfs:label "additional_course_data_science_applications"^^xsd:string ;
     ramp:id "AC_655"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/275499832186> ;
-    ramp:name "additional_course_data_science_applications"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/129951710817>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_500> a ramp:Module ;
+    rdfs:label "advanced_software_engineering"^^xsd:string ;
     ramp:id "CS_500"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/875663300561> ;
-    ramp:name "advanced_software_engineering"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/463868551094>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_550> a ramp:Module ;
+    rdfs:label "algorithmics"^^xsd:string ;
     ramp:id "CS_550"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/875663300561> ;
-    ramp:name "algorithmics"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/463868551094>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
-<http://ramp.uni-mannheim.de/module/CS_560> a ramp:Module,
-        ramp:StudyArea ;
+<http://ramp.uni-mannheim.de/module/CS_560> a ramp:Module ;
+    rdfs:label "large_scale_data_management"^^xsd:string ;
     ramp:additionalPrerequisite "Very good knowledge of database systems, good knowledge of algorithms and data structures as well as Java programming"^^xsd:string ;
     ramp:ects "6"^^xsd:int ;
     ramp:examinationDuration "90"^^xsd:int ;
@@ -146,8 +164,8 @@ ramp:isPartOfStudyArea a owl:ObjectProperty ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/Rainer_Gemulla> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/Rainer_Gemulla> ;
     ramp:id "CS_560"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/202259214934> ;
-    ramp:name "large_scale_data_management"^^xsd:string ;
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/232209594784>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> ;
     ramp:offeredIn "FFS"^^xsd:string ;
     ramp:recommendedLiterature "H. Garcia-Molina, J. D. Ullman, J. Widom Database Systems: The Complete Book Prentice Hall, 2nd ed., 2008"^^xsd:string,
         "More in lecture notes"^^xsd:string,
@@ -158,32 +176,37 @@ ramp:isPartOfStudyArea a owl:ObjectProperty ;
     ramp:workloadSelfStudy "98"^^xsd:int .
 
 <http://ramp.uni-mannheim.de/module/CS_600> a ramp:Module ;
+    rdfs:label "model_driven_development"^^xsd:string ;
     ramp:id "CS_600"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/875663300561> ;
-    ramp:name "model_driven_development"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/463868551094>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_630> a ramp:Module ;
+    rdfs:label "generative_software_engineering"^^xsd:string ;
     ramp:id "CS_630"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/275499832186> ;
-    ramp:name "generative_software_engineering"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/129951710817>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_646> a ramp:Module ;
+    rdfs:label "higher_level_computer_vision"^^xsd:string ;
     ramp:id "CS_646"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "higher_level_computer_vision"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_647> a ramp:Module ;
+    rdfs:label "image_processing"^^xsd:string ;
     ramp:id "CS_647"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "image_processing"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_651> a ramp:Module ;
+    rdfs:label "cryptography_ii"^^xsd:string ;
     ramp:id "CS_651"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/875663300561> ;
-    ramp:name "cryptography_ii"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/463868551094>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
-<http://ramp.uni-mannheim.de/module/CS_652> a ramp:Module,
-        ramp:StudyArea ;
+<http://ramp.uni-mannheim.de/module/CS_652> a ramp:Module ;
+    rdfs:label "data_security_and_privacy"^^xsd:string ;
     ramp:additionalPrerequisite "Knowledge in cryptography or IT-security is recommended"^^xsd:string ;
     ramp:ects "6"^^xsd:int ;
     ramp:examinationDuration "90"^^xsd:int ;
@@ -191,8 +214,8 @@ ramp:isPartOfStudyArea a owl:ObjectProperty ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/Frederik_Armknecht> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/Frederik_Armknecht> ;
     ramp:id "CS_652"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/202259214934> ;
-    ramp:name "data_security_and_privacy"^^xsd:string ;
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/232209594784>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> ;
     ramp:recommendedLiterature "Will be announced in the lecture"^^xsd:string ;
     ramp:recommendedSemester "1"^^xsd:int,
         "2"^^xsd:int,
@@ -201,142 +224,169 @@ ramp:isPartOfStudyArea a owl:ObjectProperty ;
     ramp:workloadSelfStudy "112"^^xsd:int .
 
 <http://ramp.uni-mannheim.de/module/CS_655> a ramp:Module ;
+    rdfs:label "cryptography"^^xsd:string ;
     ramp:id "CS_655"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/875663300561> ;
-    ramp:name "cryptography"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/463868551094>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_662> a ramp:Module ;
+    rdfs:label "types_and_programming_languages"^^xsd:string ;
     ramp:id "CS_662"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/875663300561> ;
-    ramp:name "types_and_programming_languages"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/463868551094>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_664> a ramp:Module ;
+    rdfs:label "blockchain_security"^^xsd:string ;
     ramp:id "CS_664"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/875663300561> ;
-    ramp:name "blockchain_security"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/463868551094>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_668> a ramp:Module ;
+    rdfs:label "generative_computer_vision_models"^^xsd:string ;
     ramp:id "CS_668"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "generative_computer_vision_models"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_701> a ramp:Module ;
+    rdfs:label "selected_topics_in_algorithmics_and_cryptography"^^xsd:string ;
     ramp:id "CS_701"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/252834868187> ;
-    ramp:name "selected_topics_in_algorithmics_and_cryptography"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_704> a ramp:Module ;
+    rdfs:label "master_seminar_artificial_intelligence"^^xsd:string ;
     ramp:id "CS_704"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/252834868187> ;
-    ramp:name "master_seminar_artificial_intelligence"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_707> a ramp:Module ;
+    rdfs:label "hot_topics_in_machine_learning_seminar"^^xsd:string ;
     ramp:id "CS_707"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/252834868187> ;
-    ramp:name "hot_topics_in_machine_learning_seminar"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_708> a ramp:Module ;
+    rdfs:label "seminar_software_engineering"^^xsd:string ;
     ramp:id "CS_708"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/252834868187> ;
-    ramp:name "seminar_software_engineering"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_709> a ramp:Module ;
+    rdfs:label "seminar_text_analytics"^^xsd:string ;
     ramp:id "CS_709"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/252834868187> ;
-    ramp:name "seminar_text_analytics"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_710> a ramp:Module ;
+    rdfs:label "seminar_prof_paulheim"^^xsd:string ;
     ramp:id "CS_710"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/252834868187> ;
-    ramp:name "seminar_prof_paulheim"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_715> a ramp:Module ;
+    rdfs:label "seminar_large_scale_data_integration"^^xsd:string ;
     ramp:id "CS_715"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/252834868187> ;
-    ramp:name "seminar_large_scale_data_integration"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_716> a ramp:Module ;
+    rdfs:label "seminar_prof_armknecht"^^xsd:string ;
     ramp:id "CS_716"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/252834868187> ;
-    ramp:name "seminar_prof_armknecht"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_717> a ramp:Module ;
+    rdfs:label "master_seminar_on_computer_vision"^^xsd:string ;
     ramp:id "CS_717"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/252834868187> ;
-    ramp:name "master_seminar_on_computer_vision"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_718> a ramp:Module ;
+    rdfs:label "ai_and_data_science_in_fiction_and_society"^^xsd:string ;
     ramp:id "CS_718"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/330323604757> ;
-    ramp:name "ai_and_data_science_in_fiction_and_society"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/105765649281>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_720> a ramp:Module ;
+    rdfs:label "uncertainty_estimation"^^xsd:string ;
     ramp:id "CS_720"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/252834868187> ;
-    ramp:name "uncertainty_estimation"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_721> a ramp:Module ;
+    rdfs:label "seminar_data_science_i"^^xsd:string ;
     ramp:id "CS_721"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/252834868187> ;
-    ramp:name "seminar_data_science_i"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/CS_722> a ramp:Module ;
+    rdfs:label "seminar_ethical_aspects_of_ai"^^xsd:string ;
     ramp:id "CS_722"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/252834868187> ;
-    ramp:name "seminar_ethical_aspects_of_ai"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/DA_110> a ramp:Module ;
+    rdfs:label "computational_analysis_of_communication"^^xsd:string ;
     ramp:id "DA_110"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/275499832186> ;
-    ramp:name "computational_analysis_of_communication"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/129951710817>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/DS_100> a ramp:Module ;
+    rdfs:label "statistics_for_data_scientists"^^xsd:string ;
     ramp:id "DS_100"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "statistics_for_data_scientists"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/DS_200> a ramp:Module ;
+    rdfs:label "sampling_and_data"^^xsd:string ;
     ramp:id "DS_200"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/875663300561> ;
-    ramp:name "sampling_and_data"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/463868551094>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/DS_201> a ramp:Module ;
+    rdfs:label "machine_learning_and_causal_inference"^^xsd:string ;
     ramp:id "DS_201"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "machine_learning_and_causal_inference"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/DS_202> a ramp:Module ;
+    rdfs:label "seminar_and_lab_on_machine_learning_and_causal_inference"^^xsd:string ;
     ramp:id "DS_202"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "seminar_and_lab_on_machine_learning_and_causal_inference"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/DS_203> a ramp:Module ;
+    rdfs:label "responsible_ai_conceptual_foundations_methods_and_applications"^^xsd:string ;
     ramp:id "DS_203"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/330323604757> ;
-    ramp:name "responsible_ai_conceptual_foundations_methods_and_applications"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/105765649281>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IE_560> a ramp:Module ;
+    rdfs:label "decision_support"^^xsd:string ;
     ramp:id "IE_560"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "decision_support"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IE_663> a ramp:Module ;
+    rdfs:label "information_retrieval_and_web_search"^^xsd:string ;
     ramp:id "IE_663"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/875663300561> ;
-    ramp:name "information_retrieval_and_web_search"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/463868551094>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IE_670> a ramp:Module ;
+    rdfs:label "web_data_integration"^^xsd:string ;
     ramp:id "IE_670"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/875663300561> ;
-    ramp:name "web_data_integration"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/463868551094>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IE_671> a ramp:Module ;
+    rdfs:label "web_mining"^^xsd:string ;
     ramp:id "IE_671"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "web_mining"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
-<http://ramp.uni-mannheim.de/module/IE_675b> a ramp:Module,
-        ramp:StudyArea ;
+<http://ramp.uni-mannheim.de/module/IE_675b> a ramp:Module ;
+    rdfs:label "machine_learning"^^xsd:string ;
     ramp:additionalPrerequisite "Knowledge of probability and statistics, no attempted or completed IE 675 exam"^^xsd:string ;
     ramp:ects "9"^^xsd:int ;
     ramp:examinationDuration "90"^^xsd:int ;
@@ -345,8 +395,8 @@ ramp:isPartOfStudyArea a owl:ObjectProperty ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/Rainer_Gemulla> ;
     ramp:hasPrerequisite <http://ramp.uni-mannheim.de/module/IE_500> ;
     ramp:id "IE_675b"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/202259214934> ;
-    ramp:name "machine_learning"^^xsd:string ;
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/232209594784>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> ;
     ramp:offeredIn "FFS"^^xsd:string ;
     ramp:recommendedLiterature "Additional material and articles provided in lecture notes"^^xsd:string,
         "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT Press, 2017"^^xsd:string,
@@ -358,186 +408,217 @@ ramp:isPartOfStudyArea a owl:ObjectProperty ;
     ramp:workloadSelfStudy "174"^^xsd:int .
 
 <http://ramp.uni-mannheim.de/module/IE_678> a ramp:Module ;
+    rdfs:label "deep_learning"^^xsd:string ;
     ramp:id "IE_678"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "deep_learning"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IE_683> a ramp:Module ;
+    rdfs:label "web_data_integration_project"^^xsd:string ;
     ramp:id "IE_683"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/875663300561> ;
-    ramp:name "web_data_integration_project"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/463868551094>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IE_684> a ramp:Module ;
+    rdfs:label "web_mining_project"^^xsd:string ;
     ramp:id "IE_684"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "web_mining_project"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IE_686> a ramp:Module ;
+    rdfs:label "large_language_models_and_agents"^^xsd:string ;
     ramp:id "IE_686"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "large_language_models_and_agents"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IE_691> a ramp:Module ;
+    rdfs:label "information_retrieval_project"^^xsd:string ;
     ramp:id "IE_691"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/875663300561> ;
-    ramp:name "information_retrieval_project"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/463868551094>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IE_692> a ramp:Module ;
+    rdfs:label "advanced_process_mining"^^xsd:string ;
     ramp:id "IE_692"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "advanced_process_mining"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IE_694> a ramp:Module ;
+    rdfs:label "artificial_intelligence_applications_in_industry"^^xsd:string ;
     ramp:id "IE_694"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/275499832186> ;
-    ramp:name "artificial_intelligence_applications_in_industry"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/129951710817>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IE_696> a ramp:Module ;
+    rdfs:label "advanced_methods_in_text_analytics"^^xsd:string ;
     ramp:id "IE_696"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "advanced_methods_in_text_analytics"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IE_697> a ramp:Module ;
+    rdfs:label "data_science_in_action"^^xsd:string ;
     ramp:id "IE_697"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/275499832186> ;
-    ramp:name "data_science_in_action"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/129951710817>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IE_698> a ramp:Module ;
+    rdfs:label "foundations_and_applications_of_digital_health_technologies"^^xsd:string ;
     ramp:id "IE_698"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/275499832186> ;
-    ramp:name "foundations_and_applications_of_digital_health_technologies"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/129951710817>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IE_699> a ramp:Module ;
+    rdfs:label "co_creating_digital_health_applications_with_design_methodology"^^xsd:string ;
     ramp:id "IE_699"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/275499832186> ;
-    ramp:name "co_creating_digital_health_applications_with_design_methodology"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/129951710817>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IE_704> a ramp:Module ;
+    rdfs:label "seminar_ai_systems_engineering"^^xsd:string ;
     ramp:id "IE_704"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/252834868187> ;
-    ramp:name "seminar_ai_systems_engineering"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IP_500> a ramp:Module ;
+    rdfs:label "individual_project"^^xsd:string ;
     ramp:id "IP_500"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/252834868187> ;
-    ramp:name "individual_project"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IS_515> a ramp:Module ;
+    rdfs:label "process_management_and_analytics"^^xsd:string ;
     ramp:id "IS_515"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "process_management_and_analytics"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IS_540> a ramp:Module ;
+    rdfs:label "management_of_enterprise_systems"^^xsd:string ;
     ramp:id "IS_540"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/275499832186> ;
-    ramp:name "management_of_enterprise_systems"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/129951710817>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IS_556> a ramp:Module ;
+    rdfs:label "public_blockchains"^^xsd:string ;
     ramp:id "IS_556"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/875663300561> ;
-    ramp:name "public_blockchains"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/463868551094>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IS_616> a ramp:Module ;
+    rdfs:label "large_scale_data_analysis_and_visualization"^^xsd:string ;
     ramp:id "IS_616"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "large_scale_data_analysis_and_visualization"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IS_661> a ramp:Module ;
+    rdfs:label "text_analytics"^^xsd:string ;
     ramp:id "IS_661"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "text_analytics"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/IS_752> a ramp:Module ;
+    rdfs:label "seminar_on_process_and_management_analytics"^^xsd:string ;
     ramp:id "IS_752"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/252834868187> ;
-    ramp:name "seminar_on_process_and_management_analytics"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/MAA_519> a ramp:Module ;
+    rdfs:label "stochastic_calculus"^^xsd:string ;
     ramp:id "MAA_519"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "stochastic_calculus"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/MAB_504> a ramp:Module ;
+    rdfs:label "mathematics_and_information"^^xsd:string ;
     ramp:id "MAB_504"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "mathematics_and_information"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/MAB_508> a ramp:Module ;
+    rdfs:label "algebraische_statistik"^^xsd:string ;
     ramp:id "MAB_508"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "algebraische_statistik"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/MAB_519> a ramp:Module ;
+    rdfs:label "reinforcement_learning_ii"^^xsd:string ;
     ramp:id "MAB_519"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "reinforcement_learning_ii"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/MAB_520> a ramp:Module ;
+    rdfs:label "reinforcement_learning_ii"^^xsd:string ;
     ramp:id "MAB_520"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "reinforcement_learning_ii"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/MAC_404> a ramp:Module ;
+    rdfs:label "optimierung"^^xsd:string ;
     ramp:id "MAC_404"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "optimierung"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/MAC_502> a ramp:Module ;
+    rdfs:label "computational_finance"^^xsd:string ;
     ramp:id "MAC_502"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/275499832186> ;
-    ramp:name "computational_finance"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/129951710817>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/MAC_507> a ramp:Module ;
+    rdfs:label "nichtlineare_optimierung"^^xsd:string ;
     ramp:id "MAC_507"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "nichtlineare_optimierung"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/MAC_527> a ramp:Module ;
+    rdfs:label "markov_processes"^^xsd:string ;
     ramp:id "MAC_527"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/280881985404> ;
-    ramp:name "markov_processes"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/MAC_570> a ramp:Module ;
+    rdfs:label "reinforcement_learning_coding"^^xsd:string ;
     ramp:id "MAC_570"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/875663300561> ;
-    ramp:name "reinforcement_learning_coding"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/463868551094>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/MKT_511> a ramp:Module ;
+    rdfs:label "marketing_analytics"^^xsd:string ;
     ramp:id "MKT_511"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/275499832186> ;
-    ramp:name "marketing_analytics"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/129951710817>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/MKT_545> a ramp:Module ;
+    rdfs:label "customers_markets_and_firm_strategy"^^xsd:string ;
     ramp:id "MKT_545"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/275499832186> ;
-    ramp:name "customers_markets_and_firm_strategy"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/129951710817>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/N/A> a ramp:Module ;
+    rdfs:label "legal_and_ethical_aspects_of_privacy"^^xsd:string ;
     ramp:id "N/A"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/330323604757> ;
-    ramp:name "legal_and_ethical_aspects_of_privacy"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/105765649281>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/SQ_500> a ramp:Module ;
+    rdfs:label "scientific_research"^^xsd:string ;
     ramp:id "SQ_500"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/252834868187> ;
-    ramp:name "scientific_research"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 <http://ramp.uni-mannheim.de/module/TP_500> a ramp:Module ;
+    rdfs:label "team_project"^^xsd:string ;
     ramp:id "TP_500"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/252834868187> ;
-    ramp:name "team_project"^^xsd:string .
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
-ramp:AssessmentForm a owl:Class .
+<http://ramp.uni-mannheim.de/person/Christian_Bizer> a foaf:Person .
 
-ramp:StudyProgram a owl:Class .
+<http://ramp.uni-mannheim.de/person/Frederik_Armknecht> a foaf:Person .
 
-ramp:isPrerequisiteOf a owl:ObjectProperty,
-        owl:TransitiveProperty ;
-    rdfs:domain ramp:Module ;
-    rdfs:range ramp:Module .
+<http://ramp.uni-mannheim.de/person/Heiko_Paulheim> a foaf:Person .
 
-<http://ramp.uni-mannheim.de/module/IE_500> a ramp:Module,
-        ramp:StudyArea ;
+<http://ramp.uni-mannheim.de/module/IE_500> a ramp:Module ;
+    rdfs:label "data_mining"^^xsd:string ;
     ramp:additionalPrerequisite "Foundations of Statistics, Practical Informatics I"^^xsd:string ;
     ramp:ects "6"^^xsd:int ;
     ramp:examinationDuration "60"^^xsd:int ;
@@ -557,8 +638,8 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/Christian_Bizer>,
         <http://ramp.uni-mannheim.de/person/Heiko_Paulheim> ;
     ramp:id "IE_500"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/202259214934> ;
-    ramp:name "data_mining"^^xsd:string ;
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/232209594784>,
+        <http://ramp.uni-mannheim.de/study_program/289364076533> ;
     ramp:offeredIn "FFS"^^xsd:string ;
     ramp:recommendedLiterature "Aurélien Géron: Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow, 3rd Edition, O’Reilly."^^xsd:string,
         "Pang-Ning Tan, Michael Steinback, Vipin Kumar: Introduction to Data Mining, 2nd Edition, Pearson."^^xsd:string ;
@@ -567,37 +648,34 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
     ramp:workloadInPerson "56"^^xsd:int ;
     ramp:workloadSelfStudy "98"^^xsd:int .
 
-<http://ramp.uni-mannheim.de/person/Christian_Bizer> a foaf:Person .
-
-<http://ramp.uni-mannheim.de/person/Frederik_Armknecht> a foaf:Person .
-
-<http://ramp.uni-mannheim.de/person/Heiko_Paulheim> a foaf:Person .
-
 <http://ramp.uni-mannheim.de/person/Rainer_Gemulla> a foaf:Person .
 
-<http://ramp.uni-mannheim.de/study_area/202259214934> a ramp:Module,
-        ramp:StudyArea ;
-    rdfs:label "Data Science Fundamentals"^^xsd:string ;
-    ramp:ects 27 ;
-    ramp:hasModule <http://ramp.uni-mannheim.de/module/CS_560>,
-        <http://ramp.uni-mannheim.de/module/CS_652>,
-        <http://ramp.uni-mannheim.de/module/IE_500>,
-        <http://ramp.uni-mannheim.de/module/IE_675b> .
+ramp:StudyProgram a owl:Class .
 
-<http://ramp.uni-mannheim.de/study_area/330323604757> a ramp:Module,
-        ramp:StudyArea ;
+<http://ramp.uni-mannheim.de/study_area/105765649281> a ramp:StudyArea ;
     rdfs:label "Responsible Data Science"^^xsd:string ;
     ramp:ects 3,
         7 ;
     ramp:hasModule <http://ramp.uni-mannheim.de/module/AC_654>,
         <http://ramp.uni-mannheim.de/module/CS_718>,
         <http://ramp.uni-mannheim.de/module/DS_203>,
-        <http://ramp.uni-mannheim.de/module/N/A> .
+        <http://ramp.uni-mannheim.de/module/N/A> ;
+    ramp:isStudyAreaOf <http://ramp.uni-mannheim.de/study_program/289364076533> .
+
+<http://ramp.uni-mannheim.de/study_area/232209594784> a ramp:StudyArea ;
+    rdfs:label "Data Science Fundamentals"^^xsd:string ;
+    ramp:ects 27 ;
+    ramp:hasModule <http://ramp.uni-mannheim.de/module/CS_560>,
+        <http://ramp.uni-mannheim.de/module/CS_652>,
+        <http://ramp.uni-mannheim.de/module/IE_500>,
+        <http://ramp.uni-mannheim.de/module/IE_675b> ;
+    ramp:isStudyAreaOf <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
 foaf:Person a owl:Class .
 
-<http://ramp.uni-mannheim.de/study_area/275499832186> a ramp:Module,
-        ramp:StudyArea ;
+ramp:StudyArea a owl:Class .
+
+<http://ramp.uni-mannheim.de/study_area/129951710817> a ramp:StudyArea ;
     rdfs:label "Data Science Applications"^^xsd:string ;
     ramp:ects 0,
         12 ;
@@ -611,12 +689,10 @@ foaf:Person a owl:Class .
         <http://ramp.uni-mannheim.de/module/IS_540>,
         <http://ramp.uni-mannheim.de/module/MAC_502>,
         <http://ramp.uni-mannheim.de/module/MKT_511>,
-        <http://ramp.uni-mannheim.de/module/MKT_545> .
+        <http://ramp.uni-mannheim.de/module/MKT_545> ;
+    ramp:isStudyAreaOf <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
-ramp:StudyArea a owl:Class .
-
-<http://ramp.uni-mannheim.de/study_area/875663300561> a ramp:Module,
-        ramp:StudyArea ;
+<http://ramp.uni-mannheim.de/study_area/463868551094> a ramp:StudyArea ;
     rdfs:label "Data Management"^^xsd:string ;
     ramp:ects 6,
         24 ;
@@ -634,10 +710,10 @@ ramp:StudyArea a owl:Class .
         <http://ramp.uni-mannheim.de/module/IE_683>,
         <http://ramp.uni-mannheim.de/module/IE_691>,
         <http://ramp.uni-mannheim.de/module/IS_556>,
-        <http://ramp.uni-mannheim.de/module/MAC_570> .
+        <http://ramp.uni-mannheim.de/module/MAC_570> ;
+    ramp:isStudyAreaOf <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
-<http://ramp.uni-mannheim.de/study_area/252834868187> a ramp:Module,
-        ramp:StudyArea ;
+<http://ramp.uni-mannheim.de/study_area/277391178191> a ramp:StudyArea ;
     rdfs:label "Projects and Seminars"^^xsd:string ;
     ramp:ects 14,
         18 ;
@@ -658,10 +734,10 @@ ramp:StudyArea a owl:Class .
         <http://ramp.uni-mannheim.de/module/IP_500>,
         <http://ramp.uni-mannheim.de/module/IS_752>,
         <http://ramp.uni-mannheim.de/module/SQ_500>,
-        <http://ramp.uni-mannheim.de/module/TP_500> .
+        <http://ramp.uni-mannheim.de/module/TP_500> ;
+    ramp:isStudyAreaOf <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
-<http://ramp.uni-mannheim.de/study_area/280881985404> a ramp:Module,
-        ramp:StudyArea ;
+<http://ramp.uni-mannheim.de/study_area/318216832734> a ramp:StudyArea ;
     rdfs:label "Data Analytics Methods"^^xsd:string ;
     ramp:ects 12,
         36 ;
@@ -689,7 +765,95 @@ ramp:StudyArea a owl:Class .
         <http://ramp.uni-mannheim.de/module/MAB_520>,
         <http://ramp.uni-mannheim.de/module/MAC_404>,
         <http://ramp.uni-mannheim.de/module/MAC_507>,
-        <http://ramp.uni-mannheim.de/module/MAC_527> .
+        <http://ramp.uni-mannheim.de/module/MAC_527> ;
+    ramp:isStudyAreaOf <http://ramp.uni-mannheim.de/study_program/289364076533> .
 
-ramp:Module a owl:Class .
+<http://ramp.uni-mannheim.de/study_program/289364076533> a ramp:StudyProgram ;
+    rdfs:label "Mannheim Master in Data Science"^^xsd:string ;
+    ramp:hasModule <http://ramp.uni-mannheim.de/module/AC_651>,
+        <http://ramp.uni-mannheim.de/module/AC_652>,
+        <http://ramp.uni-mannheim.de/module/AC_653>,
+        <http://ramp.uni-mannheim.de/module/AC_654>,
+        <http://ramp.uni-mannheim.de/module/AC_655>,
+        <http://ramp.uni-mannheim.de/module/CS_500>,
+        <http://ramp.uni-mannheim.de/module/CS_550>,
+        <http://ramp.uni-mannheim.de/module/CS_560>,
+        <http://ramp.uni-mannheim.de/module/CS_600>,
+        <http://ramp.uni-mannheim.de/module/CS_630>,
+        <http://ramp.uni-mannheim.de/module/CS_646>,
+        <http://ramp.uni-mannheim.de/module/CS_647>,
+        <http://ramp.uni-mannheim.de/module/CS_651>,
+        <http://ramp.uni-mannheim.de/module/CS_652>,
+        <http://ramp.uni-mannheim.de/module/CS_655>,
+        <http://ramp.uni-mannheim.de/module/CS_662>,
+        <http://ramp.uni-mannheim.de/module/CS_664>,
+        <http://ramp.uni-mannheim.de/module/CS_668>,
+        <http://ramp.uni-mannheim.de/module/CS_701>,
+        <http://ramp.uni-mannheim.de/module/CS_704>,
+        <http://ramp.uni-mannheim.de/module/CS_707>,
+        <http://ramp.uni-mannheim.de/module/CS_708>,
+        <http://ramp.uni-mannheim.de/module/CS_709>,
+        <http://ramp.uni-mannheim.de/module/CS_710>,
+        <http://ramp.uni-mannheim.de/module/CS_715>,
+        <http://ramp.uni-mannheim.de/module/CS_716>,
+        <http://ramp.uni-mannheim.de/module/CS_717>,
+        <http://ramp.uni-mannheim.de/module/CS_718>,
+        <http://ramp.uni-mannheim.de/module/CS_720>,
+        <http://ramp.uni-mannheim.de/module/CS_721>,
+        <http://ramp.uni-mannheim.de/module/CS_722>,
+        <http://ramp.uni-mannheim.de/module/DA_110>,
+        <http://ramp.uni-mannheim.de/module/DS_100>,
+        <http://ramp.uni-mannheim.de/module/DS_200>,
+        <http://ramp.uni-mannheim.de/module/DS_201>,
+        <http://ramp.uni-mannheim.de/module/DS_202>,
+        <http://ramp.uni-mannheim.de/module/DS_203>,
+        <http://ramp.uni-mannheim.de/module/IE_500>,
+        <http://ramp.uni-mannheim.de/module/IE_560>,
+        <http://ramp.uni-mannheim.de/module/IE_663>,
+        <http://ramp.uni-mannheim.de/module/IE_670>,
+        <http://ramp.uni-mannheim.de/module/IE_671>,
+        <http://ramp.uni-mannheim.de/module/IE_675b>,
+        <http://ramp.uni-mannheim.de/module/IE_678>,
+        <http://ramp.uni-mannheim.de/module/IE_683>,
+        <http://ramp.uni-mannheim.de/module/IE_684>,
+        <http://ramp.uni-mannheim.de/module/IE_686>,
+        <http://ramp.uni-mannheim.de/module/IE_691>,
+        <http://ramp.uni-mannheim.de/module/IE_692>,
+        <http://ramp.uni-mannheim.de/module/IE_694>,
+        <http://ramp.uni-mannheim.de/module/IE_696>,
+        <http://ramp.uni-mannheim.de/module/IE_697>,
+        <http://ramp.uni-mannheim.de/module/IE_698>,
+        <http://ramp.uni-mannheim.de/module/IE_699>,
+        <http://ramp.uni-mannheim.de/module/IE_704>,
+        <http://ramp.uni-mannheim.de/module/IP_500>,
+        <http://ramp.uni-mannheim.de/module/IS_515>,
+        <http://ramp.uni-mannheim.de/module/IS_540>,
+        <http://ramp.uni-mannheim.de/module/IS_556>,
+        <http://ramp.uni-mannheim.de/module/IS_616>,
+        <http://ramp.uni-mannheim.de/module/IS_661>,
+        <http://ramp.uni-mannheim.de/module/IS_752>,
+        <http://ramp.uni-mannheim.de/module/MAA_519>,
+        <http://ramp.uni-mannheim.de/module/MAB_504>,
+        <http://ramp.uni-mannheim.de/module/MAB_508>,
+        <http://ramp.uni-mannheim.de/module/MAB_519>,
+        <http://ramp.uni-mannheim.de/module/MAB_520>,
+        <http://ramp.uni-mannheim.de/module/MAC_404>,
+        <http://ramp.uni-mannheim.de/module/MAC_502>,
+        <http://ramp.uni-mannheim.de/module/MAC_507>,
+        <http://ramp.uni-mannheim.de/module/MAC_527>,
+        <http://ramp.uni-mannheim.de/module/MAC_570>,
+        <http://ramp.uni-mannheim.de/module/MKT_511>,
+        <http://ramp.uni-mannheim.de/module/MKT_545>,
+        <http://ramp.uni-mannheim.de/module/N/A>,
+        <http://ramp.uni-mannheim.de/module/SQ_500>,
+        <http://ramp.uni-mannheim.de/module/TP_500> ;
+    ramp:hasStudyArea <http://ramp.uni-mannheim.de/study_area/105765649281>,
+        <http://ramp.uni-mannheim.de/study_area/129951710817>,
+        <http://ramp.uni-mannheim.de/study_area/232209594784>,
+        <http://ramp.uni-mannheim.de/study_area/277391178191>,
+        <http://ramp.uni-mannheim.de/study_area/318216832734>,
+        <http://ramp.uni-mannheim.de/study_area/463868551094> .
+
+ramp:Module a owl:Class ;
+    owl:disjointWith ramp:StudyArea .
 

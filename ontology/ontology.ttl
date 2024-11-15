@@ -14,18 +14,6 @@
 #    Annotation properties
 #################################################################
 
-###  http://ramp.uni-mannheim.de/examinationDistribution
-ramp:examinationDistribution rdf:type owl:AnnotationProperty ;
-                             rdfs:range ramp:AssessmentForm ;
-                             rdfs:domain ramp:Module .
-
-
-###  http://ramp.uni-mannheim.de/examinationDuration
-ramp:examinationDuration rdf:type owl:AnnotationProperty ;
-                         rdfs:range ramp:AssessmentForm ;
-                         rdfs:domain ramp:Module .
-
-
 ###  http://ramp.uni-mannheim.de/recommended
 ramp:recommended rdf:type owl:AnnotationProperty .
 
@@ -34,14 +22,14 @@ ramp:recommended rdf:type owl:AnnotationProperty .
 #    Object Properties
 #################################################################
 
+###  http://ramp.uni-mannheim.de/hasAssesment
+ramp:hasAssesment rdf:type owl:ObjectProperty .
+
+
 ###  http://ramp.uni-mannheim.de/hasDegree
 ramp:hasDegree rdf:type owl:ObjectProperty ;
                rdfs:domain ramp:StudyProgram ;
                rdfs:range ramp:Degree .
-
-
-###  http://ramp.uni-mannheim.de/hasExaminationForm
-ramp:hasExaminationForm rdf:type owl:ObjectProperty .
 
 
 ###  http://ramp.uni-mannheim.de/hasLecturer
@@ -53,13 +41,27 @@ ramp:hasLecturer rdf:type owl:ObjectProperty ;
 ###  http://ramp.uni-mannheim.de/hasModule
 ramp:hasModule rdf:type owl:ObjectProperty ;
                owl:inverseOf ramp:isModuleOf ;
-               rdfs:range ramp:Module .
+               rdfs:domain [ rdf:type owl:Class ;
+                             owl:unionOf ( ramp:StudyArea
+                                           ramp:StudyProgram
+                                         )
+                           ] ;
+               rdfs:range ramp:Module ;
+               owl:propertyChainAxiom ( ramp:hasStudyArea
+                                        ramp:hasModule
+                                      ) .
 
 
 ###  http://ramp.uni-mannheim.de/hasPersonInCharge
 ramp:hasPersonInCharge rdf:type owl:ObjectProperty ;
                        rdfs:domain ramp:Module ;
                        rdfs:range foaf:Person .
+
+
+###  http://ramp.uni-mannheim.de/hasStudyArea
+ramp:hasStudyArea rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  owl:inverseOf ramp:isStudyAreaOf .
 
 
 ###  http://ramp.uni-mannheim.de/isChairOf
@@ -82,24 +84,15 @@ ramp:isMandatoryPrerequisiteOf rdf:type owl:ObjectProperty ;
 
 ###  http://ramp.uni-mannheim.de/isModuleOf
 ramp:isModuleOf rdf:type owl:ObjectProperty ;
-                rdfs:domain ramp:Module .
-
-
-###  http://ramp.uni-mannheim.de/isPartOfStudyArea
-ramp:isPartOfStudyArea rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf owl:topObjectProperty ;
-                       rdfs:domain ramp:Module ;
-                       rdfs:range ramp:StudyArea ;
-                       owl:propertyChainAxiom ( ramp:isFollowupOfModule
-                                                ramp:isPartOfStudyArea
-                                              ) .
-
-
-###  http://ramp.uni-mannheim.de/isPartOfStudyProgram
-ramp:isPartOfStudyProgram rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf owl:topObjectProperty ;
-                          rdfs:domain ramp:StudyArea ;
-                          rdfs:range ramp:StudyProgram .
+                rdfs:domain ramp:Module ;
+                rdfs:range [ rdf:type owl:Class ;
+                             owl:unionOf ( ramp:StudyArea
+                                           ramp:StudyProgram
+                                         )
+                           ] ;
+                owl:propertyChainAxiom ( ramp:isModuleOf
+                                         ramp:isStudyAreaOf
+                                       ) .
 
 
 ###  http://ramp.uni-mannheim.de/isPrerequisiteOf
@@ -116,6 +109,17 @@ ramp:isRecommendedPrerequisiteOf rdf:type owl:ObjectProperty ;
                                  rdfs:range ramp:Module .
 
 
+###  http://ramp.uni-mannheim.de/isStudyAreaOf
+ramp:isStudyAreaOf rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain [ rdf:type owl:Class ;
+                                 owl:unionOf ( ramp:Module
+                                               ramp:StudyArea
+                                             )
+                               ] ;
+                   rdfs:range ramp:StudyProgram .
+
+
 #################################################################
 #    Data properties
 #################################################################
@@ -127,10 +131,38 @@ ramp:additionalPrerequisite rdf:type owl:DatatypeProperty ;
 
 ###  http://ramp.uni-mannheim.de/ects
 ramp:ects rdf:type owl:DatatypeProperty ;
-          rdfs:domain ramp:Module ,
-                      ramp:StudyArea ;
+          rdfs:domain [ rdf:type owl:Class ;
+                        owl:unionOf ( ramp:Module
+                                      ramp:StudyArea
+                                    )
+                      ] ;
           rdfs:range xsd:decimal ;
           rdfs:label "ECTS" .
+
+
+###  http://ramp.uni-mannheim.de/examinationDistribution
+ramp:examinationDistribution rdf:type owl:DatatypeProperty ;
+                             rdfs:subPropertyOf owl:topDataProperty ;
+                             rdfs:domain [ owl:intersectionOf ( ramp:Module
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty ramp:hasAssesment ;
+                                                                  owl:hasSelf "true"^^xsd:boolean
+                                                                ]
+                                                              ) ;
+                                           rdf:type owl:Class
+                                         ] .
+
+
+###  http://ramp.uni-mannheim.de/examinationDuration
+ramp:examinationDuration rdf:type owl:DatatypeProperty ;
+                         rdfs:domain [ owl:intersectionOf ( ramp:Module
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty ramp:hasAssesment ;
+                                                              owl:hasSelf "true"^^xsd:boolean
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
 
 
 ###  http://ramp.uni-mannheim.de/offeredIn
@@ -175,16 +207,13 @@ ramp:workloadSelfStudy rdf:type owl:DatatypeProperty ;
 #    Classes
 #################################################################
 
-###  http://ramp.uni-mannheim.de/AssessmentForm
-ramp:AssessmentForm rdf:type owl:Class .
-
-
 ###  http://ramp.uni-mannheim.de/Degree
 ramp:Degree rdf:type owl:Class .
 
 
 ###  http://ramp.uni-mannheim.de/Module
-ramp:Module rdf:type owl:Class .
+ramp:Module rdf:type owl:Class ;
+            owl:disjointWith ramp:StudyArea .
 
 
 ###  http://ramp.uni-mannheim.de/StudyArea
