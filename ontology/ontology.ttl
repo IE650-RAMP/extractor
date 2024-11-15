@@ -6,7 +6,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ramp: <http://ramp.uni-mannheim.de/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://ramp.uni-mannheim.de> .
+@base <http://ramp.uni-mannheim.de#> .
 
 <http://ramp.uni-mannheim.de> rdf:type owl:Ontology .
 
@@ -50,6 +50,12 @@ ramp:hasLecturer rdf:type owl:ObjectProperty ;
                  rdfs:range foaf:Person .
 
 
+###  http://ramp.uni-mannheim.de/hasModule
+ramp:hasModule rdf:type owl:ObjectProperty ;
+               owl:inverseOf ramp:isModuleOf ;
+               rdfs:range ramp:Module .
+
+
 ###  http://ramp.uni-mannheim.de/hasPersonInCharge
 ramp:hasPersonInCharge rdf:type owl:ObjectProperty ;
                        rdfs:domain ramp:Module ;
@@ -74,6 +80,11 @@ ramp:isMandatoryPrerequisiteOf rdf:type owl:ObjectProperty ;
                                rdfs:range ramp:Module .
 
 
+###  http://ramp.uni-mannheim.de/isModuleOf
+ramp:isModuleOf rdf:type owl:ObjectProperty ;
+                rdfs:domain ramp:Module .
+
+
 ###  http://ramp.uni-mannheim.de/isPartOfStudyArea
 ramp:isPartOfStudyArea rdf:type owl:ObjectProperty ;
                        rdfs:subPropertyOf owl:topObjectProperty ;
@@ -92,7 +103,8 @@ ramp:isPartOfStudyProgram rdf:type owl:ObjectProperty ;
 
 
 ###  http://ramp.uni-mannheim.de/isPrerequisiteOf
-ramp:isPrerequisiteOf rdf:type owl:ObjectProperty ;
+ramp:isPrerequisiteOf rdf:type owl:ObjectProperty ,
+                               owl:TransitiveProperty ;
                       rdfs:domain ramp:Module ;
                       rdfs:range ramp:Module .
 
@@ -115,7 +127,8 @@ ramp:additionalPrerequisite rdf:type owl:DatatypeProperty ;
 
 ###  http://ramp.uni-mannheim.de/ects
 ramp:ects rdf:type owl:DatatypeProperty ;
-          rdfs:domain ramp:Module ;
+          rdfs:domain ramp:Module ,
+                      ramp:StudyArea ;
           rdfs:range xsd:decimal ;
           rdfs:label "ECTS" .
 
@@ -171,9 +184,7 @@ ramp:Degree rdf:type owl:Class .
 
 
 ###  http://ramp.uni-mannheim.de/Module
-ramp:Module rdf:type owl:Class ;
-            owl:disjointWith ramp:StudyArea ,
-                             ramp:StudyProgram .
+ramp:Module rdf:type owl:Class .
 
 
 ###  http://ramp.uni-mannheim.de/StudyArea
