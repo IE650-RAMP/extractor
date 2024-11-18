@@ -1,0 +1,91 @@
+{
+  "name": "Mannheim Master in Management",
+  "hasDegree": ["MASTER_OF_SCIENCE"],
+  "studyArea": [
+    {
+      "name": "Core Competences",
+      "requiredEcts": [16],
+      "modules": [
+        { "name": "decision_analysis_business_analytics_ii", "id": "CC_501" },
+        { "name": "applied_econometrics", "id": "CC_502" },
+        { "name": "empirical_methods_business_analytics_i", "id": "CC_503" },
+        { "name": "corporate_social_responsibility", "id": "CC_504" }
+      ]
+    },
+    {
+      "name": "Business Economics",
+      "requiredEcts": [12],
+      "modules": [
+        { "name": "business_economics_i", "id": "BE_510" },
+        { "name": "business_economics_ii", "id": "BE_511" }
+      ]
+    },
+    {
+      "name": "Business Administration",
+      "requiredEcts": [44, 68],
+      "modules": [
+        { "name": "financial_accounting", "id": "ACC_510" },
+        { "name": "ifrs_reporting_and_capital_markets", "id": "ACC_520" },
+        { "name": "group_accounting", "id": "ACC_530" },
+        {
+          "name": "financial_statement_analysis_equity_valuation",
+          "id": "ACC_540"
+        },
+        {
+          "name": "managerial_accounting_evaluating_financial_and_non_financial_performance",
+          "id": "ACC_560"
+        },
+        {
+          "name": "international_course_accounting_and_taxation",
+          "id": "ACC_TAX_550"
+        },
+        {
+          "name": "esg_regulation_and_sustainability_reporting",
+          "id": "ACC_TAX_570"
+        },
+        { "name": "taxation_of_companies", "id": "TAX_520" },
+        { "name": "specialization_in_company_taxation", "id": "TAX_521" },
+        { "name": "taxation_of_businesses_and_individuals", "id": "TAX_530" },
+        {
+          "name": "international_course_banking_finance_and_insurance",
+          "id": "FIN_550"
+        },
+        { "name": "investments", "id": "FIN_500" },
+        { "name": "corporate_finance_i_lecture", "id": "FIN_540" },
+        { "name": "corporate_finance_i_case_study", "id": "FIN_541" },
+        { "name": "financial_markets_and_employees", "id": "FIN_555" },
+        { "name": "derivatives_basic_strategies_and_pricing", "id": "FIN_580" },
+        { "name": "financial_institutions_i", "id": "FIN_590" },
+        { "name": "it_management_in_the_digital_age", "id": "IS_512" },
+        {
+          "name": "managerial_accounting_evaluating_financial_and_non_financial_performance",
+          "id": "ACC/MA_N560"
+        }
+      ]
+    },
+    {
+      "name": "Elective",
+      "requiredEcts": [0, 24],
+      "modules": [
+        { "name": "english_and_american_studies", "id": "5.1" },
+        { "name": "german_studies", "id": "5.2" },
+        { "name": "history", "id": "5.3" },
+        { "name": "mathematics", "id": "5.4" },
+        { "name": "philosophy", "id": "5.5" },
+        { "name": "political_science", "id": "5.6" },
+        { "name": "computer_science", "id": "5.7" },
+        { "name": "psychology", "id": "5.8" },
+        { "name": "romance_studies", "id": "5.9" },
+        { "name": "sociology", "id": "5.10" },
+        { "name": "economics", "id": "5.11" },
+        { "name": "business_education", "id": "5.12" },
+        { "name": "business_law", "id": "5.13" }
+      ]
+    },
+    {
+      "name": "Master's Thesis",
+      "requiredEcts": [24],
+      "modules": [{ "name": "master_thesis", "id": "thesis" }]
+    }
+  ]
+}

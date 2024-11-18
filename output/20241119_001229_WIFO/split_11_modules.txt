@@ -1,0 +1,50 @@
+E. Master Thesis
+MA 650 Master Thesis
+Form of module Master Thesis
+Type of module Thesis
+Level Master
+ECTS 30
+Workload Self-study: 840 h per semester
+The student is required to have obtained at least 60 ECTS
+Prerequisites
+credits in order to register for his or her master thesis
+Develop a deep understand of an advanced topic of business
+Aim of Modules
+informatics or computer science
+Expertise:
+The student has a deep understanding of an advanced topic.
+(MK1)
+Methodological competence:
+The student is familiar with methods for analysing and
+independently solving advanced, complex problems.
+(MK1, MK2, MK3)
+Learing outcomes and Personal competence:
+qualifications goals The student has the capability to understand, analyse and
+independently find solutions to advanced, complex problems.
+The student has the capability to assess and understand the
+state-of-the-art in business informatics and adapt the latest
+technologies and methods to solve real world problems.
+The student is able to present a complex topic in written and
+oral form in a clear and understandable way.
+(MF1, MF2, MF3, MF4, MKO2, MKO3)
+Media Various
+Literature Topic dependent
+Methods Independent research work
+Written thesis, 10-120 pages in length depending on the
+Form of Assessment
+topic.
+Admission requirements To be permitted to write the master thesis, the student is to
+for assessment obtain at least 60 ECTS
+1216 months (execution of the thesis work and writing of the
+Duration of Assessment
+thesis manuscript).
+Language English or German
+Offering Every semester
+Professors of the Institute of Computer Science and Business
+Person in Charge Informatics or of the Area Information Systems of the
+Business School
+Duration of module 1 semester
+Further modules -
+Range of Applications M.Sc. Wirtschaftsinformatik
+Semester 4. Semester
+122

@@ -1,0 +1,147 @@
+iv. International Course & other Specialization Courses
+BI 656 International Course
+Form of module Depends on course taken abroad
+Type of module Specialization course
+Level Master
+ECTS Max. 18
+Workload Depends on course taken abroad
+Prerequisites Depends on course taken abroad
+The course level equals a regular 600-level course in the MSc.
+Business Informatics program. The module can be taken
+Aim of module
+during a study abroad term / semester and complements the
+Mannheim curriculum of the student.
+Learning outcomes and
+Depends on course taken abroad
+qualification goals
+Media / Literature /
+Methods / Form and Depends on course taken abroad
+duration of assessment
+English preferred, but any other language possible if
+Language Mannheim faculty member is able to identify content and
+level
+Offering Spring semester / Fall semester
+Lecturer Lecturer at the host university
+Person in charge Lecturer at the host university
+Duration of module 1 Semester
+Further modules -
+Range of application M.Sc. Wirtschaftsinformatik
+Semester 2nd/3rd/4th semester
+76MAB 519 Reinforcement Learning
+For a detailed description please use the module catalog of the following degree programs
+M.Sc. WiMA and M.Sc. Mathematik:
+https://www.wim.uni-mannheim.de/studium/studienorganisation/m-sc-
+wirtschaftsmathematik/#c109976
+MAC 570 Reinforcement Learning - Coding
+Form of module Lectures with exercises
+Type of module Mathematics C
+Level Master
+ECTS 5
+28 hours lectures
+Workload
+122 hours self-studies
+Prerequisites Reinforcement Learning
+Implementation of standard algorithms in reinforcement learning
+• Bandit algorithms (UCB)
+Aim of module
+• TD algorithms (Q-learning, TD)
+• Policy gradient algorithms (SAC, PPO)
+MK1, M02, M03
+Learning outcomes and
+MF1, MF3
+qualification goals
+(cf, “Erläuterungen zu den Abkürzungen”)
+Media Blackboard, Slides
+Literature Original articles
+Methods Lectures, programmig tasks
+Form of assessment written exam
+Admission requirements for
+-
+assessment
+Duration of assessment 90 min
+77Language English
+Offering irregular
+Prof. Dr. Leif Döring
+Lecturer
+Person in charge Prof. Dr. Leif Döring
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsmathematik, B.Sc. Wirtschaftsmathematik,
+Range of application M.Sc. Mathematik, M.Sc. Mannheim Master in Data Science,
+M.Sc. Wirtschaftsinformatik
+Semester 1st, 2nd, 3rd
+78DS 203 Responsible AI: Conceptual Foundations, Methods and Applications
+Lecture with Essay
+Form of module
+Specialization Course
+Type of module
+Level Master
+ECTS 6
+Hours per semester in presence: 28 (2 SWS)
+Workload
+Self-study: 56 h lectures; 20 h essay / preparation oral exam
+Basic knowledge about AI systems (knowledge-based systems, machine
+Prerequisites
+learning, deep neural networks)
+Conceptual foundations:
+- understanding of important concepts in human-AI interaction and AI
+ethics (such as trust, autonomy, responsibility)
+Methods:
+- e.g., narrative interviews, group discussions, design research methods
+(prototyping, design thinking, techno-mimesis), (digital) ethnography,
+Aim of module
+participatory action research
+Applications:
+- AI in medicine and healthcare
+- Social robotics
+- Generative AI
+- other use cases / real-world AI applications
+Expertise: Students gain insights and understanding of important
+concepts in human-AI interaction and AI ethics. They learn modes of
+transdisciplinary thinking and theorizing. Along sector-specific use cases
+they learn about ethical, legal and social aspects and challenges of real-
+world AI application, e.g. for healthcare.
+Learning outcomes and
+qualification goals Methodological competence: Students learn elements of mixed-
+methods study design for human-AI interaction research
+Personal competence: Students learn to critically assess conceptual,
+ethical, legal and social aspects of human-AI interaction. They gain skills
+in transdisciplinary research and theory-building and learn to transfer
+these insights to real-world human-AI interaction scenarios.
+Media Slides are available online
+- Voeneky, S., P. Kellmeyer, O. Mueller, and W. Burgard, ed. 2022. The
+Cambridge Handbook of Responsible Artificial Intelligence:
+Literature Interdisciplinary Perspectives. Cambridge Law Handbooks. Cambridge:
+Cambridge University Press. https://doi.org/10.1017/9781009207898
+(open source)
+79- Coeckelbergh, Mark. AI ethics. (2020). The MIT Press.
+https://www.gbv.de/dms/bowker/toc/9780262538190.pdf
+- Heilinger, J.-C. (2022). The Ethics of AI Ethics. A Constructive Critique.
+Philosophy & Technology, 35(3), 61. https://doi.org/10.1007/s13347-
+022-00557-9
+- McLennan, S., Fiske, A., Tigard, D., Müller, R., Haddadin, S., & Buyx, A.
+(2022). Embedded ethics: A proposal for integrating ethics into the
+development of medical AI. BMC Medical Ethics, 23(1), 6.
+https://doi.org/10.1186/s12910-022-00746-3
+- Schmitt, L. (2021). Mapping global AI governance: A nascent regime in
+a fragmented landscape. AI and Ethics. https://doi.org/10.1007/s43681-
+021-00083-y
+Interactive lecture
+Methods
+Essay
+Form of assessment
+Admission requirements for
+--
+assessment
+Duration of assessment Essays need to be handed in by December 8th
+Language English
+Offering
+Fall semester
+JProf. Dr. Philipp Kellmeyer
+Lecturer
+Person in charge JProf. Dr. Philipp Kellmeyer
+Duration of module 1 Semester
+Further modules Follow-up (block) seminar planned for summer semester 2024
+Range of application Msc Business Informatics, Msc Data Science, Lehramt Informatik
+Semester All semesters possible
+80

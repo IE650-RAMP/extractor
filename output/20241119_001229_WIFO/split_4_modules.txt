@@ -1,0 +1,833 @@
+2. Detailed descriptions
+i. CS-Courses
+CS 600 Model Driven Development
+Form of module Lectures with accompanying tutorials
+Type of module Specialization course
+Level Master
+ECTS 6
+Hours per semester present at university: 56 h (4 SWS)
+Self-study: 112 h semester
+Workload • 28 h: pre and post lecture studying and revision
+• 56 h: tutorial exercises
+• 28 h: directed independent study (reading papers, books
+etc.)
+Prerequisites • Software Testing and Experimentation
+The course focuses on the principles, practices and tools
+involved in advanced model-driven development. This
+includes established modelling standard languages (e. g. UML,
+ATL, OCL) and modelling infrastructures (e. g. MOF, EMF, …) as
+well as leading edge, state-of-the-art modelling technologies
+(e. g. LML, PLM . . . ). Key topics addressed include:
+• Principles of Model-Driven Development
+Aim of module
+• Meta-Modeling
+• Domain-Specific Languages
+• Model Constraint and Transformation languages
+• Multi-View/Multi-Paradigm Modeling
+• Multi-Level Modeling
+• Ontology Modeling
+• Enterprise Architecture Modeling
+Expertise:
+Students will be familiar with the accepted best practices and
+Learning outcomes and technologies used in mainstream model-driven development
+qualification goals as well as state-of-the-art modeling technologies emerging
+from research institutions.
+(MK1, MK2)
+25Methodological competence:
+Students will know how to apply modeling technologies in
+real-world projects.
+(MF1, MF3)
+Personal competence:
+Students will have the capability to analyse, understand and
+model complex systems.
+(MKO1)
+Media Printed Lecture Notes, Presentations, Tool Demonstrations
+• Jos B. Warmer and Anneke G. Kleppe, The Object
+Literature Constraint Language: Getting Your Models Ready for MDA,
+Addison-Wesley Object Technology Series, 2003
+Methods Lectures, tutorials, independent study
+Form of assessment Written examination
+Admission requirements
+-
+for assessment
+Duration of assessment 90 minutes
+Language English
+Offering Fall semester
+Lecturer Prof. Dr. Colin Atkinson
+Person in charge Prof. Dr. Colin Atkinson
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of application
+Science, Lehramt Informatik
+Semester 2nd, 3rd or 4th semester
+26CS 646 Higher Level Computer Vision
+Form of module Lecture with Exercise
+Type of module Specialization Course
+Level Master
+ECTS 6
+Hours per semester present: 56 (4SWS)
+Workload Self-study: 98h
+• 70h lecture/exercises
+• 28h exam preparation
+Prerequisites Basis skills in linear algebra, basis knowledge in python and pytorch
+• Point Features and point matching
+• Object Identification
+• Deep Learning for Computer Vision
+Aim of module • Object Detection
+• Image Segmentation
+• Optical Flow
+• Video and Motion Segmentation
+Expertise: The students have a detailed understanding of Computer
+Vision techniques. They can evaluate given Computer Vision
+algorithms.
+(MK1, MK2, MF1, MF3)
+Methodological competence: Students understand the technical
+Learning outcomes and basis of Computer Vision algorithms; they can explain the discussed
+qualification goals methods and implement them.
+(MF1, MF2, MF3)
+Personal competence: Understanding complex Computer Vision
+problems; thorough judgment in the design and use of methods; can
+work efficiently in a team.
+(MK01, MK02)
+Media Exercise sheets and lecture slides available online.
+27• Goodfellow et al..: Deep Learning, MIT Press, 2016.
+https://www.deeplearningbook.org/
+• R. Szeliski: Computer Vision Algorithms and Applications,
+Springer, 2010. ISBN: 978-1-84882-934-3. (Online available:
+http://szeliski.org/Book/
+Literature • D. Forsyth, J. Ponce: Computer Vision: A Modern Approach,
+Prentice Hall, 2nd edition, 2012. ISBN: 978-0136085928 (Online
+available: http://cmuems.com/excap/readings/forsyth-ponce-
+computer-vision-a-modern-approach.pdf
+• R. Hartley, A. Zisserman: Multiple View Geometry in Computer
+Vision, Cambridge University Press, 2nd edition, 2004.
+Lecture, weekly exercise, book studies, implementation of
+Methods
+algorithms, visualization of results
+Form of assessment Written or oral examination (TBA)
+Admission requirements for
+-
+assessment
+Duration of assessment 90 minutes (written) or 20 minutes (oral)
+Language English
+Offering Fall semester
+Lecturer Professor Dr.-Ing. Margret Keuper
+Person in charge Professor Dr.-Ing. Margret Keuper
+Duration of module 1 Semester
+Further modules Image Processing
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of application
+Science, Lehramt Informatik
+Semester 1st/2nd/3rd semester
+28CS 647 Image Processing
+Form of module Lecture with Exercise (partially online)
+Type of module Specializaton Course
+Level Master
+ECTS 6
+Hours per semester present: 56 (4SWS)
+Workload Self-study: 98h
+• 70h lecture/exercises
+• 28h exam preparation
+Prerequisites Basis skills in linear algebra, basis knowledge in python
+• Introduction to Imaging (human visual system, optics, sensors)
+• Noise and basic operations (convolution, correlations, gradients)
+• Energy minimization
+• Variational Methods
+Aim of module • Feature extraction
+• Classification
+• Segmentation
+• Image Sequences and Motion (Optical Flow)
+• Stereo Vision
+Expertise: The students have a detailed understanding of image and
+video processing techniques. They can evaluate given image processing
+algorithms.
+(MK1, MK2, MF1, MF3)
+Methodological competence: Students understand the technical basis of
+Learning outcomes and image processing algorithms; they can explain the discussed methods
+qualification goals and implement them.
+(MF1, MF2, MF3)
+Personal competence: Understanding complex Image Processing
+problems; thorough judgment in the design and use of methods; can
+work efficiently in a team.
+(MK01, MK02)
+Media Exercise sheets and lecture slides available online.
+• R. Szeliski: Computer Vision Algorithms and Applications, Springer,
+2010. ISBN: 978-1-84882-934-3. (Online available:
+Literature http://szeliski.org/Book/)
+• D. Forsyth, J. Ponce: Computer Vision: A Modern Approach, Prentice
+Hall, 2nd edition, 2012. ISBN: 978-0136085928
+29Lecture, weekly exercise, book studies, implementation of algorithms,
+Methods
+visualization of results
+Form of assessment Written or oral examination (TBA)
+Admission requirements
+-
+for assessment
+Duration of assessment 90 minutes (written) or 20 minutes (oral)
+Language English
+Offering Fall Semester/ Spring Semester
+Lecturer Professor Dr.-Ing. Margret Keuper
+Person in charge Professor Dr.-Ing. Margret Keuper
+Duration of module 1 Semester
+Further modules Higher Level Computer Vision
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Science,
+Range of application
+Lehramt Informatik
+Semester 1st/2nd/3rd semester
+30CS 651 Cryptography II
+Form of module Inverted classroom
+Type of module Specialization course
+Level Master
+ECTS 6
+Hours per semester present: 56h (4 SWS)
+Self-study: 112h
+Even though the lecture deepens and continues topics
+Workload
+discussed in “CS 404 Cryptography I”, it is not a prerequisite
+Prerequisites
+to have attended this lecture. The lecture “Cryptography II”
+can be studied without any prior knowledge on cryptography
+– all necessary basics are shortly recapitulated.
+The goal of this lecture is to present and discuss important
+scientific concepts from modern cryptography. This includes:
+• Security Definitions: How can the security of
+cryptographic schemes formally defined?
+• Proofs of Security: How can the security of cryptographic
+Aim of module
+schemes be proven (based on precise assumptions)?
+• Cryptanalysis: What are the established techniques to
+analyze cryptographic mechanisms?
+• Elliptic Curves
+• Zero-Knowledge Proofs
+Expertise:
+With the help of current techniques and theories of modern
+cryptography, the students can assess the security of
+cryptographic processes and assess security statements
+accordingly. Furthermore, they can identify security goals
+and use appropriate techniques that could not be dealt with
+in “CS 404 Cryptography I”.
+(MK2)
+Methodological competence:
+Learning outcomes and The students can select and use suitable methods for the
+qualification goals security analysis of cryptographic processes. This includes, for
+example, the choice of the appropriate security model, proof
+of security based on clearly specified assumptions and the
+analysis of given procedures. In particular, the students can
+understand and assess the security arguments for existing
+procedures and to transfer them to new ones. Furthermore,
+they can use techniques and protocols to achieve security
+goals that were not yet possible with the methods discussed
+in “CS 404 Cryptography I”.
+(MK1)
+31Personal competence:
+The analytic, concentrated, and precise thinking of the students is
+trained. By the independent treatment of applications, e.g. in the
+course of the exercises, their abstraction capacity is further
+developed and the transfer of the learned material to related
+questions is trained.
+(MF1, MKO3)
+Media Video recordings, annotated lecture slides
+Jonathan Katz, Yehuda Lindell: Introduction to Modern
+Literature Cryptography: Principles and Protocols, Chapman and
+Hall/CRC, 2007.
+Reworking the lecture and studying the relevant literature in
+self-study. During the lecture: discussing questions and ideas
+Methods and working together on concrete examples. Solving
+exercises in self-study and in practice in cooperation with
+fellow students.
+Form of assessment Oral exam
+Admission requirements
+none
+for assessment
+Duration of assessment 30 minutes
+Language English
+Offering HWS
+Lecturer Prof. Dr. Frederik Armknecht
+Person in charge Prof. Dr. Frederik Armknecht
+Duration of module One term
+Further modules none
+M.Sc. Mannheim Master in Data Science,
+Range of application M.Sc. Wirtschaftsinformatik, Lehramt Informatik,
+M.Sc. Mathematik
+Semester 1st/2nd/3rd semester
+32CS 655 Cryptography
+Form of Module Lecture with Exercise
+Type of Module Specialization Course
+Level Master
+ECTS 6
+Hours per semester present: 56 (4 SWS)
+Workload
+Self-study: 98h (70h lectures/exercises, 28h exam
+preparation
+Basis skills in linear algebra, probability theory, algorithms,
+Prerequisites
+and data structures
+• Basic concepts of cryptography
+• Mathematical Background
+• Basics of Information Theory
+• Block Ciphers (DES, AES, etc.)
+• Stream Ciphers
+Aim of Module
+• Secure Key Exchange Protocols (Diffie-Hellman protocol,
+etc.)
+• Public Key encryption (RSA)
+• Cryptographic Hash Functions
+• Signature Systems and Message Authentication Codes
+Expertise:
+After the course the students are able to identify security
+risks in various modern scenarios of data traffic like online
+banking, wireless communication, online trade ...
+(MK1)
+Methodological competence:
+The students are able to formulate and formalize
+Learning Outcomes and security goals for various use cases and to choose and to
+qualification goals apply appropriate methods to
+reach these goals.
+Examples here are to provide data security data encryption,
+to establish trusted electronical
+data encryption, to establish trusted electronical
+communication channels, or to apply methods for secure
+authentication
+(MF1)
+33Personal competence:
+The course trains abstract thinking and the ability to
+formally model application scenarios. By solving exercises
+independently, the transfer of the learned material to
+related questions is promoted.
+Media Exercise sheets and lecture slides available online, blackboard
+• Christof Paar, Bart Preneel, Jan Pelzl: Understanding
+Cryptography: A Terxtbook for Students and
+Practitioners, Springer 2009
+Literature • Douglas R. Stinson: Cryptography - Theory and Practice,
+Taylor & Francis, 2005
+• Alan G. Konheim: Cryptography: A Primer, John Wiley &
+Sons, 1981
+Methods Lecture, exercises every two weeks, book studies
+Form of assessment Oral examination
+Admission requirements
+-
+for assessment
+Duration of assessment 15 – 30 minutes
+Language English
+Offering FSS
+Person in Charge Prof. Dr. Matthias Krause
+Duration of Module 1 Semester
+Further Modules Cryptography II
+M.Sc Business Informatics, M.Sc Data Science, Lehramt
+Range of Application
+Informatik, B.Sc. Wirtschaftsmathematik
+Semester 1st/2nd/3rd Semester
+34CS 662 Types and Programming Languages
+Form of module Lecture with Exercise
+Type of module Specialization Course
+Level Master
+ECTS 6
+Hours per semester present: 56h (4 SWS)
+Workload
+Self-study: 112h
+Prerequisites -
+A type system is a syntactic method for enforcing levels of
+abstraction in programs. The study of type systems—and of
+programming languages from a type-theoretic perspective—has
+important applications in software engineering, language design,
+high-performance compilers, and security. In this lecture, we will
+discuss the following topics:
+Aim of module • Lambda calculus
+• Static and dynamic semantics of programming languages
+• Functional programming
+• Curry-Howard correspondence
+• Computational logic
+• Proof assistants
+• Typed intermediate languages
+Expertise:
+• Get acquainted with the aims of the module
+(MK1, MK2, MF1, MF3)
+Methodological competence:
+• Students will get familiar with the jargon used in scientific
+Learning outcomes and publications about programming languages
+qualification goals (MF1, MF2, MF3)
+Personal competence:
+• Learn how to read scientific publications about
+programming languages
+• Teamwork skills
+(MKO1, MKO2)
+Lecture slides, exercise sheets, project assignments, software,
+Media
+software documentation
+35Types and Programming Languages. February 2002. Benjamin C.
+Literature
+Pierce. The MIT Press. ISBN: 978-0-262-16209-8
+• Lecture
+Methods
+• Weekly Exercises/programming projects
+Form of assessment Written examination (90 minutes)
+Admission requirements
+≥ 50% points in homework assignments in groups of 2-3 students
+for assessment
+Duration of assessment 90 minutes written exam
+Language English
+Offering FSS
+Lecturer Junior Professor Dr. Roland Leißa
+Person in charge Junior Professor Dr. Roland Leißa
+Duration of module 1 semester
+Further modules -
+M. Sc. Wirtschaftsinformatik, Lehramt Informatik, MMDS,
+Range of application
+MMSDS
+Semester 1st/2nd/3rd semester
+36CS 664 Blockchain Security
+Form of module
+Inverted classroom with exercises
+Type of module
+Specialization course
+ECTS 6
+Workload Hours per semester present: 56h (4 SWS), Self-study: 112h
+There are no formal prerequisites but knowledge in
+cryptography and/or IT-security is recommended, e.g., by
+Prerequisites
+attending the lectures “Kryptographie I” or “Selected Topics in
+IT-Security”
+Blockchains promise secure and reliable data storage and
+consensus in a trustless environment. In the light of their
+growing popularity, Blockchain security becomes increasingly
+important. The course will equip students with a solid
+Aim of module understanding of blockchains, their design principles,
+underlying technologies, and cryptographic primitives. Bitcoin,
+Monero and Ethereum will be discussed in greater detail and a
+substantial part of the course will be devoted to security issues
+and possible attacks.
+Expertise:
+Students will acquire profound knowledge of Blockchain
+technology as well as the skills to critically examine the
+security of Blockchain-based systems.
+(MK1, MK2)
+Methodological competence:
+Successful participants will be able to understand and evaluate
+the different ways in which different Blockchain systems try to
+achieve security. They will also be able to identify where, why,
+Learning outcomes and
+and how these security measures are broken for both, current
+qualification goals
+and new systems.
+(MKO3)
+Personal competence:
+The analytic, concentrated, and precise thinking of the
+students is trained. As multiple different but related
+Blockchains are discussed, their abstraction capacity is further
+developed and the transfer of the learned concepts to related
+questions is trained.
+(MF1)
+Media Video recordings, annotated lecture slides
+Literature Will be announced in the lecture
+37Reworking the lecture and studying the relevant literature in
+self-study. During the lecture: discussing questions and ideas
+Methods and working together on concrete examples. Solving exercises
+in self-study and in practice in cooperation with fellow
+students.
+Form of assessment Written exam
+Admission requirements
+-
+for assessment
+Duration of assessment 90 Minutes
+Language English
+Offering HWS
+Lecturer Prof. Dr. Frederik Armknecht
+Person in charge Prof. Dr. Frederik Armknecht
+Duration of Module 1 Semester
+Further Modules -
+M.Sc. Mannheim Master in Data Science,
+M.Sc. Wirtschaftsinformatik
+Range of application Lehramt Informatik
+M.Sc. Mathematik
+M.Sc. Wirtschaftsmathematik
+Semester 1st/2nd/3rd semester
+38CS 668 Generative Computer Vision Models
+Form of module Lecture with Exercise
+Type of module Specialization Course
+Level Master
+ECTS 6
+Hours per semester present: 56 (4SWS)
+Workload Self-study: 98h
+• 70h lecture/exercises
+• 28h exam preparation
+Prerequisites Basis skills in linear algebra, basis knowledge in python/pytorch
+• Introduction to Clustering and Unsupervised Learning
+• Introduction to Generative Models
+• Autoregressive Models for Image Generation
+• (Normalizing) Flow
+Aim of module
+• Latent Variable Models
+• Latent Space Visualizations
+• Generative Adversarial Models
+• Diffusion Models
+• Multi-Modal Conditioning
+Expertise: The students have a detailed understanding of image
+generation techniques, latent variable models, and their
+evaluations.
+(MK1, MK2, MF1, MF3)
+Methodological competence: Students understand the technical
+basis of generative models; they can explain the discussed
+Learning outcomes and
+methods and implement them.
+qualification goals
+(MF1, MF2, MF3)
+Personal competence: Understanding image generative models,
+their working principles and training procedures; thorough
+judgment in the design and use of methods; Students can work
+efficiently in a team.
+(MK01, MK02)
+39Media Exercise sheets and lecture slides available online.
+• Ian Goodfellow and Yoshua Bengio and Aaron Courville, Deep
+Literature
+Learning, An MIT press book, 2016.
+Lecture, weekly exercise, book studies, implementation of
+Methods
+algorithms, visualization of results
+Form of assessment
+Written or oral examination (TBA)
+Admission requirements
+-
+for assessment
+Duration of assessment
+90 minutes (written) or 20 minutes (oral)
+Language
+English
+Offering
+Spring Semester
+Lecturer
+Professor Dr.-Ing. Margret Keuper
+Person in charge
+Professor Dr.-Ing. Margret Keuper
+Duration of module
+1 Semester
+Further modules
+Higher Level Computer Vision
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of application
+Science, Lehramt Informatik
+Semester
+1st/2nd/3rd semester
+40CS 630 Generative Software Engineering
+Form of module Lectures, exercises and tutorials
+Type of module Specialization Course
+Level Master
+ECTS 6
+Hours per semester present: 56 h (2 + 2 SWS)
+Self-study: 112 h per semester
+Workload
+• 28 h per semester for preparation and studying of
+lectures/tutorials
+• 84 h per semester for the preparation of the exams
+• Software Testing and Experimentation
+Prerequisites
+• Knowledge of Java and/or Python
+The course introduces the fundamental principles, practices
+and applications of generative software engineering (GSE) as
+well as the supporting models, tools and services -
+• Software Recommendation and Reuse
+• Code Search Engines
+Aim of module
+• Principles of GSE
+• Existing GSE models, tools and services
+• Defining GSE “problems”
+• Applications of GSE
+• Evaluation and comparison of GSE models, tools and services
+Expertise:
+Students will be familiar with the principles, practices and
+applications of GSE as well as supporting models, tools and
+services.
+(MK1, MK2)
+Methodological competence:
+Students will have the ability to judge, select, and apply GSE
+Learning outcomes and
+techniques and tools in practical software engineers, as well
+qualification goals
+as the ability to understand academic GSE publications and to
+perform research in GSE.
+(MF1) (MF1, MF3)
+Personal competence:
+Students will have improved skills in analytical thinking and
+applying theoretical knowledge to solve practical problems,
+especially in the use of AI to enhance software engineering.
+41(MKO3)
+Lecture notes, presentations, tool demonstrations, software,
+Media
+data sets
+• Sommerville, Ian. "Software engineering (10th ed.).",
+Literature
+Pearson Education Inc., 2018.
+Lectures, weekly exercises, experimentation with different
+Methods
+systems
+Form of assessment Written examination
+Admission requirements
+-
+for assessment
+Duration of assessment 90 minutes
+Language English
+Offering Spring semester
+Lecturers Dr. Marcus Kessel, Prof. Dr. Colin Atkinson
+Person in charge Prof. Dr. Colin Atkinson
+Duration of module 1 Semester
+Model-Driven Development, Software Testing and
+Further modules
+Experimentation
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of application
+Science, Lehramt Informatik
+Semester 2nd, 3rd or 4th semester
+42ii. IE-Courses
+Anfrageoptimierung
+IE 630
+Query Optimization
+Form der Veranstaltung Vorlesung mit Übung
+Typ der Veranstaltung Vertiefung
+Modulniveau Master
+ECTS 6
+Präsenzstudium: 4SWS
+Eigenstudium: 56h pro Semester
+Arbeitsaufwand
+• davon Vor- und Nachbereitung der Veranstaltung und freies
+Selbststudium: 28h pro Semester
+• davon Vorbereitung für die Prüfung: 28 h pro Semester
+Vorausgesetzte Kenntnisse DBSI, Kombinatorik, Statistik
+• Grundlagen der Anfrageoptimierung
+Lehrinhalte
+Fachkompetenz:
+• Suchraumgroessen abschaetzen
+• Komplexitaetsanalysen
+• Indexeinsatz
+(MK1, MK2)
+Methodenkompetenz:
+Lern- und Kompetenzziele
+• systematisches Auszaehlen und Aufzaehlen
+• Analyse komplexer Algorithmen
+(MF1, MF2, MF3, MF5)
+Personale Kompetenz:
+• Präzises Analysieren
+(MKO1, MKO3)
+Medienformen Präsentationen mit Tafelanschrieb
+Begleitende Literatur Skript
+Lehr- und Lernmethoden Vorlesung (2 SWS)
+Art der Prüfungsleistung Mündliche Prüfung
+Prüfungsvorleistung -
+Prüfungsdauer 30 Minuten (mündliche Prüfung)
+Sprache Deutsch
+43Angebotsturnus FSS (nicht im FSS24)
+Lehrende/r Moerkotte
+Modulverantwortlicher Moerkotte
+Dauer des Moduls 1 Semester
+Weiterführende Module -
+Verwendbarkeit M.Sc. Wirtschaftsinformatik
+Einordnung in
+1./2./3. Fachsemester
+Fachsemester
+44IE 663 Information Retrieval and Web Search
+Form of module Lecture
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester present: 28h (2SWS)
+Workload Self-study: 60h per semester
+• Pre- and post- lecture studying and preparation (30h)
+• Examination preparation (30h)
+Fundamental notions of linear algebra, probability theory, as well
+Prerequisites
+as algorithms and data structures
+Given the vastness and richness of the Web, users need high-
+performing, scalable and efficient methods to access its wealth of
+information and satisfy their information needs. As such, being
+able to search and effectively retrieve relevant pieces of
+information from large text collections is a crucial task for the
+majority (if practically not all) of Web applications. In this course,
+we will explore a variety of basic and advanced techniques for text-
+based information retrieval and Web search. Covered topics will
+include:
+Aim of module
+• Efficient text indexing;
+• Boolean and vector space retrieval models;
+• Probabilistic and semantic ad-hoc retrieval;
+• Evaluation of retrieval systems;
+• Text classification and clustering;
+• Web search, crawling and link-based algorithms.
+This course provides theoretical information retrieval foundations.
+As such is highly to be attended together with the course
+Information Retrieval Project (IE 691).
+Expertise:
+Students will acquire knowledge of fundamental techniques of
+Information Retrieval and Web Search, including standard retrieval
+Learning outcomes and
+models, evaluation of information retrieval systems, text
+qualification goals
+classification and clustering, as well as web search topics such as
+crawling and link-based algorithms.
+(MK1, MK2, MF1)
+45Methodological competence:
+Successful participants will be able to understand state-of-the-art
+methods for Information Retrieval and Web search, as well as
+being able to select, apply and evaluate the most appropriate
+techniques for a variety of different search scenarios.
+(MF1, MF2, MF4)
+Personal competence: -
+Media Lecture slides, exercise sheets
+• Christopher D. Manning, Prabhakar Raghavan and Hinrich
+Schütze, Introduction to Information Retrieval, Cambridge
+University Press. 2008.
+Literature • B. Croft, D. Metzler, T. Strohman, Search Engines: Information
+Retrieval in Practice, Addison-Wesley, 2009
+• R. Baeza-Yates, B. Ribeiro-Neto, Modern Information
+Retrieval, Addison-Wesley, 2011 (2nd Edition).
+The course consists of (1) lectures that introduce the students to
+traditional and contemporary information retrieval techniques and
+Methods models, and (2) exercises in which the students are demonstrated
+in terms of comprehensible examples how theoretically introduced
+models work.
+Form of assessment Written examination
+Admission requirements for
+-
+assessment
+Duration of assessment 90 minutes
+Language English
+Offering HWS
+Lecturer Prof. Dr. Simone Ponzetto
+Person in charge Prof. Dr. Simone Ponzetto
+Duration of module 1 semester
+Further modules -
+Range of application M.Sc. Wirtschaftsinformatik, Lehramt Informatik, MMDS, MMSDS
+Semester 1st/2nd/3rd semester
+46IE 670 Web Data Integration
+Form of module Lecture
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester: 28 h (2 SWS)
+Workloadk Self-study: 56 h per semester
+• 31 h: pre and post lecture studying and revision
+• 25 h: examination preparation
+Prerequisites -
+Data integration is one of the key challenges in most IT
+projects and it is estimated that data scientists spend about
+80% of their time on data integration and data preparation.
+Within the enterprise context, data integration problems
+arise whenever data from separate sources needs to be
+combined as the basis for new applications or data analysis
+projects. Within the context of the Web, data integration
+techniques form the foundation for taking advantage of the
+ever-growing number of publicly-accessible data sources. The
+course will cover the following topics:
+Aim of module 1. Heterogeneity and Distributedness
+2. The Data Integration Process
+3. Structured Data on the Web
+4. Data Exchange Formats
+5. Schema Mapping and Data Translation
+6. Identity Resolution
+7. Data Quality Assessment
+8. Data Fusion
+It is highly recommended to attend the course web data
+integration project in the same semester as this course as the
+schedules of both courses are aligned to each other.
+Expertise:
+Students will be able to identify opportunities for employing
+Learning outcomes and Web data in business applications and will learn to select and
+qualification goals apply appropriate techniques for integrating and cleansing
+Web data.
+(MK1, MF1)
+47Methodological competence:
+• Participants will acquire knowledge of the data
+integration process as well as the techniques that are
+used in each phase of the process.
+(MK2, MF3, MF4, MKO3)
+Personal competence: -
+Media slide set
+• AnHai Doan, Alon Halevy, Zachary Ives: Principles of Data
+Integration. Morgan Kaufmann, 2012.
+• Luna Dong, Divesh Srivastava: Big Data Integration.
+Literature
+Morgan & Claypool, 2015.
+• Ulf Leser, Felix Naumann: Informationsintegration.
+Dpunkt Verlag, 2007.
+The course consists of a lecture that introduces students to
+Methods
+state of the art data integration techniques.
+Form of assessment Written examination
+Admission requirements
+-
+for assessment
+Duration of assessment 60 minutes
+Language English
+Offering Fall semester
+Lecturer Prof. Dr. Christian Bizer
+Person in charge Prof. Dr. Christian Bizer
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of application
+Science, Lehramt Informatik
+Semester 1st/2nd/3rd semester
+48IE 671 Web Mining
+Form of module Lecture and Exercise
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester: 28 h (2 SWS)
+Workload Self-study: 56 h per semester
+• 31 h: pre and post lecture studying and revision
+• 25 h: examination and presentation preparation
+IE 500 Data Mining I (recommended). Fundamental notions
+Prerequisites
+of linear algebra and probability theory.
+The vast amounts of textual content and structured data
+found on the Web provide us with a goldmine of data that
+can be mined to derive knowledge about nearly every aspect
+of human life. The course covers techniques for extracting
+knowledge from Web content as a basis for business
+decisions and applications. The course will cover the
+following topics: Web Usage Mining (including Recommender
+Aim of module
+Systems), Web Structure Mining (including Social Network
+Analysis), and Web Content Mining (including Sentiment
+Analysis and Hate Speech Detection).
+NOTE: It is highly recommended to attend the module “Web
+Mining Project” in the same semester since the schedule and
+topics of both modules are aligned.
+Expertise:
+Students will acquire knowledge of the techniques,
+opportunities, and applications of Web mining.
+(MK1, MF1)
+Methodological competence:
+Learning outcomes and
+Successful participants will be able to identify opportunities
+qualification goals
+for mining knowledge from Web content, select and apply
+appropriate techniques and interpret the results.
+(MK2, MF3, MF4)
+Personal competence: -
+Media slide set, exercise sheets, data sets for the exercises
+Literature • Bing Liu: Web Data Mining. 2nd Edition, Springer, 2011.
+49• Wouter de Nooy, et al.: Exploratory Social Network
+Analysis with Pajek. 2nd Edition, Cambridge University
+Press, 2011.
+• Bing Liu. Sentiment Analysis and Opinion Mining, Morgan
+& Claypool Publishers, 2012.
+The course consists of a lecture together with accompanying
+practical exercises as well as student team projects. In the
+Methods
+exercises the participants will gather initial expertise in
+applying state of the art web mining tools.
+Form of assessment Written examination
+Admission requirements
+-
+for assessment
+Duration of assessment 60 minutes
+Language English
+Offering Spring semester
+Lecturer Prof. Dr. Christian Bizer
+Person in charge Prof. Dr. Christian Bizer
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of application
+Science, Lehramt Informatik
+Semester 1st/2nd/3rd semester
+50

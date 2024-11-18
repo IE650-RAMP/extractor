@@ -1,0 +1,905 @@
+3.2 AREA FINANCE
+64Module: FIN 500 Investments EN
+Contents Learning outcomes
+This course introduces into the theoretical foundations of mod- The course provides students with an understanding of the theo-
+ern portfolio management and their applications. It covers ex- retical and conceptual foundations of modern quantitative port-
+pected utility theory, measures of risk and return, the theory of folio management. Students learn to understand investment
+portfolio selection, asset pricing models and their empirical test, strategies, and to interpret and evaluate them against the back-
+the efficient markets hypothesis, and issues in stock portfolio ground of capital market theory and the efficient markets
+management. paradigm.
+Prerequisites for participation
+Necessary: –
+Recommended: Basic knowledge in mathematics (optimization,
+elementary matrix algebra) and statistics (expected value, vari-
+ances, covariances, correlation, t-tests). Successful attendance of
+Finanzwirtschaft I & II in the Mannheim Bachelor's program or
+similar courses.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Exercise class 1 SWS 6 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Erik Theissen
+Performing lecturer Prof. Dr. Erik Theissen
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+65Module: FIN 540 Corporate Finance I - Lecture (Capital EN
+Structure, Cost of Capital and Valuation)
+Contents
+Corporate Finance studies how corporations finance their opera- Prerequisites for participation
+tions. The emphasis of this part of the curriculum is on sharehold- Necessary: –
+er value and company valuation. We will also study the cost of Recommended: Every student participating in this course
+capital, introduce theories of capital structure, and initial public should have completed the equivalent of the 2-semester finance
+offerings. The objective of this course is to introduce the funda- module, which is part of the Mannheim Bachelor program. The
+mental theoretical concepts of company valuation. lectures generally assume basic knowledge in accounting (bal-
+ance sheets, income statements, financial ratios), finance (pre-
+Learning outcomes sent value methods, portfolio theory, CAPM), mathematics (cal-
+After completing this course, students will know and understand culus, optimization) and statistics (mean, variance, standard devi-
+state-of-the-art tools such as DCF, Residual Income, EVA, and ation, univariate and multivariate regressions). The course as-
+Multiples. In particular, participants will know how to determine sumes that students already manage the material in Brealey, My-
+the cost of capital for corporations and projects using real world ers, Allen, Corporate Finance, (McGraw-Hill, 10th edition, 2010),
+data. Further, participants will learn how to identify value drivers chapters 1-19.
+by applying financial ratio analysis. Students will also be familiar
+with event studies in order to analyse how capital markets react
+to important corporate events like merger announcements or
+earnings announcements.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 12 SWS
+ECTS credits 5
+Graded yes
+Workload 150h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission no
+Further information –
+Examiner Prof. Ernst Maug, Ph.D.
+Performing lecturer Marc Gabarro, Ph.D.
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+66Module: FIN 541 Corporate Finance I - Case Study (Capital EN
+Structure, Cost of Capital and Valuation)
+Contents Students will be able to implement the theoretical concepts dis-
+Corporate Finance studies how corporations finance their opera- cussed in the lecture (FIN 540) using Microsoft Excel.
+tions. The emphasis of this part of the curriculum is on sharehold-
+er value and company valuation. The focus of the course will be Prerequisites for participation
+on solving several case studies in groups of up to three students. Necessary: FIN 540 Corporate Finance I (Parallel attendance pos-
+Each of these cases has to be handed in and will contribute to sible)
+the final grade. The hands-on format of this course ensures that Recommended: Every student participating in this course
+students are able to transfer the theoretical concepts encoun- should have completed the equivalent of the 2-semester finance
+tered in the lecture (FIN 540) to real world problems. module, which is part of the Mannheim Bachelor program. The
+lectures generally assume basic knowledge in accounting (bal-
+Learning outcomes ance sheets, income statements, financial ratios), finance (pre-
+After completing this course, students will be able to value com- sent value methods, portfolio theory, CAPM), mathematics (cal-
+panies using state-of-the-art tools such as DCF, Residual Income, culus, optimization) and statistics (mean, variance, standard devi-
+EVA, and Multiples. In particular, participants will be able to de- ation, univariate and multivariate regressions). The course as-
+termine the cost of capital for corporations and projects using re- sumes that students already manage the material in Brealey, My-
+al world data. Participants will be able to identify value drivers by ers, Allen, Corporate Finance, (McGraw-Hill, 10th edition, 2010),
+applying financial ratio analysis and analyse the impact of those chapters 1-19.
+value drivers on the firm value. Students will also be able to per-
+form event studies in order to analyse how capital markets react
+to important corporate events like merger announcements or
+earnings announcements.
+Forms of teaching and learning Contact hours Independent study time
+Case Study Presentation 1 SWS 9 SWS
+Exercise class 1 SWS 4 SWS
+ECTS credits 5
+Graded yes
+Workload 150h
+Language English
+Form of assessment Case write-ups (75%), class participation in case discussions (25%)
+Restricted admission yes
+Further information –
+Examiner Prof. Ernst Maug, Ph.D.
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+67Preliminary course work –
+Program-specific Competency Goals CG 1
+68Module: FIN 550 International Course – Banking, Finance EN
+and Insurance
+Contents Learning outcomes
+Depends on course taken abroad Depends on course taken abroad
+Prerequisites for participation
+Necessary: The level of the course matches that of a regular
+MMM course (level 500 and above). The module can only be tak-
+en while studying abroad and complements the Mannheim cur-
+riculum.
+Recommended: –
+Graded yes
+Language English
+Form of assessment Depends on course taken abroad
+Restricted admission no
+Further information More than one class with this code can be taken; conditions apply, make
+sure to read the respective guidelines.
+Performing lecturer Lecturer at the host university. Course will be assessed when students
+request a learning agreement. Please find details in the „Guidelines for
+learning agreements and course recognition“ in ILIAS > MMM >
+Auslandssemester/Study Abroad Semester. Dozent/in an der
+Gastuniversität. Prüfung der Wertigkeit bei Abschluss eines Learning
+Agreements. Bitte lesen Sie das „Merkblatt zu Learning Agreements und
+Anerkennungen“ ILIAS > MMM > Auslandssemester/Study Abroad
+Semester.
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Bus. Inf., M.Sc. Bus. Math., other Master
+programs (depending on respective study regulations)
+Preliminary course work –
+69Module: FIN 555 Financial Markets and Employees EN
+Contents Learning outcomes
+The organization of markets has changed significantly in recent After successfully completing this course, students should be
+decades. Transaction costs in capital markets have declined, and able to do the following:
+now provide firms with much better access to private equity,
+Assess business situations that affect the labor force and un-
+venture capital, and tailored financial products. Product markets
+derstand what is special about human capital.
+have internationalized and resulted in more complex and widely
+Analyze the relationship between firms' labor force (e.g.,
+distributed supply chains. And labor markets have been affected
+commitment to employment insurance, difficulties in at-
+by the trend toward the gig economy and firms’ increased re-
+tracting and retaining employees, job satisfaction) and how
+liance on innovation and intangible assets. The last aspect is key
+financial markets relate to these decisions (valuation, choice
+because we need to ask how firms can develop a sustainable
+of ownership, capital structure).
+competitive advantage in a setting in which their key assets are
+Understand how the markets for key employees (top and
+employees. All these developments significantly influence the
+middle managers, CEOs, directors, innovators) are organized,
+management, ownership, financing, and organization of firms,
+and why they sometimes feature skyrocketing levels and
+while also bearing crucial implications for stakeholder interests
+complex structures of compensation.
+and economic inequality.
+Evaluate how financial transactions like buyouts, mergers
+This course surveys and discusses recent findings on the inter-
+and acquisitions, and recapitalizations affect employees and
+face between financial markets and employees. Much of the text-
+the composition and compensation of firms' labor force.
+book discussions in various subfields of business and economics
+Assess the composition of the workforce, and when diversity
+are still based on traditional paradigms, which view firms as col-
+of skills and opinions is useful and when it is harmful for de-
+lections of physical assets that generate cash flows, and which
+cision-making and firm value.
+see financial markets as mainly occupied with valuing and dis-
+Develop a toolbox of theoretical concepts relevant to ana-
+tributing these cash flows. Yet, recent research has moved on
+lyzing human capital issues (and beyond).
+from this paradigm and acknowledges the secular shift of market
+Gain a sound knowledge of empirical facts that are not yet
+economies toward intangible capital. The new paradigm recog-
+available in a comprehensive written textbook or survey for-
+nizes that this traditional conception is in serious need of over-
+mat.
+haul, and needs to incorporate the increased role of human capi-
+Ground ethical discussions of firms' human resource policies
+tal in corporations and the shift in the balance of power between
+in a sound understanding of theory and empirical facts.
+investors and employees that this development entails. Still,
+much of this change in thinking and many new findings have not
+found their way into business education. This course is intended Prerequisites for participation
+to fill this gap. Necessary: –
+Recommended: The course requires cross-disciplinary thinking
+and understanding of key concepts in accounting, finance, eco-
+nomics, and management at the level of the respective courses
+in the Master’s curriculum. The course will introduce key theoret-
+ical concepts in economics (e.g., signaling, hold-up problems,
+principal-agent relations, etc.). No prior knowledge of these con-
+cepts is assumed, and all requisite tools from game theory and
+microeconomics will be introduced at a relatively informal level.
+However, tolerance for handling abstract concepts is required.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 4 SWS
+ECTS credits 3
+Graded yes
+Workload 90h
+Language English
+Form of assessment Online exam (75%); group project (25%)
+Restricted admission no
+70Further information –
+Examiner Prof. Ernst Maug, Ph.D.
+Performing lecturer Prof. Ernst Maug Ph.D.
+Frequency of offering Spring semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+71Module: FIN 580 Derivatives – Basic Strategies and Pricing EN
+Contents Students acquire a working knowledge of different valuation
+This course deals with different derivatives. The functioning of techniques, which is a necessary condition for trading these in-
+various derivative instruments like forwards, futures, swaps, and struments and which also allows them to price new innovative
+options will be explained. Furthermore, derivatives strategies will products themselves.
+be analyzed. A particular focus of the course is the valuation of
+different basic and exotic instruments. The theoretical basis will Prerequisites for participation
+be presented in lectures, while exercise classes will provide the Necessary: –
+opportunity to apply the concepts in practice. Recommended: Students should have successfully completed
+the Mannheim Bachelor finance modules (or equivalent courses).
+Learning outcomes They should have an understanding of simple derivatives and ba-
+After the completion of this course, students will have gained a sic pricing techniques on a Bachelor level before taking this
+thorough understanding of the spectrum of derivative financial course! A working knowledge of basic mathematics (analysis and
+instruments and their functioning. Furthermore, they will have optimization) and statistics (expected values, variances, covari-
+learned how to implement investment strategies using deriva- ances) is required.
+tives.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Exercise class 1 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission yes
+Further information –
+Examiner Prof. Dr. Stefan Ruenzi
+Performing lecturer Prof. Dr. Stefan Ruenzi (Lecture), Santanu Kundu
+(Exercise Classes), Kai Maeckle (Exercise Classes)
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1
+72Module: FIN 590 Financial Institutions I EN
+no offering in fall 2024/2025
+Contents Students will gain knowledge about what risks managers in fi-
+This course provides an in-depth look at financial institutions and nancial institutions face and how they manage those risks. Stu-
+the role they play for financial markets today. The course will ad- dents will also learn about current approaches and proposals for
+dress questions such as: Which financial institutions exist? Why regulating financial institutions.
+do they exist? What risks do they face? How do they manage
+those risks? How does the behavior of financial institutions im- Prerequisites for participation
+pact financial markets and asset prices? How does their behavior Necessary: –
+impact the economy at large? How should we regulate financial Recommended: Every student participating in this course
+institutions? The course Financial Institutions I will put emphasis should have completed the equivalent of the 2-semester finance
+on the analysis of banks. module, which is part of the Mannheim Bachelor program. The
+lectures generally assume basic knowledge in accounting (bal-
+Learning outcomes ance sheets, income statements, financial ratios), finance (pre-
+After completing this course, students will have a thorough un- sent value methods, portfolio theory, CAPM), mathematics (cal-
+derstanding of the economic reasons for the existence of finan- culus, optimization) and statistics (mean, variance, standard devi-
+cial institutions. Students will understand the eco-system of fi- ation, univariate and multivariate regressions).
+nancial institutions and their role in the global financial markets.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Oliver Spalt
+Performing lecturer Prof. Dr. Oliver Spalt
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1
+73Module: FIN 601 Bond Markets EN
+no offering in spring 2025
+Contents Learning outcomes
+This course provides an extensive coverage of bond markets. It After this course students are familiar with the theory and prac-
+discusses the characteristics of various types of bonds, their valu- tice of bond market investments. They are acquainted with the
+ation, and the risk associated with bond investments. It further valuation of various types of bonds, know tools to measure and
+discusses bond portfolio management strategies. manage the risk of bond portfolios and are able to devise and
+evaluate portfolio management strategies.
+Prerequisites for participation
+Necessary: –
+Recommended: Students should have attended FIN 500 or be
+ready to acquire knowledge of the contents of that course as
+needed.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Exercise class 1 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Erik Theissen
+Performing lecturer Prof. Dr. Erik Theissen
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1
+74Module: FIN 602 Trading and Exchanges EN
+Contents Learning outcomes
+Traditional asset pricing theory and investment analysis treat the This course familiarizes students with the institutional setting of
+process of price formation as a black box. The actual structure of today’s securities markets. They will know how an exchange op-
+financial markets does not play a role, and frictions and transac- erates and what the distinguishing features and theoretical foun-
+tion costs are disregarded. These issues, and market liquidity in dations of auction and dealer markets are. They will be able to
+particular, are of enormous practical importance. This is evi- understand and apply measures of market quality and liquidity.
+denced by the great attention regulators pay to issues of finan- They will further understand how asset characteristics, risk aver-
+cial market structure (e.g. the MiFID directive of the EU), as well sion and asymmetric information affect the process of price for-
+as by the attention market participants pay to trading costs. In re- mation and market liquidity.
+cent years, many new markets have been created in an attempt
+to reduce transaction costs (e.g. the ATS in the US or Chi-X and Prerequisites for participation
+Turquoise in Europe). The branch of financial economics that Necessary: –
+deals with these issues is called market microstructure. This Recommended: Module FIN 500; Students should have a sound
+course provides an introduction into the theoretical and empiri- background in finance. They should be familiar with the different
+cal foundations of market microstructure. types of securities (stocks, bonds, derivatives), with modern in-
+vestment analysis and the efficient markets hypothesis. They
+should also have basic knowledge in statistics and econometrics
+(unconditional and conditional expected values and variances,
+regression analysis and hypothesis testing).
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Exercise class 1 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Erik Theissen
+Performing lecturer Prof. Dr. Erik Theissen
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+75Module: FIN 603 Empirical Finance EN
+no offering in spring 2025
+Contents Learning outcomes
+The course provides students with an understanding of impor- The students will have a sound understanding of empirical meth-
+tant empirical methods and their application in finance. It covers ods and their underlying assumptions. The students will be able
+topics in asset pricing, corporate finance, and market microstruc- to choose appropriate methods for given empirical problems
+ture. Students will learn to perform empirical analysis using the and apply them in an efficient way. The case studies enable the
+software package Stata. The course enables students to plan and students to develop basic programming skills in Stata.
+carry out empirical research in finance on their own and prepares
+for an empirical seminar or master thesis in the finance area. Part Prerequisites for participation
+of the course consists of the practical application of the methods Necessary: –
+learned in the lecture to various case studies. Recommended: Module CC 502 or CC 503 and Module FIN 5XX
+or equivalent courses. Completing FIN 604 Stata in Finance or ac-
+quisition of equivalent knowledge is highly recommended.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 10 SWS
+Exercise class 1 SWS 16 SWS
+ECTS credits 10
+Graded yes
+Workload 300h
+Language English
+Form of assessment Written exam (60 min, 45%), case studies (45%), class participation (10%)
+Restricted admission yes
+Further information –
+Examiner Prof. Dr. Erik Theissen
+Performing lecturer Prof. Dr. Erik Theissen
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+76Module: FIN 604 Stata in Finance EN
+Contents Learning outcomes
+The topic of this course is the practical application of the statis- The main aim of the course is to prepare students with practical
+tics program “Stata” in Finance research. The course contains methods for conducting empirical Finance research. Students
+three major sections: How to use Stata, an introduction to the us- learn how to load, manipulate, and evaluate data using Stata.
+age of the most common databases in Finance at this university, Stata is the most popular statistics program used in the Finance
+and an application example. research community. In addition, students learn where they can
+In the first section, we will introduce project and data manage- access popular databases used in Finance at the University of
+ment with Stata. In addition, we will teach estimation techniques Mannheim. The main focus of the course lies on the practical ap-
+and programming basics. In the second section, we will show plication of the Stata software.
+where to get access to common datasets in Finance research. In
+the last section, students will have the chance to apply their Prerequisites for participation
+knowledge to a practical example. Necessary: –
+The course is offered shortly after the start of the seminar theses, Recommended: Due to a limited amount of seats in the comput-
+that is, at the beginning of January in the fall semester (HWS) and er lab, the number of participants will be limited. We will prefer
+at the beginning of July in the spring semester (FSS). students who are writing an empirical seminar thesis in the Fi-
+nance Area in the semester when allocating spots.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 1 SWS 5 SWS
+ECTS credits 2
+Graded yes
+Workload 60h
+Language English
+Form of assessment Take home exam (pass/fail). Note that there is only one exam date per
+semester. A second attempt is only possible in the respective following
+semester.
+Restricted admission yes
+Further information https://www.bwl.uni-mannheim.de/en/theissen/teaching/master-
+courses/fin-604-stata-in-finance/#c81510
+Examiner Prof. Dr. Erik Theissen
+Performing lecturer Dr. Stefan Scharnowski
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+77Module: FIN 606 FinTech EN
+Contents Learning outcomes
+This course covers recent technological innovations and the After the completion of this course, students will have gained a
+emergence of new players in the financial services industry that thorough understanding of the FinTech industry. They will be
+both fall under the umbrella term of FinTech. A special focus will able to describe its underlying technologies, analyze the indus-
+be on blockchains and other relevant technologies and their ap- try’s recent developments, recognize associated risks, and ex-
+plication to decentralized finance, cryptocurrencies, and smart plain its impact on the more traditional financial services indus-
+contracts. Other introduced innovations include alternative pay- try.
+ment systems, crowd finance, artificial intelligence in finance,
+and robo advising, while also presenting associated risks and Prerequisites for participation
+regulatory approaches. Necessary: None
+Recommended: Basic knowledge of finance (e.g. present value
+methods, portfolio theory, equilibrium models, derivatives, trad-
+ing, banking), mathematics (analysis, optimization) and statistics
+(e.g. mean, variance, correlation, and multivariate regression).
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission no
+Further information –
+Examiner Dr. Stefan Scharnowski
+Performing lecturer Dr. Stefan Scharnowski
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+Preliminary course work –
+Program-specific Competency Goals CG 1
+78Module: FIN 620 Behavioral Finance EN
+Contents Learning outcomes
+There is abundant evidence suggesting that the standard eco- Behavioral finance applies scientific research on human and so-
+nomic paradigm of rational investors does not adequately de- cial cognitive and emotional biases. After completing this course,
+scribe behavior in financial markets. Behavioral Finance examines students will be able to better understand economic decisions
+how individuals' attitudes and behavior affect their financial deci- and how they affect market prices and returns. They will know
+sions. This course reviews recent research on possible mispricing how behavioral findings are integrated with neo-classical theory.
+in financial markets due to the nature of psychological biases.
+Moreover the course deals with behavioral finance models ex- Prerequisites for participation
+plaining investor behavior or market anomalies when rational Necessary: FIN 500 or FIN540 or 550 or FIN580 or FIN590 or
+models provide no sufficient explanations. Topics will include FIN601 or FIN602 or FIN603 or FIN604 or FIN605 or FIN606 or
+among others overconfidence, prospect theory, heuristic driven FIN630 or FIN682 or FIN684 or FIN685 or FIN686 (except for ex-
+biases and frame dependence. change students)
+Recommended: Every student participating in this course
+should have completed the 2-semester finance module of the
+Mannheim Bachelor program (or equivalent courses) and the
+module Decisions Analysis. The lecture generally assumes basic
+knowledge in mathematics (calculus, optimization) and statistics
+(mean, variance, standard deviation).
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Exercise class 1 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission yes
+Further information –
+Examiner Prof. Dr. Dr. h. c. Martin Weber
+Performing lecturer Prof. Dr. Dr. h.c. Martin Weber
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+Preliminary course work –
+79Module: FIN 630 Corporate Governance EN
+no offering in fall 2024/2025
+Contents Learning outcomes
+In this course, conflicts of interest between the firm and its stake- Students should develop an understanding of important issues
+holders will be analyzed and mechanisms to mitigate these con- in corporate governance and of its relevance in a social, political,
+flicts will be discussed. In the first part of the course, theoretical and economic context. They will be able to apply theoretical
+models on information asymmetries and corporate governance models on principal-agent conflicts to different corporate gover-
+problems are discussed. The second part of the course will focus nance problems. They will learn how firms’ ESG activities are
+on common results of corporate governance problems. We then measured and the challenges arising from different measure-
+discuss various concepts of corporate social responsibility and ment approaches. Furthermore, students will know how to as-
+ways to measure a firm’s ESG activities. Finally, we examine sev- sess the effectiveness of different corporate governance mecha-
+eral internal and external governance mechanisms, including the nisms. In addition to their knowledge on corporate governance
+market for corporate control, ownership structure, executive theory, they will be able to critically discuss the empirical evi-
+compensation, and the role of the board of directors. Special em- dence on the importance and effectiveness of various corporate
+phasis will be on the valuation effect of corporate governance governance mechanisms.
+and the question whether some corporate governance mecha-
+nisms are superior to others. Prerequisites for participation
+Necessary: –
+Recommended: Knowledge in business economics (Module BE
+510, BE 511 or equivalent courses) and econometrics (Module CC
+502, CC 503 or equivalent courses) is highly recommended. Intro-
+ductory course in corporate finance on the level of Brealey, Myers
+and Allen, Corporate Finance, (McGraw-Hill, 10th edition, 2010) is
+also strongly recommended.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Exercise class 1 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Alexandra Niessen-Ruenzi
+Performing lecturer Prof. Dr. Alexandra Niessen-Ruenzi
+Frequency of offering Fall semester
+Duration of module 1 semester
+80Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+81Module: FIN 640 Corporate Finance II (Mergers, EN
+Acquisitions and Divestitures)
+Contents Learning outcomes
+The topic of this course is the restructuring of corporations After completing this course, students will be able to develop
+through mergers, acquisitions and divestitures. The purpose of and evaluate strategic rationales for M&A transactions and their
+the lecture is to provide an understanding of restructuring pro- structure. They will be able to build valuation models using real
+cesses and to provide an analytic framework to analyze the moti- world data and evaluate whether a particular transaction makes
+vation of these activities and their individual merits. A special fo- sense from an economic perspective. Students will be able to im-
+cus will be on the economic analysis of corporate strategy and plement valuation models using Microsoft Excel, to understand
+the contractual structures of various types of transactions. We the legal and institutional context of M&A transactions, to inter-
+will also discuss valuation and cost of capital in an international pret scientific studies and make appropriate inferences from
+context. The lecture will frequently draw on empirical studies, es- them for the M&A process.
+pecially on event studies. Participants will be required to solve
+several case studies in groups of up to three students. Prerequisites for participation
+Necessary: Module FIN 540
+Recommended: The course builds on the valuation techniques
+discussed in CF I (DCF, residual income and multiples valuation)
+and assumes that students already manage the material in
+Brealey, Myers, Allen, Corporate Finance, (McGraw-Hill, 10th edi-
+tion, 2010), chapters 1-19, and in Berk and DeMarzo, Corporate
+Finance, (Pearson, 2nd edition, 2009) chapters 2, 9, 12, 14, 17-19,
+23.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 12 SWS
+Case Study Presentation 1 SWS 14 SWS
+ECTS credits 8
+Graded yes
+Workload 240h
+Language English
+Form of assessment Final exam (60 min, 70%), case write-ups (20%), oral participation in case
+discussions (10%)
+Restricted admission yes
+Further information –
+Examiner Prof. Ernst Maug, Ph.D.
+Performing lecturer Dr. Luisa Langer
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+82Preliminary course work –
+Program-specific Competency Goals CG 1
+83Module: FIN 661 Responsible Leadership for Honors DE
+Program Students
+Contents Learning outcomes
+This course, which is open to students in the Honors Program, After taking this course, students have started to develop a per-
+helps participants develop a deeper understanding of their per- sonal framework that captures their personal responsibility as a
+sonal responsibility as a leader of tomorrow. What contribution business leader of tomorrow. Students will acquire a deeper un-
+am I making to society as a business leader of tomorrow? How derstanding about the relationship between personal responsi-
+can I put my talents and abilities as a business student to good bility, responsibility as a business leader, and responsibility for
+use? This course is designed to help answer these central eco- society. Students will have acquired insights from business lead-
+nomic questions of our time through exchanges with business ers, business professors and others into what it actually means to
+leaders who already bear leadership responsibility, through cre- lead responsibly. After taking this course, students will have en-
+ative interdisciplinary impulses, and via classroom teaching ses- hanced their ability to analyze and evaluate the impact of man-
+sions. agerial decisions on society.
+Prerequisites for participation
+Necessary: Students must be admitted in to the Honors Pro-
+gram.
+Recommended: –
+Forms of teaching and learning Contact hours Independent study time
+Lecture 3 SWS 8 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language German
+Form of assessment Written Assignment (100%)
+Restricted admission yes
+Further information Via e-mail to the contact person of the Honors Program.
+Examiner Prof. Dr. Oliver Spalt
+Performing lecturer Prof. Dr. Spalt
+Frequency of offering Fall semester
+Range of application M.Sc. MMM
+Preliminary course work –
+Program-specific Competency Goals CG 2, CG 3
+84Module: FIN 682 International Asset Management - EN
+Modern Investment Management, Responsible Investing
+and Fintech
+Contents Learning outcomes
+The core of this course deals with asset management for private After the completion of this course, students will have gained a
+investors in an international context. We will cover the structure thorough understanding of the mutual fund industry. They will
+of the delegated investment markets around the world with a fo- be familiar with the necessary tools to manage a mutual fund
+cus on the U.S. and Europe. The focus will be on traditional mutu- themselves, advise mutual fund investors, invest in mutual funds,
+al funds and related products. Besides the classical asset man- and to work in the management of a mutual fund company.
+agement theory, this course will place a great weight on the
+practical implementation of portfolio strategies and the prob- Prerequisites for participation
+lems that can arise. We will learn how to measure the perfor- Necessary: –
+mance of investment strategies and of fund managers. Further- Recommended: A working knowledge of basic mathematics
+more, behavioral aspects (irrational behavior of mutual fund in- (analysis and optimization) and statistics (expected values, vari-
+vestors and managers) will be discussed. Finally, we discuss re- ances, covariances) as well as a sound understanding of portfolio
+cent trends in asset management, e.g. responsible investing theory (level of FIN 500, which we urgently suggest students to
+(ESG) as well as crypto currencies and Decentralized Finance (De- take before this course) is required.
+Fi).
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Exercise class 1 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Stefan Ruenzi
+Performing lecturer Dr. Tatjana Puhan
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+85Module: FIN 684 Financial Institutions II EN
+no offering in spring 2025
+Contents Students will also learn how non-bank financial institutions im-
+This course provides an in-depth look at financial institutions and pact asset prices and financial market outcomes. Finally, students
+the role they play for financial markets today. The course will ad- will learn about current approaches and proposals for regulating
+dress questions such as: Which financial institutions exist? Why financial institutions.
+do they exist? What risks do they face? How do they manage
+those risks? How does the behavior of financial institutions im- Prerequisites for participation
+pact financial markets and asset prices? How does their behavior Necessary: –
+impact the economy at large? How should we regulate financial Recommended: Every student participating in this course
+institutions? The course Financial Institutions II will put emphasis should have completed the equivalent of the 2-semester finance
+on important non-bank financial institutions (e.g., pension funds, module, which is part of the Mannheim Bachelor program. The
+mutual funds, hedge funds etc.). lectures generally assume basic knowledge in accounting (bal-
+ance sheets, income statements, financial ratios), finance (pre-
+Learning outcomes sent value methods, portfolio theory, CAPM), mathematics (cal-
+After completing this course, students will have a thorough un- culus, optimization) and statistics (mean, variance, standard devi-
+derstanding of the economic reasons for the existence of non- ation, univariate and multivariate regressions). It is strongly rec-
+bank financial institutions. Students will understand the eco-sys- ommended that students take the course Financial Institutions I
+tem of non-bank financial institutions and their role in the global (FIN 590) before taking Financial Institutions II (FIN 684).
+financial markets. Students will gain knowledge about what risks
+managers in non-bank financial institutions face and how they
+manage those risks.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Oliver Spalt
+Performing lecturer Prof. Dr. Oliver Spalt
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+86Program-specific Competency Goals CG 1
+87Module: FIN 686 Sustainable Finance and Impact EN
+Investing
+no offering in spring 2025
+Contents Learning outcomes
+This course provides an in-depth look into selected topics in sus- After completing this course, students will have a thorough un-
+tainable finance. The course will be offered in three blocked all- derstanding of some of the key features of sustainable finance
+day sessions. The first two sessions will provide an overview of re- from an institutional investor perspective and in particular, im-
+cent academic approaches to thinking about sustainable finance, pact investing. Students acquire tools to analyze sustainable in-
+as well as an introduction to the market for, ecosystem of, and vestment opportunities and to set up sustainable investment
+central themes concerning sustainable finance. A core focus of funds. Students will have analyzed, prepared a report on, and
+this course will be on sustainable finance issues from the per- presented results on a (hypothetical) impact investment fund in-
+spective of institutional investors, and, in particular, on impact in- cluding some of the aspects of fund documentation.
+vesting. Students will be tasked with a graded group assignment
+that provides the opportunity to translate the knowledge ac- Prerequisites for participation
+quired in the first two sessions into practice by analyzing sustain- Necessary: At least one MMM finance course: FIN 5XX
+able investment projects and by structuring a (hypothetical) fund Recommended: –
+that can be marketed to institutional investors. Groups will pre-
+sent and discuss their results in the final session.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Write up and presentation of group assignment (55% ), class participation
+(45%)
+Restricted admission yes
+Further information Class size: max. 25 students
+Examiner Prof. Dr. Oliver Spalt
+Performing lecturer Martin Ewald
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+Preliminary course work –
+Program-specific Competency Goals CG 3
+88Module: FIN 687 Python in Finance EN
+Contents Learning outcomes
+This course equips students with the basics in Python to pursue After the course, students should be able to start working inde-
+quantitative seminar and Master's theses in finance. pendently on quantitative topics in the field of finance using the
+After the programming fundamentals, data handling, visualiza- programming language Python. Students also acquire knowl-
+tion and analysis is discussed, as well as accessing and working edge about data acquisition, transformation, visualization, and
+with data sources typically used in the finance literature. This in- analysis, including regressions and machine learning techniques.
+cludes the fundamentals of web scraping, machine learning and
+working with large datasets. The course concludes with a case Prerequisites for participation
+study, where the acquired skills are put into practice to address a Necessary: –
+financial research question. Recommended: The number of participants is limited. We will
+Practical applications are given precedence over theoretical pro- prioritize students who are writing an empirical seminar thesis in
+gramming concepts. While the course is also suitable for stu- the Finance Area in the semester in the allocation procedure.
+dents from other fields, the practical examples are drawn from
+the finance literature.
+Forms of teaching and learning Contact hours Independent study time
+Lecture with integrated exercise 4 SWS 2 SWS
+ECTS credits 2
+Graded yes
+Workload 60h
+Language English
+Form of assessment Take home exam (pass/fail). Note that there is only one exam date per
+semester. A second attempt is only possible in the respective following
+semester.
+Restricted admission yes
+Further information https://www.bwl.uni-mannheim.de/en/ruenzi/teaching/master-
+courses/fin-687-python-in-finance
+Examiner Prof. Dr. Stefan Ruenzi
+Performing lecturer Sven Vahlpahl
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+89Module: FIN 703 Seminar in Financial Markets DE EN
+Contents Learning outcomes
+The seminar covers specific issues relating to financial markets in Students learn how to write a research paper. The seminar is thus
+depth. The seminar is organized as a block seminar. Prior to the an important prerequisite for the master thesis. During the semi-
+seminar students have to write a seminar paper on a particular nar the students will also train their presentation and discussion
+topic. This paper has to be presented during the seminar. Stu- skills.
+dents are also expected to actively participate in the discussion
+during the seminar. Prerequisites for participation
+Necessary: Participants must have successfully completed at
+least one core course (FIN 5XX) from the Finance area.
+Recommended: Participation in the seminar requires a sound
+background in finance, a good command of English and of basic
+statistical and econometric techniques. Students are expected to
+be able to read and understand current research papers.
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language German, English
+Form of assessment Seminar paper (2/3, scope depends on the assigned topic), Presentation
+and discussion (1/3)
+Restricted admission yes
+Further information Website of the Chair
+Examiner Prof. Dr. Erik Theissen
+Performing lecturer Prof. Dr. Erik Theissen
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 4
+90Module: FIN 731 Seminar Corporate Governance EN
+Contents Learning outcomes
+In this course specific topics from the fields of "Corporate Gover- Students will learn how to independently work on a research pa-
+nance", "Asset Management", "Sustainable Finance", and "Gender per. Thus, the seminar paper also serves as preparation for a Mas-
+Finance" will be dealt with in depth. Students will have to work ter's thesis. Furthermore, students learn how to present research
+on the main topic of the seminar in some detail and write a term results and how to contribute to scientific discussions.
+paper on a specific sub-topic that will be allocated to them. In
+the seminar, students will present their own paper, discuss other Prerequisites for participation
+students' papers, and participate actively in the classroom discus- Necessary: Participants must have successfully completed at
+sions. least one core course (FIN 5XX) from the Finance area.
+Recommended: Basic knowledge of statistics and econometrics
+is assumed and participants should be motivated to undertake
+empirical work. We recommend that participating students have
+taken the module CC 502 (Applied Econometrics).
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Seminar paper (2/3, scope depends on the assigned topic), presentation
+(1/3)
+Restricted admission yes
+Further information http://niessen.bwl.uni-mannheim.de/en/lehre3/fin_xxx_seminar/
+Examiner Prof. Dr. Alexandra Niessen-Ruenzi
+Performing lecturer Prof. Dr. Alexandra Niessen-Ruenzi
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 4
+91Module: FIN 740 Corporate Finance Seminar EN
+no offering in spring 2025
+Contents Learning outcomes
+The purpose of this seminar is to prepare students for an empiri- At the end of the course, students will be familiar with the statis-
+cal master thesis in the field of Corporate Finance. Students will tics software Stata and have learned to use commercial finance
+replicate a published empirical research paper in corporate fi- databases such as Worldscope, Datastream, CRSP, Amadeus, or
+nance, extend it, e.g., by refining the analysis or extending the Zephyr. In addition, they will have gained access to state-of-the-
+data set, and present their results. Students will get acquainted art methods and current topics in empirical Corporate Finance.
+with a range of research topics in empirical corporate finance
+and study one topic in depth. In the process, they will learn a Prerequisites for participation
+range of econometric methodologies that are applied in research Necessary: Participants must have successfully completed one
+in empirical corporate finance. core course (FIN 5XX) from the Finance area.
+Recommended: We recommend that students take CC 502 to
+obtain basic knowledge of statistics and econometrics. If places
+are scarce, preference will be given to students who also have
+completed Corporate Finance I (cases, FIN 541) or Corporate Fi-
+nance II (FIN 640), or both.
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Participation (15%), oral presentation (15%), seminar paper (70%, scope
+depends on the assigned topic)
+Restricted admission yes
+Further information Website of the Chair
+Examiner Prof. Ernst Maug, Ph.D.
+Performing lecturer Prof. Ernst Maug, Ph.D.
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 4
+92Module: FIN 780 Seminar in Asset Management & EN
+International Finance
+Contents Learning outcomes
+In this course specific topics from the fields of „Asset Manage- Students will learn how to independently work on a research pa-
+ment“, „International Finance“ or other areas of finance (see also per. Thus, the seminar paper also serves as preparation for a Mas-
+the specific announcements) will be dealt with in depth. Stu- ter’s thesis. Furthermore, students learn how to present research
+dents will have to work on the main topic of the seminar in some results and how to contribute to scientific discussions.
+detail and write a term paper on a specific sub topic that will be
+allocated to them. Besides, the students will present their own Prerequisites for participation
+paper, discuss another student’s paper and participate actively in Necessary: At least one FIN 5XX Module
+the classroom sessions. Recommended: Further prerequisites will be announced by the
+Chair of International Finance before the start of the respective
+seminar during the topics' presentation.
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Paper (50%, scope depends on the assigned topic), presentation (25%),
+discussion of other students' papers (15%), oral participation (10%)
+Restricted admission yes
+Further information It is necessary to apply for the seminar. Further information will be
+published on the Department’s internet site.
+Examiner Prof. Dr. Stefan Ruenzi
+Performing lecturer Prof. Dr. Stefan Ruenzi
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 4
+93Module: FIN 790 Seminar in Financial Markets and EN
+Financial Institutions
+no offering in fall 2024/2025
+Contents Learning outcomes
+The seminar covers specific issues relating to financial markets Students learn how to write a research paper. The seminar is thus
+and financial institutions in depth. The seminar is organized as a an important prerequisite for the master thesis. During the semi-
+block seminar. Prior to the seminar students have to write a semi- nar the students will also train their presentation and discussion
+nar paper on a particular topic. This paper has to be presented skills.
+during the seminar. Students are also expected to actively partic-
+ipate in the discussion during the seminar. Prerequisites for participation
+Necessary: At least one MMM finance course: FIN 5XX
+Recommended: Participation in the seminar requires a sound
+background in finance, a good command of English and of basic
+statistical and econometric techniques. Students are expected to
+be able to read and understand current research papers and they
+are expected to be willing to conduct empirical research.
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Seminar paper (2/3), Presentation and discussion (1/3)
+Restricted admission yes
+Further information Participation in the seminar is limited. Information on how to apply is
+published on the homepage of the chair.
+Examiner Prof. Dr. Oliver Spalt
+Performing lecturer Prof. Dr. Oliver Spalt
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 4
+94

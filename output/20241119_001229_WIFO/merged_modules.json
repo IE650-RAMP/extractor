@@ -1,0 +1,1801 @@
+{
+    "modules": [
+        {
+            "name": "machine_learning",
+            "id": "IE_675b",
+            "ects": 9,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 174,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "K.P. Murphy. Probabilistic Machine Learning: An Introduction. The MIT Press, 2022",
+                "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT Press, 2017",
+                "Additional material and articles provided in lecture notes"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Rainer Gemulla",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Rainer Gemulla",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [
+                "IE_500"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Knowledge of probability and statistics, no attempted or completed IE 675 exam",
+            "furtherModules": []
+        },
+        {
+            "name": "deep_learning",
+            "id": "IE_678",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 98,
+            "offeredIn": [],
+            "recommendedSemester": [
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "I. Drori. The Science of Deep Learning. Cambridge University Press, 2023",
+                "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT Press, 2017",
+                "K.P. Murphy. Probabilistic Machine Learning: An Introduction. The MIT Press, 2022",
+                "K.P. Murphy. Probabilistic Machine Learning: Advanced Topics. The MIT Press, 2023",
+                "Additional material and articles provided in lecture notes"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Rainer Gemulla",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Rainer Gemulla",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ORAL"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 25,
+            "requiredPrerequisiteModules": [
+                "IE_675b"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "No attempted or completed IE 674 exam",
+            "furtherModules": []
+        },
+        {
+            "name": "advanced_process_mining",
+            "id": "IE_692",
+            "ects": 6,
+            "workloadInPerson": 150,
+            "workloadSelfStudy": 0,
+            "offeredIn": [],
+            "recommendedSemester": [
+                2
+            ],
+            "recommendedLiterature": [
+                "Wil van der Aalst: Process Mining: Data Science in Action, 2nd edition (Recommended)",
+                "Josep Carmona et al. Conformance checking, 1st edition (Recommended)",
+                "Additional academic papers suggested per lecture"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Rehse",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Rehse",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": "80/20",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Familiar with the use of Petri nets and BPMN for process modeling; Basic programming in Python; IS 515 or experience with process mining is not required",
+            "furtherModules": []
+        },
+        {
+            "name": "web_data_integration_project",
+            "id": "IE_683",
+            "ects": 3,
+            "workloadInPerson": 28,
+            "workloadSelfStudy": 56,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "AnHai Doan, Alon Halevy, Zachary Ives: Principles of Data Integration. Morgan Kaufmann, 2012",
+                "Luna Dong, Divesh Srivastava: Big Data Integration. Morgan & Claypool, 2015",
+                "Ulf Leser, Felix Naumann: Informationsintegration. Dpunkt Verlag, 2007"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Christian Bizer",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Christian Bizer",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "70/30",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "IE_671"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Programming skills in Java",
+            "furtherModules": []
+        },
+        {
+            "name": "web_mining_project",
+            "id": "IE_684",
+            "ects": 3,
+            "workloadInPerson": 28,
+            "workloadSelfStudy": 56,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "Bing Liu: Web Data Mining. 2nd Edition, Springer, 2011",
+                "Wouter de Nooy, et al.: Exploratory Social Network Analysis with Pajek. 2nd Edition, Cambridge University Press, 2011",
+                "Bing Liu. Sentiment Analysis and Opinion Mining, Morgan & Claypool Publishers, 2012"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Christian Bizer",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Christian Bizer",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "IE_671"
+            ],
+            "additionalPrerequisite": "Programming skills in Java or Python",
+            "furtherModules": []
+        },
+        {
+            "name": "large_language_models_and_agents",
+            "id": "IE_686",
+            "ects": 3,
+            "workloadInPerson": 28,
+            "workloadSelfStudy": 56,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "Zhou et al.: A Comprehensive Survey on Pretrained Foundation Models: A History from BERT to ChatGPT. 2023.",
+                "Zhao et al.: A Survey of Large Language Models. 2024.",
+                "Wang et al.: A Survey on Large Language Model based Autonomous Agents. 2024."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Christian Bizer",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Christian Bizer",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Programming skills in Python; Basic machine learning concepts and techniques",
+            "furtherModules": []
+        },
+        {
+            "name": "information_retrieval_project",
+            "id": "IE_691",
+            "ects": 3,
+            "workloadInPerson": 28,
+            "workloadSelfStudy": 60,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "Christopher D. Manning, Prabhakar Raghavan and Hinrich Sch\u00fctze, Introduction to Information Retrieval, Cambridge University Press. 2008.",
+                "B. Croft, D. Metzler, T. Strohman, Search Engines: Information Retrieval in Practice, Addison-Wesley, 2009.",
+                "R. Baeza-Yates, B. Ribeiro-Neto, Modern Information Retrieval, Addison-Wesley, 2011."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Simone Ponzetto",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Simone Ponzetto",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "70/30",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "IE_663"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Programming skills in one of the higher-level programming languages: Java/Python/C#/C++.",
+            "furtherModules": []
+        },
+        {
+            "name": "ai_applications_in_industry",
+            "id": "IE_694",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 124,
+            "offeredIn": [],
+            "recommendedSemester": [
+                2,
+                3,
+                4
+            ],
+            "recommendedLiterature": [
+                "Various Scientific Publications \u2013 details in the lecture slides"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Heiner Stuckenschmidt",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Heiner Stuckenschmidt",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Machine Learning Concepts and Techniques; Programming in Python",
+            "furtherModules": []
+        },
+        {
+            "name": "advanced_methods_in_text_analytics",
+            "id": "IE_696",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 112,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "Dan Jurafsky and James H. Martin, Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition (3rd edition, online available at https://web.stanford.edu/~jurafsky/slp3/)"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Simone Paolo Ponzetto",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Simone Paolo Ponzetto",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [
+                "IE_661",
+                "IE_675b",
+                "IE_678"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Fundamental notions of linear algebra and probability theory.",
+            "furtherModules": []
+        },
+        {
+            "name": "foundations_and_applications_of_digital_health_technologies",
+            "id": "IE_698",
+            "ects": 3,
+            "workloadInPerson": 28,
+            "workloadSelfStudy": 56,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "recommendedLiterature": [
+                "Fagherazzi, G. Deep Digital Phenotyping and Digital Twins for Precision Health: Time to Dig Deeper. Journal of Medical Internet Research 22, e16770 (2020).",
+                "Hahn, H. & Schreiber, A. E-Health. in Digital Transformation (ed. Neugebauer, R.) 311\u2013334 (Springer Berlin Heidelberg, 2019).",
+                "Budd, J. et al. Digital technologies in the public-health response to COVID-19. Nat Med 26, 1183\u20131192 (2020).",
+                "Voeneky, S., P. Kellmeyer, O. Mueller, and W. Burgard, ed. 2022. The Cambridge Handbook of Responsible Artificial Intelligence: Interdisciplinary Perspectives. Cambridge Law Handbooks."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Philipp Kellmeyer",
+                    "title": "Jun.Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Philipp Kellmeyer",
+                    "title": "Jun.Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 45,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge about AI systems (knowledge-based systems, machine learning, deep neural networks)",
+            "furtherModules": []
+        },
+        {
+            "name": "co_creating_digital_health_applications_with_design_methodology",
+            "id": "IE_699",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 112,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "recommendedLiterature": [
+                "Fagherazzi, G. Deep Digital Phenotyping and Digital Twins for Precision Health: Time to Dig Deeper. Journal of Medical Internet Research 22, e16770 (2020).",
+                "Hahn, H. & Schreiber, A. E-Health. in Digital Transformation (ed. Neugebauer, R.) 311\u2013334 (Springer Berlin Heidelberg, 2019).",
+                "Budd, J. et al. Digital technologies in the public-health response to COVID-19. Nat Med 26, 1183\u20131192 (2020).",
+                "Voeneky, S., P. Kellmeyer, O. Mueller, and W. Burgard, ed. 2022. The Cambridge Handbook of Responsible Artificial Intelligence: Interdisciplinary Perspectives. Cambridge Law Handbooks."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Philipp Kellmeyer",
+                    "title": "Jun.Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Philipp Kellmeyer",
+                    "title": "Jun.Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "PRESENTATION"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 20,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge about AI systems (knowledge-based systems, machine learning, deep neural networks)",
+            "furtherModules": []
+        },
+        {
+            "name": "model_driven_development",
+            "id": "cs_600",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 112,
+            "offeredIn": [],
+            "recommendedSemester": [
+                2,
+                3,
+                4
+            ],
+            "recommendedLiterature": [
+                "Jos B. Warmer and Anneke G. Kleppe, The Object Constraint Language: Getting Your Models Ready for MDA, Addison-Wesley Object Technology Series, 2003"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Colin Atkinson",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Colin Atkinson",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [
+                "CS_404"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Software Testing and Experimentation",
+            "furtherModules": []
+        },
+        {
+            "name": "higher_level_computer_vision",
+            "id": "cs_646",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 98,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "Goodfellow et al.: Deep Learning, MIT Press, 2016.",
+                "R. Szeliski: Computer Vision Algorithms and Applications, Springer, 2010.",
+                "D. Forsyth, J. Ponce: Computer Vision: A Modern Approach, Prentice Hall, 2nd edition, 2012.",
+                "R. Hartley, A. Zisserman: Multiple View Geometry in Computer Vision, Cambridge University Press, 2nd edition, 2004."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Margret Keuper",
+                    "title": "Prof. Dr.-Ing.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Margret Keuper",
+                    "title": "Prof. Dr.-Ing.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN",
+                "ORAL"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basis skills in linear algebra, basis knowledge in python and pytorch",
+            "furtherModules": [
+                "Image Processing"
+            ]
+        },
+        {
+            "name": "image_processing",
+            "id": "cs_647",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 98,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "R. Szeliski: Computer Vision Algorithms and Applications, Springer, 2010.",
+                "D. Forsyth, J. Ponce: Computer Vision: A Modern Approach, Prentice Hall, 2nd edition, 2012."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Margret Keuper",
+                    "title": "Prof. Dr.-Ing.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Margret Keuper",
+                    "title": "Prof. Dr.-Ing.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN",
+                "ORAL"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basis skills in linear algebra, basis knowledge in python",
+            "furtherModules": [
+                "Higher Level Computer Vision"
+            ]
+        },
+        {
+            "name": "cryptography_ii",
+            "id": "cs_651",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 112,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "Jonathan Katz, Yehuda Lindell: Introduction to Modern Cryptography: Principles and Protocols, Chapman and Hall/CRC, 2007."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Frederik Armknecht",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Frederik Armknecht",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ORAL"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 30,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "CS_404"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "cryptography",
+            "id": "cs_655",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 98,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "Christof Paar, Bart Preneel, Jan Pelzl: Understanding Cryptography: A Textbook for Students and Practitioners, Springer 2009",
+                "Douglas R. Stinson: Cryptography - Theory and Practice, Taylor & Francis, 2005",
+                "Alan G. Konheim: Cryptography: A Primer, John Wiley & Sons, 1981"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Matthias Krause",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Matthias Krause",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ORAL"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basis skills in linear algebra, probability theory, algorithms and data structures",
+            "furtherModules": [
+                "Cryptography II"
+            ]
+        },
+        {
+            "name": "types_and_programming_languages",
+            "id": "cs_662",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 112,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "Types and Programming Languages. February 2002. Benjamin C. Pierce. The MIT Press. ISBN: 978-0-262-16209-8"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Roland Lei\u00dfa",
+                    "title": "Junior Professor",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Roland Lei\u00dfa",
+                    "title": "Junior Professor",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "blockchain_security",
+            "id": "cs_664",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 112,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "Will be announced in the lecture"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Frederik Armknecht",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Frederik Armknecht",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Knowledge in cryptography and/or IT-security is recommended",
+            "furtherModules": []
+        },
+        {
+            "name": "generative_computer_vision_models",
+            "id": "cs_668",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 98,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "Ian Goodfellow and Yoshua Bengio and Aaron Courville, Deep Learning, An MIT press book, 2016."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Margret Keuper",
+                    "title": "Prof. Dr.-Ing.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Margret Keuper",
+                    "title": "Prof. Dr.-Ing.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN",
+                "ORAL"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basis skills in linear algebra, basis knowledge in python/pytorch",
+            "furtherModules": [
+                "Higher Level Computer Vision"
+            ]
+        },
+        {
+            "name": "generative_software_engineering",
+            "id": "cs_630",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 112,
+            "offeredIn": [],
+            "recommendedSemester": [
+                2,
+                3,
+                4
+            ],
+            "recommendedLiterature": [
+                "Sommerville, Ian. \"Software engineering (10th ed.).\", Pearson Education Inc., 2018."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Colin Atkinson",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Marcus Kessel",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Colin Atkinson",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Software Testing and Experimentation; Knowledge of Java and/or Python",
+            "furtherModules": []
+        },
+        {
+            "name": "query_optimization",
+            "id": "ie_630",
+            "ects": 6,
+            "workloadInPerson": 28,
+            "workloadSelfStudy": 56,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "Script"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Moerkotte",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Moerkotte",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "assessmentForms": [
+                "ORAL"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 30,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "DBSI, Kombinatorik, Statistik",
+            "furtherModules": []
+        },
+        {
+            "name": "information_retrieval_and_web_search",
+            "id": "ie_663",
+            "ects": 3,
+            "workloadInPerson": 28,
+            "workloadSelfStudy": 60,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "Christopher D. Manning, Prabhakar Raghavan and Hinrich Sch\u00fctze, Introduction to Information Retrieval, Cambridge University Press. 2008.",
+                "B. Croft, D. Metzler, T. Strohman, Search Engines: Information Retrieval in Practice, Addison-Wesley, 2009.",
+                "R. Baeza-Yates, B. Ribeiro-Neto, Modern Information Retrieval, Addison-Wesley, 2011 (2nd Edition)."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Simone Ponzetto",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Simone Ponzetto",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "web_data_integration",
+            "id": "ie_670",
+            "ects": 3,
+            "workloadInPerson": 28,
+            "workloadSelfStudy": 56,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "AnHai Doan, Alon Halevy, Zachary Ives: Principles of Data Integration. Morgan Kaufmann, 2012.",
+                "Luna Dong, Divesh Srivastava: Big Data Integration. Morgan & Claypool, 2015.",
+                "Ulf Leser, Felix Naumann: Informationsintegration. Dpunkt Verlag, 2007."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Christian Bizer",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Christian Bizer",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "web_mining",
+            "id": "ie_671",
+            "ects": 3,
+            "workloadInPerson": 28,
+            "workloadSelfStudy": 56,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "Bing Liu: Web Data Mining. 2nd Edition, Springer, 2011.",
+                "Wouter de Nooy, et al.: Exploratory Social Network Analysis with Pajek. 2nd Edition, Cambridge University Press, 2011.",
+                "Bing Liu. Sentiment Analysis and Opinion Mining, Morgan & Claypool Publishers, 2012."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Christian Bizer",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Christian Bizer",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "IE_500"
+            ],
+            "additionalPrerequisite": "Fundamental notions of linear algebra and probability theory.",
+            "furtherModules": []
+        },
+        {
+            "name": "international_course",
+            "id": "BI_656",
+            "ects": 18,
+            "workloadInPerson": 0,
+            "workloadSelfStudy": 0,
+            "offeredIn": [],
+            "recommendedSemester": [
+                2,
+                3,
+                4
+            ],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Lecturer at the host university",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Lecturer at the host university",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "assessmentForms": [],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Depends on course taken abroad",
+            "furtherModules": []
+        },
+        {
+            "name": "reinforcement_learning_coding",
+            "id": "MAC_570",
+            "ects": 5,
+            "workloadInPerson": 28,
+            "workloadSelfStudy": 122,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "Original articles"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Leif D\u00f6ring",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Leif D\u00f6ring",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [
+                "76MAB_519"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "responsible_ai_foundations",
+            "id": "DS_203",
+            "ects": 6,
+            "workloadInPerson": 28,
+            "workloadSelfStudy": 76,
+            "offeredIn": [],
+            "recommendedSemester": [],
+            "recommendedLiterature": [
+                "Voeneky, S., P. Kellmeyer, O. Mueller, and W. Burgard, ed. 2022. The Cambridge Handbook of Responsible Artificial Intelligence: Interdisciplinary Perspectives.",
+                "Coeckelbergh, Mark. AI ethics. (2020). The MIT Press.",
+                "Heilinger, J.-C. (2022). The Ethics of AI Ethics. A Constructive Critique.",
+                "McLennan, S., Fiske, A., Tigard, D., M\u00fcller, R., Haddadin, S., & Buyx, A. (2022). Embedded ethics: A proposal for integrating ethics into the development of medical AI.",
+                "Schmitt, L. (2021). Mapping global AI governance: A nascent regime in a fragmented landscape."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Philipp Kellmeyer",
+                    "title": "JProf. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Philipp Kellmeyer",
+                    "title": "JProf. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge about AI systems",
+            "furtherModules": [
+                "Follow-up (block) seminar planned for summer semester 2024"
+            ]
+        },
+        {
+            "name": "advanced_software_engineering",
+            "id": "CS_500",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 112,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2
+            ],
+            "recommendedLiterature": [
+                "Paul Ammann & Jeff Offutt., 'Introduction to Software Testing', Cambridge University Press, January 2008."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Marcus Kessel",
+                    "title": "Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Colin Atkinson",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Colin Atkinson",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Knowledge of Java and/or Python",
+            "furtherModules": []
+        },
+        {
+            "name": "database_systems_ii",
+            "id": "CS_530",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 56,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2
+            ],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Moerkotte",
+                    "title": null,
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Moerkotte",
+                    "title": null,
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [
+                "PI2",
+                "DBSI"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Knowledge of C, C++",
+            "furtherModules": []
+        },
+        {
+            "name": "algorithmics",
+            "id": "CS_550",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 112,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2
+            ],
+            "recommendedLiterature": [
+                "Cormen, Leiserson, Rivest, Stein: Introduction to Algorithms, 3rd edition",
+                "Shimon Even: Graph Algorithms",
+                "Lovasz, Plummer: Matching Theory"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Matthias Krause",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Matthias Krause",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [
+                "Practical Informatics I",
+                "Algorithms and Data Structures",
+                "Linear Algebra",
+                "Statistics"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": [
+                "CS 651"
+            ]
+        },
+        {
+            "name": "large_scale_data_management",
+            "id": "CS_560",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 98,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2
+            ],
+            "recommendedLiterature": [
+                "T. \u00d6szu, P. Valduriez: Principles of Distributed Database Systems, 4th ed., 2020",
+                "H. Garcia-Molina, J. D. Ullman, J. Widom: Database Systems: The Complete Book, 2nd ed., 2008"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Rainer Gemulla",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Rainer Gemulla",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Very good knowledge of database systems, good knowledge of algorithms and data structures, Java programming.",
+            "furtherModules": []
+        },
+        {
+            "name": "data_security_and_privacy",
+            "id": "CS_652",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 112,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Frederik Armknecht",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Frederik Armknecht",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Knowledge in cryptography or IT-security is recommended.",
+            "furtherModules": []
+        },
+        {
+            "name": "data_mining",
+            "id": "IE_500",
+            "ects": 6,
+            "workloadInPerson": 56,
+            "workloadSelfStudy": 98,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2
+            ],
+            "recommendedLiterature": [
+                "Pang-Ning Tan, Michael Steinback, Vipin Kumar: Introduction to Data Mining, 2nd Edition, Pearson.",
+                "Aur\u00e9lien G\u00e9ron: Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow, 3rd Edition, O'Reilly."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Heiko Paulheim",
+                    "title": "Prof.",
+                    "hasName": true
+                },
+                {
+                    "name": "Christian Bizer",
+                    "title": "Prof.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Heiko Paulheim",
+                    "title": "Prof.",
+                    "hasName": true
+                },
+                {
+                    "name": "Christian Bizer",
+                    "title": "Prof.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN",
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "75/20/5",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [
+                "Foundations of Statistics",
+                "Practical Informatics I"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": [
+                "IE 675b",
+                "IE 678",
+                "IS 661",
+                "CS 646",
+                "IE 671"
+            ]
+        },
+        {
+            "name": "decision_support",
+            "id": "IE_560",
+            "ects": 6,
+            "workloadInPerson": 42,
+            "workloadSelfStudy": 138,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2
+            ],
+            "recommendedLiterature": [
+                "S. Russel and P. Norvig: AI a modern Approach (3rd Edition), 2010 (selected sections)"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Heiner Stuckenschmidt",
+                    "title": "Prof.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Heiner Stuckenschmidt",
+                    "title": "Prof.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [
+                "Basic Probability Theory",
+                "Basic Knowledge of Propositional and First-Order Logic"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "master_thesis",
+            "id": "ma_650",
+            "ects": 30,
+            "workloadInPerson": 0,
+            "workloadSelfStudy": 840,
+            "offeredIn": [],
+            "recommendedSemester": [
+                4
+            ],
+            "recommendedLiterature": [
+                "Topic dependent"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Professors of the Institute of Computer Science and Business Informatics",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Professors of the Area Information Systems of the Business School",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "The student is required to have obtained at least 60 ECTS credits in order to register for his or her master thesis",
+            "furtherModules": []
+        },
+        {
+            "name": "team_project",
+            "id": "tp_500",
+            "ects": 12,
+            "workloadInPerson": 28,
+            "workloadSelfStudy": 140,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "Depends on topic"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Professors of the Institute of Computer Science and Business Informatics",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "A professor of the Institute of Computer Science and Business Informatics",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 30,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Depends on topic",
+            "furtherModules": []
+        },
+        {
+            "name": "scientific_research",
+            "id": "sq_500",
+            "ects": 2,
+            "workloadInPerson": 12,
+            "workloadSelfStudy": 48,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "The craft of research / Wayne C. Booth; Gregory G. Colomb; Joseph M. Williams (Chicago guides to writing, editing, and publishing); 3. ed.; University of Chicago Press, 2008",
+                "LaTeX (Wikibook): http://en.wikibooks.org/wiki/LaTeX"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Lecturer from the University Library",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Lecturer from the University Library",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "assessmentForms": [
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 150,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "selected_topics_in_algorithmics_and_cryptography",
+            "id": "cs_701",
+            "ects": 4,
+            "workloadInPerson": 120,
+            "workloadSelfStudy": 0,
+            "offeredIn": [],
+            "recommendedSemester": [
+                3
+            ],
+            "recommendedLiterature": [
+                "Depends on the topic."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Matthias Krause, Alexander Moch",
+                    "title": null,
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Matthias Krause",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [
+                "cs_550",
+                "cs_651"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "master_seminar_artificial_intelligence",
+            "id": "cs_704",
+            "ects": 4,
+            "workloadInPerson": 120,
+            "workloadSelfStudy": 0,
+            "offeredIn": [],
+            "recommendedSemester": [
+                3
+            ],
+            "recommendedLiterature": [
+                "Depends on the topic."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Heiner Stuckenschmidt",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Heiner Stuckenschmidt",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Decision Support or Data Mining or Knowledge Management",
+            "furtherModules": []
+        },
+        {
+            "name": "hot_topics_in_machine_learning",
+            "id": "cs_707",
+            "ects": 4,
+            "workloadInPerson": 120,
+            "workloadSelfStudy": 0,
+            "offeredIn": [],
+            "recommendedSemester": [
+                3
+            ],
+            "recommendedLiterature": [
+                "Depends on the topic."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Rainer Gemulla",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Rainer Gemulla",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [
+                "Bachelor degree"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "seminar_software_engineering",
+            "id": "cs_708",
+            "ects": 4,
+            "workloadInPerson": 120,
+            "workloadSelfStudy": 0,
+            "offeredIn": [],
+            "recommendedSemester": [
+                1,
+                2,
+                3
+            ],
+            "recommendedLiterature": [
+                "Depends on the topic."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Member of the software engineering group",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Member of the software engineering group",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [
+                "Bachelor\u2019s degree"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "seminar_text_analytics",
+            "id": "cs_709",
+            "ects": 4,
+            "workloadInPerson": 120,
+            "workloadSelfStudy": 0,
+            "offeredIn": [],
+            "recommendedSemester": [
+                3
+            ],
+            "recommendedLiterature": [
+                "Depends on the topic."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Simone Paolo Ponzetto",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Simone Paolo Ponzetto",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [
+                "IS 661",
+                "IE 663"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "seminar_selected_topics_in_data_science",
+            "id": "cs_710",
+            "ects": 4,
+            "workloadInPerson": 120,
+            "workloadSelfStudy": 0,
+            "offeredIn": [],
+            "recommendedSemester": [
+                3
+            ],
+            "recommendedLiterature": [
+                "Depends on the topic."
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Heiko Paulheim",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Heiko Paulheim",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [
+                "Bachelor\u2019s degree"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        }
+    ]
+}

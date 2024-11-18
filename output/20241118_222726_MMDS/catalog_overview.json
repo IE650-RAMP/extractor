@@ -62,7 +62,7 @@
         { "name": "stochastic_calculus", "id": "MAA_519" },
         { "name": "mathematics_and_information", "id": "MAB_504" },
         { "name": "algebraische_statistik", "id": "MAB_508" },
-        { "name": "reinforcement_learning_ii", "id": "MAB_519" },
+        { "name": "reinforcement_learning", "id": "MAB_519" },
         { "name": "reinforcement_learning_ii", "id": "MAB_520" },
         { "name": "optimierung", "id": "MAC_404" },
         { "name": "nichtlineare_optimierung", "id": "MAC_507" },
@@ -74,7 +74,7 @@
       "name": "Responsible Data Science",
       "requiredEcts": [3, 7],
       "modules": [
-        { "name": "legal_and_ethical_aspects_of_privacy", "id": "N/A" },
+        { "name": "legal_and_ethical_aspects_of_privacy", "id": "HWS_3" },
         {
           "name": "ai_and_data_science_in_fiction_and_society",
           "id": "CS_718"
@@ -140,7 +140,7 @@
         { "name": "master_seminar_on_computer_vision", "id": "CS_717" },
         { "name": "uncertainty_estimation", "id": "CS_720" },
         { "name": "seminar_data_science_i", "id": "CS_721" },
-        { "name": "seminar_ethical_aspects_of_ai", "id": "CS_722" },
+        { "name": "seminar_ethical_aspects_of_al", "id": "CS_722" },
         { "name": "seminar_ai_systems_engineering", "id": "IE_704" },
         {
           "name": "seminar_on_process_and_management_analytics",

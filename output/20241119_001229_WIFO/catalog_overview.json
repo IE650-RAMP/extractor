@@ -1,0 +1,43 @@
+{
+  "name": "Business Informatics",
+  "hasDegree": ["MASTER_OF_SCIENCE"],
+  "studyArea": [
+    {
+      "name": "Fundamentals Computer Science",
+      "requiredEcts": [18],
+      "modules": [
+        { "name": "advanced_software_engineering", "id": "CS_500" },
+        { "name": "database_systems_ii", "id": "CS_530" },
+        { "name": "algorithmics", "id": "CS_550" },
+        { "name": "large_scale_data_management", "id": "CS_560" },
+        { "name": "data_security_and_privacy", "id": "CS_652" },
+        { "name": "data_mining", "id": "IE_500" },
+        { "name": "decision_support", "id": "IE_560" }
+      ]
+    },
+    {
+      "name": "Specialization Courses",
+      "requiredEcts": [36],
+      "modules": [
+        { "name": "model_driven_development", "id": "CS_600" },
+        { "name": "higher_level_computer_vision", "id": "CS_646" },
+        { "name": "image_processing", "id": "CS_647" },
+        { "name": "cryptography_ii", "id": "CS_651" },
+        { "name": "cryptography", "id": "CS_655" },
+        { "name": "types_and_programming_languages", "id": "CS_662" },
+        { "name": "blockchain_security", "id": "CS_664" },
+        { "name": "generative_computer_vision_models", "id": "CS_668" },
+        { "name": "generative_software_engineering", "id": "CS_630" }
+      ]
+    },
+    {
+      "name": "Projects and Seminars",
+      "requiredEcts": [18],
+      "modules": [
+        { "name": "team_project", "id": "TP_500" },
+        { "name": "scientific_research", "id": "SQ_500" }
+      ]
+    },
+    { "name": "Master's Thesis", "requiredEcts": [30], "modules": [] }
+  ]
+}

@@ -3,11 +3,12 @@ from datetime import datetime
 from pathlib import Path
 from baml_client.partial_types import ModuleCatalog, ModuleList, StudyProgrammOverview
 import pdfplumber
-from pathlib import Path
 import re
 import sys
 import requests
 from requests.auth import HTTPBasicAuth
+import json
+from tqdm import tqdm
 
 sys.path.append(os.path.abspath("./baml_client"))
 
@@ -19,7 +20,7 @@ dotenv.load_dotenv()
 reset_baml_env_vars(dict(os.environ))
 
 
-def process_pdf(splits, splits_modules, doc_path):
+def process_pdf(splits, splits_modules, doc_path, doc_name):
     """
     Processes a PDF document by splitting it into sections based on specified split points,
     and assigns a suffix to each section based on whether it pertains to modules or additional information.
@@ -29,6 +30,7 @@ def process_pdf(splits, splits_modules, doc_path):
         splits_modules (list of int): A list indicating whether each split section is about modules (1)
                                       or additional information (0).
         doc_path (str): The file path to the PDF document to be processed.
+        doc_name (str): A postfix used for the folder that the documents are saved to.
     Returns:
         None: The function writes the extracted text to files in an output folder,
               and then moves these files to a timestamped folder.
@@ -68,10 +70,16 @@ def process_pdf(splits, splits_modules, doc_path):
 
     # Move split files to timestamped folder
     timestamped_folder = output_folder / datetime.now().strftime("%Y%m%d_%H%M%S")
+    postfix = f"_{doc_name}"
+    timestamped_folder = output_folder / (
+        datetime.now().strftime("%Y%m%d_%H%M%S") + postfix
+    )
     timestamped_folder.mkdir(exist_ok=True)
 
     for file in output_folder.glob("split_*.txt"):
         file.rename(timestamped_folder / file.name)
+
+    return timestamped_folder
 
 
 def merge_additional_files(source_folder, merged_file_name="merged_additional.txt"):
@@ -146,29 +154,66 @@ def process_module_list(input_path):
     Args:
         input_path (str): The path to the input text file.
     """
-
     input_filename = os.path.basename(input_path)
     output_filename = f"{input_filename.split('.')[0]}_list.json"
     output_path = os.path.join(os.path.dirname(input_path), output_filename)
 
     with open(input_path, "r") as file:
         text = file.read()
+        if not text:
+            print(f"No text found in {input_path}")
+            return
 
-    module_list = client.b.ExtractModulesList(text)
+    try:
+        module_list = client.b.ExtractModulesList(text)
+    except Exception as e:
+        print(f"Error extracting module list from {input_path}: {e}")
+        return
 
     catalog_json = module_list.model_dump_json()
 
     with open(output_path, "w") as json_file:
         json_file.write(catalog_json)
 
+
 def parse_module_catalog(path):
-    with open(path, 'r') as json_file:
+    with open(path, "r") as json_file:
         catalog_json = json_file.read()
 
         return ModuleList.model_validate_json(catalog_json)
-    
+
+
 def parse_overview(path):
-    with open(path, 'r') as json_file:
+    with open(path, "r") as json_file:
         catalog_json = json_file.read()
 
         return StudyProgrammOverview.model_validate_json(catalog_json)
+
+
+def merge_json_files(folder):
+    merged_data = {"modules": []}
+
+    for file in os.listdir(folder):
+        if file.endswith("_list.json"):
+            file_path = os.path.join(folder, file)
+            with open(file_path, "r") as f:
+                data = json.load(f)
+                merged_data["modules"].extend(data.get("modules", []))
+
+    output_file = os.path.join(folder, "merged_modules.json")
+    with open(output_file, "w") as f:
+        json.dump(merged_data, f, indent=4)
+
+    print(f"Merged JSON file created at: {output_file}")
+
+
+def process_module_files(folder):
+    files = [f for f in os.listdir(folder) if f.endswith("_modules.txt")]
+    print(files)
+    for filename in tqdm(files, desc="Processing module files"):
+        file_path = os.path.join(folder, filename)
+        print(f"Now processing file: {file_path}")
+        try:
+            process_module_list(file_path)
+        except Exception as e:
+            print(f"Error processing file {file_path}: {e}")

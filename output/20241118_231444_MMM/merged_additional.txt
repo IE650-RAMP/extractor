@@ -1,0 +1,2465 @@
+Educating responsible
+leaders for tomorrow.
+MANNHEI
+M MASTER
+IN MANAG
+EMENT
+for the academic year 2024/2025
+last update: June 2024
+„Mannheim Master in
+Management“ (M.Sc.)
+University of MannheimPreface
+In Mannheim, we have been educating the elite of Germany’s business world for over 100 years. As
+a member of the Mannheim Master in Management program, you are part of a special network of
+ambitious, responsible, and talented individuals, that will accompany you throughout your studies
+and, subsequently, your career. As a leading Business School in Europe, we offer a customized, inter-
+national program that combines cutting-edge research and hands-on teaching – providing you with
+an excellent foundation for challenging tasks in leading positions. No matter if you pursue a career
+in Consulting, Business Analytics, Digital Business, CSR Management, Marketing, or as an En-
+trepreneur – the MMM is the stepping stone to reach your personal goals.
+Benefit from our strong partners in the business world and academia, learn from our renowned fac-
+ulty, become a part of the MMM-network and experience the Mannheim spirit!
+I am looking forward to welcoming you to Mannheim.
+Prof Dr Philipp Dörrenberg – Academic Director of the MMM
+2Table of contents
+Structure and Concept of the Program . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+List of abbreviations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+Module overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+1 Core Competences . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+2 Business Economics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+3 Business Administration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+3.1 Area Accounting and Taxation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+3.2 Area Finance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 64
+3.3 Area Information Systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 95
+3.4 Area Management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 128
+3.5 Area Marketing and Sales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 183
+3.6 Area Operations Management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 210
+4 Study Option Business Research . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 248
+5 Elective . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 250
+5.1 English and American Studies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 252
+5.2 German Studies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 256
+5.3 History . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 260
+5.4 Mathematics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 263
+5.5 Philosophy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 265
+5.6 Political Science . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 267
+5.7 Computer Science . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 269
+5.8 Psychology . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 270
+5.9 Romance Studies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 271
+5.10 Sociology . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 276
+5.11 Economics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 278
+5.12 Business Education . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 279
+35.13 Business Law . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 282
+6 Master's thesis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 291
+6.1 Area Accounting and Taxation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 292
+6.2 Area Finance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 293
+6.3 Area Information Systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 293
+6.4 Area Management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 294
+6.5 Area Marketing and Sales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 294
+6.6 Area Operations Management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 295
+6.7 Elective . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 295
+4Structure and Concept of the Program
+The "Mannheim Master in Management" (MMM) is a full-time study program designed for four
+semesters. It has a unique curriculum, which allows an individual and flexible design of one’s study
+plan.
+The six areas of the Business School of the University of Mannheim
+Accounting and Taxation
+Finance, Banking and Insurance
+Information Systems
+Management
+Marketing & Sales
+Operations Management
+offer together over 120 courses in Business Administration.
+In three mandatory core courses in Core Competences and two core courses in Business Economics,
+students acquire a profound scientific basis for the master's degree in Business Administration.
+Beyond that, students can choose from a wide range of elective courses in Business Administration.
+They can decide for themselves whether they want to specialize in one particular field of research or
+if they want to combine courses from different areas. The decision can be adjusted every semester
+anew, so that students can thus create their own individual academic profile.
+The study concept is completed by an optional integration of an Elective (e.g. psychology, history,
+business law or computer science). This enables students to develop an even more individual profile
+beyond the boundaries of their own discipline.
+According to the examination regulations, the MMM program thus comprises the following Subject
+Areas:
+Core Competences (16 ECTS credits, two mandatory (CC 501 and CC 504) and one mandatory
+elective course (CC 502 or CC 503))
+Business Economics (12 ECTS credits, two mandatory courses (BE 510 and BE 511))
+Business Administration (44-68 ECTS credits, to be freely selected from over 120 elective courses
+offered by the six areas of the Business School)
+Elective (0-24 ECTS credits, one out of 13 electives can be chosen)
+Master’s Thesis (24 ECTS credits)
+Besides the high flexibility in the choice of courses, the "Mannheim Master in Management" is also
+characterized by its international focus. Alongside the option of applying for a double degree pro-
+5gram, MMM students have the opportunity to spend a semester abroad during their master’s stud-
+ies. Outstanding students pursuing an academic career, can apply for the program option Business
+Research. Taking courses from the doctoral programs of the Center for Doctoral Studies in Business
+(CDSB) enables them to shorten the time to doctorate.
+The “Mannheim Master in Management” covers the following superordinated program-specific
+Competency Goals (CGs):
+Profound subject-specific knowledge – Participants will distinguish and apply the theoretical and
+conceptual foundations in pivotal business domains (CG 1).
+Professional managerial skills – Participants will be proficient team players, analytical decision-
+makers, and responsible, self-reliant professionals (CG 2).
+Social responsibility – Participants will be critical, reflective, and ethical decision-makers (CG 3).
+Enhanced scientific research capabilities – Participants will be highly skilled researchers and ana-
+lysts (CG 4).
+6List of abbreviations
+DE: Course is taught in German.
+EN: Course is taught in English.
+ECTS: ECTS (European Credit Transfer and Accumulation System) are credit points that specify the
+number of working hours dedicated to one course over one semester. 1 ECTS equals 30 hours (1,800
+minutes) of studying.
+Form of assessment: The statet form of assessment applies to the regular examination dates (first
+examination attempt).
+FSS: Spring semester
+HWS: Fall semester
+Necessary prerequisites: You must fulfil the necessary prerequisites to be admitted to the exam
+(this will be automatically checked when you register for the exam!). Please note that courses, that
+are a necessary prerequisite for another course, have to be passed successfully upon the exam regis-
+tration if not stated otherwise (“parallel attendance possible”).
+Program-specific Competency Goals (CG): Competency Goals specify the competences students
+will have obtained upon their graduation. You find the Competency Goals of the MMM program at
+the beginning of the module catalog. The Competency Goals are regularly assessed in the Assur-
+ance of Learning process.
+Recommended prerequisites: Prerequisites you should fulfil to help you pass a course successfully.
+They are simply a recommendation and are not being checked.
+Study programs that include some MMM-modules (for details see "range of application" of
+each module):
+M.Sc. MMM: Master of Science: Mannheim Master in Management
+M.Sc. Bus. Edu.: Master of Science: Business Education
+M.Sc. Econ.: Master of Science: Economics
+M.Sc. Bus. Inf.: Master of Science: Business Informatics
+M.Sc. Bus. Math.: Mater of Science: Mathematics in Business and Economics
+MAKUWI: Master of Arts: Culture and Economy
+MMDS: Master of Science: Mannheim Master in Data Science
+LL.M.: Master of Laws
+7SWS (weekly working hours): Number of hours you need to dedicate to the course per week
+("Semesterwochenstunden"). They are subdivided in “contact hours” (time you participate in lec-
+tures) and “independent study time” (time you need to prepare for lectures and assessments). 1 SWS
+equals 45 minutes.
+8Module overview
+1 Core Competences
+500 modules
+Code Module description ECTS Spring Fall
+CC 501 Decision Analysis: Business Analytics II 6 EN EN
+CC 502 Applied Econometrics 6 EN
+CC 503 Empirical Methods: Business Analytics I 6 EN EN
+CC 504 Corporate Social Responsibility 4 EN EN
+2 Business Economics
+500 modules
+Code Module description ECTS Spring Fall
+BE 510 Business Economics I 6 EN
+BE 511 Business Economics II 6 EN
+3 Business Administration
+3.1 Area Accounting and Taxation
+500 modules
+Code Module description ECTS Spring Fall
+ACC 510 Financial Accounting 8 DE
+ACC 520 IFRS Reporting and Capital Markets 8 EN
+ACC 530 Group Accounting 8 EN
+ACC 540 Financial Statement Analysis & Equity Valuation 8 EN
+ACC/MA Managerial Accounting - Evaluating Financial 8 EN
+N 560 and Non-Financial Performance
+ACC/TAX International Course – Accounting and Taxation EN EN
+550
+9ACC/TAX ESG Regulation and Sustainability Reporting 8 EN
+570
+TAX 520 Taxation of Companies 6 DE
+TAX 521 Specialisation in Company Taxation 4 DE
+TAX 530 Taxation of Businesses and Individuals 6 EN
+600 modules
+Code Module description ECTS Spring Fall
+ACC 620 Accounting for Financial Instruments and 6 EN
+Financial Institutions
+ACC 670 Audit Theory 6 EN
+ACC 676 Case Studies on Consulting in Financial Services 4 EN
+Firms
+ACC 680 Disclosure Theory 6 EN
+ACC/MA Corporate Sustainability Strategies and Value 4 EN
+N 660 Creation
+ACC/MA Corporate Sustainability Performance: 6 EN
+N 661 Measurement, Assessment and Improvement
+ACC/MA Private Equity: Due Diligence and Value Creation 6 EN
+N 662
+TAX 611 Case Studies in International Company Taxation 4 DE
+TAX 620 Causal Data Science for Business Decision 8 EN
+Making
+TAX 630 International Business Taxation 6 EN
+TAX 631 International Taxation of Multinational 4 DE
+Enterprises
+TAX 660 Tax Planning: The Role of Taxes for Business 6 EN
+Decisions
+TAX 661 Case Studies in International Tax Planning 4 EN
+10700 modules
+Code Module description ECTS Spring Fall
+ACC 750 Accounting Seminar 6 DE/EN DE/EN
+TAX 730 Seminar in Business Taxation 6 DE/EN DE/EN
+3.2 Area Finance
+500 modules
+Code Module description ECTS Spring Fall
+FIN 500 Investments 6 EN
+FIN 540 Corporate Finance I - Lecture (Capital Structure, 5 EN
+Cost of Capital and Valuation)
+FIN 541 Corporate Finance I - Case Study (Capital 5 EN
+Structure, Cost of Capital and Valuation)
+FIN 550 International Course – Banking, Finance and EN EN
+Insurance
+FIN 555 Financial Markets and Employees 3 EN
+FIN 580 Derivatives – Basic Strategies and Pricing 6 EN
+FIN 590 Financial Institutions I 4 EN
+600 modules
+Code Module description ECTS Spring Fall
+FIN 601 Bond Markets 6 EN
+FIN 602 Trading and Exchanges 6 EN
+FIN 603 Empirical Finance 10 EN
+FIN 604 Stata in Finance 2 EN EN
+FIN 606 FinTech 4 EN
+FIN 620 Behavioral Finance 6 EN
+FIN 630 Corporate Governance 6 EN
+11FIN 640 Corporate Finance II (Mergers, Acquisitions and 8 EN
+Divestitures)
+FIN 661 Responsible Leadership for Honors Program 4 DE
+Students
+FIN 682 International Asset Management - Modern 6 EN
+Investment Management, Responsible Investing
+and Fintech
+FIN 684 Financial Institutions II 4 EN
+FIN 686 Sustainable Finance and Impact Investing 6 EN
+FIN 687 Python in Finance 2 EN EN
+700 modules
+Code Module description ECTS Spring Fall
+FIN 703 Seminar in Financial Markets 6 DE/EN DE/EN
+FIN 731 Seminar Corporate Governance 6 EN
+FIN 740 Corporate Finance Seminar 6 EN
+FIN 780 Seminar in Asset Management & International 6 EN EN
+Finance
+FIN 790 Seminar in Financial Markets and Financial 6 EN EN
+Institutions
+3.3 Area Information Systems
+500 modules
+Code Module description ECTS Spring Fall
+IS 512 IT Management in the Digital Age 6 EN
+IS 513 Applied IT Management in the Digital Age 6 EN
+IS 515 Process Management & Analytics 6 EN
+IS 540 Management of Enterprise Systems 6 EN
+IS 541 Theories and Methods in Information Systems 6 EN
+IS 550 International Course – Information Systems EN EN
+12IS 556 Public Blockchains 6 EN
+IS 557 Introduction to Scientific Programming with 6 EN
+Python
+600 modules
+Code Module description ECTS Spring Fall
+IS 607 Digital Innovation 6 EN
+IS 613 Applied Project in Enterprise Cloud Design and 6 EN
+Development
+IS 614 Corporate Knowledge Management 6 EN
+IS 615 Enterprise Cloud Design and Development 6 EN
+IS 616 Large Scale Data Analysis and Visualization 6 EN
+IS 622 Network Science 6 EN
+IS 628 Advances in Public Blockchains 6 EN
+IS 629 Agile Software Product Management and 6 EN
+Design
+IS 635 Forschungsmethoden Data-Science 6 EN EN
+IS 661 Text Analytics 6 EN
+700 modules
+Code Module description ECTS Spring Fall
+IS 712 Seminar 6 EN EN
+IS 723 Seminar Data-Science II 6 EN EN
+IS 724 Seminar Current topics in Human-(X)AI 6 EN EN
+collaboration
+IS 742 Seminar Trends in Enterprise Systems 6 EN EN
+IS 752 Seminar on Process and Management Analytics 6 EN EN
+133.4 Area Management
+500 modules
+Code Module description ECTS Spring Fall
+ACC/MA Managerial Accounting - Evaluating Financial 8 EN
+N 560 and Non-Financial Performance
+MAN 521 Science Management 4 DE DE
+MAN 522 Responsibility in Management 4 DE DE
+MAN 550 International Course – Management EN EN
+600 modules
+Code Module description ECTS Spring Fall
+ACC/MA Corporate Sustainability Strategies and Value 4 EN
+N 660 Creation
+ACC/MA Corporate Sustainability Performance: 6 EN
+N 661 Measurement, Assessment and Improvement
+ACC/MA Private Equity: Due Diligence and Value Creation 6 EN
+N 662
+MAN 608 Business, Society, and the Environment 4 EN
+MAN 609 Strategic Management between Profit and 4 EN
+Purpose - Insights from Hybrid Organisations
+MAN 626 Entrepreneurship and Innovation - Enhancing 3 EN
+Access to Capital via Crowdfunding
+MAN 630 Introduction to Entrepreneurship 6 EN
+MAN 631 Creativity and Entrepreneurship in Practice 6 EN
+MAN 632 Advanced Entrepreneurship 6 EN
+MAN 634 Entrepreneurial Behavior and Crowdfunding 6 EN EN
+Social Ventures
+MAN 638 Employment Relations 4 EN
+MAN 639 TRANSFORM - Innovation & Entrepreneurship 6 EN
+for Sustainability
+14MAN 644 Human Resource Training and Development 6 EN
+MAN 645 Leadership and Motivation 6 EN
+MAN 646 HR Analytics 6 EN
+MAN 647 Strategic and International Human Resource 6 EN
+Management
+MAN 648 Incentives and Performance 6 EN
+MAN 649 Human Resource Recruitment and Selection 6 EN
+MAN 654 Corporate Restructuring 6 EN
+MAN 655 Corporate Strategy 4 EN
+MAN 656 Mergers & Acquisitions 6 EN
+MAN 659 Understanding and Tackling Societal Challenges 6 EN
+through Management Research
+MAN 665 Sustainability Management Simulation: Net Zero 2 EN EN
+MAN 668 Leadership in Organizations 4 EN
+MAN 675 Selected Challenges in Nonprofit Management 6 EN
+MAN 676 Selected Challenges in Public Management 6 DE
+MAN 679 A Scientific Introduction into Public and 6 DE
+Nonprofit Management
+MAN 680 Challenges of Public and Nonprofit 6 EN
+Management – Case Study Seminar
+MAN 690 Innovation Management 4 EN
+MAN 691 Selected Topics in Organizational Behavior 4 EN
+MAN 693 Strategic Intellectual Property Management 4 EN
+MAN 699 Advanced Topics in Digital Transformation 6 EN
+15700 modules
+Code Module description ECTS Spring Fall
+MAN 710 Research Seminar Public & Nonprofit 6 DE/EN DE/EN
+Management
+MAN 721 Research Seminar Organization and Innovation 6 EN EN
+MAN 741 Research Seminar on Human Resource 6 EN EN
+Management and Leadership
+MAN 750 Seminar Corporate Strategy & Governance 6 EN EN
+MAN 770 Research Seminar 6 DE/EN DE/EN
+MAN 771 Seminar on Corporate Decarbonization 6 EN EN
+3.5 Area Marketing and Sales
+500 modules
+Code Module description ECTS Spring Fall
+MKT 510 Price and Product Management 6 EN
+MKT 511 Marketing Analytics 6 EN
+MKT 512 Designing Data-Driven Business Models 3 EN
+MKT 520 Market Research 6 EN
+MKT 531 Marketing Theory: Consumer Behavior and 4 EN
+Decision Making
+MKT 545 Customers, Markets and Firm Strategy 6 EN
+MKT 550 International Course – Marketing & Sales EN EN
+MKT 561 Service Business Model Innovations 4 EN
+MKT 575 Marketing Strategy for Innovation & 3 EN
+Sustainability
+MKT 580 Digital Marketing Strategy 6 EN
+16600 modules
+Code Module description ECTS Spring Fall
+MKT 612 Business-to-Business-Marketing 2 EN
+MKT 614 Marketing Communication 4 EN
+MKT 615 Sales Management 4 EN
+MKT 616 Fundamentals of Negotiation 2 DE
+MKT 617 Applied Negotiation 2 DE
+MKT 622 Country Manager 2 EN
+MKT 623 Strategic Marketing Management Simulation 2 EN
+MKT 624 Data Scraping for Analytics and AI using R 4 EN
+MKT 661 Consumer Behavior 2 EN
+MKT 663 Branding and Brand Management 4 EN
+700 modules
+Code Module description ECTS Spring Fall
+MKT 710 Research Seminar 6 DE/EN DE/EN
+MKT 720 Research Seminar 6 DE/EN DE/EN
+MKT 730 Research Seminar 6 DE/EN DE/EN
+MKT 740 Research Seminar 6 DE/EN DE/EN
+3.6 Area Operations Management
+500 modules
+Code Module description ECTS Spring Fall
+OPM 501 Supply Chain Design 6 EN
+OPM 502 Inventory Management 6 EN
+OPM 503 Transportation Management: Road, Rail, and Sea 4 EN
+Freight
+OPM 504 Transportation Management: Aviation 4 EN
+17OPM 510 Sustainable Operations Management 4 EN
+OPM 544 Supply Chain Risk Management – from Strategy 4 EN
+to Operations
+OPM 550 International Course – Operations Management EN EN
+OPM 560 Business Analytics: Introduction to Operations 6 EN
+Analytics with Python
+OPM 561 Production Management: Lean Approaches and 4 EN
+Variability
+OPM 581 Service Operations Management 6 EN
+OPM 582 Case Studies in Operations Management: 6 EN EN
+Unlocking the Power of AI
+OPM 591 Strategic Procurement 6 EN
+OPM 593 Negotiation 6 EN
+OPM 597 Next Generation Procurement 4 EN
+600 modules
+Code Module description ECTS Spring Fall
+OPM 601 Supply Chain Strategy 6 EN
+OPM 661 Business Analytics: Robust Planning in 8 EN
+Stochastic Systems
+OPM 662 Business Analytics: Modeling and Optimization 8 EN
+OPM 682 Revenue Management and Dynamic Pricing 6 EN
+OPM 692 Strategic Sourcing 6 EN
+700 modules
+Code Module description ECTS Spring Fall
+OPM 701 Research Seminar Supply Chain Management 6 EN
+OPM 741 Applied Seminar Supply Chain Management 6 EN
+OPM 760 Project Seminar Operations Analytics 6 EN EN
+OPM 761 Research Seminar Production Management 6 EN EN
+18OPM 781 Research Seminar Service Operations 6 DE/EN DE/EN
+Management
+OPM 791 Research Seminar Procurement 6 EN
+OPM 792 Applied Seminar Procurement 6 DE/EN
+19
+
+3.6 AREA
+OPERATIONS
+MANAGEMENT
+210Module: OPM 501 Supply Chain Design EN
+Contents Learning outcomes
+Supply Chain Management deals with all activities aimed at satis- This course makes students aware of the role of supply chain
+fying customer demand. This includes managing the flow and management in managing cost and customer service. It helps
+storage of goods along the supply chain, to ensure that products students understand how to align supply chain decisions with an
+are available in the right place at the right time. As such, supply underlying business strategy. Students will be familiarized with
+chain management plays a crucial role in the delivery of cus- fundamental supply chain planning tasks. They will also get to
+tomer service and thereby in the creation of business value. This know relevant analytical tools and concepts. The course enables
+course addresses key decisions regarding the design of a compa- students to analyze supply chain management decisions using
+ny’s supply chain activities. Particular attention will be paid to the quantitative techniques and to make the right trade-offs be-
+design of distribution networks as a core element of a firm’s in- tween different performance criteria.
+frastructure. Other topics include capacity management and
+transportation planning. The course takes an analytics-oriented Prerequisites for participation
+approach and introduces quantitative models that link manage- Necessary: –
+rial levers to supply chain performance. It thereby highlights rele- Recommended: Basic knowledge in operations management
+vant trade-offs and reveals how managers can strike an optimal (e.g. BSc course “OPM 301 Operations Management”), basic
+balance. knowledge in mathematics (including Linear Programming) and
+in statistics (probability distributions).
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Exercise class 2 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Moritz Fleischmann
+Performing lecturer Prof. Dr. Moritz Fleischmann
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1
+211Module: OPM 502 Inventory Management EN
+Contents Learning outcomes
+Inventory management is a core element of any company’s sup- In this course, students will learn how inventory can be used to
+ply chain management activities. Yet, deciding on the right manage supply chain performance. They will be able to distin-
+amount of inventory, in a given setting, is a challenging task. For guish different inventory roles in different supply chain environ-
+many companies, inventory ties up a huge amount of capital. To ments. Students will become acquainted with relevant business
+set appropriate inventory levels, companies must trade off inven- analytics techniques and will understand how to apply them to
+tory costs and benefits. While inventory costs tend to be readily address inventory management tasks. In conclusion, the course
+visible, measuring inventory benefits is more demanding, in gen- enables students to analyze inventory systems quantitatively and
+eral. Business analytics tools and techniques are of great value to to determine the right inventory levels to achieve given perfor-
+master these challenges. This course introduces such approach- mance objectives. Students will also gain insights into the inter-
+es. It structures the analysis by distinguishing different inventory dependencies between the sales and operations functions of a
+drivers. For each driver, it first highlights the underlying econom- firm.
+ic trade-offs and then introduces and analyses quantitative mod-
+els that allow to optimize them. Core topics include demand Prerequisites for participation
+forecasting, lot sizing, safety stocks, and seasonal inventory. The Necessary: –
+course also addresses the interplay between the sales and opera- Recommended: Basic knowledge in operations management
+tions functions of a firm. (e.g. BSc course “OPM 301 Operations Management”), basic
+knowledge in mathematics (including Linear Programming), and
+in statistics (probability distributions).
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Exercise class 2 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Eunji Lee
+Performing lecturer Eunji Lee
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1
+212Module: OPM 503 Transportation Management: Road, EN
+Rail, and Sea Freight
+Contents Attention is not only given to the developments in Germany, but
+This lecture gives an overview about market developments in also to the developments in Europe and other world regions.
+road and rail transport, inland and maritime shipping. Part of this
+is the overview of present and future transportation technolo- Learning outcomes
+gies. General business developments in the shipping, trucking, Students will understand the dynamics and interdependencies of
+and railway industries are discussed as well as individual strate- the markets for land transport, maritime shipping, and inland
+gies of companies active in these transportation sectors. Another navigation. The students will also understand the role of trans-
+focus is laid on the developments of transportation policy, which port for the globalization of the world’s economy and for the
+is still an important framework for the business activities of trans- supply chain management.
+portation companies. As traffic infrastructure is a key factor for
+the performance of transportation services, the possibilities for Prerequisites for participation
+an optimization of the use of the existing traffic infrastructure are Necessary: –
+discussed. Recommended: –
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language English
+Form of assessment Written exam (45 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Borislav Bjelicic
+Performing lecturer Prof. Dr. Borislav Bjelicic
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+Preliminary course work –
+Program-specific Competency Goals CG 1
+213Module: OPM 504 Transportation Management: Aviation EN
+Contents Learning outcomes
+This lecture gives an introduction to the quickly changing world Students will understand the dynamics and interdependencies of
+of airline companies and their business activities. The topics of the global aviation industry. They learn about the characteristics
+the lecture are: aviation history, aviation technology, aviation of airline management in various areas.
+and environment, air traffic development (historic and forecast),
+air transport policy, airline management (strategy, operations, fi- Prerequisites for participation
+nancing, marketing & sales etc.), air cargo transport, airports and Necessary: –
+air traffic control systems. Recommended: –
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language English
+Form of assessment Written exam (45 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Borislav Bjelicic
+Performing lecturer Prof. Dr. Borislav Bjelicic
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+Preliminary course work –
+Program-specific Competency Goals CG 1
+214Module: OPM 510 Sustainable Operations Management EN
+Contents Learning outcomes
+Sustainability refers to the long-term viability of businesses from The main intended learning outcome is a sound understanding
+a financial, environmental, and social perspective. In recent years, of how to tackle sustainability goals in the economic reality of
+firms are facing growing regulatory and societal pressure to be- matching supply and demand. Participants will learn how to ef-
+come more sustainable and to take responsibility for the environ- fectively lessen the negative environmental and social impacts of
+mental and social impact of their activities. This poses challenges firms while maintaining their competitiveness. Special emphasis
+for traditional business models and practices. Powerful levers to is put on analytical approaches and practical insights that illus-
+manage sustainability reside in the origins of a firm’s value cre- trate concepts and challenges. Furthermore, students will inten-
+ation, in their operations and supply chains. This module – jointly sify their understanding of operations and sustainability topics
+offered by all chairs of the Area Operations Management – pro- by putting concepts and analytical tools into a broader, interdis-
+vides a broad analysis of sustainability from the operations and ciplinary, and strategic context.
+supply chain perspective, and illustrates the potential of opera-
+tions management to strategically contribute to the economic, Prerequisites for participation
+environmental, and social performance of firms. Topics include Necessary: –
+sustainable product and service design, lean and green opera- Recommended: Basic knowledge in operations management
+tions, closed-loop supply chains, and sustainability in procure- (e.g. BSc course “OPM 301 Operations Management”), mathemat-
+ment. The course targets both, (i) students focusing on opera- ics, and statistics.
+tions management and intending to learn how sustainability af-
+fects a company’s operations and (ii) students with a general in-
+terest in sustainability that seek to understand the role of opera-
+tions management in steering the sustainability of companies
+and supply chains.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Christoph Bode, Prof. Dr. Moritz Fleischmann, Prof. Dr.
+Performing lecturer Cornelia Schön, Prof. Dr. Raik Stolletz
+Prof. Dr. Christoph Bode, Prof. Dr. Moritz Fleischmann, Prof. Dr. Cornelia
+Schön, Prof. Dr. Raik Stolletz
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+Preliminary course work –
+215Program-specific Competency Goals CG 1, CG 3
+216Module: OPM 544 Supply Chain Risk Management – from EN
+Strategy to Operations
+Contents Learning outcomes
+Supply chain resilience, network stress-testing, mitigation strate- Students will understand the necessity and benefits of holistic
+gies, and risk-aware decision making – these are concepts that planning processes, risk-aware decision making as well as De-
+modern Supply Chain organizations need to master to succeed mand-Driven Adaptive Supply Chain Planning Systems for corpo-
+in today’s volatile and uncertain environment. Supply Chain Risk rate SCRM. The concepts and system solutions will be illustrated
+Management (SCRM) has developed to play a key role for firms in using
+achieving competitive advantages in our globalized and turbu-
+real world examples from different industries like consumer
+lent world – reaching from strategic network design to robust op-
+goods, semiconductors, or pharma,
+erations and harmonized planning execution.
+show cases with system demos applying e.g. optimizer tech-
+Supply chain management (SCM) as the basis for SCRM involves
+nologies to mitigate disruptions and
+the coordination of different parties within and across compa-
+business games like the Camelot DDMRP Business Game to
+nies, such as sales and marketing affiliates, manufacturing sites,
+visualize the impact of the concepts.
+logistics, suppliers, and customers. With increasing size of an or-
+ganization and its supply chain structures, and with frequent This will promote the understanding of how these concepts and
+supply shortages, disruptions, and demand peaks, global SCRM systems are applied and used within the Sales & Operations Plan-
+requires adequate processes, visibility, and decision support. Ad- ning Process, and how they are implemented within various or-
+vanced Planning Systems like SAP IBP (Integrated Business Plan- ganizations. Students will also get an interactive introduction in-
+ning), enhanced by modern technologies like Risk engines, digi- to the Avatar Risk Engine, one of the leading advanced decision
+tal twins, optimization, and machine learning are used to stan- support systems in SCRM, and they will get insights into the work
+dardize global planning processes and to solve the required of Supply Chain consultants and their projects, daily work, chal-
+planning tasks from the strategic to the operational level, such as lenges and experiences.
+statistical forecasting, inventory and supply network planning,
+and mitigation optimization. Prerequisites for participation
+This course discusses how SCRM, end-to-end planning, risk- Necessary: –
+aware decision making and Demand-Driven Adaptive Planning Recommended: Participants should be familiar with the funda-
+principles, supported by integrated business planning systems mentals of operations and supply chain management, as cov-
+and digital twins, are crucial for companies, addressing new chal- ered, e.g., in the modules OPM 501, OPM 502, and OPM 561.
+lenges with modern concepts and technologies. Key topics in-
+clude systematic network stress-testing, a new risk-aware opti-
+mization approach, strategic network design and decoupling as
+well as operations-related topics, such as Demand-Driven buffer
+sizing and operating model configuration like the Rhythm Wheel
+for Bullwhip-Effect reductions.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language English
+Form of assessment Written exam (90 min)
+Restricted admission yes
+Further information –
+217Examiner Dr. Ulrich Wetterauer
+Performing lecturer Ulrich Wetterauer
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2
+218Module: OPM 550 International Course – Operations EN
+Management
+Contents Learning outcomes
+Depends on course taken abroad Depends on course taken abroad
+Prerequisites for participation
+Necessary: The level of the course matches that of a regular
+MMM course (level 500 and above). The module can only be tak-
+en while studying abroad and complements the Mannheim cur-
+riculum.
+Recommended: –
+Graded yes
+Language English
+Form of assessment Depends on course taken abroad
+Restricted admission no
+Further information More than one class with this code can be taken; conditions apply, make
+sure to read the respective guidelines.
+Performing lecturer Lecturer at the host university. Course will be assessed when students
+request a learning agreement. Please find details in the „Guidelines for
+learning agreements and course recognition“ in ILIAS > MMM >
+Auslandssemester/Study Abroad Semester. Dozent/in an der
+Gastuniversität. Prüfung der Wertigkeit bei Abschluss eines Learning
+Agreements. Bitte lesen Sie das „Merkblatt zu Learning Agreements und
+Anerkennungen“ ILIAS > MMM > Auslandssemester/Study Abroad
+Semester.
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Bus. Inf., M.Sc. Bus. Math., MAKUWI, other
+Master programs (depending on respective study regulations)
+Preliminary course work –
+219Module: OPM 560 Business Analytics: Introduction to EN
+Operations Analytics with Python
+Contents Learning outcomes
+Business Analytics helps to optimize decisions for the design and Students will learn
+management of operations systems and production processes.
+basics in Programming with Python.
+This course introduces into the programming language Python.
+how to numerically analyze capacity planning and opera-
+Based on OPM 561, selected concepts and methods from pre-
+tions scheduling problems.
+scriptive and predictive analytics are implemented and numeri-
+how to use Python to implement and solve models from
+cally assessed. They will be applied to support decisions in capac-
+predictive and descriptive analytics with standard packages.
+ity management and operations planning.
+how to deal with the complexity of real-world problems and
+We apply descriptive analytics to quantify and visualize all three
+how to perform sensitivity analysis in order to obtain useful
+dimensions of variability, as introduced in OPM 561. For predic-
+managerial insights.
+tive analytics, we introduce data sampling and perform sensitivi-
+ty analysis to understand the impact of stochastic variability. For
+prescriptive analytics, linear and mixed integer optimization Prerequisites for participation
+models are implemented and solved numerically. During the Necessary: –
+course, the students will work on several case studies and assign- Recommended: Successful completion of the course OPM 561 is
+ments (individual and in groups). recommended. OPM 560 starts in the second half of the semester
+(directly when OPM 561 is finished).
+Forms of teaching and learning Contact hours Independent study time
+Lecture with integrated exercise 2 SWS 9 SWS
+Exercise class 1 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Assignments (70%, individual and in groups) and programming exam (30%,
+Bring Your Own Device)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Raik Stolletz
+Performing lecturer Prof. Dr. Raik Stolletz
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ.
+Preliminary course work –
+220Module: OPM 561 Production Management: Lean EN
+Approaches and Variability
+Contents This course aims to provide insights into the key decisions re-
+To match supply/capacity with demand, managers and planners garding the design and management of lean production sys-
+have to consider different types of variability. This course discuss- tems. For this purpose, quantitative models for the performance
+es sources for three dimensions of variability and analyzes the ef- analysis and optimization are discussed.
+fects on several operational performance measures. It introduces
+planning tasks for the design and management of operations Learning outcomes
+systems from the strategic to the operational level. After provid- Students will
+ing an overview of variability in operations management, the
+develop skills for quantitative planning in the field of pro-
+course addresses capacity planning and design problems for
+duction management,
+flow production systems. Afterwards, the course covers lean and
+have an overview of requirements, objectives and key con-
+total quality management and introduces different scheduling
+cepts in lean production management, and
+applications. Challenges and opportunities arising from the
+understand reasons and effects of variability in operations
+fourth industrial revolution (Industry 4.0) and key concepts for fu-
+management.
+ture factories are presented. To manage and reduce variability,
+we introduce modern business analytics tools as well as classical
+lean management approaches. Prerequisites for participation
+Necessary: –
+Recommended: Basic knowledge in operations management
+(e.g. BSc course “Produktion” or “OPM 301 Operations Manage-
+ment”).
+Forms of teaching and learning Contact hours Independent study time
+Lecture 1 SWS 6 SWS
+Exercise class 1 SWS 3 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Raik Stolletz
+Performing lecturer Prof. Dr. Raik Stolletz
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+Preliminary course work –
+221Program-specific Competency Goals CG 1, CG 4
+222Module: OPM 581 Service Operations Management EN
+Contents The course will draw upon fundamental management principles,
+Services are the largest segment of our economy in terms of GDP cutting-edge analytics methodologies, state-of-the-art research
+and employment. For example, in the EU, around 3 out of 4 jobs and practice insights, as well as real-world case studies from
+are in service industries. However, services pose particular chal- leading companies. Applications cover a broad range of service
+lenges to managers due to their intangible and experiential na- industries, e.g., transport and communication, retailing, hospitali-
+ture, perishability and high levels of customer involvement. ty, banking and insurance, professional services, e-services, as
+Smooth service delivery, timely responses to inquiries, and per- well as service functions of the manufacturing sector.
+sonalized interactions can directly impact customer satisfaction
+and unlock competitive advantage. Accordingly, operations have Learning outcomes
+a strategic role in meeting customer needs when it comes to de- Students will 1) get familiarized with the challenging decisions
+signing and managing customer-centric services. Delivering ex- and problems in service operations management, and 2) learn
+ceptional service experiences can help businesses to differentiate concepts, analytical tools and managerial insights to deal with
+themselves from competitors but requires strategic alignment these issues in order to gain competitive advantage through ser-
+between operations and market-oriented decisions from an inte- vice operations. The course should be useful for anyone with an
+grated viewpoint with a focus on the customer. intention of going into professional services such as consulting;
+This course provides managerial concepts and analytical tools for into industry (service or manufacturing), where the importance
+effectively designing services and optimizing the underlying ser- of managing service processes is increasing every day; or with a
+vice delivery processes in face of these challenges. In particular, desire to set up their own business.
+we will explore mission-critical service operations management
+decisions that impact value-to-the-customer, firm profitability Prerequisites for participation
+and in some cases also environmental sustainability. These deci- Necessary: This course is an OPM5xx core course from the Oper-
+sions include, for example, customer-oriented service design, ations Management area and has no prerequisites.
+process design and improvement, capacity management, rev- (As a core course, it serves as prerequisite for OPM6xx courses).
+enue management, technology selection, servitization options, Recommended: Basic knowledge in Operations Management
+etc. Furthermore, we will explore how service operations differ
+from manufacturing operations and understand the potential
+and limitations of how traditional operations management tech-
+niques can be applied to services.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Exercise class 2 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Cornelia Schön
+Performing lecturer Prof. Dr. Cornelia Schön
+Frequency of offering Fall semester
+223Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2, CG 3
+224Module: OPM 582 Case Studies in Operations EN
+Management: Unlocking the Power of AI
+Contents The overarching theme of the cases may have a special contem-
+In this course, participants will have the opportunity to complete porary focus (e.g. Revenue Management, Artificial Intelligence, or
+an OM-related case study in a team, using an analytics-oriented Sustainable Operations) and will vary from year to year. Details
+approach for deriving recommendations. The main actor / deci- will be announced in the syllabus (published in the OPM582 IL-
+sion maker in the case study may face an organization showing IAS course in due time). Case topics will be allocated during the
+poor performance e.g. due to operational problems, or has to course based on student preferences. Students will work in
+make strategic market-related decisions subject to challenging teams of two on the assigned case.
+resource constraints. The managerial decisions ahead are often
+very complex, involving many alternatives with different impact, Learning outcomes
+and trade-offs between key performance measures (e.g., profit, Students will intensify their understanding of operations man-
+cost, quality, and environmental impact) must be made. agement by applying concepts and analytical tools in a broader,
+This course reviews managerial concepts and advanced analyti- interdisciplinary and strategic context to practical case studies.
+cal tools to help make more informed decisions and manage op- The course should be useful for anyone with an intention of go-
+erations more effectively such that they are aligned with the ing into consulting, industry (service or manufacturing), or with a
+overarching strategic objectives. In particular, teams will explore desire to set up their own business.
+the theory by applying it to various cases studies of firms cover-
+ing a broad range of industries, such as transport, retailing, hos- Prerequisites for participation
+pitality, health care, professional services, manufacturing, etc. If Necessary: This course is an OPM5xx core course from the Oper-
+the case allows, the approach to derive your recommendations ations Management area and has no prerequisites.
+can be analytics-based, using models and software such as state- (As a core course, it serves as prerequisite for OPM6xx courses).
+of the-art spreadsheet tools to analyze the firm’s situation, identi- Recommended: Participants should be familiar with the funda-
+fy root causes of the problem, and assess alternative courses of mentals of operations management.
+action. The concepts, methods and tools used in the course have
+become invaluable aids to informed decision making in order to
+improve processes, save resources, and create value.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Exercise class 2 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Assignment(s)/work on case studies: final team report (60%), final
+presentation (30%), individual class participation (10%)
+Restricted admission yes
+Further information Max. 20 participants
+Register for the course through Portal2 (Modul “Anmeldepflichtige
+Veranstaltungen MMM") during the official registration period. Admission
+will be communicated shortly after.
+Examiner Prof. Dr. Cornelia Schön
+Performing lecturer Prof. Dr. Cornelia Schön
+225Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2
+226Module: OPM 591 Strategic Procurement EN
+Contents Learning outcomes
+During the last decades, the value sourced from suppliers and in- This course is recommended for anyone seeking an introduction
+novation stemming from the supply base have increased sub- to procurement and, more generally, a better understanding of
+stantially in many industries. Consequently, purchasing’s role has upstream supply chain operations. The main intended learning
+shifted from a clerical support role in the corporate hierarchy to a outcome is to obtain the basic knowledge that enables further
+truly strategic and proactive role that drives growth, innovation, steps in procurement research and practice. Based on current
+and value creation. Today, most organizations consider the man- theories and a broad coverage of topics, participants will learn
+agement of their suppliers as a key strategic issue. Given its po- how to analyze, structure, and tackle strategic problems sur-
+tential to contribute significantly to firm performance, the pro- rounding the procurement function. Participants will obtain:
+curement function receives strong top management attention.
+the fundamental knowledge that enables further steps in
+This module provides a broad survey of modern procurement
+purchasing and supply management research and practice
+theory and practice from a strategic perspective. Topics include
+the ability to analyze, structure, and tackle strategic prob-
+the design and implementation of procurement strategies, pro-
+lems surrounding the procurement function,
+cesses, organizational structures, and performance measurement
+an overview on structured approaches and tools applicable
+systems, as well as the management of supplier portfolios, buyer-
+in practice.
+supplier relationships, and supplier innovation to meet firms’
+strategic supply needs. The module consists of regular lectures
+and exercise classes in which extended and short cases will be Prerequisites for participation
+discussed. High-caliber guest speakers will serve as a rich source Necessary: –
+of practical insights. Recommended: Basic knowledge in supply chain and/or opera-
+tions management
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Exercise class 2 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Christoph Bode
+Performing lecturer Prof. Dr. Christoph Bode
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+227Program-specific Competency Goals CG 1, CG 2, CG 3
+228Module: OPM 593 Negotiation EN
+Contents Learning outcomes
+The ability to manage negotiations – where co-dependent parties Students understand the importance of developing micropoliti-
+try to arrive at decisions that satisfy their interests – and the cal skills for effective leadership in the workplace. After successful
+broader micropolitical environment in which they occur is critical completion, participants will:
+for success in business as in life. This module provides the theo-
+understand the theoretical concepts of micropolitics,
+retical background of micropolitics and the practical tools to af-
+know the negotiation process, key negotiation concepts,
+fect joint decision-making processes (negotiations) and their out-
+and are able to reflect on the different negotiation ap-
+comes. It discusses the application of these concepts and tools in
+proaches,
+different contexts: Agenda setting, mapping the political terrain,
+are able to apply practical tools during bargaining,
+networking and coalition building, and bargaining. Different ap-
+understand and reflect on the impact of (inter-)cultural di-
+proaches of negotiation and the corresponding tactics will be an-
+mensions in negotiations,
+alyzed. Guest speakers will enrich the module with practical in-
+have reflected about their own personal style in negotia-
+sights from different contexts. Special emphasis will be put on
+tions and how they can advance it.
+the (inter-)cultural dimension and its impact on negotiations. The
+have gained a deeper understanding, how psychological as-
+topics will be discussed along the typical timeline of a negotia-
+pects influence the negotiation process and the possible
+tion process: pre-negotiation phase, negotiation phase, post ne-
+outcome.
+gotiation phase. Psychological tactics will be discussed as well as
+possible defenses against such tactics.
+This course is a mandatory course for incoming students in the Prerequisites for participation
+European Management track Necessary: –
+Recommended: Basic knowledge in operations/supply chain
+management
+Forms of teaching and learning Contact hours Independent study time
+Lecture with integrated exercise 2 SWS 11 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment final exam (90 min)
+Restricted admission yes
+Further information “Student Portal”
+Examiner Prof. Dr. Christoph Bode
+Performing lecturer Dr. Ingo Bayer, Prof. Dr. Christoph Bode
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+229Program-specific Competency Goals CG 1, CG 3, CG 4
+230Module: OPM 597 Next Generation Procurement EN
+Contents Each session will include guest talks from industry experts.
+Starting from a review of modern procurement, this module ad-
+dresses the future of procurement’s IT-landscape, processes, Learning outcomes
+technology, and challenges. The digital transformation of pro- The main intended learning outcome is to gain a thorough un-
+curement and supply chain management is not just an incremen- derstanding of modern and future procurement solutions and
+tal IT evolution, it is a dramatic departure from both procure- processes. Special emphasis is put on technologies, trends and
+ment’s use of technology and the way companies do business. solution demos that illustrate modern applications, latest innova-
+The module includes a detailed discussion of strategic and oper- tions, as well as challenges.
+ational instruments to examine how next generation’s procure-
+ment solutions can affect business outcomes, save costs while in- Prerequisites for participation
+creasing compliance, and ensure resilient and sustainable supply Necessary: –
+chains that meet the needs of today’s fast-paced and cloud-fo- Recommended: Basic knowledge in operations/supply chain
+cused business environment. A key focus of the module rests on management
+discussing how advanced business analytics approaches such as
+machine learning and artificial intelligence will transform pro-
+curement from a transactional based system to an information
+and intelligence-based suite that connects data from within and
+from outside of its own data ecosystem.
+The module is delivered in four blocked sessions with a strong
+practice focus.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language English
+Form of assessment Group essay (70%) and presentation (30%)
+Restricted admission yes
+Further information http://procurement.bwl.uni-mannheim.de/
+Examiner Prof. Dr. Christoph Bode
+Performing lecturer Prof. Dr. Christoph Bode
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2, CG 4
+231Module: OPM 601 Supply Chain Strategy EN
+Contents Learning outcomes
+Supply chains comprise organizations, resources, and processes Students will understand the role of supply chain management
+aimed at satisfying customer demand. Their effectiveness is and its impact on firm performance. They will be aware of strate-
+paramount to the creation of business value. Carefully designed gic implications of supply chain design choices. They will recog-
+and well-run supply chains are an important source of competi- nize the potential of coordinated decision making along the sup-
+tive advantage. Particular complexities arise from the interplay ply chain and be aware of obstacles that complicate this coordi-
+between different members of a supply chain, including suppli- nation. The students will get to know mechanisms for aligning in-
+ers, manufacturers, and retailers. While they all pursue their own centives of different supply chain members. They will be ac-
+objectives they are also dependent on each other and must coor- quainted with relevant business analytics techniques to assess
+dinate their activities to serve the customer. This course address- and optimize supply chain performance. Students will also be
+es the dynamics resulting from the interaction between supply aware of relevant recent trends and of their impact on supply
+chain members and introduces concepts for achieving supply chain management.
+chain alignment. It presents common forms of supply chain col-
+laboration and discusses their potential and challenges. After es- Prerequisites for participation
+tablishing the fundamentals, the course proceeds to discuss how Necessary: At least one of the modules OPM 501, 502, 561, 581,
+recent trends are impacting supply chain management, includ- 582, or 591 (parallel attendance possible); other modules may be
+ing sustainability, e-fulfillment, digitalization, and resilience. The accepted upon request.
+course takes an analytics-oriented approach and introduces Recommended: Participants should be familiar with fundamen-
+quantitative models as a means for analyzing strategic issues in tals of operations and supply chain management. Attendance of
+supply chain management. modules OPM 501 and OPM 502 is beneficial but not necessary.
+The course further assumes a basic knowledge in mathematics
+(including Linear Programming) and in statistics (probability dis-
+tributions).
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Exercise class 2 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Moritz Fleischmann
+Performing lecturer Prof. Dr. Moritz Fleischmann
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+232Preliminary course work –
+Program-specific Competency Goals CG 1, CG 3
+233Module: OPM 661 Business Analytics: Robust Planning in EN
+Stochastic Systems
+Contents Moreover, we will implement those concepts using the program-
+Business Analytics helps to optimize decisions for the design and ming language Python to perform sensitivity analyses and to de-
+management of operations systems and production processes. A velop managerial insights for stochastic operations systems. Dur-
+major driver of the performance of operations systems is stochas- ing the course the students will work on several case studies and
+tic variability. For example, production systems often operate in assignments (individual and in groups).
+an uncertain environment due to uncertain demand, unreliable
+machines, or random processing capacities. Learning outcomes
+In order to support robust decisions, we apply analytical solution Students learn to understand the impact of stochastic variability
+approaches based on techniques from predictive and prescrip- in operations systems. After this course students are familiar with
+tive analytics. The basic concepts of the analysis of Markovian the theory and practice of the analysis of stochastic systems.
+queueing systems are explained in detail and performance evalu- They learn to implement, adapt and to apply methods and tools
+ation approaches are implemented in Python. To create digital from Business Analytics e.g. analytical approximations, simula-
+twins of operating systems, simulation techniques are intro- tion, and robust planning methods to support managerial deci-
+duced and implemented. This allows to analyze the sensitivity of sions.
+system parameters on the main performance measures. Ad-
+vanced topics such as queueing systems with general distribu- Prerequisites for participation
+tions, heterogeneities, and time-dependent input parameters are Necessary: OPM 561 and OPM 560 OR: OPM 561 and "Schlüs-
+covered. Additionally, general managerial insights, for example selqualifikation 1: Programmierkurs Python" (Angebot der WIM)
+economies of scale and the value of flexible capacities are dis- Recommended: Participants should be familiar with the funda-
+cussed. Methods and performance measures of robust planning mentals of production and operations management. The course
+and optimization are introduced. Students become familiar with further assumes a basic knowledge in mathematics (including
+concepts and tools for predictive and prescriptive business ana- linear programming) and in statistics (probability distributions).
+lytics.
+Forms of teaching and learning Contact hours Independent study time
+Lecture with integrated exercise 4 SWS 9 SWS
+Exercise class 2 SWS 8 SWS
+ECTS credits 8
+Graded yes
+Workload 240h
+Language English
+Form of assessment Assignments and presentations (70%), written exam (45 min) or oral exam
+(30%)
+Restricted admission yes
+Further information –
+Examiner Prof. Dr. Raik Stolletz
+Performing lecturer Prof. Dr. Raik Stolletz
+Frequency of offering Spring semester
+Duration of module 1 semester
+234Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+235Module: OPM 662 Business Analytics: Modeling and EN
+Optimization
+Contents Learning outcomes
+Business Analytics helps to optimize decisions for the design and Students learn how to structure operations planning and
+management of operations systems and production processes. scheduling problems. They are able to translate them into mixed
+This course introduces concepts and tools for prescriptive analyt- integer linear models. Students learn how to use Python to im-
+ics for modeling and optimization based on techniques from Op- plement them and solve them with a standard solver to derive
+erations Research. Operational and tactical planning tasks are optimal plans/schedules (DOcplex Python Modeling API). They
+formulated as linear and mixed integer linear programming also learn to deal with the complexity of real-world problems
+models. Optimization models are analyzed and implemented in (e.g., via aggregation, relaxation, and decomposition techniques)
+class. They are solved using standard tools of prescriptive analyt- and how to perform sensitivity analyses in order to obtain useful
+ics. Different heuristic techniques to cope with the complexity of managerial insights.
+real-world scheduling problems are introduced and implement-
+ed. Data-driven approaches to cope with stochastic variability are Prerequisites for participation
+introduced and analyzed. During the course the students will Necessary: OPM 561 and OPM 560 OR: OPM 561 and "Schlüs-
+work on several case studies and assignments (individual and in selqualifikation 1: Programmierkurs Python" (Angebot der WIM)
+groups). Recommended: The course assumes a basic knowledge in math-
+ematics (including linear programming).
+Forms of teaching and learning Contact hours Independent study time
+Lecture with integrated exercise 4 SWS 9 SWS
+Exercise class 2 SWS 8 SWS
+ECTS credits 8
+Graded yes
+Workload 240h
+Language English
+Form of assessment Assignments and presentations (70%), written exam (45 min) or oral exam
+(30%)
+Restricted admission yes
+Further information –
+Examiner Prof. Dr. Raik Stolletz
+Performing lecturer Prof. Dr. Raik Stolletz
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+236Module: OPM 682 Revenue Management and Dynamic EN
+Pricing
+Contents With a focus on prescriptive analytics, this course discusses man-
+Revenue Management (RM) is concerned with demand-manage- agerial concepts, optimization modelling approaches and state-
+ment decisions (such as product availability decisions, price opti- of-the-art solution tools for RM. We pursue an active-learning ap-
+mization, assortment optimization and product line design) in proach including lecture-style class sessions, case discussions, ex-
+face of resource constraints. Since resources to create and offer ercises, guest lectures, and hands-on computer implementations
+products are usually limited and often perishable, the effective- using e.g. the Excel solver and easy-to-learn but powerful profes-
+ness of market-related decisions is highly interrelated with re- sional mathematical optimization tools.
+source allocation decisions. The methods and tools taught in the course have become invalu-
+Over the last decades, RM tools and systems have helped busi- able aids to informed decision making in order to save resources,
+nesses in a variety of industries to ensure economic viability and create value-to-the-customer, and improve firm profitability.
+to allocate scarce resources more effectively. Robert Crandall, for-
+mer Chairman and CEO of American Airlines, has called RM "the Learning outcomes
+single most important technical development in transportation Students will gain insights into practical applications of Revenue
+management since we entered deregulation." While airlines have Management and get familiar with the underlying models and
+the longest history of development in classical RM, applications methods, thereby enhance their analytics skills.
+have rapidly diffused beyond airlines to industries such as retail-
+ing, hospitality, railways, car rental, telecommunications and fi- Prerequisites for participation
+nancial services, electric utilities, consumer goods production Necessary: At least one of the modules OPM 501, 502, 560, 561,
+and even MTO manufacturing. 581, 582, or 591 (parallel attendance possible); further modules
+For outside observers, RM may seem often like an art. But finally, may be accepted by Professor upon request.
+the most important pillar of RM is analytics – including systematic Recommended: Participants should be familiar with Operations
+data analysis, understanding value-to-the-customer and fore- Management and enjoy analytics, such as mathematical model-
+casting demand, and powerful optimization that allows taking ing and optimization.
+the relevant market- and resource-related factors jointly into ac-
+count.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Exercise class 2 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Cornelia Schön
+Performing lecturer Prof. Dr. Cornelia Schön
+Frequency of offering Spring semester
+237Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2, CG 3
+238Module: OPM 692 Strategic Sourcing EN
+Contents Learning outcomes
+Looking back over the past twenty years, competitive purchasing This course is of interest to students seeking more in-depth
+approaches created significant value for firms by driving substan- knowledge of the processes and tools in modern procurement.
+tial cost savings to the bottom line. However, the widespread us- For each topic covered, concepts, frameworks, and analytic tools
+age of professional procurement techniques has eroded the ad- are presented. Participants will learn:
+vantages that they had for pioneers in the 1990s and in the early
+how to organize healthy competition to find the right sup-
+years of the current century. In addition, environmental, compet-
+pliers for a specified demand,
+itive, geopolitical, and technological changes have created an
+how to pull commercial, technical, and processual levers of
+uncertain business environment in which a mere focus on pur-
+optimization,
+chasing cost will not be sufficient to support sustainable compet-
+how select the most effective award business mechanism
+itive advantage. Against this backdrop, this module covers ad-
+and contract based, and
+vanced approaches in procurement that aim at creating “value
+how to deal with performance exceptions and supplier con-
+beyond cost”. Based on an end-to-end analysis of the key pro-
+flicts.
+curement processes, the module addresses the following core
+topics: Demand and supply analysis (need identification and
+specification management, supply market analysis, RFx, cost Prerequisites for participation
+modeling, optimization levers), sourcing decisions and awarding Necessary: –
+of business (analytical models for supplier selection, negotia- Recommended: The module builds on topics covered in OPM
+tions, and auctions), formal relationship governance (contracts 591. Participants who have not attended this module might re-
+and price models), operational purchasing (purchase-to-pay pro- quire additional preparation.
+cess), management of nonperformance and conflicts, and tech-
+nological enablers.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Exercise class 1 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min, 90%), case challenge (10%)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Christoph Bode
+Performing lecturer Prof. Dr. Christoph Bode
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+239Preliminary course work –
+Program-specific Competency Goals CG 1
+240Module: OPM 701 Research Seminar Supply Chain EN
+Management
+Contents Learning outcomes
+The goal of this seminar is to introduce the participants to the Students will learn how to analyze the academic literature on a
+conducting of scientific research. It thereby prepares them for given topic. They will become acquainted with the setup and
+the writing of their Master thesis. Participants will carry out a lit- composition of academic publications. They will also learn how
+erature study on a given topic in the field of logistics and supply to the present the results of their analysis.
+chain management and discuss the results in a written report
+and in an oral presentation. Prerequisites for participation
+Necessary: At least one module OPM 6XX (parallel attendance
+possible) or an equivalent module within an exchange program
+Recommended: Sound knowledge in logistics and supply chain
+management; sound quantitative skills; interest in scientific re-
+search
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written report (50%, scope depends on the assigned topic), presentation
+(40%), discussion (10%)
+Restricted admission yes
+Further information Registration at the end of the preceding term; website of the chair
+Examiner Prof. Dr. Moritz Fleischmann
+Performing lecturer Prof. Dr. Moritz Fleischmann
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 4
+241Module: OPM 741 Applied Seminar Supply Chain EN
+Management
+Contents Learning outcomes
+The goal of this seminar is to introduce the participants to the Participants will become acquainted with carrying out a practice-
+conducting of problem-solving scientific research in the field of oriented research project in supply chain management. They will
+supply chain management. It thereby prepares them for the writ- learn how to support their analysis using relevant academic liter-
+ing of a practice-oriented Master thesis in this field. Organized in ature. Participants will also learn how to effectively present the
+small teams, participants will work on a specific supply chain results of their analysis.
+management issue, defined in collaboration with a company. At
+the end of the seminar, each team will propose a solution to this Prerequisites for participation
+issue, based on the relevant literature and their own research. Re- Necessary: At least one module OPM 6XX (parallel attendance
+sults are summarized in a written report and in an oral presenta- possible) or an equivalent module within an exchange program
+tion. Recommended: OPM 601 or an equivalent module within an ex-
+change program; project management skills
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written report (60%, scope depends on the assigned topic), presentation
+(30%), discussion (10%)
+Restricted admission yes
+Further information Registration at the end of the preceding term; website of the chair
+Examiner Prof. Dr. Moritz Fleischmann
+Performing lecturer Prof. Dr. Moritz Fleischmann
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+242Module: OPM 760 Project Seminar Operations Analytics EN
+Contents Learning outcomes
+The goal of this seminar is to introduce the participants to con- Students will learn to analyze and implement a predictive or pre-
+ducting of scientific research in the field of operations manage- scriptive business analytics approach based on scientific litera-
+ment. Thereby, it prepares the students for writing an analytics- ture. They learn to design a numerical study to draw conclusions
+oriented Master’s thesis. Based on scientific literature, partici- on how this approach supports decisions for a problem in Opera-
+pants will apply and implement predictive or descriptive busi- tions Management. Additionally, they will learn how to present
+ness analytics approaches to solve an operations management the results of their analyses.
+problem. A sensitivity analysis demonstrates the reliability of the
+approach and generate managerial insights. Depending on the Prerequisites for participation
+assigned topic, students will work individually or in small teams. Necessary: At least one of the modules OPM 661 or OPM 662
+Students present their findings through a written report and an (parallel attendance possible) or an equivalent module within an
+oral presentation. exchange program.
+Recommended: Sound knowledge of programming in Python
+and familiarity in predictive or prescriptive operations analytics.
+Sound knowledge in production management, quantitative
+skills, as well as interest in scientific research is required.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written report (60%, scope depends on the assigned topic), presentation
+(30%), active contribution to class discussion (10%)
+Restricted admission yes
+Further information Registration at the end of the preceding term; website of the chair
+Examiner Prof. Dr. Raik Stolletz
+Performing lecturer Prof. Dr. Raik Stolletz
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Econ.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+243Module: OPM 761 Research Seminar Production EN
+Management
+Contents Learning outcomes
+The goal of this seminar is to introduce the participants to con- Students will learn to analyze the academic literature on a given
+ducting of scientific research in the field of production manage- topic in production management. They will become acquainted
+ment. Thereby, it prepares the students for writing their Master’s with the setup and composition of scientific research. Additional-
+theses. Participants will independently (i) apply a Business analyt- ly, they will learn how to present the results of their analyses.
+ics approach to a specific operations problem, (ii) carry out a liter-
+ature study on a given topic, or (iii) discuss and critically assess a Prerequisites for participation
+scientific paper in detail. The students present their findings Necessary: At least one of the modules OPM 6XX (parallel atten-
+through a written report and an oral presentation. dance possible) or an equivalent module within an exchange
+program.
+Recommended: As the topics are based on the modules OPM
+661 or OPM 662, additional preparation is required if students
+did not attend those modules. Sound knowledge in production
+management, sound quantitative skills, as well as interest in sci-
+entific research is required.
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written report (60%, scope depends on the assigned topic), presentation
+(30%), active contribution to class discussion (10%)
+Restricted admission yes
+Further information Registration at the end of the preceding term; website of the chair
+Examiner Prof. Dr. Raik Stolletz
+Performing lecturer Prof. Dr. Raik Stolletz
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+244Module: OPM 781 Research Seminar Service DE EN
+Operations Management
+Contents Learning outcomes
+The seminar introduces participants to conducting applied scien- Students will learn how to analyze the academic literature on a
+tific research in the field of (service) operations management in given topic and thereby get prepared to independently analyze
+order to prepare them for writing their master thesis. Participants and solve a decision problem in a scientific manner within the
+will carry out a literature research on a given topic in service op- management science field. Students will also learn how to the
+erations management and analyze a related decision problem. present the results of their analysis.
+Students will report their results in a paper and present their
+main findings in class. Also, the seminar aims at practicing pre- Prerequisites for participation
+sentation skills, such as speaking with clarity, confidence and Necessary: At least one module OPM 6XX (parallel attendance
+connection. possible upon request) or an equivalent module within an ex-
+change program.
+Further modules may be accepted by Professor upon request.
+Recommended: Sound knowledge in Operations and Service
+Operations Management. Good analytical skills. Interest in work-
+ing scientifically.
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language German, English
+Form of assessment Written report (60%, scope depends on the assigned topic), presentation
+(30%), active contribution to class discussion (10%)
+Restricted admission yes
+Further information Registration at the end of the preceding term; website of the chair
+Examiner Prof. Dr. Cornelia Schön
+Performing lecturer Prof. Dr. Cornelia Schön
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2, CG 4
+245Module: OPM 791 Research Seminar Procurement EN
+Contents In addition, participants will learn how to present research find-
+This research seminar examines current procurement topics from ings. Students will obtain:
+a research perspective. Students will deepen their understanding
+the competences for writing a high-quality (empirical) mas-
+of procurement and supply chain research and its implications
+ter thesis about a topic in the broader procurement arena,
+for practice. The main deliverables of this module are a research
+a sound understanding of structuring a research question
+paper, which each participant prepares independently over the
+systematically and independently gathering the knowledge
+course of the semester, and a corresponding in-class presenta-
+of the foundations, structures, and methodologies underly-
+tion at the end of the module. The suggested topics will empha-
+ing a given topic,
+size research rather than application and will be related to the
+the competences to present and discuss own and other’s re-
+current research interests of the Endowed Chair of Procurement.
+search findings.
+Participants will obtain an introduction to business research and
+to scientific writing in the context of supply (chain) management.
+Prerequisites for participation
+Learning outcomes Necessary: Attendance of at least one module OPM 6xx (parallel
+The main intended learning outcome is to attain the compe- attendance is possible) or an equivalent module within an ex-
+tences for writing a high-quality master thesis about a topic in change program
+the broader procurement arena. Participants will learn how to Recommended: OPM 591 and OPM 692 or equivalent modules
+structure a research question systematically and how to indepen- within exchange programs
+dently gather the knowledge of the foundations, structures, and
+methodologies underlying a given topic.
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written report (60%, scope depends on the assigned topic), presentation
+(30%), and contribution to in-class discussion (10%)
+Restricted admission yes
+Further information Student Portal
+Examiner Prof. Dr. Christoph Bode
+Performing lecturer Prof. Dr. Christoph Bode
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+246Module: OPM 792 Applied Seminar Procurement DE EN
+Contents how to analyze and solve procurement-related problems,
+This applied seminar revolves around a field study and combines how to carry out a practice-oriented project, rooted in the
+readings in procurement with the work as consultants to a busi- academic literature,
+ness. Organized in small teams, participants will work on specific how to apply procurement knowledge and link it to a wide
+procurement-related problems, defined in collaboration with array of business disciplines such as strategy organization,
+companies. At the end of the seminar, each team will present a marketing, or information systems.
+solution to the specific problem, based on the relevant literature
+and their own analyses. Results are summarized in a written re-
+Prerequisites for participation
+port and an oral presentation.
+Necessary: Attendance of at least one module OPM 6xx (parallel
+attendance is possible) or an equivalent module within an ex-
+Learning outcomes
+change program
+In the seminar, students will apply their knowledge in procure-
+Recommended: OPM 591 and OPM 692 or equivalent modules
+ment and supply chain management by consulting with a busi-
+within exchange programs; project management skills
+ness organization in a project. The consultancy project can re-
+volve around a) analyzing current opportunities and / or prob-
+lems in procurement, b) developing concepts to capture oppor-
+tunities and / or solve problems, c) making a proposal of how to
+implement the suggested concepts. Participants will learn:
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language German, English
+Form of assessment Written report (75%, scope depends on the assigned topic), presentation
+(25%)
+Restricted admission yes
+Further information –
+Examiner Prof. Dr. Christoph Bode
+Performing lecturer Prof. Dr. Christoph Bode
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2, CG 4
+247
+
+5.1 English and American Studies
+The elective in English and American Studies measures 15 to 18 ECTS.
+It offers a choice between English Linguistics or English and American Literature Studies. Topics and
+titles of the courses vary each semester. For details please see the course catalog of the School of
+Humanities / Department of English Studies (Student Portal). Please enrol in courses via the course
+catalog of the School of Humanities / Department of English Studies (Student Portal) or e-Mail to
+program Manager Sebastian Hempen (master(at)phil.uni-mannheim.de).
+5.1.1 English and American Studies for students without skills in humanities
+Module: English Linguistics for students without skills in EN
+humanities
+Language English
+Necessary prerequisites –
+Further information Please enrol in courses via the course catalog of the School of Humanities /
+Department of English Studies (Student Portal) or e-Mail to program
+manager Madeline Dahl (master.phil@uni-mannheim.de).
+Organizational information All of the following modules have to be taken (15 ECTS in total).
+Contact person Madeline Dahl (master(at)phil.uni-mannheim.de)
+Assessment form ECTS Semester
+ANG 301 Introduction to Linguistics (lecture Written exam 4 Spring &
+without tutorial) fall
+IDV 501 Lecture Series Linguistic Methods Written exam 4 Fall
+(see master’s program “Language and
+Communication”)
+Seminar to be chosen from the offering of Written exam and/or oral exam 7 Spring &
+the master’s program “Language and fall
+Communication”
+252Module: English and American Literature Studies for EN
+students without skills in humanities
+Language English
+Necessary prerequisites –
+Further information Please enrol in courses via the course catalog of the School of Humanities /
+Department of English Studies (Student Portal) or e-Mail to program
+manager Madeline Dahl (master.phil@uni-mannheim.de).
+Organizational information All of the following courses (15 to 16 ECTS in total) have to be taken, with a
+choice between ANG 310 Introduction to Literary Studies and the Lecture
+series IDV 503 Theoretical Basics of Literary Studies.
+Contact person Madeline Dahl (master(at)phil.uni-mannheim.de)
+Necessary prerequisites Assessment form ECTS Semester
+ANG 310 Introduction to Written exam 4 Spring &
+Literary Studies (lecture fall
+without tutorial)
+Lecture series IDV 503 Written exam 5 Fall
+Theoretical Basics of
+Literary Studies
+ANG 416 Lecture ANG 301 Introduction to Written or oral 4 Spring &
+Literature Studies Literary Studies or Lecture exam fall
+Series Theoretical Basics of
+Literary Studies
+Seminar to be chosen ANG 301 Introduction to Written or oral 7 Spring &
+from the offerings of the Literary Studies or Lecture exam fall
+maste’s program Series Theoretical Basics of
+“Literature, Media and Literary Studies
+Culture in the Modern Era”
+2535.1.2 Englisch and American Studies for students with skills in humanities
+You find detailed information about the courses in the module catalogs
+(https://www.phil.uni-mannheim.de/studium/masterstudiengaenge/) and Student Portal.
+Module: English Linguistics for students with skills in EN
+humanities
+Language English
+Necessary prerequisites –
+Further information Please enrol in courses via the course catalog of the School of Humanities /
+Department of English Studies (Portal) or e-Mail to program manager
+Madeline Dahl (master.phil@uni-mannheim.de).
+Organizational information All of the following courses (18 ECTS in total) have to be taken.
+Contact person Madeline Dahl (master(at)phil.uni-mannheim.de)
+Assessment form ECTS Semester
+Area Studies (from the offering of the Written and/or oral exam 4 Spring &
+MakuWi) fall
+Seminar to be chosen from the offering of Written and/or oral exam 7 Spring &
+the master program “Language and fall
+Communication”
+Seminar to be chosen from the offering of Written and/or oral exam 7 Spring &
+the master program “Language and fall
+Communication”
+254Module: English and American Literature Studies for EN
+students with skills in humanities
+Language English
+Necessary prerequisites –
+Further information Please enrol in courses via the course catalog of the School of Humanities /
+Department of English Studies or e-Mail to program Manager Madeline
+Dahl (master.phil@uni-mannheim.de).
+Organizational information All of the following modules have to be taken (18 ECTS in total).
+Contact person Madeline Dahl (master(at)phil.uni-mannheim.de)
+Assessment form ECTS Semester
+Area Studies (from the offering of the Written and/or oral exam 4 Spring &
+MakuWi) fall
+Seminar to be chosen from the offerings of Term paper or oral exam 7 Spring &
+the master-program “Literature, Media and fall
+Culture in the Modern Era”
+Seminar to be chosen from the offerings of Term paper or oral exam 7 Spring &
+the master-program “Literature, Media and fall
+Culture in the Modern Era”
+2555.2 German Studies
+The elective in German Studies measures 16 to 18 ECTS.
+It offers a choice between German Linguistics or German Literature Studies. Topics and titles of the
+courses vary each semester. For details please see the course catalog of the School of Humanities /
+Department of German Studies (Student Portal). Please enrol in courses via the course catalog of the
+School of Humanities / Department of German Studies (Student Portal) or e-Mail to program Man-
+ager Sebastian Hempen (master(at)phil.uni-mannheim.de).
+Please note that courses are usually taught in German!
+5.2.1 German Studies for students without skills in humanities
+Module: German Linguistics for students without skills in DE
+humanities
+Language German
+Necessary prerequisites –
+Further information Please enrol in courses via the course catalog of the School of Humanities /
+Department of German Studies (Student Portal) or e-Mail to program
+manager Madeline Dahl (master.phil@uni-mannheim.de).
+Organizational information The following courses have to be taken: "Introduction to linguistics",
+"Seminar taken out of the Module „Language and Media“", and either
+"Lecture in linguistics" or "Exercise Class in linguistics" (in total 16 or 18
+ECTS).
+Contact person Madeline Dahl (master(at)phil.uni-mannheim.de)
+Necessary prerequisites Assessment form ECTS Semester
+Introduction to linguistics Written exam 4 Fall
+(without tutorial)
+Lecture in linguistics Written exam 4 Spring &
+fall
+exercise class in Term paper 6 Spring &
+linguistics fall
+Seminar taken out of the Introduction to linguistics Term paper or 8 Spring &
+Module "Language and oral exam fall
+Media"
+256Module: German Literature Studies for students without DE
+skills in humanities
+Language German
+Necessary prerequisites –
+Further information Please enrol in courses via the course catalog of the School of Humanities /
+Department of German Studies (Student Portal) or e-Mail to program
+manager Madeline Dahl (master.phil@uni-mannheim.de).
+Organizational information All of the following courses (16 ECTS in total) have to be taken.
+Contact person Madeline Dahl (master(at)phil.uni-mannheim.de)
+Necessary prerequisites Assessment form ECTS Semester
+Lecture: Introduction to Written exam 4 Fall
+Literature Studies
+Proseminar: Literature Lecture: Introduction to Term paper 5 Spring &
+Studies Literature Studies fall
+Seminar to choose from Lecture: Introduction to Term paper or 7 Spring &
+the offering of the Literature Studies, Part 1 written exam fall
+master's program
+“Literature, Media and
+Culture in the Modern Era”
+2575.2.2 German Studies for students with skills in humanities
+Module: German Linguistics for students with skills in DE
+humanities
+Language German
+Necessary prerequisites –
+Further information Please enrol in courses via the course catalog of the School of Humanities /
+Department of German Studies (Student Portal) or e-Mail to Program
+Manager Madeline Dahl (master.phil@uni-mannheim.de).
+Organizational information All courses (17 ECTS in total) have to be taken.
+Contact person Madeline Dahl (master(at)phil.uni-mannheim.de)
+Assessment form ECTS Semester
+Lecture Linguistics Protocol or written exam 3 Spring &
+fall
+Seminar in Linguistics to be chosen from the Written and/or oral exam 7 Spring &
+offering of the master's program “Language fall
+and Communication”
+Seminar in Linguistics to be chosen from the Written and/or oral exam 7 Spring &
+offering of the master program “Language fall
+and Communication”
+258Module: German Literature Studies for students with skills DE
+in humanities
+Language German
+Necessary prerequisites –
+Further information Please enrol in courses via the course catalog of the School of Humanities /
+Department of German Studies (Student Portal) or e-Mail to program
+manager Madeline Dahl (master.phil@uni-mannheim.de).
+Organizational information All of the following courses (17 ECTS in total) have to be taken.
+Contact person Madeline Dahl (master(at)phil.uni-mannheim.de)
+Assessment form ECTS Semester
+Lecture Literature Studies Protocol or written exam 3 Spring &
+fall
+Seminar in Literature Studies to be chosen Oral exam or term paper 7 Spring &
+from the offering of the master's program fall
+"Literature, Media and Culture in the Modern
+Era"
+Seminar in Literature Studies to be chosen Oral exam or term paper 7 Spring &
+from the offering of the master's program fall
+“Literature, Media and Culture in the Modern
+Era”
+2595.3 History
+The elective History measures 16 to 19 ECTS.
+Topics and titles of the courses vary each semester. For details please see the course catalog of the
+School of Humanities / Department of History (Student Portal). Please enrol in courses via the course
+catalog of the School of Humanities / Department of History (Student Portal) or e-Mail to program
+Manager Sebastian Hempen (master(at)phil.uni-mannheim.de). Please note that courses are usu-
+ally taught in German!
+5.3.1 History for students without skills in humanities
+Module: History for students without skills in humanities DE
+Language German
+Necessary prerequisites –
+Further information Please enrol in courses via the course catalog of the School of Humanities /
+Department of History (Student Portal) or e-Mail to program manager
+Madeline Dahl (master.phil@uni-mannheim.de).
+Organizational information Students have to attend a proseminar (8 ECTS) and either a lecture and
+exercise class (4 ECTS each) offered in the Bachelor program “History” or
+lectures offered in the Master program “History”. Detailed information on
+courses can be found in the course catalog of the Master in History.
+A successful completion of one proseminar (PS) in history (PS Antiquity, PS
+Middle Ages, PS Early Modern Age, PS Modern Age, PS Economic and Social
+History) is required. Additionally, there are different combination
+possibilities to reach the required 16 or 19 ECTS. However, it is not possible
+to receive necessary credits attending two exercise classes.
+Contact person Madeline Dahl (master(at)phil.uni-mannheim.de)
+Necessary prerequisites Assessment form ECTS Semester
+Proseminar: “Antiquity”, Term paper 8 Spring &
+“Middle Ages”, “Modern fall
+Age”, or “Economic and
+Social History”
+Lecture "Economic Proseminar “Antiquity”, Written exam 4 Spring &
+History" “Middle Ages”, “Modern fall
+Age”, or “Economic and
+Social History”
+Lecture "History of Law" Proseminar “Antiquity”, Written exam 7 Spring &
+“Middle Ages”, “Modern fall
+Age”, or “Economic and
+Social History”
+260Exercise class: “Antiquity”, Proseminar “Antiquity”, Written 4 Spring &
+“Middle Ages”, “Modern “Middle Ages”, “Modern elaboration fall
+Age” from the bachelor- Age”, or “Economic and
+program “History” Social History”
+Exercise class: “Antiquity”, Proseminar “Antiquity”, Written 4 Spring &
+“Middle Ages”, “Modern “Middle Ages”, “Modern elaboration fall
+Age” from the bachelor- Age”, or “Economic and
+program “History” Social History”
+2615.3.2 History for students with skills in humanities
+Module: History for students with skills in humanities DE
+Language German
+Necessary prerequisites –
+Further information Please enrol in courses via the course catalog of the School of Humanities /
+Department of History (Student Portal) or e-Mail to program manager
+Madeline Dahl (master.phil@uni-mannheim.de).
+Organizational information In this module, courses summing up to 16 to 19 ECTS in total have to be
+taken.
+Lecture in Pre-Modern Period, Middle Ages, Modern Age taken from the
+bachelor-program “History”
+Contact person Madeline Dahl (master(at)phil.uni-mannheim.de)
+Assessment form ECTS Semester
+Seminar in Antiquity, Middle Ages, Modern Term paper or oral exam 8 Spring &
+Period or Economic/Social History fall
+Lecture in Economic History from the Written exam 4 Fall
+master's program “History"
+Lecture History of Law taken from the Written exam 7 Spring &
+master's program “History" fall
+Lecture in Pre-Modern Period, Middle Ages, Written exam 4 Spring &
+Modern Age taken from the bachelor's fall
+program “History”
+Exercise class in Pre-Modern Period, Middle Written elaboration 4 Spring &
+Ages, Modern Age taken from the bachelor's fall
+program “History”
+2625.4 Mathematics
+The elective Mathematics consists of 16 to 24 ECTS.
+Please enrol via Student Portal. Please note that most courses are taught in German.
+5.4.1 Mathematics for students without skills in mathematics
+Module: Mathematics for students without skills in DE
+mathematics
+Language German
+Necessary prerequisites –
+Further information –
+Organizational information Two out of the following four modules (18 to 20 ECTS in total) have to be
+passed for successful completion of the elective.
+Contact person Sanja Juric: juric@uni-mannheim.de
+Assessment form ECTS Semester
+Analysis I Written exam (90 min.) or oral 10 Fall
+exam (30 min.); in advance
+(generally): successful
+participation in the exercise
+classes
+Analysis II Written exam (90 min.) or oral 10 Spring
+exam (30 min.); in advance
+(generally): successful
+participation in the exercise
+classes
+Linear Algebra I Written exam (90 min.) or oral 9 Fall
+exam (30 min.); in advance
+(generally): successful
+participation in the exercise
+classes
+Linear Algebra II Written exam (60 min.) or oral 9 Spring
+exam (30 min.); in advance
+(generally): successful
+participation in the exercise
+classes
+2635.4.2 Mathematics for students with skills in mathematics
+The elective Mathematics for students with prior skills can be taken flexibly within the range of 16 to
+24 ECTS. All offered classes of the Bachelor of Science and Master of Science in Mathematics in Busi-
+ness and Economics at the University of Mannheim can be taken except for lectures that have al-
+ready been completed during the bachelor’s degree and seminars of the program Mathematics in
+Business and Economics. Graduates from a mathematical degree courses are only allowed to take
+classes from the Bachelor of Science Mathematics in Business and Economics with the permission of
+the examining committee.
+Additional information on the individual classes as well as their respective requirements is available
+in the module catalogs of the B.Sc. and M.Sc. Business Mathematics programs.
+In general, it is advised to get in touch with the scientific staff for Mathematics in Business and Eco-
+nomics (studienberatung@wim.uni-mannheim.de) or with the Manager of Degree Programs at the
+School of Business Informatics (wessa@wim.uni-mannheim.de) and Mathematics in Business and
+Economics (boldin@wim.uni-mannheim.de) in terms of course selection.
+2645.5 Philosophy
+The elective Philosophy measures 16 ECTS.
+Students have to choose one of the following two modules: "Ethics, Society,
+Economy" or "Language, Knowledge, Reality".
+Module: Module: Ethics, Society, Economy DE
+Language German
+Necessary prerequisites –
+Further information Please enrol in courses via the course catalog of the School of Humanities /
+Department of Philosophy (Student Portal) or by writing an email to
+Program Manager Madeline Dahl (master(at)phil.uni-mannheim.de). Please
+note that courses are usually taught in German.
+Organizational information All courses have to be taken (16 ECTS in total). Topics and titles of the
+courses vary each semester. For details please see the course catalog of the
+School of Humanities / Department of Philosophy (Student Portal).
+Contact person Madeline Dahl (master(at)phil.uni-mannheim.de)
+Assessment form ECTS Semester
+Advanced Seminar: Ethics, Society, Economy Written term paper (20-25 8 Spring &
+pages) fall
+Advanced Seminar: Ethics, Society, Economy Written term paper (20-25 8 Spring &
+pages) fall
+265Module: Module: Language, Knowledge, Reality DE
+Language German
+Necessary prerequisites –
+Further information Please enrol in courses via the course catalog of the School of Humanities /
+Department of Philosophy (Student Portal) or by writing an email to
+Program Manager Sebastian Hempen (master(at)phil.uni-mannheim.de).
+Please note that courses are usually taught in German.
+Organizational information All courses have to be taken (16 ECTS in total). Topics and titles of the
+courses vary each semester. For details please see the course catalog of the
+School of Humanities / Department of Philosophy (Student Portal).
+Contact person Sebastian Hempen (master(at)phil.uni-mannheim.de)
+Assessment form ECTS Semester
+Main Seminar: Language, Knowledge, Reality Written term paper (20-25 8 Spring &
+pages) fall
+Main Seminar: Language, Knowledge, Reality Written term paper (20-25 8 Spring &
+pages) fall
+2665.6 Political Science
+The elective Political Science measures 6 to 20 ECTS.
+Students choose up to three courses in the field of political science.
+Students can choose up to two introductory lectures and up to two advanced lectures. Information
+about the course contents and the learning outcomes can be found in the module catalog of the
+B.A. Political Science (only in German). You can either enrol in courses via Student Portal or by writ-
+ing an E-Mail to Political Science Program Manager Gledis Londo (pol(at)sowi.uni-mannheim.de).
+The courses are usually taught in German. If they are taught in English, it will be announced
+by the lecturer or via Student Portal accordingly.
+Module: Political Science DE
+Language German
+Necessary prerequisites –
+Further information You can either enrol in courses via Student Portal or by writing an E-Mail to
+Political Science Program Manager Florian Dorner
+(politicalscience@uni-mannheim.de).
+Organizational information Students can choose up to two out of five Introductory Lectures and up to
+two out of three Advanced Lectures. In total, students can select up to three
+lectures.
+Contact person Florian Dorner (politicalscience@uni-mannheim.de)
+ECTS Semester
+Introductory Lecture: Introduction to Political Science 6 Fall
+Introductory Lecture: Introduction to the Political System of the Federal Republic 6 Fall
+of Germany
+Introductory Lecture: Introduction to Political Sociology 6 Fall
+Introductory Lecture: Introduction to Comparative Government 6 Spring
+Introductory Lecture: Introduction to International Relations 6 Fall
+Advanced Lecture: Selected Topics of Comparative Government 7 Spring &
+fall
+Advanced Lecture: Selected Topics of Political Sociology 7 Spring &
+fall
+Advanced Lecture: Selected Topics of International Relations 7 Spring &
+fall
+2672685.7 Computer Science
+The elective Computer Science measures 14 to 24 ECTS.
+Module: Computer Science DE EN
+Language German, English
+Necessary prerequisites –
+Further information –
+Contact person Lisa Wessa (wessa(at)wim.uni-mannheim.de)
+Assessment form ECTS Semester
+Computer Science I Participation at a tutorial, 8 Fall
+proven by minimum of handed
+in homeworks or presentation
+of a solution in class; written
+exam (90 min.)
+Computer Science II Written exam (90 min.) 6 Spring
+Algorithms and Data Structures Preparatory assessment: 8 Fall
+generally, successful
+participation in the exercise
+classes; written exam (100 min.)
+or two partial exams
+Database Systems I Preparatory assessment: 8 Fall
+generally, successful
+participation in the exercise
+classes; written exam (90 min.)
+or two partial exams
+2695.8 Psychology
+The elective Psychology measures 12 ECTS.
+Module: Psychology DE
+Language German
+Necessary prerequisites –
+Further information Please enrol in classes via Student Portal. Please note that courses are
+usually taught in German.
+Organizational information The elective subject Psychology requires the completion of three of the
+following four lectures (12 ECTS in total). For details on course contents
+please see the module catalog of the B.Sc. Psychology (in German). The
+overall grade is calculated by averaging the ECTS points of all graded partial
+examinations.
+Contact person Leonie Cegla (psy@sowi.uni-mannheim.de)
+Assessment form ECTS Semester
+K1: Social Psychology I (lecture) Written exam (PL), 60 min. 4 Spring
+K2: Social Psychology II (lecture) Written exam (PL), 60 min. 4 Spring
+L1: Industrial and Organizational Psychology Written exam (PL), 60 min. 4 Fall
+(lecture)
+N1: Consumer Psychology (lecture) Written exam (PL), 60 min. 4 Fall
+2705.9 Romance Studies
+The elective Romance Studies measures 15 to 18 ECTS.
+Students can register for one of the languages and cultures offered in the module, namely French,
+Spanish or Italian. The elective in Romance Studies offers a choice between Romance Linguistics or
+Romance Literature Studies. Topics and titles of the courses vary each semester. For details please
+see the course catalog of the School of Humanities / Department of Philosophy (Student Portal).
+5.9.1 Romance Studies for students without skills in humanities
+Module: Romance Linguistics for students without skills in DE
+humanities
+Language German
+Necessary prerequisites –
+Further information Please enrol in courses via the course catalog of the School of Humanities /
+Department of Philosophy (Student Portal) or e-Mail to program manager
+Madeline Dahl (master.phil@uni-mannheim.de).
+Organizational information The advanced seminars in linguistics and regional studies are to be taken
+alternatively. The other seminars complete the elective (16 ECTS).
+Contact person Madeline Dahl (master(at)phil.uni-mannheim.de)
+Necessary prerequisites Assessment form ECTS Semester
+Lecture: Introduction to Written exam 4 Spring &
+Linguistics and Media (max. 90 min.) fall
+Studies of Romance
+Studies (without tutorial)
+Proseminar: Linguistics Lecture Introduction to Presentation and 6 Spring &
+Linguistics and Media written exam or fall
+Studies of Romance Studies term paper (the
+form of
+assessment
+depends on the
+lecturers)
+Proseminar: related to Lecture Introduction to Presentation and 6 Spring &
+cultural areas Literature and Media written exam or fall
+Studies of Romance Studies term paper (the
+and/or lecture Introduction form of
+to Linguistics and Media assessment
+Studies of Romance Studies depends on the
+lecturers)
+271Exercise class: Practical Foreign language Written exam and 3 Spring &
+Language Level II competence I and II in the exercises or oral fall
+chosen Romance language exams
+or proof of adequate throughout the
+language competence semester
+through placement tests
+Exercise class: Practical Foreign language Written exam and 3 Spring &
+Language Level III competence I and II in the exercises or oral fall
+(economy – economic chosen Romance language exams
+alignment) or proof of adequate throughout the
+language competence semester
+through placement tests
+272Module: Romance Literature Studies for students without DE
+skills in humanities
+Language German
+Necessary prerequisites –
+Further information Please enrol in courses via the course catalog of the School of Humanities /
+Department of Philosophy (Student Portal) or e-Mail to program manager
+Madeline Dahl (master.phil@uni-mannheim.de).
+Organizational information The proseminars literature studies and regional studies are to be taken
+alternatively. The other seminars complete the elective (16 ECTS).
+Contact person Madeline Dahl (master(at)phil.uni-mannheim.de)
+Necessary prerequisites Assessment form ECTS Semester
+Lecture: Introduction to Written exam 4 Spring &
+Literature and Media (max. 90 min.) fall
+Studies of Romance
+Studies
+Proseminar: Literature Introduction to Literature Presentation and 6 Spring &
+Studies and Media Studies of written exam fall
+Romance Studies (max. 90 min.) or
+term paper (the
+form of
+assessment
+depends on the
+lecturers)
+Proseminar: related to Introduction to Literature Presentation and 6 Spring &
+cultural areas and Media Studies of written exam fall
+Romance Studies and/or (max. 90 min.) or
+lecture Introduction to term paper (the
+Linguistics and Media form of
+Studies of Romance Studies assessment
+depends on the
+lecturers)
+Exercise class: Practical Foreign language Written exams 3 Spring &
+Language Level II competence I and II in the and oral exams or fall
+chosen Romance language exercises
+or proof of adequate throughout the
+language competence semester
+through placement tests
+Exercise class: Practical Foreign language Written and oral 3 Spring &
+Language Level III competence I and II in the exams or fall
+(economy – economic chosen Romance language exercises
+alignment) or proof of adequate throughout the
+language competence semester
+through placement tests
+2735.9.2 Romance Studies for students with skills in humanities
+Module: Romance Linguistics for students with skills in DE
+humanities
+Language German
+Necessary prerequisites –
+Further information Please enrol in courses via the course catalog of the School of Humanities /
+Department of Philosophy (Student Portal) or e-Mail to program manager
+Madeline Dahl (master.phil@uni-mannheim.de).
+Organizational information You have to select either the Lecture "Linguistic Methods (Master's program
+„Language and Communication“)" or a Seminar to be chosen from the
+offerings of the master's program “Language and Communication” (15 or 18
+ECTS in total).
+Contact person Madeline Dahl (master(at)phil.uni-mannheim.de)
+Assessment form ECTS Semester
+Lecture: Linguistic Methods (from the Written exam 4
+Master's program „Language and
+Communication“)
+Seminar to be chosen from the offerings of Written and/or oral exams 7
+the master's program “Language and
+Communication”
+Seminar to be chosen from the offerings of Written and/or oral exams 7
+the master's program “Language and
+Communication”
+Exercise class: Practical Language Level IV Written exam and written 4
+(economy – economic alignment) and/or oral exercises
+throughout the semester
+274Module: Romance Literature Studies for students with DE
+skills in humanities
+Language German
+Necessary prerequisites –
+Further information Please enrol in courses via the course catalog of the School of Humanities /
+Department of Philosophy or e-Mail to program manager Madeline Dahl
+(master.phil@uni-mannheim.de).
+Organizational information You have to select either the Lecture "Theoretical Basics of Literary Studies"
+or the Seminar "Theoretical Basics of Literary Studies" (16 or 18 ECTS in
+total)
+Contact person Madeline Dahl (master(at)phil.uni-mannheim.de)
+Assessment form ECTS Semester
+Lecture: Theoretical Basics of Literary Studies Written exam 5
+Seminar: Theoretical Basics of Literary Essay 7
+Studies
+Seminar to be chosen from the offerings of Term paper or oral exam 7
+the master's program “Literature, Media and
+Culture in the Modern Era”
+Exercise class: Practical Language Level IV Written exam and written 4
+(economy – economic alignment) and/or oral exercises
+throughout the semester
+2755.10 Sociology
+The elective Sociology measures 19 ECTS.
+Students choose one of the following two modules. The module grade consists of the examination
+grades weighted by the number of ECTS credits. You find the Contents and the Learning Outcomes
+of each course in the module catalog of the B.A. Sociology (in German). The courses are usually
+taught in German. If they are taught in English, the responsible lecturer will anounce it ac-
+cordingly.
+Module: Elective Sociology A: General and Specific DE
+Sociology
+Language German
+Necessary prerequisites –
+Further information –
+Organizational information All courses have to be taken (19 ECTS in total)
+Contact person Stefanie Thye (soc@sowi.uni-mannheim.de)
+ECTS Semester
+Lecture: Fundamentals of Sociology 6 Fall
+Exercise Class: Fundamentals of Sociology 4 Fall
+Lecture: General Sociology 6 Spring
+Exercise Class: Specific Sociology 3 Spring
+276Module: Elective Sociology B: European Societies DE
+Language German
+Necessary prerequisites –
+Further information –
+Organizational information All courses have to be taken (19 ECTS in total).
+Contact person Stefanie Thye (soc@sowi.uni-mannheim.de)
+ECTS Semester
+Lecture: Social Structure in Germany in International Comparison 6 Fall
+Exercise Class: Social Structure in Germany in International Comparison 4 Fall
+Lecture: Comparative European Societies 6 Spring
+Exercise Class: Current Research Topics 3 Spring
+2775.11 Economics
+The elective Economics measures 2 to 24 ECTS.
+Module: Economics EN
+Language English
+Further information We recommend you to contact the Program Management of the
+Department of Economics for advice which courses to choose to complete
+your studies
+Organizational information The elective Economics measures 2 to 24 ECTS. Students are generally free
+to choose any elective course offered in the Master program of Economics.
+Detailed information on the courses and their respective prerequisites can
+be found via
+https://www.vwl.uni-mannheim.de/studium/masterstudium/course-
+catalog.
+Contact person Email: econgrad@uni-mannheim.de, Tel: 181-1763 oder +49 176 87066498
+2785.12 Business Education
+The elective Business Education measures 16 to 24 ECTS.
+At least one course from the module "Educational Management" must be taken. Referring to the ex-
+amination regulations § 11 (6), the form of the assessment will be communicated at the latest at the
+start of the course. Please note that all courses are taught in German.
+Module: Module: Development of Commercial DE
+Competences
+Language German
+Necessary prerequisites –
+Further information Please enroll in courses via Student Portal.
+Organizational information You can obtain 0 to 8 ECTS in this module.
+Contact person Clara Vonhof (studieninfo.wipaed(at)uni-mannheim.de)
+Assessment form ECTS Semester
+Development of commercial competences I Academic paper 4 Fall
+Development of commercial competences II Written exam (60 min.) 4 Spring
+279Module: Module: Educational Management DE
+Language German
+Necessary prerequisites –
+Further information Please enroll in courses via Student Portal.
+Organizational information In order to complete the Elective "Business Education", you have to take at
+least one course from this module ("Educational Management"). You can
+obtain 4 to 12 ECTS in this module.
+Contact person Clara Vonhof (studieninfo.wipaed(at)uni-mannheim.de)
+Assessment form ECTS Semester
+Educational Management I: Vocational Academic paper, project work, 4 Fall
+Education oral presentation.
+Educational Management II: Vocational Academic paper, project work, 4 Spring
+Training oral presentation.
+Educational Management III: Learning Academic paper, project work, 4 Fall
+culture in organizations oral presentation.
+280Module: Module: Special Subject DE
+Language German
+Necessary prerequisites –
+Further information Please enrol in courses via Student Portal
+Organizational information You can obtain 0 to 16 ECTS in this module.
+Contact person Clara Vonhof (studieninfo.wipaed(at)uni-mannheim.de)
+Assessment form ECTS Semester
+Quality Management at Educational Will be announced in the 4
+Institutions course
+Evaluation Methods and Standards Will be announced in the 4
+course
+Ideas and History of vocational Training Will be announced in the 4
+course
+Current Didactical Problems Will be announced in the 4
+course
+ENGAGE.EU Signature Course "The Future of Will be announced in the 5
+Work" course
+2815.13 Business Law
+The elective Business Law measures 2 to 24 ECTS.
+Please find more detailed descriptions of the modules in the module catalogs of the Department of
+Law (only in German):
+https://www.jura.uni-mannheim.de/studium/master-of-laws/studienaufbau/#c16108
+https://www.jura.uni-mannheim.de/studium/kombinationsstudiengang-unternehmensjurist-in/ab-
+schnitt-unternehmensjurist-in-llb/studienaufbau/#c9345.
+Module: Elective Module Commercial Law, Corporate and DE
+Partnership Law
+Language German
+Necessary prerequisites –
+Further information Please enrol via Student Portal
+Organizational information In this elective, students can take the lectures Stock Corporation Law
+and/or Corporate Law and/or Transformation Law collecting 2, 4, 6, or 8
+ECTS. Alternatively, all courses listed hcan be taken (20 ECTS).
+Educational and Qualification Objectives: Students know basic terms
+and principals of the German Commercial and Partnership Law, including
+Corporate Law. They will analyze facts of a case from this area and develop
+legal solutions.
+Recommendes Prerequisites: Basic knowledge of civil law
+Contact person Prof. Dr. Carsten Schäfer
+Assessment form ECTS Semester
+Lecture Commercial Law Two out of four exams in the 5 Fall
+tutorial for Commercial,
+Corporate and Partnership Law
+must be passed.
+Lecture Corporate and Partnership Law Two out of four exams in the 5 Fall
+tutorial for Commercial,
+Corporate and Partnership Law
+must be passed.
+Tutorial Commercial Law / Corporate and Two out of four exams in the 2 Spring
+Partnership Law tutorial for Commercial,
+Corporate and Partnership Law
+must be passed.
+Lecture Stock Corporation Law Oral exam 4 Spring
+282Lecture Corporate Law Oral exam 2 Spring
+Lecture Transformation Law Oral exam 2 Spring
+283Module: Elective Module European and International EN
+Business Law
+Language English
+Necessary prerequisites –
+Further information Please register with Mrs. Berina Fischer-Corbo (mcbl@mail.uni-
+mannheim.de). Please note the registation period of the Department of
+Law.
+Organizational information In this elective module students can collect up to 15 ECTS. A variety of
+courses taught in English is offered, of which students choose between two
+and five.
+You find the Course Contents and Learning Outcomes of each course at
+the module catalog of the Master of Comparative Business Law.
+Recommended prerequisites: Basic knowledge of civil law and public law
+Contact person Berina Fischinger-Corbo (mcbl@mail.uni-mannheim.de)
+Assessment form ECTS Semester
+Lecture European Market Freedoms Written exam 3 Fall
+Lecture European Competition Law Written exam 3 Fall
+Lecture European Tax Law Written exam and possibly oral 2 Fall
+exam
+Lecture International Trade Law Written exam 3 Spring
+Lecture International Business Transaction Written exam and possibly oral 2 Spring
+exam
+Lecture Law and Economics Written exam 4 Spring
+284Module: Elective Module Law of Financial Services DE
+Language German
+Necessary prerequisites –
+Further information Please enrol via Student Portal
+Organizational information You can obtain between 4 and 16 ECTS in this module.
+Educational Objectives: Students are familiar with basic – German and
+European – legal regulations of banking/capital markets/Insurance Law.
+They know the special meaning of ‘General Terms and Conditions’ and the
+jurisprudence of the supreme court in that field.
+Recommended Prerequisites: Basic knowledge of civil law.
+Partial examinations: There will be an oral exam in every course at the end
+of the semester. The grade for the module is computed out of the
+(arithmetic) average ECTS points of all graded partial examinations.
+Contact person Prof. Dr. Georg Bitter and Prof. Dr. Oliver Brand
+Assessment form ECTS Semester
+Lecture Capital Market Law Oral exam 4 Fall
+Lecture Private Insurance Law I (law of Oral exam 4 Spring
+insurance contract)
+Lecture Banking Law Oral exam 4 Spring
+Lecture Private Insurance Law II (Insurance Oral exam 4 Fall
+Company Law, Insurance Control Law -
+German and International)
+285Module: Elective Module Public Business Law DE
+Language German
+Necessary prerequisites –
+Further information Please enrol via Student Portal
+Organizational information You can sign up for his elective only as a whole. It measures 12 ECTS.
+Educational and Qualification Objectives: Students know the legal basics
+of our economic constitution and gain insight into Public Business Law
+including its references to European law. They broaden their knowledge in
+a seminar.
+Recommended Prerequisites: Basic knowledge of civil law.
+Contact person Prof. Dr. Hans-Joachim Cremer
+Assessment form ECTS Semester
+Lecture (with study group) German Economic Written exam (180 min.) 4 Fall
+Constitutional Law
+Lecture (with study group) European Written exam (180 min.) 4 Spring
+Economic Constitutional Law
+Lecture (with study group) Basics of Written exam (180 min.) 4 Spring
+Economic Administrative Law
+286Module: Elective Module Tax Law DE
+Language German
+Necessary prerequisites –
+Further information Please enrol via Student Portal
+Organizational information In this elective module the students can collect 12 – 24 ECTS. Additionally,
+the elective can be combined with courses of the elective module
+Commercial Law, Corporate and Partnership Law.
+Educational and Qualification Objectives: In addition to the modules in
+Business Taxation offered by the Areas Accounting and Taxation, students
+are familiar with basic regulations of Procedural Tax Law and the treated
+special tax laws. They are able to apply these regulations on facts of a case,
+taking the judicial methodology into account.
+Recommend prerequisites: It is helpful to also enrol in the modules TAX
+510 and 520 (respectively 530).
+Contact person Prof. Dr. Thomas Fetzer
+Assessment form ECTS Semester
+Lecture Procedural Tax Law Written exam (90 min.); the 4 Fall
+exam can be substituted for an
+oral exam of 15 min. per
+candidate (according to the
+decision of the examining
+committee).
+Lecture Value Added Tax Law Written exam (90 min.); the 4 Fall
+exam can be substituted for an
+oral exam of 15 min. per
+candidate (according to the
+decision of the examining
+committee).
+Lecture Financial and Tax Accounting Written exam (90 min.); the 4 Fall
+exam can be substituted for an
+oral exam of 15 min. per
+candidate (according to the
+decision of the examining
+committee).
+Lecture Advanced Enterprise Tax Law Written exam (90 min.); the 4 Fall
+exam can be substituted for an
+oral exam of 15 min. per
+candidate (according to the
+decision of the examining
+committee).
+Lecture Penal Fiscal Law Written exam (90 min.); the 4 Fall
+exam can be substituted for an
+oral exam of 15 min. per
+candidate (according to the
+decision of the examining
+committee).
+287Lecture European Tax Law Written exam (90 min.); the 4 Fall
+exam can be substituted for an
+oral exam of 15 min. per
+candidate (according to the
+decision of the examining
+committee).
+Lecture Inheritance Tax Law and Legal Written exam (90 min.); the 4 Spring
+Valuation exam can be substituted for an
+oral exam of 15 min. per
+candidate (according to the
+decision of the examining
+committee).
+Lecture Tax Reorganization Law Written exam (90 min.); the 4 Spring
+exam can be substituted for an
+oral exam of 15 min. per
+candidate (according to the
+decision of the examining
+committee).
+Lecture International Tax Law Written exam (90 min.); the 4 Spring
+exam can be substituted for an
+oral exam of 15 min. per
+candidate (according to the
+decision of the examining
+committee).
+Lecture Enterprise Tax Law Written exam (90 min.); the 4 Spring
+exam can be substituted for an
+oral exam of 15 min. per
+candidate (according to the
+decision of the examining
+committee).
+Lecture Income Tax Law Written exam (90 min.); the 6 Spring
+exam can be substituted for an
+oral exam of 15 min. per
+candidate (according to the
+decision of the examining
+committee).
+288Module: Elective Module: Employment Law DE
+Language German
+Necessary prerequisites –
+Further information Please enrol via Student Portal.
+Organizational information In this elective module the students can collect 4 – 16 ECTS.
+Course content: Individual Employment Law, Collective Employment Law,
+Human Resource Management in organizations from a judicial perspective.
+Learning outcomes: Students have knowledge of basic terms and
+principals of the German and European employment law, as well as the
+given jurisprudence of the supreme court. They understand the interaction
+between individual and collective legal instruments.
+Recommended prerequisities: Basic knowledge of civil law.
+The grade for the module is computed out of the (arithmetic) average ECTS
+points of all graded partial examinations.
+Contact person Simon Geier
+Necessary prerequisites Assessment form ECTS Semester
+Lecture Collective Oral exam 6 Fall
+Employment Law or (written) exam
+at the end of the
+semester. The
+person
+responsible for
+the module will
+announce the
+form of the
+examination at
+the beginning of
+the spring
+semester.
+Lecture Labour Law and Oral exam 4 Fall
+Human Resource or (written) exam
+Management at the end of the
+semester. The
+person
+responsible for
+the module will
+announce the
+form of the
+examination at
+the beginning of
+the spring
+semester.
+289Lecture Coalition and Lecture Collective Oral exam 4 Fall
+Labour Agreement Law Employment Law or (written) exam
+at the end of the
+semester. The
+person
+responsible for
+the module will
+announce the
+form of the
+examination at
+the beginning of
+the spring
+semester.
+Case Study Human Lecture Labour Law and Oral exam 2 Spring
+Recources and Human Resource or (written) exam
+Organization Management at the end of the
+semester. The
+person
+responsible for
+the module will
+announce the
+form of the
+examination at
+the beginning of
+the spring
+semester.
+Schutz besonderer Klausur (60 min) 4 Fall
+Arbeitnehmergruppen oder mündliche
+Prüfung (20 min)
+290
+
+6 MASTER'S
+THESIS
+291Module: Module Master's Thesis DE EN
+Contents Learning outcomes
+Students work independently on a research topic from the field Students are able to identify a problem and independently come
+of their specialized area. Students identify a relevant research up with a solution using academic methods. In particular, stu-
+problem, conduct a thorough review of relevant literature, and dents are capable to find, analyze, evaluate, select and integrate
+apply an appropriate methodological approach to develop a so- high-quality information using various sources. The students can
+lution using academic methods. structure and write a scientific research work and have an in-
+depth knowledge in their specialized area.
+Prerequisites for participation
+Necessary: At least one seminar (module 700); prerequisites for
+every single chair are listed at the end of the Module Catalog
+Recommended: –
+ECTS credits 24
+Graded yes
+Workload 720h
+Language German, English
+Form of assessment Master's Thesis (preparation time: 20 weeks, scope depends on the
+individual topic and will be determined by the supervisor)
+Restricted admission yes
+Further information websites of the chairs
+Performing lecturer Betreuer/in des jeweiligen Lehrstuhls / respective supervisors
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+6.1 Area Accounting and Taxation
+Prerequisites for the Master’s Thesis at the following chairs:
+Prof. Dr. Jannis Bischof (Chair of Business Administration & Accounting), Prof. Dr. Holger Daske
+(Chair of Accounting & Capital Markets ), Prof. Dr. Dirk Simons (Chair of Business Administration &
+Accounting), Prof. Dr. Jens Wüstemann (Chair of Business Administration, Accounting & Auditing),
+Prof. Dr. Davud Rostam-Afschar (Professorship of Accounting), Jun.-Prof. Felix Vetter,
+292Ph (Assistant Professorship of Accounting & Taxation), Jun.-Prof. Reeyarn Zhiyang Li (Assistant
+Professor of Accounting & Taxation):
+ACC 750. Acceptance of other seminars upon individual agreement in specific circumstances.
+Prof. Dr. Stefan Reichelstein (LS für ABWL), Jun.-Prof. Dr. Gunther Glenk (Juniorprofessur für Ac-
+counting), Jun.-Prof. Dr. Nikolas Wölfing (Juniorprofessur für Accounting):
+ACC 715 or MAN 771. Acceptance of other seminars upon individual agreement in specific cir-
+cumstances.
+Prerequisites for the Master’s Thesis at the following chairs:
+Prof. Dr. Philipp Dörrenberg (Chair of Business Administration and Taxation), Prof. Dr. Christoph
+Spengel (Chair of International Taxation), Prof. Dr. Katharina Nicolay (Assistant Professor of Ac-
+counting & Taxation, especially Business Taxation), Prof. Dr. Johannes Voget (Chair of Taxation &
+Finance):
+TAX 730. Acceptance of seminars from other chairs after consulting the respective professor.
+6.2 Area Finance
+Prerequisites for the Master’s Thesis at the chairs of the Area Finance:
+Prof. Ernst Maug, Ph.D. (Chair of Corporate Finance), Prof. Dr. Alexandra Niessen-Ruenzi (Chair
+of Corporate Governance), Prof. Dr. Stefan Ruenz (Chair of International Finance), Prof. Dr. Oliver
+Spalt (Chair of Finance and Financial Institutions), Prof. Dr. Erik Theissen (Chair of Finance), Prof.
+Dr. Martin Weber (Senior Professorship of Finance & Banking):
+FIN 5XX and one seminar from the Finance area.
+Other seminars could be accepted in exceptional cases.
+6.3 Area Information Systems
+Prerequisites for the Master’s Thesis at the chairs of the Area Information Systems:
+Prof. Dr. Armin Heinzl (Chair of General Management and Information Systems I), Prof. Dr. Hart-
+mut Höhle (Chair of Enterprise Systems), Prof. Dr. Jana-Rebecca Rehse (Assistant Professor of
+Management Analytics), Prof. Dr. Markus Strohmaier (Chair for Data Science in the Economic and
+Social Sciences):
+293IS 7XX.
+Any one of the seminar modules IS 702, IS 712, IS 722, IS 723, IS 724, IS 742, IS 751, IS 752 is ac-
+cepted at any one of the IS chairs. However, it is recommended to write the Master thesis at the
+same chair at which the seminar module was taken. This allows for an early integration into the
+respective research and work projects of the chair.
+Seminars from oher areas may be accepted if the supervising professor confirms how it fits to
+the area of Information Systems.
+6.4 Area Management
+Prerequisites for the Master’s Thesis at the following chairs:
+Prof. Dr. Torsten Biemann (Chair of Business Administration, HRM & Leadership): MAN 741/742
+and MAN 640 or MAN 641 or MAN 642 or MAN 644 or MAN 645 or MAN 646 or MAN 647 or
+MAN 648 or MAN 649.
+Prof. Dr. Matthias Brauer (Chair of Strategic & International Management): MAN 750 and ei-
+ther MAN 654 or MAN 655 or MAN 656 or MAN 657.
+Prof. Dr. Bernd Helmig (Chair of Business Administration, Public & Nonprofit Management):
+MAN 710/711/712 and either MAN 617 or MAN 619 or MAN 637 or MAN 659 or MAN 674 oder
+MAN 675 or MAN 676 or MAN 679 or MAN 680.
+Prof. Dr. Karin Hoisl (Chair of Organization & Innovation): MAN 721 and either MAN 690 or
+MAN 691 or MAN 692 or MAN 693 or MAN 658.
+Prof. Dr. Michael Woywode (Chair of Small & Medium Sized Enterprises & Entrepreneurship):
+MAN 770 and either MAN 630 or MAN 631 or MAN 632 or MAN 633 or MAN 634.
+Other seminars can be accepted in exceptional cases.
+6.5 Area Marketing and Sales
+Prerequisites for the Master’s Thesis at the chairs of the Area Marketing and Sales:
+Prof. Dr. Dr. h.c. mult. Christian Homburg (Chair of Business-to-Business Marketing, Sales & Pric-
+ing), Prof. Dr. Florian Kraus (Dr. Werner Jackstädt Endowed Chair of Sales & Services Marketing),
+Prof. Dr. Sabine Kuester (Chair of Marketing & Innovation), Prof. Dr. Florian Stahl (Chair of Quan-
+titative Marketing & Consumer Analytics), Prof. Dr. Arnd Vomberg (Professorship of Digital Market-
+ing and Marketing Transformation):
+MKT 7X0.
+Any one of the seminar modules MKT 710, MKT 720, MKT 730, MKT 740 and MKT 750 entitles stu-
+dents to write their Master's thesis at any one of the Marketing departments. However, it is rec-
+294ommended to write the Master's thesis at the same department at which the seminar module
+was taken. This allows for an early integration into the respective research and work projects at
+the department.
+Other seminars could be accepted in exceptional cases.
+6.6 Area Operations Management
+Prerequisites for the Master’s Thesis at the chairs of the Area Operations Management:
+Prof. Dr. Christoph Bode (Endowed Chair of Procurement), Prof. Dr. Moritz Fleischmann (Chair of
+Logistics & Supply Chain Management), Prof. Dr. Cornelia Schön (Chair of Service Operations Man-
+agement), Prof. Dr. Raik Stolletz (Chair of Production Management):
+Either: At least one module OPM 6XX and either OPM 701or OPM 741 or OPM 751 or OPM 760
+or OPM 761 or OPM 781 or OPM 791 or OPM 792.
+Or: an equivalent module within an exchange program and and either OPM 701 or OPM 741
+or OPM 751 or OPM 760 or OPM 761 or OPM 781 or OPM 791 or OPM 792.
+The Area Operations Management recommends that the seminar and the Master’s Thesis are
+written at the same chair. However, seminars from another chair within the area are accepted.
+Other seminars could be accepted in exceptional cases.
+Prof. Dr. Martin Glanzer (Assistant Professorship for Operations Management):
+OPM 701or OPM 741 or OPM 751 or OPM 760 or OPM 761 or OPM 781 or OPM 791 or OPM 792
+Other seminars could be accepted in exceptional cases.
+6.7 Elective
+The Master’s Thesis can be written in an elective if the thesis includes business-related aspects.
+295
+Powered by TCPDF (www.tcpdf.org)
+

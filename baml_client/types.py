@@ -81,7 +81,8 @@ class Module(BaseModel):
     assessmentForms: List["AssessmentForm"]
     examinationDistribution: Optional[str] = None
     examinationDuration: Optional[int] = None
-    prerequisiteModules: List[str]
+    requiredPrerequisiteModules: List[str]
+    optionalPrerequisiteModules: List[str]
     additionalPrerequisite: Optional[str] = None
     furtherModules: List[str]
 
@@ -107,7 +108,7 @@ class Person(BaseModel):
     
     name: str
     title: Optional[str] = None
-    isPerson: bool
+    hasName: bool
 
 class StudyArea(BaseModel):
     

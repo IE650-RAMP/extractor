@@ -67,7 +67,7 @@ class ModuleList {
 class Module {
   name string @description("The name of the module (in snake case)")
   id string @description("The ID of the module typically a letter-number combination e.g. IE_100 (in snake case)")
-  ects int @description("The European Credit Transfer and Accumulation System (ECTS) points for the module")
+  ects int @description("The number of ECTS points for the module")
   workloadInPerson int @description("The in-person workload hours for the module")
   workloadSelfStudy int @description("The self-study workload hours for the module")
   offeredIn Semester[] @description("The semester when the module is offered")
@@ -81,7 +81,8 @@ class Module {
   examinationDistribution string? @description("Distribution method for examinations in this module (e.g. 80/20, 100)")
   examinationDuration int? @description("Duration of the examination in minutes")
   
-  prerequisiteModules string[] @description("A list of module IDs (typically a letter-number combination such as IE_100) that are a explicitly stated as required prerequisite for this module")
+  requiredPrerequisiteModules string[] @description("A list of module IDs (typically a letter-number combination such as IE_100) that are a explicitly stated as required prerequisite for this module")
+  optionalPrerequisiteModules string[] @description("A list of module IDs (typically a letter-number combination such as IE_100) that are a optional additional prerequisite for this module")
   additionalPrerequisite string? @description("Any additional prerequisites for the module")
   furtherModules string[] @description("A list of module names that are recommended subsequent modules")
   // isFollowupOfModule string[] @description("List of modules that this module follows up on")
@@ -92,10 +93,9 @@ class Module {
 }
 
 class Person {
-  name string @description("The name of a person without their title, e.g., a lecturer or person in charge of a module")
+  name string @description("The name of a person without their title. If no name is given use a short description and set hasName to false")
   title string? @description("The title of a person, e.g., Prof. Dr.")
-  isPerson bool @description("Indecation if this is a person (true) or different entity (false)")
-  // isChairOf string[] @description("List of modules or programs that this person chairs")
+  hasName bool @description("Indecation if this is a person with a name (true) or different entity (false)")
 }
 
 
@@ -129,7 +129,7 @@ test extract_module_catalog {
 function ExtractModulesList(module_catalog: string) -> ModuleList {
   client "openai/gpt-4o-mini"
   prompt #"
-    Extract the modules from this university module cataloge in the defined schema:
+    Extract the modules from this university module cataloge in the defined schema.
     {{ module_catalog }}
 
     {{ ctx.output_format }}
@@ -149,7 +149,7 @@ test extract_modules {
 function ExtractStudyProgrammOverview(module_catalog: string) -> StudyProgrammOverview {
   client "openai/gpt-4o-mini"
   prompt #"
-    Extract the information from this university module cataloge according to the defined schema:
+    Extract the information from this university module cataloge according to the defined schema.
     {{ module_catalog }}
 
     {{ ctx.output_format }}
@@ -160,7 +160,7 @@ test extract_program_overview {
   functions [ExtractStudyProgrammOverview]
   args {
     module_catalog #"
-      
+
     "#
   }
 }
