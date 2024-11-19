@@ -217,3 +217,9 @@ def process_module_files(folder):
             process_module_list(file_path)
         except Exception as e:
             print(f"Error processing file {file_path}: {e}")
+
+def format_module_name(name: str) -> str:
+    return ' '.join(
+        word.capitalize() if word else word  # Capitalize first letter, handle empty strings
+        for word in name.replace('_', ' ').split(' ')
+    )
