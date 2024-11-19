@@ -223,3 +223,9 @@ def format_module_name(name: str) -> str:
         word.capitalize() if word else word  # Capitalize first letter, handle empty strings
         for word in name.replace('_', ' ').split(' ')
     )
+
+def format_degree_name(name: str) -> str:
+    return ' '.join(
+        word.capitalize() if word else word  # Capitalize first letter, handle empty strings
+        for word in name.split('_')
+    )

@@ -13,21 +13,12 @@ ramp:ects a owl:DatatypeProperty ;
             owl:unionOf ( ramp:Module ramp:StudyArea ) ] ;
     rdfs:range xsd:decimal .
 
-ramp:examinationDistribution a owl:DatatypeProperty ;
-    rdfs:domain [ a owl:Class ;
-            owl:intersectionOf ( ramp:Module [ a owl:Restriction ;
-                        owl:hasSelf true ;
-                        owl:onProperty ramp:hasAssesment ] ) ] ;
-    rdfs:subPropertyOf owl:topDataProperty .
-
-ramp:examinationDuration a owl:DatatypeProperty ;
-    rdfs:domain [ a owl:Class ;
-            owl:intersectionOf ( ramp:Module [ a owl:Restriction ;
-                        owl:hasSelf true ;
-                        owl:onProperty ramp:hasAssesment ] ) ] .
-
 ramp:hasAdditionalPrerequisite a owl:DatatypeProperty ;
     rdfs:domain ramp:Module .
+
+ramp:hasAssessment a owl:ObjectProperty ;
+    rdfs:domain ramp:Module ;
+    rdfs:range ramp:Assessment .
 
 ramp:hasDegree a owl:ObjectProperty ;
     rdfs:domain ramp:StudyProgram ;
@@ -58,18 +49,19 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/ACC_620> rdfs:label "Accounting For Financial Instruments And Institutions" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/HOLGER_DASKE> ;
     ramp:workloadInPerson "24"^^xsd:int ;
     ramp:workloadSelfStudy "156"^^xsd:int .
 
 <http://ramp.uni-mannheim.de/module/ACC_670> rdfs:label "Audit Theory" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Preparation of the literature that will be provided for self-study" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "ORAL" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "ORAL" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/DIRK_SIMONS>,
         <http://ramp.uni-mannheim.de/person/SEBASTIAN_KRONENBERGER> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/ACC_671> ;
@@ -79,9 +71,9 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/ACC_676> rdfs:label "Case Studies On Consulting In Financial Services Firms" ;
     ramp:ects "4"^^xsd:int ;
     ramp:hasAssesment [ ramp:examinationDistribution 50.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ],
+            ramp:hasAssessmentForm "REPORT" ],
         [ ramp:examinationDistribution 50.0 ;
-            ramp:hasAssessmentForm "REPORT" ] ;
+            ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/GERO_WIECHENS> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/ACC_510>,
         <http://ramp.uni-mannheim.de/module/ACC_520>,
@@ -96,9 +88,9 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
     ramp:ects "6"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic knowledge in game theory, preparation of provided literature" ;
     ramp:hasAssesment [ ramp:examinationDistribution 50.0 ;
-            ramp:hasAssessmentForm "REPORT" ],
+            ramp:hasAssessmentForm "PRESENTATION" ],
         [ ramp:examinationDistribution 50.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ] ;
+            ramp:hasAssessmentForm "REPORT" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/DIRK_SIMONS> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/ACC_675> ;
     ramp:workloadInPerson "22"^^xsd:int ;
@@ -127,15 +119,18 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/ACC_MAN_560> rdfs:label "Managerial Accounting",
         "Managerial Accounting Evaluating Financial And Non Financial Performance" ;
     ramp:ects "8"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Bachelor-level knowledge of cost accounting" ;
-    ramp:hasAssesment [ ramp:examinationDistribution 75.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ],
+    ramp:hasAssesment [ ramp:examinationDistribution 25.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
         [ ramp:examinationDistribution 75.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
             ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:examinationDistribution 25.0 ;
-            ramp:hasAssessmentForm "WRITTEN" ] ;
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDistribution 75.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/CLAUDIA_MAX>,
         <http://ramp.uni-mannheim.de/person/JANNIS_BISCHOF> ;
@@ -149,12 +144,12 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/ACC_MAN_660> rdfs:label "Corporate Sustainability",
         "Corporate Sustainability Strategies And Value Creation" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "45"^^xsd:int,
-        "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Bachelor-level knowledge of value-based management" ;
-    ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+    ramp:hasAssesment [ ramp:examinationDuration "45"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+        [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/HOLGER_RUBEL>,
         <http://ramp.uni-mannheim.de/person/JANNIS_BISCHOF> ;
@@ -168,7 +163,6 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/ACC_MAN_661> rdfs:label "Corporate Sustainability Performance",
         "Corporate Sustainability Performance Measurement Assessment And Improvement" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "45"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "ACC 510",
         "ACC 520",
         "ACC 530",
@@ -178,12 +172,16 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
         "ACC/TAX 570",
         "Bachelor-level knowledge of sustainability management and performance measurement" ;
     ramp:hasAssesment [ ramp:examinationDistribution 75.0 ;
+            ramp:examinationDuration "45"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDistribution 25.0 ;
+            ramp:examinationDuration "45"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
         [ ramp:examinationDistribution 75.0 ;
+            ramp:examinationDuration "45"^^xsd:int ;
             ramp:hasAssessmentForm "PRESENTATION" ],
         [ ramp:examinationDistribution 25.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:examinationDistribution 25.0 ;
+            ramp:examinationDuration "45"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/HOLGER_RUBEL>,
@@ -205,7 +203,6 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/ACC_MAN_662> rdfs:label "Private Equity Due Diligence",
         "Private Equity Due Diligence And Value Creation" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "45"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "ACC 510",
         "ACC 520",
         "ACC 530",
@@ -214,12 +211,16 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
         "ACC/TAX 570",
         "Basic knowledge of Corporate Finance" ;
     ramp:hasAssesment [ ramp:examinationDistribution 50.0 ;
+            ramp:examinationDuration "45"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ],
         [ ramp:examinationDistribution 50.0 ;
+            ramp:examinationDuration "45"^^xsd:int ;
             ramp:hasAssessmentForm "PRESENTATION" ],
         [ ramp:examinationDistribution 50.0 ;
+            ramp:examinationDuration "45"^^xsd:int ;
             ramp:hasAssessmentForm "PRESENTATION" ],
         [ ramp:examinationDistribution 50.0 ;
+            ramp:examinationDuration "45"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/WILHELM_SCHMUNDT> ;
@@ -264,9 +265,9 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/FIN_620> rdfs:label "Fin 620 Behavioral Finance" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic knowledge of mathematics and statistics is assumed." ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MARTIN_WEBER> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/FIN_500>,
         <http://ramp.uni-mannheim.de/module/FIN_540>,
@@ -290,8 +291,8 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/FIN_640> rdfs:label "Fin 640 Corporate Finance Ii" ;
     ramp:ects "8"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAssesment [ ramp:examinationDistribution 70.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/ERNST_MAUG> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/FIN_540> ;
@@ -376,9 +377,9 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/IE_630> rdfs:label "Query Optimization" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "30"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "DBSI, Kombinatorik, Statistik" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "ORAL" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "30"^^xsd:int ;
+            ramp:hasAssessmentForm "ORAL" ] ;
     ramp:recommendedLiterature "Script" ;
     ramp:recommendedSemester "1"^^xsd:int,
         "2"^^xsd:int,
@@ -397,10 +398,10 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/IS_541> rdfs:label "Theories And Methods In Information Systems" ;
     ramp:ects "6"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic statistical knowledge recommended" ;
-    ramp:hasAssesment [ ramp:examinationDistribution 70.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:examinationDistribution 30.0 ;
-            ramp:hasAssessmentForm "REPORT" ] ;
+    ramp:hasAssesment [ ramp:examinationDistribution 30.0 ;
+            ramp:hasAssessmentForm "REPORT" ],
+        [ ramp:examinationDistribution 70.0 ;
+            ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/HARTMUT_HÖHLE> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/HARTMUT_HÖHLE> ;
     ramp:workloadInPerson "32"^^xsd:int ;
@@ -413,9 +414,9 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/IS_557> rdfs:label "Introduction To Scientific Programming With Python" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic knowledge about programming languages, statistics, and linear algebra" ;
     ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MARKUS_STROHMAIER> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/MARKUS_STROHMAIER> ;
@@ -424,8 +425,8 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/IS_607> rdfs:label "Digital Innovation" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/ANNA-MARIA_SEEGER> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/IS_512>,
@@ -437,9 +438,9 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/IS_622> rdfs:label "Network Science" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "80"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic knowledge of algorithms and data structures" ;
     ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "80"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MARKUS_STROHMAIER> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/MARKUS_STROHMAIER> ;
@@ -458,10 +459,11 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/IS_629> rdfs:label "Agile Software Product Management And Design" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAssesment [ ramp:examinationDistribution 40.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "PRESENTATION" ],
         [ ramp:examinationDistribution 60.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/HARTMUT_HÖHLE> ;
     ramp:hasOptionalPrerequisite <http://ramp.uni-mannheim.de/module/IS_540> ;
@@ -499,10 +501,10 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/IS_724> rdfs:label "Seminar Current Topics In Human Xai Collaboration" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:hasAssesment [ ramp:examinationDistribution 40.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:examinationDistribution 60.0 ;
-            ramp:hasAssessmentForm "REPORT" ] ;
+    ramp:hasAssesment [ ramp:examinationDistribution 60.0 ;
+            ramp:hasAssessmentForm "REPORT" ],
+        [ ramp:examinationDistribution 40.0 ;
+            ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/KEVIN_BAUER> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/KEVIN_BAUER> ;
     ramp:workloadInPerson "30"^^xsd:int ;
@@ -510,10 +512,10 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/IS_742> rdfs:label "Seminar Trends In Enterprise Systems" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:hasAssesment [ ramp:examinationDistribution 80.0 ;
-            ramp:hasAssessmentForm "REPORT" ],
-        [ ramp:examinationDistribution 20.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ] ;
+    ramp:hasAssesment [ ramp:examinationDistribution 20.0 ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:examinationDistribution 80.0 ;
+            ramp:hasAssessmentForm "REPORT" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/HARTMUT_HÖHLE> ;
     ramp:hasOptionalPrerequisite <http://ramp.uni-mannheim.de/module/IS_540> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/HARTMUT_HÖHLE> ;
@@ -522,8 +524,8 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/LS_202> rdfs:label "Legal And Ethical Aspects Of Privacy" ;
     ramp:ects "3"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/THOMAS_FETZER> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/THOMAS_FETZER> ;
     ramp:offeredIn "HWS" ;
@@ -536,9 +538,9 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_521> rdfs:label "Science Management" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Interest in gaining comprehensive knowledge in various disciplines of science management." ;
     ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/YVONNE_DORF> ;
@@ -549,9 +551,9 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_522> rdfs:label "Responsibility In Management" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Acquisition of the philosophical and economic literature mentioned in the lecture." ;
     ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/CARSTEN_LOTZ> ;
@@ -570,10 +572,11 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_608> rdfs:label "Business Society Environment" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAssesment [ ramp:examinationDistribution 30.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "PRESENTATION" ],
         [ ramp:examinationDistribution 70.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/KARIN_HOISL> ;
@@ -584,11 +587,12 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_609> rdfs:label "Strategic Management Between Profit And Purpose" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Completion of the introductory course MAN 679" ;
     ramp:hasAssesment [ ramp:examinationDistribution 50.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ],
         [ ramp:examinationDistribution 50.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MORITZ_MOTYKA> ;
@@ -610,10 +614,11 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_630> rdfs:label "Introduction To Entrepreneurship" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAssesment [ ramp:examinationDistribution 40.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "PRESENTATION" ],
         [ ramp:examinationDistribution 50.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MICHAEL_WOYWODE> ;
@@ -625,12 +630,12 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/MAN_631> rdfs:label "Creativity And Entrepreneurship In Practice" ;
     ramp:ects "6"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "MAN 630 or MAN 632" ;
-    ramp:hasAssesment [ ramp:examinationDistribution 20.0 ;
-            ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:examinationDistribution 35.0 ;
+    ramp:hasAssesment [ ramp:examinationDistribution 35.0 ;
             ramp:hasAssessmentForm "PRESENTATION" ],
         [ ramp:examinationDistribution 35.0 ;
-            ramp:hasAssessmentForm "REPORT" ] ;
+            ramp:hasAssessmentForm "REPORT" ],
+        [ ramp:examinationDistribution 20.0 ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/BETTINA_MÜLLER>,
         <http://ramp.uni-mannheim.de/person/MICHAEL_WOYWODE> ;
@@ -641,11 +646,12 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_632> rdfs:label "Advanced Entrepreneurship" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "MAN 630 or MAN 632" ;
     ramp:hasAssesment [ ramp:examinationDistribution 50.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "PRESENTATION" ],
         [ ramp:examinationDistribution 40.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MICHAEL_WOYWODE> ;
@@ -657,12 +663,12 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/MAN_634> rdfs:label "Entrepreneurial Behavior And Crowdfunding Social Ventures" ;
     ramp:ects "6"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "MAN 626" ;
-    ramp:hasAssesment [ ramp:examinationDistribution 25.0 ;
-            ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:examinationDistribution 35.0 ;
+    ramp:hasAssesment [ ramp:examinationDistribution 35.0 ;
             ramp:hasAssessmentForm "REPORT" ],
         [ ramp:examinationDistribution 40.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ] ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:examinationDistribution 25.0 ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/BARIS_ISTIPLILER> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/BARIS_ISTIPLILER> ;
@@ -672,8 +678,8 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_638> rdfs:label "Employment Relations" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/FRANK_DANESY> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/FRANK_DANESY> ;
@@ -690,8 +696,8 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_644> rdfs:label "Human Resource Training Development" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAssesment [ ramp:examinationDistribution 75.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/FRANK_DANESY> ;
@@ -702,8 +708,8 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_645> rdfs:label "Leadership Motivation" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/TORSTEN_BIEMANN> ;
@@ -714,9 +720,9 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_646> rdfs:label "Hr Analytics" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Module MAN 645 or MAN 647" ;
     ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/TORSTEN_BIEMANN> ;
@@ -727,8 +733,8 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_647> rdfs:label "Strategic International Hr Management" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/TORSTEN_BIEMANN> ;
@@ -739,9 +745,9 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_648> rdfs:label "Incentives Performance" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "MAN 645 or MAN 647" ;
     ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/TORSTEN_BIEMANN> ;
@@ -752,8 +758,8 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_649> rdfs:label "Hr Recruitment Selection" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAssesment [ ramp:examinationDistribution 75.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/FRANK_DANESY> ;
@@ -764,10 +770,11 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_654> rdfs:label "Corporate Restructuring" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Not taken MAN 656" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "PRESENTATION" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MATTHIAS_BRAUER> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/MATTHIAS_BRAUER> ;
@@ -777,9 +784,9 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_655> rdfs:label "Corporate Strategy" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Knowledge in strategic management" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MATTHIAS_BRAUER> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/MATTHIAS_BRAUER> ;
@@ -789,10 +796,11 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_656> rdfs:label "Mergers Acquisitions" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Not taken MAN 654" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MATTHIAS_BRAUER> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/MATTHIAS_BRAUER> ;
@@ -812,10 +820,10 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_665> rdfs:label "Sustainability Management Simulation" ;
     ramp:ects "2"^^xsd:int ;
-    ramp:hasAssesment [ ramp:examinationDistribution 25.0 ;
-            ramp:hasAssessmentForm "REPORT" ],
-        [ ramp:examinationDistribution 50.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ] ;
+    ramp:hasAssesment [ ramp:examinationDistribution 50.0 ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:examinationDistribution 25.0 ;
+            ramp:hasAssessmentForm "REPORT" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/FLORIAN_STAHL> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/FLORIAN_STAHL> ;
@@ -825,8 +833,8 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_668> rdfs:label "Leadership In Organizations" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "PRESENTATION" ] ;
+    ramp:hasAssesment [ ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/PETER_FINZER> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/PETER_FINZER> ;
@@ -849,10 +857,10 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_676> rdfs:label "Selected Challenges In Public Management" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:hasAssesment [ ramp:examinationDistribution 30.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:examinationDistribution 70.0 ;
-            ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDistribution 70.0 ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDistribution 30.0 ;
+            ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/BERND_HELMIG> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/BERND_HELMIG> ;
@@ -862,10 +870,11 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_679> rdfs:label "Scientific Introduction Into Public And Noprofit Management" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAssesment [ ramp:examinationDistribution 10.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
             ramp:hasAssessmentForm "PRESENTATION" ],
         [ ramp:examinationDistribution 90.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/BERND_HELMIG> ;
@@ -876,10 +885,10 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_680> rdfs:label "Challenges Of Public And Nonprofit Management" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:hasAssesment [ ramp:examinationDistribution 60.0 ;
-            ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:examinationDistribution 40.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ] ;
+    ramp:hasAssesment [ ramp:examinationDistribution 40.0 ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:examinationDistribution 60.0 ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/BERND_HELMIG> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/BERND_HELMIG> ;
@@ -889,9 +898,9 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_690> rdfs:label "Innovation Management" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic bachelor-level knowledge on organization and management" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/KARIN_HOISL> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/KARIN_HOISL> ;
@@ -901,9 +910,9 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_691> rdfs:label "Selected Topics In Organizational Behavior" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic bachelor-level knowledge on organization and management" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/KARIN_HOISL> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/KARIN_HOISL> ;
@@ -913,9 +922,9 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MAN_693> rdfs:label "Strategic Intellectual Property Management" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic bachelor-level knowledge on organization and management" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/KARIN_HOISL> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/KARIN_HOISL> ;
@@ -960,10 +969,10 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/MAN_741> rdfs:label "Research Seminar Human Resource Management Leadership" ;
     ramp:ects "6"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "At least one master level course attended at the chair (MAN 64X)" ;
-    ramp:hasAssesment [ ramp:examinationDistribution 70.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:examinationDistribution 30.0 ;
-            ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDistribution 30.0 ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDistribution 70.0 ;
+            ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasFurtherModue "None provided" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/TORSTEN_BIEMANN> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/TORSTEN_BIEMANN> ;
@@ -1033,8 +1042,8 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MKT_520> rdfs:label "Mkt 520 Market Research" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/PROF._DR._KRAUS> ;
     ramp:hasOptionalPrerequisite <http://ramp.uni-mannheim.de/module/CC_503> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/PROF._DR._KRAUS> ;
@@ -1050,8 +1059,8 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MKT_561> rdfs:label "Mkt 561 Service Business Model Innovations" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/PROF._DR._KRAUS> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/MKT_560> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/PROF._DR._KRAUS> ;
@@ -1072,11 +1081,12 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MKT_580> rdfs:label "Mkt 580 Digital Marketing Strategy" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAssesment [ ramp:examinationDistribution 50.0 ;
-            ramp:hasAssessmentForm "WRITTEN" ],
+            ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "ASSIGNEMNT" ],
         [ ramp:examinationDistribution 50.0 ;
-            ramp:hasAssessmentForm "ASSIGNEMNT" ] ;
+            ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/SABINE_KUESTER> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/SABINE_KUESTER> ;
     ramp:workloadInPerson "17"^^xsd:int ;
@@ -1084,8 +1094,8 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MKT_612> rdfs:label "Mkt 612 Business To Business Marketing" ;
     ramp:ects "2"^^xsd:int ;
-    ramp:examinationDuration "45"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "45"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/PROF._DR._KRAUS> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/MKT_610> ;
     ramp:hasOptionalPrerequisite <http://ramp.uni-mannheim.de/module/MKT_510> ;
@@ -1095,8 +1105,8 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MKT_614> rdfs:label "Mkt 614 Marketing Communication" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/FLORIAN_STAHL> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/FLORIAN_STAHL> ;
     ramp:recommendedSemester "530"^^xsd:int,
@@ -1106,9 +1116,10 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MKT_615> rdfs:label "Mkt 615 Sales Management" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "ASSIGNEMNT" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "ASSIGNEMNT" ],
+        [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/CHRISTIAN_HOMBURG>,
         <http://ramp.uni-mannheim.de/person/JANINA_RIETHER> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/MKT_611> ;
@@ -1157,8 +1168,8 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MKT_661> rdfs:label "Mkt 661 Consumer Behavior" ;
     ramp:ects "2"^^xsd:int ;
-    ramp:examinationDuration "45"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "45"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/CHRISTIAN_HOMBURG>,
         <http://ramp.uni-mannheim.de/person/WAYNE_D._HOYER> ;
     ramp:hasOptionalPrerequisite <http://ramp.uni-mannheim.de/module/MKT_531> ;
@@ -1169,8 +1180,8 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/MKT_663> rdfs:label "Mkt 663 Branding And Brand Management" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/FLORIAN_STAHL> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/FLORIAN_STAHL> ;
     ramp:workloadInPerson "11"^^xsd:int ;
@@ -1191,6 +1202,18 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/MKT_720> rdfs:label "Mkt 720 Research Seminar" ;
     ramp:ects "6"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Students must have successfully completed at least two Master-level marketing courses (MKT 5XX or MKT 6XX)." ;
+    ramp:hasAssesment [ ramp:examinationDistribution 70.0 ;
+            ramp:hasAssessmentForm "REPORT" ],
+        [ ramp:examinationDistribution 30.0 ;
+            ramp:hasAssessmentForm "PRESENTATION" ] ;
+    ramp:hasLecturer <http://ramp.uni-mannheim.de/person/SABINE_KUESTER> ;
+    ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/SABINE_KUESTER> ;
+    ramp:workloadInPerson "2"^^xsd:int ;
+    ramp:workloadSelfStudy "15"^^xsd:int .
+
+<http://ramp.uni-mannheim.de/module/MKT_730> rdfs:label "Mkt 730 Research Seminar" ;
+    ramp:ects "6"^^xsd:int ;
+    ramp:hasAdditionalPrerequisite "Students must have successfully completed at least two Master-level marketing courses (MKT 5XX or MKT 6XX)." ;
     ramp:hasAssesment [ ramp:examinationDistribution 30.0 ;
             ramp:hasAssessmentForm "PRESENTATION" ],
         [ ramp:examinationDistribution 70.0 ;
@@ -1200,25 +1223,13 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
     ramp:workloadInPerson "2"^^xsd:int ;
     ramp:workloadSelfStudy "15"^^xsd:int .
 
-<http://ramp.uni-mannheim.de/module/MKT_730> rdfs:label "Mkt 730 Research Seminar" ;
-    ramp:ects "6"^^xsd:int ;
-    ramp:hasAdditionalPrerequisite "Students must have successfully completed at least two Master-level marketing courses (MKT 5XX or MKT 6XX)." ;
-    ramp:hasAssesment [ ramp:examinationDistribution 70.0 ;
-            ramp:hasAssessmentForm "REPORT" ],
-        [ ramp:examinationDistribution 30.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ] ;
-    ramp:hasLecturer <http://ramp.uni-mannheim.de/person/SABINE_KUESTER> ;
-    ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/SABINE_KUESTER> ;
-    ramp:workloadInPerson "2"^^xsd:int ;
-    ramp:workloadSelfStudy "15"^^xsd:int .
-
 <http://ramp.uni-mannheim.de/module/MKT_740> rdfs:label "Mkt 740 Research Seminar" ;
     ramp:ects "6"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Students must have successfully completed at least two Master-level marketing courses (MKT 5XX or MKT 6XX)." ;
-    ramp:hasAssesment [ ramp:examinationDistribution 70.0 ;
-            ramp:hasAssessmentForm "REPORT" ],
-        [ ramp:examinationDistribution 30.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ] ;
+    ramp:hasAssesment [ ramp:examinationDistribution 30.0 ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:examinationDistribution 70.0 ;
+            ramp:hasAssessmentForm "REPORT" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/CHRISTIAN_KRAUS> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/CHRISTIAN_KRAUS> ;
     ramp:workloadInPerson "2"^^xsd:int ;
@@ -1226,8 +1237,8 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/TAX_611> rdfs:label "Case Studies In International Company Taxation" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "45"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "45"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/STEFAN_BRUNSBACH> ;
     ramp:hasOptionalPrerequisite <http://ramp.uni-mannheim.de/module/TAX_520>,
         <http://ramp.uni-mannheim.de/module/TAX_530> ;
@@ -1237,10 +1248,10 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/TAX_620> rdfs:label "Causal Data Science For Business Decision Making" ;
     ramp:ects "8"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Introductory classes in statistics and/or econometrics at Bachelor level are advantageous." ;
-    ramp:hasAssesment [ ramp:examinationDistribution 15.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:examinationDistribution 45.0 ;
-            ramp:hasAssessmentForm "REPORT" ] ;
+    ramp:hasAssesment [ ramp:examinationDistribution 45.0 ;
+            ramp:hasAssessmentForm "REPORT" ],
+        [ ramp:examinationDistribution 15.0 ;
+            ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/JOHANNES_VOGET>,
         <http://ramp.uni-mannheim.de/person/PHILIPP_DOERRENBERG> ;
     ramp:workloadInPerson "40"^^xsd:int ;
@@ -1248,8 +1259,8 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/TAX_631> rdfs:label "International Taxation Of Multinational Enterprises" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "45"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "45"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/CHRISTOPH_SPENGEL>,
         <http://ramp.uni-mannheim.de/person/SVEN-ERIC_BÄRSCH> ;
     ramp:hasOptionalPrerequisite <http://ramp.uni-mannheim.de/module/TAX_520>,
@@ -1260,12 +1271,13 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/TAX_660> rdfs:label "Tax Planning The Role Of Taxes For Business Decisions" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Introductory courses in business taxation are advantageous." ;
-    ramp:hasAssesment [ ramp:examinationDistribution 80.0 ;
-            ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:examinationDistribution 20.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ] ;
+    ramp:hasAssesment [ ramp:examinationDistribution 20.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:examinationDistribution 80.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/PHILIPP_DOERRENBERG> ;
     ramp:recommendedLiterature "Scholes, Wolfson, Erickson, Hanlon, Maydew and Shevlin: Taxes and Business Strategy: A Planning Approach." ;
     ramp:workloadInPerson "32"^^xsd:int ;
@@ -1273,8 +1285,8 @@ ramp:isFollowupOfModule a owl:ObjectProperty,
 
 <http://ramp.uni-mannheim.de/module/TAX_661> rdfs:label "Case Studies In International Tax Planning" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "45"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "45"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/CHRISTOPH_SPENGEL>,
         <http://ramp.uni-mannheim.de/person/MICHAEL_SCHADEN> ;
     ramp:hasOptionalPrerequisite <http://ramp.uni-mannheim.de/module/TAX_630> ;
@@ -1537,7 +1549,15 @@ ramp:workloadSelfStudy a owl:DatatypeProperty ;
     rdfs:domain ramp:Module ;
     rdfs:range xsd:decimal .
 
-ramp:Degree a owl:Class .
+ramp:examinationDistribution a owl:DatatypeProperty ;
+    rdfs:domain ramp:Assessment ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+ramp:examinationDuration a owl:DatatypeProperty ;
+    rdfs:domain ramp:Assessment ;
+    rdfs:range xsd:decimal ;
+    rdfs:subPropertyOf owl:topDataProperty .
 
 ramp:hasModule a owl:ObjectProperty ;
     rdfs:domain [ a owl:Class ;
@@ -1562,8 +1582,8 @@ ramp:isRecommendedPrerequisiteOf a owl:ObjectProperty ;
 
 <http://ramp.uni-mannheim.de/module/FIN_601> rdfs:label "Fin 601 Bond Markets" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/ERIK_THEISSEN> ;
     ramp:hasOptionalPrerequisite <http://ramp.uni-mannheim.de/module/FIN_500> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/ERIK_THEISSEN> ;
@@ -1572,9 +1592,9 @@ ramp:isRecommendedPrerequisiteOf a owl:ObjectProperty ;
 
 <http://ramp.uni-mannheim.de/module/FIN_602> rdfs:label "Fin 602 Trading And Exchanges" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Sound background in finance advised." ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/ERIK_THEISSEN> ;
     ramp:hasOptionalPrerequisite <http://ramp.uni-mannheim.de/module/FIN_500> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/ERIK_THEISSEN> ;
@@ -1583,11 +1603,12 @@ ramp:isRecommendedPrerequisiteOf a owl:ObjectProperty ;
 
 <http://ramp.uni-mannheim.de/module/FIN_603> rdfs:label "Fin 603 Empirical Finance" ;
     ramp:ects "10"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Completion of FIN 604 is strongly recommended." ;
     ramp:hasAssesment [ ramp:examinationDistribution 45.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ],
         [ ramp:examinationDistribution 45.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "ASSIGNEMNT" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/ERIK_THEISSEN> ;
     ramp:hasOptionalPrerequisite <http://ramp.uni-mannheim.de/module/CC_502>,
@@ -1607,9 +1628,9 @@ ramp:isRecommendedPrerequisiteOf a owl:ObjectProperty ;
 
 <http://ramp.uni-mannheim.de/module/FIN_606> rdfs:label "Fin 606 Fintech" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic knowledge of finance, mathematics and statistics is recommended." ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/STEFAN_SCHARNOWSKI> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/STEFAN_SCHARNOWSKI> ;
     ramp:workloadInPerson "9"^^xsd:int ;
@@ -1617,9 +1638,9 @@ ramp:isRecommendedPrerequisiteOf a owl:ObjectProperty ;
 
 <http://ramp.uni-mannheim.de/module/FIN_630> rdfs:label "Fin 630 Corporate Governance" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Introductory course in corporate finance is recommended." ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/ALEXANDRA_NIESSEN-RUENZI> ;
     ramp:hasOptionalPrerequisite <http://ramp.uni-mannheim.de/module/BE_510>,
         <http://ramp.uni-mannheim.de/module/BE_511>,
@@ -1631,9 +1652,9 @@ ramp:isRecommendedPrerequisiteOf a owl:ObjectProperty ;
 
 <http://ramp.uni-mannheim.de/module/FIN_682> rdfs:label "Fin 682 International Asset Management" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Working knowledge of basic mathematics and statistics is required." ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/STEFAN_RUENZI> ;
     ramp:hasOptionalPrerequisite <http://ramp.uni-mannheim.de/module/FIN_500> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/STEFAN_RUENZI> ;
@@ -1642,8 +1663,8 @@ ramp:isRecommendedPrerequisiteOf a owl:ObjectProperty ;
 
 <http://ramp.uni-mannheim.de/module/FIN_684> rdfs:label "Fin 684 Financial Institutions Ii" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/OLIVER_SPALT> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/FIN_590> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/OLIVER_SPALT> ;
@@ -1671,8 +1692,8 @@ ramp:isRecommendedPrerequisiteOf a owl:ObjectProperty ;
 
 <http://ramp.uni-mannheim.de/module/IS_614> rdfs:label "Corporate Knowledge Management" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAssesment [ ramp:examinationDistribution 80.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/ARMIN_HEINZL> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/ARMIN_HEINZL> ;
@@ -1681,8 +1702,8 @@ ramp:isRecommendedPrerequisiteOf a owl:ObjectProperty ;
 
 <http://ramp.uni-mannheim.de/module/MKT_531> rdfs:label "Mkt 531 Marketing Theory Consumer Behavior And Decision Making" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/FLORIAN_STAHL> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/MKT_530> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/FLORIAN_STAHL> ;
@@ -1746,7 +1767,7 @@ ramp:isRecommendedPrerequisiteOf a owl:ObjectProperty ;
 
 <http://ramp.uni-mannheim.de/person/WAYNE_D._HOYER> a foaf:Person .
 
-ramp:hasAssesment a owl:ObjectProperty .
+ramp:Degree a owl:Class .
 
 ramp:hasPrerequisite a owl:ObjectProperty ;
     owl:inverseOf ramp:isPrerequisiteOf .
@@ -1843,8 +1864,8 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/AC_653> a ramp:Module ;
     rdfs:label "Additional Course Projects And Seminars" ;
     ramp:ects "18"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "ORAL" ] ;
+    ramp:hasAssesment [ ramp:hasAssessmentForm "ORAL" ],
+        [ ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:id "AC_653" ;
     ramp:offeredIn "FFS",
         "HWS" ;
@@ -1867,8 +1888,8 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/AC_655> a ramp:Module ;
     rdfs:label "Additional Course Data Science Applications" ;
     ramp:ects "18"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "ORAL" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:hasAssessmentForm "ORAL" ] ;
     ramp:id "AC_655" ;
     ramp:offeredIn "HWS" ;
     ramp:recommendedSemester "2"^^xsd:int,
@@ -1881,8 +1902,8 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
     rdfs:label "Cc 501 Decision Analysis Business Analytics Ii",
         "Decision Analysis Business Analytics Ii" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MARTIN_GLANZER> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/MARTIN_GLANZER> ;
     ramp:id "CC_501" ;
@@ -1893,8 +1914,8 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
     rdfs:label "Cc 504 Corporate Social Responsibility",
         "Corporate Social Responsibility" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MAX_REINWALD> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/MAX_REINWALD> ;
     ramp:id "CC_504" ;
@@ -1904,11 +1925,11 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/CS_530> a ramp:Module ;
     rdfs:label "Database Systems Ii" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "DBSI",
         "Knowledge of C, C++",
         "PI2" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MOERKOTTE> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/MOERKOTTE> ;
     ramp:id "CS_530" ;
@@ -1920,12 +1941,15 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/CS_701> a ramp:Module ;
     rdfs:label "Selected Topics In Algorithmics And Cryptography" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:examinationDistribution 100.0 ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "REPORT" ],
-        [ ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:hasAssessmentForm "REPORT" ] ;
+        [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "REPORT" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MATTHIAS_KRAUSE,_ALEXANDER_MOCH> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/CS_550>,
         <http://ramp.uni-mannheim.de/module/CS_651> ;
@@ -1941,13 +1965,14 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/CS_704> a ramp:Module ;
     rdfs:label "Master Seminar Artificial Intelligence" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Decision Support or Data Mining or Knowledge Management" ;
-    ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "REPORT" ],
         [ ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:hasAssessmentForm "REPORT" ] ;
+        [ ramp:examinationDistribution 100.0 ;
+            ramp:hasAssessmentForm "REPORT" ],
+        [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/PROF._DR._HEINER_STUCKENSCHMIDT> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/PROF._DR._HEINER_STUCKENSCHMIDT> ;
     ramp:id "CS_704" ;
@@ -1962,13 +1987,15 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
     rdfs:label "Hot Topics In Machine Learning",
         "Hot Topics In Machine Learning Seminar" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "0"^^xsd:int,
-        "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Bachelor degree" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:hasAssessmentForm "REPORT" ],
-        [ ramp:hasAssessmentForm "REPORT" ],
-        [ ramp:hasAssessmentForm "PRESENTATION" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:examinationDuration "0"^^xsd:int ;
+            ramp:hasAssessmentForm "REPORT" ],
+        [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "REPORT" ],
+        [ ramp:examinationDuration "0"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/PROF._DR._RAINER_GEMULLA> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/PROF._DR._RAINER_GEMULLA> ;
     ramp:id "CS_707" ;
@@ -1982,11 +2009,12 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/CS_708> a ramp:Module ;
     rdfs:label "Seminar Software Engineering" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Bachelor degree",
         "Bachelor’s degree" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:hasAssessmentForm "REPORT" ],
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "REPORT" ],
+        [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
         [ ramp:hasAssessmentForm "REPORT" ],
         [ ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:id "CS_708" ;
@@ -2002,14 +2030,15 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/CS_709> a ramp:Module ;
     rdfs:label "Seminar Text Analytics" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Fundamental notions of linear algebra and probability theory",
         "IE 663",
         "IS 661" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:hasAssessmentForm "PRESENTATION" ],
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "REPORT" ],
+        [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
         [ ramp:hasAssessmentForm "REPORT" ],
-        [ ramp:hasAssessmentForm "REPORT" ] ;
+        [ ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/PROF._DR._SIMONE_PAOLO_PONZETTO> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/IE_663>,
         <http://ramp.uni-mannheim.de/module/IS_661> ;
@@ -2026,10 +2055,11 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
     rdfs:label "Seminar Prof Paulheim",
         "Seminar Selected Topics In Data Science" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Bachelor’s degree" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:hasAssessmentForm "REPORT" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "REPORT" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/PROF._DR._HEIKO_PAULHEIM> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/PROF._DR._HEIKO_PAULHEIM> ;
     ramp:id "CS_710" ;
@@ -2042,8 +2072,8 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
     rdfs:label "Seminar Large Scale Data Integration" ;
     ramp:ects "4"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Bachelor degree" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:hasAssessmentForm "REPORT" ] ;
+    ramp:hasAssesment [ ramp:hasAssessmentForm "REPORT" ],
+        [ ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/PROF._DR._CHRISTIAN_BIZER> ;
     ramp:id "CS_715" ;
     ramp:recommendedSemester "3"^^xsd:int ;
@@ -2062,8 +2092,8 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
     rdfs:label "Ai And Data Science In Fiction And Society" ;
     ramp:ects "4"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Bachelor degree" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "REPORT" ],
-        [ ramp:hasAssessmentForm "PRESENTATION" ] ;
+    ramp:hasAssesment [ ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:hasAssessmentForm "REPORT" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/HEIKO_PAULHEIM> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/HEIKO_PAULHEIM> ;
     ramp:id "CS_718" ;
@@ -2087,9 +2117,9 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/DA_110> a ramp:Module ;
     rdfs:label "Computational Analysis Of Communication" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "240"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic skills in descriptive and inferential statistics, machine learning, web-scraping/web-mining" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "REPORT" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "240"^^xsd:int ;
+            ramp:hasAssessmentForm "REPORT" ] ;
     ramp:id "DA_110" ;
     ramp:offeredIn "HWS" ;
     ramp:recommendedLiterature "Computational Analysis of Communication: A practical introduction to the analysis of texts, networks, and images with code examples in Python and R." ;
@@ -2102,9 +2132,9 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/DS_100> a ramp:Module ;
     rdfs:label "Statistics For Data Scientists" ;
     ramp:ects "9"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "A sound understanding of the linear regression model (OLS) is required. Knowledge in linear algebra and calculus is useful." ;
     ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:id "DS_100" ;
     ramp:recommendedLiterature "Angrist, Joshua D., and Jorn-Steffen Pischke. Mostly Harmful Econometrics: An Empiricist's Companion. Princeton: Princeton University Press, 2009.",
@@ -2121,8 +2151,8 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/DS_200> a ramp:Module ;
     rdfs:label "Sampling And Data" ;
     ramp:ects "9"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/CHAIR_OF_SOCIAL_DATA_SCIENCE> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/CHAIR_OF_SOCIAL_DATA_SCIENCE> ;
     ramp:id "DS_200" ;
@@ -2135,9 +2165,9 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/DS_201> a ramp:Module ;
     rdfs:label "Machine Learning And Causal Inference" ;
     ramp:ects "9"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "A sound understanding of basic statistical methods incl. regression analysis" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:id "DS_201" ;
     ramp:recommendedLiterature "Angrist, Joshua D., and Jörn-Steffen Pischke. 2009. Mostly Harmless Econometrics: An Empiricist’s Companion.",
         "Hastie, Trevor, Robert Tibshirani, and Jerome Friedman. 2008. The Elements of Statistical Learning.",
@@ -2151,9 +2181,9 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/DS_202> a ramp:Module ;
     rdfs:label "Seminar And Lab On Machine Learning And Causal Inference" ;
     ramp:ects "9"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Python or any other object-programming language" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:id "DS_202" ;
     ramp:recommendedLiterature "Downey, Allen B. 2016. Think Python. How to Think Like a Computer Scientist. 2nd ed. Needham: Green Tea Press.",
         "Guttag, John V. 2021. Introduction to Computation and Programming Using Python. 3rd. ed. Cambridge: MIT Press.",
@@ -2203,9 +2233,9 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
     rdfs:label "Fin 555 Financial Markets And Employees",
         "Financial Markets And Employees" ;
     ramp:ects "3"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Cross-disciplinary thinking required." ;
     ramp:hasAssesment [ ramp:examinationDistribution 75.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/ERNST_MAUG> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/ERNST_MAUG> ;
@@ -2222,12 +2252,12 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
     ramp:ects "3"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Programming skills in Java",
         "Programming skills in Java." ;
-    ramp:hasAssesment [ ramp:examinationDistribution 70.0 ;
+    ramp:hasAssesment [ ramp:examinationDistribution 30.0 ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:examinationDistribution 70.0 ;
             ramp:hasAssessmentForm "REPORT" ],
         [ ramp:examinationDistribution 70.0 ;
             ramp:hasAssessmentForm "REPORT" ],
-        [ ramp:examinationDistribution 30.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ],
         [ ramp:examinationDistribution 30.0 ;
             ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/CHRISTIAN_BIZER>,
@@ -2253,10 +2283,10 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
     rdfs:label "Web Mining Project" ;
     ramp:ects "3"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Programming skills in Java or Python" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "PRESENTATION" ],
+    ramp:hasAssesment [ ramp:hasAssessmentForm "REPORT" ],
+        [ ramp:hasAssessmentForm "PRESENTATION" ],
         [ ramp:examinationDistribution 30.0 ;
             ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:hasAssessmentForm "REPORT" ],
         [ ramp:examinationDistribution 70.0 ;
             ramp:hasAssessmentForm "REPORT" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/CHRISTIAN_BIZER>,
@@ -2282,12 +2312,12 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
     rdfs:label "Large Language Models And Agents" ;
     ramp:ects "3"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Programming skills in Python; Basic machine learning concepts and techniques" ;
-    ramp:hasAssesment [ ramp:examinationDistribution 70.0 ;
-            ramp:hasAssessmentForm "REPORT" ],
+    ramp:hasAssesment [ ramp:hasAssessmentForm "PRESENTATION" ],
         [ ramp:examinationDistribution 30.0 ;
             ramp:hasAssessmentForm "PRESENTATION" ],
         [ ramp:hasAssessmentForm "REPORT" ],
-        [ ramp:hasAssessmentForm "PRESENTATION" ] ;
+        [ ramp:examinationDistribution 70.0 ;
+            ramp:hasAssessmentForm "REPORT" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/CHRISTIAN_BIZER>,
         <http://ramp.uni-mannheim.de/person/PROF._DR._CHRISTIAN_BIZER> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/CHRISTIAN_BIZER>,
@@ -2307,12 +2337,12 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
     ramp:ects "3"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Programming skills (preferably in one of the higher-level programming languages: Java/Python/C#/C++).",
         "Programming skills in one of the higher-level programming languages: Java/Python/C#/C++." ;
-    ramp:hasAssesment [ ramp:examinationDistribution 30.0 ;
+    ramp:hasAssesment [ ramp:examinationDistribution 70.0 ;
+            ramp:hasAssessmentForm "REPORT" ],
+        [ ramp:examinationDistribution 70.0 ;
+            ramp:hasAssessmentForm "REPORT" ],
+        [ ramp:examinationDistribution 30.0 ;
             ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:examinationDistribution 70.0 ;
-            ramp:hasAssessmentForm "REPORT" ],
-        [ ramp:examinationDistribution 70.0 ;
-            ramp:hasAssessmentForm "REPORT" ],
         [ ramp:examinationDistribution 30.0 ;
             ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/PROF._DR._SIMONE_PONZETTO>,
@@ -2336,14 +2366,16 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/IE_692> a ramp:Module ;
     rdfs:label "Advanced Process Mining" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Familiar with the use of Petri nets and BPMN for process modeling; Basic programming in Python; IS 515 or experience with process mining is not required",
         "You are expected to be familiar with the use of Petri nets and BPMN for process modeling, and being able to do basic programming in Python." ;
-    ramp:hasAssesment [ ramp:examinationDistribution 80.0 ;
-            ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:examinationDistribution 20.0 ;
+    ramp:hasAssesment [ ramp:examinationDistribution 20.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "ASSIGNEMNT" ],
         [ ramp:examinationDistribution 80.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDistribution 80.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/PROF._DR._JANA_-REBECCA_REHSE>,
         <http://ramp.uni-mannheim.de/person/REHSE> ;
@@ -2382,10 +2414,11 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/IE_696> a ramp:Module ;
     rdfs:label "Advanced Methods In Text Analytics" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Fundamental notions of linear algebra and probability theory." ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/PROF._DR._SIMONE_PAOLO_PONZETTO>,
         <http://ramp.uni-mannheim.de/person/SIMONE_PAOLO_PONZETTO> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/IE_661>,
@@ -2407,9 +2440,9 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/IE_697> a ramp:Module ;
     rdfs:label "Data Science In Action" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "480"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Knowledge in Data Mining, Machine Learning, Statistics or empirical research methods" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "REPORT" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "480"^^xsd:int ;
+            ramp:hasAssessmentForm "REPORT" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/PROF._DR._HEINER_STUCKENSCHMIDT> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/PROF._DR._HEINER_STUCKENSCHMIDT> ;
     ramp:id "IE_697" ;
@@ -2423,11 +2456,12 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/IE_698> a ramp:Module ;
     rdfs:label "Foundations And Applications Of Digital Health Technologies" ;
     ramp:ects "3"^^xsd:int ;
-    ramp:examinationDuration "45"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic knowledge about AI systems (knowledge-based systems, machine learning, deep neural networks)",
         "Basic knowledge about AI systems and digital health systems" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "45"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "45"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/JUN.-PROF._DR._PHILIPP_KELLMEYER>,
         <http://ramp.uni-mannheim.de/person/PHILIPP_KELLMEYER> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/JUN.-PROF._DR._PHILIPP_KELLMEYER>,
@@ -2451,11 +2485,12 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/IE_699> a ramp:Module ;
     rdfs:label "Co Creating Digital Health Applications With Design Methodology" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "20"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic knowledge about AI systems (knowledge-based systems, machine learning, deep neural networks)",
         "Basic knowledge about AI systems and digital health systems" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:hasAssessmentForm "PRESENTATION" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "20"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:examinationDuration "20"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/JUN.-PROF._DR._PHILIPP_KELLMEYER>,
         <http://ramp.uni-mannheim.de/person/PHILIPP_KELLMEYER> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/JUN.-PROF._DR._PHILIPP_KELLMEYER>,
@@ -2479,9 +2514,9 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/IE_704> a ramp:Module ;
     rdfs:label "Seminar Ai Systems Engineering" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "REPORT" ],
-        [ ramp:examinationDistribution 100.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ] ;
+    ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:hasAssessmentForm "REPORT" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/DR._CHRISTIAN_BARTELT> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/DR._CHRISTIAN_BARTELT> ;
     ramp:id "IE_704" ;
@@ -2492,10 +2527,11 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/IP_500> a ramp:Module ;
     rdfs:label "Individual Project" ;
     ramp:ects "8"^^xsd:int ;
-    ramp:examinationDuration "0"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Depends on topic" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "REPORT" ],
-        [ ramp:hasAssessmentForm "PRESENTATION" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "0"^^xsd:int ;
+            ramp:hasAssessmentForm "REPORT" ],
+        [ ramp:examinationDuration "0"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:id "IP_500" ;
     ramp:recommendedSemester "1"^^xsd:int,
         "2"^^xsd:int,
@@ -2506,9 +2542,9 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/IS_556> a ramp:Module ;
     rdfs:label "Public Blockchains" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic knowledge of computer programming" ;
     ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MARKUS_STROHMAIER> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/MARKUS_STROHMAIER> ;
@@ -2518,8 +2554,8 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 
 <http://ramp.uni-mannheim.de/module/IS_615> rdfs:label "Enterprise Cloud Design And Development" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAssesment [ ramp:examinationDistribution 80.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/PHILIPP_HOFFMANN>,
         <http://ramp.uni-mannheim.de/person/TOBIAS_SCHIMMER> ;
@@ -2531,9 +2567,9 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/IS_616> a ramp:Module ;
     rdfs:label "Large Scale Data Analysis And Visualization" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic knowledge about statistics and R and/or Python" ;
     ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MARKUS_STROHMAIER> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/MARKUS_STROHMAIER> ;
@@ -2544,10 +2580,10 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/IS_752> a ramp:Module ;
     rdfs:label "Seminar On Process And Management Analytics" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:hasAssesment [ ramp:examinationDistribution 80.0 ;
-            ramp:hasAssessmentForm "REPORT" ],
-        [ ramp:examinationDistribution 20.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ] ;
+    ramp:hasAssesment [ ramp:examinationDistribution 20.0 ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:examinationDistribution 80.0 ;
+            ramp:hasAssessmentForm "REPORT" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/JANA-REBECCA_REHSE> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/IS_515> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/JANA-REBECCA_REHSE> ;
@@ -2594,10 +2630,11 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 <http://ramp.uni-mannheim.de/module/MAC_570> a ramp:Module ;
     rdfs:label "Reinforcement Learning Coding" ;
     ramp:ects "5"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Reinforcement Learning" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/LEIF_DÖRING>,
         <http://ramp.uni-mannheim.de/person/PROF._DR._LEIF_DÖRING> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/76MAB_519> ;
@@ -2613,8 +2650,8 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 
 <http://ramp.uni-mannheim.de/module/MKT_510> rdfs:label "Mkt 510 Price And Product Management" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/CHRISTIAN_HOMBURG> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/CHRISTIAN_HOMBURG> ;
     ramp:workloadInPerson "11"^^xsd:int ;
@@ -2624,8 +2661,8 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
     rdfs:label "Marketing Analytics",
         "Mkt 511 Marketing Analytics" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/FLORIAN_STAHL> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/FLORIAN_STAHL> ;
     ramp:id "MKT_511" ;
@@ -2636,8 +2673,8 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
     rdfs:label "Customers Markets And Firm Strategy",
         "Mkt 545 Customers Markets And Firm Strategy" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/FLORIAN_STAHL> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/MKT_650> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/FLORIAN_STAHL> ;
@@ -2649,9 +2686,9 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
     rdfs:label "Specialisation In Company Taxation",
         "Specialization In Company Taxation" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "45"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic knowledge of company taxation" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "45"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MATTHIAS_ROGALL>,
         <http://ramp.uni-mannheim.de/person/PHILIPP_DOERRENBERG> ;
     ramp:id "TAX_521" ;
@@ -2661,11 +2698,12 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 
 <http://ramp.uni-mannheim.de/module/TAX_630> rdfs:label "International Business Taxation" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
-    ramp:hasAssesment [ ramp:examinationDistribution 30.0 ;
-            ramp:hasAssessmentForm "ASSIGNEMNT" ],
-        [ ramp:examinationDistribution 70.0 ;
-            ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDistribution 70.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDistribution 30.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "ASSIGNEMNT" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/CHRISTOPH_SPENGEL> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/TAX_520>,
         <http://ramp.uni-mannheim.de/module/TAX_530> ;
@@ -2746,6 +2784,17 @@ ramp:isStudyAreaOf a owl:ObjectProperty ;
 
 <http://ramp.uni-mannheim.de/person/YVONNE_DORF> a foaf:Person .
 
+ramp:Assessment a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ramp:examinationDistribution ;
+            owl:someValuesFrom owl:rational ],
+        [ a owl:Restriction ;
+            owl:onProperty ramp:examinationDuration ;
+            owl:someValuesFrom owl:rational ] .
+
+<http://ramp.uni-mannheim.de/degree/MASTER_OF_SCIENCE> a ramp:Degree ;
+    rdfs:label "Master Of Science" .
+
 ramp:isPrerequisiteOf a owl:ObjectProperty,
         owl:TransitiveProperty ;
     rdfs:domain ramp:Module ;
@@ -2754,9 +2803,9 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/BE_511> a ramp:Module ;
     rdfs:label "Business Economics Ii" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Knowledge of introductory microeconomics at bachelor level" ;
     ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/LILY_LING_YANG> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/BE_510> ;
@@ -2778,9 +2827,9 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
     rdfs:label "Derivatives Basic Strategies And Pricing",
         "Fin 580 Derivatives Basic Strategies And Pricing" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic mathematics and statistics knowledge required." ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/STEFAN_RUENZI> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/STEFAN_RUENZI> ;
     ramp:id "FIN_580" ;
@@ -2790,9 +2839,10 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/IE_670> a ramp:Module ;
     rdfs:label "Web Data Integration" ;
     ramp:ects "3"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/CHRISTIAN_BIZER>,
         <http://ramp.uni-mannheim.de/person/PROF._DR._CHRISTIAN_BIZER> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/CHRISTIAN_BIZER>,
@@ -2810,11 +2860,12 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/IE_678> a ramp:Module ;
     rdfs:label "Deep Learning" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "25"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "No attempted or completed IE 674 exam",
         "no attempted or completed IE 674 exam" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "ORAL" ],
-        [ ramp:hasAssessmentForm "ORAL" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "25"^^xsd:int ;
+            ramp:hasAssessmentForm "ORAL" ],
+        [ ramp:examinationDuration "25"^^xsd:int ;
+            ramp:hasAssessmentForm "ORAL" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/PROF._DR._RAINER_GEMULLA>,
         <http://ramp.uni-mannheim.de/person/RAINER_GEMULLA> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/IE_675B> ;
@@ -2843,11 +2894,12 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
     rdfs:label "Cs 560 Large Scale Data Management",
         "Large Scale Data Management" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Very good knowledge of database systems, good knowledge of algorithms and data structures as well as Java programming",
         "Very good knowledge of database systems, good knowledge of algorithms and data structures, Java programming." ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/RAINER_GEMULLA> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/RAINER_GEMULLA> ;
     ramp:id "CS_560" ;
@@ -2864,10 +2916,11 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/CS_600> a ramp:Module ;
     rdfs:label "Model Driven Development" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Software Testing and Experimentation" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/COLIN_ATKINSON>,
         <http://ramp.uni-mannheim.de/person/PROF._DR._COLIN_ATKINSON> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/CS_404>,
@@ -2886,11 +2939,12 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/CS_630> a ramp:Module ;
     rdfs:label "Generative Software Engineering" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Knowledge of Java and/or Python, Software Testing and Experimentation",
         "Software Testing and Experimentation; Knowledge of Java and/or Python" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "Model-Driven Development",
         "Software Testing and Experimentation" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/COLIN_ATKINSON>,
@@ -2911,12 +2965,13 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/CS_646> a ramp:Module ;
     rdfs:label "Higher Level Computer Vision" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basis skills in linear algebra, basis knowledge in python and pytorch" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "ORAL" ],
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
         [ ramp:hasAssessmentForm "ORAL" ],
         [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "ORAL" ] ;
     ramp:hasFurtherModue "Image Processing" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MARGRET_KEUPER>,
         <http://ramp.uni-mannheim.de/person/PROFESSOR_DR.-ING._MARGRET_KEUPER> ;
@@ -2936,12 +2991,13 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/CS_647> a ramp:Module ;
     rdfs:label "Image Processing" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basis skills in linear algebra, basis knowledge in python" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "ORAL" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "ORAL" ] ;
+    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:hasAssessmentForm "ORAL" ],
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "ORAL" ] ;
     ramp:hasFurtherModue "Higher Level Computer Vision" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MARGRET_KEUPER>,
         <http://ramp.uni-mannheim.de/person/PROFESSOR_DR.-ING._MARGRET_KEUPER> ;
@@ -2961,10 +3017,11 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
     rdfs:label "Cs 652 Data Security And Privacy",
         "Data Security And Privacy" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Knowledge in cryptography or IT-security is recommended." ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/FREDERIK_ARMKNECHT> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/FREDERIK_ARMKNECHT> ;
     ramp:id "CS_652" ;
@@ -2979,10 +3036,10 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/CS_655> a ramp:Module ;
     rdfs:label "Cryptography" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "15"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basis skills in linear algebra, probability theory, algorithms and data structures",
         "Basis skills in linear algebra, probability theory, algorithms, and data structures" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "ORAL" ],
+    ramp:hasAssesment [ ramp:examinationDuration "15"^^xsd:int ;
+            ramp:hasAssessmentForm "ORAL" ],
         [ ramp:hasAssessmentForm "ORAL" ] ;
     ramp:hasFurtherModue "CS_651",
         "Cryptography II" ;
@@ -3006,9 +3063,10 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/CS_662> a ramp:Module ;
     rdfs:label "Types And Programming Languages" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/JUNIOR_PROFESSOR_DR._ROLAND_LEISSA>,
         <http://ramp.uni-mannheim.de/person/ROLAND_LEISSA> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/JUNIOR_PROFESSOR_DR._ROLAND_LEISSA>,
@@ -3025,10 +3083,11 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/CS_664> a ramp:Module ;
     rdfs:label "Blockchain Security" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Knowledge in cryptography and/or IT-security is recommended" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/FREDERIK_ARMKNECHT>,
         <http://ramp.uni-mannheim.de/person/PROF._DR._FREDERIK_ARMKNECHT> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/FREDERIK_ARMKNECHT>,
@@ -3045,12 +3104,13 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/CS_668> a ramp:Module ;
     rdfs:label "Generative Computer Vision Models" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basis skills in linear algebra, basis knowledge in python/pytorch",
         "linear algebra, python/pytorch skills" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "ORAL" ],
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "ORAL" ],
         [ ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
         [ ramp:hasAssessmentForm "ORAL" ] ;
     ramp:hasFurtherModue "Higher Level Computer Vision" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MARGRET_KEUPER>,
@@ -3069,9 +3129,9 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
     rdfs:label "Fin 590 Financial Institutions I",
         "Financial Institutions I" ;
     ramp:ects "4"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic knowledge in accounting, finance, mathematics and statistics." ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "FIN_684" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/OLIVER_SPALT> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/OLIVER_SPALT> ;
@@ -3082,12 +3142,13 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/IE_560> a ramp:Module ;
     rdfs:label "Decision Support" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic Knowledge of Propositional and First-Order Logic",
         "Basic Probability Theory",
         "Basic Probability Theory, Basic Knowledge of Propositional and First-Order Logic" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/HEINER_STUCKENSCHMIDT>,
         <http://ramp.uni-mannheim.de/person/PROF._DR._HEINER_STUCKENSCHMIDT> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/HEINER_STUCKENSCHMIDT>,
@@ -3102,10 +3163,11 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/IE_663> a ramp:Module ;
     rdfs:label "Information Retrieval And Web Search" ;
     ramp:ects "3"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Fundamental notions of linear algebra, probability theory, algorithms and data structures" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "IE_691" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/PROF._DR._SIMONE_PONZETTO>,
         <http://ramp.uni-mannheim.de/person/SIMONE_PONZETTO> ;
@@ -3127,10 +3189,11 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
     rdfs:label "Ie 675b Machine Learning",
         "Machine Learning" ;
     ramp:ects "9"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Knowledge of probability and statistics, no attempted or completed IE 675 exam" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/RAINER_GEMULLA> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/IE_500> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/RAINER_GEMULLA> ;
@@ -3147,8 +3210,8 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/IS_512> a ramp:Module ;
     rdfs:label "It Management In The Digital Age" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/ARMIN_HEINZL> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/ARMIN_HEINZL> ;
@@ -3159,11 +3222,12 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/IS_515> a ramp:Module ;
     rdfs:label "Process Management And Analytics" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
-    ramp:hasAssesment [ ramp:examinationDistribution 80.0 ;
-            ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:examinationDistribution 20.0 ;
-            ramp:hasAssessmentForm "PRESENTATION" ] ;
+    ramp:hasAssesment [ ramp:examinationDistribution 20.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:examinationDistribution 80.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/JANA-REBECCA_REHSE> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/IS_514> ;
     ramp:hasOptionalPrerequisite <http://ramp.uni-mannheim.de/module/IS_401>,
@@ -3176,8 +3240,8 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/IS_540> a ramp:Module ;
     rdfs:label "Management Of Enterprise Systems" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAssesment [ ramp:examinationDistribution 80.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/HARTMUT_HÖHLE> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/HARTMUT_HÖHLE> ;
@@ -3188,9 +3252,9 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/IS_661> a ramp:Module ;
     rdfs:label "Text Analytics" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic knowledge of programming concepts" ;
     ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MARKUS_STROHMAIER> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/MARKUS_STROHMAIER> ;
@@ -3201,8 +3265,8 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/SQ_500> a ramp:Module ;
     rdfs:label "Scientific Research" ;
     ramp:ects "2"^^xsd:int ;
-    ramp:examinationDuration "150"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "ASSIGNEMNT" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "150"^^xsd:int ;
+            ramp:hasAssessmentForm "ASSIGNEMNT" ] ;
     ramp:id "SQ_500" ;
     ramp:offeredIn "FFS",
         "HWS" ;
@@ -3218,15 +3282,17 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/TP_500> a ramp:Module ;
     rdfs:label "Team Project" ;
     ramp:ects "12"^^xsd:int ;
-    ramp:examinationDuration "30"^^xsd:int,
-        "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Depends on the topic",
         "Depends on topic" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:hasAssessmentForm "REPORT" ],
-        [ ramp:examinationDistribution 80.0 ;
+    ramp:hasAssesment [ ramp:examinationDistribution 80.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "REPORT" ],
+        [ ramp:examinationDuration "30"^^xsd:int ;
             ramp:hasAssessmentForm "REPORT" ],
         [ ramp:examinationDistribution 20.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION" ],
+        [ ramp:examinationDuration "30"^^xsd:int ;
             ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:id "TP_500" ;
     ramp:offeredIn "FFS",
@@ -3288,9 +3354,9 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/BE_510> a ramp:Module ;
     rdfs:label "Business Economics I" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Knowledge of introductory microeconomics at bachelor level" ;
     ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "business_economics_ii" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/HENRIK_ORZEN> ;
@@ -3304,8 +3370,8 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
     rdfs:label "Applied Econometrics",
         "Cc 502 Applied Econometrics" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/TONI_STOCKER> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/CC_503> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/TONI_STOCKER> ;
@@ -3317,10 +3383,11 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
     rdfs:label "Advanced Software Engineering",
         "Advanced Software Engineering Software Testing And Experimentation" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Knowledge of Java and/or Python" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "Model-Driven" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/COLIN_ATKINSON>,
         <http://ramp.uni-mannheim.de/person/DR._MARCUS_KESSEL>,
@@ -3340,14 +3407,15 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/CS_550> a ramp:Module ;
     rdfs:label "Algorithmics" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Algorithms and Data Structures",
         "Linear Algebra",
         "Practical Informatics I",
         "Practical Informatics I, Algorithms and Data Structures, Linear Algebra, Statistics",
         "Statistics" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "CS 651",
         "CS_651" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MATTHIAS_KRAUSE>,
@@ -3366,9 +3434,10 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/CS_651> a ramp:Module ;
     rdfs:label "Cryptography Ii" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "30"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "ORAL" ],
-        [ ramp:hasAssessmentForm "ORAL" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "30"^^xsd:int ;
+            ramp:hasAssessmentForm "ORAL" ],
+        [ ramp:examinationDuration "30"^^xsd:int ;
+            ramp:hasAssessmentForm "ORAL" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/FREDERIK_ARMKNECHT>,
         <http://ramp.uni-mannheim.de/person/PROF._DR._FREDERIK_ARMKNECHT> ;
     ramp:hasOptionalPrerequisite <http://ramp.uni-mannheim.de/module/CS_404> ;
@@ -3387,9 +3456,9 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
     rdfs:label "Corporate Finance I Lecture",
         "Fin 540 Corporate Finance I Lecture" ;
     ramp:ects "5"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic knowledge in accounting, finance, mathematics and statistics." ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasFurtherModue "FIN_541" ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MARC_GABARRO> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/ERNST_MAUG> ;
@@ -3401,11 +3470,12 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/IE_671> a ramp:Module ;
     rdfs:label "Web Mining" ;
     ramp:ects "3"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Fundamental notions of linear algebra and probability theory",
         "Fundamental notions of linear algebra and probability theory." ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/CHRISTIAN_BIZER>,
         <http://ramp.uni-mannheim.de/person/PROF._DR._CHRISTIAN_BIZER> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/IE_500> ;
@@ -3425,11 +3495,12 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/TAX_520> a ramp:Module ;
     rdfs:label "Taxation Of Companies" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic knowledge of company taxation" ;
     ramp:hasAssesment [ ramp:examinationDistribution 70.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ],
         [ ramp:examinationDistribution 30.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
             ramp:hasAssessmentForm "ASSIGNEMNT" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/CHRISTOPH_SPENGEL> ;
     ramp:id "TAX_520" ;
@@ -3439,11 +3510,12 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/TAX_530> a ramp:Module ;
     rdfs:label "Taxation Of Businesses And Individuals" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic knowledge of financial accounting" ;
     ramp:hasAssesment [ ramp:examinationDistribution 30.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
             ramp:hasAssessmentForm "ASSIGNEMNT" ],
         [ ramp:examinationDistribution 70.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/CHRISTOPH_SPENGEL> ;
     ramp:id "TAX_530" ;
@@ -3502,10 +3574,11 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/ACC_510> a ramp:Module ;
     rdfs:label "Financial Accounting" ;
     ramp:ects "8"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Bachelor-level knowledge of financial accounting" ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ],
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
         [ ramp:examinationDistribution 75.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
             ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/JENS_WÜSTEMANN> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/ACC_512> ;
@@ -3517,11 +3590,12 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/ACC_520> a ramp:Module ;
     rdfs:label "Ifrs Reporting And Capital Markets" ;
     ramp:ects "8"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Bachelor-level knowledge of financial accounting" ;
     ramp:hasAssesment [ ramp:examinationDistribution 75.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
             ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/JANNIS_BISCHOF> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/ACC_515> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/JANNIS_BISCHOF> ;
@@ -3532,9 +3606,9 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/ACC_530> a ramp:Module ;
     rdfs:label "Group Accounting" ;
     ramp:ects "8"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Bachelor-level knowledge of financial accounting" ;
     ramp:hasAssesment [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/DIRK_SIMONS> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/ACC_511> ;
@@ -3547,11 +3621,12 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
     rdfs:label "Financial Statement Analysis And Equity Valuation",
         "Financial Statement Analysis Equity Valuation" ;
     ramp:ects "8"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Bachelor-level knowledge of financial accounting and finance" ;
     ramp:hasAssesment [ ramp:examinationDistribution 75.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
             ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:hasAssessmentForm "WRITTEN" ] ;
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/HOLGER_DASKE> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/HOLGER_DASKE> ;
     ramp:id "ACC_540" ;
@@ -3565,10 +3640,11 @@ ramp:isPrerequisiteOf a owl:ObjectProperty,
 <http://ramp.uni-mannheim.de/module/ACC_TAX_570> a ramp:Module ;
     rdfs:label "Esg Regulation And Sustainability Reporting" ;
     ramp:ects "8"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
     ramp:hasAssesment [ ramp:examinationDistribution 25.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ],
         [ ramp:examinationDistribution 75.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
             ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/HOLGER_DASKE>,
         <http://ramp.uni-mannheim.de/person/JANNIS_BISCHOF>,
@@ -3685,8 +3761,8 @@ ramp:StudyProgram a owl:Class .
     rdfs:label "Cc 503 Empirical Methods Business Analytics I",
         "Empirical Methods Business Analytics I" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "90"^^xsd:int ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/ARND_VOMBERG> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/CC_502> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/ARND_VOMBERG> ;
@@ -3698,9 +3774,9 @@ ramp:StudyProgram a owl:Class .
     rdfs:label "Fin 500 Investments",
         "Investments" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Basic knowledge in mathematics and statistics." ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "WRITTEN" ] ;
+    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/ERIK_THEISSEN> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/ERIK_THEISSEN> ;
     ramp:id "FIN_500" ;
@@ -3714,21 +3790,26 @@ ramp:StudyProgram a owl:Class .
     rdfs:label "Data Mining",
         "Ie 500 Data Mining" ;
     ramp:ects "6"^^xsd:int ;
-    ramp:examinationDuration "60"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "Foundations of Statistics",
         "Foundations of Statistics, Practical Informatics I",
         "Practical Informatics I" ;
-    ramp:hasAssesment [ ramp:examinationDistribution 75.0 ;
-            ramp:hasAssessmentForm "WRITTEN" ],
-        [ ramp:examinationDistribution 20.0 ;
+    ramp:hasAssesment [ ramp:examinationDistribution 20.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "REPORT" ],
         [ ramp:examinationDistribution 75.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN" ],
+        [ ramp:examinationDistribution 20.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "REPORT" ],
+        [ ramp:examinationDistribution 75.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "WRITTEN" ],
         [ ramp:examinationDistribution 5.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "PRESENTATION" ],
-        [ ramp:examinationDistribution 20.0 ;
-            ramp:hasAssessmentForm "REPORT" ],
         [ ramp:examinationDistribution 5.0 ;
+            ramp:examinationDuration "60"^^xsd:int ;
             ramp:hasAssessmentForm "PRESENTATION" ] ;
     ramp:hasFurtherModue "CS 646",
         "CS_646",

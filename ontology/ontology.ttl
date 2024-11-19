@@ -22,8 +22,10 @@ ramp:recommended rdf:type owl:AnnotationProperty .
 #    Object Properties
 #################################################################
 
-###  http://ramp.uni-mannheim.de/hasAssesment
-ramp:hasAssesment rdf:type owl:ObjectProperty .
+###  http://ramp.uni-mannheim.de/hasAssessment
+ramp:hasAssessment rdf:type owl:ObjectProperty ;
+                   rdfs:domain ramp:Module ;
+                   rdfs:range ramp:Assessment .
 
 
 ###  http://ramp.uni-mannheim.de/hasDegree
@@ -155,26 +157,15 @@ ramp:ects rdf:type owl:DatatypeProperty ;
 ###  http://ramp.uni-mannheim.de/examinationDistribution
 ramp:examinationDistribution rdf:type owl:DatatypeProperty ;
                              rdfs:subPropertyOf owl:topDataProperty ;
-                             rdfs:domain [ owl:intersectionOf ( ramp:Module
-                                                                [ rdf:type owl:Restriction ;
-                                                                  owl:onProperty ramp:hasAssesment ;
-                                                                  owl:hasSelf "true"^^xsd:boolean
-                                                                ]
-                                                              ) ;
-                                           rdf:type owl:Class
-                                         ] .
+                             rdfs:domain ramp:Assessment ;
+                             rdfs:range xsd:decimal .
 
 
 ###  http://ramp.uni-mannheim.de/examinationDuration
 ramp:examinationDuration rdf:type owl:DatatypeProperty ;
-                         rdfs:domain [ owl:intersectionOf ( ramp:Module
-                                                            [ rdf:type owl:Restriction ;
-                                                              owl:onProperty ramp:hasAssesment ;
-                                                              owl:hasSelf "true"^^xsd:boolean
-                                                            ]
-                                                          ) ;
-                                       rdf:type owl:Class
-                                     ] .
+                         rdfs:subPropertyOf owl:topDataProperty ;
+                         rdfs:domain ramp:Assessment ;
+                         rdfs:range xsd:decimal .
 
 
 ###  http://ramp.uni-mannheim.de/hasAdditionalPrerequisite
@@ -223,6 +214,18 @@ ramp:workloadSelfStudy rdf:type owl:DatatypeProperty ;
 #################################################################
 #    Classes
 #################################################################
+
+###  http://ramp.uni-mannheim.de/Assessment
+ramp:Assessment rdf:type owl:Class ;
+                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                  owl:onProperty ramp:examinationDistribution ;
+                                  owl:someValuesFrom owl:rational
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty ramp:examinationDuration ;
+                                  owl:someValuesFrom owl:rational
+                                ] .
+
 
 ###  http://ramp.uni-mannheim.de/Degree
 ramp:Degree rdf:type owl:Class .
