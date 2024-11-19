@@ -141,11 +141,6 @@ ramp:isStudyAreaOf rdf:type owl:ObjectProperty ;
 #    Data properties
 #################################################################
 
-###  http://ramp.uni-mannheim.de/additionalPrerequisite
-ramp:additionalPrerequisite rdf:type owl:DatatypeProperty ;
-                            rdfs:domain ramp:Module .
-
-
 ###  http://ramp.uni-mannheim.de/ects
 ramp:ects rdf:type owl:DatatypeProperty ;
           rdfs:domain [ rdf:type owl:Class ;
@@ -180,6 +175,11 @@ ramp:examinationDuration rdf:type owl:DatatypeProperty ;
                                                           ) ;
                                        rdf:type owl:Class
                                      ] .
+
+
+###  http://ramp.uni-mannheim.de/hasAdditionalPrerequisite
+ramp:hasAdditionalPrerequisite rdf:type owl:DatatypeProperty ;
+                               rdfs:domain ramp:Module .
 
 
 ###  http://ramp.uni-mannheim.de/offeredIn
