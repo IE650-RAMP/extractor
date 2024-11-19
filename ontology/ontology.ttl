@@ -38,6 +38,12 @@ ramp:hasLecturer rdf:type owl:ObjectProperty ;
                  rdfs:range foaf:Person .
 
 
+###  http://ramp.uni-mannheim.de/hasMandatoryPrerequisite
+ramp:hasMandatoryPrerequisite rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf ramp:hasPrerequisite ;
+                              owl:inverseOf ramp:isMandatoryPrerequisiteOf .
+
+
 ###  http://ramp.uni-mannheim.de/hasModule
 ramp:hasModule rdf:type owl:ObjectProperty ;
                owl:inverseOf ramp:isModuleOf ;
@@ -56,6 +62,17 @@ ramp:hasModule rdf:type owl:ObjectProperty ;
 ramp:hasPersonInCharge rdf:type owl:ObjectProperty ;
                        rdfs:domain ramp:Module ;
                        rdfs:range foaf:Person .
+
+
+###  http://ramp.uni-mannheim.de/hasPrerequisite
+ramp:hasPrerequisite rdf:type owl:ObjectProperty ;
+                     owl:inverseOf ramp:isPrerequisiteOf .
+
+
+###  http://ramp.uni-mannheim.de/hasRecommnededPrerequisite
+ramp:hasRecommnededPrerequisite rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf ramp:hasPrerequisite ;
+                                owl:inverseOf ramp:isRecommendedPrerequisiteOf .
 
 
 ###  http://ramp.uni-mannheim.de/hasStudyArea

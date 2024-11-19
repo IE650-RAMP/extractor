@@ -176,14 +176,14 @@ def process_module_list(input_path):
         json_file.write(catalog_json)
 
 
-def parse_module_catalog(path):
+def parse_module_catalog(path) -> ModuleList:
     with open(path, "r") as json_file:
         catalog_json = json_file.read()
 
         return ModuleList.model_validate_json(catalog_json)
 
 
-def parse_overview(path):
+def parse_overview(path) -> StudyProgrammOverview:
     with open(path, "r") as json_file:
         catalog_json = json_file.read()
 
