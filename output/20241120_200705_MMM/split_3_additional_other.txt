@@ -1,0 +1,35 @@
+List of abbreviations
+DE: Course is taught in German.
+EN: Course is taught in English.
+ECTS: ECTS (European Credit Transfer and Accumulation System) are credit points that specify the
+number of working hours dedicated to one course over one semester. 1 ECTS equals 30 hours (1,800
+minutes) of studying.
+Form of assessment: The statet form of assessment applies to the regular examination dates (first
+examination attempt).
+FSS: Spring semester
+HWS: Fall semester
+Necessary prerequisites: You must fulfil the necessary prerequisites to be admitted to the exam
+(this will be automatically checked when you register for the exam!). Please note that courses, that
+are a necessary prerequisite for another course, have to be passed successfully upon the exam regis-
+tration if not stated otherwise (“parallel attendance possible”).
+Program-specific Competency Goals (CG): Competency Goals specify the competences students
+will have obtained upon their graduation. You find the Competency Goals of the MMM program at
+the beginning of the module catalog. The Competency Goals are regularly assessed in the Assur-
+ance of Learning process.
+Recommended prerequisites: Prerequisites you should fulfil to help you pass a course successfully.
+They are simply a recommendation and are not being checked.
+Study programs that include some MMM-modules (for details see "range of application" of
+each module):
+M.Sc. MMM: Master of Science: Mannheim Master in Management
+M.Sc. Bus. Edu.: Master of Science: Business Education
+M.Sc. Econ.: Master of Science: Economics
+M.Sc. Bus. Inf.: Master of Science: Business Informatics
+M.Sc. Bus. Math.: Mater of Science: Mathematics in Business and Economics
+MAKUWI: Master of Arts: Culture and Economy
+MMDS: Master of Science: Mannheim Master in Data Science
+LL.M.: Master of Laws
+7SWS (weekly working hours): Number of hours you need to dedicate to the course per week
+("Semesterwochenstunden"). They are subdivided in “contact hours” (time you participate in lec-
+tures) and “independent study time” (time you need to prepare for lectures and assessments). 1 SWS
+equals 45 minutes.
+8

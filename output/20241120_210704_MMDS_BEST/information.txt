@@ -1,0 +1,6 @@
+Number of modules in modules list: 61
+Number of modules in overview: 78
+19 IDs in overview but not in modules:
+{'IS_752', 'LEGAL_AND_ETHICAL_ASPECTS_OF_PRIVACY', 'MAC_527', 'MAB_508', 'IS_556', 'IS_540', 'MAA_519', 'MAB_520', 'MAC_404', 'MAC_502', 'MAB_504', 'MKT_545', 'IS_616', 'MAC_507', 'MKT_511', 'MAB_519', 'IS_622', 'IS_515', 'IS_661'}
+1 IDs in modules but not in overview:
+{'H_30'}

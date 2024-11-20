@@ -1,6 +1,6 @@
 enum Semester {
-  FFS @description("Fall/Spring semester")
-  HWS @description("Winter semester")
+  FFS @description("Spring/ Summer semester")
+  HWS @description("Fall/ Winter semester")
 }
 
 enum AssessmentForm {
@@ -46,12 +46,11 @@ class StudyProgrammOverview {
   name string @description("The name of the study program, e.g., 'MMDS'")
   hasDegree Degree[] @description("Degrees associated with this study program")
   studyArea StudyAreaOverview[] @description("The different areas of study within the study program")
-
 }
 
 class StudyAreaOverview {
   name string @description("The name of the study area, e.g., 'Data Science Fundamentals'")
-  requiredEcts int[] @description("The number of ects that has to be completed in this study area. Either exact number or lower and upper bound of a range.")
+  requiredEcts int[] @description("The number of ECTS that has to be completed in this study area. Either exact number or lower and upper bound of a range.")
   modules ModuleOverview[] @description("A list of all modules (with their name and id) in this study area")
 }
 
@@ -70,21 +69,21 @@ class Module {
   ects int @description("The number of ECTS points for the module")
   workloadInPerson int @description("The in-person workload hours for the module")
   workloadSelfStudy int @description("The self-study workload hours for the module")
-  offeredIn Semester[] @description("The semester when the module is offered")
+  offeredIn Semester[] @description("The semesters when the module is offered (FFS for Spring/ Summer or HWS for Fall/ Winter)")
   recommendedSemester int[] @description("Recommended semesters to take this module")
   recommendedLiterature string[] @description("List of recommended literature for the module")
   
-  hasLecturer Person[] @description("The persons that gives the lecture for this module")
+  hasLecturer Person[] @description("The person that gives the lecture for this module")
   hasPersonInCharge Person[] @description("The person that is in charge of the module")
   
   assessmentForms AssessmentForm[] @description("The forms of assesment for this moudle")
   examinationDistribution string? @description("Distribution method for examinations in this module (e.g. 80/20, 100)")
   examinationDuration int? @description("Duration of the examination in minutes")
   
-  requiredPrerequisiteModules string[] @description("A list of module IDs (typically a letter-number combination such as IE_100) that are a explicitly stated as required prerequisite for this module")
-  optionalPrerequisiteModules string[] @description("A list of module IDs (typically a letter-number combination such as IE_100) that are a optional additional prerequisite for this module")
+  requiredPrerequisiteModules string[] @description("A list of module IDs (a letter-number combination such as IE_100 in snake case) that are a explicitly stated as required prerequisite for this module")
+  optionalPrerequisiteModules string[] @description("A list of module IDs (a letter-number combination such as IE_100 in snake case) that are a optional additional prerequisite for this module")
   additionalPrerequisite string? @description("Any additional prerequisites for the module")
-  furtherModules string[] @description("A list of module names that are recommended subsequent modules")
+  furtherModules string[] @description("A list of module IDs (a letter-number combination such as IE_100 in snake case) or names if no ID is given that are recommended subsequent modules")
   // isFollowupOfModule string[] @description("List of modules that this module follows up on")
   // isMandatoryPrerequisiteOf string[] @description("List of modules that require this module as a mandatory prerequisite")
   // isRecommendedPrerequisiteOf string[] @description("List of modules for which this module is a recommended prerequisite")

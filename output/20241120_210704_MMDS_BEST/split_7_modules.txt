@@ -1,0 +1,431 @@
+CS 662 Types and Programming Languages
+Form of module Lecture with Exercise
+Type of module Specialization Course
+Level Master
+ECTS 6
+Hours per semester present: 56h (4 SWS)
+Workload
+Self-study: 112h
+Prerequisites -
+A type system is a syntactic method for enforcing levels of ab-
+straction in programs. The study of type systems—and of pro-
+gramming languages from a type-theoretic perspective—has im-
+portant applications in software engineering, language design,
+high-performance compilers, and security. In this lecture, we will
+discuss the following topics:
+Aim of module • Lambda calculus
+• Static and dynamic semantics of programming languages
+• Functional programming
+• Curry-Howard correspondence
+• Computational logic
+• Proof assistants
+• Typed intermediate languages
+Expertise:
+• Get acquainted with the aims of the module
+(MK1, MK2, MF1, MF3)
+Methodological competence:
+• Students will get familiar with the jargon used in scientific
+Learning outcomes and publications about programming languages
+qualification goals (MF1, MF2, MF3)
+Personal competence:
+• Learn how to read scientific publications about program-
+ming languages
+• Teamwork skills
+(MKO1, MKO2)
+Lecture slides, exercise sheets, project assignments, software,
+Media
+software documentation
+30Types and Programming Languages. February 2002. Benjamin C.
+Literature
+Pierce. The MIT Press. ISBN: 978-0-262-16209-8
+• Lecture
+Methods
+• Weekly Exercises/programming projects
+Form of assessment Written examination (90 minutes)
+Admission requirements
+≥ 50% points in homework assignments in groups of 2-3 students
+for assessment
+Duration of assessment 90 minutes written exam
+Language English
+Offering FSS
+Lecturer Junior Professor Dr. Roland Leißa
+Person in charge Junior Professor Dr. Roland Leißa
+Duration of module 1 semester
+Further modules -
+M. Sc. Wirtschaftsinformatik, Lehramt Informatik, MMDS,
+Range of application
+MMSDS
+Semester 1st/2nd/3rd semester
+31CS 664 Blockchain Security
+Form of module
+Inverted classroom with exercises
+Type of module
+Specialization course
+ECTS 6
+Workload Hours per semester present: 56h (4 SWS), Self-study: 112h
+There are no formal prerequisites but knowledge in cryptography
+Prerequisites and/or IT-security is recommended, e.g., by attending the lec-
+tures “Kryptographie I” or “Selected Topics in IT-Security”
+Blockchains promise secure and reliable data storage and consen-
+sus in a trustless environment. In the light of their growing popu-
+larity, Blockchain security becomes increasingly important. The
+course will equip students with a solid understanding of block-
+Aim of module
+chains, their design principles, underlying technologies and cryp-
+tographic primitives. Bitcoin, Monero and Ethereum will be dis-
+cussed in greater detail and a substantial part of the course will
+be devoted to security issues and possible attacks.
+Expertise:
+Students will acquire profound knowledge of Blockchain technol-
+ogy as well as the skills to critically examine the security of Block-
+chain-based systems.
+(MK1, MK2)
+Methodological competence:
+Successful participants will be able to understand and evaluate
+the different ways in which different Blockchain systems try to
+Learning outcomes and achieve security. They will also be able to identify where, why and
+qualification goals how these security measures are broken for both, current and
+new systems.
+(MKO3)
+Personal competence:
+The analytic, concentrated, and precise thinking of the students is
+trained. As multiple different but related Blockchains are dis-
+cussed, their abstraction capacity is further developed and the
+transfer of the learned concepts to related questions is trained.
+(MF1)
+Media Video recordings, annotated lecture slides
+Literature Will be announced in the lecture
+32Reworking the lecture and studying the relevant literature in self-
+study. During the lecture: discussing questions and ideas and
+Methods
+working together on concrete examples. Solving exercises in self-
+study and in practice in cooperation with fellow students.
+Form of assessment Written exam
+Admission requirements
+-
+for assessment
+Duration of assessment 90 Minutes
+Language English
+Offering HWS
+Lecturer Prof. Dr. Frederik Armknecht
+Person in charge Prof. Dr. Frederik Armknecht
+Duration of Module 1 Semester
+Further Modules -
+MMDS, MMSDS, M.Sc. Wirtschaftsinformatik, Lehramt Informa-
+Range of application
+tik, M.Sc. Mathematik, M.Sc. Wirtschaftsmathematik
+Semester 1st/2nd/3rd semester
+33IE 663 Information Retrieval and Web Search
+Form of module Lecture
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester present: 28h (2SWS)
+Workload Self-study: 60h per semester
+• Pre- and post- lecture studying and preparation (30h)
+• Examination preparation (30h)
+Fundamental notions of linear algebra, probability theory, as well
+Prerequisites
+as algorithms and data structures
+Given the vastness and richness of the Web, users need high-per-
+forming, scalable and efficient methods to access its wealth of in-
+formation and satisfy their information needs. As such, being able
+to search and effectively retrieve relevant pieces of information
+from large text collections is a crucial task for the majority (if prac-
+tically not all) of Web applications. In this course, we will explore a
+variety of basic and advanced techniques for text-based infor-
+mation retrieval and Web search. Covered topics will include:
+Aim of module • Efficient text indexing;
+• Boolean and vector space retrieval models;
+• Probabilistic and semantic ad-hoc retrieval;
+• Evaluation of retrieval systems;
+• Text classification and clustering;
+• Web search, crawling and link-based algorithms.
+This course provides theoretical information retrieval foundations.
+As such is highly to be attended together with the course Infor-
+mation Retrieval Project (IE 691).
+Expertise:
+Students will acquire knowledge of fundamental techniques of In-
+formation Retrieval and Web Search, including standard retrieval
+Learning outcomes and
+models, evaluation of information retrieval systems, text classifica-
+qualification goals
+tion and clustering, as well as web search topics such as crawling
+and link-based algorithms.
+(MK1, MK2, MF1)
+34Methodological competence:
+Successful participants will be able to understand state-of-the-art
+methods for Information Retrieval and Web search, as well as be-
+ing able to select, apply and evaluate the most appropriate tech-
+niques for a variety of different search scenarios.
+(MF1, MF2, MF4)
+Personal competence: -
+Media Lecture slides, exercise sheets
+• Christopher D. Manning, Prabhakar Raghavan and Hinrich
+Schütze, Introduction to Information Retrieval, Cambridge Uni-
+versity Press. 2008.
+Literature • B. Croft, D. Metzler, T. Strohman, Search Engines: Information
+Retrieval in Practice, Addison-Wesley, 2009
+• R. Baeza-Yates, B. Ribeiro-Neto, Modern Information Re-
+trieval, Addison-Wesley, 2011 (2nd Edition).
+The course consists of (1) lectures that introduce the students to
+traditional and contemporary information retrieval techniques and
+Methods models, and (2) exercises in which the students are demonstrated
+in terms of comprehensible examples how theoretically introduced
+models work.
+Form of assessment Written examination
+Admission requirements for
+-
+assessment
+Duration of assessment 90 minutes
+Language English
+Offering HWS
+Lecturer Prof. Dr. Simone Ponzetto
+Person in charge Prof. Dr. Simone Ponzetto
+Duration of module 1 semester
+Further modules -
+Range of application M.Sc. Wirtschaftsinformatik, Lehramt Informatik, MMDS, MMSDS
+Semester 1st/2nd/3rd semester
+35IE 670 Web Data Integration
+Form of module Lecture
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester: 28 h (2 SWS)
+Workloadk Self-study: 56 h per semester
+• 31 h: pre and post lecture studying and revision
+• 25 h: examination preparation
+Prerequisites -
+Data integration is one of the key challenges in most IT projects
+and it is estimated that data scientists spend about 80% of their
+time on data integration and data preparation. Within the enter-
+prise context, data integration problems arise whenever data from
+separate sources needs to be combined as the basis for new appli-
+cations or data analysis projects. Within the context of the Web,
+data integration techniques form the foundation for taking ad-
+vantage of the ever-growing number of publicly-accessible data
+sources. The course will cover the following topics:
+1. Heterogeneity and Distributedness
+Aim of module
+2. The Data Integration Process
+3. Structured Data on the Web
+4. Data Exchange Formats
+5. Schema Mapping and Data Translation
+6. Identity Resolution
+7. Data Quality Assessment
+8. Data Fusion
+It is highly recommended to attend the course web data integra-
+tion project in the same semester as this course as the schedules of
+both courses are aligned to each other.
+Expertise:
+Students will be able to identify opportunities for employing Web
+data in business applications and will learn to select and apply ap-
+propriate techniques for integrating and cleansing Web data.
+Learning outcomes and (MK1, MF1)
+qualification goals Methodological competence:
+• Participants will acquire knowledge of the data integration pro-
+cess as well as the techniques that are used in each phase of
+the process.
+(MK2, MF3, MF4, MKO3)
+36Media slide set
+• AnHai Doan, Alon Halevy, Zachary Ives: Principles of Data Inte-
+gration. Morgan Kaufmann, 2012.
+• Luna Dong, Divesh Srivastava: Big Data Integration. Morgan &
+Literature
+Claypool, 2015.
+• Ulf Leser, Felix Naumann: Informationsintegration. Dpunkt Ver-
+lag, 2007.
+The course consists of a lecture that introduces students to state of
+Methods
+the art data integration techniques.
+Form of assessment Written examination
+Admission requirements for
+-
+assessment
+Duration of assessment 60 minutes
+Language English
+Offering Fall semester
+Lecturer Prof. Dr. Christian Bizer
+Person in charge Prof. Dr. Christian Bizer
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence, Lehramt Informatik, MMSDS
+Semester 1st/2nd/3rd semester
+37IE 691 Information Retrieval Project
+Form of module Project
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester present: 28h (2SWS)
+Workload Self-study: 60h per semester
+• Project work (45h)
+• Report and presentation preparation (15h)
+Programming skills (preferably in one of the higher-level program-
+Prerequisites
+ming languages: Java/Python/C#/C++).
+Students are expected to successfully complete a team project in
+teams of 2-4 members. The projects will focus on a variety of IR
+problems and implementation of IR models theoretically covered in
+the course Information Retrieval and Web Search (IE 663). It is thus
+Aim of module highly recommended to attend this course together with the
+course IE 663. Project deliverables include both software (i.e., code
+and documentation) and a short report explaining the work per-
+formed and its evaluation. The students are expected to clearly and
+coherently present the project results.
+Expertise:
+Students will be able to solve real-world retrieval and search prob-
+lems: they will be able to analyze different potential solutions to a
+given problem, identify their advantages and shortcomings, and
+decide for the best solution. (MK1, MF1)
+Methodological competence:
+Students will obtain skills needed to implement one or more infor-
+Learning outcomes and mation retrieval models and test their usefulness on real-world
+qualification goals problems. Successful participants will be able to fully understand
+state-of-the-art methods for Information Retrieval and Web
+search, through hands-on experience of implementing those mod-
+els. Students will also develop and/or improve their project organi-
+zation skills (activity planning, work breakdown, time planning,
+etc.) (MK2, MF3, MF4, MKO3)
+Personal competence:
+• Presentation skills
+38• Team work skills
+(MKO2, MF2)
+Media Project task specifications
+• Christopher D. Manning, Prabhakar Raghavan and Hinrich
+Schütze, Introduction to Information Retrieval, Cambridge Uni-
+versity Press. 2008.
+Literature • B. Croft, D. Metzler, T. Strohman, Search Engines: Information
+Retrieval in Practice, Addison-Wesley, 2009
+• R. Baeza-Yates, B. Ribeiro-Neto, Modern Information Re-
+trieval, Addison-Wesley, 2011 (2nd Edition).
+Students work on implementing an information retrieval system in
+order to solve a real-worls search problem. Students work in
+Methods teams, implement the programmatic solutions to the tasks, organ-
+ize their knowledge and results into a project report, and present
+the obtained results.
+Project report (70%, 10-20 pages in length), oral project presenta-
+Form of assessment
+tion (30%, 20-30 minutes).
+Admission requirements for
+-
+assessment
+4-6 weeks (execution of the project work and writing of the re-
+Duration of assessment
+port), 20-30 minutes (presentation).
+Language English
+Offering HWS
+Lecturer Prof. Dr. Simone Ponzetto
+Person in charge Prof. Dr. Simone Ponzetto
+Duration of module 1 semester
+Further modules -
+Range of application M.Sc. Wirtschaftsinformatik, Lehramt Informatik, MMDS, MMSDS
+Semester 1st/2nd/3rd semester
+39IE 683 Web Data Integration Project
+Form of module Project
+Type of module Specialization course
+Level Master
+ECTS 3
+Workload Hours per semester: 28 h (2 SWS)
+Self-study: 56 h per semester
+• 36 h: project work
+• 20 h: report writing and presentation preparation
+Prerequisites Programming skills in Java
+The web data integration project allows students to apply the
+methods and techniques that they have learned in the lecture Web
+Data Integration in the context of a practical integration project.
+The projects cover all steps of the data integration process includ-
+Aim of module ing data gathering, schema mapping, data translation, identity res-
+olution, data quality assessment, and data fusion.
+It is highly recommended to attend the web data integration lec-
+ture in the same semester as the web data integration project as
+the schedules of both courses are aligned to each other.
+Expertise:
+• Students will be able to identify opportunities for employing
+Learning outcomes and
+Web data in business applications and will learn to apply appro-
+qualification goals
+priate techniques for integrating and cleansing Web data.
+(MK1, MF1)
+Methodological competence:
+• Participants will acquire knowledge of the data integration pro-
+cess as well as the techniques that are used in each phase of
+the process.
+• project organization skills
+(MK2, MF3, MF4, MKO3)
+Personal competence:
+• presentation skills
+• team work skills
+(MKO2, MF2)
+40Media exercise sheets; Java project template
+• AnHai Doan, Alon Halevy, Zachary Ives: Principles of Data Inte-
+gration. Morgan Kaufmann, 2012.
+• Luna Dong, Divesh Srivastava: Big Data Integration. Morgan &
+Literature
+Claypool, 2015.
+• Ulf Leser, Felix Naumann: Informationsintegration. Dpunkt Ver-
+lag, 2007.
+Students work on their integration projects in teams and will report
+Methods about the results of their projects in the form of a written report as
+well as an oral presentation.
+Project report (70%, 10-20 pages in length), oral project presenta-
+Form of assessment
+tion (30%, 20-30 minutes).
+Admission requirements for
+-
+assessment
+4-6 weeks (execution of the project work and writing of the re-
+Duration of assessment
+port), 20-30 minutes (presentation).
+Language English
+Offering Fall semester
+Lecturer Prof. Dr. Christian Bizer
+Person in charge Prof. Dr. Christian Bizer
+Duration of module 1 semester
+Further modules -
+Range of application M.Sc. Wirtschaftsinformatik, Lehramt Informatik, MMDS, MMSDS
+Semester 1. /2. /3. Semester
+41MAC 570 Reinforcement Learning - Coding
+Form of module Lectures with exercises
+Type of module Mathematics C
+Level Master
+ECTS 5
+28 hours lectures
+Workload
+122 hours self-studies
+Prerequisites Reinforcement Learning
+Implementation of standard algorithms in reinforcement
+learning
+Aim of module • Bandit algorithms (UCB)
+• TD algorithms (Q-learning, TD)
+• Policy gradient algorithms (SAC, PPO)
+MK1, M02, M03
+Learning outcomes and
+MF1, MF3
+qualification goals
+(cf, “Erläuterungen zu den Abkürzungen”)
+Media Blackboard, Slides
+Literature Original articles
+Methods Lectures, programmig tasks
+Form of assessment written exam
+Admission requirements
+-
+for assessment
+Duration of assessment 90 min
+Language English
+Offering irregular
+Prof. Dr. Leif Döring
+Lecturer
+Person in charge Prof. Dr. Leif Döring
+Duration of module 1 semester
+42Further modules -
+M.Sc. Wirtschaftsmathematik, B.Sc. Wirtschaftsmathematik,
+Range of application M.Sc. Mathematik, M.Sc. Mannheim Master in Data Science,
+M.Sc. Wirtschaftsinformatik
+Semester 1st
+,
+2nd
+,
+3rd
+43

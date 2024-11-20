@@ -1,0 +1,476 @@
+IE 686 Large Language Models and Agents
+Form of module Lectures with tutorials and projects
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester: 28 h (2 SWS)
+Self-study: 56 h per semester
+Workload
+• 36 h: project work
+• 20 h: report writing and presentation preparation
+• Programming skills in Python
+Prerequisites
+• Basic machine learning concepts and techniques
+Large language models (LLMs) such as GPT, Llama, Gemini, and
+Mixtral have the potential to enable a wide range of new applica-
+tions and to significantly improve the performance of existing sys-
+tems. The course introduces students to LLMs and teaches them
+how to employ the models within applications. The course covers
+Aim of module the following topics:
+• Introduction to LLMs
+• Prompt engineering patterns
+• LLM-based agents
+• Evaluation of LLMs and agents
+• Development of LLM-based applications
+Expertise:
+Students will understand the principles of training LLMs. They will
+be able to identify opportunities for employing LLMs in business
+applications and will learn to apply prompt engineering techniques
+as well as agent frameworks for solving business tasks.
+(MK1, MF1)
+Learning outcomes and Methodological competence:
+qualification goals Participants will acquire theoretical and practical knowledge on
+large language models, prompt engineering techniques, and
+agents. They will learn to use frameworks like LangChain and Auto-
+Gen for the design and implementation of the learned concepts in
+practical use cases.
+(MK2, MF3, MF4, MKO3)
+Personal competence:
+61• Project organization skills
+• Presentation skills
+• Teamwork skills
+• Python programming skills
+(MKO1, MKO2, MF2)
+Media Slide sets, software, datasets
+• Zhou et al.: A Comprehensive Survey on Pretrained Foundation
+Models: A History from BERT to ChatGPT. 2023.
+arXiv:2302.09419.
+Literature • Zhao et al.: A Survey of Large Language Models. 2024.
+arXiv:2303.18223
+• Wang et al.: A Survey on Large Language Model based Au-
+tonomous Agents. 2024. arXiv:2302.07842
+The course participants gain knowledge about the principles and
+methods behind large language models through lectures and tuto-
+rials. In the second half of the course, students apply their
+Methods
+knowledge in team projects and will report about their results in
+the form of a written report as well as an oral presentation.
+Project report (70%), oral project presentation (30%)
+Form of assessment
+Admission requirements for
+-
+assessment
+Duration of assessment -
+Language English
+Offering Fall semester
+Prof. Dr. Christian Bizer
+Lecturer
+Ralph Peeters
+Person in charge Prof. Dr. Christian Bizer
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence, Mannheim Master in Social Data Science, Lehramt Informatik
+Semester 1st/2nd/3rd semester
+62IE 692 Advanced Process Mining*
+Form of Module Lecture
+Type of Module Specialization course
+Level Master
+ECTS 6
+150 h per semester
+Workload You are expected to be familiar with the use of Petri nets and
+Prerequisites BPMN for process modeling, and being able to do basic program-
+ming in Python. IS 515 or having experience with process mining
+are NOT prerequisites.
+Process mining is an emerging branch of data science that aims at
+deriving qualitative and quantitative insights on the execution of
+organizational processes, based on the analysis of recorded event
+sequences.
+The course features lectures and exercises that focus on the formal
+foundations, algorithms, and techniques of process mining. Specifi-
+cally, this course covers aspects such as:
+• Process discovery, which aims to derive a process model from
+recorded events
+• Conformance checking, which aims to identify deviations be-
+tween event data and process models
+• Process enhancement, which aims to augment process models
+with information on the temporal, organizational, and data per-
+Aim of module spectives of a process
+• Predictive monitoring, which aims to make predictions about
+ongoing process instances
+• Techniques to preprocess, abstract, cluster event data for im-
+proved analyses
+For the above subjects, the course will cover fundamental algo-
+rithms as well as advanced, state-of-the-art techniques.
+During the exercises that follow each lecture, you will practice
+through pen-and-paper exercises, as well as implementation and
+evaluation using open source process mining tools and libraries.
+• The lectures and exercises are complemented by a practical as-
+signment in which students will work in groups on a project
+that involves implementation and/or evaluation of a process
+mining technique.
+63Knowledge:
+• After completing the course, students will be familiar with fun-
+damental and state-of-the-art techniques for the data-driven
+analysis of business processes, i.e., process mining.
+(MK1, MK2)
+Capabilities:
+• After completing the course, students will be able to analyze
+Learning Outcomes and
+business processes using process mining techniques and opens-
+Qualification Goals
+source process mining tools.
+(MF1, MF2, MF3)
+Competencies:
+• During the course, students will learn to apply, compare, and
+assess process mining techniques on synthetic and real-world
+data, in both individual and team-based settings.
+(MKO1, MKO3)
+• Pen-and-paper plus programming exercises (mainly Python).
+• Project involving open-source process mining tools and librar-
+Media
+ies, possibly with implementation (in Python or Java)
+• Pen-and-paper exam
+• Wil van der Aalst: Process Mining: Data Science in Action, 2nd
+edition (Recommended)
+Literature • Josep Carmona et al. Conformance checking, 1st edition (Rec-
+ommended)
+• Additional academic papers suggested per lecture
+• Lectures
+Teaching and Learning
+• Homework exercises to practice with joint discussion in exer-
+Methods
+cise sessions
+80% written exam
+Form of assessment
+20% group assignment
+Admission requirements for
+-
+assessment
+The exam will take 60 minutes, the assignment will be spread over
+Duration of assessment various weeks with a single deadline towards the end of the semes-
+ter.
+Language English
+Offering Spring semester
+Lecturers Prof. Dr. Jana -Rebecca Rehse
+64Person in charge Prof. Dr. Jana -Rebecca Rehse
+Duration of module 1 semester
+Further modules -
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of Application
+ence, MMSDS
+Semester 2nd semester
+*The number of this module will change (TBA). For an updated description, please see the module catalog of
+the MMM: Mannheim Master in Management https://www.bwl.uni-mannheim.de/studium/master/mmm/#c176637
+65IE 696 Advanced Methods in Text Analytics
+Form of module Lecture with exercises
+Type of module Specialization course
+Level Master
+ECTS 6
+Hours per semester: 56 h (4 SWS)
+Workload Self-study: 112 h per semester
+• 84 h: pre and post lecture studying and revision
+• 28 h: examination preparation
+Fundamental notions of linear algebra and probability theory. Suc-
+Prerequisites cessful completion of “Text Analytics” (IS661), “Machine Learning”
+(IE675b) or “Deep Learning” (IE678).
+This module builds upon the introduction to Natural Language Pro-
+cessing (NLP) from “Text Analytics” (IS661) and introduces students
+to cutting-edge problems, techniques and state-of-the-art methods
+in NLP. The course will focus on neural models of meaning in con-
+text and present a variety of “Deep Learning” architectures for dif-
+Aim of module
+ferent applications in human language technology (e.g., summari-
+zation, dialogue systems and machine translation). Moreover, we
+will cover open research areas, such as the explainability and inter-
+pretability of NLP models and methods to quantify the degree of
+bias they exhibit.
+Expertise:
+Students will acquire knowledge of state-of-the-art principles and
+methods of Natural Language Processing, specifically focusing on
+applying statistical methods to human language technologies.
+(MK1, MK2, MF3)
+Learning outcomes and
+Methodological competence:
+qualification goals
+Successful participants will be able to understand state-of-the-art
+methods for Natural Language Processing and select, apply and
+evaluate the most appropriate techniques for various practical and
+application-oriented scenarios.
+(MF3)
+Media Lecture and tutorial slides, exercise sheets
+66• Dan Jurafsky and James H. Martin, Speech and Language Pro-
+cessing: An Introduction to Natural Language Processing, Com-
+Literature
+putational Linguistics, and Speech Recognition (3rd edition,
+online available at https://web.stanford.edu/~jurafsky/slp3/).
+Methods Lectures, tutorials
+Form of assessment Written examination
+Admission requirements for
+-
+assessment
+Duration of assessment 90 minutes
+Language English
+Offering Fall/Spring semester
+Lecturer Prof. Dr. Simone Paolo Ponzetto
+Person in charge Prof. Dr. Simone Paolo Ponzetto
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, MSc. Mannheim Master in Data Sci-
+Range of application
+ence, Lehramt Informatik, MMSDS
+Semester 1st/2nd/3rd semester
+67CS 646 Higher Level Computer Vision
+Form of module Lecture with Exercise
+Type of module Specialization Course
+Level Master
+ECTS 6
+Hours per semester present: 56 (4SWS)
+Workload Self-study: 98h
+• 70h lecture/exercises
+• 28h exam preparation
+Basis skills in linear algebra, basis knowledge in python and
+Prerequisites
+pytorch
+• Point Features and point matching
+• Object Identification
+• Deep Learning for Computer Vision
+Aim of module • Object Detection
+• Image Segmentation
+• Optical Flow
+• Video and Motion Segmentation
+Expertise: The students have a detailed understanding of Com-
+puter Vision techniques. They can evaluate given Computer Vi-
+sion algorithms.
+(MK1, MK2, MF1, MF3)
+Methodological competence: Students understand the tech-
+Learning outcomes and nical basis of Computer Vision algorithms; they can explain the
+qualification goals discussed methods and implement them.
+(MF1, MF2, MF3)
+Personal competence: Understanding complex Computer Vi-
+sion problems; thorough judgment in the design and use of
+methods; can work efficiently in a team.
+(MK01, MK02)
+Media Exercise sheets and lecture slides available online.
+68• Goodfellow et al..: Deep Learning, MIT Press, 2016.
+https://www.deeplearningbook.org/
+• R. Szeliski: Computer Vision Algorithms and Applications,
+Springer, 2010. ISBN: 978-1-84882-934-3. (Online available:
+http://szeliski.org/Book/
+• D. Forsyth, J. Ponce: Computer Vision: A Modern Approach,
+Literature Prentice Hall, 2nd edition, 2012. ISBN: 978-0136085928
+(Online available:
+http://cmuems.com/excap/readings/forsyth-ponce-
+computer-vision-a-modern-approach.pdf
+• R. Hartley, A. Zisserman: Multiple View Geometry in
+Computer Vision, Cambridge University Press, 2nd edition,
+2004.
+Lecture, weekly exercise, book studies, implementation of al-
+Methods
+gorithms, visualization of results
+Form of assessment Written or oral examination (TBA)
+Admission requirements
+-
+for assessment
+Duration of assessment 90 minutes (written) or 20 minutes (oral)
+Language English
+Offering Fall semester
+Lecturer Professor Dr.-Ing. Margret Keuper
+Person in charge Professor Dr.-Ing. Margret Keuper
+Duration of module 1 Semester
+Further modules Image Processing
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of application
+Science, Lehramt Informatik
+Semester 1st/2nd/3rd semester
+69CS 647 Image Processing
+Form of module Lecture with Exercise (partially online)
+Type of module Specializaton Course
+Level Master
+ECTS 6
+Hours per semester present: 56 (4SWS)
+Workload Self-study: 98h
+• 70h lecture/exercises
+• 28h exam preparation
+Prerequisites Basis skills in linear algebra, basis knowledge in python
+• Introduction to Imaging (human visual system, optics, sensors)
+• Noise and basic operations (convolution, correlations,
+gradients)
+• Energy minimization
+• Variational Methods
+Aim of module
+• Feature extraction
+• Classification
+• Segmentation
+• Image Sequences and Motion (Optical Flow)
+• Stereo Vision
+Expertise: The students have a detailed understanding of image
+and video processing techniques. They can evaluate given image
+processing algorithms.
+(MK1, MK2, MF1, MF3)
+Methodological competence: Students understand the technical
+Learning outcomes and basis of image processing algorithms; they can explain the dis-
+qualification goals cussed methods and implement them.
+(MF1, MF2, MF3)
+Personal competence: Understanding complex Image Processing
+problems; thorough judgment in the design and use of methods;
+can work efficiently in a team.
+(MK01, MK02)
+Media Exercise sheets and lecture slides available online.
+70• R. Szeliski: Computer Vision Algorithms and Applications,
+Springer, 2010. ISBN: 978-1-84882-934-3. (Online available:
+Literature http://szeliski.org/Book/)
+• D. Forsyth, J. Ponce: Computer Vision: A Modern Approach,
+Prentice Hall, 2nd edition, 2012. ISBN: 978-0136085928
+Lecture, weekly exercise, book studies, implementation of algo-
+Methods
+rithms, visualization of results
+Form of assessment Written or oral examination (TBA)
+Admission requirements
+-
+for assessment
+Duration of assessment 90 minutes (written) or 20 minutes (oral)
+Language English
+Offering Fall Semester/ Spring Semester
+Lecturer Professor Dr.-Ing. Margret Keuper
+Person in charge Professor Dr.-Ing. Margret Keuper
+Duration of module 1 Semester
+Further modules Higher Level Computer Vision
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence, Lehramt Informatik
+Semester 1st/2nd/3rd semester
+71CS 668 Generative Computer Vision Models
+Form of module Lecture with Exercise
+Type of module Specialization Course
+Level Master
+ECTS 6
+Hours per semester present: 56 (4SWS)
+Workload Self-study: 98h
+• 70h lecture/exercises
+• 28h exam preparation
+Prerequisites Basis skills in linear algebra, basis knowledge in python/pytorch
+• Introduction to Clustering and Unsupervised Learning
+• Introduction to Generative Models
+• Autoregressive Models for Image Generation
+• (Normalizing) Flow
+Aim of module • Latent Variable Models
+• Latent Space Visualizations
+• Generative Adversarial Models
+• Diffusion Models
+• Multi-Modal Conditioning
+Expertise: The students have a detailed understanding of image
+generation techniques, latent variable models, and their evalua-
+tions.
+(MK1, MK2, MF1, MF3)
+Methodological competence: Students understand the technical
+basis of generative models; they can explain the discussed meth-
+Learning outcomes and
+ods and implement them.
+qualification goals
+(MF1, MF2, MF3)
+Personal competence: Understanding image generative models,
+their working principles and training procedures; thorough judg-
+ment in the design and use of methods; Students can work effi-
+ciently in a team.
+(MK01, MK02)
+Media Exercise sheets and lecture slides available online.
+• Ian Goodfellow and Yoshua Bengio and Aaron Courville, Deep
+Literature
+Learning, An MIT press book, 2016.
+72Lecture, weekly exercise, book studies, implementation of
+Methods
+algorithms, visualization of results
+Form of assessment Written or oral examination (TBA)
+Admission requirements
+-
+for assessment
+Duration of assessment 90 minutes (written) or 20 minutes (oral)
+Language English
+Offering Spring Semester
+Lecturer Professor Dr.-Ing. Margret Keuper
+Person in charge Professor Dr.-Ing. Margret Keuper
+Duration of module 1 Semester
+Further modules Higher Level Computer Vision
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of application
+Science, Lehramt Informatik
+Semester 1st/2nd/3rd semester
+73DS 201 Machine Learning and Causal Inference
+Form of module Lecture and Tutorial
+Type of module Data Science Methods: Fundamentals
+Level Master
+ECTS 9 (270 hours)
+Hours per semester present: 56 h (2 SWS)
+Self-study: 214 h per semester
+• 91 h: pre and post lecture studying and revision
+Workload
+• 42 h: studying for and taking weekly online tests
+• 41 h: preparation and presentation of weekly exercises
+• 40 h: examination preparation
+A sound understanding of basic statistical methods incl. re-
+gression analysis, estimation methods (OLS, MLE), and statis-
+Prerequisites
+tical inference is required. Knowledge in linear algebra and
+calculus is useful.
+The course aims to introduce students to advanced causal in-
+ference and machine learning methods, discussing models in
+detail. It first deals with causal inference topics, for instance,
+synthetic control and its extensions, causal inference in panel
+and difference-in-difference models. The course also covers
+Aim of module estimating mediation effects, controlled direct effects, and
+gives an introduction to directed acyclic graphs (DAGs). The
+second part of the course then discusses a theory of causal
+estimation and the role of machine learning in estimating
+these effects. Advanced and popular techniques of machine
+learning are introduced.
+Expertise:
+Students are aware of how machine learning can help answer
+causal questions; they can analyze (large) data sets using
+popular techniques of machine learning.
+Learning outcomes and (MK1)
+qualification goals Methodological competence:
+Students are able to translate their research question(s) into
+a causal framework; they can apply different techniques of
+machine learning.
+(MK1, MK3)
+74Personal competence:
+The course supports students to develop competences with
+regard to choosing the appropriate statistical method(s) to
+answer respective research questions.
+(MF1, MF2, MF4, MKO1, MKO2)
+Media Lecture slides available online
+• Angrist, Joshua D., and Jörn-Steffen Pischke. 2009. Mostly
+Harmless Econometrics: An Empiricist’s Companion.
+Princeton: Princeton University Press.
+• Murphy, Kevin P. 2012. Machine Learning: A Probabilistic
+Perspective. Cambridge: MIT Press.
+• Hastie, Trevor, Robert Tibshirani, and Jerome Friedman.
+2008. The Elements of Statistical Learning. 2nd ed. New
+Literature
+York: Springer.
+• Imbens, Guido W., and Donald B. Rubin. 2015. Causal In-
+ference for Statistics, Social, and Biomedical Sciences: An
+Introduction. Cambridge: Cambridge University Press.
+• Morgan, Stephen L., and Christopher Winship. 2007.
+Counterfactuals and Causal Inference. Cambridge: Cam-
+bridge University Press.
+Methods Lecture elements, weekly online tests, literature studies
+Form of assessment Written examination
+Admission requirements for Oral participation, homework, presentations, compulsory at-
+assessment tendance
+Duration of assessment 90 Minutes
+Language English
+Offering Spring semester
+Lecturer of the School of Social Sciences, I.e. Chair of Social
+Lecturer
+Data Science
+Lecturer of the School of Social Sciences, I.e Chair of Social
+Person in charge
+Data Science
+Duration of module 1 semester
+Further modules
+Range of application MMSDS, MMDS
+75Semester 2nd semester
+76

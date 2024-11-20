@@ -1,0 +1,436 @@
+IE 675b Machine Learning
+Form of module Lecture with exercises
+Type of module Specialization Course
+Level Master
+ECTS 9
+In presence: 56 h (4 SWS)
+Workload
+Exercises, assignments, and self-study: 174 h
+IE 500 Data Mining I (recommended), knowledge of probability and
+Prerequisites
+statistics, no attempted or completed IE 675 exam
+Machine learning is concerned with building computer systems that
+improve with experience as well as the study of learning processes,
+including the design of algorithms that are able to make predictions or
+extract knowledge from data. The aim of this module is to provide an
+introduction into the field of machine learning, and study algorithms,
+underlying concepts, and theoretical principles. Topics include:
+Aim of module
+• Basics of machine learning
+• Inference and decision
+• Selected classification and regression models
+• Dimensionality reduction
+• Mixture models and EM
+• Kernels and vector machines
+• Hyperparameter optimization
+Expertise:
+Deep understanding of algorithms and underlying concepts of machine
+learning
+(MK1, MF1)
+Methodological competence:
+• Being able to apply machine learning techniques and systems for a
+given problem
+Learning outcomes and
+• Being able to model and implement new machine learning
+qualification goals
+techniques
+(MK2, MF3, MF4)
+Personal competence:
+• writing skills
+• presentation skills
+• statistical programming skills
+(MKO3, MF2)
+51Media Slide set, exercise sheets, software, datasets
+• K.P. Murphy. Probabilistic Machine Learning: An Introduction. The
+MIT Press, 2022
+Literature • I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT
+Press, 2017
+• Additional material and articles provided in lecture notes
+The course consists of a lecture accompanied by theoretical and practical
+exercises as well as case studies with real data. In the exercises, students
+Methods
+will deepen the material discussed in the lecture, apply the methods in
+practice, and present the result.
+Form of assessment Written examination
+Admission requirements for
+Homework assignments (pass at least 3 assignments)
+assessment
+Duration of assessment 90 minutes
+Language English
+Offering Fall semester
+Lecturer Prof. Dr. Rainer Gemulla
+Person in charge Prof. Dr. Rainer Gemulla
+Duration of module 1 Semester
+Further modules -
+Range of application M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Science
+Semester 1st/2nd/3rd semester
+52IE 678 Deep Learning
+Form of module Lecture with exercises
+Type of module Specialization Course
+Level Master
+ECTS 6
+Hours per semester: 56h (4 SWS)
+Workload
+Exercises, assignments, and self-study: 98 h
+IE 675b Machine Learning or equivalent, no attempted or completed IE
+Prerequisites
+674 exam
+Machine learning is concerned with building computer systems that
+improve with experience as well as the study of learning processes,
+including the design of algorithms that are able to make predictions or
+extract knowledge from data. Building upon IE 675b Machine Learning,
+this course focuses on deep learning and introduces basic and advanced
+deep learning architectures and techniques, training methods and
+hyperparameter optimization, as well as selected applications. Topics
+include:
+Aim of module • Feedforward neural networks
+• Backpropagation and parameter optimization
+• Machine learning systems
+• Training techniques for deep learning models
+• Recurrent neural networks
+• Convolutional neural networks
+• Attention and Transformers
+• Deep learning for graphs
+• Deep generative modelling
+Expertise:
+Deep understanding of fundamental concepts, models, and algorithms
+of deep learning
+(MK1, MF1)
+Methodological competence:
+Learning outcomes and • Being able to build and train deep learning models
+qualification goals • Being able to select suitable deep learning techniques for a given
+learning problem
+(MK2, MF3, MF4)
+Personal competence:
+• writing skills
+• presentation skills
+53• statistical programming skills
+(MKO3, MF2)
+Media Slide set, exercise sheets, software, datasets
+• I. Drori. The Science of Deep Learning. Cambridge University Press,
+2023
+• I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT
+Press, 2017
+Literature • K.P. Murphy. Probabilistic Machine Learning: An Introduction. The
+MIT Press, 2022
+• K.P. Murphy. Probabilistic Machine Learning: Advanced Topics. The
+MIT Press, 2023
+• Additional material and articles provided in lecture notes
+The course consists of a lecture accompanied by theoretical and practical
+exercises as well as case studies with real data. In the exercises, students
+Methods
+will deepen the material discussed in the lecture, apply the methods in
+practice, and present the result.
+Form of assessment Oral examination
+Admission requirements for
+Homework assignments (pass at least 2 assignments)
+assessment
+Duration of assessment 25 minutes
+Language English
+Offering Spring semester
+Lecturer Prof. Dr. Rainer Gemulla
+Person in charge Prof. Dr. Rainer Gemulla
+Duration of module 1 Semester
+Further modules -
+Range of application M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Science
+Semester 2nd/3rd semester
+54IE 692 Advanced Process Mining*
+Form of Module Lecture
+Type of Module Specialization course
+Level Master
+ECTS 6
+150 h per semester
+Workload You are expected to be familiar with the use of Petri nets and
+Prerequisites BPMN for process modeling and being able to do basic
+programming in Python. IS 515 or having experience with
+process mining are NOT prerequisites.
+Process mining is an emerging branch of data science that
+aims at deriving qualitative and quantitative insights on the
+execution of organizational processes, based on the analysis
+of recorded event sequences.
+The course features lectures and exercises that focus on the
+formal foundations, algorithms, and techniques of process
+mining. Specifically, this course covers aspects such as:
+• Process discovery, which aims to derive a process model
+from recorded events
+• Conformance checking, which aims to identify deviations
+between event data and process models
+• Process enhancement, which aims to augment process
+models with information on the temporal, organizational,
+Aim of module
+and data perspectives of a process
+• Predictive monitoring, which aims to make predictions
+about ongoing process instances
+• Techniques to preprocess, abstract, cluster event data for
+improved analyses
+For the above subjects, the course will cover fundamental
+algorithms as well as advanced, state-of-the-art techniques.
+During the exercises that follow each lecture, you will
+practice through pen-and-paper exercises, as well as
+implementation and evaluation using open-source process
+mining tools and libraries.
+• The lectures and exercises are complemented by a
+practical assignment in which students will work in
+55groups on a project that involves implementation and/or
+evaluation of a process mining technique.
+Knowledge:
+• After completing the course, students will be familiar
+with fundamental and state-of-the-art techniques for the
+data-driven analysis of business processes, i.e., process
+mining.
+(MK1, MK2)
+Capabilities:
+• After completing the course, students will be able to
+Learning Outcomes and
+analyze business processes using process mining
+Qualification Goals
+techniques and opens-source process mining tools.
+(MF1, MF2, MF3)
+Competencies:
+• During the course, students will learn to apply, compare,
+and assess process mining techniques on synthetic and
+real-world data, in both individual and team-based
+settings.
+(MKO1, MKO3)
+• Pen-and-paper plus programming exercises (mainly
+Python).
+Media • Project involving open-source process mining tools and
+libraries, possibly with implementation (in Python or Java)
+• Pen-and-paper exam
+• Wil van der Aalst: Process Mining: Data Science in Action,
+2nd edition (Recommended)
+Literature • Josep Carmona et al. Conformance checking, 1st edition
+(Recommended)
+• Additional academic papers suggested per lecture
+• Lectures
+Teaching and Learning
+• Homework exercises to practice with joint discussion in
+Methods
+exercise sessions
+80% written exam
+Form of assessment
+20% group assignment
+Admission requirements
+-
+for assessment
+The exam will take 60 minutes, the assignment will be spread
+Duration of assessment over various weeks with a single deadline towards the end of
+the semester.
+56Language English
+Offering Spring semester
+Lecturers Prof. Dr. Rehse
+Person in charge Prof. Dr. Rehse
+Duration of module 1 semester
+Further modules -
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in
+Range of Application
+Data Science
+Semester 2nd semester
+*The number of this module will change (TBA). For an updated description, please see the module catalog of
+the MMM: Mannheim Master in Management https://www.bwl.uni-mannheim.de/studium/master/mmm/#c176637
+57IE 683 Web Data Integration Project
+Form of module Project
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester: 28 h (2 SWS)
+Workload Self-study: 56 h per semester
+• 36 h: project work
+• 20 h: report writing and presentation preparation
+Prerequisites Programming skills in Java
+The web data integration project allows students to apply the
+methods and techniques that they have learned in the
+lecture Web Data Integration in the context of a practical
+integration project. The projects cover all steps of the data
+integration process including data gathering, schema
+mapping, data translation, identity resolution, data quality
+Aim of module
+assessment, and data fusion.
+It is highly recommended to attend the web data integration
+lecture in the same semester as the web data integration
+project as the schedules of both courses are aligned to each
+other.
+Expertise:
+• Students will be able to identify opportunities for
+employing Web data in business applications and will
+learn to apply appropriate techniques for integrating
+and cleansing Web data.
+(MK1, MF1)
+Methodological competence:
+Learning outcomes and
+• Participants will acquire knowledge of the data
+qualification goals
+integration process as well as the techniques that are
+used in each phase of the process.
+• project organization skills
+(MK2, MF3, MF4, MKO3)
+Personal competence:
+• presentation skills
+• team work skills
+(MKO2, MF2)
+58Media exercise sheets; Java project template
+• AnHai Doan, Alon Halevy, Zachary Ives: Principles of Data
+Integration. Morgan Kaufmann, 2012.
+• Luna Dong, Divesh Srivastava: Big Data Integration.
+Literature
+Morgan & Claypool, 2015.
+• Ulf Leser, Felix Naumann: Informationsintegration.
+Dpunkt Verlag, 2007.
+Students work on their integration projects in teams and will
+Methods report about the results of their projects in the form of a
+written report as well as an oral presentation.
+Project report (70%, 10-20 pages in length), oral project
+Form of assessment
+presentation (30%, 20-30 minutes)
+Admission requirements
+-
+for assessment
+Duration of assessment -
+Language English
+Offering Fall semester
+Lecturer Prof. Dr. Christian Bizer
+Person in charge Prof. Dr. Christian Bizer
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, Mannheim Master in Data
+Range of application Science
+Lehramt Informatik
+Semester 1. /2. /3. Semester
+59IE 684 Web Mining Project
+Form of module Project
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester: 28 h (2 SWS)
+Workload Self-study: 56 h per semester
+• 36 h: project work
+• 20 h: report writing and presentation preparation
+Programming skills in Java or Python. IE 671 Web Mining
+Prerequisites
+(recommended).
+The Web Mining project allows students to apply the
+methods and techniques that they have learned in the
+lecture Web Mining in the context of a practical integration
+project. The projects can cover any of the topic of Web
+Aim of module usage, content, or structure mining.
+NOTE: It is highly recommended to attend the module IE 671
+“Web Mining” in the same semester since the schedule and
+topics of both modules are aligned.
+Expertise: Students will be able to identify opportunities for
+employing Web Mining techniques in business applications
+and will learn to apply appropriate techniques for mining
+Web data.
+(MK1, MF1)
+Methodological competence:
+Learning outcomes and • Participants will acquire practical knowledge of
+qualification goals techniques for mining Web data.
+• Project organization skills
+(MK2, MF3, MF4, MKO3)
+Personal competence:
+• Presentation skills
+• Teamwork skills
+(MKO2, MF2)
+Media Slide set with references to potential topics, datasets, etc.
+• Bing Liu: Web Data Mining. 2nd Edition, Springer, 2011.
+• Wouter de Nooy, et al.: Exploratory Social Network
+Literature
+Analysis with Pajek. 2nd Edition, Cambridge University
+Press, 2011.
+60• Bing Liu. Sentiment Analysis and Opinion Mining, Morgan
+& Claypool Publishers, 2012.
+Students work on their projects in teams and report about
+Methods the results of their projects in the form of a written report as
+well as an oral presentation.
+4-6 weeks (execution of the project work and writing of the
+Form of assessment
+report), 10-90 minutes (presentation).
+Admission requirements
+-
+for assessment
+Duration of assessment -
+Language English
+Offering Spring semester
+Lecturer Prof. Dr. Christian Bizer
+Person in charge Prof. Dr. Christian Bizer
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, Mannheim Master in Data
+Range of application Science
+Lehramt Informatik
+Semester 1. /2. /3. Semester
+61IE 686 Large Language Models and Agents
+Form of module Lectures with tutorials and projects
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester: 28 h (2 SWS)
+Self-study: 56 h per semester
+Workload
+• 36 h: project work
+• 20 h: report writing and presentation preparation
+• Programming skills in Python
+Prerequisites
+• Basic machine learning concepts and techniques
+Large language models (LLMs) such as GPT, Llama, Gemini, and
+Mixtral have the potential to enable a wide range of new
+applications and to significantly improve the performance of
+existing systems. The course introduces students to LLMs and
+teaches them how to employ the models within applications. The
+Aim of module course covers the following topics:
+• Introduction to LLMs
+• Prompt engineering patterns
+• LLM-based agents
+• Evaluation of LLMs and agents
+• Development of LLM-based applications
+Expertise:
+Students will understand the principles of training LLMs. They will
+be able to identify opportunities for employing LLMs in business
+applications and will learn to apply prompt engineering techniques
+as well as agent frameworks for solving business tasks.
+(MK1, MF1)
+Learning outcomes and Methodological competence:
+qualification goals Participants will acquire theoretical and practical knowledge on
+large language models, prompt engineering techniques, and
+agents. They will learn to use frameworks like LangChain and
+AutoGen for the design and implementation of the learned
+concepts in practical use cases.
+(MK2, MF3, MF4, MKO3)
+Personal competence:
+62• Project organization skills
+• Presentation skills
+• Teamwork skills
+• Python programming skills
+(MKO1, MKO2, MF2)
+Media Slide sets, software, datasets
+• Zhou et al.: A Comprehensive Survey on Pretrained Foundation
+Models: A History from BERT to ChatGPT. 2023.
+arXiv:2302.09419.
+Literature • Zhao et al.: A Survey of Large Language Models. 2024.
+arXiv:2303.18223
+• Wang et al.: A Survey on Large Language Model based
+Autonomous Agents. 2024. arXiv:2302.07842
+The course participants gain knowledge about the principles and
+methods behind large language models through lectures and
+tutorials. In the second half of the course, students apply their
+Methods
+knowledge in team projects and will report about their results in
+the form of a written report as well as an oral presentation.
+Project report (70%), oral project presentation (30%)
+Form of assessment
+Admission requirements for
+-
+assessment
+Duration of assessment -
+Language English
+Offering Fall semester
+Prof. Dr. Christian Bizer
+Lecturer
+Ralph Peeters
+Person in charge Prof. Dr. Christian Bizer
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of application Science, Mannheim Master in Social Data Science, Lehramt
+Informatik
+63Semester 1st/2nd/3rd semester
+64

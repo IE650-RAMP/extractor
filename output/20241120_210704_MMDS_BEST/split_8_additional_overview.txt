@@ -1,0 +1,32 @@
+D. Data Analytics Methods
+1. Overview
+Module no. Name of Module Offered ECTS Page
+AC 652 Additional Course – Data Analytics Methods HWS/FSS Max. 18 43
+DS 100 Statistics for Data Scientists HWS 9 48
+Seminar and Lab on Machine Learning and Causal
+DS 202 HWS 9 51
+Inference
+IE 560 Decision Support HWS 6 53
+IE 671 Web Mining FSS 3 55
+IE 678 Deep Learning FSS 6 57
+IE 684 Web Mining Project FSS 3 59
+IE 686 Large Language Models and Agents HWS 3 61
+IE 692 Advanced Process Mining** FSS 6 63
+IE 696 Advanced Methods in Text Analytics FSS 6 66
+CS 646 Higher Level Computer Vision HWS 6 68
+CS 647 Image Processing HWS/FSS 6 70
+CS 668 Generative Computer Vision Models FSS 6 72
+IS 515 Process Management and Analytics HWS 6 MMM*
+IS 616 Large Scale Data Analysis and Visualization HWS 6 MMM*
+IS 622 Network Science FSS 6 MMM*
+IS 661 Text Analytics HWS 6 MMM*
+MAA 519 Stochastic Calculus HWS 5 MBE*
+MAB 504 Mathematics and Information irregular 8 MBE*
+MAB 508 Algebraische Statistik irregular 8 MBE*
+MAB 519 Reinforcement Learning FSS 9 MBE*
+MAB 520 Reinforcement Learning II HWS 5 MBE*
+MAC 404 Optimierung HWS 8 WM*
+MAC 507 Nichtlineare Optimierung FSS 6 MBE*
+MAC 527 Markov Processes FSS 4 MBE*
+DS 201 Machine Learning and Causal Inference FSS 9 74
+44

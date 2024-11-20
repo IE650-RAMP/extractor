@@ -1,0 +1,47 @@
+Part 1: M.Sc. Business Informatics
+A. Overview
+ECTS
+Fundamentals
+Three „Computer Science Fundamentals“ courses 18
+Computer Science
+Fundamentals Courses from the module catalog of the “Mannheim 18 (at
+Business Administration Master in Management” least)
+Specialization Courses Specialization Courses 36
+Projects and Seminars Team Project, Scientific Research and Seminars 18
+Master’s Thesis Six-month-long written academic assignment 30
+Total 120
+Abbreviations:
+HWS (Herbst-/Wintersemester): Course is offered in the respective Fall semester
+FSS (Frühjahrs-/Sommersemester): Course is offered in the respective Spring semester
+FSS/HWS: Course is offered both in Spring semester and Fall semester
+Please note: the module descriptions of all IS courses can be found in the module catalog of the
+“Mannheim Master in Management” which can be found here:
+https://www.bwl.uni-mannheim.de/studium/master/mmm/#c176637
+General constraints:
+See Examination Regulations on the website of the Student Services (Studienbüros):
+https://www.uni-mannheim.de/en/academics/during-your-studies/examinations/examination-
+regulations/
+4B. Fundamentals
+1. Overview
+i. Fundamentals Computer Science
+Module
+Name of Module Offered Language ECTS Page
+no.
+CS 500 Advanced Software Engineering HWS E 6 6
+CS 530 Database Systems II FSS D 6 8
+CS 550 Algorithmics FSS E 6 10
+CS 560 Large-Scale Data Management HWS E 6 13
+CS 652 Data Security and Privacy FSS* E 6 15
+IE 500 Data Mining FSS/HWS E 6 17
+IE 560 Decision Support HWS E 6 19
+*in FSS25 this course will be offered as hybrid-course
+ii. Fundamentals Business Administration
+All 5XX and 6XX courses from the following areas:
+• Accounting and Taxation (ACC, TAX)
+• Banking, Finance and Insurance (FIN)
+• Management (MAN)
+• Marketing (MKT)
+• Operations Management (OPM)
+They are listed in the module catalog of the “Mannheim Master in Management”:
+https://www.bwl.uni-mannheim.de/studium/master/mmm/#c176637
+5

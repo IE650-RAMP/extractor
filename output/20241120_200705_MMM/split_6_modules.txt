@@ -1,0 +1,291 @@
+2 BUSINESS
+ECONOMICS
+26Business Economics:
+Both modules BE 510 and BE 511 are mandatory modules.
+Module: BE 510 Business Economics I EN
+Contents Learning outcomes
+This module will start with a brief review of standard models of On completion of the module students will have improved their
+choice, including choice under risk, and then move on to an ex- ability to apply economic reasoning in the context of economic
+tended introduction to non-cooperative game theory. Strategic decision making. They will have acquired an advanced under-
+decision making and relevant solution concepts for games of standing of model-based analytical methods and arguments in
+complete and incomplete information will be covered in detail. microeconomics, and they will have gained familiarity with rele-
+The course will close with a discussion of basic notions in the vant economic and game-theoretical concepts under both full
+economics of information. An important aim is to convey an un- and incomplete information.
+derstanding and a working analytical knowledge of how
+economists model decision making. Prerequisites for participation
+Necessary: –
+Recommended: Knowledge of introductory microeconomics at
+bachelor level
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 10 SWS
+Exercise class 2 SWS 8 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Henrik Orzen
+Performing lecturer Prof. Dr. Henrik Orzen
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2
+27Module: BE 511 Business Economics II EN
+Contents Learning outcomes
+Building on BE 510 Business Economics I, this module will pro- By the end of the module students will have
+vide an introduction to economic models of strategic decision-
+the ability to apply economic reasoning in the context of
+making and behavior of firms in the context of oligopolistic com-
+oligopolistic competition,
+petition. Topics will include output and pricing strategies, the
+an understanding of model-based analytical methods and
+economics of collusion, market structure, market entry decisions
+arguments,
+and product differentiation. Some of these topics require a de-
+and familiarity with basic game-theoretic models of industri-
+gree of analytical rigor and we will make use of some game-theo-
+al organization.
+retical and mathematical methods.
+Prerequisites for participation
+Necessary: –
+Recommended: Knowledge of introductory microeconomics at
+bachelor level, BE 510
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Exercise class 2 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min)
+Restricted admission no
+Further information –
+Examiner Prof. Nicolas Schutz, Ph.D.
+Performing lecturer Lily Ling Yang, Ph.D.
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2
+283 BUSINESS
+ADMINISTRATION
+29Business Administrations:
+Below you find the offer of the different Areas within the Business School of the University of
+Mannheim. You can choose which modules you complete, taking into account the Examination
+Regulations and possible requirements for the respective module. Generally, level 500 modules
+convey the fundamentals while level 600 modules often already build upon this basic knowledge
+(please see the module descriptions for details). Level 700 modules indicate seminars and are hence
+significant for the Master’s thesis.
+303.1 AREA
+ACCOUNTING AND
+TAXATION
+31Module: ACC 510 Financial Accounting DE
+Contents Moreover, participants are enabled to summarize and solve com-
+The lecture introduces the system of German GAAP, which is plex accounting issues with reference to codified norms from
+principally relevant for all domestic companies with the legal court rulings of the Federal Fiscal Court as well as accounting lit-
+obligation to keep records. The lecture further provides an erature. The interdisciplinary orientation of the course offers stu-
+overview of the main accounting concepts within the system of dents deeper insights into the linkage between business admin-
+German GAAP. istration and law. The knowledge is deepened by means of case
+Hereafter, the course first describes asset and liability recognition studies (in collaboration with KPMG). Students learn to prepare
+criteria, such as the definition of (immaterial) assets, liabilities and present solutions as part of a team. They are able to identify
+and onerous contracts. Second, the course introduces revenue problems, analyze and present them in a structured, comprehen-
+recognition principles. Third, the lecture discusses measurement sible manner. The group work fosters teamwork and leadership
+principles, such as acquisition and construction costs, valuation skills.
+of liabilities and depreciation.
+Prerequisites for participation
+Learning outcomes Necessary: Not taken ACC 512
+Students obtain detailed knowledge of the general accounting Recommended: Bachelor-level knowledge of financial account-
+principles, asset and liability recognition, revenue recognition as ing
+well as measurement principles under German GAAP. They are
+able to describe the norms, analyze them from an accounting
+theoretical perspective and critically assess them.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Case Study Presentation 2 SWS 4 SWS
+Exercise class 2 SWS 4 SWS
+ECTS credits 8
+Graded yes
+Workload 240h
+Language German
+Form of assessment Case study presentation (25%) and written exam (90 min, 75%)
+Restricted admission yes
+Further information –
+Examiner Prof. Dr. Jens Wüstemann
+Performing lecturer Prof. Dr. Jens Wüstemann
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M., MAKUWI
+Preliminary course work –
+32Program-specific Competency Goals CG 1, CG 2, CG 4
+33Module: ACC 520 IFRS Reporting and Capital Markets EN
+Contents Learning outcomes
+The lecture introduces the most relevant IFRS standards and their Students will know about economic consequences of financial
+informational impact on capital markets. After an analysis of the reporting and about the role accounting information plays on
+institutional background of the international harmonization pro- capital markets, understand the special role of IFRS on interna-
+cess in financial reporting, we will focus on key accounting issues tional capital markets, be familiar with the main IFRS accounting
+such as revenue recognition and financial instruments. We will il- rules and their impact on financial statements, and demonstrate
+lustrate the effects using current accounting practices of multi- orally and in writing their comprehension in the solution of case
+national entities, go into major research findings and apply the studies.
+knowledge to case studies from accounting practice. We will
+conclude the lecture by an assessment of the importance of ac- Prerequisites for participation
+counting for corporate governance and controlling (inside per- Necessary: Not taken ACC 515
+spective) and for capital-market-oriented financial statement Recommended: Bachelor-level knowledge of financial account-
+analysis (outside perspective). ing
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Case Study Presentation 2 SWS 4 SWS
+Exercise class 2 SWS 4 SWS
+ECTS credits 8
+Graded yes
+Workload 240h
+Language English
+Form of assessment Case study presentation (25%) and written exam (90 min, 75%)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Jannis Bischof
+Performing lecturer Prof. Dr. Jannis Bischof, Prof. Dr. Jens Wüstemann
+(Lecture) and Dr. Ulrich Störk (Case Studies)
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M., MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2
+34Module: ACC 530 Group Accounting EN
+Contents Learning outcomes
+The lecture covers the preparation and interpretation of consoli- Students know the regulations for group accounting. Based on
+dated financial statements based on IFRS. All consolidation and this knowledge, students are able to prepare consolidated finan-
+elimination entries are introduced that are necessary for combin- cial statements. They learn how consolidation methods impact
+ing the separate statements of financial position and for eliminat- the consolidated financial statements and are able to interpret
+ing the intercompany transactions. In addition, theoretical mod- group reports. Furthermore, students learn how the regulatory
+els explaining the fundamental approaches to group accounting framework of group accounting can be applied to successfully
+are presented and discussed. Based on various real cases, stu- steer international groups based on case studies.
+dents are shown how legal and regulatory requirements can be
+met in the context of group accounting in order to strategically Prerequisites for participation
+steer a group. The case studies are thus complementing the lec- Necessary: Not taken ACC 511
+ture with first-hand evidence of how specific, practice-relevant is- Recommended: Bachelor-level knowledge of financial account-
+sues of group accounting manifest. ing
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Exercise class 2 SWS 4 SWS
+Case Study Presentation 2 SWS 4 SWS
+ECTS credits 8
+Graded yes
+Workload 240h
+Language English
+Form of assessment Written exam (90 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Dirk Simons
+Performing lecturer Prof. Dr. Dirk Simons
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M., MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1
+35Module: ACC 540 Financial Statement Analysis & Equity EN
+Valuation
+Contents Learning outcomes
+This course teaches financial statement analysis in the context of The students should get an in-depth understanding of the ap-
+equity valuation. The first part covers sources of information and proaches and methods available for analyzing financial state-
+common tools of financial statements analyses (accounting anal- ments, preparing pro-forma financial statements in financial
+ysis, ratio analysis, cash flow analysis, analysis of narratives). In modelling and their application for valuing equity, firms and as-
+the second part, methods for equity and asset valuation, the cash- sets. They should on the one hand understand both the theoreti-
+flow based DCF-models and the earnings-based abnormal earn- cal constructs, assumptions, and limitations behind those con-
+ings (AE) and earnings growth (AEG) models, are covered. The cepts, but should, on the other hand, also be capable to imple-
+coverage includes the derivation and numerical calculation of ment them (computer-based) in practice. The student’s learning
+the required rate of returns and structured forecasts necessary to will be supplemented by the presentation of case-studies from
+reach a valuation. Finally, the course covers how ESG information valuation practice.
+is incorporated in firm analysis and valuation.
+Prerequisites for participation
+Necessary: –
+Recommended: Bachelor-level knowledge of financial account-
+ing and finance
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Case Study Presentation 2 SWS 4 SWS
+Exercise class 2 SWS 4 SWS
+ECTS credits 8
+Graded yes
+Workload 240h
+Language English
+Form of assessment Case study (25%) and written exam (90 min, 75%)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Holger Daske
+Performing lecturer Prof. Dr. Holger Daske (Lecture) Dr. Steffen Wagner (Case
+Study)
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M., MAKUWI
+Preliminary course work –
+36Program-specific Competency Goals CG 1, CG 2, CG 4
+37Module: ACC/MAN 560 Managerial Accounting - EN
+Evaluating Financial and Non-Financial Performance
+Contents To shed light on these different governance practices, the course
+An organization’s long-term competitive success is critically de- integrates a number of real-world cases. Applications cover the
+pendent on the availability and the efficient use of information manufacturing, the services, and the financial industry.
+about its products, services, processes, organizational units, sup-
+pliers, customers, as well as its social and environmental perfor- Learning outcomes
+mance. Managerial accounting includes the concepts, models, Students will become familiar with advanced issues in manageri-
+and systems that provide managers with the information neces- al accounting and understand the use of financial and non-finan-
+sary to achieve both the financial and the non-financial (ESG) cial (ESG) information in managerial decision-making. Students
+goals. will also develop a thorough understanding of performance
+The course will familiarize participants with the terminology and measurement systems and managerial incentives.
+basic concepts of managerial accounting. The topics range from
+the analysis of cost information for decision-making to perfor- Prerequisites for participation
+mance measurement, financial planning, and budgeting. The de- Necessary: –
+sign and use of internal reporting systems varies substantially Recommended: Bachelor-level knowledge of cost accounting
+across different firms and industries and is closely interlinked
+with a firm’s governance and control systems.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Case Study Presentation 2 SWS 4 SWS
+Exercise class 2 SWS 4 SWS
+ECTS credits 8
+Graded yes
+Workload 240h
+Language English
+Form of assessment Case study presentation (25%) and written exam (90 min, 75%)
+Restricted admission no
+Further information Will be counted towards ACC.
+Examiner Prof. Dr. Jannis Bischof
+Performing lecturer Prof. Dr. Jannis Bischof (Lecture), Dr. Claudia Max and
+Can Toygar (Case Studies)
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M.
+Preliminary course work –
+38Program-specific Competency Goals CG 1, CG 3
+39Module: ACC/TAX 550 International Course – Accounting EN
+and Taxation
+Contents Learning outcomes
+Depends on course taken abroad Depends on course taken abroad
+Prerequisites for participation
+Necessary: The level of the course matches that of a regular
+MMM course (level 500 and above). The module can only be tak-
+en while studying abroad and complements the Mannheim cur-
+riculum.
+Recommended: –
+Graded yes
+Language English
+Form of assessment Depends on course taken abroad
+Restricted admission no
+Further information More than one class with this code can be taken; conditions apply, make
+sure to read the respective guidelines.
+Performing lecturer Lecturer at the host university. Course will be assessed when students
+request a learning agreement. Please find details in the „Guidelines for
+learning agreements and course recognition“ in ILIAS > MMM >
+Auslandssemester/Study Abroad Semester. Dozent/in an der
+Gastuniversität. Prüfung der Wertigkeit bei Abschluss eines Learning
+Agreements. Bitte lesen Sie das „Merkblatt zu Learning Agreements und
+Anerkennungen“ ILIAS > MMM > Auslandssemester/Study Abroad
+Semester.
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Bus. Inf., other Master programs
+(depending on respective study regulations)
+Preliminary course work –
+40

@@ -1,0 +1,321 @@
+IE 691 Information Retrieval Project
+Form of module Project
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester present: 28h (2SWS)
+Workload Self-study: 60h per semester
+• Project work (45h)
+• Report and presentation preparation (15h)
+Programming skills (preferably in one of the higher-level
+Prerequisites
+programming languages: Java/Python/C#/C++).
+Students are expected to successfully complete a team project in
+teams of 2-4 members. The projects will focus on a variety of IR
+problems and implementation of IR models theoretically covered in
+the course Information Retrieval and Web Search (IE 663). It is thus
+Aim of module highly recommended to attend this course together with the
+course IE 663. Project deliverables include both software (i.e., code
+and documentation) and a short report explaining the work
+performed and its evaluation. The students are expected to clearly
+and coherently present the project results.
+Expertise:
+Students will be able to solve real-world retrieval and search
+problems: they will be able to analyze different potential solutions
+to a given problem, identify their advantages and shortcomings,
+and decide for the best solution. (MK1, MF1)
+Methodological competence:
+Students will obtain skills needed to implement one or more
+Learning outcomes and information retrieval models and test their usefulness on real-
+qualification goals world problems. Successful participants will be able to fully
+understand state-of-the-art methods for Information Retrieval and
+Web search, through hands-on experience of implementing those
+models. Students will also develop and/or improve their project
+organization skills (activity planning, work breakdown, time
+planning, etc.) (MK2, MF3, MF4, MKO3)
+Personal competence:
+• Presentation skills
+65• Team work skills
+(MKO2, MF2)
+Media Project task specifications
+• Christopher D. Manning, Prabhakar Raghavan and Hinrich
+Schütze, Introduction to Information Retrieval, Cambridge
+University Press. 2008.
+Literature • B. Croft, D. Metzler, T. Strohman, Search Engines: Information
+Retrieval in Practice, Addison-Wesley, 2009
+• R. Baeza-Yates, B. Ribeiro-Neto, Modern Information
+Retrieval, Addison-Wesley, 2011 (2nd Edition).
+Students work on implementing an information retrieval system in
+order to solve a real-worls search problem. Students work in
+Methods teams, implement the programmatic solutions to the tasks,
+organize their knowledge and results into a project report, and
+present the obtained results.
+Project report (70%, 10-20 pages in length), oral project
+Form of assessment
+presentation (30%, 20-30 minutes).
+Admission requirements for
+-
+assessment
+4-6 weeks (execution of the project work and writing of the
+Duration of assessment
+report), 20-30 minutes (presentation).
+Language English
+Offering HWS
+Lecturer Prof. Dr. Simone Ponzetto
+Person in charge Prof. Dr. Simone Ponzetto
+Duration of module 1 semester
+Further modules -
+Range of application M.Sc. Wirtschaftsinformatik, Lehramt Informatik, MMDS, MMSDS
+Semester 1st/2nd/3rd semester
+66IE 694 Artificial Intelligence Applications in Industry
+Form of module Lectures and Accompanying Tutorials
+Type of module Specialization Course
+Level Master
+ECTS 6
+Hours per semester present: 56 h (2 + 2 SWS)
+Workload
+Self-study: 124 h per semester
+Including the creation of a learning portfolio
+Necessary Knowledge:
+Prerequisites • Machine Learning Concepts and Techniques
+• Programming in Python
+Participants will learn about the use of Artificial Intelligence
+methods, mostly from the field of machine learning in
+different sectors and industries. They will learn about
+application areas in the primary, secondary, and tertiary
+Aim of module
+sector, get an introduction to examples of such applications
+that have been published on a scientific level and gather
+some experience in working with data from the respective
+fields using publicly available datasets.
+Expertise:
+• Students will acquire knowledge about possible
+applications of machine learning in different branches
+of industry as well as the dominant methods used in
+these areas.
+(MK2, MK3)
+Methodological competence:
+Successful participants will be able to:
+Learning outcomes and
+• Identify potential for applying AI methods in different
+qualification goals
+areas of industry;
+• Decide on a suitable method for addressing typical
+problems in these industries
+(MF2)
+Personal competence:
+• Participants will learn to reflect and document their own
+learning process
+(MKO2)
+67Media Slides, Data Sets, Software Tools.
+Literature Various Scientific Publications – details in the lecture slides
+Methods Lectures, tutorials, independent study
+Continuous assessment throughout the module (learning
+Form of assessment
+portfolio).
+Admission requirements
+n/a
+for assessment
+Duration of assessment -
+Language English
+Offering FSS
+Lecturer Prof. Dr. Heiner Stuckenschmidt
+Person in charge Prof. Dr. Heiner Stuckenschmidt
+Duration of module 1 Semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, Mannheim Master in Data
+Range of application
+Science
+Semester 2.-4.
+68IE 696 Advanced Methods in Text Analytics
+Form of module Lecture with exercises
+Type of module Specialization course
+Level Master
+ECTS 6
+Hours per semester: 56 h (4 SWS)
+Workload Self-study: 112 h per semester
+• 84 h: pre and post lecture studying and revision
+• 28 h: examination preparation
+Fundamental notions of linear algebra and probability theory.
+Prerequisites Successful completion of “Text Analytics” (IE661), “Machine
+Learning” (IE675b) or “Deep Learning” (IE678).
+This module builds upon the introduction to Natural
+Language Processing (NLP) from “Text Analytics” (IE661) and
+introduces students to cutting-edge problems, techniques,
+and state-of-the-art methods in NLP. The course will focus on
+neural models of meaning in context and present a variety of
+Aim of module “Deep Learning” architectures for different applications in
+human language technology (e.g., summarization, dialogue
+systems and machine translation). Moreover, we will cover
+open research areas, such as the explainability and
+interpretability of NLP models and methods to quantify the
+degree of bias they exhibit.
+Expertise:
+Students will acquire knowledge of state-of-the-art principles
+and methods of Natural Language Processing, specifically
+focusing on applying statistical methods to human language
+technologies.
+Learning outcomes and (MK1, MK2, MF3)
+qualification goals Methodological competence:
+Successful participants will be able to understand state-of-
+the-art methods for Natural Language Processing and select,
+apply and evaluate the most appropriate techniques for
+various practical and application-oriented scenarios.
+(MF3)
+69Media Lecture and tutorial slides, exercise sheets
+• Dan Jurafsky and James H. Martin, Speech and Language
+Processing: An Introduction to Natural Language
+Literature Processing, Computational Linguistics, and Speech
+Recognition (3rd edition, online available at
+https://web.stanford.edu/~jurafsky/slp3/).
+Methods Lectures, tutorials
+Form of assessment Written examination
+Admission requirements
+-
+for assessment
+Duration of assessment 90 minutes
+Language English
+Offering Spring semester
+Lecturer Prof. Dr. Simone Paolo Ponzetto
+Person in charge Prof. Dr. Simone Paolo Ponzetto
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, MSc. Mannheim Master in Data
+Range of application
+Science, Lehramt Informatik
+Semester 1st/2nd/3rd semester
+70IE 698 Foundations and Applications of Digital Health Technologies
+Lecture with Excercise
+Form of module
+Specialization Course
+Type of module
+Level Master
+ECTS 3
+Hours per semester in presence: 28 h per semester
+Workload
+Self-study: 56 h per semester
+Necessary: Basic knowledge about AI systems (knowledge-based
+systems, machine learning, deep neural networks)
+Prerequisites Optional:
+- Participation of Lecture “Responsible AI” Winter Term 2023/24
+- Basic knowledge about digital health systems
+Conceptual foundations:
+- Understanding of important concepts in digital health (eHealth,
+mHealth, telehealth, digital phenotyping, digital twins, and other
+concepts)
+Methods:
+Aim of module - e.g., interviewing, group discussions, design research methods
+(prototyping, design thinking, co-design), (digital) ethnography
+Applications:
+- AI in digital health apps in medicine and healthcare
+- AI-based robots
+- AI-based VR systems
+Knowledge (MK1): Students gain insights and understanding of
+important concepts in digital health. They learn modes of
+transdisciplinary thinking and theorizing on digital health.
+Capabilities (MF1 and MF2): Students learn elements of mixed-
+Learning outcomes and
+methods study design for digital health research and co-design
+qualification goals methodology and learn to assess scientific publications in this
+domain critically.
+Competencies (MKO1): Students learn to critically assess the
+conceptual, technical, ethical, legal, and social aspects of digital health
+applications.
+Media Slides and supporting media will be available online.
+- Fagherazzi, G. Deep Digital Phenotyping and Digital Twins for
+Literature Precision Health: Time to Dig Deeper. Journal of Medical Internet
+Research 22, e16770 (2020). https://www.jmir.org/2020/3/e16770/
+71- Hahn, H. & Schreiber, A. E-Health. in Digital Transformation (ed.
+Neugebauer, R.) 311–334 (Springer Berlin Heidelberg, 2019).
+https://doi.org/10.1007/978-3-662-58134-6_19
+- Budd, J. et al. Digital technologies in the public-health response to
+COVID-19. Nat Med 26, 1183–1192 (2020).
+https://www.nature.com/articles/s41591-020-1011-4
+- Voeneky, S., P. Kellmeyer, O. Mueller, and W. Burgard, ed. 2022. The
+Cambridge Handbook of Responsible Artificial Intelligence:
+Interdisciplinary Perspectives. Cambridge Law Handbooks.
+Cambridge: Cambridge University Press.
+https://doi.org/10.1017/9781009207898 (open source)
+Interactive lecture
+Methods
+Written exam
+Form of assessment
+Admission requirements for
+-
+assessment
+Duration of assessment 45 min
+Language English
+Offering Spring semester
+Jun.-Prof. Dr. Philipp Kellmeyer
+Lecturer
+Person in charge Jun.Prof. Dr. Philipp Kellmeyer
+Duration of module 1 Semester
+Further modules Lecture on Responsible AI, Fall 2024
+Range of application Msc Business Informatics, Msc Data Science, Lehramt Informatik
+Semester All semesters possible
+72IE 699 Co-creating digital health applications with design methodology
+Excercise
+Form of module
+Specialization Course
+Type of module
+Level Master
+ECTS 6
+Hours per semester in presence: 56 h
+Workload
+Self-study: 112 h
+Necessary: Basic knowledge about AI systems (knowledge-based
+systems, machine learning, deep neural networks)
+Prerequisites Optional:
+- Participation of Lecture “Responsible AI” Winter Term 2023/24
+- Basic knowledge about digital health systems
+Conceptual foundations: Understanding of important concepts in
+digital health (eHealth, mHealth, telehealth, digital phenotyping,
+digital twins, and other concepts)
+Methods: Interviewing, group discussions, design research methods
+Aim of module
+(prototyping, design thinking, co-design), (digital) ethnography
+Applications: By-design approaches to developing digital health apps
+and other solutions.
+Knowledge (MK1): Along with digital health use cases, they learn basic
+by-design principles for developing digital health applications.
+Capabilities (MF1, MF2, MF3): Students learn elements of mixed-
+Learning outcomes and methods study design for digital health research and co-design
+methodology via design fictions and mockups developed in groups in
+qualification goals
+the exercise
+Competencies (MKO1): Students learn to apply their knowledge and
+capabilities regarding by-design approaches to solve specific problems
+in a team context.
+Media Slides and supporting media will be available online.
+- Fagherazzi, G. Deep Digital Phenotyping and Digital Twins for
+Precision Health: Time to Dig Deeper. Journal of Medical Internet
+Research 22, e16770 (2020). https://www.jmir.org/2020/3/e16770/
+- Hahn, H. & Schreiber, A. E-Health. in Digital Transformation (ed.
+Literature Neugebauer, R.) 311–334 (Springer Berlin Heidelberg, 2019).
+https://doi.org/10.1007/978-3-662-58134-6_19
+- Budd, J. et al. Digital technologies in the public-health response to
+COVID-19. Nat Med 26, 1183–1192 (2020).
+https://www.nature.com/articles/s41591-020-1011-4
+73- Voeneky, S., P. Kellmeyer, O. Mueller, and W. Burgard, ed. 2022. The
+Cambridge Handbook of Responsible Artificial Intelligence:
+Interdisciplinary Perspectives. Cambridge Law Handbooks.
+Cambridge: Cambridge University Press.
+https://doi.org/10.1017/9781009207898 (open source)
+Excercise
+Methods
+Presentation in course
+Form of assessment
+Admission requirements for
+-
+assessment
+Duration of assessment 20 min (15 min. Presentation, 5 min Q&A)
+Language English
+Offering Spring semester
+Jun.-Prof. Dr. Philipp Kellmeyer
+Lecturer
+Person in charge Jun.Prof. Dr. Philipp Kellmeyer
+Duration of module 1 Semester
+Further modules Lecture on Responsible AI, Fall 2024
+Range of application Msc Business Informatics, Msc Data Science, Lehramt Informatik
+Semester All semesters possible
+74

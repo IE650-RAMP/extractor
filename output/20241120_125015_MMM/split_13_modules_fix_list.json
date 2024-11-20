@@ -1,0 +1,618 @@
+{
+  "modules": [
+    {
+      "name": "opm_501_supply_chain_design",
+      "id": "OPM_501",
+      "ects": 6,
+      "workloadInPerson": 60,
+      "workloadSelfStudy": 120,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Moritz Fleischmann", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Moritz Fleischmann", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM_301"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_502_inventory_management",
+      "id": "OPM_502",
+      "ects": 6,
+      "workloadInPerson": 60,
+      "workloadSelfStudy": 120,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Eunji Lee", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Eunji Lee", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM_301"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_503_transportation_management_road_rail_and_sea_freight",
+      "id": "OPM_503",
+      "ects": 4,
+      "workloadInPerson": 36,
+      "workloadSelfStudy": 84,
+      "offeredIn": ["FFS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Borislav Bjelicic", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Borislav Bjelicic", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 45,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_504_transportation_management_aviation",
+      "id": "OPM_504",
+      "ects": 4,
+      "workloadInPerson": 36,
+      "workloadSelfStudy": 84,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Borislav Bjelicic", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Borislav Bjelicic", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 45,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_510_sustainable_operations_management",
+      "id": "OPM_510",
+      "ects": 4,
+      "workloadInPerson": 36,
+      "workloadSelfStudy": 84,
+      "offeredIn": ["FFS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Christoph Bode", "title": "Prof. Dr.", "hasName": true },
+        { "name": "Moritz Fleischmann", "title": "Prof. Dr.", "hasName": true },
+        { "name": "Cornelia Schön", "title": "Prof. Dr.", "hasName": true },
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Christoph Bode", "title": "Prof. Dr.", "hasName": true },
+        { "name": "Moritz Fleischmann", "title": "Prof. Dr.", "hasName": true },
+        { "name": "Cornelia Schön", "title": "Prof. Dr.", "hasName": true },
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM_301"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_544_supply_chain_risk_management_from_strategy_to_operations",
+      "id": "OPM_544",
+      "ects": 4,
+      "workloadInPerson": 36,
+      "workloadSelfStudy": 84,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Ulrich Wetterauer", "title": "Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Ulrich Wetterauer", "title": "Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM_501", "OPM_502", "OPM_561"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_550_international_course_operations_management",
+      "id": "OPM_550",
+      "ects": 6,
+      "workloadInPerson": 36,
+      "workloadSelfStudy": 144,
+      "offeredIn": ["FFS", "HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Lecturer at the host university",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Lecturer at the host university",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "assessmentForms": [],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_560_business_analytics_introduction_to_operations_analytics_with_python",
+      "id": "OPM_560",
+      "ects": 6,
+      "workloadInPerson": 60,
+      "workloadSelfStudy": 120,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["ASSIGNEMNT"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM_561"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_561_production_management_lean_approaches_and_variability",
+      "id": "OPM_561",
+      "ects": 4,
+      "workloadInPerson": 36,
+      "workloadSelfStudy": 84,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM_301"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_581_service_operations_management",
+      "id": "OPM_581",
+      "ects": 6,
+      "workloadInPerson": 60,
+      "workloadSelfStudy": 120,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Cornelia Schön", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Cornelia Schön", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM_5XX"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_582_case_studies_in_operations_management_unlocking_the_power_of_ai",
+      "id": "OPM_582",
+      "ects": 6,
+      "workloadInPerson": 60,
+      "workloadSelfStudy": 120,
+      "offeredIn": ["FFS", "HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Cornelia Schön", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Cornelia Schön", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["ASSIGNEMNT"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM_5XX"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_591_strategic_procurement",
+      "id": "OPM_591",
+      "ects": 6,
+      "workloadInPerson": 60,
+      "workloadSelfStudy": 120,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Christoph Bode", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Christoph Bode", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM_5XX"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_593_negotiation",
+      "id": "OPM_593",
+      "ects": 6,
+      "workloadInPerson": 66,
+      "workloadSelfStudy": 114,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Christoph Bode", "title": "Prof. Dr.", "hasName": true },
+        { "name": "Ingo Bayer", "title": "Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Ingo Bayer", "title": "Dr.", "hasName": true },
+        { "name": "Christoph Bode", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM_5XX"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_597_next_generation_procurement",
+      "id": "OPM_597",
+      "ects": 4,
+      "workloadInPerson": 36,
+      "workloadSelfStudy": 84,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Christoph Bode", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Christoph Bode", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["ASSIGNEMNT"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM_5XX"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_601_supply_chain_strategy",
+      "id": "OPM_601",
+      "ects": 6,
+      "workloadInPerson": 60,
+      "workloadSelfStudy": 120,
+      "offeredIn": ["FFS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Moritz Fleischmann", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Moritz Fleischmann", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": ["OPM_501", "OPM_502"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_661_business_analytics_robust_planning_in_stochastic_systems",
+      "id": "OPM_661",
+      "ects": 8,
+      "workloadInPerson": 120,
+      "workloadSelfStudy": 120,
+      "offeredIn": ["FFS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["ASSIGNEMNT", "WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 45,
+      "requiredPrerequisiteModules": ["OPM_561", "OPM_560"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_662_business_analytics_modeling_and_optimization",
+      "id": "OPM_662",
+      "ects": 8,
+      "workloadInPerson": 120,
+      "workloadSelfStudy": 120,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["ASSIGNEMNT", "WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 45,
+      "requiredPrerequisiteModules": ["OPM_561", "OPM_560"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_682_revenue_management_and_dynamic_pricing",
+      "id": "OPM_682",
+      "ects": 6,
+      "workloadInPerson": 60,
+      "workloadSelfStudy": 120,
+      "offeredIn": ["FFS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Cornelia Schön", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Cornelia Schön", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM_5XX"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_692_strategic_sourcing",
+      "id": "OPM_692",
+      "ects": 6,
+      "workloadInPerson": 60,
+      "workloadSelfStudy": 120,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Christoph Bode", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Christoph Bode", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM_5XX"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_701_research_seminar_supply_chain_management",
+      "id": "OPM_701",
+      "ects": 6,
+      "workloadInPerson": 30,
+      "workloadSelfStudy": 150,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Moritz Fleischmann", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Moritz Fleischmann", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["OPM_6XX"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_741_applied_seminar_supply_chain_management",
+      "id": "OPM_741",
+      "ects": 6,
+      "workloadInPerson": 30,
+      "workloadSelfStudy": 150,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Moritz Fleischmann", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Moritz Fleischmann", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["OPM_6XX"],
+      "optionalPrerequisiteModules": ["OPM_601"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_760_project_seminar_operations_analytics",
+      "id": "OPM_760",
+      "ects": 6,
+      "workloadInPerson": 30,
+      "workloadSelfStudy": 150,
+      "offeredIn": ["FFS", "HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["OPM_661", "OPM_662"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_761_research_seminar_production_management",
+      "id": "OPM_761",
+      "ects": 6,
+      "workloadInPerson": 30,
+      "workloadSelfStudy": 150,
+      "offeredIn": ["FFS", "HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["OPM_6XX"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_781_research_seminar_service_operations_management",
+      "id": "OPM_781",
+      "ects": 6,
+      "workloadInPerson": 30,
+      "workloadSelfStudy": 150,
+      "offeredIn": ["FFS", "HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Cornelia Schön", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Cornelia Schön", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["OPM_6XX"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_791_research_seminar_procurement",
+      "id": "OPM_791",
+      "ects": 6,
+      "workloadInPerson": 30,
+      "workloadSelfStudy": 150,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Christoph Bode", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Christoph Bode", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["OPM_6XX"],
+      "optionalPrerequisiteModules": ["OPM_591", "OPM_692"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_792_applied_seminar_procurement",
+      "id": "OPM_792",
+      "ects": 6,
+      "workloadInPerson": 30,
+      "workloadSelfStudy": 150,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Christoph Bode", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Christoph Bode", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["OPM_6XX"],
+      "optionalPrerequisiteModules": ["OPM_591", "OPM_692"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    }
+  ]
+}

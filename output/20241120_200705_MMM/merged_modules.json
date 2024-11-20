@@ -1,0 +1,5488 @@
+{
+    "modules": [
+        {
+            "name": "cc_501_decision_analysis_business_analytics_ii",
+            "id": "CC_501",
+            "ects": 6,
+            "workloadInPerson": 8,
+            "workloadSelfStudy": 13,
+            "offeredIn": [
+                "FFS",
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Martin Glanzer",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Martin Glanzer",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": [
+                "CC_502",
+                "CC_503"
+            ]
+        },
+        {
+            "name": "cc_502_applied_econometrics",
+            "id": "CC_502",
+            "ects": 6,
+            "workloadInPerson": 8,
+            "workloadSelfStudy": 13,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Toni Stocker",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Toni Stocker",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [
+                "CC_503"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "knowledge of basic statistics (elementary probability theory and inferential statistics included) at bachelor level required, knowledge of elementary linear algebra (vectors and matrices) helpful, should also know the concept of random variables and expected values",
+            "furtherModules": []
+        },
+        {
+            "name": "cc_503_empirical_methods_business_analytics_i",
+            "id": "CC_503",
+            "ects": 6,
+            "workloadInPerson": 7,
+            "workloadSelfStudy": 9,
+            "offeredIn": [
+                "FFS",
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Arnd Vomberg",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Arnd Vomberg",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [
+                "CC_502"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "cc_504_corporate_social_responsibility",
+            "id": "CC_504",
+            "ects": 4,
+            "workloadInPerson": 6,
+            "workloadSelfStudy": 6,
+            "offeredIn": [
+                "FFS",
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Max Reinwald",
+                    "title": "Prof.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Max Reinwald",
+                    "title": "Prof.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "esg_regulation_and_sustainability_reporting",
+            "id": "acc_tax_570",
+            "ects": 8,
+            "workloadInPerson": 30,
+            "workloadSelfStudy": 210,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Jannis Bischof",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Prof. Dr. Holger Daske",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Prof. Dr. Philip Doerrenberg",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Prof. Stefan Reichelstein, Ph.D.",
+                    "title": "Prof.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "WRITTEN",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "25/75",
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Bachelor-level knowledge of accounting and taxation",
+            "furtherModules": []
+        },
+        {
+            "name": "taxation_of_companies",
+            "id": "tax_520",
+            "ects": 6,
+            "workloadInPerson": 27,
+            "workloadSelfStudy": 153,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Christoph Spengel",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "WRITTEN",
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": "70/30",
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge of company taxation",
+            "furtherModules": []
+        },
+        {
+            "name": "specialisation_in_company_taxation",
+            "id": "tax_521",
+            "ects": 4,
+            "workloadInPerson": 23,
+            "workloadSelfStudy": 97,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Philipp Doerrenberg",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Prof. Dr. Matthias Rogall",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 45,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge of company taxation",
+            "furtherModules": []
+        },
+        {
+            "name": "taxation_of_businesses_and_individuals",
+            "id": "tax_530",
+            "ects": 6,
+            "workloadInPerson": 38,
+            "workloadSelfStudy": 142,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Christoph Spengel",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "WRITTEN",
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": "70/30",
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge of financial accounting",
+            "furtherModules": []
+        },
+        {
+            "name": "accounting_for_financial_instruments_and_institutions",
+            "id": "acc_620",
+            "ects": 6,
+            "workloadInPerson": 28,
+            "workloadSelfStudy": 152,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Holger Daske",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "audit_theory",
+            "id": "acc_670",
+            "ects": 6,
+            "workloadInPerson": 33,
+            "workloadSelfStudy": 147,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Dirk Simons",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Dr. Sebastian Kronenberger",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "WRITTEN",
+                "ORAL"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "acc_671"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Preparation of the literature that will be provided for self-study",
+            "furtherModules": []
+        },
+        {
+            "name": "case_studies_on_consulting_in_financial_services_firms",
+            "id": "acc_676",
+            "ects": 4,
+            "workloadInPerson": 26,
+            "workloadSelfStudy": 94,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "WP Dipl.-Kfm. Gero Wiechens",
+                    "title": "WP Dipl.-Kfm.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "50/50",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "acc_510",
+                "acc_520",
+                "acc_530",
+                "acc_540",
+                "acc_tax_570",
+                "acc_560"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "disclosure_theory",
+            "id": "acc_680",
+            "ects": 6,
+            "workloadInPerson": 33,
+            "workloadSelfStudy": 147,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Dirk Simons",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "50/50",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "acc_675"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge in game theory, preparation of provided literature",
+            "furtherModules": []
+        },
+        {
+            "name": "corporate_sustainability_strategies_and_value_creation",
+            "id": "acc_man_660",
+            "ects": 4,
+            "workloadInPerson": 26,
+            "workloadSelfStudy": 94,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Jannis Bischof",
+                    "title": null,
+                    "hasName": true
+                },
+                {
+                    "name": "Dr. Holger Rubel",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 45,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Bachelor-level knowledge of value-based management",
+            "furtherModules": []
+        },
+        {
+            "name": "corporate_sustainability_performance_measurement_assessment_and_improvement",
+            "id": "acc_man_661",
+            "ects": 6,
+            "workloadInPerson": 38,
+            "workloadSelfStudy": 142,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Jannis Bischof",
+                    "title": null,
+                    "hasName": true
+                },
+                {
+                    "name": "Dr. Holger Rubel",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "25/75",
+            "examinationDuration": 45,
+            "requiredPrerequisiteModules": [
+                "acc_510",
+                "acc_520",
+                "acc_530",
+                "acc_540",
+                "acc_560",
+                "acc_tax_570"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Bachelor-level knowledge of sustainability management and performance measurement",
+            "furtherModules": []
+        },
+        {
+            "name": "private_equity_due_diligence_and_value_creation",
+            "id": "acc_man_662",
+            "ects": 6,
+            "workloadInPerson": 22,
+            "workloadSelfStudy": 158,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Wilhelm Schmundt",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "50/50",
+            "examinationDuration": 45,
+            "requiredPrerequisiteModules": [
+                "acc_510",
+                "acc_520",
+                "acc_530",
+                "acc_540",
+                "acc_560",
+                "acc_tax_570"
+            ],
+            "optionalPrerequisiteModules": [
+                "Basic knowledge of Corporate Finance"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "case_studies_in_international_company_taxation",
+            "id": "tax_611",
+            "ects": 4,
+            "workloadInPerson": 27,
+            "workloadSelfStudy": 93,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "StB Prof. Dr. Stefan Brunsbach",
+                    "title": "StB Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 45,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "Knowledge of contents of Module TAX 520 or Module TAX 530"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "causal_data_science_for_business_decision_making",
+            "id": "tax_620",
+            "ects": 8,
+            "workloadInPerson": 40,
+            "workloadSelfStudy": 200,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Philipp D\u00f6rrenberg",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Prof. Dr. Johannes Voget",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "PRESENTATION",
+                "REPORT"
+            ],
+            "examinationDistribution": "15/45/40",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "Introductory classes in statistics and/or econometrics at Bachelor level"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "international_business_taxation",
+            "id": "tax_630",
+            "ects": 6,
+            "workloadInPerson": 38,
+            "workloadSelfStudy": 142,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Christoph Spengel",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "WRITTEN",
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": "70/30",
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "Knowledge of contents of Module TAX 520 or Module TAX 530"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "international_taxation_of_multinational_enterprises",
+            "id": "tax_631",
+            "ects": 4,
+            "workloadInPerson": 27,
+            "workloadSelfStudy": 93,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Christoph Spengel",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Prof. Dr. Sven-Eric B\u00e4rsch",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 45,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "Knowledge from Module TAX 520, TAX 530 or TAX 630"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "tax_planning_the_role_of_taxes_for_business_decisions",
+            "id": "tax_660",
+            "ects": 6,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 148,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [
+                "Scholes, Wolfson, Erickson, Hanlon, Maydew and Shevlin: Taxes and Business Strategy: A Planning Approach"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Philipp D\u00f6rrenberg",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "WRITTEN",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "80/20",
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "Introductory courses in business taxation are advantageous"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "case_studies_in_international_tax_planning",
+            "id": "tax_661",
+            "ects": 4,
+            "workloadInPerson": 27,
+            "workloadSelfStudy": 93,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Christoph Spengel",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Prof. Dr. Michael Schaden",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 45,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "Knowledge of contents of Module TAX 630"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "accounting_seminar",
+            "id": "acc_750",
+            "ects": 6,
+            "workloadInPerson": 17,
+            "workloadSelfStudy": 163,
+            "offeredIn": [
+                "FFS",
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Jannis Bischof",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Prof. Dr. Holger Daske",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Prof. Dr. Dirk Simons",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Prof. Dr. Jens W\u00fcstemann",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "60/40",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "acc_510",
+                "acc_520",
+                "acc_530",
+                "acc_540",
+                "acc_560",
+                "acc_tax_570"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Profound knowledge in accounting and a general interest in scientific accounting research",
+            "furtherModules": []
+        },
+        {
+            "name": "seminar_in_business_taxation",
+            "id": "tax_730",
+            "ects": 6,
+            "workloadInPerson": 17,
+            "workloadSelfStudy": 163,
+            "offeredIn": [
+                "FFS",
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Philipp D\u00f6rrenberg",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Prof. Dr. Christoph Spengel",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [],
+            "assessmentForms": [
+                "WRITTEN",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "70/30",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "TWO MODULES FROM THE AREA ACCOUNTING & TAXATION (5XX and/or 6XX)"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Knowledge of the (international) taxation of companies",
+            "furtherModules": []
+        },
+        {
+            "name": "business_economics_i",
+            "id": "BE_510",
+            "ects": 6,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 18,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Henrik Orzen",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Henrik Orzen",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": "100",
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "BE_510"
+            ],
+            "additionalPrerequisite": "Knowledge of introductory microeconomics at bachelor level",
+            "furtherModules": []
+        },
+        {
+            "name": "business_economics_ii",
+            "id": "BE_511",
+            "ects": 6,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 13,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Lily Ling Yang",
+                    "title": "Ph.D.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Nicolas Schutz",
+                    "title": "Ph.D.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": "100",
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "BE_510"
+            ],
+            "additionalPrerequisite": "Knowledge of introductory microeconomics at bachelor level",
+            "furtherModules": []
+        },
+        {
+            "name": "financial_accounting",
+            "id": "ACC_510",
+            "ects": 8,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 24,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Jens W\u00fcstemann",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Jens W\u00fcstemann",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "PRESENTATION",
+                "WRITTEN"
+            ],
+            "examinationDistribution": "75/25",
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [
+                "ACC_512"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Bachelor-level knowledge of financial accounting",
+            "furtherModules": []
+        },
+        {
+            "name": "ifrs_reporting_and_capital_markets",
+            "id": "ACC_520",
+            "ects": 8,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 24,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Jannis Bischof",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Jens W\u00fcstemann",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Ulrich St\u00f6rk",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Jannis Bischof",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "PRESENTATION",
+                "WRITTEN"
+            ],
+            "examinationDistribution": "75/25",
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [
+                "ACC_515"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Bachelor-level knowledge of financial accounting",
+            "furtherModules": []
+        },
+        {
+            "name": "group_accounting",
+            "id": "ACC_530",
+            "ects": 8,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 24,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Dirk Simons",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Dirk Simons",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": "100",
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [
+                "ACC_511"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Bachelor-level knowledge of financial accounting",
+            "furtherModules": []
+        },
+        {
+            "name": "financial_statement_analysis_and_equity_valuation",
+            "id": "ACC_540",
+            "ects": 8,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 24,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Holger Daske",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Steffen Wagner",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Holger Daske",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "PRESENTATION",
+                "WRITTEN"
+            ],
+            "examinationDistribution": "75/25",
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Bachelor-level knowledge of financial accounting and finance",
+            "furtherModules": []
+        },
+        {
+            "name": "managerial_accounting_evaluating_financial_and_non_financial_performance",
+            "id": "ACC_MA_N_560",
+            "ects": 8,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 24,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Jannis Bischof",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Claudia Max",
+                    "title": null,
+                    "hasName": false
+                },
+                {
+                    "name": "Can Toygar",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Jannis Bischof",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "PRESENTATION",
+                "WRITTEN"
+            ],
+            "examinationDistribution": "75/25",
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Bachelor-level knowledge of cost accounting",
+            "furtherModules": []
+        },
+        {
+            "name": "masters_thesis",
+            "id": "MT_291",
+            "ects": 24,
+            "workloadInPerson": 720,
+            "workloadSelfStudy": 0,
+            "offeredIn": [
+                "FFS",
+                "HWS"
+            ],
+            "recommendedSemester": [
+                1
+            ],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "respective supervisors",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "respective supervisors",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "assessmentForms": [
+                "REPORT"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "SEM_700"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Acceptance of other seminars upon individual agreement in specific circumstances.",
+            "furtherModules": []
+        },
+        {
+            "name": "opm_501_supply_chain_design",
+            "id": "OPM_501",
+            "ects": 6,
+            "workloadInPerson": 24,
+            "workloadSelfStudy": 13,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Moritz Fleischmann",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Moritz Fleischmann",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "OPM_301"
+            ],
+            "additionalPrerequisite": "Basic knowledge in mathematics and statistics.",
+            "furtherModules": []
+        },
+        {
+            "name": "opm_502_inventory_management",
+            "id": "OPM_502",
+            "ects": 6,
+            "workloadInPerson": 24,
+            "workloadSelfStudy": 13,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Eunji Lee",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Eunji Lee",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "OPM_301"
+            ],
+            "additionalPrerequisite": "Basic knowledge in mathematics and statistics.",
+            "furtherModules": []
+        },
+        {
+            "name": "opm_503_transportation_management_road_rail_and_sea_freight",
+            "id": "OPM_503",
+            "ects": 4,
+            "workloadInPerson": 24,
+            "workloadSelfStudy": 9,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Borislav Bjelicic",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Borislav Bjelicic",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 45,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "opm_504_transportation_management_aviation",
+            "id": "OPM_504",
+            "ects": 4,
+            "workloadInPerson": 24,
+            "workloadSelfStudy": 9,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Borislav Bjelicic",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Borislav Bjelicic",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 45,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "opm_510_sustainable_operations_management",
+            "id": "OPM_510",
+            "ects": 4,
+            "workloadInPerson": 24,
+            "workloadSelfStudy": 9,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Christoph Bode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Moritz Fleischmann",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Cornelia Sch\u00f6n",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Raik Stolletz",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Christoph Bode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Moritz Fleischmann",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Cornelia Sch\u00f6n",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Raik Stolletz",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "OPM_301"
+            ],
+            "additionalPrerequisite": "Basic knowledge in mathematics and statistics.",
+            "furtherModules": []
+        },
+        {
+            "name": "opm_544_supply_chain_risk_management",
+            "id": "OPM_544",
+            "ects": 4,
+            "workloadInPerson": 24,
+            "workloadSelfStudy": 9,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Ulrich Wetterauer",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Ulrich Wetterauer",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "OPM_501",
+                "OPM_502",
+                "OPM_561"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "opm_550_international_course_operations_management",
+            "id": "OPM_550",
+            "ects": 0,
+            "workloadInPerson": 0,
+            "workloadSelfStudy": 0,
+            "offeredIn": [
+                "HWS",
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Lecturer at the host university",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Lecturer at the host university",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "assessmentForms": [],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "opm_560_business_analytics_introduction_to_operations_analytics_with_python",
+            "id": "OPM_560",
+            "ects": 6,
+            "workloadInPerson": 28,
+            "workloadSelfStudy": 13,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Raik Stolletz",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Raik Stolletz",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "OPM_561"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "opm_561_production_management_lean_approaches_and_variability",
+            "id": "OPM_561",
+            "ects": 4,
+            "workloadInPerson": 24,
+            "workloadSelfStudy": 9,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Raik Stolletz",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Raik Stolletz",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "OPM_301"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "opm_581_service_operations_management",
+            "id": "OPM_581",
+            "ects": 6,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 13,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Cornelia Sch\u00f6n",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Cornelia Sch\u00f6n",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "managerial_accounting",
+            "id": "acc_man_560",
+            "ects": 8,
+            "workloadInPerson": 24,
+            "workloadSelfStudy": 216,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Jannis Bischof",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Dr. Claudia Max",
+                    "title": null,
+                    "hasName": true
+                },
+                {
+                    "name": "Can Toygar",
+                    "title": null,
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Jannis Bischof",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "25/75",
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "basic_knowledge_of_cost_accounting"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": [
+                "acc_man_661",
+                "acc_man_660"
+            ]
+        },
+        {
+            "name": "science_management",
+            "id": "man_521",
+            "ects": 4,
+            "workloadInPerson": 20,
+            "workloadSelfStudy": 100,
+            "offeredIn": [
+                "FFS",
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Dr. Yvonne Dorf",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Dr. Yvonne Dorf",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Interest in gaining comprehensive knowledge in various disciplines of science management.",
+            "furtherModules": []
+        },
+        {
+            "name": "responsibility_in_management",
+            "id": "man_522",
+            "ects": 4,
+            "workloadInPerson": 20,
+            "workloadSelfStudy": 100,
+            "offeredIn": [
+                "FFS",
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Dr. Carsten Lotz",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Dr. Carsten Lotz",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Acquisition of the philosophical and economic literature mentioned in the lecture.",
+            "furtherModules": []
+        },
+        {
+            "name": "corporate_sustainability",
+            "id": "acc_man_660",
+            "ects": 4,
+            "workloadInPerson": 24,
+            "workloadSelfStudy": 96,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Dr. Holger Rubel",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Jannis Bischof",
+                    "title": null,
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 45,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "basic_knowledge_of_value_based_management"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "corporate_sustainability_performance_measurement",
+            "id": "acc_man_661",
+            "ects": 6,
+            "workloadInPerson": 30,
+            "workloadSelfStudy": 150,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Dr. Holger Rubel",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Jannis Bischof",
+                    "title": null,
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "25/75",
+            "examinationDuration": 45,
+            "requiredPrerequisiteModules": [
+                "acc_510",
+                "acc_520",
+                "acc_530",
+                "acc_540",
+                "acc_560",
+                "acc_tax_570"
+            ],
+            "optionalPrerequisiteModules": [
+                "acc_660",
+                "basic_knowledge_of_sustainability_management"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "private_equity_due_diligence_and_value_creation",
+            "id": "acc_man_662",
+            "ects": 6,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 148,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Dr. Wilhelm Schmundt",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Dr. Wilhelm Schmundt",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "50/50",
+            "examinationDuration": 45,
+            "requiredPrerequisiteModules": [
+                "acc_510",
+                "acc_520",
+                "acc_530",
+                "acc_540",
+                "acc_560",
+                "acc_tax_570"
+            ],
+            "optionalPrerequisiteModules": [
+                "basic_knowledge_of_corporate_finance"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "business_society_and_environment",
+            "id": "man_608",
+            "ects": 4,
+            "workloadInPerson": 24,
+            "workloadSelfStudy": 96,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Karin Hoisl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Karin Hoisl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "30/70",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "strategic_management_between_profit_and_purpose",
+            "id": "man_609",
+            "ects": 4,
+            "workloadInPerson": 24,
+            "workloadSelfStudy": 96,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Dr. Moritz Motyka",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Dr. Moritz Motyka",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "50/50",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "entrepreneurship_and_innovation",
+            "id": "man_626",
+            "ects": 3,
+            "workloadInPerson": 20,
+            "workloadSelfStudy": 70,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Dr. Jan-Philipp Ahrens",
+                    "title": "PD Dr. habil.",
+                    "hasName": true
+                },
+                {
+                    "name": "Dr. Andrew Isaak",
+                    "title": null,
+                    "hasName": true
+                },
+                {
+                    "name": "Dr. Baris Istipliler",
+                    "title": null,
+                    "hasName": true
+                },
+                {
+                    "name": "Dr. Kateryna Nekit",
+                    "title": null,
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Dr. Jan-Philipp Ahrens",
+                    "title": "PD Dr. habil.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "PRESENTATION"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "not_taken_man_634"
+            ],
+            "optionalPrerequisiteModules": [
+                "basic_understanding_of_business_foundations"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "introduction_to_entrepreneurship",
+            "id": "man_630",
+            "ects": 6,
+            "workloadInPerson": 36,
+            "workloadSelfStudy": 144,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Michael Woywode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Nora Zybura",
+                    "title": null,
+                    "hasName": true
+                },
+                {
+                    "name": "Dr. Bettina M\u00fcller",
+                    "title": null,
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Michael Woywode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "50/40/10",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "case_studies_in_operations_management_unlocking_the_power_of_ai",
+            "id": "opm_582",
+            "ects": 6,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 148,
+            "offeredIn": [
+                "FFS",
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Cornelia Sch\u00f6n",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Cornelia Sch\u00f6n",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "60/30/10",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "This course is an OPM5xx core course and has no prerequisites.",
+            "furtherModules": [
+                "opm_6xx"
+            ]
+        },
+        {
+            "name": "strategic_procurement",
+            "id": "opm_591",
+            "ects": 6,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 148,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Christoph Bode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Christoph Bode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "negotiation",
+            "id": "opm_593",
+            "ects": 6,
+            "workloadInPerson": 22,
+            "workloadSelfStudy": 158,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Ingo Bayer",
+                    "title": "Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Christoph Bode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Christoph Bode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "next_generation_procurement",
+            "id": "opm_597",
+            "ects": 4,
+            "workloadInPerson": 26,
+            "workloadSelfStudy": 94,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Christoph Bode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Christoph Bode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "PRESENTATION"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "supply_chain_strategy",
+            "id": "opm_601",
+            "ects": 6,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 148,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Moritz Fleischmann",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Moritz Fleischmann",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [
+                "opm_501",
+                "opm_502",
+                "opm_561",
+                "opm_581",
+                "opm_582",
+                "opm_591"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "business_analytics_robust_planning_in_stochastic_systems",
+            "id": "opm_661",
+            "ects": 8,
+            "workloadInPerson": 40,
+            "workloadSelfStudy": 200,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Raik Stolletz",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Raik Stolletz",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "PRESENTATION",
+                "WRITTEN"
+            ],
+            "examinationDistribution": "70/30",
+            "examinationDuration": 45,
+            "requiredPrerequisiteModules": [
+                "opm_561",
+                "opm_560"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "business_analytics_modeling_and_optimization",
+            "id": "opm_662",
+            "ects": 8,
+            "workloadInPerson": 40,
+            "workloadSelfStudy": 200,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Raik Stolletz",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Raik Stolletz",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "PRESENTATION",
+                "WRITTEN"
+            ],
+            "examinationDistribution": "70/30",
+            "examinationDuration": 45,
+            "requiredPrerequisiteModules": [
+                "opm_561",
+                "opm_560"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "revenue_management_and_dynamic_pricing",
+            "id": "opm_682",
+            "ects": 6,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 148,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Cornelia Sch\u00f6n",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Cornelia Sch\u00f6n",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [
+                "opm_501",
+                "opm_502",
+                "opm_560",
+                "opm_561",
+                "opm_581",
+                "opm_582",
+                "opm_591"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "strategic_sourcing",
+            "id": "opm_692",
+            "ects": 6,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 148,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Christoph Bode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Christoph Bode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": "90/10",
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "research_seminar_supply_chain_management",
+            "id": "opm_701",
+            "ects": 6,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 148,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Moritz Fleischmann",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Moritz Fleischmann",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "50/40/10",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "opm_6xx"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "applied_seminar_supply_chain_management",
+            "id": "opm_741",
+            "ects": 6,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 148,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Moritz Fleischmann",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Moritz Fleischmann",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "60/30/10",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "opm_6xx"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "project_seminar_operations_analytics",
+            "id": "opm_760",
+            "ects": 6,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 148,
+            "offeredIn": [
+                "FFS",
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Raik Stolletz",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Raik Stolletz",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "60/30/10",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "opm_661",
+                "opm_662"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "research_seminar_production_management",
+            "id": "opm_761",
+            "ects": 6,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 148,
+            "offeredIn": [
+                "FFS",
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Raik Stolletz",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Raik Stolletz",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "60/30/10",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "opm_6xx"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "research_seminar_service_operations_management",
+            "id": "opm_781",
+            "ects": 6,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 148,
+            "offeredIn": [
+                "FFS",
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Cornelia Sch\u00f6n",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Cornelia Sch\u00f6n",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "60/30/10",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "opm_6xx"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "research_seminar_procurement",
+            "id": "opm_791",
+            "ects": 6,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 148,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Christoph Bode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Christoph Bode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "60/30/10",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "opm_6xx"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "applied_seminar_procurement",
+            "id": "opm_792",
+            "ects": 6,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 148,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Christoph Bode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Christoph Bode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "75/25",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "This module builds on topics covered in OPM591.",
+            "furtherModules": []
+        },
+        {
+            "name": "is_616_large_scale_data_analysis_and_visualization",
+            "id": "IS_616",
+            "ects": 6,
+            "workloadInPerson": 12,
+            "workloadSelfStudy": 17,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "M. Strohmaier",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "M. Pellert",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Markus Strohmaier",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": "60/40",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge about statistics and either basic knowledge of R and Python or intermediate knowledge of either Python or R and willingness to learn the other.",
+            "furtherModules": []
+        },
+        {
+            "name": "is_622_network_science",
+            "id": "IS_622",
+            "ects": 6,
+            "workloadInPerson": 8,
+            "workloadSelfStudy": 13,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Markus Strohmaier",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Marlene Lutz",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Markus Strohmaier",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": "80/20",
+            "examinationDuration": 80,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge of algorithms and data structures, programming concepts and methods, Python, and basic knowledge of statistics.",
+            "furtherModules": []
+        },
+        {
+            "name": "is_628_advances_in_public_blockchains",
+            "id": "IS_628",
+            "ects": 6,
+            "workloadInPerson": 8,
+            "workloadSelfStudy": 12,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Markus Strohmaier",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Stefano Balietti",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Markus Strohmaier",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "100",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "is_629_agile_software_product_management_and_design",
+            "id": "IS_629",
+            "ects": 6,
+            "workloadInPerson": 10,
+            "workloadSelfStudy": 6,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Hartmut H\u00f6hle",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Hartmut H\u00f6hle",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "60/40",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "IS_540"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "is_635_forschungsmethoden_data_science",
+            "id": "IS_635",
+            "ects": 6,
+            "workloadInPerson": 17,
+            "workloadSelfStudy": 3,
+            "offeredIn": [
+                "HWS",
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Markus Strohmaier",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Markus Strohmaier",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "PRESENTATION"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Registration of a Master Arbeit at the chair for Data Science in den Wirtschafts- und Sozialwissenschaften.",
+            "furtherModules": []
+        },
+        {
+            "name": "is_661_text_analytics",
+            "id": "IS_661",
+            "ects": 6,
+            "workloadInPerson": 10,
+            "workloadSelfStudy": 4,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Markus Strohmaier",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Markus Strohmaier",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge of programming concepts and methods, practical programming skills (Python).",
+            "furtherModules": []
+        },
+        {
+            "name": "is_712_seminar",
+            "id": "IS_712",
+            "ects": 6,
+            "workloadInPerson": 17,
+            "workloadSelfStudy": 3,
+            "offeredIn": [
+                "HWS",
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Timo Himmelsbach",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Armin Heinzl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "Basic knowledge of IS"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "is_723_seminar_data_science_ii",
+            "id": "IS_723",
+            "ects": 6,
+            "workloadInPerson": 17,
+            "workloadSelfStudy": 3,
+            "offeredIn": [
+                "HWS",
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Tobias Schumacher",
+                    "title": null,
+                    "hasName": false
+                },
+                {
+                    "name": "Marlene Lutz",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Markus Strohmaier",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "50/40/10",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "is_724_seminar_current_topics_in_human_xai_collaboration",
+            "id": "IS_724",
+            "ects": 6,
+            "workloadInPerson": 17,
+            "workloadSelfStudy": 3,
+            "offeredIn": [
+                "HWS",
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Kevin Bauer",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Kevin Bauer",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "60/40",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "is_742_seminar_trends_in_enterprise_systems",
+            "id": "IS_742",
+            "ects": 6,
+            "workloadInPerson": 17,
+            "workloadSelfStudy": 3,
+            "offeredIn": [
+                "HWS",
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Hartmut H\u00f6hle",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Hartmut H\u00f6hle",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "80/20",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "IS_540"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "is_752_seminar_on_process_and_management_analytics",
+            "id": "IS_752",
+            "ects": 6,
+            "workloadInPerson": 17,
+            "workloadSelfStudy": 3,
+            "offeredIn": [
+                "HWS",
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Jana-Rebecca Rehse",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Jana-Rebecca Rehse",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "80/20",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "IS_515"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "fin_500_investments",
+            "id": "FIN_500",
+            "ects": 6,
+            "workloadInPerson": 10,
+            "workloadSelfStudy": 14,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [
+                "Brealey, Myers, Allen, Corporate Finance, (McGraw-Hill, 10th edition, 2010), chapters 1-19"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Erik Theissen",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Erik Theissen",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge in mathematics and statistics; Successful attendance of Finanzwirtschaft I & II or similar courses",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_540_corporate_finance_1",
+            "id": "FIN_540",
+            "ects": 5,
+            "workloadInPerson": 14,
+            "workloadSelfStudy": 12,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [
+                "Brealey, Myers, Allen, Corporate Finance, (McGraw-Hill, 10th edition, 2010), chapters 1-19"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Marc Gabarro",
+                    "title": "Ph.D.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Ernst Maug",
+                    "title": "Ph.D.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge in accounting, finance, mathematics, and statistics",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_541_corporate_finance_1_case_study",
+            "id": "FIN_541",
+            "ects": 5,
+            "workloadInPerson": 10,
+            "workloadSelfStudy": 5,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [
+                "Brealey, Myers, Allen, Corporate Finance, (McGraw-Hill, 10th edition, 2010), chapters 1-19"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Ernst Maug",
+                    "title": "Ph.D.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Ernst Maug",
+                    "title": "Ph.D.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "PRESENTATION",
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": "75/25",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "FIN_540"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge in accounting, finance, mathematics, and statistics",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_550_international_course_banking_finance_insurance",
+            "id": "FIN_550",
+            "ects": 0,
+            "workloadInPerson": 0,
+            "workloadSelfStudy": 0,
+            "offeredIn": [
+                "HWS",
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Lecturer at the host university",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Lecturer at the host university",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "assessmentForms": [],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Course must match that of a regular MMM course (level 500 and above)",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_555_financial_markets_and_employees",
+            "id": "FIN_555",
+            "ects": 3,
+            "workloadInPerson": 6,
+            "workloadSelfStudy": 4,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Ernst Maug",
+                    "title": "Ph.D.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Ernst Maug",
+                    "title": "Ph.D.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN",
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": "75/25",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Cross-disciplinary thinking and understanding of key concepts in accounting, finance, economics, and management",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_580_derivatives_basic_strategies_and_pricing",
+            "id": "FIN_580",
+            "ects": 6,
+            "workloadInPerson": 11,
+            "workloadSelfStudy": 5,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Stefan Ruenzi",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Stefan Ruenzi",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Working knowledge of basic mathematics and statistics",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_590_financial_institutions_1",
+            "id": "FIN_590",
+            "ects": 4,
+            "workloadInPerson": 9,
+            "workloadSelfStudy": 3,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Oliver Spalt",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Oliver Spalt",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge in accounting, finance, mathematics, and statistics",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_601_bond_markets",
+            "id": "FIN_601",
+            "ects": 6,
+            "workloadInPerson": 11,
+            "workloadSelfStudy": 5,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Erik Theissen",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Erik Theissen",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [
+                "FIN_500"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "fin_602_trading_and_exchanges",
+            "id": "FIN_602",
+            "ects": 6,
+            "workloadInPerson": 11,
+            "workloadSelfStudy": 5,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Erik Theissen",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Erik Theissen",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Sound background in finance; familiarity with securities types and knowledge in statistics and econometrics",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_603_empirical_finance",
+            "id": "FIN_603",
+            "ects": 10,
+            "workloadInPerson": 13,
+            "workloadSelfStudy": 19,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Erik Theissen",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Erik Theissen",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN",
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": "45/45/10",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "CC_502",
+                "CC_503",
+                "FIN_5XX"
+            ],
+            "additionalPrerequisite": "Completion of FIN_604 Stata in Finance or equivalent knowledge recommended",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_604_stata_in_finance",
+            "id": "FIN_604",
+            "ects": 2,
+            "workloadInPerson": 6,
+            "workloadSelfStudy": 1,
+            "offeredIn": [
+                "HWS",
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Dr. Stefan Scharnowski",
+                    "title": null,
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Erik Theissen",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Limited seating; preference for students writing empirical seminar theses",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_606_fintech",
+            "id": "FIN_606",
+            "ects": 4,
+            "workloadInPerson": 11,
+            "workloadSelfStudy": 5,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Dr. Stefan Scharnowski",
+                    "title": null,
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Dr. Stefan Scharnowski",
+                    "title": null,
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge of finance, mathematics and statistics recommended",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_620_behavioral_finance",
+            "id": "FIN_620",
+            "ects": 6,
+            "workloadInPerson": 11,
+            "workloadSelfStudy": 5,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Dr. h. c. Martin Weber",
+                    "title": "Prof. Dr. Dr. h. c.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Dr. h. c. Martin Weber",
+                    "title": "Prof. Dr. Dr. h. c.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [
+                "FIN_500",
+                "FIN_540",
+                "FIN_550",
+                "FIN_580",
+                "FIN_590",
+                "FIN_601",
+                "FIN_602",
+                "FIN_603",
+                "FIN_604",
+                "FIN_605",
+                "FIN_606",
+                "FIN_630",
+                "FIN_682",
+                "FIN_684",
+                "FIN_685",
+                "FIN_686"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge in mathematics and statistics assumed",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_630_corporate_governance",
+            "id": "FIN_630",
+            "ects": 6,
+            "workloadInPerson": 11,
+            "workloadSelfStudy": 5,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Alexandra Niessen-Ruenzi",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Alexandra Niessen-Ruenzi",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "BE_510",
+                "BE_511",
+                "CC_502",
+                "CC_503"
+            ],
+            "additionalPrerequisite": "Knowledge in business economics and corporate finance recommended",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_640_corporate_finance_ii",
+            "id": "FIN_640",
+            "ects": 8,
+            "workloadInPerson": 13,
+            "workloadSelfStudy": 14,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [
+                "Brealey, Myers, Allen, Corporate Finance, (McGraw-Hill, 10th edition, 2010), chapters 1-19"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Ernst Maug",
+                    "title": "Ph.D.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Ernst Maug",
+                    "title": "Ph.D.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN",
+                "ASSIGNEMNT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "70/20/10",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [
+                "FIN_540"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Students should have prior knowledge of valuation techniques discussed in CF I and corporate finance textbooks",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_661_responsible_leadership_for_honors_program_students",
+            "id": "FIN_661",
+            "ects": 4,
+            "workloadInPerson": 11,
+            "workloadSelfStudy": 8,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Oliver Spalt",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Oliver Spalt",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT"
+            ],
+            "examinationDistribution": "100",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Students must be admitted to the Honors Program",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_682_international_asset_management",
+            "id": "FIN_682",
+            "ects": 6,
+            "workloadInPerson": 11,
+            "workloadSelfStudy": 5,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Stefan Ruenzi",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Stefan Ruenzi",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Working knowledge of basic mathematics and statistics and portfolio theory recommended",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_684_financial_institutions_ii",
+            "id": "FIN_684",
+            "ects": 4,
+            "workloadInPerson": 9,
+            "workloadSelfStudy": 3,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Oliver Spalt",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Oliver Spalt",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "FIN_590"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "fin_686_sustainable_finance_and_impact_investing",
+            "id": "FIN_686",
+            "ects": 6,
+            "workloadInPerson": 11,
+            "workloadSelfStudy": 5,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Oliver Spalt",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Oliver Spalt",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": "55/45",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "FIN_5XX"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "fin_687_python_in_finance",
+            "id": "FIN_687",
+            "ects": 2,
+            "workloadInPerson": 4,
+            "workloadSelfStudy": 2,
+            "offeredIn": [
+                "FFS",
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Stefan Ruenzi",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Stefan Ruenzi",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Limited seating; preference for students writing empirical seminar theses",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_703_seminar_in_financial_markets",
+            "id": "FIN_703",
+            "ects": 6,
+            "workloadInPerson": 2,
+            "workloadSelfStudy": 18,
+            "offeredIn": [
+                "FFS",
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Erik Theissen",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Erik Theissen",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ASSIGNEMNT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "2/3/1",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "FIN_5XX"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Sound background in finance and basic statistical techniques required",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_731_seminar_corporate_governance",
+            "id": "FIN_731",
+            "ects": 6,
+            "workloadInPerson": 2,
+            "workloadSelfStudy": 18,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Alexandra Niessen-Ruenzi",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Alexandra Niessen-Ruenzi",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ASSIGNEMNT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "FIN_5XX"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge of statistics and econometrics",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_740_corporate_finance_seminar",
+            "id": "FIN_740",
+            "ects": 6,
+            "workloadInPerson": 2,
+            "workloadSelfStudy": 18,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Ernst Maug",
+                    "title": "Ph.D.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Ernst Maug",
+                    "title": "Ph.D.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ASSIGNEMNT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "FIN_5XX"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge in statistics and econometrics recommended",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_780_seminar_in_asset_management_international_finance",
+            "id": "FIN_780",
+            "ects": 6,
+            "workloadInPerson": 2,
+            "workloadSelfStudy": 18,
+            "offeredIn": [
+                "HWS",
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Stefan Ruenzi",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Stefan Ruenzi",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ASSIGNEMNT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "50/25/15/10",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "FIN_5XX"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge of statistics and econometrics recommended",
+            "furtherModules": []
+        },
+        {
+            "name": "fin_790_seminar_in_financial_markets_and_financial_institutions",
+            "id": "FIN_790",
+            "ects": 6,
+            "workloadInPerson": 2,
+            "workloadSelfStudy": 18,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Oliver Spalt",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Oliver Spalt",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ASSIGNEMNT",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "FIN_5XX"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Sound background in finance and willingness to conduct empirical research required",
+            "furtherModules": []
+        },
+        {
+            "name": "price_and_product_management",
+            "id": "mkt_510",
+            "ects": 6,
+            "workloadInPerson": 11,
+            "workloadSelfStudy": 14,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Christian Homburg",
+                    "title": "Prof. Dr. Dr. h. c. mult.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Christian Homburg",
+                    "title": "Prof. Dr. Dr. h. c. mult.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "marketing_analytics",
+            "id": "mkt_511",
+            "ects": 6,
+            "workloadInPerson": 8,
+            "workloadSelfStudy": 13,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Florian Stahl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Florian Stahl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "designing_data_driven_business_models",
+            "id": "mkt_512",
+            "ects": 3,
+            "workloadInPerson": 6,
+            "workloadSelfStudy": 4,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Victoria Meil and Andreas Hamann",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Florian Stahl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "PRESENTATION"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "mkt_510"
+            ],
+            "additionalPrerequisite": "A basic understanding of business foundations and statistics is helpful (but not required).",
+            "furtherModules": []
+        },
+        {
+            "name": "market_research",
+            "id": "mkt_520",
+            "ects": 6,
+            "workloadInPerson": 11,
+            "workloadSelfStudy": 5,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Kraus",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Kraus",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "cc_503"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "marketing_theory_consumer_behavior",
+            "id": "mkt_531",
+            "ects": 4,
+            "workloadInPerson": 11,
+            "workloadSelfStudy": 5,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Florian Stahl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Florian Stahl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [
+                "mkt_530"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "customers_markets_and_firm_strategy",
+            "id": "mkt_545",
+            "ects": 6,
+            "workloadInPerson": 11,
+            "workloadSelfStudy": 5,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Florian Stahl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Florian Stahl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 90,
+            "requiredPrerequisiteModules": [
+                "mkt_650"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "service_business_model_innovations",
+            "id": "mkt_561",
+            "ects": 4,
+            "workloadInPerson": 11,
+            "workloadSelfStudy": 5,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Kraus",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Kraus",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [
+                "mkt_560"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic marketing knowledge on Bachelor level",
+            "furtherModules": []
+        },
+        {
+            "name": "marketing_strategy_for_innovation_sustainability",
+            "id": "mkt_575",
+            "ects": 3,
+            "workloadInPerson": 6,
+            "workloadSelfStudy": 4,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Sabine Kuester",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Sabine Kuester",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Knowledge of marketing fundamentals (Bachelor level knowledge)",
+            "furtherModules": []
+        },
+        {
+            "name": "digital_marketing_strategy",
+            "id": "mkt_580",
+            "ects": 6,
+            "workloadInPerson": 17,
+            "workloadSelfStudy": 15,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Sabine Kuester",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Sabine Kuester",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "50/50",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "business_to_business_marketing",
+            "id": "mkt_612",
+            "ects": 2,
+            "workloadInPerson": 6,
+            "workloadSelfStudy": 4,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Kraus",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Kraus",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 45,
+            "requiredPrerequisiteModules": [
+                "mkt_610"
+            ],
+            "optionalPrerequisiteModules": [
+                "mkt_510"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "marketing_communication",
+            "id": "mkt_614",
+            "ects": 4,
+            "workloadInPerson": 11,
+            "workloadSelfStudy": 5,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Florian Stahl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Florian Stahl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [
+                "mkt_530",
+                "mkt_532"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic marketing knowledge on Bachelor level",
+            "furtherModules": []
+        },
+        {
+            "name": "sales_management",
+            "id": "mkt_615",
+            "ects": 4,
+            "workloadInPerson": 11,
+            "workloadSelfStudy": 5,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Christian Homburg",
+                    "title": "Prof. Dr. Dr. h. c. mult.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Christian Homburg",
+                    "title": "Prof. Dr. Dr. h. c. mult.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN",
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": "60/40",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [
+                "mkt_611"
+            ],
+            "optionalPrerequisiteModules": [
+                "mkt_510"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "fundamentals_of_negotiation",
+            "id": "mkt_616",
+            "ects": 2,
+            "workloadInPerson": 6,
+            "workloadSelfStudy": 4,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Kraus",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Kraus",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "mkt_613"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "applied_negotiation",
+            "id": "mkt_617",
+            "ects": 2,
+            "workloadInPerson": 6,
+            "workloadSelfStudy": 4,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Kraus",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Kraus",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "REPORT"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "mkt_616",
+                "mkt_613"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "country_manager",
+            "id": "mkt_622",
+            "ects": 2,
+            "workloadInPerson": 6,
+            "workloadSelfStudy": 4,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Sabine Kuester",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Sabine Kuester",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "strategic_marketing_management_simulation",
+            "id": "mkt_623",
+            "ects": 2,
+            "workloadInPerson": 6,
+            "workloadSelfStudy": 4,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Sabine Kuester",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Sabine Kuester",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "data_scraping_for_analytics_and_ai_using_r",
+            "id": "mkt_624",
+            "ects": 4,
+            "workloadInPerson": 9,
+            "workloadSelfStudy": 9,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Florian Stahl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Florian Stahl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ORAL"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "basics in statistics and/or empirical social research, basics in R and/or Python and basics in statistical analysis with R.",
+            "furtherModules": []
+        },
+        {
+            "name": "consumer_behavior",
+            "id": "mkt_661",
+            "ects": 2,
+            "workloadInPerson": 6,
+            "workloadSelfStudy": 4,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Wayne D. Hoyer",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Wayne D. Hoyer",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 45,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "mkt_531"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "branding_and_brand_management",
+            "id": "mkt_663",
+            "ects": 4,
+            "workloadInPerson": 11,
+            "workloadSelfStudy": 5,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Florian Stahl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Florian Stahl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "research_seminar",
+            "id": "mkt_710",
+            "ects": 6,
+            "workloadInPerson": 17,
+            "workloadSelfStudy": 15,
+            "offeredIn": [
+                "HWS",
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Christian Homburg",
+                    "title": "Prof. Dr. Dr. h. c. mult.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Christian Homburg",
+                    "title": "Prof. Dr. Dr. h. c. mult.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "mkt_5xx",
+                "mkt_6xx"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "research_seminar",
+            "id": "mkt_720",
+            "ects": 6,
+            "workloadInPerson": 17,
+            "workloadSelfStudy": 15,
+            "offeredIn": [
+                "HWS",
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Florian Stahl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Florian Stahl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "mkt_5xx",
+                "mkt_6xx"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "research_seminar",
+            "id": "mkt_730",
+            "ects": 6,
+            "workloadInPerson": 17,
+            "workloadSelfStudy": 15,
+            "offeredIn": [
+                "HWS",
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Sabine Kuester",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Sabine Kuester",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "mkt_5xx",
+                "mkt_6xx"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "research_seminar",
+            "id": "mkt_740",
+            "ects": 6,
+            "workloadInPerson": 17,
+            "workloadSelfStudy": 15,
+            "offeredIn": [
+                "HWS",
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Kraus",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Kraus",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "ASSIGNEMNT"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "mkt_5xx",
+                "mkt_6xx"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "is_512_it_management_in_the_digital_age",
+            "id": "IS_512",
+            "ects": 6,
+            "workloadInPerson": 15,
+            "workloadSelfStudy": 165,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Armin Heinzl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Armin Heinzl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": "100",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "is_513_applied_it_management_in_the_digital_age",
+            "id": "IS_513",
+            "ects": 6,
+            "workloadInPerson": 15,
+            "workloadSelfStudy": 165,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Dr. Michael Grebe",
+                    "title": null,
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Armin Heinzl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [],
+            "examinationDistribution": "80/20",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "IS_512"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "is_515_process_management_and_analytics",
+            "id": "IS_515",
+            "ects": 6,
+            "workloadInPerson": 8,
+            "workloadSelfStudy": 172,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Jana-Rebecca Rehse",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Jana-Rebecca Rehse",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": "80/20",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [
+                "IS_514"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "is_540_management_of_enterprise_systems",
+            "id": "IS_540",
+            "ects": 6,
+            "workloadInPerson": 9,
+            "workloadSelfStudy": 171,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Hartmut H\u00f6hle",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Hartmut H\u00f6hle",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": "80/20",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "is_541_theories_and_methods_in_information_systems",
+            "id": "IS_541",
+            "ects": 6,
+            "workloadInPerson": 17,
+            "workloadSelfStudy": 163,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Hartmut H\u00f6hle",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Hartmut H\u00f6hle",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "30/70",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic statistical knowledge recommended",
+            "furtherModules": []
+        },
+        {
+            "name": "is_550_international_course_information_systems",
+            "id": "IS_550",
+            "ects": 6,
+            "workloadInPerson": 0,
+            "workloadSelfStudy": 180,
+            "offeredIn": [
+                "FFS",
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Lecturer at the host university",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Lecturer at the host university",
+                    "title": null,
+                    "hasName": false
+                }
+            ],
+            "assessmentForms": [],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "is_556_public_blockchains",
+            "id": "IS_556",
+            "ects": 6,
+            "workloadInPerson": 8,
+            "workloadSelfStudy": 172,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Markus Strohmaier",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Dr. Stefano Balietti",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Markus Strohmaier",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": "100",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "IS_533"
+            ],
+            "additionalPrerequisite": "Knowledge of computer programming (in any language).",
+            "furtherModules": []
+        },
+        {
+            "name": "is_557_introduction_to_scientific_programming_with_python",
+            "id": "IS_557",
+            "ects": 6,
+            "workloadInPerson": 17,
+            "workloadSelfStudy": 163,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Georg Ahnert",
+                    "title": null,
+                    "hasName": true
+                },
+                {
+                    "name": "Prof. Dr. Markus Strohmaier",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Markus Strohmaier",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": "100",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Basic knowledge about programming languages, statistics, and linear algebra.",
+            "furtherModules": []
+        },
+        {
+            "name": "is_607_digital_innovation",
+            "id": "IS_607",
+            "ects": 6,
+            "workloadInPerson": 15,
+            "workloadSelfStudy": 165,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Dr. Anna-Maria Seeger",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Dr. Anna-Maria Seeger",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": "100",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [
+                "IS_512",
+                "IS_614",
+                "IS_615"
+            ],
+            "optionalPrerequisiteModules": [
+                "IS_615"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "is_613_applied_project_in_enterprise_cloud_design_and_development",
+            "id": "IS_613",
+            "ects": 6,
+            "workloadInPerson": 15,
+            "workloadSelfStudy": 165,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Dr. Alexander Scheerer",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Dr. Alexander Scheerer",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [],
+            "examinationDistribution": null,
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "IS_615"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "This course is designed for master students of management or information systems. A basic understanding of how to program information systems is helpful.",
+            "furtherModules": []
+        },
+        {
+            "name": "is_614_corporate_knowledge_management",
+            "id": "IS_614",
+            "ects": 6,
+            "workloadInPerson": 15,
+            "workloadSelfStudy": 165,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Armin Heinzl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Armin Heinzl",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": "60/20",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "is_615_enterprise_cloud_design_and_development",
+            "id": "IS_615",
+            "ects": 6,
+            "workloadInPerson": 15,
+            "workloadSelfStudy": 165,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Tobias Schimmer",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Dr. Philipp Hoffmann",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Tobias Schimmer",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": "80/20",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "IS_613"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "creativity_and_entrepreneurship_in_practice",
+            "id": "MAN_631",
+            "ects": 6,
+            "workloadInPerson": 30,
+            "workloadSelfStudy": 150,
+            "offeredIn": [
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [
+                "www.mcei.de/teaching"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Erika Ni",
+                    "title": null,
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Michael Woywode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "PRESENTATION",
+                "REPORT",
+                "WRITTEN"
+            ],
+            "examinationDistribution": "35/35/20",
+            "examinationDuration": 30,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [
+                "MAN_630",
+                "MAN_632"
+            ],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "advanced_entrepreneurship",
+            "id": "MAN_632",
+            "ects": 6,
+            "workloadInPerson": 30,
+            "workloadSelfStudy": 150,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [
+                "www.mcei.de/teaching"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Michael Woywode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Nora Zybura",
+                    "title": null,
+                    "hasName": true
+                },
+                {
+                    "name": "Dr. Bettina M\u00fcller",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Michael Woywode",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "50/40/10",
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "entrepreneurial_behavior_and_crowdfunding_social_ventures",
+            "id": "MAN_634",
+            "ects": 6,
+            "workloadInPerson": 30,
+            "workloadSelfStudy": 150,
+            "offeredIn": [
+                "FFS",
+                "HWS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [
+                "Website of the Chair / Student Portal"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Dr. Baris Istipliler",
+                    "title": "Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Erika Ni",
+                    "title": null,
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Dr. Baris Istipliler",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "PRESENTATION",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "40/35/25",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [
+                "MAN_626"
+            ],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "employment_relations",
+            "id": "MAN_638",
+            "ects": 4,
+            "workloadInPerson": 30,
+            "workloadSelfStudy": 90,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [
+                "See homepage of the Chair of Business Administration, Human Resource Management and Leadership"
+            ],
+            "hasLecturer": [
+                {
+                    "name": "Dr. Frank Danesy",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Dr. Frank Danesy",
+                    "title": "Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN"
+            ],
+            "examinationDistribution": null,
+            "examinationDuration": 60,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": null,
+            "furtherModules": []
+        },
+        {
+            "name": "transform_innovation_and_entrepreneurship_for_sustainability",
+            "id": "MAN_639",
+            "ects": 6,
+            "workloadInPerson": 32,
+            "workloadSelfStudy": 148,
+            "offeredIn": [
+                "FFS"
+            ],
+            "recommendedSemester": [],
+            "recommendedLiterature": [],
+            "hasLecturer": [
+                {
+                    "name": "Prof. Dr. Dominika Wruk",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                },
+                {
+                    "name": "Gorgi Krlev",
+                    "title": null,
+                    "hasName": true
+                },
+                {
+                    "name": "Mikolaj Pawlak",
+                    "title": null,
+                    "hasName": true
+                },
+                {
+                    "name": "Ghita Dragsdahl",
+                    "title": null,
+                    "hasName": true
+                },
+                {
+                    "name": "Deborah Wallet-Wodka",
+                    "title": null,
+                    "hasName": true
+                }
+            ],
+            "hasPersonInCharge": [
+                {
+                    "name": "Prof. Dr. Dominika Wruk",
+                    "title": "Prof. Dr.",
+                    "hasName": true
+                }
+            ],
+            "assessmentForms": [
+                "WRITTEN",
+                "PRESENTATION"
+            ],
+            "examinationDistribution": "50/30/20",
+            "examinationDuration": null,
+            "requiredPrerequisiteModules": [],
+            "optionalPrerequisiteModules": [],
+            "additionalPrerequisite": "Students are interested in the key topics of the course: (social, frugal) innovation, sustainable business models and strategy, scaling and diffusion, impact measurement and management",
+            "furtherModules": []
+        }
+    ]
+}

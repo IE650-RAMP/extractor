@@ -1,0 +1,145 @@
+1 CORE
+COMPETENCES
+20Core Competences:
+Modules CC 501 and CC 504 are mandatory courses. In addition, either Module CC 502 or Module
+CC 503 have to be taken. Completion of both modules is not allowed.
+Module: CC 501 Decision Analysis: Business Analytics II EN
+Contents They will be able to abstract a given decision problem into a
+This course presents methods and concepts that support and im- mathematical model (both in deterministic settings and under
+prove rational decision making in various areas of application. uncertainty) and compute a recommended course of action in-
+The focus is on decision support and prescriptive analytics tools. ferred from their model. Depending on the model, the last step
+Discussion of basic descriptive theories ensure a thorough deci- may require the application of software/“solvers” (MS Excel). In
+sion-theoretical embedding. the context of decision-making under uncertainty, students will
+learn how to deal with risk. Moreover, they will be aware of well-
+Learning outcomes known behavioral findings that human intuition often conflicts
+This course aims to teach students how to use prescriptive mod- with popular prescriptive models.
+els to make better decisions, in particular in a business context.
+Students will (i) develop a structural approach to think about de- Prerequisites for participation
+cision problems; (ii) get equipped with a basic prescriptive ana- Necessary: –
+lytics toolkit; and (iii) be able to confidently discuss with ex- Recommended: The lecture generally assumes basic knowledge
+perts/consultants in the field. of mathematics and statistics (high school graduation level).
+Upon successful completion of the course, students will have a
+solid basic understanding of prescriptive analytics methods.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 6 SWS
+Exercise class 2 SWS 7 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min)
+Restricted admission no
+Further information –
+Examiner Prof. Martin Glanzer, Ph.D.
+Performing lecturer Prof. Dr. Martin Glanzer
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Math.
+21Preliminary course work –
+Program-specific Competency Goals CG 1
+22Module: CC 502 Applied Econometrics EN
+Contents Learning outcomes
+In this module we first briefly review most essential statistical By the end of the module students will have
+concepts from descriptive and inferential statistics for univariate
+a sound understanding of key statistical concepts and tech-
+and bivariate data. Upon this, some concepts are extended or
+niques,
+generalized to higher-dimensional data settings. The second part
+familiarity with the principles and core techniques of econo-
+will mainly provide a treatment of the principles and uses of (lin-
+metric analysis and how regression results are used and in-
+ear) regression analysis for various purposes, such as causality
+terpreted,
+analysis, prediction and forecasting. We will learn how the results
+trained skills in the practical application of these techniques
+from such analyses are appropriately interpreted and will discuss
+in a programming language
+the limitations and potential pitfalls of all these techniques as
+well.
+The Statistical Software R will intensively be used throughout the Prerequisites for participation
+course and also in the final exam (laptop required). Necessary: not taken module CC 503
+Recommended: knowledge of basic statistics (elementary prob-
+ability theory and inferential statistics included) at bachelor level
+required, knowledge of elementary linear algebra (vectors and
+matrices) helpful, should also know the concept of random vari-
+ables and expected values
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 6 SWS
+Exercise class 2 SWS 7 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min)
+Restricted admission no
+Further information –
+Examiner Dr. Toni Stocker
+Performing lecturer Dr. Toni Stocker
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2
+23Module: CC 503 Empirical Methods: Business Analytics I EN
+Contents Learning outcomes
+Theoretical foundations of empirical research. Statistical founda- Participants understand the epistemological possibilities and
+tions of empirical research (key summary statistics, important limitations of empirical research in the domain of business ad-
+theoretical probability distributions, hypothesis testing method- ministration. Participants are capable of describing a dataset us-
+ology, and key test statistics). Introduction to qualitative empiri- ing appropriate summary statistics and test simple hypotheses
+cal research. Introduction to experimental empirical research. In- about the structure of the data. Participants know the general
+troduction to survey-based empirical research. Introduction to approach to conducting qualitative studies, experimental stud-
+empirical research based on secondary data. ies, survey-based studies, and studies based on secondary data.
+Participants understand fundamental methods for analyzing
+causal relationships (particularly ANOVA and analysis of regres-
+sion). They can correctly interpret results from these methods.
+Prerequisites for participation
+Necessary: Not taken CC 502
+Recommended: –
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Exercise class 1 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Arnd Vomberg
+Performing lecturer Prof. Dr. Arnd Vomberg
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1
+24Module: CC 504 Corporate Social Responsibility EN
+Contents Learning outcomes
+This lecture series deals with the topic of “Corporate Social Re- The lecture sensitizes participants to the diversity of topics, the
+sponsibility” (CSR) from a management perspective. The focus is impact on business models, and the relevance of CSR in daily
+on the conceptual background of CSR, its strategic implications business. The imparted knowledge enables students to under-
+for companies, and its implications for leaders and employees. stand the myriad implications the concept of CSR has on many
+One of the central questions is how CSR can be comprehensively aspects of business and everyday life. In particular, students get
+integrated into organizations and how CSR-related practices and an overview of the broad topic landscape of CSR. This allows
+values are consistently enacted both inside firms and in firms’ ex- them to build the competencies required to define CSR's scope,
+ternal activities. A particular focus will be on the role of responsi- implications, and limits in management.
+ble leadership. Managerial challenges in the field of CSR manage-
+ment are illustrated by real-life examples. Prerequisites for participation
+Necessary: –
+Recommended: –
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Max Reinwald
+Performing lecturer Prof. Dr. Max Reinwald
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 3, CG 4
+25

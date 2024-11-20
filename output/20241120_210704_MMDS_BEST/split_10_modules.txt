@@ -1,0 +1,448 @@
+2. Detailed descriptions
+AC 652 Additional Course – Data Analytics Methods
+Typically: lecture, other forms of modules might be credited
+Form of module
+upon request.
+Level Master
+Max. 18 (The individual modules can vary between 2 and 10
+ECTS ECTS. A total of 18 ECTS can be recognized as additional
+courses).
+The workload and its distribution on different activities are
+determined by the credited course. For courses taken at the
+Workload
+University of Mannheim, they can be found in the respective
+module catalogue. One ECTS credit equals 30 hours of work.
+The prerequisites are determined by the credited course. For
+Prerequisites courses taken at the University of Mannheim, they can be
+found in the respective module catalogue
+The course falls into the data analytics methods area of the
+MMDS and covers topics related to data analytics methods,
+but is not directly equivalent to any course in the MMDS
+Aim of module module catalogue. The course level equals a regular course in
+MMDS study program. The module can be taken either at the
+University of Mannheim or at any other university in Ger-
+many or abroad.
+The learning outcomes and qualification goals are deter-
+Learning outcomes and mined by the credited course. For courses taken at the Uni-
+qualification goals versity of Mannheim, they can be found in the respective
+module catalogue.
+The media, literature, and methods are determined by the
+credited course. For courses taken at the University of Mann-
+Media / Literature / Meth- heim, they can be found in the respective module catalogue.
+ods / Form and duration The form of assessment is typically a written or oral examina-
+of assessment tion, but can also include other forms of examination. Details
+are determined by the examination modalities of the cred-
+ited course.
+46English preferred, but any other language possible if Mann-
+Language
+heim faculty member is able to identify content and level
+Offering Spring semester / Fall semester
+Lecturer Lecturer at the host university
+Person in charge Lecturer at the host university
+Duration of module 1 Semester
+Further modules -
+Range of application MMDS
+Semester 2nd/3rd/4th semester
+47DS 100 Statistics for Data Scientists
+Form of module Lecture and Tutorial
+Type of module Foundations of Data Science
+Level Master
+ECTS 9 (270 hours)
+Hours per semester present: 56 h (4 SWS)
+Self-study: 214 h per semester
+Workload • 91 h: pre and post lecture/tutorial studying and revision
+• 42 h: studying for and taking weekly online tests
+• 40 h: examination preparation
+• 41 h: preparation and presentation of weekly exercises
+A sound understanding of the linear regression model (OLS) is
+Prerequisites
+required. Knowledge in linear algebra and calculus is useful.
+The course provides an introduction to causal inference, linear
+models, and maximum likelihood estimation. The course will
+cover the following topics:
+• Causal Inference
+• Hypotheses testing
+Aim of module
+• Linear Regression
+· Selected GLM, e.g., binary choice models, models for
+ordinal data, models multinomial data, models for count
+data
+Expertise (MK1, MK3):
+Understand how to appropriately translate research question
+into statistical models, be able to apply statistical models appro-
+priate for non-linear problems and learn how to present and in-
+terpret estimation results in a substantive meaningful way.
+Methodological competence (MK1, MK3):
+Learning outcomes and
+Estimate regression parameters using the maximum likelihood
+qualification goals
+principle; Perform hypothesis tests for regression models using
+the maximum likelihood principle; Be able to identify violations
+of the respective regression assumptions of the discussed
+GLMs; Be able to identify limitations of non-linear regression
+models.
+Personal competence (MF1, MF2, MF3, MKO1, MKO2):
+48The course supports students to develop competences with re-
+gard to choosing the appropriate statistical method(s) to an-
+swer respective research questions and how to present and
+communicate statistical results.
+Media Lecture slides available online, exercises available online
+• Cameron, C.A. and P.K. Trivedi. 1998. Regression Analysis
+of Count Data. Cambridge: Cambridge University Press.
+• Greene, W.H. (2008). Econometric Analysis. 6th ed. Upper
+Saddle River: Prentice Hall.
+• Long, J.S. (1997). Regression Models for Categorical and
+Limited Dependent Variables. Thousand Oaks: Sage.
+• Verbeek, M. 2017. A Guide to Modern Econometrics. 5th
+ed. Chichester: Wiley.
+Literature
+• Wooldridge, J.M. 2002. Econometric Analysis of Cross Sec-
+tion and Panel Data. Cambridge, MA: MIT Press.
+• Imbens, Guido W., and Donald B. Rubin. Causal Inference for
+Statistics, Social, and Biomedical Sciences: An Introduction.
+Cambridge: Cambridge University Press, 2015.
+• Angrist, Joshua D., and Jorn-Steffen Pischke. Mostly Harm-
+less Econometrics: An Empiricist's Companion. Princeton:
+Princeton University Press, 2009.
+Methods Lecture elements, weekly online tests, literature studies
+Form of assessment Written examination
+Admission requirements Oral participation, homework, presentations, compulsory at-
+for assessment tendance
+Duration of assessment 90 Minutes
+Language English
+Offering Fall semester
+Lecturer of the School of Social Sciences, I.e chair of Social Data
+Lecturer
+Science
+Lecturer of the School of Social Sciences, I.e. Chair of social Data
+Person in charge
+Science
+Duration of module 1 semester
+Further modules
+49Range of application MMDS
+Semester 1st semester
+50DS 202 Seminar and Lab on Machine Learning and Causal Inference
+Form of module Seminar
+Type of module Data Science Methods: Fundamentals
+Level Master
+ECTS 9 (270 hours)
+Hours per semester present: 56 h (4 SWS)
+Self-study: h per semester
+Workload
+• 70 h: pre and post seminar studying and revision
+• 70 h: analyzing data, programming Python scripts
+• 74 h: preparation and presentation of research project
+Students should be familiar with Python or at least with any
+Prerequisites
+other object-programming language.
+The module introduces, discusses, and offers hands-on expe-
+rience in state-of-the-art topics in data science. It consists of
+a “theoretical” part (seminar) which offers room for discus-
+Aim of module sion on hot topics of data science and an “empirical” part
+where students formalize research questions and analyze
+data (of their own) using advanced techniques of machine
+learning.
+Expertise:
+Students are able to find appropriate techniques of machine
+learning to answer complex research questions; they can an-
+alyze (large) data sets using state-of-the-art techniques of
+machine learning.
+(MK1)
+Methodological competence:
+Students are able to program in Python; they can apply ad-
+Learning outcomes and
+vanced techniques of machine learning to individual research
+qualification goals
+questions; they have in-depth knowledge in application of
+data science.
+(MK1, MK2, MK3)
+Personal competence:
+Students are able to independently implement their research
+question in a research project; they can deal with and solve
+theoretical and empirical problems.
+(MF1, MF2, MF3, MF4, MKO1, MKO2)
+51Media Slides available online
+• Downey, Allen B. 2016. Think Python. How to Think Like a
+Computer Scientist. 2nd ed. Needham: Green Tea Press.
+(available online: http://greenteapress.com/thinkpy-
+thon2/thinkpython2.pdf)
+Literature • Guttag, John V. 2021. Introduction to Computation and
+Programming Using Python. 3rd. ed. Cambridge: MIT
+Press.
+• The Python Tutorial (online: https://docs.py-
+thon.org/3/tutorial/)
+Lecture elements, classroom discussion, weekly lab-sessions,
+Methods
+literature studies
+Form of assessment Written examination
+Admission requirements for Oral participation, homework, presentations, compulsory at-
+assessment tendance
+Duration of assessment 90 Minutes
+Language English
+Offering Fall semester
+Lecturer of the School of Social Sciences, I.e. chair of social
+Lecturer
+data science
+Lecturer of the School of Social Sciences, I.e. chair of social
+Person in charge
+data science
+Duration of module 1 semester
+Further modules
+Range of application MMSDS
+Semester 3rd semester
+52IE 560 Decision Support
+Form of module Inverted classroom
+Type of module Business Informatics Fundamental
+Level Master
+ECTS 6
+Hours per semester: 42 h (1+2 SWS)
+Workload Self-study per semester: 138 h
+• 89 h: pre- and post lecture studying and revision
+• 49 h: exam preparation
+Basic Probability Theory, Basic Knowledge of Propositional and
+Prerequisites
+First-Order Logic
+The course provides an introduction to decision support tech-
+niques as a basis for the design of decision support systems. The
+course will cover the following topics:
+• Decision Theory
+Aim of module
+• Decision- and Business Rules
+• Probabilistic Graphical Models
+• Game Theory and Mechanism Design
+• Decision Processes and Reinforcement Learning
+Expertise:
+Students will acquire basic knowledge of the techniques, opportu-
+nities and applications of decision theory.
+(MK1, MF1)
+Learning outcomes and Methodological competence:
+qualification goals Successful participants will be able to identify opportunities for de-
+cision support in an enterprise environment, select and apply ap-
+propriate techniques, and interpret the results.
+(MK2, MF3, MF4, MKO1)
+Personal competence: -
+Media Lecture videos, slide set, exercise sheets, software tools
+• S. Russel and P. Norvig: AI a modern Approach (3rd Edition),
+Literature
+2010 (selected sections)
+The course consists of a lecture accompanied by practical home-
+Methods
+work and case studies. In the lecture, the students basic concepts
+53and methods of decision theory will be explained both in theory
+and using concrete examples. The students will practice and test
+their knowledge acquired in the lecture in homework assignments.
+Within the case studies, students model real world decision prob-
+lems and try to solve them optimally using methods from the lec-
+ture.
+Form of assessment Written exam
+Admission requirements for
+-
+assessment
+Duration of assessment Written examination: 90 minutes
+Language English
+Offering Fall semester
+Lecturer Prof. Dr. Heiner Stuckenschmidt
+Person in charge Prof. Dr. Heiner Stuckenschmidt
+Duration of module 1 Semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence,
+Semester 1st/2nd semester
+54IE 671 Web Mining
+Form of module Lecture and Exercise
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester: 28 h (2 SWS)
+Workload Self-study: 56 h per semester
+• 31 h: pre and post lecture studying and revision
+• 25 h: examination and presentation preparation
+IE 500 Data Mining I (recommended). Fundamental notions of lin-
+Prerequisites
+ear algebra and probability theory.
+The vast amounts of textual content and structured data found on
+the Web provide us with a goldmine of data that can be mined to
+derive knowledge about nearly every aspect of human life. The
+course covers techniques for extracting knowledge from Web con-
+tent as a basis for business decisions and applications. The course
+will cover the following topics: Web Usage Mining (including Rec-
+Aim of module ommender Systems), Web Structure Mining (including Social Net-
+work Analysis), and Web Content Mining (including Sentiment
+Analysis and Hate Speech Detection).
+NOTE: It is highly recommended to attend the module “Web Min-
+ing Project” in the same semester since the schedule and topics of
+both modules are aligned.
+Expertise:
+Students will acquire knowledge of the techniques, opportunities
+and applications of Web mining.
+(MK1, MF1)
+Methodological competence:
+Learning outcomes and
+Successful participants will be able to identify opportunities for
+qualification goals
+mining knowledge from Web content, select and apply appropriate
+techniques and interpret the results.
+(MK2, MF3, MF4)
+Personal competence: -
+Media slide set, exercise sheets, data sets for the exercises
+• Bing Liu: Web Data Mining. 2nd Edition, Springer, 2011.
+Literature • Wouter de Nooy, et al.: Exploratory Social Network Analysis
+with Pajek. 2nd Edition, Cambridge University Press, 2011.
+55• Bing Liu. Sentiment Analysis and Opinion Mining, Morgan &
+Claypool Publishers, 2012.
+The course consists of a lecture together with accompanying prac-
+tical exercises as well as student team projects. In the exercises the
+Methods
+participants will gather initial expertise in applying state of the art
+web mining tools.
+Form of assessment Written examination
+Admission requirements for
+-
+assessment
+Duration of assessment 60 minutes
+Language English
+Offering Spring semester
+Lecturer Prof. Dr. Christian Bizer
+Person in charge Prof. Dr. Christian Bizer
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence, Lehramt Informatik, MMSDS
+Semester 1st/2nd/3rd semester
+56IE 678 Deep Learning
+Form of module Lecture with exercises
+Type of module Specialization Course
+Level Master
+ECTS 6
+Hours per semester: 56h (4 SWS)
+Workload
+Exercises, assignments, and self-study: 98 h
+IE 675b Machine Learning or equivalent, no attempted or com-
+Prerequisites
+pleted IE 674 exam
+Machine learning is concerned with building computer systems
+that improve with experience as well as the study of learning pro-
+cesses, including the design of algorithms that are able to make
+predictions or extract knowledge from data. Building upon IE
+675b Machine Learning, this course focuses on deep learning and
+introduces basic and advanced deep learning architectures and
+techniques, training methods and hyperparameter optimization,
+as well as selected applications. Topics include:
+Aim of module • Feedforward neural networks
+• Backpropagation and parameter optimization
+• Machine learning systems
+• Training techniques for deep learning models
+• Recurrent neural networks
+• Convolutional neural networks
+• Attention and Transformers
+• Deep learning for graphs
+• Deep generative modelling
+Expertise:
+Deep understanding of fundamental concepts, models, and algo-
+rithms of deep learning
+(MK1, MF1)
+Learning outcomes and Methodological competence:
+qualification goals • Being able to build and train deep learning models
+• Being able to select suitable deep learning techniques for a
+given learning problem
+(MK2, MF3, MF4)
+Personal competence:
+57• writing skills
+• presentation skills
+• statistical programming skills
+(MKO3, MF2)
+Media Slide set, exercise sheets, software, datasets
+• I. Drori. The Science of Deep Learning. Cambridge University
+Press, 2023
+• I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT
+Press, 2017
+Literature • K.P. Murphy. Probabilistic Machine Learning: An Introduction.
+The MIT Press, 2022
+• K.P. Murphy. Probabilistic Machine Learning: Advanced
+Topics. The MIT Press, 2023
+• Additional material and articles provided in lecture notes
+The course consists of a lecture accompanied by theoretical and
+practical exercises as well as case studies with real data. In the ex-
+Methods
+ercises, students will deepen the material discussed in the lecture,
+apply the methods in practice, and present the result.
+Form of assessment Oral examination
+Admission requirements
+Homework assignments (pass at least 2 assignments)
+for assessment
+Duration of assessment 25 minutes
+Language English
+Offering Spring semester
+Lecturer Prof. Dr. Rainer Gemulla
+Person in charge Prof. Dr. Rainer Gemulla
+Duration of module 1 Semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of application
+ence
+Semester 2nd/3rd semester
+58IE 684 Web Mining Project
+Form of module Project
+Type of module Specialization course
+Level Master
+ECTS 3
+Hours per semester: 28 h (2 SWS)
+Workload Self-study: 56 h per semester
+• 36 h: project work
+• 20 h: report writing and presentation preparation
+Programming skills in Java or Python. IE 671 Web Mining (recom-
+Prerequisites
+mended).
+The Web Mining project allows students to apply the methods and
+techniques that they have learned in the lecture Web Mining in the
+context of a practical integration project. The projects can cover any
+of the topic of Web usage, content or structure mining.
+Aim of module
+NOTE: It is highly recommended to attend the module IE 671 “Web
+Mining” in the same semester since the schedule and topics of both
+modules are aligned.
+Expertise:
+• Students will be able to identify opportunities for employing
+Web Mining techniques in business applications and will learn
+to apply appropriate techniques for mining Web data.
+(MK1, MF1)
+Methodological competence:
+Learning outcomes and • Participants will acquire practical knowledge of techniques for
+qualification goals mining Web data.
+• Project organization skills
+(MK2, MF3, MF4, MKO3)
+Personal competence:
+• Presentation skills
+• Team work skills
+(MKO2, MF2)
+Media Slide set with references to potential topics, datasets, etc.
+• Bing Liu: Web Data Mining. 2nd Edition, Springer, 2011.
+• Wouter de Nooy, et al.: Exploratory Social Network Analysis
+Literature with Pajek. 2nd Edition, Cambridge University Press, 2011.
+• Bing Liu. Sentiment Analysis and Opinion Mining, Morgan &
+Claypool Publishers, 2012.
+59Students work on their projects in teams and report about the re-
+Methods sults of their projects in the form of a written report as well as an
+oral presentation.
+Project report (70%, 5-15 pages in length), oral project presenta-
+Form of assessment
+tion (30%, 10-90 minutes).
+Admission requirements for
+-
+assessment
+4-6 weeks (execution of the project work and writing of the re-
+Duration of assessment
+port), 10-90 minutes (presentation).
+Language English
+Offering Spring semester
+Lecturer Prof. Dr. Christian Bizer
+Person in charge Prof. Dr. Christian Bizer
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, Mannheim Master in Data Science
+Range of application
+Lehramt Informatik, MMSDS
+Semester 1. /2. /3. Semester
+60

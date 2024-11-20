@@ -1,0 +1,24 @@
+C. Data Management
+1. Overview
+Module
+Name of Module Offered ECTS Page
+no.
+AC 651 Additional Course – Data Management HWS/FSS Max. 18 15
+DS 200 Sampling and Data HWS 9 17
+CS 500 Advanced Software Engineering HWS 6 19
+CS 550 Algorithmics FSS/HWS 6 21
+CS 600 Model-driven Development HWS 6 24
+CS 651 Cryptography II HWS 6 26
+CS 655 Cryptography FSS 6 28
+CS 662 Types and Programming Languages FSS 6 30
+CS 664 Blockchain Security HWS 6 32
+IE 663 Information Retrieval and Web Search HWS 3 34
+IE 670 Web Data Integration HWS 3 36
+IE 691 Information Retrieval Project HWS 3 38
+IE 683 Web Data Integration Project HWS 3 40
+IS 556 Public Blockchains FSS 6 MMM*
+MAC 570 Reinforcement Learning-Coding Irreg. 8 42
+* For a detailed description, please see the module catalog of the respective following degree programs:
+• MMM: M.Sc. Mannheim Master in Management, https://www.bwl.uni-mannheim.de/studium/mas-
+ter/mmm/
+14

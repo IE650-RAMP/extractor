@@ -23,12 +23,12 @@ reset_baml_env_vars(dict(os.environ))
 def process_pdf(splits, splits_modules, doc_path, doc_name):
     """
     Processes a PDF document by splitting it into sections based on specified split points,
-    and assigns a suffix to each section based on whether it pertains to modules or additional information.
+    and assigns a suffix to each section based on whether it pertains to modules, additional information, or other additional information.
     Args:
         splits (list of int): A list of page numbers where the PDF should be split.
                               These are one-indexed and will be converted to zero-indexed.
-        splits_modules (list of int): A list indicating whether each split section is about modules (1)
-                                      or additional information (0).
+        splits_modules (list of int): A list indicating whether each split section is about modules (1),
+                                      additional information (0), or other additional information (2).
         doc_path (str): The file path to the PDF document to be processed.
         doc_name (str): A postfix used for the folder that the documents are saved to.
     Returns:
@@ -49,7 +49,17 @@ def process_pdf(splits, splits_modules, doc_path, doc_name):
             text = "".join([pdf.pages[j].extract_text() for j in range(prev, current)])
 
             # Determine the suffix based on splits_modules for the current section
-            suffix = "_modules" if splits_modules[i - 1] == 1 else "_additional"
+            if splits_modules[i - 1] == 1:
+                suffix = "_modules"
+            elif splits_modules[i - 1] == 0:
+                suffix = "_additional_overview"
+            elif splits_modules[i - 1] == 2:
+                suffix = "_additional_other"
+            else:
+                raise ValueError(
+                    f"Invalid value in splits_modules: {splits_modules[i - 1]}"
+                )
+
             output_file = output_folder / f"split_{i}{suffix}.txt"
 
             # Write extracted text to file
@@ -62,7 +72,15 @@ def process_pdf(splits, splits_modules, doc_path, doc_name):
         text = "".join(
             [pdf.pages[j].extract_text() for j in range(prev, len(pdf.pages))]
         )
-        suffix = "_modules" if splits_modules[-1] == 1 else "_additional"
+        if splits_modules[-1] == 1:
+            suffix = "_modules"
+        elif splits_modules[-1] == 0:
+            suffix = "_additional"
+        elif splits_modules[-1] == 2:
+            suffix = "_additional_other"
+        else:
+            raise ValueError(f"Invalid value in splits_modules: {splits_modules[-1]}")
+
         output_file = output_folder / f"split_{len(splits)}{suffix}.txt"
 
         with open(output_file, "w", encoding="utf-8") as text_file:
@@ -84,47 +102,61 @@ def process_pdf(splits, splits_modules, doc_path, doc_name):
 
 def merge_additional_files(source_folder, merged_file_name="merged_additional.txt"):
     """
-    Merges all files in the specified folder that match the pattern "split_*_additional.txt"
-    into a single file.
+    Merges all files in the specified folder that match the pattern "split_*_additional_other.txt" and "split_*_additional_overview.txt" into separate files.
     Args:
         source_folder (str or Path): The folder containing the files to be merged.
-        merged_file_name (str, optional): The name of the output merged file. Defaults to "merged_additional.txt".
+        merged_file_name (str, optional): The base name of the output merged files. Defaults to "merged_additional.txt".
     Returns:
         None
     The function performs the following steps:
-    1. Sets up the paths for the source folder and the merged file.
-    2. Defines a regex pattern to extract numbers from filenames like "split_1_additional.txt".
+    1. Sets up the paths for the source folder and the merged files.
+    2. Defines regex patterns to extract numbers from filenames like "split_1_additional_other.txt".
     3. Retrieves and sorts the files based on the extracted number.
-    4. Opens the merged file in write mode.
-    5. Reads the content of each '_additional' file and writes it to the merged file,
+    4. Opens the merged files in write mode.
+    5. Reads the content of each file and writes it to the corresponding merged file,
        adding optional spacing between the contents of each file.
-    6. Prints a message indicating that all '_additional' files have been merged.
+    6. Prints a message indicating that all files have been merged.
     """
 
     # Set up paths
     source_folder = Path(source_folder)
-    merged_file_path = source_folder / merged_file_name
+    merged_additional_other_path = source_folder / f"merged_additional_other.txt"
+    merged_additional_overview_path = source_folder / f"merged_additional_overview.txt"
 
-    # Pattern to extract the number from filenames like "split_1_additional.txt"
-    file_pattern = re.compile(r"split_(\d+)_additional\.txt")
+    # Patterns to extract the number from filenames
+    additional_other_pattern = re.compile(r"split_(\d+)_additional_other\.txt")
+    additional_overview_pattern = re.compile(r"split_(\d+)_additional_overview\.txt")
 
     # Get and sort files based on the extracted number
-    additional_files = sorted(
-        (file for file in source_folder.glob("split_*_additional.txt")),
-        key=lambda f: int(file_pattern.search(f.name).group(1)),
+    additional_other_files = sorted(
+        (file for file in source_folder.glob("split_*_additional_other.txt")),
+        key=lambda f: int(additional_other_pattern.search(f.name).group(1)),
+    )
+    additional_overview_files = sorted(
+        (file for file in source_folder.glob("split_*_additional_overview.txt")),
+        key=lambda f: int(additional_overview_pattern.search(f.name).group(1)),
     )
 
-    # Open the merged file in write mode
-    with open(merged_file_path, "w", encoding="utf-8") as merged_file:
-        for file in additional_files:
-            # Read the content of each '_additional' file and write to merged file
-            with open(file, "r", encoding="utf-8") as f:
-                merged_file.write(f.read())
-                merged_file.write(
-                    "\n\n"
-                )  # Optional: add spacing between contents of each file
+    # Function to merge files
+    def merge_files(files, output_path):
+        with open(output_path, "w", encoding="utf-8") as merged_file:
+            for file in files:
+                with open(file, "r", encoding="utf-8") as f:
+                    merged_file.write(f.read())
+                    merged_file.write(
+                        "\n\n"
+                    )  # Optional: add spacing between contents of each file
 
-    print(f"All '_additional' files have been merged into {merged_file_path}")
+    # Merge files
+    merge_files(additional_other_files, merged_additional_other_path)
+    merge_files(additional_overview_files, merged_additional_overview_path)
+
+    print(
+        f"All '_additional_other' files have been merged into {merged_additional_other_path}"
+    )
+    print(
+        f"All '_additional_overview' files have been merged into {merged_additional_overview_path}"
+    )
 
 
 def process_catalog_overview(folder_path):
@@ -134,7 +166,7 @@ def process_catalog_overview(folder_path):
         folder_path (str): The path to the folder containing the input text file.
     """
 
-    input_path = os.path.join(folder_path, "merged_additional.txt")
+    input_path = os.path.join(folder_path, "merged_additional_overview.txt")
     output_path = os.path.join(folder_path, "catalog_overview.json")
 
     with open(input_path, "r") as file:
@@ -218,14 +250,52 @@ def process_module_files(folder):
         except Exception as e:
             print(f"Error processing file {file_path}: {e}")
 
+
+def fix_module_file(file_path):
+    folder = os.path.dirname(file_path)
+    filename = os.path.basename(file_path)
+    fixed_filename = f"{filename.split('.')[0]}_fix.txt"
+    fixed_file_path = os.path.join(folder, fixed_filename)
+
+    # Read the content of the original file and write it to the new file
+    with open(file_path, "r", encoding="utf-8") as original_file:
+        content = original_file.read()
+        with open(fixed_file_path, "w", encoding="utf-8") as fixed_file:
+            fixed_file.write(content)
+
+    # Process the new fixed file
+    try:
+        process_module_list(fixed_file_path)
+    except Exception as e:
+        print(f"Error processing file {fixed_file_path}: {e}")
+
+
 def format_module_name(name: str) -> str:
-    return ' '.join(
-        word.capitalize() if word else word  # Capitalize first letter, handle empty strings
-        for word in name.replace('_', ' ').split(' ')
+    return " ".join(
+        (
+            word.capitalize() if word else word
+        )  # Capitalize first letter, handle empty strings
+        for word in name.replace("_", " ").split(" ")
     )
 
+
 def format_degree_name(name: str) -> str:
-    return ' '.join(
-        word.capitalize() if word else word  # Capitalize first letter, handle empty strings
-        for word in name.split('_')
+    return " ".join(
+        (
+            word.capitalize() if word else word
+        )  # Capitalize first letter, handle empty strings
+        for word in name.split("_")
     )
+
+
+def dict_to_lists(d):
+    """
+    Converts a dictionary into two lists: one for keys and one for values.
+    Args:
+        d (dict): The dictionary to be converted.
+    Returns:
+        tuple: A tuple containing two lists - the first list contains the keys, and the second list contains the values.
+    """
+    keys = list(d.keys())
+    values = list(d.values())
+    return keys, values

@@ -1,0 +1,472 @@
+3.4 AREA
+MANAGEMENT
+128Module: ACC/MAN 560 Managerial Accounting - EN
+Evaluating Financial and Non-Financial Performance
+Contents To shed light on these different governance practices, the course
+An organization’s long-term competitive success is critically de- integrates a number of real-world cases. Applications cover the
+pendent on the availability and the efficient use of information manufacturing, the services, and the financial industry.
+about its products, services, processes, organizational units, sup-
+pliers, customers, as well as its social and environmental perfor- Learning outcomes
+mance. Managerial accounting includes the concepts, models, Students will become familiar with advanced issues in manageri-
+and systems that provide managers with the information neces- al accounting and understand the use of financial and non-finan-
+sary to achieve both the financial and the non-financial (ESG) cial (ESG) information in managerial decision-making. Students
+goals. will also develop a thorough understanding of performance
+The course will familiarize participants with the terminology and measurement systems and managerial incentives.
+basic concepts of managerial accounting. The topics range from
+the analysis of cost information for decision-making to perfor- Prerequisites for participation
+mance measurement, financial planning, and budgeting. The de- Necessary: –
+sign and use of internal reporting systems varies substantially Recommended: Bachelor-level knowledge of cost accounting
+across different firms and industries and is closely interlinked
+with a firm’s governance and control systems.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Case Study Presentation 2 SWS 4 SWS
+Exercise class 2 SWS 4 SWS
+ECTS credits 8
+Graded yes
+Workload 240h
+Language English
+Form of assessment Case study presentation (25%) and written exam (90 min, 75%)
+Restricted admission no
+Further information Will be counted towards ACC.
+Examiner Prof. Dr. Jannis Bischof
+Performing lecturer Prof. Dr. Jannis Bischof (Lecture), Dr. Claudia Max and
+Can Toygar (Case Studies)
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M.
+Preliminary course work –
+129Program-specific Competency Goals CG 1, CG 3
+130Module: MAN 521 Science Management DE
+Contents Learning outcomes
+The learning content of the module includes a systematic After passing the module
+overview of the structure and function of the German academic
+… students know the specific conditions of universities and
+system, its legal foundations and the way in which universities
+scientific institutions as well as the challenges in the political
+and academic institutions are managed. In addition to manage-
+context.
+ment tasks in research, quality and personnel development, the
+… students have acquired management knowledge about
+module also provides insights into the day-to-day work of univer-
+management, (personnel) development and service tasks
+sity management, from personnel management to funding/mar-
+appropriate to science.
+keting management. Career prospects in science, including em-
+… students are qualified to apply their acquired know-how to
+ployment relationships, are also part of the module content, as
+science-related management tasks.
+are links between the science system and current (world) politics.
+Prerequisites for participation
+Necessary: –
+Recommended: Interest in gaining comprehensive knowledge
+in various disciplines of science management.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language German
+Form of assessment Written exam (60 min)
+Restricted admission yes
+Further information Student Portal
+Performing lecturer Dr. Yvonne Dorf
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M., MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2, CG 4
+131Module: MAN 522 Responsibility in Management DE
+Contents Learning outcomes
+The lecture examines the question of responsibility in the man- After passing this course, students should be able to critically re-
+agement of companies and other organizations on the basis of flect on their responsibility as future managers or employees in
+concrete case studies and fundamental texts from the economic companies and other institutions, justify their decisions on the
+and philosophical tradition. The key questions of the lecture are: basis of essential economic and philosophical positions and
+(1) What is responsibility, and who is responsible? (2) What is the frames of reference, and analyze and criticize the decisions of
+relationship between economic and ethical behavior? Can one others in a well-founded manner. Students should also be famil-
+be traced back to the other? (3) How does one make responsible iar with and be able to analyze typical dilemma situations.
+decisions? What criteria or values are used to determine and jus-
+tify one's actions? (4) Can responsibility be institutionalized? How Prerequisites for participation
+far does a corporate responsibility approach go? (5) Can respon- Necessary: –
+sibility be delegated to the machine? What questions arise in Recommended: Acquisition of the philosophical and economic
+view of the increase in AI in virtually all corporate processes? literature mentioned in the lecture.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language German
+Form of assessment Written exam (60 min)
+Restricted admission no
+Further information Student Portal
+Performing lecturer Dr. Carsten Lotz
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M., MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2, CG 3
+132Module: MAN 550 International Course – Management EN
+Contents Learning outcomes
+Depends on course taken abroad Depends on course taken abroad
+Prerequisites for participation
+Necessary: The level of the course matches that of a regular
+MMM course (level 500 and above). The module can only be tak-
+en while studying abroad and complements the Mannheim cur-
+riculum.
+Recommended: –
+Graded yes
+Language English
+Form of assessment Depends on course taken abroad
+Restricted admission no
+Further information More than one class with this code can be taken; conditions apply, make
+sure to read the respective guidelines.
+Performing lecturer Lecturer at the host university. Course will be assessed when students
+request a learning agreement. Please find details in the „Guidelines for
+learning agreements and course recognition“ in ILIAS > MMM >
+Auslandssemester/Study Abroad Semester. Dozent/in an der
+Gastuniversität. Prüfung der Wertigkeit bei Abschluss eines Learning
+Agreements. Bitte lesen Sie das „Merkblatt zu Learning Agreements und
+Anerkennungen“ ILIAS > MMM > Auslandssemester/Study Abroad
+Semester.
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Bus. Inf., MAKUWI, other Master programs
+(depending on respective study regulations)
+Preliminary course work –
+133Module: ACC/MAN 660 Corporate Sustainability EN
+Strategies and Value Creation
+Contents Learning outcomes
+The sustainability of a company’s business model is an increas- Students gain a solid understanding of the relationship between
+ingly important driver of firm value and, therefore, an essential corporate sustainability objectives, corporate strategy, and firm
+input into the strategy process. This course will teach how sus- value. They develop an economic intuition for the real-world im-
+tainability goals can be integrated into strategy development portance of such an integrated approach to corporate sustain-
+and how this integration creates firm value. Topics include the ability. They also understand how this relationship further inter-
+role of regulation, materiality assessment, sustainability targets, acts with factors such as a company’s regulatory environment, in-
+the development of specific measures and flagship initiatives, ternal target setting, corporate organization and governance.
+and the interaction with corporate organization and governance. They can relate their knowledge to applied business cases.
+The course also offers an introduction to the link between sus-
+tainability strategies and sustainability reporting. Many business Prerequisites for participation
+cases from different industries will illustrate the real-world im- Necessary: –
+pact of the lecture content. Recommended: Bachelor-level knowledge of value-based man-
+agement
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language English
+Form of assessment Written exam (45 min)
+Restricted admission no
+Further information Will be counted towards ACC.
+Examiner Jannis Bischof
+Performing lecturer Dr. Holger Rubel
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M., MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2, CG 3
+134Module: ACC/MAN 661 Corporate Sustainability EN
+Performance: Measurement, Assessment and
+Improvement
+Contents Learning outcomes
+The success of a company’s sustainability strategy critically de- Students gain a comprehensive overview over the measurement
+pends on its ability to monitor and evaluate sustainability perfor- of corporate sustainability performance and understand how to
+mance. This course introduces the most important management measure key metrics, especially in the fields of decarbonization,
+tools to measure and assess sustainability performance, with a circularity, and life cycle assessment in general, but also specifi-
+particular focus on decarbonization, waste and circular economy cally for a variety of industrial businesses. They develop an eco-
+management, and life cycle assessment. Building on these sus- nomic intuition for the real-world application of the metrics and
+tainability performance metrics, the course will also focus on become familiar with typical challenges in their implementation.
+how to turn the insights from performance measurement into They also understand how to interpret the indicators and are
+specific actions, for example, by discussing approaches to reduce able to link their interpretation to suitable actions that lead to
+carbon emissions and increase the circularity of the business performance improvement.
+model. Many business cases from different industries will illus-
+trate the real-world impact of the lecture content, including cas- Prerequisites for participation
+es study exercises and hands-on usage of leading management Necessary: - (from spring 2026: ACC 510 or ACC 520 or ACC 530
+tools. or ACC 540 or ACC 560 or ACC/TAX 570)
+Recommended: ACC 660, Bachelor-level knowledge of sustain-
+ability management and performance measurement
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Case Study Presentation 2 SWS 2 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Case study presentation (25%) and written exam (45 min, 75%)
+Restricted admission no
+Further information Will be counted towards ACC.
+Examiner Jannis Bischof
+Performing lecturer Dr. Holger Rubel
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M., MAKUWI
+Preliminary course work –
+135Program-specific Competency Goals CG 1, CG 2, CG 3
+136Module: ACC/MAN 662 Private Equity: Due Diligence and EN
+Value Creation
+Contents Learning outcomes
+The course aims at exploring Private Equity (PE) as an alternative Participants will be able to distinguish Private Equity from other
+asset class on the rise and will equip the participants with a asset classes. In particular, participants understand how to assess
+sound understanding of its characteristics and mechanics. and create value from potential investments. Overall, this course
+After outlining Private Equity’s role from an asset management will provide participants with practical insights into Private Equi-
+perspective, the course will focus on PE fundamentals (strategy, ty and will equip them with advanced knowledge for a potential
+economics, stakeholders) as well as on detailing the Leverage career in the industry.
+Buy-out value chain including the sourcing strategy, due dili-
+gence, portfolio value creation and exit. There will be a specific Prerequisites for participation
+emphasis on teaching the LBO mechanics, core due diligence Necessary: ACC 510 oder ACC 520 oder ACC 530 oder ACC 540
+techniques and value creation strategies. oder ACC 560 oder ACC/TAX 570
+The course will be complemented by several practical exercises, Recommended: Basic knowledge of Corporate Finance
+in class discussions, as well as guest lectures from professionals
+in the Private Equity Industry.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 6 SWS
+Case Study Presentation 2 SWS 7 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Case study presentation (50%) and written exam (45 min, 50%)
+Restricted admission no
+Further information Will be counted towards ACC.
+Examiner Prof. Dr. Wilhelm Schmundt
+Performing lecturer Dr. Wilhelm Schmundt
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2
+137Module: MAN 608 Business, Society, and the Environment EN
+Contents Learning outcomes
+We are the wealthiest and healthiest generation in the history of Upon successful completion of this course, students
+the planet. Unfortunately, we could also be the last generation
+…are able to describe the impact of business on the environ-
+that enjoys this level of health and wealth. Capitalism is in many
+ment;
+ways responsible for much of our wealth and longevity, but it al-
+…understand the role of policy in governing human and busi-
+so underlines the ecological crisis that we are experiencing.
+ness behaviours;
+While many may regard environmental sustainability as aimed at
+…describe, contrast and recommend different policy instru-
+conservation of nature, it is in reality paramount for the survival
+ments for specific environmental issues;
+of humanity as a species, and ultimately too for the survival of
+…contrast the exposure of different industries to environmen-
+business.
+tal impacts, and vice versa (contrast the impact of different
+How should business react to the impeding ecological crisis that
+industries on the ecological environment);
+we face? What does sustainable and regenerative businesses
+…contrast, apply and recommend sustainability strategies
+look like? What role does business play in shaping an eco-
+based on the profile of a case company or industry.
+friendlier future. This module investigates what people and busi-
+nesses can do to co-create a better world.
+Prerequisites for participation
+Necessary: –
+Recommended: –
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language English
+Form of assessment group presentation (30%)
+written individual assignment (70%)
+Restricted admission yes
+Further information Student Portal
+Please feel free to contact Ms. Christina Paul with any questions about the
+course: christina.paul@uni-mannheim.de
+Examiner Prof. Dr. Karin Hoisl
+Performing lecturer Prof. Jako Volschenk
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2, CG 3
+138Module: MAN 609 Strategic Management between Profit EN
+and Purpose - Insights from Hybrid Organisations
+Contents Learning outcomes
+A core challenge in today’s society is how to balance corpora- Upon successful completion of this course, students are able to…
+tions’ for-profit goals with purpose driven societal and environ-
+define and explain the concept of hybrid organizing in the con-
+mental objectives.
+text of corporate and nonprofit management.
+In this pursuit, this seminar explores the intersection of corporate
+formulate strategic insights into the management of hybrid or-
+and nonprofit management through the lens of hybrid organiz-
+ganizations, considering the unique challenges and opportuni-
+ing. Hybrid organizations are increasingly prevalent in today's
+ties they present.
+complex and interconnected world and are argued to exist in the
+discuss and critically assess the ethical dimensions of hybrid or-
+for-profit as well as in the nonprofit and the public sector. They
+ganizing, considering the impact on various stakeholders.
+combine profit-driven and mission-oriented approaches (incl. so-
+critically evaluate scientific papers on the topic of hybrid orga-
+cietal and environmental responsibilities).
+nizing and beyond, assess the field’s research agenda, and iden-
+In this seminar, students will explore the complexities of blend-
+tify research gaps in this field.
+ing such logics, and will gain insights into the challenges and op-
+portunities of hybrid organizing in diverse sectors. Through the
+examination of scientific papers, students will acquire a solid un- Prerequisites for participation
+derstanding of the fundamental features and principles of hybrid Necessary: –
+organizations. Participants will also gain insights into how hybrid Recommended: Completion of the introductory course MAN
+organizing has evolved as a research field. In addition to the sci- 679 “Eine wissenschaftliche Einführung in das Public & Nonrofit
+entific perspective, the course will cover real-world examples of Management”
+hybrid organizations and critically discuss their impact and po-
+tential challenges.
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language English
+Form of assessment Presentation: 50%
+Written exam (60 min): 50%
+Restricted admission yes
+Further information Website of the Chair of Prof. Helmig, Student Portal
+Examiner Dr. Moritz Motyka
+Performing lecturer Dr. Moritz Motyka
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M., MAKUWI
+Preliminary course work –
+139Program-specific Competency Goals CG 1, CG 2, CG 3, CG 4
+140Module: MAN 626 Entrepreneurship and Innovation - EN
+Enhancing Access to Capital via Crowdfunding
+Contents The learned skills allow entrepreneurs to successfully enter the
+Today’s economic landscape is strongly influenced by highly in- market with their own businesses, but also enable “corporate en-
+novative ventures. This development is driven by rapid techno- trepreneurs” to support existing firms in developing new prod-
+logical change and digitization. This implies that existing firms, ucts, services, and innovation strategies helping them to stay
+large and small, family-owned or widely held, as well as new or ahead of competition. The module is thereby suitable for individ-
+established will need to entrepreneurially adapt their businesses uals thriving to engage in either innovative intrapreneurial think-
+and manage innovation processes. Hence, these entrepreneurial ing within existing companies or in setting up their own en-
+and intrapreneurial skills combined with the state of the art in in- trepreneurial ventures. After the course, students will:
+novation management and an understanding of digital business • Understand the fundamentals of entrepreneurship, crowdfund-
+are seen as key competencies of entrepreneurs but also (future) ing, and innovation
+top level executives in today’s fast-moving, networked business • Gain insights into the German entrepreneurship landscape
+world. Therefore, the focus of this course is to supply students • Discuss the impacts of digitalization on innovation and en-
+with a deep understanding of the theoretical foundations of en- trepreneurship
+trepreneurship and practical tools to create ideas and start their • Learn tools to generate and develop business ideas
+own business in the digital age. Light is also shed on digital forms • Be able to design and iterate business models based on the
+of entrepreneurship, especially crowdfunding and crowd interac- ideas to fill a lucrative niche
+tion, competitive positioning and advantage in entrepreneurial • Acquire a deep understanding of how to develop a business
+firms, and strategic dimensions of recent developments in the plan for acquiring (crowd-)funding
+market such as digitalization and their implications for new ven- • Gain practical experience by applying the learnings to their own
+tures, family firms, and business models. business idea and pitch
+Students will have the chance to understand and train these • Learn which objective criteria constitute a great pitch given stiff
+tools and topics while developing and presenting their own busi- competition
+ness idea in a team. The course will be a markedly international in nature with partici-
+pants joining from the international partner universities as it is
+Learning outcomes part of the MBS Summer School. The course is scheduled as a
+Students will not only learn the theoretical foundations of en- one-week block course at the end of June.
+trepreneurship, crowdfunding, crowd interaction, and innova-
+tion management, but they will also learn practical approaches Prerequisites for participation
+and tools. They will have the chance to apply these learnings for Necessary: not taken MAN 634
+developing and pitching their own business ideas hands-on, with Recommended: A basic understanding of business foundations
+a focus on a digital and crowdfunded environment. is helpful.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 4 SWS
+ECTS credits 3
+Graded yes
+Workload 90h
+Language English
+Form of assessment Video presentation (75%, 4 videos), pitch presentation (12,5%), campaign &
+business plan (12,5% )
+Restricted admission yes
+Further information You have to apply separately to the Mannheim Business School for this
+course. A list of the required application documents, the application
+deadline and further details can be found at the following link. Please read
+the information carefully:
+Website of the Mannheim Business School
+141Examiner PD Dr. habil. Jan-Philipp Ahrens
+Performing lecturer Dr. Jan-Philipp Ahrens, Dr. Andrew Isaak, Dr. Baris
+Istipliler, Dr. Kateryna Nekit
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 3
+142Module: MAN 630 Introduction to Entrepreneurship EN
+Contents Side note on choosing MAN 630 vs. alternatives:
+University of Mannheim alumni founders, such as Lea-Sophie You should choose MAN 630 if you...
+Cramer (Amorelie), David Handlos and Florian Barth (Stocard),
+are interested in combining insights from lectures with read-
+Alexander Rittweger (Payback) and Rupprecht Rittweger (e-shel-
+ings at home and with insights gained from speakers in
+ter), are examples of successful entrepreneurs who have pursued
+Startup Lounges, Founder Talks and in class to maximize
+new business opportunities in a way which is innovative, path-
+your learning
+breaking and contributing to growth and employment genera-
+are interested in startups and entrepreneurship in general
+tion.
+and want to gain a top-level view on both entrepreneurship
+But who is a typical entrepreneur? How well does the typical
+in theory and practice.
+startup perform? Is there such a thing as the typical entrepreneur
+like the practical world but do not want to lose sight of the
+or the typical startup? Why do people start businesses? Is every
+underlying academic foundations.
+young business a startup? What characteristics do entrepreneurs
+love aiming for the big picture and love discussing topics of
+have? How do entrepreneurs finance their start-up? What is the
+interest from a variety of angles.
+role of networks for launching and running new businesses?
+do not like courses based on keywords and phrases to learn
+These are some of the questions that we will discuss in MAN 630
+but on concepts to put into perspective and forming your
+Introduction to Entrepreneurship. We will discuss in lecture set-
+own sophisticated line of argumentation.
+tings and have 3 to 4 additional case study sessions in which stu-
+dent teams will present their solutions and advice to startup You should, however, not choose MAN 630 if you...
+challenges. Theories presented will be combined with real-life
+expect this to be a multiple-choice-style course of memoriz-
+cases. Additionally, guest speakers (i.e., entrepreneurs and/or
+ing material and then jotting buzzwords down on the exam.
+academics) may come to class to shed light on specific topics of
+Our interactive style of teaching and a wealth of readings
+interest or how they have overcome challenges.
+will get you frustrated – focus is set on understanding con-
+Beware of the following upsides and downsides: The course is
+cepts rather than memorizing them.
+tons of fun and highly rewarding but challenging and demand-
+expect teaching staff to tell you what to learn and what to
+ing in terms of its self-study elements and the case study team ef-
+forget – this is up to you (see point above).
+forts. If your expectation is a class with lectures to randomly at-
+want to develop or advance your own startup project in
+tend, this might not be your first choice.
+class. Apply for MCEI course MAN 631.
+What you can expect from us is a fun and rewarding atmosphere
+in class paired with optional Founder Talks and Startup Lounges
+(evening events) throughout the semester to get in touch with
+lots of role models, business models and a fair chance to develop Learning outcomes
+your networks. Overall, you can expect a perfect introduction to By the end of this course, students will have gained fundamental
+central theories in entrepreneurship and the Startup Ecosystem perspectives in theoretical and practical entrepreneurial mecha-
+at and around the University of Mannheim and beyond. nisms. They will gain experience with case studies.
+Prerequisites for participation
+Necessary: –
+Recommended: –
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 10 SWS
+Exercise class 1 SWS 4 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (60 min, 50%), presentations (40%), peer evaluation (10%)
+Restricted admission no
+143Further information https://www.mcei.de/teaching
+Examiner Prof. Dr. Michael Woywode
+Performing lecturer Prof. Dr. Michael Woywode, Nora Zybura, Dr. Bettina
+Müller
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M., MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2, CG 4
+144

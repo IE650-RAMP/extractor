@@ -1,0 +1,27 @@
+A. Overview
+ECTS
+Data Science Fundamentals Four “Data Science Fundamentals” with 27 ECTS 27
+Data Management Minimum of one “Data Management” course 6-24
+Minimum of two “Data Analytics Methods” courses with at
+Data Analytics Methods 12-36
+least 12 ECTS
+Responsible Data Science Minimum of one “Responsible Data Science” course 3 – 7
+Data Science Applications Up to 12 ECTS in elective courses 0-12
+Team Project or Individual Project, Scientific Research and
+Projects and Seminars 14-18
+Seminars
+Master Thesis Six-months-long written academic assignment 30
+Total 120
+Abbreviations:
+HWS (Herbst-/Wintersemester): Course is offered in the respective Fall semester.
+FSS (Frühjahrs-/Sommersemester): Course is offered in the respective Spring semester.
+FSS/HWS: course is offered both in Spring semester and Fall semester.
+4B. Data Science Fundamentals
+1. Overview
+Module no. Name of Module Offered ECTS Page
+CS 560 Large Scale Data Management HWS 6 6
+IE 500 Data Mining HWS/FSS 6 8
+IE 675b Machine Learning HWS 9 10
+CS 652 Data Security and Privacy FSS* 6 12
+*in FSS25 this course will be offered as hybrid-course.
+5

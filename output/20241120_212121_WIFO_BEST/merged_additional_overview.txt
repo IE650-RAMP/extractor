@@ -1,0 +1,247 @@
+Master of Science (M.Sc.)
+”Business Informatics“
+University of Mannheim
+Module catalog
+– –
+Academic Year
+HWS 2024/ FSS 2025
+1Content
+Foreword ................................................................................................................................................. 3
+Part 1: M.Sc. Business Informatics .......................................................................................................... 4
+A. Overview .................................................................................................................................... 4
+B. Fundamentals ............................................................................................................................. 5
+1. Overview ................................................................................................................................ 5
+2. Detailed descriptions ............................................................................................................. 6
+C. Specialization Courses .............................................................................................................. 22
+1. Overview .............................................................................................................................. 22
+2. Detailed descriptions ........................................................................................................... 25
+D. Projects and Seminars .............................................................................................................. 81
+1. Overview .............................................................................................................................. 81
+2. Detailed Descriptions ........................................................................................................... 83
+E. Master Thesis ......................................................................................................................... 121
+Part 2: Abbreviations ........................................................................................................................... 123
+2
+
+Part 1: M.Sc. Business Informatics
+A. Overview
+ECTS
+Fundamentals
+Three „Computer Science Fundamentals“ courses 18
+Computer Science
+Fundamentals Courses from the module catalog of the “Mannheim 18 (at
+Business Administration Master in Management” least)
+Specialization Courses Specialization Courses 36
+Projects and Seminars Team Project, Scientific Research and Seminars 18
+Master’s Thesis Six-month-long written academic assignment 30
+Total 120
+Abbreviations:
+HWS (Herbst-/Wintersemester): Course is offered in the respective Fall semester
+FSS (Frühjahrs-/Sommersemester): Course is offered in the respective Spring semester
+FSS/HWS: Course is offered both in Spring semester and Fall semester
+Please note: the module descriptions of all IS courses can be found in the module catalog of the
+“Mannheim Master in Management” which can be found here:
+https://www.bwl.uni-mannheim.de/studium/master/mmm/#c176637
+General constraints:
+See Examination Regulations on the website of the Student Services (Studienbüros):
+https://www.uni-mannheim.de/en/academics/during-your-studies/examinations/examination-
+regulations/
+4B. Fundamentals
+1. Overview
+i. Fundamentals Computer Science
+Module
+Name of Module Offered Language ECTS Page
+no.
+CS 500 Advanced Software Engineering HWS E 6 6
+CS 530 Database Systems II FSS D 6 8
+CS 550 Algorithmics FSS E 6 10
+CS 560 Large-Scale Data Management HWS E 6 13
+CS 652 Data Security and Privacy FSS* E 6 15
+IE 500 Data Mining FSS/HWS E 6 17
+IE 560 Decision Support HWS E 6 19
+*in FSS25 this course will be offered as hybrid-course
+ii. Fundamentals Business Administration
+All 5XX and 6XX courses from the following areas:
+• Accounting and Taxation (ACC, TAX)
+• Banking, Finance and Insurance (FIN)
+• Management (MAN)
+• Marketing (MKT)
+• Operations Management (OPM)
+They are listed in the module catalog of the “Mannheim Master in Management”:
+https://www.bwl.uni-mannheim.de/studium/master/mmm/#c176637
+5
+
+ii. Fundamentals Business Administration
+All 5XX and 6XX courses from the following areas:
+• Accounting and Taxation (ACC, TAX)
+• Banking, Finance and Insurance (FIN)
+• Management (MAN)
+• Marketing (MKT)
+• Operations Management (OPM)
+They are listed in the module catalog of the “Mannheim Master in Management”:
+https://www.bwl.uni-mannheim.de/studium/master/mmm/#c176637
+21C. Specialization Courses
+1. Overview
+i. CS-Courses
+Module
+Name of Module Offered Language ECTS Page
+no.
+CS 600 Model Driven Development HWS E 6 25
+CS 646 Higher Level Computer Vision HWS E 6 27
+CS 647 Image Processing HWS/FSS E 6 29
+CS 651 Cryptography II HWS E 6 31
+CS 655 Cryptography FSS E 6 33
+CS 662 Types and Programming Languages FSS E 6 35
+CS 664 Blockchain Security HWS E 6 37
+CS 668 Generative Computer Vision Models FSS E 6 39
+CS 630 Generative Software Engineering FSS E 6 41
+ii. IE-Courses
+Module
+Name of Module Offered Language ECTS Page
+no.
+IE 630 Query Optimization FSS D 6 43
+IE 663 Information Retrieval and Web Search HWS E 3 45
+IE 670 Web Data Integration HWS E 3 47
+IE 671 Web Mining FSS E 3 49
+IE 675b Machine Learning HWS E 9 51
+IE 678 Deep Learning FFS E 6 53
+IE 692 Advanced Process Mining* FSS E 6 55
+IE 683 Web Data Integration Project HWS E 3 58
+IE 684 Web Mining Project FSS E 3 60
+IE 686 Large Language Models and Agents HWS E 3 62
+IE 691 Information Retrieval Project HWS E 3 65
+Artificial Intelligence Applications in
+IE 694 FFS E 6 67
+Industry
+IE 696 Advanced Methods in Text Analytics FSS E 6 69
+22Foundations and Applications of
+IE 698 FSS E 3 71
+Digital Health Technologies
+Co-creating digital health applications
+IE 699 FSS E 6 73
+with design methodolgy
+*NOT offered in FSS 2025! The number of this module will change (TBA). For an updated description, please
+see the module catalog of the MMM: Mannheim Master in Management https://www.bwl.uni-
+mannheim.de/studium/master/mmm/#c176637
+iii. IS-Courses
+Module
+Name of Module Offered Language ECTS Page
+no.
+IS 512 IT Management in the Digital Age MMM* E 6 MMM*
+Applied IT Management in the Digital
+IS 513 MMM* E 6 MMM*
+Age
+IS 515 Process Management & Analytics MMM* E 6 MMM*
+IS 540 Management of Enterprise Systems MMM* E 6 MMM*
+Methods and Theories in Information
+IS 541 MMM* E 6 MMM*
+Systems (ManTIS)
+IS 556 Public Blockchains MMM* E 6 MMM*
+IS 607 Digital Innovation MMM* E 6 MMM*
+Applied Project in Design Thinking and
+IS 613 MMM* E 6 MMM*
+Lean Software Development
+IS 614 Corporate Knowledge Management MMM* E 6 MMM*
+Design Thinking and Lean
+IS 615 Development in Enterprise Software MMM* E 6 MMM*
+Development
+Large Scale Data Analysis and
+IS 616 MMM* E 6 MMM*
+Visualization
+IS 622** Network Science MMM* E 6 MMM*
+IS 628 Advances in Public Blockchains MMM* E 6 MMM*
+Agile Software Product Management
+IS 629 MMM* E 6 MMM*
+and Design
+IS 661 Text Analytics MMM* E 6 MMM*
+* For a detailed description please use the module catalog of the „Mannheim Master in Management“:
+https://www.bwl.uni-mannheim.de/en/programs/master/mmm/module-catalogs-2011-2020/
+** Prerequisite: No completed exam in IE 676
+23iv. International Courses & other Specialization Courses
+Module
+Name of Module Offered Language ECTS Page
+no.
+max.
+BI 656 International Course - - 76
+18
+MAB 519 Reinforcement Learning Spring E 10 (ab 77
+FSS 24)
+MAC 570 Reinforcement Learning - Coding HWS E 5 77
+Responsible AI: Conceptual
+DS 203 Foundations, Methods and HWS E 6 79
+Applications
+MAC 404 Lineare Optimierung HWS D 8 81
+*For a detailed description, please see the module catalog of the respective following degree programs M.Sc.
+Wima and M.Sc. Mathematik:
+https://www.wim.uni-mannheim.de/studium/studienorganisation/m-sc-wirtschaftsmathematik/#c109976
+24
+
+MAC 404 Lineare Optimierung
+For a detailed description please use the module catalog of the following degree programs
+B.Sc. WiMa
+https://www.wim.uni-mannheim.de/studium/studienorganisation/b-sc-
+wirtschaftsmathematik/
+D. Projects and Seminars
+1. Overview
+i. Team Project
+Module
+Name of Module Offered Language ECTS Page
+no.
+TP 500 Team Project HWS/FSS E 12 83
+ii. Scientific Research
+Module
+Name of Module Offered Language ECTS Page
+no.
+SQ 500 Scientific Research HWS/FSS E 2 86
+iii. Seminar
+Module
+Name of Module Offered Language ECTS Page
+no.
+Selected Topics in Algorithmics and
+CS 701 Irregular E 4 88
+Cryptography
+CS 704 Master Seminar Artificial Intelligence Irregular E 4 90
+Hot Topics in Machine Learning
+CS 707 Irregular E 4 92
+Seminar
+Seminar Software Engineering – Prof.
+CS 708 Irregular E 4 94
+Atkinson
+CS 709 Seminar Text Analytics Irregular G/E 4 96
+CS 710 Selected Topics in Data Science Irregular G/E 4 98
+CS 715 Large-Scale Data Integration Seminar Irregular E 4 100
+CS 716 IT-Security Irregular E 4 102
+CS 717 Master Seminar on Computer Vision HWS/FSS E 4 104
+81CS 720 Uncertainty Estimation Irregular E 4 106
+CS 721 Seminar Data-Science I Irregular E 4 108
+CS 722 Seminar Ethical Aspects of Al Irregular E 4 110
+Advanced Implementation Techniques
+CS 730 Irregular E 4 112
+for Database Systems
+CS 731 Database Theory Irregular E 4 114
+IE 704 Seminar AI Systems Engineering Irregular E 4 116
+Contemporary Issues in Information
+IS 712 Irregular E 4 118
+Systems Research
+Seminar Context - Aware and
+IS 722 MMM* E 4 MMM*
+Distributed Systems
+IS 742 Seminar Trends in Enterprise Systems MMM* E 4 MMM*
+E-Government Adoption and Societal
+IS 751 MMM* E 4 MMM*
+Change
+Seminar on Process and Management
+IS 752 MMM* E 4 MMM*
+Analytics
+* For a detailed description please use the module catalog of the „Mannheim Master in Management“:
+https://www.bwl.uni-mannheim.de/studium/master/mmm/#c176637
+82
+
+IS 722 Seminar Context-Aware and Distributed Systems
+IS 742 Seminar Trends in Enterprise Systems
+IS 751 E-Government Adoption and Societal Change
+IS 752 Seminar on Process and Management Analytics
+For a detailed description please use the module catalog of the „Mannheim Master in
+Management”:
+https://www.bwl.uni-mannheim.de/studium/master/mmm/#c176637
+120
+

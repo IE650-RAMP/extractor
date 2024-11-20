@@ -1,0 +1,669 @@
+Module: ACC/TAX 570 ESG Regulation and Sustainability EN
+Reporting
+Contents Learning outcomes
+Environmental, social, and governance (ESG) factors are increas- Students have developed an economic intuition for the theoreti-
+ingly important for the long-run performance of companies and cal foundations of targeted disclosure regulation. Specifically,
+their sustainability management. Therefore, the reporting on they understand how public reporting requirements can support
+these factors has gained attention from many private and public regulatory objectives with regard to ESG factors and they know
+initiatives worldwide and recent regulations (such as the CSRD in institutional details of how ESG regulation in the corporate sector
+the European Union) require disclosures of companies’ ESG per- contributes to these objectives. They can relate their knowledge
+formance. Managers respond to the pressure by regulators and to applied cases on topics such as decarbonization and fair taxa-
+stakeholders by increasingly incorporating the measurement and tion.
+monitoring of ESG targets in their internal performance evalua-
+tion. This course is introducing the theoretical foundations, the Prerequisites for participation
+regulatory framework as well as trends in current management Necessary: –
+practice of ESG reporting. Particular emphasis is laid on carbon Recommended: Bachelor-level knowledge of accounting and
+disclosures and tax transparency. taxation
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Case Study Presentation 1 SWS 5 SWS
+Exercise class 2 SWS 4 SWS
+ECTS credits 8
+Graded yes
+Workload 240h
+Language English
+Form of assessment Case study presentation (25%) and written exam (90 min, 75%)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Jannis Bischof, Prof. Dr. Holger Daske, Prof. Dr. Philip
+Doerrenberg, Prof. Stefan Reichelstein, Ph.D.
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M., MAKUWI
+Preliminary course work –
+41Program-specific Competency Goals CG 1, CG 2
+42Module: TAX 520 Taxation of Companies DE
+Contents Learning outcomes
+Basics of the periodic and non-periodic taxation of German Students become acquainted with the taxation of German
+companies depending on the legal form. companies of various legal forms.
+Calculation of the tax burden of different legal forms includ- Students are able to calculate the tax burden of profits and
+ing combinations of standard legal forms (e.g. “GmbH & Co. shareholder compensation payments depending on the le-
+KG”, so-called “Betriebsaufspaltung”). gal form.
+Elaboration of the determinants of the tax burden of compa- Moreover, students are able to comment on the tax-optimal
+nies. choice of legal form.
+Prerequisites for participation
+Necessary: –
+Recommended: Basic knowledge of company taxation
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Case Study Presentation 2 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language German
+Form of assessment Written exam (90 min, 70%), group case studies (three to four students,
+30%)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Christoph Spengel
+Performing lecturer Prof. Dr. Christoph Spengel
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M., MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1
+43Module: TAX 521 Specialisation in Company Taxation DE
+Contents Learning outcomes
+Tax planning for partnerships The students study in detail specific rules which are particu-
+Tax planning for corporations larly important for the tax planning of partnerships and cor-
+Real estate transfer tax porations.
+Changes of corporate form The students learn to optimize business structuring for tax
+Reorganizations, business acquisitions purposes.
+Particular attention is paid to business reorganizations and
+the development of efficientt tax solutions.
+Prerequisites for participation
+Necessary: –
+Recommended: Basic knowledge of company taxation
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language German
+Form of assessment Written exam (45 min)
+Restricted admission no
+Further information https://www.bwl.uni-mannheim.de/en/doerrenberg/
+Examiner Prof. Dr. Philipp Dörrenberg
+Performing lecturer Prof. Dr. Matthias Rogall
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M.
+Preliminary course work –
+Program-specific Competency Goals CG 1
+44Module: TAX 530 Taxation of Businesses and Individuals EN
+Contents Learning outcomes
+Basic principles of taxation, personal income tax, corporate Students will know the basic principles of different types of
+income tax, local profit taxes and non-profit taxes (e.g., net taxes and understand the structure of these taxes (the lec-
+wealth tax, real estate tax) ture focuses on the tax systems in the EU member states and
+Comparative taxation of transparent entities (sole propri- the US).
+etors and partnerships) and separate entities (corporations Students will understand the relevance and consequences
+and their shareholders) of the transparency principle and the corporation principle
+Determination of taxable profits and relation between tax and assess the tax burden on profits as well as on sharehold-
+accounting and financial accounting er compensations dependent on the legal form of the busi-
+Gift and inheritance taxes, value added tax ness.
+Most notably, students will understand how taxes influence
+business decisions and evaluate tax planning opportunities
+created by business tax law.
+Prerequisites for participation
+Necessary: –
+Recommended: Basic knowledge of financial accounting
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Exercise class 2 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min, 70%), individual written assignment and group
+presentation (30%)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Christoph Spengel
+Performing lecturer Prof. Dr. Christoph Spengel
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M., MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2
+45Module: ACC 620 Accounting for Financial Instruments EN
+and Financial Institutions
+Contents Learning outcomes
+The course addresses in-depth the accounting for financial in- The course aims at developing the skills to understand, apply, an-
+struments and by financial institutions under IFRS as well as relat- alyze and critically evaluate accounting standards in the complex
+ed conceptual issues currently discussed by standard setters and field of accounting for financial instruments and financial institu-
+bank regulators. It covers the definition of financial instruments, tions. Students will get an in-depth understanding of the current
+their classification, initial and subsequent measurement, impair- IFRS accounting rules, in particular the comprehensive IFRS 9,
+ment, derecognition, as well as their accounting in the context of and understand the underlying conceptual discussions sur-
+hedging transactions. We also discuss relevant notes disclosures rounding their development. Overall, students will gain a deep
+in example banks’ financial statements and links to capital regu- and profound understanding of these advanced topics of finan-
+lation. cial accounting.
+Prerequisites for participation
+Necessary: –
+Recommended: –
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Exercise class 2 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Holger Daske
+Performing lecturer Prof. Dr. Holger Daske
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M.
+Preliminary course work –
+Program-specific Competency Goals CG 1
+46Module: ACC 670 Audit Theory EN
+Contents Learning outcomes
+Why is there a need for auditing? How are audits priced? How do Students are familiar with the purpose and the scope of an inde-
+(different) auditor liability rules affect audit quality? These ques- pendent audit. They realize that audfiting does not only mitigate
+tions are raised frequently in light of the Wirecard scandal and agency conflicts, but is also a potential source for such frictions.
+the regulatory actions that just recently followed. This course ad- Furthermore, students know how the auditor strategically inter-
+dresses these (and other) questions by analyzing the auditor- acts in game theoretic settings. They are aware of the influence
+client relationship as well as the market structure of the auditing of regulatory changes on the auditing profession and the re-
+profession. The analysis is based on theoretical models that use sponses of audit firms to these changes.
+game theory. For that purpose, auditors are perceived as strate-
+gic players that rationally interact with their various stakeholders. Prerequisites for participation
+Necessary: Not taken ACC 671
+Recommended: Preparation of the literature that will be provid-
+ed for self-study
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Exercise class 1 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (60 min) or oral exam (30 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Dirk Simons
+Performing lecturer Prof. Dr. Dirk Simons, Dr. Sebastian Kronenberger
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M.
+Preliminary course work –
+47Module: ACC 676 Case Studies on Consulting in Financial EN
+Services Firms
+Contents Learning outcomes
+In this course, offered jointly with KPMG, current topics from the Participants are able to discuss and solve complex problems of
+frontier between financial accounting, consulting, risk manage- high practical relevance at the interface of capital markets, finan-
+ment, regulatory law and capital markets with a focus on the fi- cial accounting and auditing. Students know the area of tension
+nancial services sector will be covered. The participants will form between academic case solutions and those related to practice
+groups of three to four students and discuss problem areas of and are able to develop solutions according to both aspects. The
+high practical relevance using both practice-oriented and aca- consulting report corresponds to standards required by the busi-
+demic approaches. Results will be summarized in a consulting re- ness practice and is academically founded.
+port and presented in a final results presentation.
+Prerequisites for participation
+Necessary: ACC 510 or ACC 520 or ACC 530 or ACC 540 or
+ACC/TAX 570 or ACC 560 , not taken ACC 627
+Recommended: –
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language English
+Form of assessment Written consulting report (50%) and in-class presentation (50%)
+Restricted admission yes
+Further information Website of the Chair
+Examiner WP Dipl.-Kfm. Gero Wiechens
+Performing lecturer WP Dipl.-Kfm. Gero Wiechens
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2
+48Module: ACC 680 Disclosure Theory EN
+Contents Learning outcomes
+The aim of this seminar-style course is to provide students with Students know the fundamental literature of disclosure theory.
+insights into analytical disclosure theory, one important stream They understand the unraveling principle, its assumptions, and
+of literature in accounting research. The course provides an consequences for the disclosure behavior of firms. Furthermore,
+overview into the various determinants that shape firms’ report- students are able to assess and discuss the setting, basic assump-
+ing decisions. The structure of the course follows along the evo- tions, and mechanisms of analytical disclosure models. Partici-
+lution of research in disclosure theory: In his famous paper about pants are able to formulate constructive criticism of disclosure
+the “Market for Lemons”, Akerlof (1970) predicts a collapse of models and to defend them.
+markets as the result of information asymmetries between sellers
+and buyers. Building on that, Grossman and Hart (1980) set out Prerequisites for participation
+the unraveling principle, describing that sellers (or firms) have a Necessary: Not taken ACC 675
+vested interest in establishing information symmetry to distin- Recommended: Basic knowledge in game theory, preparation of
+guish themselves from the anonymous, silent mass. These papers provided literature
+provide a basis for a comprehensive literature stream that ana-
+lyzes the emergence of disclosure equilibria in various settings.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Exercise class 1 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written Report (50%), presentation (50%)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Dirk Simons
+Performing lecturer Prof. Dr. Dirk Simons
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M.
+Preliminary course work –
+Program-specific Competency Goals CG 2, CG 4
+49Module: ACC/MAN 660 Corporate Sustainability EN
+Strategies and Value Creation
+Contents Learning outcomes
+The sustainability of a company’s business model is an increas- Students gain a solid understanding of the relationship between
+ingly important driver of firm value and, therefore, an essential corporate sustainability objectives, corporate strategy, and firm
+input into the strategy process. This course will teach how sus- value. They develop an economic intuition for the real-world im-
+tainability goals can be integrated into strategy development portance of such an integrated approach to corporate sustain-
+and how this integration creates firm value. Topics include the ability. They also understand how this relationship further inter-
+role of regulation, materiality assessment, sustainability targets, acts with factors such as a company’s regulatory environment, in-
+the development of specific measures and flagship initiatives, ternal target setting, corporate organization and governance.
+and the interaction with corporate organization and governance. They can relate their knowledge to applied business cases.
+The course also offers an introduction to the link between sus-
+tainability strategies and sustainability reporting. Many business Prerequisites for participation
+cases from different industries will illustrate the real-world im- Necessary: –
+pact of the lecture content. Recommended: Bachelor-level knowledge of value-based man-
+agement
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language English
+Form of assessment Written exam (45 min)
+Restricted admission no
+Further information Will be counted towards ACC.
+Examiner Jannis Bischof
+Performing lecturer Dr. Holger Rubel
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M., MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2, CG 3
+50Module: ACC/MAN 661 Corporate Sustainability EN
+Performance: Measurement, Assessment and
+Improvement
+Contents Learning outcomes
+The success of a company’s sustainability strategy critically de- Students gain a comprehensive overview over the measurement
+pends on its ability to monitor and evaluate sustainability perfor- of corporate sustainability performance and understand how to
+mance. This course introduces the most important management measure key metrics, especially in the fields of decarbonization,
+tools to measure and assess sustainability performance, with a circularity, and life cycle assessment in general, but also specifi-
+particular focus on decarbonization, waste and circular economy cally for a variety of industrial businesses. They develop an eco-
+management, and life cycle assessment. Building on these sus- nomic intuition for the real-world application of the metrics and
+tainability performance metrics, the course will also focus on become familiar with typical challenges in their implementation.
+how to turn the insights from performance measurement into They also understand how to interpret the indicators and are
+specific actions, for example, by discussing approaches to reduce able to link their interpretation to suitable actions that lead to
+carbon emissions and increase the circularity of the business performance improvement.
+model. Many business cases from different industries will illus-
+trate the real-world impact of the lecture content, including cas- Prerequisites for participation
+es study exercises and hands-on usage of leading management Necessary: - (from spring 2026: ACC 510 or ACC 520 or ACC 530
+tools. or ACC 540 or ACC 560 or ACC/TAX 570)
+Recommended: ACC 660, Bachelor-level knowledge of sustain-
+ability management and performance measurement
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Case Study Presentation 2 SWS 2 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Case study presentation (25%) and written exam (45 min, 75%)
+Restricted admission no
+Further information Will be counted towards ACC.
+Examiner Jannis Bischof
+Performing lecturer Dr. Holger Rubel
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M., MAKUWI
+Preliminary course work –
+51Program-specific Competency Goals CG 1, CG 2, CG 3
+52Module: ACC/MAN 662 Private Equity: Due Diligence and EN
+Value Creation
+Contents Learning outcomes
+The course aims at exploring Private Equity (PE) as an alternative Participants will be able to distinguish Private Equity from other
+asset class on the rise and will equip the participants with a asset classes. In particular, participants understand how to assess
+sound understanding of its characteristics and mechanics. and create value from potential investments. Overall, this course
+After outlining Private Equity’s role from an asset management will provide participants with practical insights into Private Equi-
+perspective, the course will focus on PE fundamentals (strategy, ty and will equip them with advanced knowledge for a potential
+economics, stakeholders) as well as on detailing the Leverage career in the industry.
+Buy-out value chain including the sourcing strategy, due dili-
+gence, portfolio value creation and exit. There will be a specific Prerequisites for participation
+emphasis on teaching the LBO mechanics, core due diligence Necessary: ACC 510 oder ACC 520 oder ACC 530 oder ACC 540
+techniques and value creation strategies. oder ACC 560 oder ACC/TAX 570
+The course will be complemented by several practical exercises, Recommended: Basic knowledge of Corporate Finance
+in class discussions, as well as guest lectures from professionals
+in the Private Equity Industry.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 6 SWS
+Case Study Presentation 2 SWS 7 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Case study presentation (50%) and written exam (45 min, 50%)
+Restricted admission no
+Further information Will be counted towards ACC.
+Examiner Prof. Dr. Wilhelm Schmundt
+Performing lecturer Dr. Wilhelm Schmundt
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2
+53Module: TAX 611 Case Studies in International Company DE
+Taxation
+Contents Learning outcomes
+Students
+Basic principles of international tax law
+Taxation of foreign investors with domestic activities (in- understand the importance of international tax planning in a
+bound investments) multinational corporation (use of tax opportunities, mini-
+Taxation of domestic investors with foreign activities (out- mization of individual tax risk, improvement of the overall
+bound investments) tax situation),
+Special issues concerning multinational companies practice the use of domestic and foreign tax rules on the ba-
+Recent trends in international tax law – current fiscal policy sis of case studies and are able to evaluate interdependen-
+and current tax planning issues cies of tax effects and their relation to non-tax drivers,
+and learn proactive handling of cross-border tax law.
+Prerequisites for participation
+Necessary: –
+Recommended: Knowledge of contents of Module TAX 520 or
+Module TAX 530
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language German
+Form of assessment Written exam (45 min)
+Restricted admission no
+Further information –
+Examiner StB Prof. Dr. Stefan Brunsbach
+Performing lecturer Prof. Dr. Stefan Brunsbach
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2
+54Module: TAX 620 Causal Data Science for Business EN
+Decision Making
+Contents The course is generally suited for students with and without prior
+Most practical managerial decisions and discussions in the busi- knowledge of, or particular interest in, taxation: Examples will be
+ness sciences evolve around questions such as “What happens to from taxation, but the taught methods and empirical applica-
+Y if we change X?”, “Is the new business strategy X the reason for tions generalize beyond tax topics.
+increases in revenue Y?”, or “Is the change that we see in Y caused In line with the objectives of the class, one part of the course fo-
+by changes in X or is the change in Y driven by coincidence or cuses on hands-on empirical applications and students learn
+some other factor?”. In other words, both practical decision-mak- how to conduct their own empirical analysis. For this purpose,
+ing and academic research on business decisions require knowl- students are introduced to the usage of a statistical software
+edge about cause and effect. However, identifying causalities is package (R or Stata) and to the access and analysis of large data
+usually not straightforward. For example, if a manager imple- sets (in particular firm databases sets such as Compustat). The in-
+ments some new tax-planning strategy and the firm’s profit in- troduction to software R starts from scratch and no prior knowl-
+creases in the subsequent year, it is not clear if the new strategy edge is necessary.
+was the cause for increased profits or if profits would have in- The other part of the course teaches the concept of causality and
+creased even in the absence of the new strategy. That is, the cor- the most important methods to estimate causal effects. These in-
+relation between the new strategy and subsequent profits does clude randomized experiments, linear regression, difference-in-
+not necessarily reflect a causal effect. A serious evaluation of the differences, instrumental variables, and regression discontinuity
+new business strategy will, however, need to identify if the design. The focus is on an intuitive understanding of the advan-
+change in profits was indeed caused by the new strategy. tages and disadvantages of the available methods, and less on a
+Such an analysis of causal effects requires knowledge of both highly technical presentation.
+practical data analysis (using statistical software) and methods To receive a grade, students are required to conduct an indepen-
+and strategies to identify causal effects. This course equips stu- dent empirical project using statistical software and real-world
+dents with the skills related to both these components: it pro- data (either an own research idea or a replication of an existing
+vides i) an introduction to causality and an overview of the most research paper).
+important methods and approaches for causal inference, and ii) a
+hands-on practical introduction to data analysis. Learning outcomes
+Overall, students learn how to apply the most important meth-
+Hands-on practice of empirical analysis using statistical soft-
+ods and how to use statistical software (including coding and the
+ware and data.
+handling of “big data” and common business data bases) in the
+Overview of most important methods and approaches for
+context of empirical work. In general, these skills are very valu-
+applied causal inference.
+able for work both in industry and academia.
+Prerequisites for participation
+Necessary: –
+Recommended: Introductory classes in statistics and/or econo-
+metrics at Bachelor level are advantageous.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 4 SWS 10 SWS
+ECTS credits 8
+Graded yes
+Workload 240h
+Language English
+Form of assessment Presentation of a database (15%), presentation of empirical project (45%),
+report about empirical project (40%)
+Restricted admission no
+Further information https://www.bwl.uni-mannheim.de/en/doerrenberg/
+55Examiner Prof. Dr. Philipp Dörrenberg, Prof. Dr. Johannes Voget
+Performing lecturer Prof. Dr. Philipp Dörrenberg Prof. Dr. Johannes Voget
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M., MMM
+Business Research Program
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+56Module: TAX 630 International Business Taxation EN
+Contents Learning outcomes
+Students know the basics of international taxation (national tax
+Basics of international business taxation
+law, double taxation conventions, primary and secondary EU law)
+Taxation of inbound investments
+and the causes of double taxation. Students understand the tax
+Taxation of outbound investments
+consequences of establishing domestic and foreign permanent
+Transfer pricing
+establishments as well as domestic and foreign corporations.
+Cross-border reorganisations
+Students understand the impact of transfer pricing on the com-
+panies’ tax burden. Most notably, students are able to evaluate
+how multinational companies make use of internationally diverg-
+ing tax burdens.
+Prerequisites for participation
+Necessary: –
+Recommended: Knowledge of contents of Module TAX 520 or
+Module TAX 530
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Exercise class 2 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min, 70%), individual assignment and group presentation
+(30%)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Christoph Spengel
+Performing lecturer Prof. Dr. Christoph Spengel
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M., MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2
+57Module: TAX 631 International Taxation of Multinational DE
+Enterprises
+Contents Learning outcomes
+After completing this course, students will have the knowledge
+Taxation of integrated multinational enterprises (MNEs) with
+of the fundaments of international taxation of multinational en-
+international operations, in particular with respect to in-
+terprises (MNEs). They will be able to apply theoretical knowl-
+come taxes, transfer pricing, permanent establishments,
+edge and to transfer it into practical tax knowledge based on real
+withholding taxes, CFC rules, and procedures for the settle-
+world problems. Participants will be able to assess the impact of
+ment of tax disputes.
+relevant tax rules on MNEs’ decisions and the interactions of
+Implications of current trends of MNEs for their taxation.
+these rules. The contents will be imparted to the students in a
+problem-oriented way and by solving real world problems in
+small groups.
+Prerequisites for participation
+Necessary: –
+Recommended: Knowledge from Module TAX 520, TAX 530 or
+TAX 630
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language German
+Form of assessment Written exam (45 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Christoph Spengel
+Performing lecturer Dr. Sven-Eric Bärsch
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M.
+Preliminary course work –
+Program-specific Competency Goals CG 1
+58Module: TAX 660 Tax Planning: The Role of Taxes for EN
+Business Decisions
+Contents The class features a guest lecture by a partner of a big-4 account-
+Most finance and strategy courses do not consider the role of ing firm. Knowledge from other Master-level tax classes is not
+taxes in making business decisions. The goal of the course is to necessary to take this class. Large parts of the course will be
+understand how taxes affect business decisions. In particular, the based on the following textbook that is used in the leading busi-
+course teaches the tools for identifying, understanding, and eval- ness schools around the world: Scholes, Wolfson, Erickson, Han-
+uating tax planning opportunities. It is designed to be valuable lon, Maydew and Shevlin: Taxes and Business Strategy: A Plan-
+even as (tax) laws and governments change, and the taught ning Approach.
+framework is portable in that it can be applied to the set of tax
+laws in any country. Learning outcomes
+Taxes are everywhere and have a direct impact on cash-flow. Understand how taxes affect business decisions.
+Having a basic understanding of how taxation affects business
+decisions is therefore very important and contributes to a solid fi- Prerequisites for participation
+nancial literacy. Necessary: –
+The role of taxes is applied to different decision contexts, such as Recommended: Introductory courses in business taxation are
+investments and organizational form. In addition, the class cov- advantageous.
+ers concepts such as implicit taxes and tax arbitrage, and it dis-
+cusses how the marginal tax rate should be calculated for loss-
+making firms.
+The impact of taxes on business decisions will always be consid-
+ered in the context of the following themes: ‘All Parties’ (the tax
+implications for all of the involved parties have to be considered),
+‘All Taxes’ (explicit and implicit taxes have to be considered), and
+‘All Costs’ (all costs, tax and non-tax costs, have to be consid-
+ered).
+All aspects of the course will discuss empirical applications.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 4 SWS 8 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min, 80%), Case study/presentation (20%)
+Restricted admission no
+Further information https://www.bwl.uni-mannheim.de/en/doerrenberg/
+Examiner Prof. Dr. Philipp Dörrenberg
+Performing lecturer Prof. Dr. Philipp Dörrenberg
+Frequency of offering Fall semester
+Duration of module 1 semester
+59Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M., MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2
+60Module: TAX 661 Case Studies in International Tax EN
+Planning
+Contents Learning outcomes
+The students learn how to apply their skills in basic taxation on
+International Tax Planning and Tax Structuring using Financ-
+practical cases. The students get a deeper insight into the basics
+ing Companies in the case of Outbound Investment
+of the most important areas in international tax planning and tax
+International Tax Planning and Tax Structuring using Financ-
+structuring. The students learn how to implement their theoreti-
+ing Companies in the case of Inbound Investment
+cal knowledge into practical scenarios. Thereby special attention
+International Tax Planning and Tax Structuring concerning
+is paid to the application of the wording of law – especially using
+the German „Zinsschranke“ (Thin-Cap-Rule) and other for-
+inaccuracies in law. The students learn to develop international
+eign Anti-Avoidance-Rules
+tax planning and tax structuring ideas across different types of
+International Tax Planning and Tax Structuring especially
+taxes.
+considering the Reorganization Tax Act
+International Tax Planning and Tax Structuring especially
+Prerequisites for participation
+considering Qualification Conflicts
+Necessary: –
+Recommended: Knowledge of contents of Module TAX 630
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language English
+Form of assessment Written exam (45 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Christoph Spengel
+Performing lecturer Prof. Dr. Michael Schaden
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., LL.M.
+Preliminary course work –
+Program-specific Competency Goals CG 1
+61Module: ACC 750 Accounting Seminar DE EN
+Contents Learning outcomes
+The seminar offers an introduction to research in accounting. The Participants get acquainted with scientific research in account-
+research questions that we will address come from all fields of ac- ing. They develop basic research skills that are necessary to ad-
+counting research and we will rely on different research methods dress typical research questions in financial accounting, manage-
+(both theoretical and empirical methods) in examining these rial accounting, or related fields. They will also be able to struc-
+questions. The analysis also involves a comprehensive review of ture a research paper and become experienced in academic writ-
+scientific accounting literature. In preparing the seminar, partici- ing. In addition, participants will learn how to present scientific
+pants write a seminar thesis. Participants will present and discuss work to other researchers and how to discuss scientific research.
+the key results of their thesis during the seminar.
+Prerequisites for participation
+Necessary: ACC 510 oder ACC 520 oder ACC 530 oder ACC 540
+oder ACC 560 oder ACC/TAX 570
+Recommended: Profound knowledge in accounting and a gen-
+eral interest in scientific accounting research
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language German, English
+Form of assessment Written seminar thesis (60%) and in-class presentation (40%)
+Restricted admission yes
+Further information Website of the Chair and the Area
+Examiner Prof. Dr. Jannis Bischof, Prof. Dr. Jens Wüstemann
+Performing lecturer Prof. Dr. Jannis Bischof, Prof. Dr. Holger Daske, Prof. Dr. Dirk Simons, Prof.
+Dr. Jens Wüstemann
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+62Module: TAX 730 Seminar in Business Taxation DE EN
+Contents Learning outcomes
+The seminar focuses in depth on selected cross-module topics in Students write an essay, which is presented to students and dis-
+taxation. cussed in the seminar. The essay shows that students are capable
+of pursuing independently academic work in the field of business
+taxation. The essay prepares for a master thesis in business taxa-
+tion.
+Prerequisites for participation
+Necessary: Two modules from the area Accounting & Taxation
+(5XX and/or 6XX)
+Recommended: Knowledge of the (international) taxation of
+companies
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language German, English
+Form of assessment Essay (70%, 15 p.), presentation (30%)
+Restricted admission no
+Further information https://www.bwl.uni-
+mannheim.de/en/spengel/teaching/master/tax-730-seminar-in-taxation/
+Examiner Prof. Dr. Philipp Dörrenberg, Prof. Dr. Christoph Spengel
+Performing lecturer Prof. Dr. Christoph Spengel, Prof. Dr. Philipp Dörrenberg
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+63

@@ -1,0 +1,269 @@
+Module overview
+1 Core Competences
+500 modules
+Code Module description ECTS Spring Fall
+CC 501 Decision Analysis: Business Analytics II 6 EN EN
+CC 502 Applied Econometrics 6 EN
+CC 503 Empirical Methods: Business Analytics I 6 EN EN
+CC 504 Corporate Social Responsibility 4 EN EN
+2 Business Economics
+500 modules
+Code Module description ECTS Spring Fall
+BE 510 Business Economics I 6 EN
+BE 511 Business Economics II 6 EN
+3 Business Administration
+3.1 Area Accounting and Taxation
+500 modules
+Code Module description ECTS Spring Fall
+ACC 510 Financial Accounting 8 DE
+ACC 520 IFRS Reporting and Capital Markets 8 EN
+ACC 530 Group Accounting 8 EN
+ACC 540 Financial Statement Analysis & Equity Valuation 8 EN
+ACC/MA Managerial Accounting - Evaluating Financial 8 EN
+N 560 and Non-Financial Performance
+ACC/TAX International Course – Accounting and Taxation EN EN
+550
+9ACC/TAX ESG Regulation and Sustainability Reporting 8 EN
+570
+TAX 520 Taxation of Companies 6 DE
+TAX 521 Specialisation in Company Taxation 4 DE
+TAX 530 Taxation of Businesses and Individuals 6 EN
+600 modules
+Code Module description ECTS Spring Fall
+ACC 620 Accounting for Financial Instruments and 6 EN
+Financial Institutions
+ACC 670 Audit Theory 6 EN
+ACC 676 Case Studies on Consulting in Financial Services 4 EN
+Firms
+ACC 680 Disclosure Theory 6 EN
+ACC/MA Corporate Sustainability Strategies and Value 4 EN
+N 660 Creation
+ACC/MA Corporate Sustainability Performance: 6 EN
+N 661 Measurement, Assessment and Improvement
+ACC/MA Private Equity: Due Diligence and Value Creation 6 EN
+N 662
+TAX 611 Case Studies in International Company Taxation 4 DE
+TAX 620 Causal Data Science for Business Decision 8 EN
+Making
+TAX 630 International Business Taxation 6 EN
+TAX 631 International Taxation of Multinational 4 DE
+Enterprises
+TAX 660 Tax Planning: The Role of Taxes for Business 6 EN
+Decisions
+TAX 661 Case Studies in International Tax Planning 4 EN
+10700 modules
+Code Module description ECTS Spring Fall
+ACC 750 Accounting Seminar 6 DE/EN DE/EN
+TAX 730 Seminar in Business Taxation 6 DE/EN DE/EN
+3.2 Area Finance
+500 modules
+Code Module description ECTS Spring Fall
+FIN 500 Investments 6 EN
+FIN 540 Corporate Finance I - Lecture (Capital Structure, 5 EN
+Cost of Capital and Valuation)
+FIN 541 Corporate Finance I - Case Study (Capital 5 EN
+Structure, Cost of Capital and Valuation)
+FIN 550 International Course – Banking, Finance and EN EN
+Insurance
+FIN 555 Financial Markets and Employees 3 EN
+FIN 580 Derivatives – Basic Strategies and Pricing 6 EN
+FIN 590 Financial Institutions I 4 EN
+600 modules
+Code Module description ECTS Spring Fall
+FIN 601 Bond Markets 6 EN
+FIN 602 Trading and Exchanges 6 EN
+FIN 603 Empirical Finance 10 EN
+FIN 604 Stata in Finance 2 EN EN
+FIN 606 FinTech 4 EN
+FIN 620 Behavioral Finance 6 EN
+FIN 630 Corporate Governance 6 EN
+11FIN 640 Corporate Finance II (Mergers, Acquisitions and 8 EN
+Divestitures)
+FIN 661 Responsible Leadership for Honors Program 4 DE
+Students
+FIN 682 International Asset Management - Modern 6 EN
+Investment Management, Responsible Investing
+and Fintech
+FIN 684 Financial Institutions II 4 EN
+FIN 686 Sustainable Finance and Impact Investing 6 EN
+FIN 687 Python in Finance 2 EN EN
+700 modules
+Code Module description ECTS Spring Fall
+FIN 703 Seminar in Financial Markets 6 DE/EN DE/EN
+FIN 731 Seminar Corporate Governance 6 EN
+FIN 740 Corporate Finance Seminar 6 EN
+FIN 780 Seminar in Asset Management & International 6 EN EN
+Finance
+FIN 790 Seminar in Financial Markets and Financial 6 EN EN
+Institutions
+3.3 Area Information Systems
+500 modules
+Code Module description ECTS Spring Fall
+IS 512 IT Management in the Digital Age 6 EN
+IS 513 Applied IT Management in the Digital Age 6 EN
+IS 515 Process Management & Analytics 6 EN
+IS 540 Management of Enterprise Systems 6 EN
+IS 541 Theories and Methods in Information Systems 6 EN
+IS 550 International Course – Information Systems EN EN
+12IS 556 Public Blockchains 6 EN
+IS 557 Introduction to Scientific Programming with 6 EN
+Python
+600 modules
+Code Module description ECTS Spring Fall
+IS 607 Digital Innovation 6 EN
+IS 613 Applied Project in Enterprise Cloud Design and 6 EN
+Development
+IS 614 Corporate Knowledge Management 6 EN
+IS 615 Enterprise Cloud Design and Development 6 EN
+IS 616 Large Scale Data Analysis and Visualization 6 EN
+IS 622 Network Science 6 EN
+IS 628 Advances in Public Blockchains 6 EN
+IS 629 Agile Software Product Management and 6 EN
+Design
+IS 635 Forschungsmethoden Data-Science 6 EN EN
+IS 661 Text Analytics 6 EN
+700 modules
+Code Module description ECTS Spring Fall
+IS 712 Seminar 6 EN EN
+IS 723 Seminar Data-Science II 6 EN EN
+IS 724 Seminar Current topics in Human-(X)AI 6 EN EN
+collaboration
+IS 742 Seminar Trends in Enterprise Systems 6 EN EN
+IS 752 Seminar on Process and Management Analytics 6 EN EN
+133.4 Area Management
+500 modules
+Code Module description ECTS Spring Fall
+ACC/MA Managerial Accounting - Evaluating Financial 8 EN
+N 560 and Non-Financial Performance
+MAN 521 Science Management 4 DE DE
+MAN 522 Responsibility in Management 4 DE DE
+MAN 550 International Course – Management EN EN
+600 modules
+Code Module description ECTS Spring Fall
+ACC/MA Corporate Sustainability Strategies and Value 4 EN
+N 660 Creation
+ACC/MA Corporate Sustainability Performance: 6 EN
+N 661 Measurement, Assessment and Improvement
+ACC/MA Private Equity: Due Diligence and Value Creation 6 EN
+N 662
+MAN 608 Business, Society, and the Environment 4 EN
+MAN 609 Strategic Management between Profit and 4 EN
+Purpose - Insights from Hybrid Organisations
+MAN 626 Entrepreneurship and Innovation - Enhancing 3 EN
+Access to Capital via Crowdfunding
+MAN 630 Introduction to Entrepreneurship 6 EN
+MAN 631 Creativity and Entrepreneurship in Practice 6 EN
+MAN 632 Advanced Entrepreneurship 6 EN
+MAN 634 Entrepreneurial Behavior and Crowdfunding 6 EN EN
+Social Ventures
+MAN 638 Employment Relations 4 EN
+MAN 639 TRANSFORM - Innovation & Entrepreneurship 6 EN
+for Sustainability
+14MAN 644 Human Resource Training and Development 6 EN
+MAN 645 Leadership and Motivation 6 EN
+MAN 646 HR Analytics 6 EN
+MAN 647 Strategic and International Human Resource 6 EN
+Management
+MAN 648 Incentives and Performance 6 EN
+MAN 649 Human Resource Recruitment and Selection 6 EN
+MAN 654 Corporate Restructuring 6 EN
+MAN 655 Corporate Strategy 4 EN
+MAN 656 Mergers & Acquisitions 6 EN
+MAN 659 Understanding and Tackling Societal Challenges 6 EN
+through Management Research
+MAN 665 Sustainability Management Simulation: Net Zero 2 EN EN
+MAN 668 Leadership in Organizations 4 EN
+MAN 675 Selected Challenges in Nonprofit Management 6 EN
+MAN 676 Selected Challenges in Public Management 6 DE
+MAN 679 A Scientific Introduction into Public and 6 DE
+Nonprofit Management
+MAN 680 Challenges of Public and Nonprofit 6 EN
+Management – Case Study Seminar
+MAN 690 Innovation Management 4 EN
+MAN 691 Selected Topics in Organizational Behavior 4 EN
+MAN 693 Strategic Intellectual Property Management 4 EN
+MAN 699 Advanced Topics in Digital Transformation 6 EN
+15700 modules
+Code Module description ECTS Spring Fall
+MAN 710 Research Seminar Public & Nonprofit 6 DE/EN DE/EN
+Management
+MAN 721 Research Seminar Organization and Innovation 6 EN EN
+MAN 741 Research Seminar on Human Resource 6 EN EN
+Management and Leadership
+MAN 750 Seminar Corporate Strategy & Governance 6 EN EN
+MAN 770 Research Seminar 6 DE/EN DE/EN
+MAN 771 Seminar on Corporate Decarbonization 6 EN EN
+3.5 Area Marketing and Sales
+500 modules
+Code Module description ECTS Spring Fall
+MKT 510 Price and Product Management 6 EN
+MKT 511 Marketing Analytics 6 EN
+MKT 512 Designing Data-Driven Business Models 3 EN
+MKT 520 Market Research 6 EN
+MKT 531 Marketing Theory: Consumer Behavior and 4 EN
+Decision Making
+MKT 545 Customers, Markets and Firm Strategy 6 EN
+MKT 550 International Course – Marketing & Sales EN EN
+MKT 561 Service Business Model Innovations 4 EN
+MKT 575 Marketing Strategy for Innovation & 3 EN
+Sustainability
+MKT 580 Digital Marketing Strategy 6 EN
+16600 modules
+Code Module description ECTS Spring Fall
+MKT 612 Business-to-Business-Marketing 2 EN
+MKT 614 Marketing Communication 4 EN
+MKT 615 Sales Management 4 EN
+MKT 616 Fundamentals of Negotiation 2 DE
+MKT 617 Applied Negotiation 2 DE
+MKT 622 Country Manager 2 EN
+MKT 623 Strategic Marketing Management Simulation 2 EN
+MKT 624 Data Scraping for Analytics and AI using R 4 EN
+MKT 661 Consumer Behavior 2 EN
+MKT 663 Branding and Brand Management 4 EN
+700 modules
+Code Module description ECTS Spring Fall
+MKT 710 Research Seminar 6 DE/EN DE/EN
+MKT 720 Research Seminar 6 DE/EN DE/EN
+MKT 730 Research Seminar 6 DE/EN DE/EN
+MKT 740 Research Seminar 6 DE/EN DE/EN
+3.6 Area Operations Management
+500 modules
+Code Module description ECTS Spring Fall
+OPM 501 Supply Chain Design 6 EN
+OPM 502 Inventory Management 6 EN
+OPM 503 Transportation Management: Road, Rail, and Sea 4 EN
+Freight
+OPM 504 Transportation Management: Aviation 4 EN
+17OPM 510 Sustainable Operations Management 4 EN
+OPM 544 Supply Chain Risk Management – from Strategy 4 EN
+to Operations
+OPM 550 International Course – Operations Management EN EN
+OPM 560 Business Analytics: Introduction to Operations 6 EN
+Analytics with Python
+OPM 561 Production Management: Lean Approaches and 4 EN
+Variability
+OPM 581 Service Operations Management 6 EN
+OPM 582 Case Studies in Operations Management: 6 EN EN
+Unlocking the Power of AI
+OPM 591 Strategic Procurement 6 EN
+OPM 593 Negotiation 6 EN
+OPM 597 Next Generation Procurement 4 EN
+600 modules
+Code Module description ECTS Spring Fall
+OPM 601 Supply Chain Strategy 6 EN
+OPM 661 Business Analytics: Robust Planning in 8 EN
+Stochastic Systems
+OPM 662 Business Analytics: Modeling and Optimization 8 EN
+OPM 682 Revenue Management and Dynamic Pricing 6 EN
+OPM 692 Strategic Sourcing 6 EN
+700 modules
+Code Module description ECTS Spring Fall
+OPM 701 Research Seminar Supply Chain Management 6 EN
+OPM 741 Applied Seminar Supply Chain Management 6 EN
+OPM 760 Project Seminar Operations Analytics 6 EN EN
+OPM 761 Research Seminar Production Management 6 EN EN
+18OPM 781 Research Seminar Service Operations 6 DE/EN DE/EN
+Management
+OPM 791 Research Seminar Procurement 6 EN
+OPM 792 Applied Seminar Procurement 6 DE/EN
+19

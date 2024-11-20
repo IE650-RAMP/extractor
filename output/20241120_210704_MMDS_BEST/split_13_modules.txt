@@ -1,0 +1,247 @@
+2. Detailed descriptions
+Legal and Ethical Aspects of Privacy
+Form of module Lecture
+Type of module Responsible Data Science
+Level Master
+ECTS 3
+Hours per semester present: 28 h (2 SWS)
+Self-study per semester: 60 h
+Workload
+• Pre-and post-lecture studying and preparation (30h)
+• Examination preparation (30h)
+Prerequisites None
+In a first section the course will acquaint the students with the ori-
+gins and basic principles of privacy law mainly in Europe. Further-
+more, it will contrast the European privacy foundations with the
+U.S. approach. At the core of this course stands the new European
+General Data Protection Regulation (GDPR) and its applicability to
+specific cases and basic principles. Moreover, the course will cover
+current challenges to the existing privacy paradigms by big data
+and big data analytics.
+In a second section the course will cover ethical aspects of the use
+Aim of module
+of personal and non-personal data. Data potentially allows to iden-
+tify and target individuals and offer individualized products to
+them. However, sometimes this kind of individualization might be
+legal but the question arises whether it is also desirable from an
+ethical and societal point of view? The course will use selected ex-
+amples (e.g. first-degree price discrimination) in order to illustrate
+the ambivalence of legality, legitimacy, and ethics. In this context,
+the use of artificial intelligence and its impact on privacy will be ad-
+dressed.
+Students will…
+• have a basic knowledge on the applicability of the General Data
+Protection Regulation (GDPR) and its basic principles (MK1,
+MF1, MKO2);
+• be aware of privacy issues and potential legal limitations when
+Learning outcomes and
+processing data (MKO2);
+qualification goals
+• be aware of current challenges to the existing privacy (MKO2);
+• have an understanding why privacy issues are treated differ-
+ently in Europe and the U.S. (MKO2);
+• paradigms by big data and big data analytics;
+• be aware of currently discussed new approaches to privacy
+78(e.g., privacy by design) (MF1, MF2, MKO2);
+• be aware of ethical issues of using personal as well as non-per-
+sonal data (MKO2);
+• be aware of the chances and challenges the use of artificial in-
+telligence will bring (MF2, MKO2).
+Media Video tutorials, lectures, online quizzes
+Students will receive reading assignments for each unit together
+Literature
+with the syllabus at the beginning of the semester.
+The class will generally be conducted as a lecture. However, some
+of the sessions will be conducted on an inverted class-room princi-
+Methods ple. Students will be able to access the video lectures at the begin-
+ning of the semester. The content of these videos will be discussed
+along with additional reading in the individual class sessions.
+Form of assessment written examination
+Admission requirements for
+Successful participation in 5 out of at least 7 online quizzes
+assessment
+Duration of assessment 90 minutes
+Language English
+Offering HWS
+Prof. Dr. Thomas Fetzer
+Lecturer
+Person in charge Prof. Dr. Thomas Fetzer
+Duration of module 1 semester
+Further modules -
+Range of application MMDS, MMSDS
+Semester 1st/2nd/3rd semester
+79CS 718 AI and Data Science in Fiction and Society
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+Prerequisites Bachelor degree
+In this seminar, students analyze and discuss fictional works in the
+Aim of module area of AI and data science with respect to technological and socie-
+tal aspects. The present the results orally and in a written report.
+Expertise:
+Students will learn about societal effects of AI and data science
+and become aware of potential threats and dangers, but also of
+chances of those new technologies.
+(MK1)
+Methodological competence:
+Students will develop methods and skills to find relevant literature
+for his/her topic, and to write a well-structured scientific paper
+Learning Outcomes and and to present his/her results. He/she will be also aware of the
+Qualification Goals need to avoid plagiarism. The key qualification Scientific Research
+is highly recommended as a prerequisite for the seminar.
+(MF1, MF2, MF3)
+Personal qualification:
+Students will acquire skills on how to find relevant literature for a
+research topic, discuss a fictional work using secondary literature
+as background material, write a well-structured, concise paper
+about it and present the results of their work. He/she is well pre-
+pared to write and present a Master’s Thesis.
+(MKO2)
+Media Fictional and non-fictional texts
+Literature A detailed literature list is compiled for each offering.
+Teaching and Learning Me- Do scientific work independently under the guidance of a profes-
+thods sor or a research staff member
+Seminar paper (length: 15-20 pages depending on the topic), Peer
+Form of Assessment Review (up to 10 pages), Presentation (20-30) minutes depending
+on the topic)
+80Admission requirements for
+-
+assessment
+Duration of Assessment 6-8 weeks (writing of the essay), 20-30 minutes (presentation).
+Language English
+Offering Fall semester
+Lecturers Prof. Dr. Heiko Paulheim and research staff members
+Person in charge Prof. Dr. Heiko Paulheim
+Duration of module 1 semester
+Further modules -
+Range of Application MMDS, M. Sc. Wirtschaftsinformatik, Lehramt für Gymnasien
+Semester 3. Semester
+81AC 654 Additional Course – Responsible Data Science
+Typically: lecture, other forms of modules might be credited upon
+Form of module
+request.
+Level Master
+Max. 18 (The individual modules can vary between 2 and 10 ECTS.
+ECTS
+A total of 18 ECTS can be recognized as additional courses).
+The workload and its distribution on different activities are deter-
+mined by the credited course. For courses taken at the University
+Workload
+of Mannheim, they can be found in the respective module cata-
+logue. One ECTS credit equals 30 hours of work.
+The prerequisites are determined by the credited course. For
+Prerequisites courses taken at the University of Mannheim, they can be found
+in the respective module catalogue
+The course falls into the responsible data science area of the
+MMDS and covers topics related to responsible data science, but
+is not directly equivalent to any course in the MMDS module cat-
+Aim of module
+alogue. The course level equals a regular course in MMDS study
+program. The module can be taken either at the University of
+Mannheim or at any other university in Germany or abroad.
+The learning outcomes and qualification goals are determined by
+Learning outcomes and quali-
+the credited course. For courses taken at the University of Mann-
+fication goals
+heim, they can be found in the respective module catalogue.
+The media, literature, and methods are determined by the cred-
+ited course. For courses taken at the University of Mannheim,
+Media / Literature / Methods
+they can be found in the respective module catalogue. The form
+/ Form and duration of as-
+of assessment is typically a written or oral examination, but can
+sessment
+also include other forms of examination. Details are determined
+by the examination modalities of the credited course.
+English preferred, but any other language possible if Mannheim
+Language
+faculty member is able to identify content and level
+Offering Spring semester / Fall semester
+Lecturer Lecturer at the host university
+82Person in charge Lecturer at the host university
+Duration of module 1 Semester
+Further modules -
+Range of application MMDS
+Semester 2nd/3rd/4th semester
+83Responsible AI: Conceptual Foundations, Methods and Applica-
+DS 203
+tions
+Lecture with Essay
+Form of module
+Specialization Course
+Type of module
+Level Master
+ECTS 6
+Hours per semester in presence: 28 (2 SWS)
+Workload
+Self-study: 56 h lectures; 20 h essay / preparation oral exam
+Basic knowledge about AI systems (knowledge-based systems,
+Prerequisites
+machine learning, deep neural networks)
+Conceptual foundations:
+- understanding of important concepts in human-AI interaction and
+AI ethics (such as trust, autonomy, responsibility)
+Methods:
+- e.g., narrative interviews, group discussions, design research
+methods (prototyping, design thinking, techno-mimesis), (digital)
+Aim of module
+ethnography, participatory action research
+Applications:
+- AI in medicine and healthcare
+- Social robotics
+- Generative AI
+- other use cases / real-world AI applications
+Expertise: Students gain insights and understanding of important
+concepts in human-AI interaction and AI ethics. They learn modes
+of transdisciplinary thinking and theorizing. Along sector-specific
+use cases they learn about ethical, legal and social aspects and chal-
+lenges of real-world AI application, e.g. for healthcare.
+Learning outcomes and
+Methodological competence: Students learn elements of mixed-
+qualification goals
+methods study design for human-AI interaction research
+Personal competence: Students learn to critically assess concep-
+tual, ethical, legal and social aspects of human-AI interaction. They
+gain skills in transdisciplinary research and theory-building and
+learn to transfer these insights to real-world human-AI interaction
+scenarios.
+Media Slides are available online
+- Voeneky, S., P. Kellmeyer, O. Mueller, and W. Burgard, ed. 2022.
+Literature
+The Cambridge Handbook of Responsible Artificial Intelligence:
+84Interdisciplinary Perspectives. Cambridge Law Handbooks. Cam-
+bridge: Cambridge University Press.
+https://doi.org/10.1017/9781009207898 (open source)
+- Coeckelbergh, Mark. AI ethics. (2020). The MIT Press.
+https://www.gbv.de/dms/bowker/toc/9780262538190.pdf
+- Heilinger, J.-C. (2022). The Ethics of AI Ethics. A Constructive Cri-
+tique. Philosophy & Technology, 35(3), 61.
+https://doi.org/10.1007/s13347-022-00557-9
+- McLennan, S., Fiske, A., Tigard, D., Müller, R., Haddadin, S., &
+Buyx, A. (2022). Embedded ethics: A proposal for integrating ethics
+into the development of medical AI. BMC Medical Ethics, 23(1), 6.
+https://doi.org/10.1186/s12910-022-00746-3
+- Schmitt, L. (2021). Mapping global AI governance: A nascent re-
+gime in a fragmented landscape. AI and Ethics.
+https://doi.org/10.1007/s43681-021-00083-y
+Interactive lecture
+Methods
+Essay
+Form of assessment
+Admission requirements for
+--
+assessment
+Duration of assessment Essays need to be handed in by December 8th
+Language English
+Offering
+Fall semester
+JProf. Dr. Philipp Kellmeyer
+Lecturer
+Person in charge JProf. Dr. Philipp Kellmeyer
+Duration of module 1 Semester
+Further modules Follow-up (block) seminar planned for summer semester 2024
+Range of application Msc Business Informatics, Msc Data Science, Lehramt Informatik
+Semester All semesters possible
+85

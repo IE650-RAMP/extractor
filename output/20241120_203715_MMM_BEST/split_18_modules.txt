@@ -1,0 +1,649 @@
+Module: OPM 582 Case Studies in Operations EN
+Management: Unlocking the Power of AI
+Contents The overarching theme of the cases may have a special contem-
+In this course, participants will have the opportunity to complete porary focus (e.g. Revenue Management, Artificial Intelligence, or
+an OM-related case study in a team, using an analytics-oriented Sustainable Operations) and will vary from year to year. Details
+approach for deriving recommendations. The main actor / deci- will be announced in the syllabus (published in the OPM582 IL-
+sion maker in the case study may face an organization showing IAS course in due time). Case topics will be allocated during the
+poor performance e.g. due to operational problems, or has to course based on student preferences. Students will work in
+make strategic market-related decisions subject to challenging teams of two on the assigned case.
+resource constraints. The managerial decisions ahead are often
+very complex, involving many alternatives with different impact, Learning outcomes
+and trade-offs between key performance measures (e.g., profit, Students will intensify their understanding of operations man-
+cost, quality, and environmental impact) must be made. agement by applying concepts and analytical tools in a broader,
+This course reviews managerial concepts and advanced analyti- interdisciplinary and strategic context to practical case studies.
+cal tools to help make more informed decisions and manage op- The course should be useful for anyone with an intention of go-
+erations more effectively such that they are aligned with the ing into consulting, industry (service or manufacturing), or with a
+overarching strategic objectives. In particular, teams will explore desire to set up their own business.
+the theory by applying it to various cases studies of firms cover-
+ing a broad range of industries, such as transport, retailing, hos- Prerequisites for participation
+pitality, health care, professional services, manufacturing, etc. If Necessary: This course is an OPM5xx core course from the Oper-
+the case allows, the approach to derive your recommendations ations Management area and has no prerequisites.
+can be analytics-based, using models and software such as state- (As a core course, it serves as prerequisite for OPM6xx courses).
+of the-art spreadsheet tools to analyze the firm’s situation, identi- Recommended: Participants should be familiar with the funda-
+fy root causes of the problem, and assess alternative courses of mentals of operations management.
+action. The concepts, methods and tools used in the course have
+become invaluable aids to informed decision making in order to
+improve processes, save resources, and create value.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Exercise class 2 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Assignment(s)/work on case studies: final team report (60%), final
+presentation (30%), individual class participation (10%)
+Restricted admission yes
+Further information Max. 20 participants
+Register for the course through Portal2 (Modul “Anmeldepflichtige
+Veranstaltungen MMM") during the official registration period. Admission
+will be communicated shortly after.
+Examiner Prof. Dr. Cornelia Schön
+Performing lecturer Prof. Dr. Cornelia Schön
+225Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2
+226Module: OPM 591 Strategic Procurement EN
+Contents Learning outcomes
+During the last decades, the value sourced from suppliers and in- This course is recommended for anyone seeking an introduction
+novation stemming from the supply base have increased sub- to procurement and, more generally, a better understanding of
+stantially in many industries. Consequently, purchasing’s role has upstream supply chain operations. The main intended learning
+shifted from a clerical support role in the corporate hierarchy to a outcome is to obtain the basic knowledge that enables further
+truly strategic and proactive role that drives growth, innovation, steps in procurement research and practice. Based on current
+and value creation. Today, most organizations consider the man- theories and a broad coverage of topics, participants will learn
+agement of their suppliers as a key strategic issue. Given its po- how to analyze, structure, and tackle strategic problems sur-
+tential to contribute significantly to firm performance, the pro- rounding the procurement function. Participants will obtain:
+curement function receives strong top management attention.
+the fundamental knowledge that enables further steps in
+This module provides a broad survey of modern procurement
+purchasing and supply management research and practice
+theory and practice from a strategic perspective. Topics include
+the ability to analyze, structure, and tackle strategic prob-
+the design and implementation of procurement strategies, pro-
+lems surrounding the procurement function,
+cesses, organizational structures, and performance measurement
+an overview on structured approaches and tools applicable
+systems, as well as the management of supplier portfolios, buyer-
+in practice.
+supplier relationships, and supplier innovation to meet firms’
+strategic supply needs. The module consists of regular lectures
+and exercise classes in which extended and short cases will be Prerequisites for participation
+discussed. High-caliber guest speakers will serve as a rich source Necessary: –
+of practical insights. Recommended: Basic knowledge in supply chain and/or opera-
+tions management
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Exercise class 2 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Christoph Bode
+Performing lecturer Prof. Dr. Christoph Bode
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+227Program-specific Competency Goals CG 1, CG 2, CG 3
+228Module: OPM 593 Negotiation EN
+Contents Learning outcomes
+The ability to manage negotiations – where co-dependent parties Students understand the importance of developing micropoliti-
+try to arrive at decisions that satisfy their interests – and the cal skills for effective leadership in the workplace. After successful
+broader micropolitical environment in which they occur is critical completion, participants will:
+for success in business as in life. This module provides the theo-
+understand the theoretical concepts of micropolitics,
+retical background of micropolitics and the practical tools to af-
+know the negotiation process, key negotiation concepts,
+fect joint decision-making processes (negotiations) and their out-
+and are able to reflect on the different negotiation ap-
+comes. It discusses the application of these concepts and tools in
+proaches,
+different contexts: Agenda setting, mapping the political terrain,
+are able to apply practical tools during bargaining,
+networking and coalition building, and bargaining. Different ap-
+understand and reflect on the impact of (inter-)cultural di-
+proaches of negotiation and the corresponding tactics will be an-
+mensions in negotiations,
+alyzed. Guest speakers will enrich the module with practical in-
+have reflected about their own personal style in negotia-
+sights from different contexts. Special emphasis will be put on
+tions and how they can advance it.
+the (inter-)cultural dimension and its impact on negotiations. The
+have gained a deeper understanding, how psychological as-
+topics will be discussed along the typical timeline of a negotia-
+pects influence the negotiation process and the possible
+tion process: pre-negotiation phase, negotiation phase, post ne-
+outcome.
+gotiation phase. Psychological tactics will be discussed as well as
+possible defenses against such tactics.
+This course is a mandatory course for incoming students in the Prerequisites for participation
+European Management track Necessary: –
+Recommended: Basic knowledge in operations/supply chain
+management
+Forms of teaching and learning Contact hours Independent study time
+Lecture with integrated exercise 2 SWS 11 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment final exam (90 min)
+Restricted admission yes
+Further information “Student Portal”
+Examiner Prof. Dr. Christoph Bode
+Performing lecturer Dr. Ingo Bayer, Prof. Dr. Christoph Bode
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+229Program-specific Competency Goals CG 1, CG 3, CG 4
+230Module: OPM 597 Next Generation Procurement EN
+Contents Each session will include guest talks from industry experts.
+Starting from a review of modern procurement, this module ad-
+dresses the future of procurement’s IT-landscape, processes, Learning outcomes
+technology, and challenges. The digital transformation of pro- The main intended learning outcome is to gain a thorough un-
+curement and supply chain management is not just an incremen- derstanding of modern and future procurement solutions and
+tal IT evolution, it is a dramatic departure from both procure- processes. Special emphasis is put on technologies, trends and
+ment’s use of technology and the way companies do business. solution demos that illustrate modern applications, latest innova-
+The module includes a detailed discussion of strategic and oper- tions, as well as challenges.
+ational instruments to examine how next generation’s procure-
+ment solutions can affect business outcomes, save costs while in- Prerequisites for participation
+creasing compliance, and ensure resilient and sustainable supply Necessary: –
+chains that meet the needs of today’s fast-paced and cloud-fo- Recommended: Basic knowledge in operations/supply chain
+cused business environment. A key focus of the module rests on management
+discussing how advanced business analytics approaches such as
+machine learning and artificial intelligence will transform pro-
+curement from a transactional based system to an information
+and intelligence-based suite that connects data from within and
+from outside of its own data ecosystem.
+The module is delivered in four blocked sessions with a strong
+practice focus.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+ECTS credits 4
+Graded yes
+Workload 120h
+Language English
+Form of assessment Group essay (70%) and presentation (30%)
+Restricted admission yes
+Further information http://procurement.bwl.uni-mannheim.de/
+Examiner Prof. Dr. Christoph Bode
+Performing lecturer Prof. Dr. Christoph Bode
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2, CG 4
+231Module: OPM 601 Supply Chain Strategy EN
+Contents Learning outcomes
+Supply chains comprise organizations, resources, and processes Students will understand the role of supply chain management
+aimed at satisfying customer demand. Their effectiveness is and its impact on firm performance. They will be aware of strate-
+paramount to the creation of business value. Carefully designed gic implications of supply chain design choices. They will recog-
+and well-run supply chains are an important source of competi- nize the potential of coordinated decision making along the sup-
+tive advantage. Particular complexities arise from the interplay ply chain and be aware of obstacles that complicate this coordi-
+between different members of a supply chain, including suppli- nation. The students will get to know mechanisms for aligning in-
+ers, manufacturers, and retailers. While they all pursue their own centives of different supply chain members. They will be ac-
+objectives they are also dependent on each other and must coor- quainted with relevant business analytics techniques to assess
+dinate their activities to serve the customer. This course address- and optimize supply chain performance. Students will also be
+es the dynamics resulting from the interaction between supply aware of relevant recent trends and of their impact on supply
+chain members and introduces concepts for achieving supply chain management.
+chain alignment. It presents common forms of supply chain col-
+laboration and discusses their potential and challenges. After es- Prerequisites for participation
+tablishing the fundamentals, the course proceeds to discuss how Necessary: At least one of the modules OPM 501, 502, 561, 581,
+recent trends are impacting supply chain management, includ- 582, or 591 (parallel attendance possible); other modules may be
+ing sustainability, e-fulfillment, digitalization, and resilience. The accepted upon request.
+course takes an analytics-oriented approach and introduces Recommended: Participants should be familiar with fundamen-
+quantitative models as a means for analyzing strategic issues in tals of operations and supply chain management. Attendance of
+supply chain management. modules OPM 501 and OPM 502 is beneficial but not necessary.
+The course further assumes a basic knowledge in mathematics
+(including Linear Programming) and in statistics (probability dis-
+tributions).
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Exercise class 2 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Moritz Fleischmann
+Performing lecturer Prof. Dr. Moritz Fleischmann
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+232Preliminary course work –
+Program-specific Competency Goals CG 1, CG 3
+233Module: OPM 661 Business Analytics: Robust Planning in EN
+Stochastic Systems
+Contents Moreover, we will implement those concepts using the program-
+Business Analytics helps to optimize decisions for the design and ming language Python to perform sensitivity analyses and to de-
+management of operations systems and production processes. A velop managerial insights for stochastic operations systems. Dur-
+major driver of the performance of operations systems is stochas- ing the course the students will work on several case studies and
+tic variability. For example, production systems often operate in assignments (individual and in groups).
+an uncertain environment due to uncertain demand, unreliable
+machines, or random processing capacities. Learning outcomes
+In order to support robust decisions, we apply analytical solution Students learn to understand the impact of stochastic variability
+approaches based on techniques from predictive and prescrip- in operations systems. After this course students are familiar with
+tive analytics. The basic concepts of the analysis of Markovian the theory and practice of the analysis of stochastic systems.
+queueing systems are explained in detail and performance evalu- They learn to implement, adapt and to apply methods and tools
+ation approaches are implemented in Python. To create digital from Business Analytics e.g. analytical approximations, simula-
+twins of operating systems, simulation techniques are intro- tion, and robust planning methods to support managerial deci-
+duced and implemented. This allows to analyze the sensitivity of sions.
+system parameters on the main performance measures. Ad-
+vanced topics such as queueing systems with general distribu- Prerequisites for participation
+tions, heterogeneities, and time-dependent input parameters are Necessary: OPM 561 and OPM 560 OR: OPM 561 and "Schlüs-
+covered. Additionally, general managerial insights, for example selqualifikation 1: Programmierkurs Python" (Angebot der WIM)
+economies of scale and the value of flexible capacities are dis- Recommended: Participants should be familiar with the funda-
+cussed. Methods and performance measures of robust planning mentals of production and operations management. The course
+and optimization are introduced. Students become familiar with further assumes a basic knowledge in mathematics (including
+concepts and tools for predictive and prescriptive business ana- linear programming) and in statistics (probability distributions).
+lytics.
+Forms of teaching and learning Contact hours Independent study time
+Lecture with integrated exercise 4 SWS 9 SWS
+Exercise class 2 SWS 8 SWS
+ECTS credits 8
+Graded yes
+Workload 240h
+Language English
+Form of assessment Assignments and presentations (70%), written exam (45 min) or oral exam
+(30%)
+Restricted admission yes
+Further information –
+Examiner Prof. Dr. Raik Stolletz
+Performing lecturer Prof. Dr. Raik Stolletz
+Frequency of offering Spring semester
+Duration of module 1 semester
+234Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+235Module: OPM 662 Business Analytics: Modeling and EN
+Optimization
+Contents Learning outcomes
+Business Analytics helps to optimize decisions for the design and Students learn how to structure operations planning and
+management of operations systems and production processes. scheduling problems. They are able to translate them into mixed
+This course introduces concepts and tools for prescriptive analyt- integer linear models. Students learn how to use Python to im-
+ics for modeling and optimization based on techniques from Op- plement them and solve them with a standard solver to derive
+erations Research. Operational and tactical planning tasks are optimal plans/schedules (DOcplex Python Modeling API). They
+formulated as linear and mixed integer linear programming also learn to deal with the complexity of real-world problems
+models. Optimization models are analyzed and implemented in (e.g., via aggregation, relaxation, and decomposition techniques)
+class. They are solved using standard tools of prescriptive analyt- and how to perform sensitivity analyses in order to obtain useful
+ics. Different heuristic techniques to cope with the complexity of managerial insights.
+real-world scheduling problems are introduced and implement-
+ed. Data-driven approaches to cope with stochastic variability are Prerequisites for participation
+introduced and analyzed. During the course the students will Necessary: OPM 561 and OPM 560 OR: OPM 561 and "Schlüs-
+work on several case studies and assignments (individual and in selqualifikation 1: Programmierkurs Python" (Angebot der WIM)
+groups). Recommended: The course assumes a basic knowledge in math-
+ematics (including linear programming).
+Forms of teaching and learning Contact hours Independent study time
+Lecture with integrated exercise 4 SWS 9 SWS
+Exercise class 2 SWS 8 SWS
+ECTS credits 8
+Graded yes
+Workload 240h
+Language English
+Form of assessment Assignments and presentations (70%), written exam (45 min) or oral exam
+(30%)
+Restricted admission yes
+Further information –
+Examiner Prof. Dr. Raik Stolletz
+Performing lecturer Prof. Dr. Raik Stolletz
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+236Module: OPM 682 Revenue Management and Dynamic EN
+Pricing
+Contents With a focus on prescriptive analytics, this course discusses man-
+Revenue Management (RM) is concerned with demand-manage- agerial concepts, optimization modelling approaches and state-
+ment decisions (such as product availability decisions, price opti- of-the-art solution tools for RM. We pursue an active-learning ap-
+mization, assortment optimization and product line design) in proach including lecture-style class sessions, case discussions, ex-
+face of resource constraints. Since resources to create and offer ercises, guest lectures, and hands-on computer implementations
+products are usually limited and often perishable, the effective- using e.g. the Excel solver and easy-to-learn but powerful profes-
+ness of market-related decisions is highly interrelated with re- sional mathematical optimization tools.
+source allocation decisions. The methods and tools taught in the course have become invalu-
+Over the last decades, RM tools and systems have helped busi- able aids to informed decision making in order to save resources,
+nesses in a variety of industries to ensure economic viability and create value-to-the-customer, and improve firm profitability.
+to allocate scarce resources more effectively. Robert Crandall, for-
+mer Chairman and CEO of American Airlines, has called RM "the Learning outcomes
+single most important technical development in transportation Students will gain insights into practical applications of Revenue
+management since we entered deregulation." While airlines have Management and get familiar with the underlying models and
+the longest history of development in classical RM, applications methods, thereby enhance their analytics skills.
+have rapidly diffused beyond airlines to industries such as retail-
+ing, hospitality, railways, car rental, telecommunications and fi- Prerequisites for participation
+nancial services, electric utilities, consumer goods production Necessary: At least one of the modules OPM 501, 502, 560, 561,
+and even MTO manufacturing. 581, 582, or 591 (parallel attendance possible); further modules
+For outside observers, RM may seem often like an art. But finally, may be accepted by Professor upon request.
+the most important pillar of RM is analytics – including systematic Recommended: Participants should be familiar with Operations
+data analysis, understanding value-to-the-customer and fore- Management and enjoy analytics, such as mathematical model-
+casting demand, and powerful optimization that allows taking ing and optimization.
+the relevant market- and resource-related factors jointly into ac-
+count.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Exercise class 2 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Cornelia Schön
+Performing lecturer Prof. Dr. Cornelia Schön
+Frequency of offering Spring semester
+237Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2, CG 3
+238Module: OPM 692 Strategic Sourcing EN
+Contents Learning outcomes
+Looking back over the past twenty years, competitive purchasing This course is of interest to students seeking more in-depth
+approaches created significant value for firms by driving substan- knowledge of the processes and tools in modern procurement.
+tial cost savings to the bottom line. However, the widespread us- For each topic covered, concepts, frameworks, and analytic tools
+age of professional procurement techniques has eroded the ad- are presented. Participants will learn:
+vantages that they had for pioneers in the 1990s and in the early
+how to organize healthy competition to find the right sup-
+years of the current century. In addition, environmental, compet-
+pliers for a specified demand,
+itive, geopolitical, and technological changes have created an
+how to pull commercial, technical, and processual levers of
+uncertain business environment in which a mere focus on pur-
+optimization,
+chasing cost will not be sufficient to support sustainable compet-
+how select the most effective award business mechanism
+itive advantage. Against this backdrop, this module covers ad-
+and contract based, and
+vanced approaches in procurement that aim at creating “value
+how to deal with performance exceptions and supplier con-
+beyond cost”. Based on an end-to-end analysis of the key pro-
+flicts.
+curement processes, the module addresses the following core
+topics: Demand and supply analysis (need identification and
+specification management, supply market analysis, RFx, cost Prerequisites for participation
+modeling, optimization levers), sourcing decisions and awarding Necessary: –
+of business (analytical models for supplier selection, negotia- Recommended: The module builds on topics covered in OPM
+tions, and auctions), formal relationship governance (contracts 591. Participants who have not attended this module might re-
+and price models), operational purchasing (purchase-to-pay pro- quire additional preparation.
+cess), management of nonperformance and conflicts, and tech-
+nological enablers.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 9 SWS
+Exercise class 1 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min, 90%), case challenge (10%)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Christoph Bode
+Performing lecturer Prof. Dr. Christoph Bode
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., M.Sc. Bus. Math.,
+MAKUWI
+239Preliminary course work –
+Program-specific Competency Goals CG 1
+240Module: OPM 701 Research Seminar Supply Chain EN
+Management
+Contents Learning outcomes
+The goal of this seminar is to introduce the participants to the Students will learn how to analyze the academic literature on a
+conducting of scientific research. It thereby prepares them for given topic. They will become acquainted with the setup and
+the writing of their Master thesis. Participants will carry out a lit- composition of academic publications. They will also learn how
+erature study on a given topic in the field of logistics and supply to the present the results of their analysis.
+chain management and discuss the results in a written report
+and in an oral presentation. Prerequisites for participation
+Necessary: At least one module OPM 6XX (parallel attendance
+possible) or an equivalent module within an exchange program
+Recommended: Sound knowledge in logistics and supply chain
+management; sound quantitative skills; interest in scientific re-
+search
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written report (50%, scope depends on the assigned topic), presentation
+(40%), discussion (10%)
+Restricted admission yes
+Further information Registration at the end of the preceding term; website of the chair
+Examiner Prof. Dr. Moritz Fleischmann
+Performing lecturer Prof. Dr. Moritz Fleischmann
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 4
+241Module: OPM 741 Applied Seminar Supply Chain EN
+Management
+Contents Learning outcomes
+The goal of this seminar is to introduce the participants to the Participants will become acquainted with carrying out a practice-
+conducting of problem-solving scientific research in the field of oriented research project in supply chain management. They will
+supply chain management. It thereby prepares them for the writ- learn how to support their analysis using relevant academic liter-
+ing of a practice-oriented Master thesis in this field. Organized in ature. Participants will also learn how to effectively present the
+small teams, participants will work on a specific supply chain results of their analysis.
+management issue, defined in collaboration with a company. At
+the end of the seminar, each team will propose a solution to this Prerequisites for participation
+issue, based on the relevant literature and their own research. Re- Necessary: At least one module OPM 6XX (parallel attendance
+sults are summarized in a written report and in an oral presenta- possible) or an equivalent module within an exchange program
+tion. Recommended: OPM 601 or an equivalent module within an ex-
+change program; project management skills
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written report (60%, scope depends on the assigned topic), presentation
+(30%), discussion (10%)
+Restricted admission yes
+Further information Registration at the end of the preceding term; website of the chair
+Examiner Prof. Dr. Moritz Fleischmann
+Performing lecturer Prof. Dr. Moritz Fleischmann
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+242Module: OPM 760 Project Seminar Operations Analytics EN
+Contents Learning outcomes
+The goal of this seminar is to introduce the participants to con- Students will learn to analyze and implement a predictive or pre-
+ducting of scientific research in the field of operations manage- scriptive business analytics approach based on scientific litera-
+ment. Thereby, it prepares the students for writing an analytics- ture. They learn to design a numerical study to draw conclusions
+oriented Master’s thesis. Based on scientific literature, partici- on how this approach supports decisions for a problem in Opera-
+pants will apply and implement predictive or descriptive busi- tions Management. Additionally, they will learn how to present
+ness analytics approaches to solve an operations management the results of their analyses.
+problem. A sensitivity analysis demonstrates the reliability of the
+approach and generate managerial insights. Depending on the Prerequisites for participation
+assigned topic, students will work individually or in small teams. Necessary: At least one of the modules OPM 661 or OPM 662
+Students present their findings through a written report and an (parallel attendance possible) or an equivalent module within an
+oral presentation. exchange program.
+Recommended: Sound knowledge of programming in Python
+and familiarity in predictive or prescriptive operations analytics.
+Sound knowledge in production management, quantitative
+skills, as well as interest in scientific research is required.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written report (60%, scope depends on the assigned topic), presentation
+(30%), active contribution to class discussion (10%)
+Restricted admission yes
+Further information Registration at the end of the preceding term; website of the chair
+Examiner Prof. Dr. Raik Stolletz
+Performing lecturer Prof. Dr. Raik Stolletz
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Econ.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+243Module: OPM 761 Research Seminar Production EN
+Management
+Contents Learning outcomes
+The goal of this seminar is to introduce the participants to con- Students will learn to analyze the academic literature on a given
+ducting of scientific research in the field of production manage- topic in production management. They will become acquainted
+ment. Thereby, it prepares the students for writing their Master’s with the setup and composition of scientific research. Additional-
+theses. Participants will independently (i) apply a Business analyt- ly, they will learn how to present the results of their analyses.
+ics approach to a specific operations problem, (ii) carry out a liter-
+ature study on a given topic, or (iii) discuss and critically assess a Prerequisites for participation
+scientific paper in detail. The students present their findings Necessary: At least one of the modules OPM 6XX (parallel atten-
+through a written report and an oral presentation. dance possible) or an equivalent module within an exchange
+program.
+Recommended: As the topics are based on the modules OPM
+661 or OPM 662, additional preparation is required if students
+did not attend those modules. Sound knowledge in production
+management, sound quantitative skills, as well as interest in sci-
+entific research is required.
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written report (60%, scope depends on the assigned topic), presentation
+(30%), active contribution to class discussion (10%)
+Restricted admission yes
+Further information Registration at the end of the preceding term; website of the chair
+Examiner Prof. Dr. Raik Stolletz
+Performing lecturer Prof. Dr. Raik Stolletz
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+244Module: OPM 781 Research Seminar Service DE EN
+Operations Management
+Contents Learning outcomes
+The seminar introduces participants to conducting applied scien- Students will learn how to analyze the academic literature on a
+tific research in the field of (service) operations management in given topic and thereby get prepared to independently analyze
+order to prepare them for writing their master thesis. Participants and solve a decision problem in a scientific manner within the
+will carry out a literature research on a given topic in service op- management science field. Students will also learn how to the
+erations management and analyze a related decision problem. present the results of their analysis.
+Students will report their results in a paper and present their
+main findings in class. Also, the seminar aims at practicing pre- Prerequisites for participation
+sentation skills, such as speaking with clarity, confidence and Necessary: At least one module OPM 6XX (parallel attendance
+connection. possible upon request) or an equivalent module within an ex-
+change program.
+Further modules may be accepted by Professor upon request.
+Recommended: Sound knowledge in Operations and Service
+Operations Management. Good analytical skills. Interest in work-
+ing scientifically.
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language German, English
+Form of assessment Written report (60%, scope depends on the assigned topic), presentation
+(30%), active contribution to class discussion (10%)
+Restricted admission yes
+Further information Registration at the end of the preceding term; website of the chair
+Examiner Prof. Dr. Cornelia Schön
+Performing lecturer Prof. Dr. Cornelia Schön
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2, CG 4
+245Module: OPM 791 Research Seminar Procurement EN
+Contents In addition, participants will learn how to present research find-
+This research seminar examines current procurement topics from ings. Students will obtain:
+a research perspective. Students will deepen their understanding
+the competences for writing a high-quality (empirical) mas-
+of procurement and supply chain research and its implications
+ter thesis about a topic in the broader procurement arena,
+for practice. The main deliverables of this module are a research
+a sound understanding of structuring a research question
+paper, which each participant prepares independently over the
+systematically and independently gathering the knowledge
+course of the semester, and a corresponding in-class presenta-
+of the foundations, structures, and methodologies underly-
+tion at the end of the module. The suggested topics will empha-
+ing a given topic,
+size research rather than application and will be related to the
+the competences to present and discuss own and other’s re-
+current research interests of the Endowed Chair of Procurement.
+search findings.
+Participants will obtain an introduction to business research and
+to scientific writing in the context of supply (chain) management.
+Prerequisites for participation
+Learning outcomes Necessary: Attendance of at least one module OPM 6xx (parallel
+The main intended learning outcome is to attain the compe- attendance is possible) or an equivalent module within an ex-
+tences for writing a high-quality master thesis about a topic in change program
+the broader procurement arena. Participants will learn how to Recommended: OPM 591 and OPM 692 or equivalent modules
+structure a research question systematically and how to indepen- within exchange programs
+dently gather the knowledge of the foundations, structures, and
+methodologies underlying a given topic.
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written report (60%, scope depends on the assigned topic), presentation
+(30%), and contribution to in-class discussion (10%)
+Restricted admission yes
+Further information Student Portal
+Examiner Prof. Dr. Christoph Bode
+Performing lecturer Prof. Dr. Christoph Bode
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+246Module: OPM 792 Applied Seminar Procurement DE EN
+Contents how to analyze and solve procurement-related problems,
+This applied seminar revolves around a field study and combines how to carry out a practice-oriented project, rooted in the
+readings in procurement with the work as consultants to a busi- academic literature,
+ness. Organized in small teams, participants will work on specific how to apply procurement knowledge and link it to a wide
+procurement-related problems, defined in collaboration with array of business disciplines such as strategy organization,
+companies. At the end of the seminar, each team will present a marketing, or information systems.
+solution to the specific problem, based on the relevant literature
+and their own analyses. Results are summarized in a written re-
+Prerequisites for participation
+port and an oral presentation.
+Necessary: Attendance of at least one module OPM 6xx (parallel
+attendance is possible) or an equivalent module within an ex-
+Learning outcomes
+change program
+In the seminar, students will apply their knowledge in procure-
+Recommended: OPM 591 and OPM 692 or equivalent modules
+ment and supply chain management by consulting with a busi-
+within exchange programs; project management skills
+ness organization in a project. The consultancy project can re-
+volve around a) analyzing current opportunities and / or prob-
+lems in procurement, b) developing concepts to capture oppor-
+tunities and / or solve problems, c) making a proposal of how to
+implement the suggested concepts. Participants will learn:
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language German, English
+Form of assessment Written report (75%, scope depends on the assigned topic), presentation
+(25%)
+Restricted admission yes
+Further information –
+Examiner Prof. Dr. Christoph Bode
+Performing lecturer Prof. Dr. Christoph Bode
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2, CG 4
+247

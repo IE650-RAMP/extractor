@@ -1,0 +1,58 @@
+Foreword
+This document describes the courses that will be offered in academic year HWS 2023/ FSS 2024 for
+students studying M. Sc. Business Informatics (Examination Regulations for the Master’s Program from
+12th December 2017). You can find the Examination Regulations on the website of the Student Services
+(Studienbüros):
+https://www.uni-mannheim.de/en/academics/during-your-studies/examinations/examination-
+regulations/
+It is possible that additional courses will be made available during the course of the academic year.
+These will be published in an appendix available on the following web page:
+https://www.wim.uni-mannheim.de/studium/studienorganisation/m-sc-business-informatics/
+3
+
+iii. IS-Courses
+Please check the course list on page 26.
+For a detailed description please use the module catalog of the „Mannheim Master in
+Management “:
+https://www.bwl.uni-mannheim.de/en/programs/master/mmm/module-catalogs-2011-
+2020/
+75
+
+Part 2: Abbreviations
+Explanation of abbreviations
+Knowledge
+The courses are divided into two groups – fundamental courses and specialization courses. After
+studying mandatory fundamental courses in computer science and business administration, in their
+advanced courses students can focus on the concepts and methods of computers science, the
+application of these methods in system design and development, or on the use of information
+technology in business processes. In addition to the regular lecture courses, students participate in a
+team project.
+During their studies -
+(MK1) all students develop a deep understanding of the relevant concepts, methods and
+problem-solving strategies used in different application domains.
+(MK2) technology-oriented students learn the concepts, algorithms and strategies used to
+solve concrete, practical application-oriented problems in business informatics.
+(MK3) business-oriented students develop a deep understanding of how to deploy, develop
+and manage information systems.
+As part of this education, students become familiar with a wide range of models, modelling
+languages, methods, and tools. Students also learn how to collect, structure, manipulate, prepare,
+communicate, and use data, information, and knowledge to define and control processes in
+companies and industrial scenarios.
+Capabilities
+After completing their studies, students have the ability to –
+(MF1) apply a wide range of abstraction and analysis techniques.
+(MF2) understand, interpret, describe, and present relevant scientific publications.
+(MF3) exploit the latest scientific results.
+(MF4) independently tackle problems in business informatics and describe their results in a
+structured, written form.
+123(MF5) continue their studies at the PhD level, if their results are of sufficient quality.
+Competencies
+After completing their studies, students have the competences needed to –
+(MKO1) apply their knowledge and capabilities to solve specific problems in a team context.
+(MKO2) use their interdisciplinary education to mediate between technical and non-technical
+individuals.
+(MKO3) to evaluate the latest changes in programming languages, systems, business models
+and process models and, wherever possible, exploit them to develop better solutions
+to business informatics problems.
+124
+

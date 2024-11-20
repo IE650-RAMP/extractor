@@ -1,0 +1,534 @@
+3.3 AREA
+INFORMATION
+SYSTEMS
+95Module: IS 512 IT Management in the Digital Age EN
+Contents Learning outcomes
+Modern organizations are influenced and driven by information This course is designed for students who desire an insightful syn-
+technology (IT) and information systems (IS) in various ways. As opsis of IT management concepts and practices. After successful-
+competition becomes borderless, organizations are forced to ly completing the course, students should be able to
+continually examine ways to operate more effectively and effi- evaluate and initiate strategic IT initiatives, to organize (govern)
+ciently. Information technology and information systems are a the IT function, to understand the role of the Chief Information
+crucial means of obtaining these goals in the digital Age. IT and Officer in order to lead this function, to analyze, design and direct
+IS are also key enablers of new products, services and processes. outsourcing as well as offshoring initiatives, and to control the IT
+This course is designed for students who desire an insightful syn- function from a top management and risk management perspec-
+opsis of IT management concepts and practices. tive. IT management issues will be discussed from a planning,
+It is the objective of this course to offer profound insights into in- leadership, governance, sourcing and controlling perspective.
+formation systems and information technology management. Topics include:
+Strategic and tactical issues are given more attention than opera-
+Business / IT Alignment and Strategic IT Planning
+tional aspects.
+Governance frameworks, IT (de-)centralization and the role
+of the CIO
+The IT sourcing decision, hybrid arrangements, and off-
+shoring
+IT controlling and IT risk management.
+Prerequisites for participation
+Necessary: –
+Recommended: –
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission yes
+Further information Limited to 80 participants.
+Examiner Prof. Dr. Armin Heinzl
+Performing lecturer Prof. Dr. Armin Heinzl
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf.
+Preliminary course work –
+96Program-specific Competency Goals CG 1
+97Module: IS 513 Applied IT Management in the Digital Age EN
+Contents Furthermore, IT managers need to be able to understand oppor-
+IT management today is challenged by fast technological tunities of the digital age, evaluate the value of new technolo-
+change, new digital opportunities, growing cost pressure, and in- gies, and drive digital transformation jointly with the business.
+creasing business and regulatory requirements. IT management
+needs to ensure that IT functions become much more agile, flexi- Learning outcomes
+ble and efficient than ever before. For a state-of-the-art IT man- The lecture addresses key challenges that IT management is fac-
+agement a solid know-how regarding ing today and explains the capabilities and tools required to
+manage these challenges successfully. The concrete application
+Intelligent demand management,
+of the lectured content will be explained using selected case
+Application and data architecture,
+studies. The lecture focuses on banking as one concrete industry
+IT infrastructure,
+example. The fundamental principles, however, can be applied
+Organization and workforce management,
+across industries.
+Business/IT governance and lean IT processes, and
+Sourcing and location setup incl. vendor and partner man-
+Prerequisites for participation
+agement
+Necessary: IS 512 (in spring semester: parallel attendance possi-
+are crucial. ble)
+In addition, it is expected that IT managers have a good under- Recommended: –
+standing of the core business of their company (business/IT
+alignment) and sound IT cost management capabilities.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Case Study: Written assignment (slide deck, 80%) and presentation (20%)
+Restricted admission yes
+Further information Although IS 513 has no max. number of participants, an enrollment via the
+student portal is necessary for getting access to the course material. You
+will be directly admitted if you meet the requirements.
+Examiner Prof. Dr. Armin Heinzl
+Performing lecturer Dr. Michael Grebe
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf.
+Preliminary course work –
+Program-specific Competency Goals CG 2
+98Module: IS 515 Process Management & Analytics EN
+Contents Learning outcomes
+Business processes are the structural core of every modern enter- Upon successful completion of this course, students will be able
+prise. In this course, we will cover the fundamentals of business to:
+process management (BPM) by introducing students to relevant
+Design and improve business processes using suitable
+concepts and methods for modelling, analysing, implementing,
+methods
+and controlling processes. We will put particular focus on data-
+Analyze properties of process models and event logs
+driven BPM methods (process analytics). The overall course goals
+Apply and compare the most important methods of process
+are that students recognize the influence of data-driven business
+discovery and conformance checking
+process management on corporate success and are able to use
+Suggest data-based process optimizations
+analytical methods to discover and evaluate optimization poten-
+Explain how business processes can be supported by infor-
+tial for business processes. The lectures will be accompanied by
+mation technology
+exercise sessions, where the concepts and methods will be prac-
+tically applied through text-based exercises, manual computa-
+tions, standard process mining tools as well as light-weight pro- Prerequisites for participation
+gramming. In addition, students will have to participate in a case Necessary: Students may not take IS 515 if they took IS 514
+study, where they will apply process mining methods in a practi- Recommended: Fundamentals of enterprise modelling (e.g., IS
+cal business case. 401, IS 405); some knowledge in Python is helpful, but not re-
+quired
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 4 SWS
+Exercise class 2 SWS 4 SWS
+Case Study Presentation 0 SWS 5 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (60 min, 80%), group assignment (20%)
+Restricted admission yes
+Further information Limited to 60 participants
+Examiner Prof. Dr. Jana-Rebecca Rehse
+Performing lecturer Prof. Dr. Jana-Rebecca Rehse
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., MMDS
+Preliminary course work –
+99Program-specific Competency Goals CG 1, CG 2
+100Module: IS 540 Management of Enterprise Systems EN
+Contents The lecture is complemented with exercises and a case study.
+Enterprise Systems (ES) represent a specific category of informa- Students get the opportunity to collect hands-on experiences
+tion systems. They build on pre-packaged industry best practices with commercial software products and analyze and propose so-
+embedded in standardized product software and target large- lutions for a specific ES challenge. Thus, allowing them to build
+scale integration of data and business processes across all com- up first-hand experience with this important aspect for manag-
+pany's functional areas and beyond company borderlines. Enter- ing businesses successfully.
+prise Systems strongly interplay with work practices of individual
+employees as well as organizational structures shaping and be- Learning outcomes
+ing shaped by individuals' behavior. The ES lifecycle involves var- The students will
+ious entities both external and internal to the company. As such,
+understand basic concepts and types of Enterprise Systems,
+they impact multiple levels of a company, ranging from the indi-
+understand key characteristics of software products (e.g. En-
+vidual employee to groups to the entire organization and even
+terprise Resource Planning, Business Intelligence or Collabo-
+its associated network. As critical as the ability to manage these
+ration) on which ES are built on,
+ES is to most businesses, as challenging it is as well. This module
+understand the ES lifecycle including a development, imple-
+is designed to provide a comprehensive insight into theoretical
+mentation, and postimplementation phase,
+foundations, concepts, tools, and current practice of ES.
+get practical insights into the real-world ES.
+Prerequisites for participation
+Necessary: –
+Recommended: –
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Case Study Presentation 1 SWS 6 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Case study (20%) and written exam (60 min, 80%)
+Restricted admission yes
+Further information Limited to 80 participants.
+Examiner Prof. Dr. Hartmut Höhle
+Performing lecturer Prof. Dr. Hartmut Höhle
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., MAKUWI, MMDS
+Preliminary course work –
+101Program-specific Competency Goals CG 1, CG 2
+102Module: IS 541 Theories and Methods in Information EN
+Systems
+Contents A list of required readings is distributed after registration. In addi-
+This course provides students with an introduction to scientific tion, students are assigned contemporary articles published in IS
+research methods and theories in the field of information sys- journals that must be evaluated based on the topics covered in
+tems. Master students gain a broad overview of the strengths the course and presented during classroom sessions. Each stu-
+and weaknesses of different methods and theoretical perspec- dent finally writes a term paper of four to five pages on an as-
+tives. This overview prepares them for conducting own, bounded signed topic.
+research projects (e.g., master theses) as a first step towards a sci-
+entific career. In this course, students come to understand the Learning outcomes
+importance of theory for organizing and cumulating knowledge After completing the course, students
+as well as the importance of rigorous empirical methods to es-
+are able to prepare, plan, and execute own research endeav-
+tablish the validity of findings. The course covers publications in
+ors (e.g., master thesis).
+premier IS journals to exemplify and discuss procedures of quali-
+understand the relevance of methods and theories in mean-
+tative, quantitative, and design-oriented research. The course is
+ingful research.
+taught in a seminar style, requiring students to prepare readings
+know quality criteria and corresponding means to improve
+for discussions in class. Attendance in classroom sessions is
+research designs.
+mandatory. Students are required to prepare textbook chapters
+have gained an overview of most common methods and
+and selected readings on IS research in advance of the course.
+theories in IS research.
+Prerequisites for participation
+Necessary: –
+Recommended: Basic statistical knowledge recommended
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Presentation (30%), written term paper (70%, ten p.)
+Restricted admission yes
+Further information –
+Examiner Prof. Dr. Hartmut Höhle
+Performing lecturer Prof. Dr. Hartmut Höhle
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf.
+Preliminary course work –
+103Program-specific Competency Goals CG 1, CG 4
+104Module: IS 550 International Course – Information Systems EN
+Contents Learning outcomes
+Depends on course taken abroad Depends on course taken abroad
+Prerequisites for participation
+Necessary: The level of the course matches that of a regular
+MMM course (level 500 and above). The module can only be tak-
+en while studying abroad and complements the Mannheim cur-
+riculum.
+Recommended: –
+Graded yes
+Language English
+Form of assessment Depends on course taken abroad
+Restricted admission no
+Further information More than one class with this code can be taken; conditions apply, make
+sure to read the respective guidelines.
+Performing lecturer Lecturer at the host university. Course will be assessed when students
+request a learning agreement. Please find details in the „Guidelines for
+learning agreements and course recognition“ in ILIAS > MMM >
+Auslandssemester/Study Abroad Semester. Dozent/in an der
+Gastuniversität. Prüfung der Wertigkeit bei Abschluss eines Learning
+Agreements. Bitte lesen Sie das „Merkblatt zu Learning Agreements und
+Anerkennungen“ ILIAS > MMM > Auslandssemester/Study Abroad
+Semester.
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., other Master programs (depending on
+respective study regulations)
+Preliminary course work –
+105Module: IS 556 Public Blockchains EN
+Contents Learning outcomes
+This course gives an overview of blockchain technology and ap- Upon successful completion of this course, students:
+plications. It covers basic cryptographic principles and socio-eco-
+understand the basic functional mechanisms behind public
+nomic structures. Decentralized principles and applications are
+blockchain;
+discussed. Emphasis will be put on user interfaces and system ar-
+can analyze given public blockchains and their structure;
+chitectures. Token standards such as ERC 721 or ERC20 are cov-
+have acquired knowledge about standards and decentral-
+ered and exemplary applications are presented.
+ized applications on blockchains;
+The exercises part of the course covers the Solidity language for
+can program smart contracts in Solidity and deploy them on
+programming the Ethereum blockchain. Students need to de-
+Ethereum-compatible blockchains.
+ploy a number of programming assignments on the course’s
+can query and extract information from Ethereum-compati-
+blockchain and get tokens for successful submissions. Students
+ble blockchains.
+who collected enough tokens gain access to the final exam.
+Prerequisites for participation
+Necessary: –
+Recommended: Knowledge of computer programming (in any
+language).
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 6 SWS
+Exercise class 2 SWS 6 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission yes
+Further information https://www.bwl.uni-mannheim.de/en/information-systems/chairs/prof-dr-
+strohmaier/teaching/
+Examiner Prof. Dr. Markus Strohmaier
+Performing lecturer Prof. Dr. Markus Strohmaier, Dr. Stefano Balietti
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., MMDS
+Preliminary course work Students have to submit home assignments and collect at least 50% of the
+available points to be admitted to the exam.
+Program-specific Competency Goals CG 1
+106Module: IS 557 Introduction to Scientific Programming EN
+with Python
+Contents Learning outcomes
+This course introduces students to principles of scientific pro- On completion of the course students should be familiar with the
+gramming with the Python programming language. Aside from Python programming language and able to solve scientific and
+basic Python syntax, more advanced programming concepts and complex problems in Python. This covers the application of sci-
+important scientific libraries essential for data analysis and re- entific libraries, some machine learning techniques, and the col-
+search are introduced. lection of data with web mining.
+Acquired skills:
+Handling of scientific programming projects
+Independent choice of data-structures and methods to solve
+a given problem
+Knowledge about the different scientific libraries and their
+advantages
+Data preprocessing, analysis and visualization
+Prerequisites for participation
+Necessary: –
+Recommended: Basic knowledge about programming lan-
+guages, statistics, and linear algebra.
+Forms of teaching and learning Contact hours Independent study time
+Lecture with integrated exercise 4 SWS 17 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission yes
+Further information https://www.bwl.uni-mannheim.de/en/information-systems/chairs/prof-dr-
+strohmaier/teaching/
+Examiner Prof. Dr. Markus Strohmaier
+Performing lecturer Georg Ahnert
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., MMDS
+Preliminary course work Students have to submit home assignments and collect at least 50% of the
+available points to be admitted to the exam.
+107Program-specific Competency Goals CG 2
+108Module: IS 607 Digital Innovation EN
+Contents This format intentionally shifts instruction to a student-centred
+Digital innovations influence every aspect of our lives in this in- model in which time in the classroom is used to explore topics in
+creasingly technological world. Firms that pursue digital innova- greater depth and create meaningful learning opportunities
+tions must think carefully about how digital technologies shape while students are initially introduced to new topics outside of
+the nature, process and outcomes of innovation as well as the the classroom. Content delivery takes place through mandatory
+long- and short-term social, economic and cultural consequences pre-readings and collaborative class discussions.
+of their offerings. The attempts to contribute to building a trans-
+disciplinary understanding of digital innovation by bringing to- Learning outcomes
+gether a diverse set of research papers from leading scholars Students that accomplish this course will
+from business, engineering, economics, science and public poli-
+understand the foundations of digital innovations,
+cy. Their distinct perspectives advance ideas and principles in-
+be proficient in digital platforms, ecosystems, and en-
+tended to set the agenda for current and future research on digi-
+trepreneurship,
+tal innovation in ways that inform primarily firm-level strategies
+advance their knowledge on business models and value cre-
+and practices. The course provides scope and depth for master
+ation in digital innovation,
+students interested in information systems and digital technolo-
+comprehend its impact on the future of work, and
+gies, innovation and entrepreneurship, strategy, and digital plat-
+be exposed to transdisciplinary application domains.
+forms and ecosystems. In addition, it is informative to scholars in-
+terested in the impact of digital technologies on organizations
+and the broader society. The course will be taught on a flipped Prerequisites for participation
+classroom basis. A flipped classroom is an instructional strategy Necessary: IS 512 or IS 614 or IS 615
+and a type of blended learning focused on student engagement Recommended: IS 615
+and active learning, giving the instructor a better opportunity to
+deal with mixed levels, student difficulties, and differentiated
+learning preferences during in-class time.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission yes
+Further information Website of the Chair
+Examiner Dr. Anna-Maria Seeger
+Performing lecturer Dr. Anna-Maria Seeger
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf.
+Preliminary course work Reading the respective chapter in the assigned literature
+109Program-specific Competency Goals CG 1
+110Module: IS 613 Applied Project in Enterprise Cloud Design EN
+and Development
+Contents Learning outcomes
+The goal of this term project is to collaboratively develop a soft- After completing the project, students will be able to:
+ware artifact to solve a real-world business problem in a student
+learn how to apply design principles for developing user
+development team environment. We offer a project-based lec-
+centered applications,
+ture with hands-on experience for enterprise cloud software de-
+understand the difficulties involved in team-based software
+velopment as well as general agile software development prac-
+development,
+tices, lean management principles, as well as design thinking and
+improve both product design and software engineering
+business model innovation practices. Students will learn about
+skills
+innovative product and process design for software develop-
+improve the ability to work in teams and collaborate effec-
+ment which then can be directly applied in exercise sessions and
+tively
+project iterations. The used technology will depend on the stu-
+and use state-of-the-art software engineering methods and
+dents’ skills and experience. Prototypes must be developed and
+tools.
+deployed with state-of-the-art cloud technology.
+Prerequisites for participation
+Necessary: IS 615 (parallel attendance possible)
+Recommended: This course is designed for master students of
+management or information systems. A basic understanding of
+how to program information systems is helpful.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Software development term project
+Restricted admission yes
+Further information Limited to 32 participants. More information: Chair’s Website (www.bwl.uni-
+mannheim.de/heinzl/)
+Examiner Dr. Alexander Scheerer
+Performing lecturer Dr. Alexander Scheerer
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf.
+Preliminary course work –
+Program-specific Competency Goals CG 2
+111Module: IS 614 Corporate Knowledge Management EN
+Contents Learning outcomes
+Companies have realized that the knowledge of their profession- Course participants will be able to:
+als is a decisive factor in competition. Firms are able to differenti-
+explain the role and importance of knowledge for organiza-
+ate against their competitors through superior knowledge in the
+tions
+long term. This lecture deals with the question of how the cre-
+understand and explain the processes of knowledge man-
+ation acquisition, transfer, storage, retrieval, and use of knowl-
+agement (KM)
+edge can be supported with the information technology and
+describe and evaluate the possibilities to support the differ-
+where the limits of such efforts are. It also addresses how to de-
+ent knowledge processes through information technology
+sign information technology to support different knowledge pro-
+understand and evaluate different design principles of KM
+cesses.
+systems
+evaluate and apply organizational and technological mecha-
+nisms that ensure the use of KM systems
+Prerequisites for participation
+Necessary: –
+Recommended: –
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (60 min), optional case study (20%)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Armin Heinzl
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., MAKUWI
+Preliminary course work –
+Program-specific Competency Goals CG 1
+112Module: IS 615 Enterprise Cloud Design and EN
+Development
+Contents Learning outcomes
+Enterprise software is expected to serve a plethora of customer After completing the class, students will be able to:
+needs from different industries in an integrated and seamless
+Understand specific issues and challenges of cloud-based
+way. Traditionally, the market leaders provided integrated enter-
+enterprise software;
+prise resource planning (ERP) solutions as a suite of business ap-
+Understand basic issues and challenges in enterprise soft-
+plications that are being operated by their customers on-premis-
+ware development?;
+es or hosted as isolated instances by third party providers. Today,
+Understand and apply large-scale agile development based
+customers and end users expect fully cloud-based provisioning
+on lean principles;
+so that business models leaving the operations and related costs
+Understand the principles of multi-team coordination and
+with the vendors of enterprise software. Hence, established soft-
+planning as well as
+ware vendors have to rethink and improve the way they organize
+Understand empirical process control and traceability man-
+development in terms of skills and organizational design, devel-
+agement in enterprise software development;
+opment processes and methodology, business models as well as
+Understand and apply Design Thinking and related innova-
+tools and technologies needed. This academic lecture includes
+tion practices;
+agile software development practices including multi-team coor-
+Understand and evaluate business models for enterprise
+dination and planning as well as empirical process control and
+software solutions?;
+traceability management. Moreover, lean thinking combined
+Understand and apply how to bring all of this together in
+with Design Thinking and related practices are increasingly
+enterprise reality;
+adopted and intertwined in the software industry. The goal of
+Understand and evaluate state-of-the-art software engineer-
+this module is to convey approaches from research and industry
+ing methods;
+experience together with practical application based on concrete
+Understand and explain particular success strategies recom-
+enterprise cloud software challenges including both, lecture, and
+mended by practitioners.
+workshop formats.
+A combination with IS 613 as related term project applying the
+content is highly recommended.
+Prerequisites for participation
+Necessary: –
+Recommended: attendance of IS 613 in the same semester is
+recommended
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (60 min, 80%), case study (20%)
+Restricted admission yes
+Further information Chair’s Website (www.bwl.uni-mannheim.de/heinzl)
+Examiner Prof. Dr. Tobias Schimmer
+Performing lecturer Prof. Dr. Tobias Schimmer und Dr. Philipp Hoffmann
+Frequency of offering Fall semester
+113Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2
+114

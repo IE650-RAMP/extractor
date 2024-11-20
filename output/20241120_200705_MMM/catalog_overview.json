@@ -1,0 +1,745 @@
+{
+    "name": "Mannheim Master in Management",
+    "hasDegree": [
+        "MASTER_OF_SCIENCE"
+    ],
+    "studyArea": [
+        {
+            "name": "Core Competences",
+            "requiredEcts": [
+                16
+            ],
+            "modules": [
+                {
+                    "name": "decision_analysis_business_analytics_ii",
+                    "id": "CC_501"
+                },
+                {
+                    "name": "applied_econometrics",
+                    "id": "CC_502"
+                },
+                {
+                    "name": "empirical_methods_business_analytics_i",
+                    "id": "CC_503"
+                },
+                {
+                    "name": "corporate_social_responsibility",
+                    "id": "CC_504"
+                }
+            ]
+        },
+        {
+            "name": "Business Economics",
+            "requiredEcts": [
+                12
+            ],
+            "modules": [
+                {
+                    "name": "business_economics_i",
+                    "id": "BE_510"
+                },
+                {
+                    "name": "business_economics_ii",
+                    "id": "BE_511"
+                }
+            ]
+        },
+        {
+            "name": "Business Administration",
+            "requiredEcts": [
+                44,
+                68
+            ],
+            "modules": [
+                {
+                    "name": "financial_accounting",
+                    "id": "ACC_510"
+                },
+                {
+                    "name": "ifrs_reporting_and_capital_markets",
+                    "id": "ACC_520"
+                },
+                {
+                    "name": "group_accounting",
+                    "id": "ACC_530"
+                },
+                {
+                    "name": "financial_statement_analysis_equity_valuation",
+                    "id": "ACC_540"
+                },
+                {
+                    "name": "managerial_accounting_evaluating_financial_and_non_financial_performance",
+                    "id": "ACC_MAN_560"
+                },
+                {
+                    "name": "international_course_accounting_and_taxation",
+                    "id": "ACC_TAX_550"
+                },
+                {
+                    "name": "esg_regulation_and_sustainability_reporting",
+                    "id": "ACC_TAX_570"
+                },
+                {
+                    "name": "taxation_of_companies",
+                    "id": "TAX_520"
+                },
+                {
+                    "name": "specialisation_in_company_taxation",
+                    "id": "TAX_521"
+                },
+                {
+                    "name": "taxation_of_businesses_and_individuals",
+                    "id": "TAX_530"
+                },
+                {
+                    "name": "accounting_for_financial_instruments_and_financial_institutions",
+                    "id": "ACC_620"
+                },
+                {
+                    "name": "audit_theory",
+                    "id": "ACC_670"
+                },
+                {
+                    "name": "case_studies_on_consulting_in_financial_services_firms",
+                    "id": "ACC_676"
+                },
+                {
+                    "name": "disclosure_theory",
+                    "id": "ACC_680"
+                },
+                {
+                    "name": "corporate_sustainability_strategies_and_value_creation",
+                    "id": "ACC_MAN_660"
+                },
+                {
+                    "name": "corporate_sustainability_performance_measurement_assessment_and_improvement",
+                    "id": "ACC_MAN_661"
+                },
+                {
+                    "name": "private_equity_due_diligence_and_value_creation",
+                    "id": "ACC_MAN_662"
+                },
+                {
+                    "name": "case_studies_in_international_company_taxation",
+                    "id": "TAX_611"
+                },
+                {
+                    "name": "causal_data_science_for_business_decision_making",
+                    "id": "TAX_620"
+                },
+                {
+                    "name": "international_business_taxation",
+                    "id": "TAX_630"
+                },
+                {
+                    "name": "international_taxation_of_multinational_enterprises",
+                    "id": "TAX_631"
+                },
+                {
+                    "name": "tax_planning_the_role_of_taxes_for_business_decisions",
+                    "id": "TAX_660"
+                },
+                {
+                    "name": "case_studies_in_international_tax_planning",
+                    "id": "TAX_661"
+                },
+                {
+                    "name": "accounting_seminar",
+                    "id": "ACC_750"
+                },
+                {
+                    "name": "seminar_in_business_taxation",
+                    "id": "TAX_730"
+                }
+            ]
+        },
+        {
+            "name": "Finance",
+            "requiredEcts": [
+                0
+            ],
+            "modules": [
+                {
+                    "name": "investments",
+                    "id": "FIN_500"
+                },
+                {
+                    "name": "corporate_finance_i_lecture_capital_structure_cost_of_capital_and_valuation",
+                    "id": "FIN_540"
+                },
+                {
+                    "name": "corporate_finance_i_case_study_capital_structure_cost_of_capital_and_valuation",
+                    "id": "FIN_541"
+                },
+                {
+                    "name": "international_course_banking_finance_and_insurance",
+                    "id": "FIN_550"
+                },
+                {
+                    "name": "financial_markets_and_employees",
+                    "id": "FIN_555"
+                },
+                {
+                    "name": "derivatives_basic_strategies_and_pricing",
+                    "id": "FIN_580"
+                },
+                {
+                    "name": "financial_institutions_i",
+                    "id": "FIN_590"
+                },
+                {
+                    "name": "bond_markets",
+                    "id": "FIN_601"
+                },
+                {
+                    "name": "trading_and_exchanges",
+                    "id": "FIN_602"
+                },
+                {
+                    "name": "empirical_finance",
+                    "id": "FIN_603"
+                },
+                {
+                    "name": "stata_in_finance",
+                    "id": "FIN_604"
+                },
+                {
+                    "name": "fintech",
+                    "id": "FIN_606"
+                },
+                {
+                    "name": "behavioral_finance",
+                    "id": "FIN_620"
+                },
+                {
+                    "name": "corporate_governance",
+                    "id": "FIN_630"
+                },
+                {
+                    "name": "corporate_finance_ii_mergers_acquisitions_and_divestitures",
+                    "id": "FIN_640"
+                },
+                {
+                    "name": "responsible_leadership_for_honors_program_students",
+                    "id": "FIN_661"
+                },
+                {
+                    "name": "international_asset_management_modern_investment_management_responsible_investing_and_fintech",
+                    "id": "FIN_682"
+                },
+                {
+                    "name": "financial_institutions_ii",
+                    "id": "FIN_684"
+                },
+                {
+                    "name": "sustainable_finance_and_impact_investing",
+                    "id": "FIN_686"
+                },
+                {
+                    "name": "python_in_finance",
+                    "id": "FIN_687"
+                },
+                {
+                    "name": "seminar_in_financial_markets",
+                    "id": "FIN_703"
+                },
+                {
+                    "name": "seminar_corporate_governance",
+                    "id": "FIN_731"
+                },
+                {
+                    "name": "corporate_finance_seminar",
+                    "id": "FIN_740"
+                },
+                {
+                    "name": "seminar_in_asset_management_international_finance",
+                    "id": "FIN_780"
+                },
+                {
+                    "name": "seminar_in_financial_markets_and_financial_institutions",
+                    "id": "FIN_790"
+                }
+            ]
+        },
+        {
+            "name": "Information Systems",
+            "requiredEcts": [
+                0
+            ],
+            "modules": [
+                {
+                    "name": "it_management_in_the_digital_age",
+                    "id": "IS_512"
+                },
+                {
+                    "name": "applied_it_management_in_the_digital_age",
+                    "id": "IS_513"
+                },
+                {
+                    "name": "process_management_analytics",
+                    "id": "IS_515"
+                },
+                {
+                    "name": "management_of_enterprise_systems",
+                    "id": "IS_540"
+                },
+                {
+                    "name": "theories_and_methods_in_information_systems",
+                    "id": "IS_541"
+                },
+                {
+                    "name": "international_course_information_systems",
+                    "id": "IS_550"
+                },
+                {
+                    "name": "public_blockchains",
+                    "id": "IS_556"
+                },
+                {
+                    "name": "introduction_to_scientific_programming_with_python",
+                    "id": "IS_557"
+                },
+                {
+                    "name": "digital_innovation",
+                    "id": "IS_607"
+                },
+                {
+                    "name": "applied_project_in_enterprise_cloud_design_and_development",
+                    "id": "IS_613"
+                },
+                {
+                    "name": "corporate_knowledge_management",
+                    "id": "IS_614"
+                },
+                {
+                    "name": "enterprise_cloud_design_and_development",
+                    "id": "IS_615"
+                },
+                {
+                    "name": "large_scale_data_analysis_and_visualization",
+                    "id": "IS_616"
+                },
+                {
+                    "name": "network_science",
+                    "id": "IS_622"
+                },
+                {
+                    "name": "advances_in_public_blockchains",
+                    "id": "IS_628"
+                },
+                {
+                    "name": "agile_software_product_management_and_design",
+                    "id": "IS_629"
+                },
+                {
+                    "name": "forschungsmethoden_data_science",
+                    "id": "IS_635"
+                },
+                {
+                    "name": "text_analytics",
+                    "id": "IS_661"
+                },
+                {
+                    "name": "seminar",
+                    "id": "IS_712"
+                },
+                {
+                    "name": "seminar_data_science_ii",
+                    "id": "IS_723"
+                },
+                {
+                    "name": "seminar_current_topics_in_human_x_ai_collaboration",
+                    "id": "IS_724"
+                },
+                {
+                    "name": "seminar_trends_in_enterprise_systems",
+                    "id": "IS_742"
+                },
+                {
+                    "name": "seminar_on_process_and_management_analytics",
+                    "id": "IS_752"
+                }
+            ]
+        },
+        {
+            "name": "Management",
+            "requiredEcts": [
+                0
+            ],
+            "modules": [
+                {
+                    "name": "managerial_accounting_evaluating_financial_and_non_financial_performance",
+                    "id": "ACC_MA_N_560"
+                },
+                {
+                    "name": "science_management",
+                    "id": "MAN_521"
+                },
+                {
+                    "name": "responsibility_in_management",
+                    "id": "MAN_522"
+                },
+                {
+                    "name": "international_course_management",
+                    "id": "MAN_550"
+                },
+                {
+                    "name": "business_society_and_the_environment",
+                    "id": "MAN_608"
+                },
+                {
+                    "name": "strategic_management_between_profit_and_purpose_insights_from_hybrid_organisations",
+                    "id": "MAN_609"
+                },
+                {
+                    "name": "entrepreneurship_and_innovation_enhancing_access_to_capital_via_crowdfunding",
+                    "id": "MAN_626"
+                },
+                {
+                    "name": "introduction_to_entrepreneurship",
+                    "id": "MAN_630"
+                },
+                {
+                    "name": "creativity_and_entrepreneurship_in_practice",
+                    "id": "MAN_631"
+                },
+                {
+                    "name": "advanced_entrepreneurship",
+                    "id": "MAN_632"
+                },
+                {
+                    "name": "entrepreneurial_behavior_and_crowdfunding_social_ventures",
+                    "id": "MAN_634"
+                },
+                {
+                    "name": "employment_relations",
+                    "id": "MAN_638"
+                },
+                {
+                    "name": "transform_innovation_entrepreneurship_for_sustainability",
+                    "id": "MAN_639"
+                },
+                {
+                    "name": "human_resource_training_and_development",
+                    "id": "MAN_644"
+                },
+                {
+                    "name": "leadership_and_motivation",
+                    "id": "MAN_645"
+                },
+                {
+                    "name": "hr_analytics",
+                    "id": "MAN_646"
+                },
+                {
+                    "name": "strategic_and_international_human_resource_management",
+                    "id": "MAN_647"
+                },
+                {
+                    "name": "incentives_and_performance",
+                    "id": "MAN_648"
+                },
+                {
+                    "name": "human_resource_recruitment_and_selection",
+                    "id": "MAN_649"
+                },
+                {
+                    "name": "corporate_restructuring",
+                    "id": "MAN_654"
+                },
+                {
+                    "name": "corporate_strategy",
+                    "id": "MAN_655"
+                },
+                {
+                    "name": "mergers_acquisitions",
+                    "id": "MAN_656"
+                },
+                {
+                    "name": "understanding_and_tackling_societal_challenges_through_management_research",
+                    "id": "MAN_659"
+                },
+                {
+                    "name": "sustainability_management_simulation_net_zero",
+                    "id": "MAN_665"
+                },
+                {
+                    "name": "leadership_in_organizations",
+                    "id": "MAN_668"
+                },
+                {
+                    "name": "selected_challenges_in_nonprofit_management",
+                    "id": "MAN_675"
+                },
+                {
+                    "name": "selected_challenges_in_public_management",
+                    "id": "MAN_676"
+                },
+                {
+                    "name": "a_scientific_introduction_into_public_and_nonprofit_management",
+                    "id": "MAN_679"
+                },
+                {
+                    "name": "challenges_of_public_and_nonprofit_management_case_study_seminar",
+                    "id": "MAN_680"
+                },
+                {
+                    "name": "innovation_management",
+                    "id": "MAN_690"
+                },
+                {
+                    "name": "selected_topics_in_organizational_behavior",
+                    "id": "MAN_691"
+                },
+                {
+                    "name": "strategic_intellectual_property_management",
+                    "id": "MAN_693"
+                },
+                {
+                    "name": "advanced_topics_in_digital_transformation",
+                    "id": "MAN_699"
+                },
+                {
+                    "name": "research_seminar_public_nonprofit_management",
+                    "id": "MAN_710"
+                },
+                {
+                    "name": "research_seminar_organization_and_innovation",
+                    "id": "MAN_721"
+                },
+                {
+                    "name": "research_seminar_on_human_resource_management_and_leadership",
+                    "id": "MAN_741"
+                },
+                {
+                    "name": "seminar_corporate_strategy_governance",
+                    "id": "MAN_750"
+                },
+                {
+                    "name": "research_seminar",
+                    "id": "MAN_770"
+                },
+                {
+                    "name": "seminar_on_corporate_decarbonization",
+                    "id": "MAN_771"
+                }
+            ]
+        },
+        {
+            "name": "Marketing and Sales",
+            "requiredEcts": [
+                0
+            ],
+            "modules": [
+                {
+                    "name": "price_and_product_management",
+                    "id": "MKT_510"
+                },
+                {
+                    "name": "marketing_analytics",
+                    "id": "MKT_511"
+                },
+                {
+                    "name": "designing_data_driven_business_models",
+                    "id": "MKT_512"
+                },
+                {
+                    "name": "market_research",
+                    "id": "MKT_520"
+                },
+                {
+                    "name": "marketing_theory_consumer_behavior_and_decision_making",
+                    "id": "MKT_531"
+                },
+                {
+                    "name": "customers_markets_and_firm_strategy",
+                    "id": "MKT_545"
+                },
+                {
+                    "name": "international_course_marketing_sales",
+                    "id": "MKT_550"
+                },
+                {
+                    "name": "service_business_model_innovations",
+                    "id": "MKT_561"
+                },
+                {
+                    "name": "marketing_strategy_for_innovation_sustainability",
+                    "id": "MKT_575"
+                },
+                {
+                    "name": "digital_marketing_strategy",
+                    "id": "MKT_580"
+                },
+                {
+                    "name": "business_to_business_marketing",
+                    "id": "MKT_612"
+                },
+                {
+                    "name": "marketing_communication",
+                    "id": "MKT_614"
+                },
+                {
+                    "name": "sales_management",
+                    "id": "MKT_615"
+                },
+                {
+                    "name": "fundamentals_of_negotiation",
+                    "id": "MKT_616"
+                },
+                {
+                    "name": "applied_negotiation",
+                    "id": "MKT_617"
+                },
+                {
+                    "name": "country_manager",
+                    "id": "MKT_622"
+                },
+                {
+                    "name": "strategic_marketing_management_simulation",
+                    "id": "MKT_623"
+                },
+                {
+                    "name": "data_scraping_for_analytics_and_ai_using_r",
+                    "id": "MKT_624"
+                },
+                {
+                    "name": "consumer_behavior",
+                    "id": "MKT_661"
+                },
+                {
+                    "name": "branding_and_brand_management",
+                    "id": "MKT_663"
+                },
+                {
+                    "name": "research_seminar",
+                    "id": "MKT_710"
+                },
+                {
+                    "name": "research_seminar",
+                    "id": "MKT_720"
+                },
+                {
+                    "name": "research_seminar",
+                    "id": "MKT_730"
+                },
+                {
+                    "name": "research_seminar",
+                    "id": "MKT_740"
+                }
+            ]
+        },
+        {
+            "name": "Operations Management",
+            "requiredEcts": [
+                0
+            ],
+            "modules": [
+                {
+                    "name": "supply_chain_design",
+                    "id": "OPM_501"
+                },
+                {
+                    "name": "inventory_management",
+                    "id": "OPM_502"
+                },
+                {
+                    "name": "transportation_management_road_rail_and_sea_freight",
+                    "id": "OPM_503"
+                },
+                {
+                    "name": "transportation_management_aviation",
+                    "id": "OPM_504"
+                },
+                {
+                    "name": "sustainable_operations_management",
+                    "id": "OPM_510"
+                },
+                {
+                    "name": "supply_chain_risk_management_from_strategy_to_operations",
+                    "id": "OPM_544"
+                },
+                {
+                    "name": "international_course_operations_management",
+                    "id": "OPM_550"
+                },
+                {
+                    "name": "business_analytics_introduction_to_operations_analytics_with_python",
+                    "id": "OPM_560"
+                },
+                {
+                    "name": "production_management_lean_approaches_and_variability",
+                    "id": "OPM_561"
+                },
+                {
+                    "name": "service_operations_management",
+                    "id": "OPM_581"
+                },
+                {
+                    "name": "case_studies_in_operations_management_unlocking_the_power_of_ai",
+                    "id": "OPM_582"
+                },
+                {
+                    "name": "strategic_procurement",
+                    "id": "OPM_591"
+                },
+                {
+                    "name": "negotiation",
+                    "id": "OPM_593"
+                },
+                {
+                    "name": "next_generation_procurement",
+                    "id": "OPM_597"
+                },
+                {
+                    "name": "supply_chain_strategy",
+                    "id": "OPM_601"
+                },
+                {
+                    "name": "business_analytics_robust_planning_in_stochastic_systems",
+                    "id": "OPM_661"
+                },
+                {
+                    "name": "business_analytics_modeling_and_optimization",
+                    "id": "OPM_662"
+                },
+                {
+                    "name": "revenue_management_and_dynamic_pricing",
+                    "id": "OPM_682"
+                },
+                {
+                    "name": "strategic_sourcing",
+                    "id": "OPM_692"
+                },
+                {
+                    "name": "research_seminar_supply_chain_management",
+                    "id": "OPM_701"
+                },
+                {
+                    "name": "applied_seminar_supply_chain_management",
+                    "id": "OPM_741"
+                },
+                {
+                    "name": "project_seminar_operations_analytics",
+                    "id": "OPM_760"
+                },
+                {
+                    "name": "research_seminar_production_management",
+                    "id": "OPM_761"
+                },
+                {
+                    "name": "research_seminar_service_operations_management",
+                    "id": "OPM_781"
+                },
+                {
+                    "name": "research_seminar_procurement",
+                    "id": "OPM_791"
+                },
+                {
+                    "name": "applied_seminar_procurement",
+                    "id": "OPM_792"
+                }
+            ]
+        }
+    ]
+}

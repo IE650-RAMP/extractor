@@ -1,0 +1,516 @@
+CS 709 Seminar Text Analytics
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+IS 661 “Text Analytics” or IE 663 “Web Search and Information Re-
+Prerequisites trieval”. Fundamental notions of linear algebra and probability the-
+ory.
+In this seminar, students write a survey/scientific paper and pro-
+vide an overview presentation of state-of-the-art research, as
+found within the existing literature (i.e., published research pa-
+Aim of module pers). Topics of interest focus around a variety of problems and
+tasks from the fields of Natural Language Processing and Infor-
+mation Retrieval. The paper and the presentation are prepared un-
+der the guidance of a professor or a research staff member.
+Expertise:
+Students will acquire a deep understanding of the research topic.
+He/she is expected to describe in-depth and summarize the topic
+in detail in his/her own words, as well as to judge the contribution
+of the research papers to ongoing research.
+(MK1, MK2, MK3)
+Methodological competence:
+Students will develop methods and skills to find relevant literature
+Learning Outcomes and for his/her topic, to write a well-structured survey/scientific paper
+Qualification Goals and to present his/her results. He/she will be also aware of the
+need to avoid plagiarism. The key qualification Scientific Research
+is highly recommended as a prerequisite for the seminar.
+(MF2)
+Personal qualification:
+Students will acquire skills on how to find relevant literature for a
+research topic, write a well-structured, concise paper about it and
+present the results of their work. He/she is well prepared to write
+and present a Master’s Thesis.
+(MF2)
+Scientific papers and books; presentation with PowerPoint or La-
+Media
+TeX.
+120Literature Depends on the topic of the seminar
+Teaching and Learning Do scientific work independently under the guidance of a professor
+Methods or a research staff member. Active discussions in a group of peers.
+Seminar report (length: 5-25 pages); oral presentation (15-60
+Form of Assessment
+minutes)
+Admission requirements for -
+assessment
+6-8 weeks (writing of the report 5-25 pages), 15-60 minutes
+Duration of Assessment
+(presentation).
+Language English or German
+Offering Irregular
+Lecturers Prof. Dr. Simone Paolo Ponzetto
+Person in charge Prof. Dr. Simone Paolo Ponzetto
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of Application
+ence
+Semester 3rd semester
+121CS 710 Selected Topics in Data Science
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+Prerequisites Bachelor degree, the fundamentals
+In this seminar, students perform scientific research, either in the
+form of a literature review or by conducting a small experiment, or
+Aim of module a mixture of both, and prepare a written report about the results.
+Topics of interest focus around a variety of problems and tasks
+from the fields of Data Mining, Web Mining, or the Semantic Web.
+Expertise:
+Students will acquire a deep understanding of the research topic.
+He/she is expected to describe in-depth and summarize the topic
+in detail in his/her own words, as well as to judge the contribution
+of the research papers to ongoing research.
+(MK1, MK2, MK3)
+Methodological competence:
+Students will develop methods and skills to find relevant literature
+for his/her topic, to prepare methodologically sound scientific ex-
+Learning Outcomes and
+periments, and to write a well-structured scientific paper and to
+Qualification Goals
+present his/her results. He/she will be also aware of the need to
+avoid plagiarism. The key qualification Scientific Research is highly
+recommended as a prerequisite for the seminar.
+(MF2)
+Personal qualification:
+Students will acquire skills on how to find relevant literature for a
+research topic, organize a small research task, write a well-struc-
+tured, concise paper about it and present the results of their work.
+He/she is well prepared to write and present a Master’s Thesis.
+(MF2)
+Media Scientific papers and books
+Literature Depends on the topic of the seminar
+Teaching and Learning Do scientific work independently under the guidance of a professor
+Methods or a research staff member
+122Seminar paper (length: 5-25 pages depending on the topic), Peer
+Form of Assessment Review (1-10 pages depending on the topic), Presentation (15-60
+minutes depending on the topic).
+Admission requirements for
+-
+assessment
+Duration of Assessment 6-8 weeks (writing of the essay), 15-60 minutes (presentation).
+Language English or German
+Offering Irregular
+Lecturers Prof. Dr. Heiko Paulheim and research staff members
+Person in charge Prof. Dr. Heiko Paulheim
+Duration of module 1 semester
+Further modules -
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of Application
+ence, Lehramt für Gymnasien
+Semester 3rd semester
+123CS 715 Large-Scale Data Integration Seminar
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+Prerequisites Bachelor degree, the fundamentals
+In this seminar, students perform scientific research, either in the
+form of a literature review or by conducting a small experiment, or
+a mixture of both, and prepare a written report about the results.
+Aim of module
+Topics of interest focus around a variety of problems and tasks
+from the fields of Information Extraction, Schema Matching, Iden-
+tity Resolution, Data Fusion, Data Mining, Web Mining.
+Expertise:
+Students will acquire a deep understanding of the research topic.
+He/she is expected to describe in-depth and summarize the topic
+in detail in his/her own words, as well as to judge the contribution
+of the research papers to ongoing research.
+(MK1, MK2, MK3)
+Methodological competence:
+Students will develop methods and skills to find relevant literature
+for his/her topic, to prepare methodologically sound scientific ex-
+Learning Outcomes and
+periments, and to write a well-structured scientific paper and to
+Qualification Goals
+present his/her results. He/she will be also aware of the need to
+avoid plagiarism. The key qualification Scientific Research is highly
+recommended as a prerequisite for the seminar.
+(MF2)
+Personal qualification:
+Students will acquire skills on how to find relevant literature for a
+research topic, organize a small research task, write a well-struc-
+tured, concise paper about it and present the results of their work.
+He/she is well prepared to write and present a Master’s Thesis.
+(MF2)
+Media Scientific papers and books
+Literature Depends on the topic of the seminar
+124Teaching and Learning Do scientific work independently under the guidance of a professor
+Methods or a research staff member
+Form of Assessment Seminar paper (length: 5-25 pages depending on the topic).
+Admission requirements for -
+assessment
+Duration of Assessment 6-8 weeks (writing of the seminar paper)
+Language English
+Offering Irregular
+Lecturers Prof. Dr. Christian Bizer and research staff members
+Person in charge Prof. Dr. Christian Bizer
+Duration of module 1 semester
+Further modules -
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of Application
+ence, Lehramt für Gymnasien
+Semester 3rd semester
+125CS 716 IT-Security
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+Prerequisites Bachelor degree, the fundamentals
+The student gives a presentation on a current research topic
+based on published research papers. The topics are proposed by
+the professor (but the student may also propose topics). The
+presentation is prepared under the guidance of a professor or a
+Aim of module
+research staff member. The student may also moderate a discus-
+sion of a presentation of a fellow student or act as a peer re-
+viewer for the presentations or reports of other students. Active
+participation in the seminar discussions is expected.
+Expertise:
+The student gains a deep understanding of the research topic.
+He/she is able to describe/summarize the topic in detail in his/her
+own words. He/she reflects on the topic and judges the contribu-
+tions of the research papers.
+(MK1, MK2, MK3)
+Methodological competence:
+The student is able to read, understand, and explore scientific lit-
+Learning Outcomes and
+erature relevant to his/her topic. He/she is also aware of the
+Qualification Goals
+need to avoid plagiarism. The key qualification Scientific Research
+is recommended as a prerequisite for this seminar.
+(MF2)
+Personal qualification:
+The student has learned how to find relevant literature for a re-
+search topic, write a well-structured, concise report about it and
+give a presentation. He/she will be well prepared to write and
+present a Master's Thesis.
+(MF2)
+Scientific papers and books; final presentation with PowerPoint
+Media
+or similar software
+Literature Depends on the topic of the seminar
+126Do scientific work independently under the guidance of a profes-
+Teaching and Learning
+sor or a research staff member. Active discussions in a group of
+Methods
+peers.
+Form of Assessment Grading of the oral presentation and the seminar paper.
+Admission requirements for
+Timely hand-in of seminar paper and presentation
+assessment
+Duration of Assessment 60 minutes talk, 30 minutes discussion
+Language English
+Offering Irregular
+Lecturers Prof. Dr. Armknecht
+Person in charge Prof. Dr. Armknecht
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, Lehramt für Gymnasien, M.Sc. Wirt-
+Range of Application
+schaftsmathematik
+Semester 3rd Semester
+127CS 717 Master Seminar on Computer Vision
+Form of module Seminar
+Type of module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+Prerequisites Higher Level Computer Vision or Image Processing
+The student prepares a scientific paper and gives a presenta-
+tion on a current research topic based on published research.
+State-of-the-art topics are proposed by the professors. The
+Aim of module paper and the presentation are prepared under the guidance
+of a professor or a research staff member. Active participa-
+tion in the seminar discussions is expected.
+Expertise:
+The student gains a deep understanding of the research
+topic. He/she is able to describe/summarize the topic in de-
+tail in his/her own words. He/she reflects on the topic and
+judges the contribution of the research papers.
+Methodological competence:
+The student is able to write a well-structured scientific pa-
+per and to present his/her results. He/she is also aware of
+Learning outcomes and
+the need to avoid pla-
+qualification goals
+giarism. The key qualification Scientific Research is highly
+recommended as a prerequisite for the seminar.
+Personal qualification:
+The student has learned how to write a well-
+structured, concise paper and give a presentation. This is
+part of the preparation to write and present a Master’s The-
+sis.
+Scientific papers and books
+Media
+128Literature Depending on the topic of the seminar
+Do scientific reading independently under the guidance of a
+professor or a research staff member. Active discussions in a
+Methods
+group of peers.
+30% Presentation (takes place after one month)
+70% Seminar Report (has to be submitted after three
+Form of assessment
+month)
+Admission requirements for
+assessment
+Duration of assessment N/A
+Language English
+Offering HWS/FSS
+Margret Keuper
+Lecturer
+Person in charge Margret Keuper
+Duration of module 1 Semester
+Further modules
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in
+Range of application Data Science
+Semester 3rd Semester
+129CS 720 Uncertainty Estimation
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+Prerequisites Bachelor degree, the fundamentals
+In this seminar, students perform scientific research, either in the
+form of a literature review or by conducting a small experiment, or
+Aim of module a mixture of both, and prepare a written report about the results.
+Topics of interest focus around a variety of problems and tasks
+from the fields of Data Mining, Web Mining, or the Semantic Web.
+Expertise:
+Students will acquire a deep understanding of the research topic.
+He/she is expected to describe in-depth and summarize the topic
+in detail in his/her own words, as well as to judge the contribution
+of the research papers to ongoing research.
+(MK1, MK2, MK3)
+Methodological competence:
+Students will develop methods and skills to find relevant literature
+for his/her topic, to prepare methodologically sound scientific ex-
+Learning Outcomes and
+periments, and to write a well-structured scientific paper and to
+Qualification Goals
+present his/her results. He/she will be also aware of the need to
+avoid plagiarism. The key qualification Scientific Research is highly
+recommended as a prerequisite for the seminar.
+(MF2)
+Personal qualification:
+Students will acquire skills on how to find relevant literature for a
+research topic, organize a small research task, write a well-struc-
+tured, concise paper about it and present the results of their work.
+He/she is well prepared to write and present a Master’s Thesis.
+(MF2)
+Media Scientific papers and books
+Literature Depends on the topic of the seminar
+Teaching and Learning Do scientific work independently under the guidance of a professor
+Methods or a research staff member
+130Seminar paper (length: 5-25 pages depending on the topic), Peer
+Form of Assessment Review (1-10 pages depending on the topic), Presentation (15-60
+minutes depending on the topic).
+Admission requirements -
+for assessment
+Duration of Assessment 6-8 weeks (writing of the report), 15-60 minutes (presentation).
+Language English or German
+Offering Irregular
+Lecturers Tobias Weller
+Person in charge Prof. Dr. Heiko Paulheim
+Duration of module 1 semester
+Further modules -
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of Application
+ence, Lehramt für Gymnasien
+Semester 3rd semester
+131CS 721 Seminar Data-Science I
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+There are no formal requirements. However, previous participation
+Prerequisites in the courses “Network Science” and “Text Analytics” are recom-
+mended.
+In this seminar, students perform scientific research, either in the
+form of a literature review or by conducting a small experiment, or
+Aim of module a mixture of both, and prepare a written report about the results.
+Topics of interest focus around a variety of problems and tasks
+from the fields of Data-Science, Network Science and Text Mining.
+Expertise:
+Students will acquire a deep understanding of the research topic.
+He/she is expected to describe in-depth and summarize the topic
+in detail in his/her own words, as well as to judge the contribution
+of the research papers to ongoing research.
+(MK1, MK2, MK3)
+Methodological competence:
+Students will develop methods and skills to find relevant literature
+for his/her topic, to prepare methodologically sound scientific ex-
+Learning Outcomes and
+periments, and to write a well-structured scientific paper and to
+Qualification Goals
+present his/her results. He/she will be also aware of the need to
+avoid plagiarism. The key qualification Scientific Research is highly
+recommended as a prerequisite for the seminar.
+(MF2)
+Personal qualification:
+Students will acquire skills on how to find relevant literature for a
+research topic, organize a small research task, write a well-struc-
+tured, concise paper about it and present the results of their work.
+He/she is well prepared to write and present a Master’s Thesis.
+(MF2)
+Media slides, scientific papers, blackboard (electronic)
+Literature Depends on the topic.
+132Teaching and Learning Self-study of assigned material, presentation of scientific articles,
+Methods joint discussion of work, collaboration with peers
+Written report (length: 5-25 pages depending on the topic) with
+Form of Assessment
+oral presentation (15-60 minutes depending on the topic).
+Admission requirements -
+for assessment
+Duration of Assessment 6-8 weeks (writing of the essay), 15-60 minutes (presentation).
+Language English
+Offering Irregular
+Lecturers Markus Strohmaier, Marlene Lutz
+Person in charge Markus Strohmaier, Marlene Lutz
+Duration of module 1 semester
+Further modules -
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Sci-
+Range of Application
+ence, M. Sc. Mannheim Master Management
+Semester 3rd semester
+133CS 722 Seminar Ethical Aspects of Al
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+IS 661 "Text Analytics" or IE 675b "Machine Learning" or IE 678
+Prerequisites
+"Deep Learning" or IE 560 "Decision Support"
+In this seminar, students perform scientific research, either in
+the form of a literature review or by conducting a small experi-
+ment, or a mixture of both, and prepare a written report about
+Aim of module
+the results. Topics of interest focus around a variety of problems
+and tasks from the fields of Data-Science, Network Science and
+Text Mining.
+Expertise:
+Students will acquire a deep understanding of the research
+topic. He/she is expected to describe in-depth and summarize
+the topic in detail in his/her own words, as well as to judge the
+contribution of the research papers to ongoing research.
+(MK1, MK2, MK3)
+Methodological competence:
+Students will develop methods and skills to find relevant litera-
+ture for his/her topic, to prepare methodologically sound scien-
+tific experiments, and to write a well-structured scientific paper
+Learning Outcomes and Qual-
+and to present his/her results. He/she will be also aware of the
+ification Goals
+need to avoid plagiarism. The key qualification Scientific Re-
+search is highly recommended as a prerequisite for the seminar.
+(MF2)
+Personal qualification:
+Students will acquire skills on how to find relevant literature for
+a research topic, organize a small research task, write a well-
+structured, concise paper about it and present the results of
+their work. He/she is well prepared to write and present a Mas-
+ter’s Thesis.
+(MF2)
+Scientific papers and books; presentation with PowerPoint or
+Media
+LaTeX.
+134Literature Up-to-date literature will be assigned during the seminar.
+Review scientific work independently under the guidance of a
+Teaching and Learning Meth-
+professor or a research staff member. Active discussions in a
+ods
+group of peers.
+Written report (length: 5-25 pages depending on the topic) with
+Form of Assessment
+oral presentation (15-60 minutes depending on the topic).
+Admission requirements for -
+assessment
+Duration of Assessment 6-8 weeks (writing of the essay), 15-60 minutes (presentation).
+Language English
+Offering Irregular
+Lecturers Markus Strohmaier, Simone Ponzetto
+Person in charge Markus Strohmaier, Simone Ponzetto
+Duration of module 1 semester
+Further modules -
+M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of Application
+Science, M. Sc. Mannheim Master Management
+Semester 3rd semester
+135IE 704 Seminar AI Systems Engineering
+Form of Module Seminar
+Type of Module Seminar
+Level Master
+ECTS 4
+Workload 120 h per semester
+Prerequisites None
+The student prepares a scientific paper and gives a presentation
+on a current research topic based on published research. State-
+of-the-art topics are proposed by the supervisors. The paper
+Aim of module
+and the presentation are prepared under the guidance of a re-
+search staff member. Active participation in the seminar discus-
+sions is expected.
+Expertise
+The student gains a deep understanding of the research topic.
+He/she is able to describe/summarize the topic in detail in
+his/her own words. He/she reflects on the topic and judges the
+contribution of the research papers.
+(MK1, MK2, MK3)
+Methodological competence
+Learning Outcomes and Qual- The student is able to write a well-structured scientific paper
+ification Goals and to present his/her results. He/she is also aware of the need
+to avoid plagiarism. The key qualification Scientific Research is
+highly recommended as a prerequisite for the seminar.
+(MF2)
+Personal qualification
+The student has learned how to write a well-structured, concise
+paper and give a presentation. This is part of the preparation to
+write and present a Master's Thesis.
+(MF2)
+Media Scientific papers and books; final presentation with PowerPoint
+Literature Depends on the topic of the seminar.
+Do scientific work independently under the guidance of a pro-
+Teaching and Learning Meth-
+fessor or a research staff member. Active discussions in a group
+ods
+of peers.
+Form of Assessment 25% Reviews and Discussion (Review: 1-3 pages)
+13625% Presentation (15 minutes presentation and 10 minutes dis-
+cussion)
+25% Seminar paper submitted for review (max 20 pages in
+springer proceedings format)
+25% "Camera-ready" seminar paper (max 20 pages in springer
+proceedings format)
+Admission requirements for -
+assessment
+Duration of Assessment writing time for papers and reviews 4 to 8 weeks
+Language English
+Offering Irregular
+Lecturers Dr. Christian Bartelt
+Person in charge Dr. Christian Bartelt
+Duration of module 1 Semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of Application
+Science
+Semester 3. Semester
+137

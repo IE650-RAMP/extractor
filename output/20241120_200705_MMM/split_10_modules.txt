@@ -1,0 +1,394 @@
+Module: IS 616 Large Scale Data Analysis and EN
+Visualization
+no offering in fall 2024/2025
+Contents Knowledge on how to include scientific visualization in re-
+This course teaches students principles of scientific visualization search projects
+of data using the R and Python programming languages. Starting Independent choice of ways to prepare large scale data to
+from introductory large scale data handling and basics of visual- run visualization methods to solve a given problem
+ization, more advanced methods for visualization will also be Knowledge about different libraries and their (dis-)advan-
+covered. Important libraries and frameworks that are essential for tages
+data analysis and visualization are introduced. Data preprocessing, analysis, organisation and visualization
+Learning outcomes
+Prerequisites for participation
+On completion of the course, students should be familiar with li-
+Necessary: –
+braries in the R and Python programming languages that enable
+Recommended: Basic knowledge about statistics and 1) either
+them to create professional scientific visualizations. This out-
+basic knowledge of R and Python or 2) intermediate knowledge
+come includes the application of those scientific libraries, han-
+of either Python or R and willingness to learn the other, yet unfa-
+dling of large datasets and knowledge of many examples of how
+miliar language
+challenges in scientific visualization were overcome and in what
+ways creative solutions were found. Skills:
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 10 SWS
+Exercise class 2 SWS 7 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (60 min)
+Restricted admission yes
+Further information https://www.bwl.uni-mannheim.de/en/information-systems/chairs/prof-dr-
+strohmaier/teaching/
+Examiner Prof. Dr. Markus Strohmaier
+Performing lecturer M. Strohmaier & M. Pellert
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Econ., M.Sc. Bus. Inf., MMDS
+Preliminary course work Successful completion of the corresponding exercises
+115Program-specific Competency Goals CG 2
+116Module: IS 622 Network Science EN
+Contents Skills: The students learn how to analyze empirical social net-
+The lecture gives an introduction to the analysis of networks. It works with regard to their structure and mathematical properties
+includes theoretical foundations of social networks (definitions, such as the determination of central nodes, as well as methods to
+representation as a graph, local structures), elementary graph al- understand dynamics in social networks. In addition, the stu-
+gorithms (shortest path, clustering coefficient, ...), centrality mea- dents learn how to use the most common program libraries for
+sures for social networks (PageRank, betweenness centrality, ...), analyzing social networks.
+methods for community detection, phenomena in empirical so- Competences: The students should be able to effectively use
+cial networks (scale-free networks, small-world phenomenon, ho- analysis methods for social networks in other areas of applica-
+mophilia, ...), graph models (random graphs, preferential attach- tion.
+ment,...), robustness of graphs, as well as dynamics in networks,
+epidemics and information cascades. Prerequisites for participation
+Necessary: –
+Learning outcomes Recommended: Basic knowledge of algorithms and data struc-
+Knowledge: Upon successful completion of this module, stu- tures as well as programming concepts and methods, practical
+dents will have developed an understanding of basic concepts programming skills (Python), basic knowledge of statistics.
+and algorithms for analyzing networks and have acquired knowl-
+edge of empirically occurring phenomena in networks. Further-
+more, the students get an overview of current analysis tools of
+social networks.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 7 SWS
+Exercise class 2 SWS 6 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (80 min)
+Restricted admission yes
+Further information https://www.bwl.uni-mannheim.de/en/information-systems/chairs/prof-dr-
+strohmaier/teaching/
+Examiner Prof. Dr. Markus Strohmaier
+Performing lecturer Prof. Dr. Markus Strohmaier, Marlene Lutz
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., MMDS
+Preliminary course work Students must pass at least 50% of the written assignments in the exercise
+class in order to take the final exam.
+117Module: IS 628 Advances in Public Blockchains EN
+Contents Students work out concepts, procedures and results of a given
+The achievement of the learning goals is pursued by practicing topic clearly and with appropriate formalisms in a timely manner
+on the basis of personally assigned in-depth scientific topics as and to a defined extent in depth in writing; Evidence of indepen-
+well as by actively participating in the presentation dates. The or- dent development by presenting self-selected examples. De-
+ganizer will choose subject areas within the field of Public scriptive oral presentation of an in-depth data science topic us-
+Blockchains and provide scientific papers to students to work ing suitable media and examples in a given format.
+through.
+Prerequisites for participation
+Learning outcomes Necessary: –
+Skills: On the basis of suitable literature, in particular original sci- Recommended: lectures offered by the chair
+entific articles, students independently familiarize themselves
+with a topic in data-science, classify and narrow down the topic
+appropriately and develop a critical evaluation.
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written report (max. 12 p. excl. references) with oral presentation
+Restricted admission yes
+Further information https://www.bwl.uni-mannheim.de/en/information-systems/chairs/prof-dr-
+strohmaier/teaching/
+Examiner Prof. Dr. Markus Strohmaier
+Performing lecturer Prof. Dr. Markus Strohmaier, Stefano Balietti
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf., MMDS
+Preliminary course work –
+Program-specific Competency Goals CG 4
+118Module: IS 629 Agile Software Product Management and EN
+Design
+Contents The course contents will be put into a practical perspective by se-
+More and more products, from consumer to business markets, lected industry talks. Furthermore, as part of a case study, the
+show an ever-increasing amount of software at their very heart. students will be asked to analyze and propose solutions for a giv-
+The ability to understand, design, and manage software-intense en software product development challenge leveraging the
+products has become of great importance to ensure sustainable knowledge acquired within the lecture and industry talks.
+success across all industries. This module introduces key aspects
+of the entire software product lifecycle, ranging from product Learning outcomes
+strategy and planning, to the actual product development and fi- Students
+nally the postdevelopment phase covering aspects such as the
+learn basic concepts and characteristics of software products
+product launch and product support. Furthermore, the interplay
+and the associated software product lifecycle.
+between processes, people, and practices will be discussed and
+understand the underlying mechanisms for a successful in-
+contemporary software development paradigms will be framed
+terplay between people, processes, and practices within
+into this interplay. This course puts specific emphasis on the two
+product development.
+roles of the product manager and the product designer (also: Us-
+understand key concepts and methods required for fulfilling
+ability / User Experience Professional) within software develop-
+the product management and product design role.
+ment. Following an interdisciplinary perspective, this course will
+analyze and propose solutions for a given software product
+introduce key concepts from the field of management, market-
+challenge along the entire lifecycle.
+ing and human computer interaction.
+Prerequisites for participation
+Necessary: –
+Recommended: IS 540 (Management of Enterprise Systems)
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 8 SWS
+Case Study Presentation 1 SWS 6 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (60 min, 60%) and case study (40 %)
+Restricted admission no
+Further information –
+Examiner Prof. Dr. Hartmut Höhle
+Performing lecturer Prof. Dr. Hartmut Höhle
+Frequency of offering Spring semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Econ., M.Sc. Bus. Inf.
+119Preliminary course work –
+Program-specific Competency Goals CG 1, CG 2
+120Module: IS 635 Forschungsmethoden Data-Science EN
+Contents Learning outcomes
+In this colloquium, student research projects in different phases After passing the colloquium, students are able to
+of development will be presented and critically discussed and re- 1. present research projects, methods and results scientifically
+flected upon together. Particular attention will be paid to the for- 2. scientifically assess and criticize research projects, methods
+mulation of precise research questions, the development of ro- and results
+bust experimental setups, the selection and pre-processing of 3. further develop research projects, methods and results
+data sets, the selection and design of different validation meth- across various research cases and domains under the supervision
+ods and the critical assessment of research results in a manner of the instructor.
+that clearly goes beyond the projects of individual students. In a
+participatory approach, students are introduced to the scientific Prerequisites for participation
+approach and acquire initial knowledge of the presentation, as- Necessary: Registration of a Master Arbeit at the chair for Data-
+sessment, criticism and further development of scientific plans Science in den Wirtschafts- und Sozialwissenschaften.
+and results. Recommended: Current courses offered by the chair for Data-
+Science in den Wirtschafts- und Sozialwissenschaften
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment 3 presentations: 1 Proposalpresentation, 1 Progresspresentation, 1
+Endpresentation
+Restricted admission yes
+Further information Registration via Portal 2
+Examiner Prof. Dr. Markus Strohmaier
+Performing lecturer Prof. Dr. Markus Strohmaier
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Econ., MMDS
+Preliminary course work –
+Program-specific Competency Goals CG 4
+121Module: IS 661 Text Analytics EN
+Contents Learning outcomes
+In the digital age, techniques to automatically process textual Students will acquire knowledge of state-of-the-art principles
+content have become ubiquitous. Given the breakneck speed at and methods of Natural Language Processing, with a specific fo-
+which people produce and consume textual content online – e.g., cus on the application of statistical methods to human language
+on micro-blogging and other collaborative Web platforms like technologies.
+wikis, forums, etc. – there is an ever-increasing need for systems Successful participants will be able to understand state-of-the-art
+that automatically understand human language, answer natural methods for Natural Language Processing, as well as being able
+language questions, translate text, and so on. This class will pro- to select, apply and evaluate the most appropriate techniques for
+vide a complete introduction to state-of-the-art principles and a variety of different practical and application-oriented scenarios.
+methods of Natural Language Processing (NLP). The main focus
+will be on statistical techniques, and their application to a wide Prerequisites for participation
+variety of problems. This is because statistics and NLP are nowa- Necessary: –
+days highly intertwined, since many NLP problems can be formu- Recommended: Basic knowledge of programming concepts and
+lated as problems of statistical inference, and statistical methods, methods, practical programming skills (Python).
+in turn, represent de-facto the standard way to solve many, if not
+the majority, of NLP problems.
+Forms of teaching and learning Contact hours Independent study time
+Lecture 2 SWS 4 SWS
+Exercise class 2 SWS 4 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written exam (90 min)
+Restricted admission yes
+Further information https://www.bwl.uni-mannheim.de/en/information-systems/chairs/prof-dr-
+strohmaier/teaching/
+Examiner Prof. Dr. Markus Strohmaier
+Frequency of offering Fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Inf., MMDS
+Preliminary course work Students must pass at least 50% of the written assignments in the exercise
+class in order to take the final exam.
+122Module: IS 712 Seminar EN
+Contents Learning outcomes
+The seminar is a preparation for writing a master thesis and intro- By the end of the course students developed
+duces students to academic work related to current topics of IS.
+a basic knowledge on the principles of academic writing,
+Students independently compile a written seminar paper cover-
+the ability to independently and systematically explore a re-
+ing a current research topic and present their research findings in
+search topic,
+class.
+readiness to take on a master thesis project in IS.
+Prerequisites for participation
+Necessary: –
+Recommended: Basic knowledge of IS
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Seminar paper (scope depends on the assigned topic), presentation, and
+discussion
+For students of the M.Sc. Information Systems the seminar means a
+reduced workload with only 4 ECTS.
+Restricted admission yes
+Further information Registration at the end of previous semester: http://wifo1.bwl.uni-
+mannheim.de
+Examiner Prof. Dr. Armin Heinzl
+Performing lecturer Timo Himmelsbach
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Bus. Inf.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+123Module: IS 723 Seminar Data-Science II EN
+Contents Students work out concepts, procedures and results of a given
+The achievement of the learning goals is pursued by practicing topic clearly and with appropriate formalisms in a timely manner
+on the basis of personally assigned in-depth scientific topics as and to a defined extent in depth in writing; Evidence of indepen-
+well as by actively participating in the presentation dates. The or- dent development by presenting self-selected examples. De-
+ganizer will choose subject areas within the field of Data-Science scriptive oral presentation of an in-depth data science topic us-
+and provide scientific papers to students to work through. ing suitable media and examples in a given format
+Learning outcomes Prerequisites for participation
+Skills: On the basis of suitable literature, in particular original sci- Necessary: –
+entific articles, students independently familiarize themselves Recommended: lectures offered by the chair
+with a topic in data-science, classify and narrow down the topic
+appropriately and develop a critical evaluation.
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Seminar paper (50%, scope depends on the assigned topic), presentation
+(40%), and discussion (10%)
+Restricted admission yes
+Further information https://www.bwl.uni-mannheim.de/en/information-systems/chairs/prof-dr-
+strohmaier/teaching/
+Examiner Prof. Dr. Markus Strohmaier
+Performing lecturer Tobias Schumacher, Marlene Lutz
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., MMDS
+Preliminary course work –
+Program-specific Competency Goals CG 4
+124Module: IS 724 Seminar Current topics in Human-(X)AI EN
+collaboration
+Contents Learning outcomes
+This seminar focuses on exploring state-of-the-art research topics After completing this course, students will
+in the domain of human interactions with Artificial Intelligence
+able to summarize a current research topic from the hu-
+and eXplainable Artificial Intelligence systems. Students have to
+man-(X)AI collaboration domain and put it into the context of
+write a seminar paper about a specifically assigned research top-
+related work.
+ic and present their work in class for discussion. Student presen-
+gain a basic knowledge on the principles of academic writing,
+tations will be held together with the IS 742 Seminar Trends in
+the ability to independently and systematically explore a re-
+Enterprise Systems.
+search topic.
+have improved their presentation skills
+Prerequisites for participation
+Necessary: –
+Recommended: –
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written paper (60%, scope depends on the assigned topic) with oral
+presentation (40%)
+Restricted admission yes
+Further information Application via email (Brief motivation letter, Transcript of Records and CV)
+to kevin.bauer@uni-mannheim.de; Application deadline will be announced
+via the Chair’s homepage.
+Examiner Prof. Dr. Kevin Bauer
+Performing lecturer Prof. Dr. Kevin Bauer
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Bus. Inf.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+125Module: IS 742 Seminar Trends in Enterprise Systems EN
+Contents Learning outcomes
+This module is a research seminar where state-of-the-art research After completing this seminar, students will be able to summa-
+topics are discussed. Students systematically explore a research rize a current research topic from the enterprise systems domain
+topic from the enterprise systems domain. They present their and put it into the context of related work. They will know to
+work in class for discussion and will write a seminar paper, fol- evaluate extant work and how to communicate the insights aca-
+lowing academic guidelines. demically in a written report. Students will also learn and train
+presentation skills, too.
+Prerequisites for participation
+Necessary: –
+Recommended: IS 540
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Written report (80%, scope depends on the assigned topic) and
+presentation (20%)
+For students of the M.Sc. Information Systems the seminar means a
+reduced workload with only 4 ECTS.
+Restricted admission yes
+Further information Application via email (Motivation letter, Transcript of Records and CV) to
+applicat@mail.uni-mannheim.de; Application deadline will be announced
+via the Chair’s homepage.
+Examiner Prof. Dr. Hartmut Höhle
+Performing lecturer Prof. Dr. Hartmut Höhle
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Bus. Inf.
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+126Module: IS 752 Seminar on Process and Management EN
+Analytics
+Contents Learning outcomes
+This module is a research seminar, which will introduce students After completing this course, you will be able to:
+to academic work in the fields of Business Process Management
+Apply basic research methods from the IS discipline
+and Information Systems and prepare them for writing a master
+Independently and systematically explore a research topic
+thesis. Students will write a seminar paper on a current research
+Structure and write an academic paper
+topic in process analytics and present their findings in class.
+Be equipped to start your master thesis
+Prerequisites for participation
+Necessary: –
+Recommended: IS 515
+Forms of teaching and learning Contact hours Independent study time
+Seminar 2 SWS 15 SWS
+ECTS credits 6
+Graded yes
+Workload 180h
+Language English
+Form of assessment Seminar paper (80%, scope depends on the assigned topic), presentation
+and discussion (20%)
+For students of the M.Sc. Business Informatics the seminar has a
+reduced workload with only 4 ECTS.
+Restricted admission yes
+Further information https://www.bwl.uni-mannheim.de/rehse/lehre/is-752-master-seminar/
+Examiner Prof. Dr. Jana-Rebecca Rehse
+Performing lecturer Prof. Dr. Jana-Rebecca Rehse
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM, M.Sc. Bus. Edu., M.Sc. Bus. Inf., MMDS
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+127

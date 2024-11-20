@@ -1,0 +1,116 @@
+6 MASTER'S
+THESIS
+291Module: Module Master's Thesis DE EN
+Contents Learning outcomes
+Students work independently on a research topic from the field Students are able to identify a problem and independently come
+of their specialized area. Students identify a relevant research up with a solution using academic methods. In particular, stu-
+problem, conduct a thorough review of relevant literature, and dents are capable to find, analyze, evaluate, select and integrate
+apply an appropriate methodological approach to develop a so- high-quality information using various sources. The students can
+lution using academic methods. structure and write a scientific research work and have an in-
+depth knowledge in their specialized area.
+Prerequisites for participation
+Necessary: At least one seminar (module 700); prerequisites for
+every single chair are listed at the end of the Module Catalog
+Recommended: –
+ECTS credits 24
+Graded yes
+Workload 720h
+Language German, English
+Form of assessment Master's Thesis (preparation time: 20 weeks, scope depends on the
+individual topic and will be determined by the supervisor)
+Restricted admission yes
+Further information websites of the chairs
+Performing lecturer Betreuer/in des jeweiligen Lehrstuhls / respective supervisors
+Frequency of offering Spring semester & fall semester
+Duration of module 1 semester
+Range of application M.Sc. MMM
+Preliminary course work –
+Program-specific Competency Goals CG 1, CG 4
+6.1 Area Accounting and Taxation
+Prerequisites for the Master’s Thesis at the following chairs:
+Prof. Dr. Jannis Bischof (Chair of Business Administration & Accounting), Prof. Dr. Holger Daske
+(Chair of Accounting & Capital Markets ), Prof. Dr. Dirk Simons (Chair of Business Administration &
+Accounting), Prof. Dr. Jens Wüstemann (Chair of Business Administration, Accounting & Auditing),
+Prof. Dr. Davud Rostam-Afschar (Professorship of Accounting), Jun.-Prof. Felix Vetter,
+292Ph (Assistant Professorship of Accounting & Taxation), Jun.-Prof. Reeyarn Zhiyang Li (Assistant
+Professor of Accounting & Taxation):
+ACC 750. Acceptance of other seminars upon individual agreement in specific circumstances.
+Prof. Dr. Stefan Reichelstein (LS für ABWL), Jun.-Prof. Dr. Gunther Glenk (Juniorprofessur für Ac-
+counting), Jun.-Prof. Dr. Nikolas Wölfing (Juniorprofessur für Accounting):
+ACC 715 or MAN 771. Acceptance of other seminars upon individual agreement in specific cir-
+cumstances.
+Prerequisites for the Master’s Thesis at the following chairs:
+Prof. Dr. Philipp Dörrenberg (Chair of Business Administration and Taxation), Prof. Dr. Christoph
+Spengel (Chair of International Taxation), Prof. Dr. Katharina Nicolay (Assistant Professor of Ac-
+counting & Taxation, especially Business Taxation), Prof. Dr. Johannes Voget (Chair of Taxation &
+Finance):
+TAX 730. Acceptance of seminars from other chairs after consulting the respective professor.
+6.2 Area Finance
+Prerequisites for the Master’s Thesis at the chairs of the Area Finance:
+Prof. Ernst Maug, Ph.D. (Chair of Corporate Finance), Prof. Dr. Alexandra Niessen-Ruenzi (Chair
+of Corporate Governance), Prof. Dr. Stefan Ruenz (Chair of International Finance), Prof. Dr. Oliver
+Spalt (Chair of Finance and Financial Institutions), Prof. Dr. Erik Theissen (Chair of Finance), Prof.
+Dr. Martin Weber (Senior Professorship of Finance & Banking):
+FIN 5XX and one seminar from the Finance area.
+Other seminars could be accepted in exceptional cases.
+6.3 Area Information Systems
+Prerequisites for the Master’s Thesis at the chairs of the Area Information Systems:
+Prof. Dr. Armin Heinzl (Chair of General Management and Information Systems I), Prof. Dr. Hart-
+mut Höhle (Chair of Enterprise Systems), Prof. Dr. Jana-Rebecca Rehse (Assistant Professor of
+Management Analytics), Prof. Dr. Markus Strohmaier (Chair for Data Science in the Economic and
+Social Sciences):
+293IS 7XX.
+Any one of the seminar modules IS 702, IS 712, IS 722, IS 723, IS 724, IS 742, IS 751, IS 752 is ac-
+cepted at any one of the IS chairs. However, it is recommended to write the Master thesis at the
+same chair at which the seminar module was taken. This allows for an early integration into the
+respective research and work projects of the chair.
+Seminars from oher areas may be accepted if the supervising professor confirms how it fits to
+the area of Information Systems.
+6.4 Area Management
+Prerequisites for the Master’s Thesis at the following chairs:
+Prof. Dr. Torsten Biemann (Chair of Business Administration, HRM & Leadership): MAN 741/742
+and MAN 640 or MAN 641 or MAN 642 or MAN 644 or MAN 645 or MAN 646 or MAN 647 or
+MAN 648 or MAN 649.
+Prof. Dr. Matthias Brauer (Chair of Strategic & International Management): MAN 750 and ei-
+ther MAN 654 or MAN 655 or MAN 656 or MAN 657.
+Prof. Dr. Bernd Helmig (Chair of Business Administration, Public & Nonprofit Management):
+MAN 710/711/712 and either MAN 617 or MAN 619 or MAN 637 or MAN 659 or MAN 674 oder
+MAN 675 or MAN 676 or MAN 679 or MAN 680.
+Prof. Dr. Karin Hoisl (Chair of Organization & Innovation): MAN 721 and either MAN 690 or
+MAN 691 or MAN 692 or MAN 693 or MAN 658.
+Prof. Dr. Michael Woywode (Chair of Small & Medium Sized Enterprises & Entrepreneurship):
+MAN 770 and either MAN 630 or MAN 631 or MAN 632 or MAN 633 or MAN 634.
+Other seminars can be accepted in exceptional cases.
+6.5 Area Marketing and Sales
+Prerequisites for the Master’s Thesis at the chairs of the Area Marketing and Sales:
+Prof. Dr. Dr. h.c. mult. Christian Homburg (Chair of Business-to-Business Marketing, Sales & Pric-
+ing), Prof. Dr. Florian Kraus (Dr. Werner Jackstädt Endowed Chair of Sales & Services Marketing),
+Prof. Dr. Sabine Kuester (Chair of Marketing & Innovation), Prof. Dr. Florian Stahl (Chair of Quan-
+titative Marketing & Consumer Analytics), Prof. Dr. Arnd Vomberg (Professorship of Digital Market-
+ing and Marketing Transformation):
+MKT 7X0.
+Any one of the seminar modules MKT 710, MKT 720, MKT 730, MKT 740 and MKT 750 entitles stu-
+dents to write their Master's thesis at any one of the Marketing departments. However, it is rec-
+294ommended to write the Master's thesis at the same department at which the seminar module
+was taken. This allows for an early integration into the respective research and work projects at
+the department.
+Other seminars could be accepted in exceptional cases.
+6.6 Area Operations Management
+Prerequisites for the Master’s Thesis at the chairs of the Area Operations Management:
+Prof. Dr. Christoph Bode (Endowed Chair of Procurement), Prof. Dr. Moritz Fleischmann (Chair of
+Logistics & Supply Chain Management), Prof. Dr. Cornelia Schön (Chair of Service Operations Man-
+agement), Prof. Dr. Raik Stolletz (Chair of Production Management):
+Either: At least one module OPM 6XX and either OPM 701or OPM 741 or OPM 751 or OPM 760
+or OPM 761 or OPM 781 or OPM 791 or OPM 792.
+Or: an equivalent module within an exchange program and and either OPM 701 or OPM 741
+or OPM 751 or OPM 760 or OPM 761 or OPM 781 or OPM 791 or OPM 792.
+The Area Operations Management recommends that the seminar and the Master’s Thesis are
+written at the same chair. However, seminars from another chair within the area are accepted.
+Other seminars could be accepted in exceptional cases.
+Prof. Dr. Martin Glanzer (Assistant Professorship for Operations Management):
+OPM 701or OPM 741 or OPM 751 or OPM 760 or OPM 761 or OPM 781 or OPM 791 or OPM 792
+Other seminars could be accepted in exceptional cases.
+6.7 Elective
+The Master’s Thesis can be written in an elective if the thesis includes business-related aspects.
+295
+Powered by TCPDF (www.tcpdf.org)

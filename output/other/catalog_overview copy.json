@@ -1,0 +1,73 @@
+{
+  "name": "Business Informatics",
+  "hasDegree": ["MASTER_OF_SCIENCE"],
+  "studyArea": [
+    {
+      "name": "Fundamentals Computer Science",
+      "requiredEcts": [18],
+      "modules": [
+        { "name": "advanced_software_engineering", "id": "CS_500" },
+        { "name": "database_systems_ii", "id": "CS_530" },
+        { "name": "algorithmics", "id": "CS_550" },
+        { "name": "large_scale_data_management", "id": "CS_560" },
+        { "name": "data_security_and_privacy", "id": "CS_652" },
+        { "name": "data_mining", "id": "IE_500" },
+        { "name": "decision_support", "id": "IE_560" }
+      ]
+    },
+    {
+      "name": "Specialization Courses",
+      "requiredEcts": [36],
+      "modules": [
+        { "name": "model_driven_development", "id": "CS_600" },
+        { "name": "higher_level_computer_vision", "id": "CS_646" },
+        { "name": "image_processing", "id": "CS_647" },
+        { "name": "cryptography_ii", "id": "CS_651" },
+        { "name": "cryptography", "id": "CS_655" },
+        { "name": "types_and_programming_languages", "id": "CS_662" },
+        { "name": "blockchain_security", "id": "CS_664" },
+        { "name": "generative_computer_vision_models", "id": "CS_668" },
+        { "name": "generative_software_engineering", "id": "CS_630" },
+        { "name": "query_optimization", "id": "IE_630" },
+        { "name": "information_retrieval_and_web_search", "id": "IE_663" },
+        { "name": "web_data_integration", "id": "IE_670" },
+        { "name": "web_mining", "id": "IE_671" },
+        { "name": "machine_learning", "id": "IE_675b" },
+        { "name": "deep_learning", "id": "IE_678" },
+        { "name": "advanced_process_mining", "id": "IE_692" }
+      ]
+    },
+    {
+      "name": "Projects and Seminars",
+      "requiredEcts": [18],
+      "modules": [
+        { "name": "team_project", "id": "TP_500" },
+        { "name": "scientific_research", "id": "SQ_500" },
+        {
+          "name": "selected_topics_in_algorithmics_and_cryptography",
+          "id": "CS_701"
+        },
+        { "name": "master_seminar_artificial_intelligence", "id": "CS_704" },
+        { "name": "hot_topics_in_machine_learning", "id": "CS_707" },
+        { "name": "seminar_software_engineering", "id": "CS_708" },
+        { "name": "seminar_text_analytics", "id": "CS_709" },
+        { "name": "selected_topics_in_data_science", "id": "CS_710" },
+        { "name": "large_scale_data_integration_seminar", "id": "CS_715" },
+        { "name": "it_security", "id": "CS_716" },
+        { "name": "master_seminar_on_computer_vision", "id": "CS_717" },
+        { "name": "seminar_data_science_i", "id": "CS_721" },
+        { "name": "seminar_ethical_aspects_of_ai", "id": "CS_722" },
+        {
+          "name": "advanced_implementation_techniques_for_database_systems",
+          "id": "CS_730"
+        },
+        { "name": "seminar_ai_systems_engineering", "id": "IE_704" },
+        {
+          "name": "contemporary_issues_in_information_systems_research",
+          "id": "IS_712"
+        }
+      ]
+    },
+    { "name": "Master Thesis", "requiredEcts": [30], "modules": [] }
+  ]
+}

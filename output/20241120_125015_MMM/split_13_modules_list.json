@@ -1,0 +1,220 @@
+{
+  "modules": [
+    {
+      "name": "opm_501_supply_chain_design",
+      "id": "OPM501",
+      "ects": 6,
+      "workloadInPerson": 22,
+      "workloadSelfStudy": 13,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Moritz Fleischmann", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Moritz Fleischmann", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM301"],
+      "additionalPrerequisite": "Basic knowledge in mathematics (including Linear Programming) and in statistics (probability distributions).",
+      "furtherModules": []
+    },
+    {
+      "name": "opm_502_inventory_management",
+      "id": "OPM502",
+      "ects": 6,
+      "workloadInPerson": 22,
+      "workloadSelfStudy": 13,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Eunji Lee", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Eunji Lee", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM301"],
+      "additionalPrerequisite": "Basic knowledge in mathematics (including Linear Programming) and in statistics (probability distributions).",
+      "furtherModules": []
+    },
+    {
+      "name": "opm_503_transportation_management_road_rail_and_sea_freight",
+      "id": "OPM503",
+      "ects": 4,
+      "workloadInPerson": 20,
+      "workloadSelfStudy": 10,
+      "offeredIn": ["FFS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Borislav Bjelicic", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Borislav Bjelicic", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 45,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_504_transportation_management_aviation",
+      "id": "OPM504",
+      "ects": 4,
+      "workloadInPerson": 20,
+      "workloadSelfStudy": 10,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Borislav Bjelicic", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Borislav Bjelicic", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 45,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_510_sustainable_operations_management",
+      "id": "OPM510",
+      "ects": 4,
+      "workloadInPerson": 20,
+      "workloadSelfStudy": 10,
+      "offeredIn": ["FFS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Cornelia Schön", "title": "Prof. Dr.", "hasName": true },
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Cornelia Schön", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM301"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_544_supply_chain_risk_management_from_strategy_to_operations",
+      "id": "OPM544",
+      "ects": 4,
+      "workloadInPerson": 20,
+      "workloadSelfStudy": 10,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Ulrich Wetterauer", "title": "Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Ulrich Wetterauer", "title": "Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM501", "OPM502", "OPM561"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_550_international_course_operations_management",
+      "id": "OPM550",
+      "ects": 6,
+      "workloadInPerson": 180,
+      "workloadSelfStudy": 0,
+      "offeredIn": ["FFS", "HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Lecturer at the host university",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Lecturer at the host university",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "assessmentForms": ["ASSIGNEMNT"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_560_business_analytics_introduction_to_operations_analytics_with_python",
+      "id": "OPM560",
+      "ects": 6,
+      "workloadInPerson": 22,
+      "workloadSelfStudy": 13,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["ASSIGNEMNT"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM561"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "opm_561_production_management_lean_approaches_and_variability",
+      "id": "OPM561",
+      "ects": 4,
+      "workloadInPerson": 12,
+      "workloadSelfStudy": 6,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Raik Stolletz", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["OPM301"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    }
+  ]
+}

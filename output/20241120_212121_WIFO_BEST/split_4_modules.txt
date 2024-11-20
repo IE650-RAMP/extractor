@@ -1,0 +1,467 @@
+2. Detailed descriptions
+i. Fundamentals Computer Science
+Advanced Software Engineering (Software Testing and
+CS 500
+Experimentation)
+Form of module Lectures, exercises and tutorials
+Type of module Computer Science Fundamental
+Level Master
+ECTS 6
+Hours per semester present: 56 h (2 + 2 SWS)
+Self-study: 112 h per semester
+Workload
+• 28 h per semester for preparation and studying of
+lectures/tutorials
+• 84 h per semester for the preparation of the exams
+Prerequisites Knowledge of Java and/or Python
+The course introduces the fundamental concepts and
+practices of software testing, and software experimentation /
+evaluation
+• Principles of Testing
+Aim of module • Test Coverage Criteria
+• Test specification techniques
+• Model-based testing
+• Principles of Experimentation
+• Using Software Observatoriums
+Expertise:
+Students will be familiar with principles, approaches and tools
+for testing software and the methods and empirically
+evaluating software products, methods and tools
+(MK1, MK2)
+Learning outcomes and Methodological competence:
+qualification goals Students will have the ability to judge, select, and apply
+traditional or non-traditional test tools and techniques to
+evaluate software quality, as well as to design and perform
+software experiments.
+(MF1) (MF1, MF3)
+Personal competence:
+6Students will have improved skills in analytical thinking and
+applying theoretical knowledge to solve practical problems,
+especially in software testing and experimentation.
+(MKO3)
+Lecture notes, presentations, tool demonstrations, software,
+Media
+data sets
+• Paul Ammann & Jeff Offutt., “Introduction to Software
+Literature
+Testing”, Cambridge University Press, January 2008.
+Lectures, weekly exercises, experimentation with different
+Methods
+systems
+Form of assessment Written examination
+Admission requirements
+-
+for assessment
+Duration of assessment 90 minutes
+Language English
+Offering Fall semester
+Lecturer Dr. Marcus Kessel, Prof. Dr. Colin Atkinson
+Person in charge Prof. Dr. Colin Atkinson
+Duration of module 1 Semester
+Further modules Model-Driven
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of application
+Science, Lehramt Informatik
+Semester 1st or 2nd semester
+7Datenbanksysteme II
+CS 530
+Database Systems II (DBSII)
+Form der Veranstaltung Vorlesung mit Übung
+Typ der Veranstaltung Vertiefung
+Modulniveau Master
+ECTS 6
+Präsenzstudium: 4SWS
+Eigenstudium: 56h pro Semester
+Arbeitsaufwand
+• davon Vor- und Nachbereitung der Veranstaltung und
+freies Selbststudium: 28h pro Semester
+• davon Vorbereitung für die Prüfung: 28 h pro Semester
+Vorausgesetzte
+PI2, Algorithmen und Datenstrukturen, DBSI, C, C++
+Kenntnisse
+Implementierung von Hauptspeicherdatenbanksystemen
+Lehrinhalte
+Fachkompetenz:
+• effiziente C/C++ Programme entwickeln
+• physische Algebra
+• Implementierung von Indexstrukturen
+(MK1, MK3)
+Lern- und
+Methodenkompetenz:
+Kompetenzziele
+• Analyse komplexer Algorithmen
+(MF1)
+Personale Kompetenz:
+• Praezises Analysieren
+(MKO1, MKO3)
+Medienformen Präsentationen mit Tafelanschrieb
+Begleitende Literatur Skript
+Lehr- und
+Vorlesung (2 SWS)
+Lernmethoden
+Art der Prüfungsleistung Schriftliche Prüfung
+Prüfungsvorleistung -
+Prüfungsdauer 90 Minuten (schriftliche Prüfung)
+Sprache Deutsch
+Angebotsturnus FSS (nicht im FSS 2024)
+8Lehrende/r Moerkotte
+Modulverantwortlicher Moerkotte
+Dauer des Moduls 1 Semester
+Weiterführende Module -
+Verwendbarkeit M.Sc. Wirtschaftsinformatik
+Einordnung in
+1./2./3. Fachsemester
+Fachsemester
+9CS 550 Algorithmics
+Form of module Lecture with tutorials
+Type of module Fundamental in Computer Science
+Level Master
+ECTS 6
+Attendance: 56 h per semester (4 h per week)
+Self-study: 112 h per semester
+Workload
+• 28 h per semester for preparation and reworking of
+lectures/tutorials
+• 84 h per semester for the preparation of the exams
+Practical Informatics I, Algorithms and Data Structures, Linear
+Prerequisites
+Algebra, Statistics
+The lecture deals with the design and the analysis of
+algorithms for various practically relevant computational
+problems and with methods for analyzing the complexity of
+certain problems. In particular, we will learn methods of
+formalizing discrete optimization problems and designing
+algorithms for them on the basis of analyzing the structure of
+these problems.
+Moreover, we will learn techniques for proving the
+correctness and estimating the running time of these
+algorithms. In the second part of the lecture, we will deal
+Aim of module with the theory of NP-completeness with gives evidence that
+certain highly relevant problems do not have efficient
+algorithms. During the lecture we will derive algorithms and
+complexity-theoretic results for the following computational
+problems:
+• shortest path problems and shortest round tour problems
+• linear optimization problems
+• flow problem
+• matching problems
+• satisfiability problems
+• discret linear optimization problems
+Professional expertise:
+Learning outcomes and
+The students know efficient algorithms and the most
+qualification goals
+important complexity-theoretic results for a number of
+10computational problems which are highly relevant in
+practice.
+(MK1, MK2)
+Methodological competence: The students learn to formalize
+informally specified computational problems, to analyse their
+structure with the goal to design efficient algorithms, to
+prove the correctness and to analyse the running time of
+given algorithms. Moreover, they learn to prove the NP-
+completeness of certain problems.
+(MF1, MF3)
+Personal competence: Training of analytical, focussed, and
+precise thinking. Further development of abstraction abilities
+and the ability to transfer theoretical knowledge for solving
+practical problems, especially in the field of operations
+research. Increasing the sensitivity for the complexity and the
+efficient solvability of computational problems, especially
+through dealing with the theory of NP-completeness.
+(MF1, MKO3)
+Writing with chalk at the blackboard, slides, and electronic
+Media
+media
+• Cormen, Leiserson, Rivest, Stein: Introduction to
+Algorithms, 3rd edition
+• Shimon Even: Graph Algorithms
+• Lovasz, Plummer: Matching Theory
+Literature • Handbooks on Operations Research and Management
+Science Volume 7 (Editors: Ball, Magnati, Monma,
+Nemhauser)
+• J. Toran: Das Erfüllbarkeitsproblem SAT, Lehmann Media,
+2012
+Reworking of lectures and tutorials, self-studies with
+Methods literature, solving exercises at home and in cooperation with
+other students at the tutorials
+Form of assessment Written examination
+Admission requirements
+-
+for assessment
+Duration of assessment 90 Minutes
+Language English
+11Offering Spring semester
+Lecturer Prof. Dr. Matthias Krause
+Person in charge Prof. Dr. Matthias Krause
+Duration of module 1 semester
+Further modules CS 651 – Cryptography II
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Science, M.Sc. Wirtschaftsmathematik, M.Sc.
+Range of application
+Wirtschaftspädagogik, Lehramt Informatik, M.Sc.
+Mathematik
+Semester 1./ 2. semester
+12CS 560 Large-Scale Data Management
+Form of module Lecture with exercises
+Type of module Computer Science Fundamental
+Level Master
+ECTS 6
+In presence: 56 h (4 SWS)
+Workload
+Exercises and self-study: 98 h
+Very good knowledge of database systems, good knowledge of
+Prerequisites
+algorithms and data structures as well as Java programming
+This course introduces the fundamental concepts and computational
+paradigms of large-scale data management and Big Data. This includes
+methods for storing, updating, querying, and analyzing large dataset as
+well as for data-intensive computing. The course covers concept,
+algorithms, and system issues; accompanying exercises provide hands-
+on experience. Topics include:
+Aim of module
+• Parallel and distributed databases
+• Big Data Processing (including MapReduce, Spark)
+• NoSQL databases
+• Cloud databases
+• Stream processing (tentative)
+• Graph processing (tentative)
+Expertise:
+Students will acquire knowledge about methods and systems for
+managing large datasets and data-intensive computing.
+(MK1, MK2)
+Methodological competence:
+Learning outcomes and • Be able to judge, select, and use traditional or non-traditional data
+qualification goals management systems for a given data management task
+• Be able to solve computational problems involving large datasets
+(MF1)
+Personal competence:
+• Study independently
+• Presentation and writing skills
+(MKO3)
+Media Slide set, black board, exercise sheets, datasets, software
+• T. Öszu, P. Valduriez
+Literature
+Principles of Distributed Database Systems
+13Springer, 4th ed., 2020
+• H. Garcia-Molina, J. D. Ullman, J. Widom
+Database Systems: The Complete Book
+Prentice Hall, 2nd ed., 2008
+• More in lecture notes
+Methods Lecture, weekly exercise, experimentation with different systems
+Form of assessment Written examination
+Duration of assessment 90 minutes
+Language English
+Offering Fall semester
+Lecturer Prof. Dr. Rainer Gemulla
+Person in charge Prof. Dr. Rainer Gemulla
+Duration of module 1 semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data Science,
+Range of application
+Lehramt Informatik
+Semester 1st / 2nd semester
+14CS 652 Data Security and Privacy
+Form of module Inverted classroom with exercises
+Type of module Fundamental in Computer Science
+Level Master
+ECTS 6
+Hours per semester present: 56h (4 SWS)
+Workload
+Self-study: 112h
+There are no formal prerequisites but knowledge in
+cryptography or IT-security is recommended, e.g., by
+Prerequisites
+attending the lectures “Kryptographie I” or “Selected Topics
+in IT-Security”
+Nowadays, users are more and more revealing data to the
+outside – either willingly as in the context of data mining or
+possibly unconsciously as in the case of the Internet of
+Things. The aim of the module is to raise awareness, in
+particular with respect to privacy violations. This is done by
+showing various security threats, e.g., traces left on the
+Aim of module
+Internet such as the use of cookies or browser fingerprinting.
+In particular, the topic of privacy preservation will be
+covered. This includes discussing different approaches for
+defining the meaning of privacy but also possible
+countermeasures such as anonymization of data or the use of
+dedicated encryption schemes.
+Expertise:
+Students will acquire the knowledge to identify security and
+privacy threats and to select and use appropriate
+countermeasures.
+(MK2)
+Learning outcomes and Methodological competence:
+qualification goals Successful participants will be able to understand, to select,
+apply and evaluate the most appropriate techniques for a
+variety of different privacy-sensitive scenarios. In particular
+they are able to realize possible risks in new scenarios and to
+transfer given solutions to these.
+(MK1)
+15Personal competence:
+The analytic, concentrated, and precise thinking of the
+students is trained. By the independent treatment of
+applications, e.g. in the course of the exercises, their
+abstraction capacity is further developed and the transfer of
+the learned material to related questions is trained.
+(MF1, MKO3)
+Media Video recordings, annotated lecture slides
+Literature Will be announced in the lecture
+Reworking the lecture and studying the relevant literature in
+self-study. During the lecture: discussing questions and ideas
+Methods and working together on concrete examples. Solving
+exercises in self-study and in practice in cooperation with
+fellow students.
+Form of assessment Written exam
+Admission requirements
+-
+for assessment
+Duration of assessment 90 minutes
+Language English
+FSS (in FSS24 this course will only be offered as online-course
+Offering
+in form of videos)
+Lecturer Prof. Dr. Frederik Armknecht
+Person in charge Prof. Dr. Frederik Armknecht
+Duration of module 1 semester
+Further modules -
+M.Sc. Mannheim Master in Data Science,
+Range of application M.Sc. Wirtschaftsinformatik, Lehramt Informatik,
+M.Sc. Mathematik
+Semester 1st/2nd/3rd semester
+16IE 500 Data Mining
+Form of module Lecture with exercises and project
+Type of module Business Informatics Fundamental
+Level Master
+ECTS 6
+Hours per semester: 56 h (4 SWS)
+Workload Self-study per semester: 98 h
+• 70 h: pre and post lecture studying and revision
+• 28 h: examination preparation
+Prerequisites Foundations of Statistics, Practical Informatics I
+The course provides an introduction to advanced data
+analysis techniques as a basis for analyzing business data and
+providing input for decision support systems. The course will
+cover the following topics:
+• Goals and Principles of Data Mining
+Aim of module • Data Representation and Preprocessing
+• Classification
+• Regression
+• Cluster Analysis
+• Association Analysis
+• Practical Data Mining using Python
+Expertise:
+Students will acquire basic knowledge of the techniques,
+opportunities, and applications of data mining. (MK1, MF1)
+Methodological competence:
+• Successful participants will be able to identify
+opportunities for applying data mining in an enterprise
+Learning outcomes and
+environment, select and apply appropriate techniques,
+qualification goals
+and interpret the results.
+• project organization skills
+(MK2, MF3, MF4, MKO1)
+Personal competence:
+• team work skills
+• presentation skills
+(MKO2, MF2)
+17Slide set, exercise sheets, Jupyter notebooks, data sets for
+Media
+the exercises, lecture videos
+• Pang-Ning Tan, Michael Steinback, Vipin Kumar:
+Introduction to Data Mining, 2nd Edition, Pearson.
+Literature
+• Aurélien Géron: Hands-on Machine Learning with Scikit-
+Learn, Keras & TensorFlow, 3rd Edition, O’Reilly.
+The course consists of a lecture together with accompanying
+practical exercises as well as student team projects. In the
+exercises the participants will gather initial expertise in
+applying state of the art data mining tools on realistic data
+Methods sets. The group projects take place in the last third of the
+term. Within the projects, students implement advanced
+data mining projects of personal choice and report about the
+results of their projects in the form of a written report as well
+as an oral presentation.
+Written examination (75%), project report (20%), oral project
+Form of assessment
+presentation (5%)
+Admission requirements
+-
+for assessment
+60 minutes (written examination), 5-11 pages (project
+Duration of assessment
+report), 5-15 minutes (oral project presentation)
+Language English
+Offering Fall semester / Spring semester
+Lecturer Prof. Dr. Heiko Paulheim; Prof. Dr. Christian Bizer
+Person in charge Prof. Dr. Heiko Paulheim; Prof. Dr. Christian Bizer
+Duration of module 1 Semester
+IE 675b – Machine Learning, IE 678 – Deep Learning,
+Further modules IS 661 – Text Analytics, CS 646 – Higher Level Computer
+Vision, IE 671 – Web Mining
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of application
+Science, Lehramt Informatik
+Semester 1st/2nd semester
+18IE 560 Decision Support
+Form of module Inverted classroom
+Type of module Business Informatics Fundamental
+Level Master
+ECTS 6
+Hours per semester: 42 h (1+2 SWS)
+Workload Self-study per semester: 138 h
+• 89 h: pre- and post lecture studying and revision
+• 49 h: exam preparation
+Basic Probability Theory, Basic Knowledge of Propositional
+Prerequisites
+and First-Order Logic
+The course provides an introduction to decision support
+techniques as a basis for the design of decision support
+systems. The course will cover the following topics:
+• Decision Theory
+Aim of module
+• Decision- and Business Rules
+• Probabilistic Graphical Models
+• Game Theory and Mechanism Design
+• Decision Processes and Reinforcement Learning
+Expertise:
+Students will acquire basic knowledge of the techniques,
+opportunities, and applications of decision theory.
+(MK1, MF1)
+Learning outcomes and Methodological competence:
+qualification goals Successful participants will be able to identify opportunities
+for decision support in an enterprise environment, select and
+apply appropriate techniques, and interpret the results.
+(MK2, MF3, MF4, MKO1)
+Personal competence: -
+Media Lecture videos, slide set, exercise sheets, software tools
+• S. Russel and P. Norvig: AI a modern Approach (3rd
+Literature
+Edition), 2010 (selected sections)
+The course consists of a lecture accompanied by practical
+Methods
+homework and case studies. In the lecture, the students’
+19basic concepts and methods of decision theory will be
+explained both in theory and using concrete examples. The
+students will practice and test their knowledge acquired in
+the lecture in homework assignments. Within the case
+studies, students model real world decision problems and try
+to solve them optimally using methods from the lecture.
+Form of assessment Written exam
+Admission requirements
+-
+for assessment
+Duration of assessment Written examina: 90 minutes
+Language English
+Offering Fall semester
+Lecturer Prof. Dr. Heiner Stuckenschmidt
+Person in charge Prof. Dr. Heiner Stuckenschmidt
+Duration of module 1 Semester
+Further modules -
+M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data
+Range of application
+Science,
+Semester 1st/2nd semester
+20

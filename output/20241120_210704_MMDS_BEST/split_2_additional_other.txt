@@ -1,0 +1,12 @@
+Foreword
+This document describes the courses that will be offered in HWS 2024/ FSS 2025 for stu-
+dents studying M. Sc. Mannheim Master in Data Science (Examination Regulations for the
+Master’s program from 26th April 2023). You can find the Examination Regulations on the
+website of the Student Services (Studienbüros):
+https://www.uni-mannheim.de/en/academics/during-your-studies/examinations/examination-regu-
+lations/
+It is possible that additional courses will be made available during the course of the aca-
+demic year. These will be published in an appendix available on the following web page:
+https://www.wim.uni-mannheim.de/en/academics/organizing-your-studies/mannheim-master-in-
+data-science/#c112237
+3

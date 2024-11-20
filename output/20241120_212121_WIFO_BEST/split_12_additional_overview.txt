@@ -1,0 +1,60 @@
+MAC 404 Lineare Optimierung
+For a detailed description please use the module catalog of the following degree programs
+B.Sc. WiMa
+https://www.wim.uni-mannheim.de/studium/studienorganisation/b-sc-
+wirtschaftsmathematik/
+D. Projects and Seminars
+1. Overview
+i. Team Project
+Module
+Name of Module Offered Language ECTS Page
+no.
+TP 500 Team Project HWS/FSS E 12 83
+ii. Scientific Research
+Module
+Name of Module Offered Language ECTS Page
+no.
+SQ 500 Scientific Research HWS/FSS E 2 86
+iii. Seminar
+Module
+Name of Module Offered Language ECTS Page
+no.
+Selected Topics in Algorithmics and
+CS 701 Irregular E 4 88
+Cryptography
+CS 704 Master Seminar Artificial Intelligence Irregular E 4 90
+Hot Topics in Machine Learning
+CS 707 Irregular E 4 92
+Seminar
+Seminar Software Engineering – Prof.
+CS 708 Irregular E 4 94
+Atkinson
+CS 709 Seminar Text Analytics Irregular G/E 4 96
+CS 710 Selected Topics in Data Science Irregular G/E 4 98
+CS 715 Large-Scale Data Integration Seminar Irregular E 4 100
+CS 716 IT-Security Irregular E 4 102
+CS 717 Master Seminar on Computer Vision HWS/FSS E 4 104
+81CS 720 Uncertainty Estimation Irregular E 4 106
+CS 721 Seminar Data-Science I Irregular E 4 108
+CS 722 Seminar Ethical Aspects of Al Irregular E 4 110
+Advanced Implementation Techniques
+CS 730 Irregular E 4 112
+for Database Systems
+CS 731 Database Theory Irregular E 4 114
+IE 704 Seminar AI Systems Engineering Irregular E 4 116
+Contemporary Issues in Information
+IS 712 Irregular E 4 118
+Systems Research
+Seminar Context - Aware and
+IS 722 MMM* E 4 MMM*
+Distributed Systems
+IS 742 Seminar Trends in Enterprise Systems MMM* E 4 MMM*
+E-Government Adoption and Societal
+IS 751 MMM* E 4 MMM*
+Change
+Seminar on Process and Management
+IS 752 MMM* E 4 MMM*
+Analytics
+* For a detailed description please use the module catalog of the „Mannheim Master in Management“:
+https://www.bwl.uni-mannheim.de/studium/master/mmm/#c176637
+82
