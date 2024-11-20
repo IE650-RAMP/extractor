@@ -1,1 +1,146 @@
-{"modules":[{"name":"creativity_and_entrepreneurship_in_practice","id":"MAN_631","ects":6,"workloadInPerson":30,"workloadSelfStudy":150,"offeredIn":["HWS"],"recommendedSemester":[],"recommendedLiterature":["www.mcei.de/teaching"],"hasLecturer":[{"name":"Erika Ni","title":null,"hasName":true}],"hasPersonInCharge":[{"name":"Prof. Dr. Michael Woywode","title":"Prof. Dr.","hasName":true}],"assessmentForms":["PRESENTATION","REPORT","WRITTEN"],"examinationDistribution":"35/35/20","examinationDuration":30,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":["MAN_630","MAN_632"],"additionalPrerequisite":null,"furtherModules":[]},{"name":"advanced_entrepreneurship","id":"MAN_632","ects":6,"workloadInPerson":30,"workloadSelfStudy":150,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":["www.mcei.de/teaching"],"hasLecturer":[{"name":"Prof. Dr. Michael Woywode","title":"Prof. Dr.","hasName":true},{"name":"Nora Zybura","title":null,"hasName":true},{"name":"Dr. Bettina Müller","title":"Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Prof. Dr. Michael Woywode","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN","PRESENTATION"],"examinationDistribution":"50/40/10","examinationDuration":60,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"entrepreneurial_behavior_and_crowdfunding_social_ventures","id":"MAN_634","ects":6,"workloadInPerson":30,"workloadSelfStudy":150,"offeredIn":["FFS","HWS"],"recommendedSemester":[],"recommendedLiterature":["Website of the Chair / Student Portal"],"hasLecturer":[{"name":"Dr. Baris Istipliler","title":"Dr.","hasName":true},{"name":"Erika Ni","title":null,"hasName":true}],"hasPersonInCharge":[{"name":"Dr. Baris Istipliler","title":"Dr.","hasName":true}],"assessmentForms":["PRESENTATION","PRESENTATION"],"examinationDistribution":"40/35/25","examinationDuration":null,"requiredPrerequisiteModules":["MAN_626"],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"employment_relations","id":"MAN_638","ects":4,"workloadInPerson":30,"workloadSelfStudy":90,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":["See homepage of the Chair of Business Administration, Human Resource Management and Leadership"],"hasLecturer":[{"name":"Dr. Frank Danesy","title":"Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Dr. Frank Danesy","title":"Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":null,"examinationDuration":60,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"transform_innovation_and_entrepreneurship_for_sustainability","id":"MAN_639","ects":6,"workloadInPerson":32,"workloadSelfStudy":148,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Prof. Dr. Dominika Wruk","title":"Prof. Dr.","hasName":true},{"name":"Gorgi Krlev","title":null,"hasName":true},{"name":"Mikolaj Pawlak","title":null,"hasName":true},{"name":"Ghita Dragsdahl","title":null,"hasName":true},{"name":"Deborah Wallet-Wodka","title":null,"hasName":true}],"hasPersonInCharge":[{"name":"Prof. Dr. Dominika Wruk","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN","PRESENTATION"],"examinationDistribution":"50/30/20","examinationDuration":null,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":"Students are interested in the key topics of the course: (social, frugal) innovation, sustainable business models and strategy, scaling and diffusion, impact measurement and management","furtherModules":[]}]}
+{
+  "modules": [
+    {
+      "name": "creativity_and_entrepreneurship_in_practice",
+      "id": "MAN_631",
+      "ects": 6,
+      "workloadInPerson": 30,
+      "workloadSelfStudy": 150,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": ["www.mcei.de/teaching"],
+      "hasLecturer": [{ "name": "Erika Ni", "title": null, "hasName": true }],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Michael Woywode",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["PRESENTATION", "REPORT", "WRITTEN"],
+      "examinationDistribution": "35/35/20",
+      "examinationDuration": 30,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["MAN_630", "MAN_632"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "advanced_entrepreneurship",
+      "id": "MAN_632",
+      "ects": 6,
+      "workloadInPerson": 30,
+      "workloadSelfStudy": 150,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": ["www.mcei.de/teaching"],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Michael Woywode",
+          "title": "Prof. Dr.",
+          "hasName": true
+        },
+        { "name": "Nora Zybura", "title": null, "hasName": true },
+        { "name": "Dr. Bettina Müller", "title": "Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Michael Woywode",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["WRITTEN", "PRESENTATION"],
+      "examinationDistribution": "50/40/10",
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "entrepreneurial_behavior_and_crowdfunding_social_ventures",
+      "id": "MAN_634",
+      "ects": 6,
+      "workloadInPerson": 30,
+      "workloadSelfStudy": 150,
+      "offeredIn": ["FSS", "HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": ["Website of the Chair / Student Portal"],
+      "hasLecturer": [
+        { "name": "Dr. Baris Istipliler", "title": "Dr.", "hasName": true },
+        { "name": "Erika Ni", "title": null, "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Dr. Baris Istipliler", "title": "Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["PRESENTATION", "PRESENTATION"],
+      "examinationDistribution": "40/35/25",
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["MAN_626"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "employment_relations",
+      "id": "MAN_638",
+      "ects": 4,
+      "workloadInPerson": 30,
+      "workloadSelfStudy": 90,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [
+        "See homepage of the Chair of Business Administration, Human Resource Management and Leadership"
+      ],
+      "hasLecturer": [
+        { "name": "Dr. Frank Danesy", "title": "Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Dr. Frank Danesy", "title": "Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "transform_innovation_and_entrepreneurship_for_sustainability",
+      "id": "MAN_639",
+      "ects": 6,
+      "workloadInPerson": 32,
+      "workloadSelfStudy": 148,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Dominika Wruk",
+          "title": "Prof. Dr.",
+          "hasName": true
+        },
+        { "name": "Gorgi Krlev", "title": null, "hasName": true },
+        { "name": "Mikolaj Pawlak", "title": null, "hasName": true },
+        { "name": "Ghita Dragsdahl", "title": null, "hasName": true },
+        { "name": "Deborah Wallet-Wodka", "title": null, "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Dominika Wruk",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["WRITTEN", "PRESENTATION"],
+      "examinationDistribution": "50/30/20",
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Students are interested in the key topics of the course: (social, frugal) innovation, sustainable business models and strategy, scaling and diffusion, impact measurement and management",
+      "furtherModules": []
+    }
+  ]
+}

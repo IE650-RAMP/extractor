@@ -1,0 +1,249 @@
+{
+  "modules": [
+    {
+      "name": "additional_course_data_analytics_methods",
+      "id": "AC_652",
+      "ects": 18,
+      "workloadInPerson": 0,
+      "workloadSelfStudy": 540,
+      "offeredIn": ["FSS", "HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Lecturer at the host university",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Lecturer at the host university",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "assessmentForms": [],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "statistics_for_data_scientists",
+      "id": "DS_100",
+      "ects": 9,
+      "workloadInPerson": 56,
+      "workloadSelfStudy": 214,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [1],
+      "recommendedLiterature": [
+        "Cameron, C.A. and P.K. Trivedi. 1998. Regression Analysis of Count Data. Cambridge: Cambridge University Press.",
+        "Greene, W.H. (2008). Econometric Analysis. 6th ed. Upper Saddle River: Prentice Hall.",
+        "Long, J.S. (1997). Regression Models for Categorical and Limited Dependent Variables. Thousand Oaks: Sage.",
+        "Verbeek, M. 2017. A Guide to Modern Econometrics. 5th ed. Chichester: Wiley.",
+        "Wooldridge, J.M. 2002. Econometric Analysis of Cross Section and Panel Data. Cambridge, MA: MIT Press.",
+        "Imbens, Guido W., and Donald B. Rubin. Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction. Cambridge: Cambridge University Press, 2015.",
+        "Angrist, Joshua D., and Jorn-Steffen Pischke. Mostly Harmless Econometrics: An Empiricist's Companion. Princeton: Princeton University Press, 2009."
+      ],
+      "hasLecturer": [
+        {
+          "name": "Lecturer of the School of Social Sciences, I.e chair of Social Data Science",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Lecturer of the School of Social Sciences, I.e. Chair of social Data Science",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "assessmentForms": ["WRITTEN", "ORAL"],
+      "examinationDistribution": "100",
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "A sound understanding of the linear regression model (OLS) is required. Knowledge in linear algebra and calculus is useful.",
+      "furtherModules": []
+    },
+    {
+      "name": "seminar_and_lab_on_machine_learning_and_causal_inference",
+      "id": "DS_202",
+      "ects": 9,
+      "workloadInPerson": 56,
+      "workloadSelfStudy": 214,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [3],
+      "recommendedLiterature": [
+        "Downey, Allen B. 2016. Think Python. How to Think Like a Computer Scientist. 2nd ed. Needham: Green Tea Press.",
+        "Guttag, John V. 2021. Introduction to Computation and Programming Using Python. 3rd. ed. Cambridge: MIT Press.",
+        "The Python Tutorial (online: https://docs.python.org/3/tutorial/)"
+      ],
+      "hasLecturer": [
+        {
+          "name": "Lecturer of the School of Social Sciences, I.e. chair of social data science",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Lecturer of the School of Social Sciences, I.e. chair of social data science",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "assessmentForms": ["WRITTEN", "ORAL"],
+      "examinationDistribution": "100",
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Students should be familiar with Python or at least with any other object-programming language.",
+      "furtherModules": []
+    },
+    {
+      "name": "decision_support",
+      "id": "IE_560",
+      "ects": 6,
+      "workloadInPerson": 42,
+      "workloadSelfStudy": 138,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [1, 2],
+      "recommendedLiterature": [
+        "S. Russel and P. Norvig: AI a modern Approach (3rd Edition), 2010 (selected sections)"
+      ],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Heiner Stuckenschmidt",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Heiner Stuckenschmidt",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Basic Probability Theory, Basic Knowledge of Propositional and First-Order Logic.",
+      "furtherModules": []
+    },
+    {
+      "name": "web_mining",
+      "id": "IE_671",
+      "ects": 3,
+      "workloadInPerson": 28,
+      "workloadSelfStudy": 56,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [1, 2, 3],
+      "recommendedLiterature": [
+        "Bing Liu: Web Data Mining. 2nd Edition, Springer, 2011.",
+        "Wouter de Nooy, et al.: Exploratory Social Network Analysis with Pajek. 2nd Edition, Cambridge University Press, 2011.",
+        "Bing Liu. Sentiment Analysis and Opinion Mining, Morgan & Claypool Publishers, 2012."
+      ],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Christian Bizer",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Christian Bizer",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["IE_500"],
+      "additionalPrerequisite": "Fundamental notions of linear algebra and probability theory.",
+      "furtherModules": []
+    },
+    {
+      "name": "deep_learning",
+      "id": "IE_678",
+      "ects": 6,
+      "workloadInPerson": 56,
+      "workloadSelfStudy": 98,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [2, 3],
+      "recommendedLiterature": [
+        "I. Drori. The Science of Deep Learning. Cambridge University Press, 2023.",
+        "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT Press, 2017.",
+        "K.P. Murphy. Probabilistic Machine Learning: An Introduction. The MIT Press, 2022.",
+        "K.P. Murphy. Probabilistic Machine Learning: Advanced Topics. The MIT Press, 2023.",
+        "Additional material and articles provided in lecture notes."
+      ],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Rainer Gemulla",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Rainer Gemulla",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["ORAL"],
+      "examinationDistribution": null,
+      "examinationDuration": 25,
+      "requiredPrerequisiteModules": ["IE_675b"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "No attempted or completed IE 674 exam.",
+      "furtherModules": []
+    },
+    {
+      "name": "web_mining_project",
+      "id": "IE_684",
+      "ects": 3,
+      "workloadInPerson": 28,
+      "workloadSelfStudy": 56,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [1, 2, 3],
+      "recommendedLiterature": [
+        "Bing Liu: Web Data Mining. 2nd Edition, Springer, 2011.",
+        "Wouter de Nooy, et al.: Exploratory Social Network Analysis with Pajek. 2nd Edition, Cambridge University Press, 2011.",
+        "Bing Liu. Sentiment Analysis and Opinion Mining, Morgan & Claypool Publishers, 2012."
+      ],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Christian Bizer",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Christian Bizer",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": "70/30",
+      "examinationDuration": 0,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["IE_671"],
+      "additionalPrerequisite": "Programming skills in Java or Python.",
+      "furtherModules": []
+    }
+  ]
+}

@@ -1,1 +1,170 @@
-{"modules":[{"name":"business_economics_i","id":"BE_510","ects":6,"workloadInPerson":32,"workloadSelfStudy":18,"offeredIn":["HWS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Henrik Orzen","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Henrik Orzen","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":"100","examinationDuration":90,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":["BE_510"],"additionalPrerequisite":"Knowledge of introductory microeconomics at bachelor level","furtherModules":[]},{"name":"business_economics_ii","id":"BE_511","ects":6,"workloadInPerson":32,"workloadSelfStudy":13,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Lily Ling Yang","title":"Ph.D.","hasName":true}],"hasPersonInCharge":[{"name":"Nicolas Schutz","title":"Ph.D.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":"100","examinationDuration":90,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":["BE_510"],"additionalPrerequisite":"Knowledge of introductory microeconomics at bachelor level","furtherModules":[]},{"name":"financial_accounting","id":"ACC_510","ects":8,"workloadInPerson":32,"workloadSelfStudy":24,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Jens Wüstemann","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Jens Wüstemann","title":"Prof. Dr.","hasName":true}],"assessmentForms":["PRESENTATION","WRITTEN"],"examinationDistribution":"75/25","examinationDuration":90,"requiredPrerequisiteModules":["ACC_512"],"optionalPrerequisiteModules":[],"additionalPrerequisite":"Bachelor-level knowledge of financial accounting","furtherModules":[]},{"name":"ifrs_reporting_and_capital_markets","id":"ACC_520","ects":8,"workloadInPerson":32,"workloadSelfStudy":24,"offeredIn":["HWS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Jannis Bischof","title":"Prof. Dr.","hasName":true},{"name":"Jens Wüstemann","title":"Prof. Dr.","hasName":true},{"name":"Ulrich Störk","title":null,"hasName":false}],"hasPersonInCharge":[{"name":"Jannis Bischof","title":"Prof. Dr.","hasName":true}],"assessmentForms":["PRESENTATION","WRITTEN"],"examinationDistribution":"75/25","examinationDuration":90,"requiredPrerequisiteModules":["ACC_515"],"optionalPrerequisiteModules":[],"additionalPrerequisite":"Bachelor-level knowledge of financial accounting","furtherModules":[]},{"name":"group_accounting","id":"ACC_530","ects":8,"workloadInPerson":32,"workloadSelfStudy":24,"offeredIn":["HWS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Dirk Simons","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Dirk Simons","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":"100","examinationDuration":90,"requiredPrerequisiteModules":["ACC_511"],"optionalPrerequisiteModules":[],"additionalPrerequisite":"Bachelor-level knowledge of financial accounting","furtherModules":[]},{"name":"financial_statement_analysis_and_equity_valuation","id":"ACC_540","ects":8,"workloadInPerson":32,"workloadSelfStudy":24,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Holger Daske","title":"Prof. Dr.","hasName":true},{"name":"Steffen Wagner","title":null,"hasName":false}],"hasPersonInCharge":[{"name":"Holger Daske","title":"Prof. Dr.","hasName":true}],"assessmentForms":["PRESENTATION","WRITTEN"],"examinationDistribution":"75/25","examinationDuration":90,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":"Bachelor-level knowledge of financial accounting and finance","furtherModules":[]},{"name":"managerial_accounting_evaluating_financial_and_non_financial_performance","id":"ACC_MAN_560","ects":8,"workloadInPerson":32,"workloadSelfStudy":24,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Jannis Bischof","title":"Prof. Dr.","hasName":true},{"name":"Claudia Max","title":null,"hasName":false},{"name":"Can Toygar","title":null,"hasName":false}],"hasPersonInCharge":[{"name":"Jannis Bischof","title":"Prof. Dr.","hasName":true}],"assessmentForms":["PRESENTATION","WRITTEN"],"examinationDistribution":"75/25","examinationDuration":90,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":"Bachelor-level knowledge of cost accounting","furtherModules":[]}]}
+{
+  "modules": [
+    {
+      "name": "business_economics_i",
+      "id": "BE_510",
+      "ects": 6,
+      "workloadInPerson": 32,
+      "workloadSelfStudy": 18,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Henrik Orzen", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Henrik Orzen", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": "100",
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["BE_510"],
+      "additionalPrerequisite": "Knowledge of introductory microeconomics at bachelor level",
+      "furtherModules": []
+    },
+    {
+      "name": "business_economics_ii",
+      "id": "BE_511",
+      "ects": 6,
+      "workloadInPerson": 32,
+      "workloadSelfStudy": 13,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Lily Ling Yang", "title": "Ph.D.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Nicolas Schutz", "title": "Ph.D.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": "100",
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["BE_510"],
+      "additionalPrerequisite": "Knowledge of introductory microeconomics at bachelor level",
+      "furtherModules": []
+    },
+    {
+      "name": "financial_accounting",
+      "id": "ACC_510",
+      "ects": 8,
+      "workloadInPerson": 32,
+      "workloadSelfStudy": 24,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Jens Wüstemann", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Jens Wüstemann", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["PRESENTATION", "WRITTEN"],
+      "examinationDistribution": "75/25",
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": ["ACC_512"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Bachelor-level knowledge of financial accounting",
+      "furtherModules": []
+    },
+    {
+      "name": "ifrs_reporting_and_capital_markets",
+      "id": "ACC_520",
+      "ects": 8,
+      "workloadInPerson": 32,
+      "workloadSelfStudy": 24,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Jannis Bischof", "title": "Prof. Dr.", "hasName": true },
+        { "name": "Jens Wüstemann", "title": "Prof. Dr.", "hasName": true },
+        { "name": "Ulrich Störk", "title": null, "hasName": false }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Jannis Bischof", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["PRESENTATION", "WRITTEN"],
+      "examinationDistribution": "75/25",
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": ["ACC_515"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Bachelor-level knowledge of financial accounting",
+      "furtherModules": []
+    },
+    {
+      "name": "group_accounting",
+      "id": "ACC_530",
+      "ects": 8,
+      "workloadInPerson": 32,
+      "workloadSelfStudy": 24,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Dirk Simons", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Dirk Simons", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": "100",
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": ["ACC_511"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Bachelor-level knowledge of financial accounting",
+      "furtherModules": []
+    },
+    {
+      "name": "financial_statement_analysis_and_equity_valuation",
+      "id": "ACC_540",
+      "ects": 8,
+      "workloadInPerson": 32,
+      "workloadSelfStudy": 24,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Holger Daske", "title": "Prof. Dr.", "hasName": true },
+        { "name": "Steffen Wagner", "title": null, "hasName": false }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Holger Daske", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["PRESENTATION", "WRITTEN"],
+      "examinationDistribution": "75/25",
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Bachelor-level knowledge of financial accounting and finance",
+      "furtherModules": []
+    },
+    {
+      "name": "managerial_accounting_evaluating_financial_and_non_financial_performance",
+      "id": "ACC_MAN_560",
+      "ects": 8,
+      "workloadInPerson": 32,
+      "workloadSelfStudy": 24,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Jannis Bischof", "title": "Prof. Dr.", "hasName": true },
+        { "name": "Claudia Max", "title": null, "hasName": false },
+        { "name": "Can Toygar", "title": null, "hasName": false }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Jannis Bischof", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["PRESENTATION", "WRITTEN"],
+      "examinationDistribution": "75/25",
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Bachelor-level knowledge of cost accounting",
+      "furtherModules": []
+    }
+  ]
+}

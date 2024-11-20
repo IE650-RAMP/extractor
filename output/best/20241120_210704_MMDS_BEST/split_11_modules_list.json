@@ -1,0 +1,206 @@
+{
+  "modules": [
+    {
+      "name": "large_language_models_and_agents",
+      "id": "ie_686",
+      "ects": 3,
+      "workloadInPerson": 28,
+      "workloadSelfStudy": 56,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [1, 2, 3],
+      "recommendedLiterature": [
+        "Zhou et al.: A Comprehensive Survey on Pretrained Foundation Models: A History from BERT to ChatGPT. 2023.",
+        "Zhao et al.: A Survey of Large Language Models. 2024.",
+        "Wang et al.: A Survey on Large Language Model based Autonomous Agents. 2024."
+      ],
+      "hasLecturer": [
+        { "name": "Christian Bizer", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Christian Bizer", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": "70/30",
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Basic machine learning concepts and techniques",
+      "furtherModules": []
+    },
+    {
+      "name": "advanced_process_mining",
+      "id": "ie_692",
+      "ects": 6,
+      "workloadInPerson": 150,
+      "workloadSelfStudy": 0,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [2],
+      "recommendedLiterature": [
+        "Wil van der Aalst: Process Mining: Data Science in Action, 2nd edition (Recommended)",
+        "Josep Carmona et al. Conformance checking, 1st edition (Recommended)"
+      ],
+      "hasLecturer": [
+        { "name": "Jana-Rebecca Rehse", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Jana-Rebecca Rehse", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": "80/20",
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Familiarity with Petri nets and BPMN for process modeling; Basic programming in Python.",
+      "furtherModules": []
+    },
+    {
+      "name": "advanced_methods_in_text_analytics",
+      "id": "ie_696",
+      "ects": 6,
+      "workloadInPerson": 56,
+      "workloadSelfStudy": 112,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [1, 2, 3],
+      "recommendedLiterature": [
+        "Dan Jurafsky and James H. Martin, Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition (3rd edition)"
+      ],
+      "hasLecturer": [
+        {
+          "name": "Simone Paolo Ponzetto",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Simone Paolo Ponzetto",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": ["ie_675b", "ie_678"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Successful completion of basic methods of linear algebra and probability theory.",
+      "furtherModules": []
+    },
+    {
+      "name": "higher_level_computer_vision",
+      "id": "cs_646",
+      "ects": 6,
+      "workloadInPerson": 56,
+      "workloadSelfStudy": 98,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [1, 2, 3],
+      "recommendedLiterature": [
+        "Goodfellow et al.: Deep Learning, MIT Press, 2016.",
+        "R. Szeliski: Computer Vision Algorithms and Applications, Springer, 2010.",
+        "D. Forsyth, J. Ponce: Computer Vision: A Modern Approach, Prentice Hall, 2nd edition, 2012.",
+        "R. Hartley, A. Zisserman: Multiple View Geometry in Computer Vision, Cambridge University Press, 2nd edition, 2004."
+      ],
+      "hasLecturer": [
+        { "name": "Margret Keuper", "title": "Prof. Dr.-Ing.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Margret Keuper", "title": "Prof. Dr.-Ing.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN", "ORAL"],
+      "examinationDistribution": "TBA",
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Basis skills in linear algebra, knowledge in python and pytorch.",
+      "furtherModules": ["image_processing"]
+    },
+    {
+      "name": "image_processing",
+      "id": "cs_647",
+      "ects": 6,
+      "workloadInPerson": 56,
+      "workloadSelfStudy": 98,
+      "offeredIn": ["HWS", "FSS"],
+      "recommendedSemester": [1, 2, 3],
+      "recommendedLiterature": [
+        "R. Szeliski: Computer Vision Algorithms and Applications, Springer, 2010.",
+        "D. Forsyth, J. Ponce: Computer Vision: A Modern Approach, Prentice Hall, 2nd edition, 2012."
+      ],
+      "hasLecturer": [
+        { "name": "Margret Keuper", "title": "Prof. Dr.-Ing.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Margret Keuper", "title": "Prof. Dr.-Ing.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN", "ORAL"],
+      "examinationDistribution": "TBA",
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Basis skills in linear algebra, knowledge in python.",
+      "furtherModules": ["higher_level_computer_vision"]
+    },
+    {
+      "name": "generative_computer_vision_models",
+      "id": "cs_668",
+      "ects": 6,
+      "workloadInPerson": 56,
+      "workloadSelfStudy": 98,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [1, 2, 3],
+      "recommendedLiterature": [
+        "Ian Goodfellow and Yoshua Bengio and Aaron Courville, Deep Learning, An MIT press book, 2016."
+      ],
+      "hasLecturer": [
+        { "name": "Margret Keuper", "title": "Prof. Dr.-Ing.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Margret Keuper", "title": "Prof. Dr.-Ing.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN", "ORAL"],
+      "examinationDistribution": "TBA",
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Basis skills in linear algebra, knowledge in python/pytorch.",
+      "furtherModules": ["higher_level_computer_vision"]
+    },
+    {
+      "name": "machine_learning_and_causal_inference",
+      "id": "ds_201",
+      "ects": 9,
+      "workloadInPerson": 56,
+      "workloadSelfStudy": 214,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [2],
+      "recommendedLiterature": [
+        "Angrist, Joshua D., and Jörn-Steffen Pischke. 2009. Mostly Harmless Econometrics: An Empiricist’s Companion.",
+        "Murphy, Kevin P. 2012. Machine Learning: A Probabilistic Perspective.",
+        "Hastie, Trevor, Robert Tibshirani, and Jerome Friedman. 2008. The Elements of Statistical Learning. 2nd ed.",
+        "Imbens, Guido W., and Donald B. Rubin. 2015. Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction.",
+        "Morgan, Stephen L., and Christopher Winship. 2007. Counterfactuals and Causal Inference."
+      ],
+      "hasLecturer": [
+        {
+          "name": "Chair of Social Data Science",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Chair of Social Data Science",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "A sound understanding of basic statistical methods.",
+      "furtherModules": []
+    }
+  ]
+}

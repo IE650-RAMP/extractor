@@ -52,7 +52,7 @@
       "ects": 4,
       "workloadInPerson": 20,
       "workloadSelfStudy": 10,
-      "offeredIn": ["FFS"],
+      "offeredIn": ["FSS"],
       "recommendedSemester": [],
       "recommendedLiterature": [],
       "hasLecturer": [
@@ -98,7 +98,7 @@
       "ects": 4,
       "workloadInPerson": 20,
       "workloadSelfStudy": 10,
-      "offeredIn": ["FFS"],
+      "offeredIn": ["FSS"],
       "recommendedSemester": [],
       "recommendedLiterature": [],
       "hasLecturer": [
@@ -145,7 +145,7 @@
       "ects": 6,
       "workloadInPerson": 180,
       "workloadSelfStudy": 0,
-      "offeredIn": ["FFS", "HWS"],
+      "offeredIn": ["FSS", "HWS"],
       "recommendedSemester": [],
       "recommendedLiterature": [],
       "hasLecturer": [

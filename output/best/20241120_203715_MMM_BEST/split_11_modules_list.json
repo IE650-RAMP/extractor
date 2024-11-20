@@ -1,0 +1,308 @@
+{
+  "modules": [
+    {
+      "name": "is_616_large_scale_data_analysis_and_visualization",
+      "id": "IS_616",
+      "ects": 6,
+      "workloadInPerson": 32,
+      "workloadSelfStudy": 148,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "M. Strohmaier", "title": "Prof. Dr.", "hasName": true },
+        { "name": "M. Pellert", "title": null, "hasName": false }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Markus Strohmaier",
+          "title": null,
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": "100",
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Basic knowledge about statistics and either basic knowledge of R and Python or intermediate knowledge of either Python or R and willingness to learn the other.",
+      "furtherModules": []
+    },
+    {
+      "name": "is_622_network_science",
+      "id": "IS_622",
+      "ects": 6,
+      "workloadInPerson": 32,
+      "workloadSelfStudy": 148,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Markus Strohmaier",
+          "title": null,
+          "hasName": true
+        },
+        { "name": "Marlene Lutz", "title": null, "hasName": false }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Markus Strohmaier",
+          "title": null,
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": "80/20",
+      "examinationDuration": 80,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Basic knowledge of algorithms and data structures as well as programming concepts and methods, practical programming skills (Python), basic knowledge of statistics.",
+      "furtherModules": []
+    },
+    {
+      "name": "is_628_advances_in_public_blockchains",
+      "id": "IS_628",
+      "ects": 6,
+      "workloadInPerson": 32,
+      "workloadSelfStudy": 148,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Markus Strohmaier",
+          "title": null,
+          "hasName": true
+        },
+        { "name": "Stefano Balietti", "title": null, "hasName": false }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Markus Strohmaier",
+          "title": null,
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": "100",
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "is_629_agile_software_product_management_and_design",
+      "id": "IS_629",
+      "ects": 6,
+      "workloadInPerson": 26,
+      "workloadSelfStudy": 154,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Prof. Dr. Hartmut Höhle", "title": null, "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Prof. Dr. Hartmut Höhle", "title": null, "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN", "PRESENTATION"],
+      "examinationDistribution": "60/40",
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["IS_540"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "is_635_forschungsmethoden_data_science",
+      "id": "IS_635",
+      "ects": 6,
+      "workloadInPerson": 32,
+      "workloadSelfStudy": 148,
+      "offeredIn": ["FSS", "HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Markus Strohmaier",
+          "title": null,
+          "hasName": true
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Markus Strohmaier",
+          "title": null,
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["PRESENTATION"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["IS_6"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Registration of a Master's Thesis work at the chair for Data Science.",
+      "furtherModules": []
+    },
+    {
+      "name": "is_661_text_analytics",
+      "id": "IS_661",
+      "ects": 6,
+      "workloadInPerson": 32,
+      "workloadSelfStudy": 148,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Markus Strohmaier",
+          "title": null,
+          "hasName": true
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Markus Strohmaier",
+          "title": null,
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Basic knowledge of programming concepts and methods, practical programming skills (Python).",
+      "furtherModules": []
+    },
+    {
+      "name": "is_712_seminar",
+      "id": "IS_712",
+      "ects": 6,
+      "workloadInPerson": 32,
+      "workloadSelfStudy": 148,
+      "offeredIn": ["FSS", "HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Timo Himmelsbach", "title": null, "hasName": false }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Prof. Dr. Armin Heinzl", "title": null, "hasName": true }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Basic knowledge of IS.",
+      "furtherModules": []
+    },
+    {
+      "name": "is_723_seminar_data_science_ii",
+      "id": "IS_723",
+      "ects": 6,
+      "workloadInPerson": 32,
+      "workloadSelfStudy": 148,
+      "offeredIn": ["FSS", "HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Marlene Lutz", "title": null, "hasName": false }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Markus Strohmaier",
+          "title": null,
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": "50/40/10",
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "is_724_seminar_current_topics_in_human_ai_collaboration",
+      "id": "IS_724",
+      "ects": 6,
+      "workloadInPerson": 32,
+      "workloadSelfStudy": 148,
+      "offeredIn": ["FSS", "HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Prof. Dr. Kevin Bauer", "title": null, "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Prof. Dr. Kevin Bauer", "title": null, "hasName": true }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": "60/40",
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "is_742_seminar_trends_in_enterprise_systems",
+      "id": "IS_742",
+      "ects": 6,
+      "workloadInPerson": 32,
+      "workloadSelfStudy": 148,
+      "offeredIn": ["FSS", "HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Prof. Dr. Hartmut Höhle", "title": null, "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Prof. Dr. Hartmut Höhle", "title": null, "hasName": true }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": "80/20",
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["IS_540"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "is_752_seminar_on_process_and_management_analytics",
+      "id": "IS_752",
+      "ects": 6,
+      "workloadInPerson": 32,
+      "workloadSelfStudy": 148,
+      "offeredIn": ["FSS", "HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Jana-Rebecca Rehse",
+          "title": null,
+          "hasName": true
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Jana-Rebecca Rehse",
+          "title": null,
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": "80/20",
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["IS_515"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    }
+  ]
+}

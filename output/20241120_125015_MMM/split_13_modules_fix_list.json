@@ -52,7 +52,7 @@
       "ects": 4,
       "workloadInPerson": 36,
       "workloadSelfStudy": 84,
-      "offeredIn": ["FFS"],
+      "offeredIn": ["FSS"],
       "recommendedSemester": [],
       "recommendedLiterature": [],
       "hasLecturer": [
@@ -98,7 +98,7 @@
       "ects": 4,
       "workloadInPerson": 36,
       "workloadSelfStudy": 84,
-      "offeredIn": ["FFS"],
+      "offeredIn": ["FSS"],
       "recommendedSemester": [],
       "recommendedLiterature": [],
       "hasLecturer": [
@@ -150,7 +150,7 @@
       "ects": 6,
       "workloadInPerson": 36,
       "workloadSelfStudy": 144,
-      "offeredIn": ["FFS", "HWS"],
+      "offeredIn": ["FSS", "HWS"],
       "recommendedSemester": [],
       "recommendedLiterature": [],
       "hasLecturer": [
@@ -250,7 +250,7 @@
       "ects": 6,
       "workloadInPerson": 60,
       "workloadSelfStudy": 120,
-      "offeredIn": ["FFS", "HWS"],
+      "offeredIn": ["FSS", "HWS"],
       "recommendedSemester": [],
       "recommendedLiterature": [],
       "hasLecturer": [
@@ -344,7 +344,7 @@
       "ects": 6,
       "workloadInPerson": 60,
       "workloadSelfStudy": 120,
-      "offeredIn": ["FFS"],
+      "offeredIn": ["FSS"],
       "recommendedSemester": [],
       "recommendedLiterature": [],
       "hasLecturer": [
@@ -367,7 +367,7 @@
       "ects": 8,
       "workloadInPerson": 120,
       "workloadSelfStudy": 120,
-      "offeredIn": ["FFS"],
+      "offeredIn": ["FSS"],
       "recommendedSemester": [],
       "recommendedLiterature": [],
       "hasLecturer": [
@@ -413,7 +413,7 @@
       "ects": 6,
       "workloadInPerson": 60,
       "workloadSelfStudy": 120,
-      "offeredIn": ["FFS"],
+      "offeredIn": ["FSS"],
       "recommendedSemester": [],
       "recommendedLiterature": [],
       "hasLecturer": [
@@ -505,7 +505,7 @@
       "ects": 6,
       "workloadInPerson": 30,
       "workloadSelfStudy": 150,
-      "offeredIn": ["FFS", "HWS"],
+      "offeredIn": ["FSS", "HWS"],
       "recommendedSemester": [],
       "recommendedLiterature": [],
       "hasLecturer": [
@@ -528,7 +528,7 @@
       "ects": 6,
       "workloadInPerson": 30,
       "workloadSelfStudy": 150,
-      "offeredIn": ["FFS", "HWS"],
+      "offeredIn": ["FSS", "HWS"],
       "recommendedSemester": [],
       "recommendedLiterature": [],
       "hasLecturer": [
@@ -551,7 +551,7 @@
       "ects": 6,
       "workloadInPerson": 30,
       "workloadSelfStudy": 150,
-      "offeredIn": ["FFS", "HWS"],
+      "offeredIn": ["FSS", "HWS"],
       "recommendedSemester": [],
       "recommendedLiterature": [],
       "hasLecturer": [

@@ -547,7 +547,7 @@ Program-specific Competency Goals CG 1, CG 2
 161Module: MAN 654 Corporate Restructuring EN
 Contents Learning outcomes
 This course exposes students to a broad range of strategic and fi- Students will
-nancial restructuring techniques (e.g., equity carveouts, spin-offs,
+nancial restructuring techniques (e.g., equity carveouts, spin-oFSS,
 acquire and demonstrate expert knowledge in the specific
 leveraged buyouts) that can be applied to improve business per-
 subject area of corporate restructuring.

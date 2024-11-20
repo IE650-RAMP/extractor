@@ -10,13 +10,13 @@ are available in the right place at the right time. As such, supply underlying b
 chain management plays a crucial role in the delivery of cus- fundamental supply chain planning tasks. They will also get to
 tomer service and thereby in the creation of business value. This know relevant analytical tools and concepts. The course enables
 course addresses key decisions regarding the design of a compa- students to analyze supply chain management decisions using
-ny’s supply chain activities. Particular attention will be paid to the quantitative techniques and to make the right trade-offs be-
+ny’s supply chain activities. Particular attention will be paid to the quantitative techniques and to make the right trade-oFSS be-
 design of distribution networks as a core element of a firm’s in- tween different performance criteria.
 frastructure. Other topics include capacity management and
 transportation planning. The course takes an analytics-oriented Prerequisites for participation
 approach and introduces quantitative models that link manage- Necessary: –
 rial levers to supply chain performance. It thereby highlights rele- Recommended: Basic knowledge in operations management
-vant trade-offs and reveals how managers can strike an optimal (e.g. BSc course “OPM 301 Operations Management”), basic
+vant trade-oFSS and reveals how managers can strike an optimal (e.g. BSc course “OPM 301 Operations Management”), basic
 balance. knowledge in mathematics (including Linear Programming) and
 in statistics (probability distributions).
 Forms of teaching and learning Contact hours Independent study time
@@ -50,7 +50,7 @@ eral. Business analytics tools and techniques are of great value to to determine
 master these challenges. This course introduces such approach- mance objectives. Students will also gain insights into the inter-
 es. It structures the analysis by distinguishing different inventory dependencies between the sales and operations functions of a
 drivers. For each driver, it first highlights the underlying econom- firm.
-ic trade-offs and then introduces and analyses quantitative mod-
+ic trade-oFSS and then introduces and analyses quantitative mod-
 els that allow to optimize them. Core topics include demand Prerequisites for participation
 forecasting, lot sizing, safety stocks, and seasonal inventory. The Necessary: –
 course also addresses the interplay between the sales and opera- Recommended: Basic knowledge in operations management
@@ -406,7 +406,7 @@ poor performance e.g. due to operational problems, or has to course based on stu
 make strategic market-related decisions subject to challenging teams of two on the assigned case.
 resource constraints. The managerial decisions ahead are often
 very complex, involving many alternatives with different impact, Learning outcomes
-and trade-offs between key performance measures (e.g., profit, Students will intensify their understanding of operations man-
+and trade-oFSS between key performance measures (e.g., profit, Students will intensify their understanding of operations man-
 cost, quality, and environmental impact) must be made. agement by applying concepts and analytical tools in a broader,
 This course reviews managerial concepts and advanced analyti- interdisciplinary and strategic context to practical case studies.
 cal tools to help make more informed decisions and manage op- The course should be useful for anyone with an intention of go-

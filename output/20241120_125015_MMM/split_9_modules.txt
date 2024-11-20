@@ -9,7 +9,7 @@ competition becomes borderless, organizations are forced to ly completing the co
 continually examine ways to operate more effectively and effi- evaluate and initiate strategic IT initiatives, to organize (govern)
 ciently. Information technology and information systems are a the IT function, to understand the role of the Chief Information
 crucial means of obtaining these goals in the digital Age. IT and Officer in order to lead this function, to analyze, design and direct
-IS are also key enablers of new products, services and processes. outsourcing as well as offshoring initiatives, and to control the IT
+IS are also key enablers of new products, services and processes. outsourcing as well as oFSShoring initiatives, and to control the IT
 This course is designed for students who desire an insightful syn- function from a top management and risk management perspec-
 opsis of IT management concepts and practices. tive. IT management issues will be discussed from a planning,
 It is the objective of this course to offer profound insights into in- leadership, governance, sourcing and controlling perspective.

@@ -1,1 +1,561 @@
-{"modules":[{"name":"price_and_product_management","id":"mkt_510","ects":6,"workloadInPerson":11,"workloadSelfStudy":14,"offeredIn":["HWS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Christian Homburg","title":"Prof. Dr. Dr. h. c. mult.","hasName":true}],"hasPersonInCharge":[{"name":"Christian Homburg","title":"Prof. Dr. Dr. h. c. mult.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":null,"examinationDuration":60,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"marketing_analytics","id":"mkt_511","ects":6,"workloadInPerson":8,"workloadSelfStudy":13,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Florian Stahl","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Florian Stahl","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":null,"examinationDuration":90,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"designing_data_driven_business_models","id":"mkt_512","ects":3,"workloadInPerson":6,"workloadSelfStudy":4,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Victoria Meil and Andreas Hamann","title":null,"hasName":false}],"hasPersonInCharge":[{"name":"Florian Stahl","title":"Prof. Dr.","hasName":true}],"assessmentForms":["PRESENTATION"],"examinationDistribution":null,"examinationDuration":null,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":["mkt_510"],"additionalPrerequisite":"A basic understanding of business foundations and statistics is helpful (but not required).","furtherModules":[]},{"name":"market_research","id":"mkt_520","ects":6,"workloadInPerson":11,"workloadSelfStudy":5,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Prof. Kraus","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Prof. Kraus","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":null,"examinationDuration":60,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":["cc_503"],"additionalPrerequisite":null,"furtherModules":[]},{"name":"marketing_theory_consumer_behavior","id":"mkt_531","ects":4,"workloadInPerson":11,"workloadSelfStudy":5,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Florian Stahl","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Florian Stahl","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":null,"examinationDuration":60,"requiredPrerequisiteModules":["mkt_530"],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"customers_markets_and_firm_strategy","id":"mkt_545","ects":6,"workloadInPerson":11,"workloadSelfStudy":5,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Florian Stahl","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Florian Stahl","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":null,"examinationDuration":90,"requiredPrerequisiteModules":["mkt_650"],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"service_business_model_innovations","id":"mkt_561","ects":4,"workloadInPerson":11,"workloadSelfStudy":5,"offeredIn":["HWS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Prof. Kraus","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Prof. Kraus","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":null,"examinationDuration":60,"requiredPrerequisiteModules":["mkt_560"],"optionalPrerequisiteModules":[],"additionalPrerequisite":"Basic marketing knowledge on Bachelor level","furtherModules":[]},{"name":"marketing_strategy_for_innovation_sustainability","id":"mkt_575","ects":3,"workloadInPerson":6,"workloadSelfStudy":4,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Sabine Kuester","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Sabine Kuester","title":"Prof. Dr.","hasName":true}],"assessmentForms":["ASSIGNEMNT"],"examinationDistribution":null,"examinationDuration":null,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":"Knowledge of marketing fundamentals (Bachelor level knowledge)","furtherModules":[]},{"name":"digital_marketing_strategy","id":"mkt_580","ects":6,"workloadInPerson":17,"workloadSelfStudy":15,"offeredIn":["HWS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Sabine Kuester","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Sabine Kuester","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN","PRESENTATION"],"examinationDistribution":"50/50","examinationDuration":60,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"business_to_business_marketing","id":"mkt_612","ects":2,"workloadInPerson":6,"workloadSelfStudy":4,"offeredIn":["HWS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Prof. Kraus","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Prof. Kraus","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":null,"examinationDuration":45,"requiredPrerequisiteModules":["mkt_610"],"optionalPrerequisiteModules":["mkt_510"],"additionalPrerequisite":null,"furtherModules":[]},{"name":"marketing_communication","id":"mkt_614","ects":4,"workloadInPerson":11,"workloadSelfStudy":5,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Florian Stahl","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Florian Stahl","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":null,"examinationDuration":60,"requiredPrerequisiteModules":["mkt_530","mkt_532"],"optionalPrerequisiteModules":[],"additionalPrerequisite":"Basic marketing knowledge on Bachelor level","furtherModules":[]},{"name":"sales_management","id":"mkt_615","ects":4,"workloadInPerson":11,"workloadSelfStudy":5,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Christian Homburg","title":"Prof. Dr. Dr. h. c. mult.","hasName":true}],"hasPersonInCharge":[{"name":"Christian Homburg","title":"Prof. Dr. Dr. h. c. mult.","hasName":true}],"assessmentForms":["WRITTEN","ASSIGNEMNT"],"examinationDistribution":"60/40","examinationDuration":60,"requiredPrerequisiteModules":["mkt_611"],"optionalPrerequisiteModules":["mkt_510"],"additionalPrerequisite":null,"furtherModules":[]},{"name":"fundamentals_of_negotiation","id":"mkt_616","ects":2,"workloadInPerson":6,"workloadSelfStudy":4,"offeredIn":["HWS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Kraus","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Kraus","title":"Prof. Dr.","hasName":true}],"assessmentForms":["REPORT"],"examinationDistribution":null,"examinationDuration":null,"requiredPrerequisiteModules":["mkt_613"],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"applied_negotiation","id":"mkt_617","ects":2,"workloadInPerson":6,"workloadSelfStudy":4,"offeredIn":["HWS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Kraus","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Kraus","title":"Prof. Dr.","hasName":true}],"assessmentForms":["REPORT"],"examinationDistribution":null,"examinationDuration":null,"requiredPrerequisiteModules":["mkt_616","mkt_613"],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"country_manager","id":"mkt_622","ects":2,"workloadInPerson":6,"workloadSelfStudy":4,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Sabine Kuester","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Sabine Kuester","title":"Prof. Dr.","hasName":true}],"assessmentForms":["ASSIGNEMNT"],"examinationDistribution":null,"examinationDuration":null,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"strategic_marketing_management_simulation","id":"mkt_623","ects":2,"workloadInPerson":6,"workloadSelfStudy":4,"offeredIn":["HWS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Sabine Kuester","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Sabine Kuester","title":"Prof. Dr.","hasName":true}],"assessmentForms":["ASSIGNEMNT"],"examinationDistribution":null,"examinationDuration":null,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"data_scraping_for_analytics_and_ai_using_r","id":"mkt_624","ects":4,"workloadInPerson":9,"workloadSelfStudy":9,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Florian Stahl","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Florian Stahl","title":"Prof. Dr.","hasName":true}],"assessmentForms":["ORAL"],"examinationDistribution":null,"examinationDuration":null,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":"basics in statistics and/or empirical social research, basics in R and/or Python and basics in statistical analysis with R.","furtherModules":[]},{"name":"consumer_behavior","id":"mkt_661","ects":2,"workloadInPerson":6,"workloadSelfStudy":4,"offeredIn":["HWS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Wayne D. Hoyer","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Wayne D. Hoyer","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":null,"examinationDuration":45,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":["mkt_531"],"additionalPrerequisite":null,"furtherModules":[]},{"name":"branding_and_brand_management","id":"mkt_663","ects":4,"workloadInPerson":11,"workloadSelfStudy":5,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Florian Stahl","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Florian Stahl","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":null,"examinationDuration":60,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"research_seminar","id":"mkt_710","ects":6,"workloadInPerson":17,"workloadSelfStudy":15,"offeredIn":["HWS","FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Christian Homburg","title":"Prof. Dr. Dr. h. c. mult.","hasName":true}],"hasPersonInCharge":[{"name":"Christian Homburg","title":"Prof. Dr. Dr. h. c. mult.","hasName":true}],"assessmentForms":["ASSIGNEMNT"],"examinationDistribution":null,"examinationDuration":null,"requiredPrerequisiteModules":["mkt_5xx","mkt_6xx"],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"research_seminar","id":"mkt_720","ects":6,"workloadInPerson":17,"workloadSelfStudy":15,"offeredIn":["HWS","FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Florian Stahl","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Florian Stahl","title":"Prof. Dr.","hasName":true}],"assessmentForms":["ASSIGNEMNT"],"examinationDistribution":null,"examinationDuration":null,"requiredPrerequisiteModules":["mkt_5xx","mkt_6xx"],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"research_seminar","id":"mkt_730","ects":6,"workloadInPerson":17,"workloadSelfStudy":15,"offeredIn":["HWS","FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Sabine Kuester","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Sabine Kuester","title":"Prof. Dr.","hasName":true}],"assessmentForms":["ASSIGNEMNT"],"examinationDistribution":null,"examinationDuration":null,"requiredPrerequisiteModules":["mkt_5xx","mkt_6xx"],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"research_seminar","id":"mkt_740","ects":6,"workloadInPerson":17,"workloadSelfStudy":15,"offeredIn":["HWS","FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Kraus","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Kraus","title":"Prof. Dr.","hasName":true}],"assessmentForms":["ASSIGNEMNT"],"examinationDistribution":null,"examinationDuration":null,"requiredPrerequisiteModules":["mkt_5xx","mkt_6xx"],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]}]}
+{
+  "modules": [
+    {
+      "name": "price_and_product_management",
+      "id": "mkt_510",
+      "ects": 6,
+      "workloadInPerson": 11,
+      "workloadSelfStudy": 14,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Christian Homburg",
+          "title": "Prof. Dr. Dr. h. c. mult.",
+          "hasName": true
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Christian Homburg",
+          "title": "Prof. Dr. Dr. h. c. mult.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "marketing_analytics",
+      "id": "mkt_511",
+      "ects": 6,
+      "workloadInPerson": 8,
+      "workloadSelfStudy": 13,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Florian Stahl", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Florian Stahl", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "designing_data_driven_business_models",
+      "id": "mkt_512",
+      "ects": 3,
+      "workloadInPerson": 6,
+      "workloadSelfStudy": 4,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Victoria Meil and Andreas Hamann",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Florian Stahl", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["PRESENTATION"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["mkt_510"],
+      "additionalPrerequisite": "A basic understanding of business foundations and statistics is helpful (but not required).",
+      "furtherModules": []
+    },
+    {
+      "name": "market_research",
+      "id": "mkt_520",
+      "ects": 6,
+      "workloadInPerson": 11,
+      "workloadSelfStudy": 5,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Prof. Kraus", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Prof. Kraus", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["cc_503"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "marketing_theory_consumer_behavior",
+      "id": "mkt_531",
+      "ects": 4,
+      "workloadInPerson": 11,
+      "workloadSelfStudy": 5,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Florian Stahl", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Florian Stahl", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": ["mkt_530"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "customers_markets_and_firm_strategy",
+      "id": "mkt_545",
+      "ects": 6,
+      "workloadInPerson": 11,
+      "workloadSelfStudy": 5,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Florian Stahl", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Florian Stahl", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": ["mkt_650"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "service_business_model_innovations",
+      "id": "mkt_561",
+      "ects": 4,
+      "workloadInPerson": 11,
+      "workloadSelfStudy": 5,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Prof. Kraus", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Prof. Kraus", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": ["mkt_560"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Basic marketing knowledge on Bachelor level",
+      "furtherModules": []
+    },
+    {
+      "name": "marketing_strategy_for_innovation_sustainability",
+      "id": "mkt_575",
+      "ects": 3,
+      "workloadInPerson": 6,
+      "workloadSelfStudy": 4,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Sabine Kuester", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Sabine Kuester", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["ASSIGNEMNT"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Knowledge of marketing fundamentals (Bachelor level knowledge)",
+      "furtherModules": []
+    },
+    {
+      "name": "digital_marketing_strategy",
+      "id": "mkt_580",
+      "ects": 6,
+      "workloadInPerson": 17,
+      "workloadSelfStudy": 15,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Sabine Kuester", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Sabine Kuester", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN", "PRESENTATION"],
+      "examinationDistribution": "50/50",
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "business_to_business_marketing",
+      "id": "mkt_612",
+      "ects": 2,
+      "workloadInPerson": 6,
+      "workloadSelfStudy": 4,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Prof. Kraus", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Prof. Kraus", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 45,
+      "requiredPrerequisiteModules": ["mkt_610"],
+      "optionalPrerequisiteModules": ["mkt_510"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "marketing_communication",
+      "id": "mkt_614",
+      "ects": 4,
+      "workloadInPerson": 11,
+      "workloadSelfStudy": 5,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Florian Stahl", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Florian Stahl", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": ["mkt_530", "mkt_532"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Basic marketing knowledge on Bachelor level",
+      "furtherModules": []
+    },
+    {
+      "name": "sales_management",
+      "id": "mkt_615",
+      "ects": 4,
+      "workloadInPerson": 11,
+      "workloadSelfStudy": 5,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Christian Homburg",
+          "title": "Prof. Dr. Dr. h. c. mult.",
+          "hasName": true
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Christian Homburg",
+          "title": "Prof. Dr. Dr. h. c. mult.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["WRITTEN", "ASSIGNEMNT"],
+      "examinationDistribution": "60/40",
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": ["mkt_611"],
+      "optionalPrerequisiteModules": ["mkt_510"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "fundamentals_of_negotiation",
+      "id": "mkt_616",
+      "ects": 2,
+      "workloadInPerson": 6,
+      "workloadSelfStudy": 4,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Kraus", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Kraus", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["REPORT"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["mkt_613"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "applied_negotiation",
+      "id": "mkt_617",
+      "ects": 2,
+      "workloadInPerson": 6,
+      "workloadSelfStudy": 4,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Kraus", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Kraus", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["REPORT"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["mkt_616", "mkt_613"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "country_manager",
+      "id": "mkt_622",
+      "ects": 2,
+      "workloadInPerson": 6,
+      "workloadSelfStudy": 4,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Sabine Kuester", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Sabine Kuester", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["ASSIGNEMNT"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "strategic_marketing_management_simulation",
+      "id": "mkt_623",
+      "ects": 2,
+      "workloadInPerson": 6,
+      "workloadSelfStudy": 4,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Sabine Kuester", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Sabine Kuester", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["ASSIGNEMNT"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "data_scraping_for_analytics_and_ai_using_r",
+      "id": "mkt_624",
+      "ects": 4,
+      "workloadInPerson": 9,
+      "workloadSelfStudy": 9,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Florian Stahl", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Florian Stahl", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["ORAL"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "basics in statistics and/or empirical social research, basics in R and/or Python and basics in statistical analysis with R.",
+      "furtherModules": []
+    },
+    {
+      "name": "consumer_behavior",
+      "id": "mkt_661",
+      "ects": 2,
+      "workloadInPerson": 6,
+      "workloadSelfStudy": 4,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Wayne D. Hoyer", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Wayne D. Hoyer", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 45,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["mkt_531"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "branding_and_brand_management",
+      "id": "mkt_663",
+      "ects": 4,
+      "workloadInPerson": 11,
+      "workloadSelfStudy": 5,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Florian Stahl", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Florian Stahl", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "research_seminar",
+      "id": "mkt_710",
+      "ects": 6,
+      "workloadInPerson": 17,
+      "workloadSelfStudy": 15,
+      "offeredIn": ["HWS", "FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Christian Homburg",
+          "title": "Prof. Dr. Dr. h. c. mult.",
+          "hasName": true
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Christian Homburg",
+          "title": "Prof. Dr. Dr. h. c. mult.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["ASSIGNEMNT"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["mkt_5xx", "mkt_6xx"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "research_seminar",
+      "id": "mkt_720",
+      "ects": 6,
+      "workloadInPerson": 17,
+      "workloadSelfStudy": 15,
+      "offeredIn": ["HWS", "FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Florian Stahl", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Florian Stahl", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["ASSIGNEMNT"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["mkt_5xx", "mkt_6xx"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "research_seminar",
+      "id": "mkt_730",
+      "ects": 6,
+      "workloadInPerson": 17,
+      "workloadSelfStudy": 15,
+      "offeredIn": ["HWS", "FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Sabine Kuester", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Sabine Kuester", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["ASSIGNEMNT"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["mkt_5xx", "mkt_6xx"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "research_seminar",
+      "id": "mkt_740",
+      "ects": 6,
+      "workloadInPerson": 17,
+      "workloadSelfStudy": 15,
+      "offeredIn": ["HWS", "FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Kraus", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Kraus", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["ASSIGNEMNT"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["mkt_5xx", "mkt_6xx"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    }
+  ]
+}

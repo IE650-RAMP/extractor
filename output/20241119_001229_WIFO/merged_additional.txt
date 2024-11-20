@@ -111,14 +111,14 @@ IE 663 Information Retrieval and Web Search HWS E 3 45
 IE 670 Web Data Integration HWS E 3 47
 IE 671 Web Mining FSS E 3 49
 IE 675b Machine Learning HWS E 9 51
-IE 678 Deep Learning FFS E 6 53
+IE 678 Deep Learning FSS E 6 53
 IE 692 Advanced Process Mining* FSS E 6 55
 IE 683 Web Data Integration Project HWS E 3 58
 IE 684 Web Mining Project FSS E 3 60
 IE 686 Large Language Models and Agents HWS E 3 62
 IE 691 Information Retrieval Project HWS E 3 65
 Artificial Intelligence Applications in
-IE 694 FFS E 6 67
+IE 694 FSS E 6 67
 Industry
 IE 696 Advanced Methods in Text Analytics FSS E 6 69
 22Foundations and Applications of

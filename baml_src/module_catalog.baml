@@ -1,5 +1,5 @@
 enum Semester {
-  FFS @description("Spring/ Summer semester")
+  FSS @description("Spring/ Summer semester")
   HWS @description("Fall/ Winter semester")
 }
 
@@ -69,7 +69,7 @@ class Module {
   ects int @description("The number of ECTS points for the module")
   workloadInPerson int @description("The in-person workload hours for the module")
   workloadSelfStudy int @description("The self-study workload hours for the module")
-  offeredIn Semester[] @description("The semesters when the module is offered (FFS for Spring/ Summer or HWS for Fall/ Winter)")
+  offeredIn Semester[] @description("The semesters when the module is offered (FSS for Spring/ Summer or HWS for Fall/ Winter)")
   recommendedSemester int[] @description("Recommended semesters to take this module")
   recommendedLiterature string[] @description("List of recommended literature for the module")
   

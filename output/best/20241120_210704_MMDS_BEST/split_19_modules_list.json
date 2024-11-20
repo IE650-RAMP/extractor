@@ -1,0 +1,35 @@
+{
+  "modules": [
+    {
+      "name": "master_thesis",
+      "id": "H_30",
+      "ects": 30,
+      "workloadInPerson": 0,
+      "workloadSelfStudy": 840,
+      "offeredIn": ["FSS", "HWS"],
+      "recommendedSemester": [4],
+      "recommendedLiterature": ["Topic dependent"],
+      "hasLecturer": [
+        {
+          "name": "University teachers, auxiliary professors, honorary professors and senior academic staff members",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Supervisors of other faculties upon application to the examination board",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "To be permitted to write the master thesis, the student is to obtain at least 60 ECTS",
+      "furtherModules": []
+    }
+  ]
+}

@@ -1,1 +1,27 @@
-{"modules":[{"name":"masters_thesis","id":"MT_291","ects":24,"workloadInPerson":720,"workloadSelfStudy":0,"offeredIn":["FFS","HWS"],"recommendedSemester":[1],"recommendedLiterature":[],"hasLecturer":[{"name":"respective supervisors","title":null,"hasName":false}],"hasPersonInCharge":[{"name":"respective supervisors","title":null,"hasName":false}],"assessmentForms":["REPORT"],"examinationDistribution":null,"examinationDuration":null,"requiredPrerequisiteModules":["SEM_700"],"optionalPrerequisiteModules":[],"additionalPrerequisite":"Acceptance of other seminars upon individual agreement in specific circumstances.","furtherModules":[]}]}
+{
+  "modules": [
+    {
+      "name": "masters_thesis",
+      "id": "MT_291",
+      "ects": 24,
+      "workloadInPerson": 720,
+      "workloadSelfStudy": 0,
+      "offeredIn": ["FSS", "HWS"],
+      "recommendedSemester": [1],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "respective supervisors", "title": null, "hasName": false }
+      ],
+      "hasPersonInCharge": [
+        { "name": "respective supervisors", "title": null, "hasName": false }
+      ],
+      "assessmentForms": ["REPORT"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["SEM_700"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Acceptance of other seminars upon individual agreement in specific circumstances.",
+      "furtherModules": []
+    }
+  ]
+}

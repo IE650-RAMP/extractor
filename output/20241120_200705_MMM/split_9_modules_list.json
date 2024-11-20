@@ -1,1 +1,359 @@
-{"modules":[{"name":"is_512_it_management_in_the_digital_age","id":"IS_512","ects":6,"workloadInPerson":15,"workloadSelfStudy":165,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Prof. Dr. Armin Heinzl","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Prof. Dr. Armin Heinzl","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":"100","examinationDuration":60,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"is_513_applied_it_management_in_the_digital_age","id":"IS_513","ects":6,"workloadInPerson":15,"workloadSelfStudy":165,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Dr. Michael Grebe","title":null,"hasName":true}],"hasPersonInCharge":[{"name":"Prof. Dr. Armin Heinzl","title":"Prof. Dr.","hasName":true}],"assessmentForms":[],"examinationDistribution":"80/20","examinationDuration":null,"requiredPrerequisiteModules":["IS_512"],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"is_515_process_management_and_analytics","id":"IS_515","ects":6,"workloadInPerson":8,"workloadSelfStudy":172,"offeredIn":["HWS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Prof. Dr. Jana-Rebecca Rehse","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Prof. Dr. Jana-Rebecca Rehse","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":"80/20","examinationDuration":60,"requiredPrerequisiteModules":["IS_514"],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"is_540_management_of_enterprise_systems","id":"IS_540","ects":6,"workloadInPerson":9,"workloadSelfStudy":171,"offeredIn":["HWS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Prof. Dr. Hartmut Höhle","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Prof. Dr. Hartmut Höhle","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":"80/20","examinationDuration":60,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"is_541_theories_and_methods_in_information_systems","id":"IS_541","ects":6,"workloadInPerson":17,"workloadSelfStudy":163,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Prof. Dr. Hartmut Höhle","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Prof. Dr. Hartmut Höhle","title":"Prof. Dr.","hasName":true}],"assessmentForms":["PRESENTATION"],"examinationDistribution":"30/70","examinationDuration":null,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":"Basic statistical knowledge recommended","furtherModules":[]},{"name":"is_550_international_course_information_systems","id":"IS_550","ects":6,"workloadInPerson":0,"workloadSelfStudy":180,"offeredIn":["FFS","HWS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Lecturer at the host university","title":null,"hasName":false}],"hasPersonInCharge":[{"name":"Lecturer at the host university","title":null,"hasName":false}],"assessmentForms":[],"examinationDistribution":null,"examinationDuration":null,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"is_556_public_blockchains","id":"IS_556","ects":6,"workloadInPerson":8,"workloadSelfStudy":172,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Prof. Dr. Markus Strohmaier","title":"Prof. Dr.","hasName":true},{"name":"Dr. Stefano Balietti","title":"Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Prof. Dr. Markus Strohmaier","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":"100","examinationDuration":60,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":["IS_533"],"additionalPrerequisite":"Knowledge of computer programming (in any language).","furtherModules":[]},{"name":"is_557_introduction_to_scientific_programming_with_python","id":"IS_557","ects":6,"workloadInPerson":17,"workloadSelfStudy":163,"offeredIn":["HWS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Georg Ahnert","title":null,"hasName":true},{"name":"Prof. Dr. Markus Strohmaier","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Prof. Dr. Markus Strohmaier","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":"100","examinationDuration":60,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":"Basic knowledge about programming languages, statistics, and linear algebra.","furtherModules":[]},{"name":"is_607_digital_innovation","id":"IS_607","ects":6,"workloadInPerson":15,"workloadSelfStudy":165,"offeredIn":["FFS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Dr. Anna-Maria Seeger","title":"Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Dr. Anna-Maria Seeger","title":"Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":"100","examinationDuration":60,"requiredPrerequisiteModules":["IS_512","IS_614","IS_615"],"optionalPrerequisiteModules":["IS_615"],"additionalPrerequisite":null,"furtherModules":[]},{"name":"is_613_applied_project_in_enterprise_cloud_design_and_development","id":"IS_613","ects":6,"workloadInPerson":15,"workloadSelfStudy":165,"offeredIn":["HWS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Dr. Alexander Scheerer","title":"Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Dr. Alexander Scheerer","title":"Dr.","hasName":true}],"assessmentForms":[],"examinationDistribution":null,"examinationDuration":null,"requiredPrerequisiteModules":["IS_615"],"optionalPrerequisiteModules":[],"additionalPrerequisite":"This course is designed for master students of management or information systems. A basic understanding of how to program information systems is helpful.","furtherModules":[]},{"name":"is_614_corporate_knowledge_management","id":"IS_614","ects":6,"workloadInPerson":15,"workloadSelfStudy":165,"offeredIn":["HWS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Prof. Dr. Armin Heinzl","title":"Prof. Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Prof. Dr. Armin Heinzl","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":"60/20","examinationDuration":60,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":[],"additionalPrerequisite":null,"furtherModules":[]},{"name":"is_615_enterprise_cloud_design_and_development","id":"IS_615","ects":6,"workloadInPerson":15,"workloadSelfStudy":165,"offeredIn":["HWS"],"recommendedSemester":[],"recommendedLiterature":[],"hasLecturer":[{"name":"Prof. Dr. Tobias Schimmer","title":"Prof. Dr.","hasName":true},{"name":"Dr. Philipp Hoffmann","title":"Dr.","hasName":true}],"hasPersonInCharge":[{"name":"Prof. Dr. Tobias Schimmer","title":"Prof. Dr.","hasName":true}],"assessmentForms":["WRITTEN"],"examinationDistribution":"80/20","examinationDuration":60,"requiredPrerequisiteModules":[],"optionalPrerequisiteModules":["IS_613"],"additionalPrerequisite":null,"furtherModules":[]}]}
+{
+  "modules": [
+    {
+      "name": "is_512_it_management_in_the_digital_age",
+      "id": "IS_512",
+      "ects": 6,
+      "workloadInPerson": 15,
+      "workloadSelfStudy": 165,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Armin Heinzl",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Armin Heinzl",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": "100",
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "is_513_applied_it_management_in_the_digital_age",
+      "id": "IS_513",
+      "ects": 6,
+      "workloadInPerson": 15,
+      "workloadSelfStudy": 165,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Dr. Michael Grebe", "title": null, "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Armin Heinzl",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": [],
+      "examinationDistribution": "80/20",
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["IS_512"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "is_515_process_management_and_analytics",
+      "id": "IS_515",
+      "ects": 6,
+      "workloadInPerson": 8,
+      "workloadSelfStudy": 172,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Jana-Rebecca Rehse",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Jana-Rebecca Rehse",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": "80/20",
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": ["IS_514"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "is_540_management_of_enterprise_systems",
+      "id": "IS_540",
+      "ects": 6,
+      "workloadInPerson": 9,
+      "workloadSelfStudy": 171,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Hartmut Höhle",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Hartmut Höhle",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": "80/20",
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "is_541_theories_and_methods_in_information_systems",
+      "id": "IS_541",
+      "ects": 6,
+      "workloadInPerson": 17,
+      "workloadSelfStudy": 163,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Hartmut Höhle",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Hartmut Höhle",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["PRESENTATION"],
+      "examinationDistribution": "30/70",
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Basic statistical knowledge recommended",
+      "furtherModules": []
+    },
+    {
+      "name": "is_550_international_course_information_systems",
+      "id": "IS_550",
+      "ects": 6,
+      "workloadInPerson": 0,
+      "workloadSelfStudy": 180,
+      "offeredIn": ["FSS", "HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Lecturer at the host university",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Lecturer at the host university",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "assessmentForms": [],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "is_556_public_blockchains",
+      "id": "IS_556",
+      "ects": 6,
+      "workloadInPerson": 8,
+      "workloadSelfStudy": 172,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Markus Strohmaier",
+          "title": "Prof. Dr.",
+          "hasName": true
+        },
+        { "name": "Dr. Stefano Balietti", "title": "Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Markus Strohmaier",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": "100",
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["IS_533"],
+      "additionalPrerequisite": "Knowledge of computer programming (in any language).",
+      "furtherModules": []
+    },
+    {
+      "name": "is_557_introduction_to_scientific_programming_with_python",
+      "id": "IS_557",
+      "ects": 6,
+      "workloadInPerson": 17,
+      "workloadSelfStudy": 163,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Georg Ahnert", "title": null, "hasName": true },
+        {
+          "name": "Prof. Dr. Markus Strohmaier",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Markus Strohmaier",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": "100",
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Basic knowledge about programming languages, statistics, and linear algebra.",
+      "furtherModules": []
+    },
+    {
+      "name": "is_607_digital_innovation",
+      "id": "IS_607",
+      "ects": 6,
+      "workloadInPerson": 15,
+      "workloadSelfStudy": 165,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Dr. Anna-Maria Seeger", "title": "Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Dr. Anna-Maria Seeger", "title": "Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": "100",
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": ["IS_512", "IS_614", "IS_615"],
+      "optionalPrerequisiteModules": ["IS_615"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "is_613_applied_project_in_enterprise_cloud_design_and_development",
+      "id": "IS_613",
+      "ects": 6,
+      "workloadInPerson": 15,
+      "workloadSelfStudy": 165,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Dr. Alexander Scheerer", "title": "Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Dr. Alexander Scheerer", "title": "Dr.", "hasName": true }
+      ],
+      "assessmentForms": [],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["IS_615"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "This course is designed for master students of management or information systems. A basic understanding of how to program information systems is helpful.",
+      "furtherModules": []
+    },
+    {
+      "name": "is_614_corporate_knowledge_management",
+      "id": "IS_614",
+      "ects": 6,
+      "workloadInPerson": 15,
+      "workloadSelfStudy": 165,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Armin Heinzl",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Armin Heinzl",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": "60/20",
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "is_615_enterprise_cloud_design_and_development",
+      "id": "IS_615",
+      "ects": 6,
+      "workloadInPerson": 15,
+      "workloadSelfStudy": 165,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Tobias Schimmer",
+          "title": "Prof. Dr.",
+          "hasName": true
+        },
+        { "name": "Dr. Philipp Hoffmann", "title": "Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Tobias Schimmer",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": "80/20",
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["IS_613"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    }
+  ]
+}

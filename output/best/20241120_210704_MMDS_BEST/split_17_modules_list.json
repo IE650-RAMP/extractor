@@ -1,0 +1,259 @@
+{
+  "modules": [
+    {
+      "name": "additional_course_projects_and_seminars",
+      "id": "AC_653",
+      "ects": 18,
+      "workloadInPerson": 0,
+      "workloadSelfStudy": 540,
+      "offeredIn": ["FSS", "HWS"],
+      "recommendedSemester": [2, 3, 4],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Lecturer at the host university",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Lecturer at the host university",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "assessmentForms": ["WRITTEN", "ORAL"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "team_project",
+      "id": "TP_500",
+      "ects": 12,
+      "workloadInPerson": 84,
+      "workloadSelfStudy": 140,
+      "offeredIn": ["FSS", "HWS"],
+      "recommendedSemester": [1, 2, 3],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Professors of the Institute of Computer Science and Business Informatics or of the Area Information Systems of the Business School",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Professors of the Institute of Computer Science and Business Informatics or of the Area Information Systems of the Business School",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "individual_project",
+      "id": "IP_500",
+      "ects": 8,
+      "workloadInPerson": 0,
+      "workloadSelfStudy": 240,
+      "offeredIn": [],
+      "recommendedSemester": [1, 2, 3],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Professors of the Institute of School of Business Informatics and Mathematics or of the School of Social Sciences",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Professors of the Institute of School of Business Informatics and Mathematics or of the School of Social Sciences",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "scientific_research",
+      "id": "SQ_500",
+      "ects": 2,
+      "workloadInPerson": 12,
+      "workloadSelfStudy": 48,
+      "offeredIn": ["FSS", "HWS"],
+      "recommendedSemester": [1, 2, 3],
+      "recommendedLiterature": [
+        "The craft of research / Wayne C. Booth; Gregory G. Colomb; Joseph M. Williams ( Chicago guides to writing, editing, and publishing ); 3. ed.; Chicago, Ill. ; [u.a.] : University of Chicago Press, 2008 ; XVII, 317 S. : graph. Darst. ; 22cm.",
+        "LaTeX (Wikibook): http://en.wikibooks.org/wiki/LaTeX"
+      ],
+      "hasLecturer": [
+        {
+          "name": "Lecturer from the University Library (UB)",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Lecturer from the University Library (UB)",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "assessmentForms": [],
+      "examinationDistribution": null,
+      "examinationDuration": 150,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "selected_topics_in_algorithmics_and_cryptography",
+      "id": "CS_701",
+      "ects": 4,
+      "workloadInPerson": 120,
+      "workloadSelfStudy": 0,
+      "offeredIn": [],
+      "recommendedSemester": [3],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Matthias Krause, Alexander Moch, Matthias Hamann",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Matthias Krause",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["CS_550", "CS_651"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "key qualification scientific research.",
+      "furtherModules": []
+    },
+    {
+      "name": "master_seminar_artificial_intelligence",
+      "id": "CS_704",
+      "ects": 4,
+      "workloadInPerson": 120,
+      "workloadSelfStudy": 0,
+      "offeredIn": [],
+      "recommendedSemester": [3],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Heiner Stuckenschmidt",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Heiner Stuckenschmidt",
+          "title": "Prof. Dr.",
+          "hasName": true
+        }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [
+        "Decision Support",
+        "Data Mining",
+        "Knowledge Management"
+      ],
+      "optionalPrerequisiteModules": ["SQ_500"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "hot_topics_in_machine_learning",
+      "id": "CS_707",
+      "ects": 4,
+      "workloadInPerson": 120,
+      "workloadSelfStudy": 0,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [3],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Prof. Dr. Rainer Gemulla or research staff member",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Prof. Dr. Rainer Gemulla or research staff member",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["Bachelor degree, the fundamentals"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "seminar_software_engineering",
+      "id": "CS_708",
+      "ects": 4,
+      "workloadInPerson": 120,
+      "workloadSelfStudy": 0,
+      "offeredIn": [],
+      "recommendedSemester": [1, 2, 3],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Member of the software engineering group",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Member of the software engineering group",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "assessmentForms": ["REPORT", "PRESENTATION"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["Bachelor degree, the fundamentals"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    }
+  ]
+}

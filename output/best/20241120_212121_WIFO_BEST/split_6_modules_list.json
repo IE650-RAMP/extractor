@@ -1,0 +1,160 @@
+{
+  "modules": [
+    {
+      "name": "model_driven_development",
+      "id": "cs_600",
+      "ects": 6,
+      "workloadInPerson": 56,
+      "workloadSelfStudy": 112,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [2, 3, 4],
+      "recommendedLiterature": [
+        "Jos B. Warmer and Anneke G. Kleppe, The Object Constraint Language: Getting Your Models Ready for MDA, Addison-Wesley Object Technology Series, 2003"
+      ],
+      "hasLecturer": [
+        { "name": "Colin Atkinson", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Colin Atkinson", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": ["software_testing_and_experimentation"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "higher_level_computer_vision",
+      "id": "cs_646",
+      "ects": 6,
+      "workloadInPerson": 56,
+      "workloadSelfStudy": 98,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [1, 2, 3],
+      "recommendedLiterature": [
+        "Goodfellow et al..: Deep Learning, MIT Press, 2016.",
+        "R. Szeliski: Computer Vision Algorithms and Applications, Springer, 2010.",
+        "D. Forsyth, J. Ponce: Computer Vision: A Modern Approach, Prentice Hall, 2nd edition, 2012.",
+        "R. Hartley, A. Zisserman: Multiple View Geometry in Computer Vision, Cambridge University Press, 2nd edition, 2004."
+      ],
+      "hasLecturer": [
+        { "name": "Margret Keuper", "title": "Prof. Dr.-Ing.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Margret Keuper", "title": "Prof. Dr.-Ing.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN", "ORAL"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Basis skills in linear algebra, basis knowledge in python and pytorch",
+      "furtherModules": []
+    },
+    {
+      "name": "image_processing",
+      "id": "cs_647",
+      "ects": 6,
+      "workloadInPerson": 56,
+      "workloadSelfStudy": 98,
+      "offeredIn": ["HWS", "FSS"],
+      "recommendedSemester": [1, 2, 3],
+      "recommendedLiterature": [
+        "R. Szeliski: Computer Vision Algorithms and Applications, Springer, 2010.",
+        "D. Forsyth, J. Ponce: Computer Vision: A Modern Approach, Prentice Hall, 2nd edition, 2012."
+      ],
+      "hasLecturer": [
+        { "name": "Margret Keuper", "title": "Prof. Dr.-Ing.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Margret Keuper", "title": "Prof. Dr.-Ing.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN", "ORAL"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Basis skills in linear algebra, basis knowledge in python",
+      "furtherModules": ["higher_level_computer_vision"]
+    },
+    {
+      "name": "cryptography_ii",
+      "id": "cs_651",
+      "ects": 6,
+      "workloadInPerson": 56,
+      "workloadSelfStudy": 112,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [1, 2, 3],
+      "recommendedLiterature": [
+        "Jonathan Katz, Yehuda Lindell: Introduction to Modern Cryptography: Principles and Protocols, Chapman and Hall/CRC, 2007."
+      ],
+      "hasLecturer": [
+        { "name": "Frederik Armknecht", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Frederik Armknecht", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["ORAL"],
+      "examinationDistribution": null,
+      "examinationDuration": 30,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Cryptography I is not required but the basics are recapitulated.",
+      "furtherModules": []
+    },
+    {
+      "name": "cryptography",
+      "id": "cs_655",
+      "ects": 6,
+      "workloadInPerson": 56,
+      "workloadSelfStudy": 98,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [1, 2, 3],
+      "recommendedLiterature": [
+        "Christof Paar, Bart Preneel, Jan Pelzl: Understanding Cryptography: A Textbook for Students and Practitioners, Springer 2009.",
+        "Douglas R. Stinson: Cryptography - Theory and Practice, Taylor & Francis, 2005.",
+        "Alan G. Konheim: Cryptography: A Primer, John Wiley & Sons, 1981."
+      ],
+      "hasLecturer": [
+        { "name": "Matthias Krause", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Matthias Krause", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["ORAL"],
+      "examinationDistribution": null,
+      "examinationDuration": 30,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Basis skills in linear algebra, probability theory, algorithms, and data structures",
+      "furtherModules": ["cryptography_ii"]
+    },
+    {
+      "name": "types_and_programming_languages",
+      "id": "cs_662",
+      "ects": 6,
+      "workloadInPerson": 56,
+      "workloadSelfStudy": 112,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [1, 2, 3],
+      "recommendedLiterature": [
+        "Types and Programming Languages. February 2002. Benjamin C. Pierce. The MIT Press. ISBN: 978-0-262-16209-8"
+      ],
+      "hasLecturer": [
+        { "name": "Roland Leißa", "title": "Junior Professor", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Roland Leißa", "title": "Junior Professor", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 90,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    }
+  ]
+}

@@ -125,7 +125,7 @@ ramp:offeredIn rdf:type owl:DatatypeProperty ;
                rdfs:domain ramp:Module ;
                rdfs:range [ rdf:type rdfs:Datatype ;
                             owl:oneOf [ rdf:type rdf:List ;
-                                        rdf:first "FFS" ;
+                                        rdf:first "FSS" ;
                                         rdf:rest [ rdf:type rdf:List ;
                                                    rdf:first "HWS" ;
                                                    rdf:rest rdf:nil

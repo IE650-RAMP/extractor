@@ -62,7 +62,7 @@ class Degree(str, Enum):
 
 class Semester(str, Enum):
     
-    FFS = "FFS"
+    FSS = "FSS"
     HWS = "HWS"
 
 class Module(BaseModel):

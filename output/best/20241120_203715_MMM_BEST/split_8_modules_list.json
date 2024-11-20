@@ -1,0 +1,294 @@
+{
+  "modules": [
+    {
+      "name": "fin_500_investments",
+      "id": "FIN_500",
+      "ects": 6,
+      "workloadInPerson": 10,
+      "workloadSelfStudy": 14,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [
+        "Brealey, Myers, Allen, Corporate Finance, (McGraw-Hill, 10th edition, 2010)"
+      ],
+      "hasLecturer": [
+        { "name": "Erik Theissen", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Erik Theissen", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Basic knowledge in mathematics (optimization, elementary matrix algebra) and statistics (expected value, variances, covariances, correlation, t-tests). Successful attendance of Finanzwirtschaft I & II in the Mannheim Bachelor's program or similar courses.",
+      "furtherModules": []
+    },
+    {
+      "name": "fin_540_corporate_finance_i_lecture",
+      "id": "FIN_540",
+      "ects": 5,
+      "workloadInPerson": 14,
+      "workloadSelfStudy": 12,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [
+        "Brealey, Myers, Allen, Corporate Finance, (McGraw-Hill, 10th edition, 2010)"
+      ],
+      "hasLecturer": [
+        { "name": "Marc Gabarro", "title": "Ph.D.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Ernst Maug", "title": "Ph.D.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Every student participating in this course should have completed the equivalent of the 2-semester finance module, which is part of the Mannheim Bachelor program. Basic knowledge in accounting, finance, mathematics, and statistics is assumed.",
+      "furtherModules": []
+    },
+    {
+      "name": "fin_541_corporate_finance_i_case_study",
+      "id": "FIN_541",
+      "ects": 5,
+      "workloadInPerson": 10,
+      "workloadSelfStudy": 4,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [
+        "Brealey, Myers, Allen, Corporate Finance, (McGraw-Hill, 10th edition, 2010)"
+      ],
+      "hasLecturer": [
+        { "name": "Ernst Maug", "title": "Ph.D.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Ernst Maug", "title": "Ph.D.", "hasName": true }
+      ],
+      "assessmentForms": ["ASSIGNEMNT"],
+      "examinationDistribution": "75/25",
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": ["FIN_540"],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Every student participating in this course should have completed the equivalent of the 2-semester finance module, which is part of the Mannheim Bachelor program. Basic knowledge in accounting, finance, mathematics, and statistics is assumed.",
+      "furtherModules": []
+    },
+    {
+      "name": "fin_550_international_course_banking_finance_and_insurance",
+      "id": "FIN_550",
+      "ects": 0,
+      "workloadInPerson": 0,
+      "workloadSelfStudy": 0,
+      "offeredIn": ["FSS", "HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        {
+          "name": "Lecturer at the host university",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "hasPersonInCharge": [
+        {
+          "name": "Lecturer at the host university",
+          "title": null,
+          "hasName": false
+        }
+      ],
+      "assessmentForms": [],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "The level of the course matches that of a regular MMM course (level 500 and above).",
+      "furtherModules": []
+    },
+    {
+      "name": "fin_555_financial_markets_and_employees",
+      "id": "FIN_555",
+      "ects": 3,
+      "workloadInPerson": 6,
+      "workloadSelfStudy": 3,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Ernst Maug", "title": "Ph.D.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Ernst Maug", "title": "Ph.D.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN", "ASSIGNEMNT"],
+      "examinationDistribution": "75/25",
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "The course requires cross-disciplinary thinking and understanding of key concepts.",
+      "furtherModules": []
+    },
+    {
+      "name": "fin_580_derivatives_basic_strategies_and_pricing",
+      "id": "FIN_580",
+      "ects": 6,
+      "workloadInPerson": 10,
+      "workloadSelfStudy": 5,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Stefan Ruenzi", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Stefan Ruenzi", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Students should have successfully completed the Mannheim Bachelor finance modules (or equivalent courses). A working knowledge of basic mathematics and statistics is required.",
+      "furtherModules": []
+    },
+    {
+      "name": "fin_590_financial_institutions_i",
+      "id": "FIN_590",
+      "ects": 4,
+      "workloadInPerson": 6,
+      "workloadSelfStudy": 3,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Oliver Spalt", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Oliver Spalt", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Every student participating in this course should have completed the equivalent of the 2-semester finance module.",
+      "furtherModules": []
+    },
+    {
+      "name": "fin_601_bond_markets",
+      "id": "FIN_601",
+      "ects": 6,
+      "workloadInPerson": 10,
+      "workloadSelfStudy": 5,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Erik Theissen", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Erik Theissen", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["FIN_500"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "fin_602_trading_and_exchanges",
+      "id": "FIN_602",
+      "ects": 6,
+      "workloadInPerson": 10,
+      "workloadSelfStudy": 5,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Erik Theissen", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Erik Theissen", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["FIN_500"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "fin_603_empirical_finance",
+      "id": "FIN_603",
+      "ects": 10,
+      "workloadInPerson": 10,
+      "workloadSelfStudy": 16,
+      "offeredIn": ["FSS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Erik Theissen", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Erik Theissen", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN", "ASSIGNEMNT"],
+      "examinationDistribution": "45/45/10",
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["CC_502", "CC_503", "FIN_5XX"],
+      "additionalPrerequisite": null,
+      "furtherModules": []
+    },
+    {
+      "name": "fin_604_stata_in_finance",
+      "id": "FIN_604",
+      "ects": 2,
+      "workloadInPerson": 5,
+      "workloadSelfStudy": 5,
+      "offeredIn": ["FSS", "HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Stefan Scharnowski", "title": null, "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Erik Theissen", "title": "Prof. Dr.", "hasName": true }
+      ],
+      "assessmentForms": ["ASSIGNEMNT"],
+      "examinationDistribution": null,
+      "examinationDuration": null,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Due to a limited amount of seats in the computer lab, the number of participants will be limited.",
+      "furtherModules": []
+    },
+    {
+      "name": "fin_606_fintech",
+      "id": "FIN_606",
+      "ects": 4,
+      "workloadInPerson": 9,
+      "workloadSelfStudy": 3,
+      "offeredIn": ["HWS"],
+      "recommendedSemester": [],
+      "recommendedLiterature": [],
+      "hasLecturer": [
+        { "name": "Stefan Scharnowski", "title": null, "hasName": true }
+      ],
+      "hasPersonInCharge": [
+        { "name": "Stefan Scharnowski", "title": null, "hasName": true }
+      ],
+      "assessmentForms": ["WRITTEN"],
+      "examinationDistribution": null,
+      "examinationDuration": 60,
+      "requiredPrerequisiteModules": [],
+      "optionalPrerequisiteModules": [],
+      "additionalPrerequisite": "Basic knowledge of finance and statistics.",
+      "furtherModules": []
+    }
+  ]
+}
