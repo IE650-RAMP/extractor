@@ -210,8 +210,8 @@
       "assessmentForms": ["WRITTEN", "REPORT", "PRESENTATION"],
       "examinationDistribution": "75/20/5",
       "examinationDuration": 60,
-      "requiredPrerequisiteModules": ["math_220", "cs_500"],
-      "optionalPrerequisiteModules": [],
+      "optionalPrerequisiteModules": ["math_220", "cs_500"],
+      "requiredPrerequisiteModules": [],
       "additionalPrerequisite": null,
       "furtherModules": ["ie_675b", "ie_678"]
     },

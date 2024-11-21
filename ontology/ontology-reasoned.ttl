@@ -4681,6 +4681,30 @@ ramp:StudyProgram a owl:Class .
         <http://ramp.uni-mannheim.de/module/ACC_MAN_662>,
         <http://ramp.uni-mannheim.de/module/ACC_MAN_662> .
 
+<http://ramp.uni-mannheim.de/module/IE_694> a ramp:Module ;
+    rdfs:label "Artificial Intelligence Applications In Industry"^^xsd:string ;
+    ramp:ects "6"^^xsd:int ;
+    ramp:hasAdditionalPrerequisite "Machine Learning Concepts and Techniques; Programming in Python"^^xsd:string ;
+    ramp:hasLecturer <http://ramp.uni-mannheim.de/person/HEINER_STUCKENSCHMIDT>,
+        <http://ramp.uni-mannheim.de/person/PROF._DR._HEINER_STUCKENSCHMIDT> ;
+    ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/IE_675B> ;
+    ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/HEINER_STUCKENSCHMIDT>,
+        <http://ramp.uni-mannheim.de/person/PROF._DR._HEINER_STUCKENSCHMIDT> ;
+    ramp:hasPrerequisite <http://ramp.uni-mannheim.de/module/IE_500>,
+        <http://ramp.uni-mannheim.de/module/IE_500> ;
+    ramp:id "IE_694"^^xsd:string ;
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/144002068352>,
+        <http://ramp.uni-mannheim.de/study_area/214074256215>,
+        <http://ramp.uni-mannheim.de/study_program/103698512712>,
+        <http://ramp.uni-mannheim.de/study_program/293689184157> ;
+    ramp:offeredIn "FSS"^^xsd:string ;
+    ramp:recommendedLiterature "Various Scientific Publications – details in the lecture slides"^^xsd:string ;
+    ramp:recommendedSemester "2"^^xsd:int,
+        "3"^^xsd:int,
+        "4"^^xsd:int ;
+    ramp:workloadInPerson "56"^^xsd:int ;
+    ramp:workloadSelfStudy "124"^^xsd:int .
+
 <http://ramp.uni-mannheim.de/module/OPM_560> a ramp:Module ;
     rdfs:label "Business Analytics Introduction To Operations Analytics With Python"^^xsd:string ;
     ramp:ects "6"^^xsd:int ;
@@ -4850,6 +4874,109 @@ ramp:StudyProgram a owl:Class .
     ramp:workloadInPerson "8"^^xsd:int ;
     ramp:workloadSelfStudy "13"^^xsd:int .
 
+<http://ramp.uni-mannheim.de/module/IE_675B> a ramp:Module ;
+    rdfs:label "Machine Learning"^^xsd:string ;
+    ramp:ects "9"^^xsd:int ;
+    ramp:hasAdditionalPrerequisite "Knowledge of probability and statistics, no attempted or completed IE 675 exam"^^xsd:string,
+        "knowledge of probability and statistics, no attempted or completed IE 675 exam"^^xsd:string ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN"^^xsd:string ],
+        [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN"^^xsd:string ] ;
+    ramp:hasLecturer <http://ramp.uni-mannheim.de/person/RAINER_GEMULLA> ;
+    ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/IE_500> ;
+    ramp:hasOptionalPrerequisite <http://ramp.uni-mannheim.de/module/IE_500> ;
+    ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/RAINER_GEMULLA> ;
+    ramp:id "IE_675B"^^xsd:string ;
+    ramp:isMandatoryPrerequisiteOf <http://ramp.uni-mannheim.de/module/CS_722>,
+        <http://ramp.uni-mannheim.de/module/IE_678>,
+        <http://ramp.uni-mannheim.de/module/IE_694>,
+        <http://ramp.uni-mannheim.de/module/IE_696> ;
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/120650667193>,
+        <http://ramp.uni-mannheim.de/study_area/144002068352>,
+        <http://ramp.uni-mannheim.de/study_program/103698512712>,
+        <http://ramp.uni-mannheim.de/study_program/293689184157> ;
+    ramp:offeredIn "HWS"^^xsd:string ;
+    ramp:recommendedLiterature "Additional material and articles provided in lecture notes"^^xsd:string,
+        "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT Press, 2017"^^xsd:string,
+        "K.P. Murphy. Probabilistic Machine Learning: An Introduction. The MIT Press, 2022"^^xsd:string ;
+    ramp:recommendedSemester "1"^^xsd:int,
+        "2"^^xsd:int,
+        "3"^^xsd:int ;
+    ramp:workloadInPerson "56"^^xsd:int ;
+    ramp:workloadSelfStudy "174"^^xsd:int .
+
+<http://ramp.uni-mannheim.de/module/IE_678> a ramp:Module ;
+    rdfs:label "Deep Learning"^^xsd:string ;
+    ramp:ects "6"^^xsd:int ;
+    ramp:hasAdditionalPrerequisite "No attempted or completed IE 674 exam"^^xsd:string,
+        "No attempted or completed IE 674 exam."^^xsd:string ;
+    ramp:hasAssesment [ ramp:examinationDuration "25"^^xsd:int ;
+            ramp:hasAssessmentForm "ORAL"^^xsd:string ],
+        [ ramp:examinationDistribution 100.0 ;
+            ramp:examinationDuration "25"^^xsd:int ;
+            ramp:hasAssessmentForm "ORAL"^^xsd:string ] ;
+    ramp:hasLecturer <http://ramp.uni-mannheim.de/person/PROF._DR._RAINER_GEMULLA>,
+        <http://ramp.uni-mannheim.de/person/RAINER_GEMULLA> ;
+    ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/IE_675B> ;
+    ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/PROF._DR._RAINER_GEMULLA>,
+        <http://ramp.uni-mannheim.de/person/RAINER_GEMULLA> ;
+    ramp:hasPrerequisite <http://ramp.uni-mannheim.de/module/IE_500>,
+        <http://ramp.uni-mannheim.de/module/IE_500> ;
+    ramp:id "IE_678"^^xsd:string ;
+    ramp:isMandatoryPrerequisiteOf <http://ramp.uni-mannheim.de/module/CS_722>,
+        <http://ramp.uni-mannheim.de/module/IE_696> ;
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/109040599616>,
+        <http://ramp.uni-mannheim.de/study_area/144002068352>,
+        <http://ramp.uni-mannheim.de/study_program/103698512712>,
+        <http://ramp.uni-mannheim.de/study_program/293689184157> ;
+    ramp:offeredIn "FSS"^^xsd:string ;
+    ramp:recommendedLiterature "Additional material and articles provided in lecture notes"^^xsd:string,
+        "Additional material and articles provided in lecture notes."^^xsd:string,
+        "I. Drori. The Science of Deep Learning. Cambridge University Press, 2023"^^xsd:string,
+        "I. Drori. The Science of Deep Learning. Cambridge University Press, 2023."^^xsd:string,
+        "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT Press, 2017"^^xsd:string,
+        "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT Press, 2017."^^xsd:string,
+        "K.P. Murphy. Probabilistic Machine Learning: Advanced Topics. The MIT Press, 2023"^^xsd:string,
+        "K.P. Murphy. Probabilistic Machine Learning: Advanced Topics. The MIT Press, 2023."^^xsd:string,
+        "K.P. Murphy. Probabilistic Machine Learning: An Introduction. The MIT Press, 2022"^^xsd:string,
+        "K.P. Murphy. Probabilistic Machine Learning: An Introduction. The MIT Press, 2022."^^xsd:string ;
+    ramp:recommendedSemester "2"^^xsd:int,
+        "3"^^xsd:int ;
+    ramp:workloadInPerson "56"^^xsd:int ;
+    ramp:workloadSelfStudy "98"^^xsd:int .
+
+<http://ramp.uni-mannheim.de/module/IE_696> a ramp:Module ;
+    rdfs:label "Advanced Methods In Text Analytics"^^xsd:string ;
+    ramp:ects "6"^^xsd:int ;
+    ramp:hasAdditionalPrerequisite "Successful completion of basic methods of linear algebra and probability theory."^^xsd:string ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN"^^xsd:string ],
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN"^^xsd:string ] ;
+    ramp:hasLecturer <http://ramp.uni-mannheim.de/person/SIMONE_PAOLO_PONZETTO> ;
+    ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/IE_661>,
+        <http://ramp.uni-mannheim.de/module/IE_675B>,
+        <http://ramp.uni-mannheim.de/module/IE_678> ;
+    ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/SIMONE_PAOLO_PONZETTO> ;
+    ramp:hasPrerequisite <http://ramp.uni-mannheim.de/module/IE_500>,
+        <http://ramp.uni-mannheim.de/module/IE_500> ;
+    ramp:id "IE_696"^^xsd:string ;
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/109040599616>,
+        <http://ramp.uni-mannheim.de/study_area/144002068352>,
+        <http://ramp.uni-mannheim.de/study_program/103698512712>,
+        <http://ramp.uni-mannheim.de/study_program/293689184157> ;
+    ramp:offeredIn "FSS"^^xsd:string,
+        "HWS"^^xsd:string ;
+    ramp:recommendedLiterature "Dan Jurafsky and James H. Martin, Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition (3rd edition)"^^xsd:string,
+        "Dan Jurafsky and James H. Martin, Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition (3rd edition, online available at https://web.stanford.edu/~jurafsky/slp3/)."^^xsd:string ;
+    ramp:recommendedSemester "1"^^xsd:int,
+        "2"^^xsd:int,
+        "3"^^xsd:int ;
+    ramp:workloadInPerson "56"^^xsd:int ;
+    ramp:workloadSelfStudy "112"^^xsd:int .
+
 <http://ramp.uni-mannheim.de/module/MAN_654> a ramp:Module ;
     rdfs:label "Corporate Restructuring"^^xsd:string ;
     ramp:ects "6"^^xsd:int ;
@@ -4968,52 +5095,76 @@ ramp:StudyProgram a owl:Class .
     ramp:workloadInPerson "7"^^xsd:int ;
     ramp:workloadSelfStudy "10"^^xsd:int .
 
+<http://ramp.uni-mannheim.de/module/CS_500> a ramp:Module ;
+    rdfs:label "Advanced Software Engineering"^^xsd:string ;
+    ramp:ects "6"^^xsd:int ;
+    ramp:hasAdditionalPrerequisite "Knowledge of Java and/or Python"^^xsd:string ;
+    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN"^^xsd:string ],
+        [ ramp:examinationDuration "90"^^xsd:int ;
+            ramp:hasAssessmentForm "WRITTEN"^^xsd:string ] ;
+    ramp:hasFurtherModue "Model-Driven"^^xsd:string ;
+    ramp:hasLecturer <http://ramp.uni-mannheim.de/person/COLIN_ATKINSON>,
+        <http://ramp.uni-mannheim.de/person/DR._MARCUS_KESSEL>,
+        <http://ramp.uni-mannheim.de/person/MARCUS_KESSEL>,
+        <http://ramp.uni-mannheim.de/person/PROF._DR._COLIN_ATKINSON> ;
+    ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/COLIN_ATKINSON>,
+        <http://ramp.uni-mannheim.de/person/PROF._DR._COLIN_ATKINSON> ;
+    ramp:id "CS_500"^^xsd:string ;
+    ramp:isMandatoryPrerequisiteOf <http://ramp.uni-mannheim.de/module/CS_530>,
+        <http://ramp.uni-mannheim.de/module/CS_550>,
+        <http://ramp.uni-mannheim.de/module/CS_600> ;
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/271350715771>,
+        <http://ramp.uni-mannheim.de/study_area/402222487548>,
+        <http://ramp.uni-mannheim.de/study_program/103698512712>,
+        <http://ramp.uni-mannheim.de/study_program/293689184157> ;
+    ramp:isPrerequisiteOf <http://ramp.uni-mannheim.de/module/CS_701>,
+        <http://ramp.uni-mannheim.de/module/CS_701> ;
+    ramp:offeredIn "HWS"^^xsd:string ;
+    ramp:recommendedLiterature "Paul Ammann & Jeff Offutt., “Introduction to Software Testing”, Cambridge University Press, January 2008."^^xsd:string ;
+    ramp:recommendedSemester "1"^^xsd:int,
+        "2"^^xsd:int ;
+    ramp:workloadInPerson "56"^^xsd:int ;
+    ramp:workloadSelfStudy "112"^^xsd:int .
+
+<http://ramp.uni-mannheim.de/module/CS_722> a ramp:Module ;
+    rdfs:label "Seminar Ethical Aspects Of Ai"^^xsd:string ;
+    ramp:ects "4"^^xsd:int ;
+    ramp:hasAdditionalPrerequisite "IS 661 \"Text Analytics\" or IE 675b \"Machine Learning\" or IE 678 \"Deep Learning\" or IE 560 \"Decision Support\""^^xsd:string ;
+    ramp:hasAssesment [ ramp:hasAssessmentForm "REPORT"^^xsd:string ],
+        [ ramp:hasAssessmentForm "PRESENTATION"^^xsd:string ],
+        [ ramp:hasAssessmentForm "REPORT"^^xsd:string ],
+        [ ramp:hasAssessmentForm "PRESENTATION"^^xsd:string ] ;
+    ramp:hasFurtherModue "M. Sc. Mannheim Master Management"^^xsd:string,
+        "M. Sc. Wirtschaftsinformatik"^^xsd:string,
+        "M.Sc. Mannheim Master in Data Science"^^xsd:string ;
+    ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MARKUS_STROHMAIER>,
+        <http://ramp.uni-mannheim.de/person/SIMONE_PONZETTO> ;
+    ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/IE_560>,
+        <http://ramp.uni-mannheim.de/module/IE_675B>,
+        <http://ramp.uni-mannheim.de/module/IE_678>,
+        <http://ramp.uni-mannheim.de/module/IS_661> ;
+    ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/MARKUS_STROHMAIER>,
+        <http://ramp.uni-mannheim.de/person/SIMONE_PONZETTO> ;
+    ramp:hasPrerequisite <http://ramp.uni-mannheim.de/module/IE_500>,
+        <http://ramp.uni-mannheim.de/module/IE_500> ;
+    ramp:id "CS_722"^^xsd:string ;
+    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/237371231887>,
+        <http://ramp.uni-mannheim.de/study_area/307835166155>,
+        <http://ramp.uni-mannheim.de/study_program/103698512712>,
+        <http://ramp.uni-mannheim.de/study_program/293689184157> ;
+    ramp:offeredIn "HWS"^^xsd:string ;
+    ramp:recommendedLiterature "Scientific papers and books; presentation with PowerPoint or LaTeX."^^xsd:string,
+        "Up-to-date literature will be assigned during the seminar."^^xsd:string ;
+    ramp:recommendedSemester "3"^^xsd:int ;
+    ramp:workloadInPerson "120"^^xsd:int ;
+    ramp:workloadSelfStudy "0"^^xsd:int .
+
 <http://ramp.uni-mannheim.de/person/CORNELIA_SCHÖN> a foaf:Person .
 
 <http://ramp.uni-mannheim.de/person/MORITZ_FLEISCHMANN> a foaf:Person .
 
 <http://ramp.uni-mannheim.de/person/SABINE_KUESTER> a foaf:Person .
-
-<http://ramp.uni-mannheim.de/module/IE_694> a ramp:Module ;
-    rdfs:label "Artificial Intelligence Applications In Industry"^^xsd:string ;
-    ramp:ects "6"^^xsd:int ;
-    ramp:hasAdditionalPrerequisite "Machine Learning Concepts and Techniques; Programming in Python"^^xsd:string ;
-    ramp:hasLecturer <http://ramp.uni-mannheim.de/person/HEINER_STUCKENSCHMIDT>,
-        <http://ramp.uni-mannheim.de/person/PROF._DR._HEINER_STUCKENSCHMIDT> ;
-    ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/IE_675B> ;
-    ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/HEINER_STUCKENSCHMIDT>,
-        <http://ramp.uni-mannheim.de/person/PROF._DR._HEINER_STUCKENSCHMIDT> ;
-    ramp:hasPrerequisite <http://ramp.uni-mannheim.de/module/CS_500>,
-        <http://ramp.uni-mannheim.de/module/CS_500>,
-        <http://ramp.uni-mannheim.de/module/IE_500>,
-        <http://ramp.uni-mannheim.de/module/IE_500>,
-        <http://ramp.uni-mannheim.de/module/MATH_220>,
-        <http://ramp.uni-mannheim.de/module/MATH_220> ;
-    ramp:id "IE_694"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/144002068352>,
-        <http://ramp.uni-mannheim.de/study_area/214074256215>,
-        <http://ramp.uni-mannheim.de/study_program/103698512712>,
-        <http://ramp.uni-mannheim.de/study_program/293689184157> ;
-    ramp:offeredIn "FSS"^^xsd:string ;
-    ramp:recommendedLiterature "Various Scientific Publications – details in the lecture slides"^^xsd:string ;
-    ramp:recommendedSemester "2"^^xsd:int,
-        "3"^^xsd:int,
-        "4"^^xsd:int ;
-    ramp:workloadInPerson "56"^^xsd:int ;
-    ramp:workloadSelfStudy "124"^^xsd:int .
-
-<http://ramp.uni-mannheim.de/module/MATH_220> a ramp:Module ;
-    ramp:isMandatoryPrerequisiteOf <http://ramp.uni-mannheim.de/module/IE_500> ;
-    ramp:isPrerequisiteOf <http://ramp.uni-mannheim.de/module/CS_722>,
-        <http://ramp.uni-mannheim.de/module/CS_722>,
-        <http://ramp.uni-mannheim.de/module/IE_675B>,
-        <http://ramp.uni-mannheim.de/module/IE_675B>,
-        <http://ramp.uni-mannheim.de/module/IE_678>,
-        <http://ramp.uni-mannheim.de/module/IE_678>,
-        <http://ramp.uni-mannheim.de/module/IE_694>,
-        <http://ramp.uni-mannheim.de/module/IE_694>,
-        <http://ramp.uni-mannheim.de/module/IE_696>,
-        <http://ramp.uni-mannheim.de/module/IE_696> .
 
 <http://ramp.uni-mannheim.de/person/ERIK_THEISSEN> a foaf:Person .
 
@@ -5022,12 +5173,12 @@ ramp:StudyProgram a owl:Class .
     ramp:ects "4"^^xsd:int ;
     ramp:hasAdditionalPrerequisite "The key qualification scientific research."^^xsd:string,
         "key qualification scientific research."^^xsd:string ;
-    ramp:hasAssesment [ ramp:examinationDuration "60"^^xsd:int ;
-            ramp:hasAssessmentForm "PRESENTATION"^^xsd:string ],
-        [ ramp:hasAssessmentForm "REPORT"^^xsd:string ],
+    ramp:hasAssesment [ ramp:hasAssessmentForm "REPORT"^^xsd:string ],
         [ ramp:hasAssessmentForm "PRESENTATION"^^xsd:string ],
         [ ramp:examinationDuration "60"^^xsd:int ;
-            ramp:hasAssessmentForm "REPORT"^^xsd:string ] ;
+            ramp:hasAssessmentForm "REPORT"^^xsd:string ],
+        [ ramp:examinationDuration "60"^^xsd:int ;
+            ramp:hasAssessmentForm "PRESENTATION"^^xsd:string ] ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MATTHIAS_KRAUSE,_ALEXANDER_MOCH> ;
     ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/CS_550>,
         <http://ramp.uni-mannheim.de/module/CS_651> ;
@@ -5125,121 +5276,6 @@ ramp:StudyProgram a owl:Class .
     ramp:workloadInPerson "180"^^xsd:int ;
     ramp:workloadSelfStudy "0"^^xsd:int .
 
-<http://ramp.uni-mannheim.de/module/IE_675B> a ramp:Module ;
-    rdfs:label "Machine Learning"^^xsd:string ;
-    ramp:ects "9"^^xsd:int ;
-    ramp:hasAdditionalPrerequisite "Knowledge of probability and statistics, no attempted or completed IE 675 exam"^^xsd:string,
-        "knowledge of probability and statistics, no attempted or completed IE 675 exam"^^xsd:string ;
-    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
-            ramp:hasAssessmentForm "WRITTEN"^^xsd:string ],
-        [ ramp:examinationDistribution 100.0 ;
-            ramp:examinationDuration "90"^^xsd:int ;
-            ramp:hasAssessmentForm "WRITTEN"^^xsd:string ] ;
-    ramp:hasLecturer <http://ramp.uni-mannheim.de/person/RAINER_GEMULLA> ;
-    ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/IE_500> ;
-    ramp:hasOptionalPrerequisite <http://ramp.uni-mannheim.de/module/IE_500> ;
-    ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/RAINER_GEMULLA> ;
-    ramp:hasPrerequisite <http://ramp.uni-mannheim.de/module/CS_500>,
-        <http://ramp.uni-mannheim.de/module/CS_500>,
-        <http://ramp.uni-mannheim.de/module/MATH_220>,
-        <http://ramp.uni-mannheim.de/module/MATH_220> ;
-    ramp:id "IE_675B"^^xsd:string ;
-    ramp:isMandatoryPrerequisiteOf <http://ramp.uni-mannheim.de/module/CS_722>,
-        <http://ramp.uni-mannheim.de/module/IE_678>,
-        <http://ramp.uni-mannheim.de/module/IE_694>,
-        <http://ramp.uni-mannheim.de/module/IE_696> ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/120650667193>,
-        <http://ramp.uni-mannheim.de/study_area/144002068352>,
-        <http://ramp.uni-mannheim.de/study_program/103698512712>,
-        <http://ramp.uni-mannheim.de/study_program/293689184157> ;
-    ramp:offeredIn "HWS"^^xsd:string ;
-    ramp:recommendedLiterature "Additional material and articles provided in lecture notes"^^xsd:string,
-        "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT Press, 2017"^^xsd:string,
-        "K.P. Murphy. Probabilistic Machine Learning: An Introduction. The MIT Press, 2022"^^xsd:string ;
-    ramp:recommendedSemester "1"^^xsd:int,
-        "2"^^xsd:int,
-        "3"^^xsd:int ;
-    ramp:workloadInPerson "56"^^xsd:int ;
-    ramp:workloadSelfStudy "174"^^xsd:int .
-
-<http://ramp.uni-mannheim.de/module/IE_678> a ramp:Module ;
-    rdfs:label "Deep Learning"^^xsd:string ;
-    ramp:ects "6"^^xsd:int ;
-    ramp:hasAdditionalPrerequisite "No attempted or completed IE 674 exam"^^xsd:string,
-        "No attempted or completed IE 674 exam."^^xsd:string ;
-    ramp:hasAssesment [ ramp:examinationDuration "25"^^xsd:int ;
-            ramp:hasAssessmentForm "ORAL"^^xsd:string ],
-        [ ramp:examinationDistribution 100.0 ;
-            ramp:examinationDuration "25"^^xsd:int ;
-            ramp:hasAssessmentForm "ORAL"^^xsd:string ] ;
-    ramp:hasLecturer <http://ramp.uni-mannheim.de/person/PROF._DR._RAINER_GEMULLA>,
-        <http://ramp.uni-mannheim.de/person/RAINER_GEMULLA> ;
-    ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/IE_675B> ;
-    ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/PROF._DR._RAINER_GEMULLA>,
-        <http://ramp.uni-mannheim.de/person/RAINER_GEMULLA> ;
-    ramp:hasPrerequisite <http://ramp.uni-mannheim.de/module/CS_500>,
-        <http://ramp.uni-mannheim.de/module/CS_500>,
-        <http://ramp.uni-mannheim.de/module/IE_500>,
-        <http://ramp.uni-mannheim.de/module/IE_500>,
-        <http://ramp.uni-mannheim.de/module/MATH_220>,
-        <http://ramp.uni-mannheim.de/module/MATH_220> ;
-    ramp:id "IE_678"^^xsd:string ;
-    ramp:isMandatoryPrerequisiteOf <http://ramp.uni-mannheim.de/module/CS_722>,
-        <http://ramp.uni-mannheim.de/module/IE_696> ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/109040599616>,
-        <http://ramp.uni-mannheim.de/study_area/144002068352>,
-        <http://ramp.uni-mannheim.de/study_program/103698512712>,
-        <http://ramp.uni-mannheim.de/study_program/293689184157> ;
-    ramp:offeredIn "FSS"^^xsd:string ;
-    ramp:recommendedLiterature "Additional material and articles provided in lecture notes"^^xsd:string,
-        "Additional material and articles provided in lecture notes."^^xsd:string,
-        "I. Drori. The Science of Deep Learning. Cambridge University Press, 2023"^^xsd:string,
-        "I. Drori. The Science of Deep Learning. Cambridge University Press, 2023."^^xsd:string,
-        "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT Press, 2017"^^xsd:string,
-        "I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, The MIT Press, 2017."^^xsd:string,
-        "K.P. Murphy. Probabilistic Machine Learning: Advanced Topics. The MIT Press, 2023"^^xsd:string,
-        "K.P. Murphy. Probabilistic Machine Learning: Advanced Topics. The MIT Press, 2023."^^xsd:string,
-        "K.P. Murphy. Probabilistic Machine Learning: An Introduction. The MIT Press, 2022"^^xsd:string,
-        "K.P. Murphy. Probabilistic Machine Learning: An Introduction. The MIT Press, 2022."^^xsd:string ;
-    ramp:recommendedSemester "2"^^xsd:int,
-        "3"^^xsd:int ;
-    ramp:workloadInPerson "56"^^xsd:int ;
-    ramp:workloadSelfStudy "98"^^xsd:int .
-
-<http://ramp.uni-mannheim.de/module/IE_696> a ramp:Module ;
-    rdfs:label "Advanced Methods In Text Analytics"^^xsd:string ;
-    ramp:ects "6"^^xsd:int ;
-    ramp:hasAdditionalPrerequisite "Successful completion of basic methods of linear algebra and probability theory."^^xsd:string ;
-    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
-            ramp:hasAssessmentForm "WRITTEN"^^xsd:string ],
-        [ ramp:examinationDuration "90"^^xsd:int ;
-            ramp:hasAssessmentForm "WRITTEN"^^xsd:string ] ;
-    ramp:hasLecturer <http://ramp.uni-mannheim.de/person/SIMONE_PAOLO_PONZETTO> ;
-    ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/IE_661>,
-        <http://ramp.uni-mannheim.de/module/IE_675B>,
-        <http://ramp.uni-mannheim.de/module/IE_678> ;
-    ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/SIMONE_PAOLO_PONZETTO> ;
-    ramp:hasPrerequisite <http://ramp.uni-mannheim.de/module/CS_500>,
-        <http://ramp.uni-mannheim.de/module/CS_500>,
-        <http://ramp.uni-mannheim.de/module/IE_500>,
-        <http://ramp.uni-mannheim.de/module/IE_500>,
-        <http://ramp.uni-mannheim.de/module/MATH_220>,
-        <http://ramp.uni-mannheim.de/module/MATH_220> ;
-    ramp:id "IE_696"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/109040599616>,
-        <http://ramp.uni-mannheim.de/study_area/144002068352>,
-        <http://ramp.uni-mannheim.de/study_program/103698512712>,
-        <http://ramp.uni-mannheim.de/study_program/293689184157> ;
-    ramp:offeredIn "FSS"^^xsd:string,
-        "HWS"^^xsd:string ;
-    ramp:recommendedLiterature "Dan Jurafsky and James H. Martin, Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition (3rd edition)"^^xsd:string,
-        "Dan Jurafsky and James H. Martin, Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition (3rd edition, online available at https://web.stanford.edu/~jurafsky/slp3/)."^^xsd:string ;
-    ramp:recommendedSemester "1"^^xsd:int,
-        "2"^^xsd:int,
-        "3"^^xsd:int ;
-    ramp:workloadInPerson "56"^^xsd:int ;
-    ramp:workloadSelfStudy "112"^^xsd:int .
-
 <http://ramp.uni-mannheim.de/person/PROF._DR._MARKUS_STROHMAIER> a foaf:Person .
 
 <http://ramp.uni-mannheim.de/module/ACC_MAN_662> a ramp:Module ;
@@ -5290,71 +5326,11 @@ ramp:StudyProgram a owl:Class .
     ramp:workloadSelfStudy "0"^^xsd:int,
         "6"^^xsd:int .
 
-<http://ramp.uni-mannheim.de/module/CS_722> a ramp:Module ;
-    rdfs:label "Seminar Ethical Aspects Of Ai"^^xsd:string ;
-    ramp:ects "4"^^xsd:int ;
-    ramp:hasAdditionalPrerequisite "IS 661 \"Text Analytics\" or IE 675b \"Machine Learning\" or IE 678 \"Deep Learning\" or IE 560 \"Decision Support\""^^xsd:string ;
-    ramp:hasAssesment [ ramp:hasAssessmentForm "REPORT"^^xsd:string ],
-        [ ramp:hasAssessmentForm "PRESENTATION"^^xsd:string ],
-        [ ramp:hasAssessmentForm "REPORT"^^xsd:string ],
-        [ ramp:hasAssessmentForm "PRESENTATION"^^xsd:string ] ;
-    ramp:hasFurtherModue "M. Sc. Mannheim Master Management"^^xsd:string,
-        "M. Sc. Wirtschaftsinformatik"^^xsd:string,
-        "M.Sc. Mannheim Master in Data Science"^^xsd:string ;
-    ramp:hasLecturer <http://ramp.uni-mannheim.de/person/MARKUS_STROHMAIER>,
-        <http://ramp.uni-mannheim.de/person/SIMONE_PONZETTO> ;
-    ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/IE_560>,
-        <http://ramp.uni-mannheim.de/module/IE_675B>,
-        <http://ramp.uni-mannheim.de/module/IE_678>,
-        <http://ramp.uni-mannheim.de/module/IS_661> ;
-    ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/MARKUS_STROHMAIER>,
-        <http://ramp.uni-mannheim.de/person/SIMONE_PONZETTO> ;
-    ramp:hasPrerequisite <http://ramp.uni-mannheim.de/module/CS_500>,
-        <http://ramp.uni-mannheim.de/module/CS_500>,
-        <http://ramp.uni-mannheim.de/module/IE_500>,
-        <http://ramp.uni-mannheim.de/module/IE_500>,
-        <http://ramp.uni-mannheim.de/module/MATH_220>,
-        <http://ramp.uni-mannheim.de/module/MATH_220> ;
-    ramp:id "CS_722"^^xsd:string ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/237371231887>,
-        <http://ramp.uni-mannheim.de/study_area/307835166155>,
-        <http://ramp.uni-mannheim.de/study_program/103698512712>,
-        <http://ramp.uni-mannheim.de/study_program/293689184157> ;
-    ramp:offeredIn "HWS"^^xsd:string ;
-    ramp:recommendedLiterature "Scientific papers and books; presentation with PowerPoint or LaTeX."^^xsd:string,
-        "Up-to-date literature will be assigned during the seminar."^^xsd:string ;
-    ramp:recommendedSemester "3"^^xsd:int ;
-    ramp:workloadInPerson "120"^^xsd:int ;
-    ramp:workloadSelfStudy "0"^^xsd:int .
-
 <http://ramp.uni-mannheim.de/person/CHRISTIAN_BIZER> a foaf:Person .
 
 <http://ramp.uni-mannheim.de/person/CHRISTOPH_BODE> a foaf:Person .
 
 <http://ramp.uni-mannheim.de/person/RAIK_STOLLETZ> a foaf:Person .
-
-<http://ramp.uni-mannheim.de/person/FLORIAN_STAHL> a foaf:Person .
-
-<http://ramp.uni-mannheim.de/study_area/402222487548> a ramp:StudyArea ;
-    rdfs:label "Data Management"^^xsd:string ;
-    ramp:ects 6,
-        24 ;
-    ramp:hasModule <http://ramp.uni-mannheim.de/module/AC_651>,
-        <http://ramp.uni-mannheim.de/module/CS_500>,
-        <http://ramp.uni-mannheim.de/module/CS_550>,
-        <http://ramp.uni-mannheim.de/module/CS_600>,
-        <http://ramp.uni-mannheim.de/module/CS_651>,
-        <http://ramp.uni-mannheim.de/module/CS_655>,
-        <http://ramp.uni-mannheim.de/module/CS_662>,
-        <http://ramp.uni-mannheim.de/module/CS_664>,
-        <http://ramp.uni-mannheim.de/module/DS_200>,
-        <http://ramp.uni-mannheim.de/module/IE_663>,
-        <http://ramp.uni-mannheim.de/module/IE_670>,
-        <http://ramp.uni-mannheim.de/module/IE_683>,
-        <http://ramp.uni-mannheim.de/module/IE_691>,
-        <http://ramp.uni-mannheim.de/module/IS_556>,
-        <http://ramp.uni-mannheim.de/module/MAC_570> ;
-    ramp:isStudyAreaOf <http://ramp.uni-mannheim.de/study_program/293689184157> .
 
 <http://ramp.uni-mannheim.de/module/IE_500> a ramp:Module ;
     rdfs:label "Data Mining"^^xsd:string ;
@@ -5387,7 +5363,7 @@ ramp:StudyProgram a owl:Class .
         "ie_678"^^xsd:string ;
     ramp:hasLecturer <http://ramp.uni-mannheim.de/person/CHRISTIAN_BIZER>,
         <http://ramp.uni-mannheim.de/person/HEIKO_PAULHEIM> ;
-    ramp:hasMandatoryPrerequisite <http://ramp.uni-mannheim.de/module/CS_500>,
+    ramp:hasOptionalPrerequisite <http://ramp.uni-mannheim.de/module/CS_500>,
         <http://ramp.uni-mannheim.de/module/MATH_220> ;
     ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/CHRISTIAN_BIZER>,
         <http://ramp.uni-mannheim.de/person/HEIKO_PAULHEIM> ;
@@ -5413,6 +5389,29 @@ ramp:StudyProgram a owl:Class .
         "2"^^xsd:int ;
     ramp:workloadInPerson "56"^^xsd:int ;
     ramp:workloadSelfStudy "98"^^xsd:int .
+
+<http://ramp.uni-mannheim.de/person/FLORIAN_STAHL> a foaf:Person .
+
+<http://ramp.uni-mannheim.de/study_area/402222487548> a ramp:StudyArea ;
+    rdfs:label "Data Management"^^xsd:string ;
+    ramp:ects 6,
+        24 ;
+    ramp:hasModule <http://ramp.uni-mannheim.de/module/AC_651>,
+        <http://ramp.uni-mannheim.de/module/CS_500>,
+        <http://ramp.uni-mannheim.de/module/CS_550>,
+        <http://ramp.uni-mannheim.de/module/CS_600>,
+        <http://ramp.uni-mannheim.de/module/CS_651>,
+        <http://ramp.uni-mannheim.de/module/CS_655>,
+        <http://ramp.uni-mannheim.de/module/CS_662>,
+        <http://ramp.uni-mannheim.de/module/CS_664>,
+        <http://ramp.uni-mannheim.de/module/DS_200>,
+        <http://ramp.uni-mannheim.de/module/IE_663>,
+        <http://ramp.uni-mannheim.de/module/IE_670>,
+        <http://ramp.uni-mannheim.de/module/IE_683>,
+        <http://ramp.uni-mannheim.de/module/IE_691>,
+        <http://ramp.uni-mannheim.de/module/IS_556>,
+        <http://ramp.uni-mannheim.de/module/MAC_570> ;
+    ramp:isStudyAreaOf <http://ramp.uni-mannheim.de/study_program/293689184157> .
 
 <http://ramp.uni-mannheim.de/module/FIN_620> a ramp:Module ;
     rdfs:label "Behavioral Finance"^^xsd:string ;
@@ -5469,49 +5468,6 @@ ramp:StudyProgram a owl:Class .
         <http://ramp.uni-mannheim.de/module/SQ_500>,
         <http://ramp.uni-mannheim.de/module/TP_500> ;
     ramp:isStudyAreaOf <http://ramp.uni-mannheim.de/study_program/293689184157> .
-
-<http://ramp.uni-mannheim.de/module/CS_500> a ramp:Module ;
-    rdfs:label "Advanced Software Engineering"^^xsd:string ;
-    ramp:ects "6"^^xsd:int ;
-    ramp:hasAdditionalPrerequisite "Knowledge of Java and/or Python"^^xsd:string ;
-    ramp:hasAssesment [ ramp:examinationDuration "90"^^xsd:int ;
-            ramp:hasAssessmentForm "WRITTEN"^^xsd:string ],
-        [ ramp:examinationDuration "90"^^xsd:int ;
-            ramp:hasAssessmentForm "WRITTEN"^^xsd:string ] ;
-    ramp:hasFurtherModue "Model-Driven"^^xsd:string ;
-    ramp:hasLecturer <http://ramp.uni-mannheim.de/person/COLIN_ATKINSON>,
-        <http://ramp.uni-mannheim.de/person/DR._MARCUS_KESSEL>,
-        <http://ramp.uni-mannheim.de/person/MARCUS_KESSEL>,
-        <http://ramp.uni-mannheim.de/person/PROF._DR._COLIN_ATKINSON> ;
-    ramp:hasPersonInCharge <http://ramp.uni-mannheim.de/person/COLIN_ATKINSON>,
-        <http://ramp.uni-mannheim.de/person/PROF._DR._COLIN_ATKINSON> ;
-    ramp:id "CS_500"^^xsd:string ;
-    ramp:isMandatoryPrerequisiteOf <http://ramp.uni-mannheim.de/module/CS_530>,
-        <http://ramp.uni-mannheim.de/module/CS_550>,
-        <http://ramp.uni-mannheim.de/module/CS_600>,
-        <http://ramp.uni-mannheim.de/module/IE_500> ;
-    ramp:isModuleOf <http://ramp.uni-mannheim.de/study_area/271350715771>,
-        <http://ramp.uni-mannheim.de/study_area/402222487548>,
-        <http://ramp.uni-mannheim.de/study_program/103698512712>,
-        <http://ramp.uni-mannheim.de/study_program/293689184157> ;
-    ramp:isPrerequisiteOf <http://ramp.uni-mannheim.de/module/CS_701>,
-        <http://ramp.uni-mannheim.de/module/CS_701>,
-        <http://ramp.uni-mannheim.de/module/CS_722>,
-        <http://ramp.uni-mannheim.de/module/CS_722>,
-        <http://ramp.uni-mannheim.de/module/IE_675B>,
-        <http://ramp.uni-mannheim.de/module/IE_675B>,
-        <http://ramp.uni-mannheim.de/module/IE_678>,
-        <http://ramp.uni-mannheim.de/module/IE_678>,
-        <http://ramp.uni-mannheim.de/module/IE_694>,
-        <http://ramp.uni-mannheim.de/module/IE_694>,
-        <http://ramp.uni-mannheim.de/module/IE_696>,
-        <http://ramp.uni-mannheim.de/module/IE_696> ;
-    ramp:offeredIn "HWS"^^xsd:string ;
-    ramp:recommendedLiterature "Paul Ammann & Jeff Offutt., “Introduction to Software Testing”, Cambridge University Press, January 2008."^^xsd:string ;
-    ramp:recommendedSemester "1"^^xsd:int,
-        "2"^^xsd:int ;
-    ramp:workloadInPerson "56"^^xsd:int ;
-    ramp:workloadSelfStudy "112"^^xsd:int .
 
 <http://ramp.uni-mannheim.de/study_area/237371231887> a ramp:StudyArea ;
     rdfs:label "Projects and Seminars"^^xsd:string ;
